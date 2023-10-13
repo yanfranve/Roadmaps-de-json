@@ -2,7 +2,7 @@
     "roles": {
         "Frontend": {
             "Internet": {
-                "description": "he Internet is a global network of computers connected to each other which communicate through a standardized set of protocols. Visit the following resources to learn more:",
+                "description": "The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols. Visit the following resources to learn more:",
                 "resources": [
                     {
                         "name": "How does the Internet Work?",
@@ -46,7 +46,7 @@
                             },
                             {
                                 "name": "How Does the Internet Work? MDN Docs",
-                                "link": "URL_de_MDN_Docs"
+                                "link": "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work"
                             },
                             {
                                 "name": "Introduction to Internet",
@@ -370,7 +370,7 @@
                     },
                     {
                         "name": "SEO Basics",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "not strict",
                         "description": "SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines such as Google, Bing etc.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -849,7 +849,7 @@
                     },
                     {
                         "name": "GitLab",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "GitLab is a provider of internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -869,7 +869,7 @@
                     },
                     {
                         "name": "BitBucket",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "BitBucket is a provider of internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -947,7 +947,7 @@
                     },
                     {
                         "name": "pnpm",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "PNPM is an alternative package manager for Node. js which stands for “Performant NPM”. The main purpose of PNPM is to hold all the packages at a global (centralized) store and use them if needed by other projects too by creating hard links to it.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -963,7 +963,7 @@
                     },
                     {
                         "name": "Yarn",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Yarn is a software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm (package manager).Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1035,7 +1035,7 @@
                     },
                     {
                         "name": "Vue.js",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Vue.js is an open-source JavaScript framework for building user interfaces and single-page applications. It is mainly focused on front end developmentVisit the following resources to learn more:",
                         "resources": [
                             {
@@ -1067,7 +1067,7 @@
                     },
                     {
                         "name": "Angular",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Angular is a component based front-end development framework built on TypeScript which includes a collection of well-integrated libraries that include features like routing, forms management, client-server communication, and more.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1087,7 +1087,7 @@
                     },
                     {
                         "name": "Qwik",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Qwik is a new kind of web framework that can deliver instant loading web applications at any size or complexity. Your sites and apps can boot with about 1kb of JS (regardless of application complexity), and achieve consistent performance at scale.",
                         "resources": [
                             {
@@ -1099,7 +1099,7 @@
                     },
                     {
                         "name": "Svelte",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Svelte is a javascript framework that unlike Vue and React does not use vertical DOM diffing but instead knows exactly what and where to update when the state changes. It’s mainly focused on frontend and building user interfaces.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1127,7 +1127,7 @@
                     },
                     {
                         "name": "SolidJS",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Solid is a reactive JavaScript toolkit for building user interfaces without a virtual DOM. To ensure that only the relevant code is executed when a state update occurs, it compiles templates down to real DOM nodes once and wraps modifications into fine-grained reactions.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1235,7 +1235,7 @@
                 "options": [
                     {
                         "name": "BEM",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "not strict",
                         "description": "The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS. Developed by the team at Yandex, its goal is to help developers better understand the relationship between the HTML and CSS in a given project.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1277,7 +1277,7 @@
                 "options": [
                     {
                         "name": "Sass",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "not strict",
                         "description": "Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. It lets you write maintainable CSS and provides features like variable, nesting, mixins, extension, functions, loops, conditionals and so on.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1301,7 +1301,7 @@
                     },
                     {
                         "name": "PostCSS",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "not strict",
                         "description": "PostCSS is a tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1388,7 +1388,7 @@
                         },
                         {
                             "name": "Webpack",
-                            "recommendation-type": "opinion",
+                            "recommendation-type": "Pick this or purple",
                             "description": "Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.Visit the following resources to learn more:",
                             "resources": [
                                 {
@@ -1408,7 +1408,7 @@
                         },
                         {
                             "name": "Rollup",
-                            "recommendation-type": "opinion",
+                            "recommendation-type": "Pick this or purple",
                             "description": "Rollup is a module bundler for JavaScript which compiles small pieces of code into something larger and more complex, such as a library or application.Visit the following resources to learn more:",
                             "resources": [
                                 {
@@ -1424,7 +1424,7 @@
                         },
                         {
                             "name": "Parcel",
-                            "recommendation-type": "opinion",
+                            "recommendation-type": "Pick this or purple",
                             "description": "Parcel is a web application bundler, differentiated by its developer experience. It offers blazing-fast performance utilizing multicore processing and requires zero configuration.Visit the following resources to learn more:",
                             "resources": [
                                 {
@@ -1465,7 +1465,7 @@
                     "options": [
                         {
                             "name": "Prettier",
-                            "recommendation-type": "opinion",
+                            "recommendation-type": "not strict",
                             "description": "Prettier is an opinionated code formatter with support for JavaScript, HTML, CSS, YAML, Markdown, GraphQL Schemas. By far the biggest reason for adopting Prettier is to stop all the on-going debates over styles.Visit the following resources to learn more:",
                             "resources": [
                                 {
@@ -1481,7 +1481,7 @@
                         },
                         {
                             "name": "ESLint",
-                            "recommendation-type": "opinion",
+                            "recommendation-type": "not strict",
                             "description": "With ESLint you can impose the coding standard using a certain set of standalone rules.Visit the following resources to learn more:",
                             "resources": [
                                 {
@@ -1537,7 +1537,7 @@
                     },
                     {
                         "name": "Jest",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more! Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1569,7 +1569,7 @@
                     },
                     {
                         "name": "Cypress",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Cypress framework is a JavaScript-based end-to-end testing framework built on top of Mocha – a feature-rich JavaScript test framework running on and in the browser, making asynchronous testing simple and convenient. It also uses a BDD/TDD assertion library and a browser to pair with any JavaScript testing framework.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1627,6 +1627,7 @@
             
             
             "Web Security Basics": {
+                "recommendation-type": "not strict",
                 "description": "Web security refers to the protective measures taken by the developers to protect the web applications from threats that could affect the business.Visit the following resources to learn more:",
                 "resources": [
                     {
@@ -1662,7 +1663,7 @@
                 "options": [
                     {
                         "name": "CORS",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "not strict",
                         "description": "Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1686,7 +1687,7 @@
                     },
                     {
                         "name": "HTTPS",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "not strict",
                         "description": "HTTPS is a secure way to send data between a web server and a browser.Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website. HTTPS is encrypted in order to increase security of data transfer. This is particularly important when users transmit sensitive data, such as by logging into a bank account, email service, or health insurance provider Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1718,7 +1719,7 @@
                     },
                     {
                         "name": "Content Security Policy",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "not strict",
                         "description": "Content Security Policy is a computer security standard introduced to prevent cross-site scripting, clickjacking and other code injection attacks resulting from execution of malicious content in the trusted web page context.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1738,7 +1739,7 @@
                     },
                     {
                         "name": "OWASP Security Risks",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "not strict",
                         "description": "OWASP or Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1767,6 +1768,7 @@
                 ]
             },
             "Web Components": {
+                "recommendation-type": "not strict",
                 "description": " Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps.Visit the following resources to learn more:",
                 "resources": [
                     {
@@ -1787,7 +1789,7 @@
                 "options": [
                     {
                         "name": "HTML Templates",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "not strict",
                         "description": "The <template> HTML element is a mechanism for holding HTML that is not to be rendered immediately when a page is loaded but may be instantiated subsequently during runtime using JavaScript. Think of a template as a content fragment that is being stored for subsequent use in the document.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1799,7 +1801,7 @@
                     },
                     {
                         "name": "Custom Elements",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "not strict",
                         "description": "One of the key features of the Web Components standard is the ability to create custom elements that encapsulate your functionality on an HTML page, rather than having to make do with a long, nested batch of elements that together provide a custom page feature.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1811,7 +1813,7 @@
                     },
                     {
                         "name": "Shadow DOM",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "not strict",
                         "description": "An important aspect of web components is encapsulation — being able to keep the markup structure, style, and behavior hidden and separate from other code on the page so that different parts do not clash, and the code can be kept nice and clean. The Shadow DOM API is a key part of this, providing a way to attach a hidden separated DOM to an element.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1824,13 +1826,14 @@
                    
                 ]
             },
-            "Type Chechers": {
+            "Type Checkers": {
+                "recommendation-type": "not strict",
                 "description": "Type checker helps developers write code with fewer bugs by adding types to their code, trying to catch type errors within your code, and then removing them during compile time. Flow and TypeScript are two popular static type checkers for JavaScript. ",
                 "order": 17,
                 "options": [
                     {
                         "name": "TypeScript",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "not strict,opinion",
                         "description": "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1875,6 +1878,7 @@
                 ]
             },
             "Server Side Rendering (ssr)": {
+                "recommendation-type": "not strict",
                 "description": " Server-side rendering refers to the process that the service side completes the HTML structure splicing of the page, sends it to the browser, and then binds the status and events for it to become a fully interactive page.Visit the following resources to learn more:",
                 "resources": [
                     {
@@ -1983,7 +1987,7 @@
                     },
                     {
                         "name": "Angular",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Angular is a component based front-end development framework built on TypeScript which includes a collection of well-integrated libraries that include features like routing, forms management, client-server communication, and more.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -1993,7 +1997,7 @@
                            
                             {
                                 "name": "Universal",
-                                "recommendation-type": "opinion",
+                                "recommendation-type": "Pick this or purple",
                                 "description": "The Angular Universal project is a community driven project to expand on the core APIs from Angular (platform-server) to enable developers to do the server side rendering of Angular applications. It mainly uses express to render pages on pages on node.js server.Visit the following resources to learn more:",
                                 "resources": [
                                     {
@@ -2007,7 +2011,7 @@
                     },
                     {
                         "name": "Vue.js",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Vue.js is an open-source JavaScript framework for building user interfaces and single-page applications. It is mainly focused on front end development.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -2033,7 +2037,7 @@
                             
                             {
                                 "name": "Nuxt.js",
-                                "recommendation-type": "opinion",
+                                "recommendation-type": "Pick this or purple",
                                 "description": "Nuxt.js is a free and open source JavaScript library based on Vue.js, Node.js, Webpack and Babel.js. Nuxt is inspired by Next.js, which is a framework of similar purpose, based on React.js.Visit the following resources to learn more:",
                                 "resources": [
                                     {
@@ -2063,7 +2067,7 @@
                     },
                     {
                         "name": "Svelte",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Svelte is a javascript framework that unlike Vue and React does not use vertical DOM diffing but instead knows exactly what and where to update when the state changes. It’s mainly focused on frontend and building user interfaces.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -2089,7 +2093,7 @@
                            
                             {
                                 "name": "Svelte Kit",
-                                "recommendation-type": "opinion",
+                                "recommendation-type": "Pick this or purple",
                                 "description": "Svelte Kit is a framework for building web applications with the Svelte JavaScript framework. It is designed to be a complete solution for building web applications, with support for server-side rendering, automatic code splitting, and optimized performance.Visit the following resources to learn more:",
                                 "resources": [
                                     {
@@ -2108,6 +2112,7 @@
                 ]
             },
             "GraphQL": {
+                "recommendation-type": "not strict",
                 "description": "GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.Visit the following resources to learn more: ",
                 "resources": [
                     {
@@ -2164,7 +2169,7 @@
                     },
                     {
                         "name": "Relay Modern",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Relay is a JavaScript client used in the browser to fetch GraphQL data. It’s a JavaScript framework developed by Facebook for managing and fetching data in React applications. It is built with scalability in mind in order to power complex applications like Facebook. The ultimate goal of GraphQL and Relay is to deliver instant UI-response interactions.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -2182,6 +2187,7 @@
                 ]
             },
             "Static Site Generators": {
+                "recommendation-type": "not strict",
                 "description": "A static site generator is a tool that generates a full static HTML website based on raw data and a set of templates. Essentially, a static site generator automates the task of coding individual HTML pages and gets those pages ready to serve to users ahead of time. Because these HTML pages are pre-built, they can load very quickly in users’ browsers.Visit the following resources to learn more: ",
                 "resources": [
                     {
@@ -2226,7 +2232,7 @@
                     },
                     {
                         "name": "Eleventy",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Eleventy (11ty) is a simple to use, easy to customize, highly performant and powerful static site generator with a helpful set of plugins (e.g. navigation, build-time image transformations, cache assets). Pages can be built and written with a variety of template languages (HTML, Markdown, JavaScript, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, Pug or JS template literals). But it also offers the possibility to dynamically create pages from local data or external sources that are compiled at build time. It has zero client-side JavaScript dependencies.Visit the following resources to learn more",
                         "resources": [
                             {
@@ -2246,7 +2252,7 @@
                     },
                     {
                         "name": "Next.js",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Next.js is an open-source development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -2274,7 +2280,7 @@
                     },
                     {
                         "name": "Remix",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Remix is a full stack web framework that lets you focus on the user interface and work back through web standards to deliver a fast, slick, and resilient user experience. People are gonna love using your stuff.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -2290,7 +2296,7 @@
                     },
                     {
                         "name": "Vuepress",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "VuePress is composed of two parts: a minimalistic static site generator (opens new window)with a Vue-powered theming system and Plugin API, and a default theme optimized for writing technical documentation. It was created to support the documentation needs of Vue’s own sub projectsVisit the following resources to learn more:",
                         "resources": [
                             {
@@ -2310,7 +2316,7 @@
                     },
                     {
                         "name": "Jekyll",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -2326,7 +2332,7 @@
                     },
                     {
                         "name": "Hugo",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Hugo is the world’s fastest static website engine. It’s written in Go (aka Golang) and developed by bep, spf13 and friends.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -2351,7 +2357,7 @@
                      
                     {
                         "name": "Nuxt.js",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Nuxt.js is a free and open source JavaScript library based on Vue.js, Node.js, Webpack and Babel.js. Nuxt is inspired by Next.js, which is a framework of similar purpose, based on React.js.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -2376,6 +2382,7 @@
                 ]
             },
             "Progressive Web Apps": {
+                "recommendation-type": "not strict",
                 "description": "Progressive Web Apps (PWAs) are websites that are progressively enhanced to function like installed, native apps on supporting platforms, while functioning like regular websites on other browsers Visit the following resources to learn more:",
                 "resources": [
                     {
@@ -2590,6 +2597,7 @@
                 ]
             },
             "Mobile Applications": {
+                "recommendation-type": "not strict",
                 "description": "A while back, developing a mobile app using JavaScript was impossible. But now JavaScript developers can create mobile applications using their knowledge for web development. Here is the list of options to create mobile applications in JavaScript. ",
                 "resources": [
                     {
@@ -2674,7 +2682,7 @@
                     },
                     {
                         "name": "Ionic",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Ionic framework is an open-source UI toolkit for building performant, high-quality mobile apps, desktop apps, and progressive web apps using web technologies such as HTML, CSS, and JavaScript.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -2694,7 +2702,7 @@
                     },
                     {
                         "name": "NativeScript",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "NativeScript is an open source framework for creating native iOS and Android apps in Angular, TypeScript, or JavaScript.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -2715,6 +2723,7 @@
                 ]
             },
             "Desktop Applications": {
+                "recommendation-type": "not strict",
                 "description": "A while back, developing a desktop app using JavaScript was impossible. But now JavaScript developers can create desktop applications using their knowledge for web development. Here is the list of options to create desktop applications in JavaScript. ",
                 "resources": [
                     {
@@ -2759,7 +2768,7 @@
                     },
                     {
                         "name": "Tauri",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Tauri is a toolkit that helps developers make applications for the major desktop platforms - using virtually any frontend framework in existence. The core is built with Rust, and the CLI leverages Node.js making Tauri a genuinely polyglot approach to creating and maintaining great apps.Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -2779,7 +2788,7 @@
                     },
                     {
                         "name": "Flutter",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Flutter is a free and open-source multi-platform UI framework created by Google and released in May 2017. In a few words, it allows you to create a native mobile application with only one codebase. This means that you can use one programming language and one codebase to create three different apps (for iOS, Android and Desktop).Visit the following resources to learn more:",
                         "resources": [
                             {
@@ -2821,6 +2830,7 @@
                 ]
             },
             "Bonus Content": {
+                "recommendation-type": "not strict",
                 "order": 24,
                 "description": "It is not required to complete the bonus content, it just expands on the topics covered in the roadmap and has the items which were missed in the roadmap. Go through them if you want.",
                 "UI / UX Knowledge": "Gaining UI/UX knowledge is not a must for a Frontend Developer but having an eye for design and a good understanding of UI/UX will help you in your career.",

@@ -2,6 +2,26 @@
     "roles": {
         "Frontend": {
             "Internet": {
+                "description": " ",
+                "resources": [
+                    {
+                        "name": "",
+                        "link": ""
+                    },
+                    {
+                        "name": "",
+                        "link": ""
+                    },
+                    {
+                        "name": "",
+                        "link": ""
+                    },
+                    {
+                        "name": "",
+                        "link": ""
+                    }
+                   
+                ],
                 "order": 1,
                 "options": [
                     {
@@ -706,7 +726,7 @@
                     }
                 ]
             },
-            "Vercion Control Systeme ": {
+            "Version Control System ": {
                 "order": 5,
                 "options": [
                     {
@@ -2832,7 +2852,7 @@
                     }
                 ]
             },
-            "Type Chechers": {
+            "Type Checkers": {
                 "order": 17,
                 "options": [
                     {
