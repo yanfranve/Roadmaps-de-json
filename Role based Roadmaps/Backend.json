@@ -3019,178 +3019,117 @@
                 ]
             },
             "Architectural Potterns": {
+                "description": "An architectural pattern is a general, reusable solution to a commonly occurring problem in software architecture within a given context.The architectural patterns address various issues in software engineering, such as computer hardware performance limitations, high availability and minimization of a business risk.\nVisit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "Architectural Patterns in a nutshell",
+                        "link": "https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013"
+                    }
+                   
+                   
+                ],
                 "order": 17,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Monolithic Apps",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Monolithic architecture is a pattern in which an application handles requests, executes business logic, interacts with the database, and creates the HTML for the front end. In simpler terms, this one application does many things. It’s inner components are highly coupled and deployed as one unit.\nVisit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Pattern: Monolithic Architecture",
+                                "link": "https://microservices.io/patterns/monolithic.html"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Monolithic Architecture - Advantages & Disadvantages",
+                                "link": "https://datamify.medium.com/monolithic-architecture-advantages-and-disadvantages-e71a603eec89"
                             }
+                           
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Microservices",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Microservice architecture is a pattern in which highly cohesive, loosely coupled services are separately developed, maintained, and deployed. Each component handles an individual function, and when combined, the application handles an overall business function.\nVisit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Pattern: Microservice Architecture",
+                                "link": "https://microservices.io/patterns/microservices.html"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "What is Microservices?",
+                                "link": "https://smartbear.com/solutions/microservices/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Microservices 101",
+                                "link": "https://thenewstack.io/microservices-101/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Primer: Microservices Explained",
+                                "link": "https://thenewstack.io/primer-microservices-explained/"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Articles about Microservices",
+                                "link": "https://thenewstack.io/category/microservices/"
                             }
+                            
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "SOA",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "SOA, or service-oriented architecture, defines a way to make software components reusable via service interfaces. These interfaces utilize common communication standards in such a way that they can be rapidly incorporated into new applications without having to perform deep integration each time.\nVisit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Reference Architecture Foundation for Service Oriented Architecture",
+                                "link": "http://docs.oasis-open.org/soa-rm/soa-ra/v1.0/soa-ra.html"
                             }
+                            
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Serverless",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Serverless is an architecture in which a developer builds and runs applications without provisioning or managing servers. With cloud computing/serverless, servers exist but are managed by the cloud provider. Resources are used as they are needed, on demand and often using auto scaling.\nVisit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Serverless",
+                                "link": "https://www.ibm.com/cloud/learn/serverless"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "AWS Services",
+                                "link": "https://aws.amazon.com/serverless/"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Serverless Computing in 100 Seconds",
+                                "link": "https://www.youtube.com/watch?v=W_VV2Fx32_Y&ab_channel=Fireship"
                             }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Service Mesh",
+                        "recommendation-type": "opinion",
+                        "description": "A service mesh is a network of microservices that are connected using a mesh of interconnected, intelligent proxies. It is used to manage and secure communication between microservices, and it provides features such as load balancing, service discovery, and observability.\nIn a service mesh, each microservice is typically represented by an instance of a lightweight, transparent proxy called an “envoy.” The envoys handle the communication between microservices and provide features such as load balancing, routing, and security.\nService meshes are typically implemented using a sidecar pattern, in which the envoys are deployed alongside the microservices they are responsible for. This allows the service mesh to be decoupled from the microservices and makes it easier to manage and update.\nService meshes are commonly used in cloud-native architectures and are often managed using a control plane, which is responsible for configuring and managing the envoys. Some popular service mesh implementations include Istio and Linkerd.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What is a Service Mesh?",
+                                "link": "https://www.nginx.com/blog/what-is-a-service-mesh/"
+                            }
+                           
+                            
+                        ]
+                    },
+                    {
+                        "name": "Twelve-Factor Apps",
+                        "recommendation-type": "opinion",
+                        "description": "The Twelve-Factor App is a methodology for building scalable and maintainable software-as-a-service (SaaS) applications. It is based on a set of best practices that were identified by the authors of the methodology as being essential for building modern, cloud-native applications.\nThe Twelve-Factor App methodology consists of the following principles:\nCodebase: There should be a single codebase for the application, with multiple deployments.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "The Twelve-Factor App",
+                                "link": "https://12factor.net/"
+                            }
+                           
+                            
                         ]
                     }
                 ]
@@ -3706,84 +3645,79 @@
         
                     "options": [
                         {
-                            "name": "Instrumentation",
+                            "name": "Circuit Breaker",
                             "recommendation-type": "opinion",
-                            "description": "Instrumentation refers to the measure of a product’s performance, in order to diagnose errors and to write trace information. Instrumentation can be of two types: source instrumentation and binary instrumentation.\nBackend monitoring allows the user to view the performance of infrastructure i.e. the components that run a web application. These include the HTTP server, middleware, database, third-party API services, and more.\nTelemetry is the process of continuously collecting data from different components of the application. This data helps engineering teams to troubleshoot issues across services and identify the root causes. In other words, telemetry data powers observability for your distributed applications.\nVisit the following resources to learn more:",
+                            "description": "The circuit breaker design pattern is a way to protect a system from failures or excessive load by temporarily stopping certain operations if the system is deemed to be in a failed or overloaded state. It is commonly used in cloud computing environments to prevent cascading failures and to improve the resilience and availability of a system.\nA circuit breaker consists of three states: closed, open, and half-open. In the closed state, the circuit breaker allows operations to proceed as normal. If the system encounters a failure or becomes overloaded, the circuit breaker moves to the open state, and all subsequent operations are immediately stopped. After a specified period of time, the circuit breaker moves to the half-open state, and a small number of operations are allowed to proceed. If these operations are successful, the circuit breaker moves back to the closed state; if they fail, the circuit breaker moves back to the open state.\nThe circuit breaker design pattern is useful for protecting a system from failures or excessive load by providing a way to temporarily stop certain operations and allow the system to recover. It is often used in conjunction with other design patterns, such as retries and fallbacks, to provide a more robust and resilient cloud environment.\nVisit the following resources to learn more:",
                             "resources": [
                                 {
-                                    "name": "What is Instrumentation?",
+                                    "name": "Circuit Breaker - AWS Well-Architected Framework",
                                     "link": "https://en.wikipedia.org/wiki/Instrumentation_(computer_programming)"
-                                },
-                                {
-                                    "name": "What is Monitoring?",
-                                    "link": "https://www.yottaa.com/performance-monitoring-backend-vs-front-end-solutions/"
-                                },
-                                {
-                                    "name": "What is Telemetry?",
-                                    "link": "https://www.sumologic.com/insight/what-is-telemetry//"
                                 }
-                               
+                                
                                
                             ]
                         },
                        
                         {
-                            "name": "Monitoring",
+                            "name": "Load Shifting",
                            
-                            "description": "Instrumentation refers to the measure of a product’s performance, in order to diagnose errors and to write trace information. Instrumentation can be of two types: source instrumentation and binary instrumentation.\nBackend monitoring allows the user to view the performance of infrastructure i.e. the components that run a web application. These include the HTTP server, middleware, database, third-party API services, and more.\nTelemetry is the process of continuously collecting data from different components of the application. This data helps engineering teams to troubleshoot issues across services and identify the root causes. In other words, telemetry data powers observability for your distributed applications.\nVisit the following resources to learn more:",
+                            "description": "Load shifting is a design pattern that is used to manage the workload of a system by shifting the load to different components or resources at different times. It is commonly used in cloud computing environments to balance the workload of a system and to optimize the use of resources.\nThere are several ways to implement load shifting in a cloud environment:\nScheduling: This involves scheduling the execution of tasks or workloads to occur at specific times or intervals.\nLoad balancing: This involves distributing the workload of a system across multiple resources, such as servers or containers, to ensure that the workload is balanced and that resources are used efficiently.\nAuto-scaling: This involves automatically adjusting the number of resources that are available to a system based on the workload, allowing the system to scale up or down as needed.\nLoad shifting is an important aspect of cloud design, as it helps to ensure that resources are used efficiently and that the system remains stable and available. It is often used in conjunction with other design patterns, such as throttling and backpressure, to provide a scalable and resilient cloud environment.\nVisit the following resources to learn more:",
                             "resources": [
                                 {
-                                    "name": "What is Instrumentation?",
-                                    "link": "https://en.wikipedia.org/wiki/Instrumentation_(computer_programming)"
-                                },
-                                {
-                                    "name": "What is Monitoring?",
-                                    "link": "https://www.yottaa.com/performance-monitoring-backend-vs-front-end-solutions/"
-                                },
-                                {
-                                    "name": "What is Telemetry?",
-                                    "link": "https://www.sumologic.com/insight/what-is-telemetry/"
+                                    "name": "Load Shifting - AWS Well-Architected Framework",
+                                    "link": "https://aws.amazon.com/architecture/well-architected/serverless/patterns/load-shifting/"
                                 }
+                                
+                            ]
+                        },
+                        {
+                            "name": "Backpressure",
+                           
+                            "description": "Backpressure is a design pattern that is used to manage the flow of data through a system, particularly in situations where the rate of data production exceeds the rate of data consumption. It is commonly used in cloud computing environments to prevent overloading of resources and to ensure that data is processed in a timely and efficient manner.\nThere are several ways to implement backpressure in a cloud environment:\nBuffering: This involves storing incoming data in a buffer until it can be processed, allowing the system to continue receiving data even if it is temporarily unable to process it.\nBatching: This involves grouping incoming data into batches and processing the batches in sequence, rather than processing each piece of data individually.\nFlow control: This involves using mechanisms such as flow control signals or windowing to regulate the rate at which data is transmitted between systems.\nBackpressure is an important aspect of cloud design, as it helps to ensure that data is processed efficiently and that the system remains stable and available. It is often used in conjunction with other design patterns, such as auto-scaling and load balancing, to provide a scalable and resilient cloud environment.\nVisit the following resources to learn more:",
+                            "resources": [
+                                {
+                                    "name": "Backpressure - AWS Well-Architected Framework",
+                                    "link": "https://aws.amazon.com/architecture/well-architected/serverless/patterns/backpressure/"
+                                }
+                               
                               
                             ]
                         },
                         {
-                            "name": "Monitoring",
+                            "name": "Throttling",
                            
-                            "description": "Instrumentation refers to the measure of a product’s performance, in order to diagnose errors and to write trace information. Instrumentation can be of two types: source instrumentation and binary instrumentation.\nBackend monitoring allows the user to view the performance of infrastructure i.e. the components that run a web application. These include the HTTP server, middleware, database, third-party API services, and more.\nTelemetry is the process of continuously collecting data from different components of the application. This data helps engineering teams to troubleshoot issues across services and identify the root causes. In other words, telemetry data powers observability for your distributed applications.\nVisit the following resources to learn more:",
+                            "description": "Throttling is a design pattern that is used to limit the rate at which a system or component can be used. It is commonly used in cloud computing environments to prevent overuse of resources, such as compute power, network bandwidth, or storage capacity.\nThere are several ways to implement throttling in a cloud environment:\n\nVisit the following resources to learn more:",
                             "resources": [
                                 {
-                                    "name": "What is Instrumentation?",
-                                    "link": "https://en.wikipedia.org/wiki/Instrumentation_(computer_programming)"
-                                },
-                                {
-                                    "name": "What is Monitoring?",
-                                    "link": "https://www.yottaa.com/performance-monitoring-backend-vs-front-end-solutions/"
-                                },
-                                {
-                                    "name": "What is Telemetry?",
-                                    "link": "https://www.sumologic.com/insight/what-is-telemetry/"
+                                    "name": "Backpressure - AWS Well-Architected Framework",
+                                    "link": "https://aws.amazon.com/architecture/well-architected/serverless/patterns/backpressure/"
                                 }
+                               
                               
                             ]
                         },
                         {
-                            "name": "Telemetry",
-                            
-                            "description": "Instrumentation refers to the measure of a product’s performance, in order to diagnose errors and to write trace information. Instrumentation can be of two types: source instrumentation and binary instrumentation.\nBackend monitoring allows the user to view the performance of infrastructure i.e. the components that run a web application. These include the HTTP server, middleware, database, third-party API services, and more.\nTelemetry is the process of continuously collecting data from different components of the application. This data helps engineering teams to troubleshoot issues across services and identify the root causes. In other words, telemetry data powers observability for your distributed applications.\nVisit the following resources to learn more:",
+                            "name": "Graceful Degradation",
+                           
+                            "description": "Graceful degradation is a design principle that states that a system should be designed to continue functioning, even if some of its components or features are not available. In the context of web development, graceful degradation refers to the ability of a web page or application to continue functioning, even if the user’s browser or device does not support certain features or technologies.\nGraceful degradation is often used as an alternative to progressive enhancement, a design principle that states that a system should be designed to take advantage of advanced features and technologies if they are available.\nVisit the following resources to learn more:",
                             "resources": [
                                 {
-                                    "name": "What is Instrumentation?",
-                                    "link": "https://en.wikipedia.org/wiki/Instrumentation_(computer_programming)"
+                                    "name": "What is Graceful Degradation & Why Does it Matter?",
+                                    "link": "https://blog.hubspot.com/website/graceful-degradation"
+                                }, 
+                                {
+                                    "name": "Four Considerations When Designing Systems For Graceful",
+                                    "link": "https://newrelic.com/blog/best-practices/design-software-for-graceful-degradation"
                                 },
                                 {
-                                    "name": "What is Monitoring?",
-                                    "link": "https://www.yottaa.com/performance-monitoring-backend-vs-front-end-solutions/"
-                                },
+                                    "name": "Degradation",
+                                    "link": "https://newrelic.com/blog/best-practices/design-software-for-graceful-degradation"
+                                }, 
                                 {
-                                    "name": "What is Telemetry?",
-                                    "link": "https://www.sumologic.com/insight/what-is-telemetry/"
+                                    "name": "The Art of Graceful Degradation",
+                                    "link": "https://farfetchtechblog.com/en/blog/post/the-art-of-failure-ii-graceful-degradation/"
                                 }
+                               
                               
                             ]
                         }
@@ -3793,177 +3727,78 @@
                 "order": 24,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Migration Strategies",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Learn how to run database migrations effectively. Especially zero downtime multi-phase schema migrations. Rather than make all changes at once, do smaller incremental changes to allow old code, and new code to work with the database at the same time, before removing old code, and finally removing the parts of the database schema which is no longer used.\nVisit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Databases as a Challenge for Continuous Delivery",
+                                "link": "https://phauer.com/2015/databases-challenge-continuous-delivery/"
                             }
+                           
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Horizontal/Vertical Scaling",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Horizontal scaling is a change in the number of a resource. For example, increasing the number of virtual machines processing messages in a queue. Vertical scaling is a change in the size/power of a resource. For example, increasing the memory or disk space available to a machine. Scaling can be applied to databases, cloud resources, and other areas of computing.\nVisit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Horizontal vs Vertical Scaling",
+                                "link": "https://touchstonesecurity.com/horizontal-vs-vertical-scaling-what-you-need-to-know/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Scaling In Databases",
+                                "link": "https://www.geeksforgeeks.org/horizontal-and-vertical-scaling-in-databases/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "System Design Basics: Horizontal vs. Vertical Scaling",
+                                "link": "https://youtu.be/xpDnVSmNFX0"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "System Design 101",
+                                "link": "https://www.youtube.com/watch?v=Y-Gl4HEyeUQ"
                             }
+                           
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Observability",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "In software development, observability is the measure of how well we can understand a system from the work it does, and how to make it better.\nSo what makes a system to be “observable”? It is its ability of producing and collecting metrics, logs and traces in order for us to understand what happens under the hood and identify issues and bottlenecks faster.\nYou can of course implement all those features by yourself, but there are a lot of softwares out there that can help you with it like Datadog, Sentry and CloudWatch.\nVisit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "DataDog Docs",
+                                "link": "https://docs.datadoghq.com/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "AWS CloudWatch Docs",
+                                "link": "https://aws.amazon.com/cloudwatch/getting-started/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Sentry Docs",
+                                "link": "https://docs.sentry.io/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "AWS re:Invent 2017: Improving Microservice and Serverless",
+                                "link": "https://www.youtube.com/watch?v=Wx0SHRb2xcI"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Observability with Monitor",
+                                "link": "https://www.youtube.com/watch?v=Wx0SHRb2xcI"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Observability and Instrumentation: What They Are and Why They",
+                                "link": "https://newrelic.com/blog/best-practices/observability-instrumentation"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Matter",
+                                "link": "https://newrelic.com/blog/best-practices/observability-instrumentation"
                             }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
+                           
                         ]
                     }
+                   
                 ]
             }
         }
