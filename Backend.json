@@ -1,0 +1,3861 @@
+{
+    "roles": {
+        "Backend": {
+            "Internet": {
+                "description": " The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.\nVisit the following resources to learn more:",
+                "resources": [
+                    {
+                        "name": "How does the Internet Work?",
+                        "link": "https://cs.fyi/guide/how-does-internet-work"
+                    },
+                    {
+                        "name": "The Internet Explained",
+                        "link": "https://www.vox.com/2014/6/16/18076282/the-internet"
+                    },
+                    {
+                        "name": "How Does the Internet Work?",
+                        "link": "http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm"
+                    },
+                    {
+                        "name": "Introduction to Internet",
+                        "link": "https://roadmap.sh/guides/what-is-internet"
+                    },
+                    {
+                        "name": "How does the Internet work?",
+                        "link": "https://www.youtube.com/watch?v=x3c1ih2NJEg"
+                    },
+                    {
+                        "name": "How the Internet Works in 5 Minutes",
+                        "link": "https://www.youtube.com/watch?v=7_LPdttKXPc"
+                    },
+                    {
+                        "name": "Computer Network | Google IT Support Certificate",
+                        "link": "https://www.youtube.com/watch?v=Z_hU2zm4_S8"
+                    }
+                ],
+                
+                "order": 1,
+                "options": [
+                    {
+                        "name": "How does the internet work?",
+                        "recommendation-type": "opinion",
+                        "description": "The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols. Visit the following resources to learn more",
+                        "resources": [
+                            {
+                                "name": "How does the Internet Work?",
+                                "link": "https://cs.fyi/guide/how-does-internet-work"
+                            },
+                            {
+                                "name": "How Does the Internet Work? MDN Docs",
+                                "link": "URL_de_MDN_Docs"
+                            },
+                            {
+                                "name": "Introduction to Internet",
+                                "link": "https://roadmap.sh/guides/what-is-internet"
+                            },
+                            {
+                                "name": "How does the Internet work? ",
+                                "link": "https://www.youtube.com/watch?v=TNQsmPf24go"
+                            },
+                            {
+                                "name": "How the Internet Works in 5 Minutes",
+                                "link": "https://www.youtube.com/watch?v=7_LPdttKXPc"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "What is HTTP?",
+                        "recommendation-type": "opinion",
+                        "description": "HTTP is the TCP/IP based application layer communication protocol which standardizes how the client and server communicate with each other. HTTP follows a classical 'Client-Server model' with a client opening a connection request, then waiting until it receives a response. HTTP is a stateless protocol, which means that the server does not keep any data (state) between two requests. Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Everything you need to know about HTTP",
+                                "link": "https://cs.fyi/guide/http-in-depth"
+                            },
+                            {
+                                "name": "What is HTTP?",
+                                "link": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/"
+                            },
+                            {
+                                "name": "Full HTTP Networking Course",
+                                "link": "https://www.youtube.com/watch?v=2JYT5f2isg4"
+                            },
+                            {
+                                "name": "An overview of HTTP",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
+                            },
+                            {
+                                "name": "HTTP/3 From A To Z: Core Concepts",
+                                "link": "https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/"
+                            },
+                            {
+                                "name": "HTTP/1 to HTTP/2 to HTTP/3",
+                                "link": "https://www.youtube.com/watch?v=a-sBfyiXysI"
+                            },
+                            {
+                                "name": "HTTP Crash Course & Exploration",
+                                "link": "https://www.youtube.com/watch?v=iYM2zFP3Zn0"
+                            },
+                            {
+                                "name": "SSL, TLS, HTTPS Explained",
+                                "link": "https://www.youtube.com/watch?v=j9QmMEWmcfo"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Domain Name",
+                        "recommendation-type": "opinion",
+                        "description": "A domain name is a unique, easy-to-remember address used to access websites, such as ‘google.com’, and ‘facebook.com’. Users can connect to websites using domain names thanks to the Domain Name System (DNS).Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What is a Domain Name?",
+                                "link": "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name"
+                            },
+                            {
+                                "name": "What is a Domain Name? | Domain name vs. URL",
+                                "link": "https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/"
+                            },
+                            {
+                                "name": "A Beginners Guide to How Domain Names Work",
+                                "link": "https://www.youtube.com/watch?v=Y4cRx19nhJk"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "What is hosting?",
+                        "recommendation-type": "opinion",
+                        "description": "Web hosting is an online service that allows you to publish your website files onto the internet. So, anyone who has access to the internet has access to your website.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What Is Web Hosting? Explained",
+                                "link": "https://www.youtube.com/watch?v=htbY9-yggB0"
+                            },
+                            {
+                                "name": "Different Types of Web Hosting Explained",
+                                "link": "https://www.youtube.com/watch?v=AXVZYzw8geg"
+                            },
+                            {
+                                "name": "Where to Host a Fullstack Project on a Budget",
+                                "link": "https://www.youtube.com/watch?v=Kx_1NYYJS7Q"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "DNS and how it works?",
+                        "recommendation-type": "opinion",
+                        "description": "The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What is DNS?",
+                                "link": "https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/"
+                            },
+                            {
+                                "name": "Mess with DNS - DNS Playground",
+                                "link": "https://messwithdns.net/"
+                            },
+                            {
+                                "name": "How DNS works (comic)",
+                                "link": "https://howdns.works/"
+                            },
+                            {
+                                "name": "DNS and How does it Work?",
+                                "link": "https://www.youtube.com/watch?v=Wj0od2ag5sk"
+                            },
+                            {
+                                "name": "DNS Records",
+                                "link": "https://www.youtube.com/watch?v=7lxgpKh_fRY"
+                            },
+                            {
+                                "name": "When to add glue records to DNS settings",
+                                "link": "https://www.youtube.com/watch?v=e48AyJOA9W8"
+                            },
+                            {
+                                "name": "DNS Records for Newbies - How To Manage Website Records",
+                                "link": "https://www.youtube.com/watch?v=YV5tkQYcvfg"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Browsers and how they work?",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "How Browsers Work",
+                                "link": "https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/"
+                            },
+                            {
+                                "name": "Role of Rendering Engine in Browsers",
+                                "link": "https://www.browserstack.com/guide/browser-rendering-engine"
+                            },
+                            {
+                                "name": "Populating the Page: How Browsers Work",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work"
+                            },
+                            {
+                                "name": "How Do Web Browsers Work?",
+                                "link": "https://www.youtube.com/watch?v=WjDrMKZWCt0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Leam a Language": {
+                "description": "Even if you’re a beginner the least you would have known is that Web Development is majorly classified into two facets: Frontend Development and Backend Development. And obviously, they both have their respective set of tools and technologies. For instance, when we talk about Frontend Development, there always comes 3 names first and foremost  HTML, CSS, and JavaScript.\nIn the same way, when it comes to Backend Web Development – we primarily require a backend (or you can say server-side) programming language to make the website function along with various other tools & technologies such as databases, frameworks, web servers, etc.\nPick a language from the given list and make sure to learn its quirks, core details about its runtime e.g. concurrency, memory model etc. ",
+               
+                "order": 2,
+                "options": [
+                    {
+                        "name": "java",
+                        "recommendation-type": "opinion",
+                        "description": "Java is general-purpose language, primarily used for Internet-based applications. It was created in 1995 by James Gosling at Sun Microsystems and is one of the most popular options for backend developers.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Visit Dedicated Java Roadmap",
+                                "link": "https://www.java.com/"
+                            },
+                            {
+                                "name": "Java Website",
+                                "link": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started"
+                            },
+                            {
+                                "name": "Codeacademy - Free Course",
+                                "link": "https://www.codecademy.com/learn/learn-java"
+                            },
+                            {
+                                "name": "W3 Schools Tutorials",
+                                "link": "https://www.w3schools.com/java/"
+                            },
+                            {
+                                "name": "Java Crash Course",
+                                "link": "https://www.youtube.com/watch?v=eIrMbAQSU34"
+                            },
+                            {
+                                "name": "Complete Java course",
+                                "link": "https://www.youtube.com/watch?v=xk4_1vdrzzo"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "C#",
+                        "recommendation-type": "opinion",
+                        "description": "C# (pronounced “C sharp”) is a general purpose programming language made by Microsoft. It is used to perform different tasks and can be used to create web apps, games, mobile apps, etc.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "C# Learning Path",
+                                "link": "https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/?WT.mc_id=dotnet-35129-website"
+                            },
+                            {
+                                "name": "C# on W3 schools",
+                                "link": "https://www.w3schools.com/cs/index.php"
+                            },
+                            {
+                                "name": "Introduction to C#",
+                                "link": "https://docs.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educationalcsharp-c9-scottha"
+                            },
+                            {
+                                "name": "C# tutorials",
+                                "link": "https://www.youtube.com/watch?v=gfkTfcpWqAY&list=PLTjRvDozrdlz3_FPXwb6lX_HoGXa09Yef"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "PHP",
+                        "recommendation-type": "opinion",
+                        "description": "PHP is a general purpose scripting language often used for making dynamic and interactive Web pages. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994. The PHP reference implementation is now produced by The PHP Group and supported by PHP Foundation. PHP supports procedural and object-oriented styles of programming with some elements of functional programming as well.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "PHP Website",
+                                "link": "https://php.net/"
+                            },
+                            {
+                                "name": "Learn PHP - W3Schools",
+                                "link": "https://www.w3schools.com/php/"
+                            },
+                            {
+                                "name": "PHP - The Right Way",
+                                "link": "https://phptherightway.com/"
+                            },
+                            {
+                                "name": "PHP for Beginners",
+                                "link": "https://www.youtube.com/watch?v=U2lQWR6uIuo&list=PL3VM-unCzF8ipG50KDjnzhugceoSG3RTC"
+                            },
+                            {
+                                "name": "PHP For Absolute Beginners",
+                                "link": "https://www.youtube.com/watch?v=2eebptXfEvw"
+                            },
+                            {
+                                "name": "Full PHP 8 Tutorial - Learn PHP The Right Way In 2022",
+                                "link": "https://www.youtube.com/watch?v=sVbEyFZKgqk&list=PLr3d3QYzkw2xabQRUpcZ_IBk9W50M9pe-"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "JavaScript",
+                        "recommendation-type": "opinion",
+                        "description": "Apart from being used in the browser, JavaScript is also used in backend e.g. using Node.js or Deno for writing server-side code in JavaScript.\nIf you pick up JavaScript for the Backend, my personal recommendation would be to learn JavaScript and then go with Node.js as it is the most popular and widely used option. Also, I would recommend learning TypeScript later on as you continue with your backend development Journey; it’s a superset of JavaScript and is used in many projects.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Visit Dedicated JavaScript Roadmap",
+                                "link": "https://roadmap.sh/javascript"
+                            },
+                            {
+                                "name": "W3Schools – JavaScript Tutorial",
+                                "link": "https://www.w3schools.com/js/"
+                            },
+                            {
+                                "name": "The Modern JavaScript Tutorial",
+                                "link": "https://javascript.info/"
+                            },
+                            {
+                                "name": "Eloquent Javascript - Book",
+                                "link": "https://eloquentjavascript.net/"
+                            },
+                            {
+                                "name": "You Dont Know JS Yet (book series)",
+                                "link": "https://github.com/getify/You-Dont-Know-JS"
+                            },
+                            {
+                                "name": "Codecademy - Learn JavaScript",
+                                "link": "https://www.codecademy.com/learn/introduction-to-javascript"
+                            },
+                            {
+                                "name": "JavaScript Crash Course for Beginners",
+                                "link": "https://youtu.be/hdI2bqOjy3c"
+                            },
+                            {
+                                "name": "Node.js Crash Course",
+                                "link": "https://www.youtube.com/watch?v=fBNz5xF-Kx4"
+                            },
+                            {
+                                "name": "Node.js Tutorial for Beginners",
+                                "link": "https://www.youtube.com/watch?v=TlB_eWDSMt4"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Python",
+                        "recommendation-type": "opinion",
+                        "description": "Python is a well known programming language which is both a strongly typed and a dynamically typed language. Being an interpreted language, code is executed as soon as it is written and the Python syntax allows for writing code in functional, procedural or object-oriented programmatic ways.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Visit Dedicated Python Roadmap",
+                                "link": "https://roadmap.sh/python"
+                            },
+                            {
+                                "name": "Python Website",
+                                "link": "https://www.python.org/"
+                            },
+                            {
+                                "name": "Python Getting Started",
+                                "link": "https://www.python.org/about/gettingstarted/"
+                            },
+                            {
+                                "name": "Automate the Boring Stuff",
+                                "link": "https://automatetheboringstuff.com/"
+                            },
+                            {
+                                "name": "FreeCodeCamp.org - How to Learn Python ?",
+                                "link": "https://www.freecodecamp.org/news/how-to-learn-python/"
+                            },
+                            {
+                                "name": "Python principles - Python basics",
+                                "link": "https://pythonprinciples.com/"
+                            },
+                            {
+                                "name": "W3Schools - Python Tutorial",
+                                "link": "https://www.w3schools.com/python/"
+                            },
+                            {
+                                "name": "Python Crash Course",
+                                "link": "https://ehmatthes.github.io/pcc/"
+                            },
+                            {
+                                "name": "Codecademy - Learn Python 2",
+                                "link": "https://www.codecademy.com/learn/learn-python"
+                            },
+                            {
+                                "name": "An Introduction to Python for Non-Programmers",
+                                "link": "https://thenewstack.io/an-introduction-to-python-for-non-programmers/"
+                            },
+                            {
+                                "name": "Getting Started with Python and InfluxDB",
+                                "link": "https://thenewstack.io/getting-started-with-python-and-influxdb/"
+                            },
+                            {
+                                "name": "Python for Beginners - Learn Python in 1 Hour",
+                                "link": "https://www.youtube.com/watch?v=kqtD5dpn9C8&ab_channel=ProgrammingwithMosh"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Ruby",
+                        "recommendation-type": "opinion",
+                        "description": "Ruby is a high-level, interpreted programming language that blends Perl, Smalltalk, Eiffel, Ada, and Lisp. Ruby focuses on simplicity and productivity along with a syntax that reads and writes naturally. Ruby supports procedural, object-oriented and functional programming and is dynamically typed.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Ruby Website",
+                                "link": "https://www.ruby-lang.org/en/"
+                            },
+                            {
+                                "name": "Learn Ruby in 20 minutes",
+                                "link": "https://www.ruby-lang.org/en/documentation/quickstart/"
+                            },
+                            {
+                                "name": "Learn Ruby | Codecademy",
+                                "link": "https://www.codecademy.com/learn/learn-ruby"
+                            },
+                            {
+                                "name": "Ruby, An Introduction to a Programmer’s Best Friend",
+                                "link": "https://thenewstack.io/ruby-a-programmers-best-friend/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Go",
+                        "recommendation-type": "opinion",
+                        "description": "Go is an open source programming language supported by Google. Go can be used to write cloud services, CLI tools, used for API development, and much more.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Visit Dedicated Go Roadmap",
+                                "link": "https://roadmap.sh/golang"
+                            },
+                            {
+                                "name": "A Tour of Go - Go Basics",
+                                "link": "https://go.dev/tour/welcome/1"
+                            },
+                            {
+                                "name": "Go Reference Documentation",
+                                "link": "https://go.dev/doc/"
+                            },
+                            {
+                                "name": "Learn Go | Boot.dev",
+                                "link": "https://boot.dev/learn/learn-golang"
+                            },
+                            {
+                                "name": "Go by Example - annotated example programs",
+                                "link": "https://gobyexample.com/"
+                            },
+                            {
+                                "name": "Learn Go | Codecademy",
+                                "link": "https://www.codecademy.com/learn/learn-go"
+                            },
+                            {
+                                "name": "W3Schools Go Tutorial",
+                                "link": "https://www.w3schools.com/go/"
+                            },
+                            {
+                                "name": "Making a RESTful JSON API in Go",
+                                "link": "https://thenewstack.io/make-a-restful-json-api-go/"
+                            },
+                            {
+                                "name": "Go, the Programming Language of the Cloud",
+                                "link": "https://thenewstack.io/go-the-programming-language-of-the-cloud/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rust",
+                        "recommendation-type": "opinion",
+                        "description": "Rust is a modern systems programming language focusing on safety, speed, and concurrency. It accomplishes these goals by being memory safe without using garbage collection.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "The Rust Programming Language - online book",
+                                "link": "https://doc.rust-lang.org/book/"
+                            },
+                            {
+                                "name": "Rust by Example - collection of runnable examples",
+                                "link": "https://doc.rust-lang.org/stable/rust-by-example/index.html"
+                            },
+                            {
+                                "name": "Rust vs. Go: Why They’re Better Together",
+                                "link": "https://thenewstack.io/rust-vs-go-why-theyre-better-together/"
+                            },
+                            {
+                                "name": "Rust by the Numbers: The Rust Programming Language in 2021",
+                                "link": "https://thenewstack.io/rust-by-the-numbers-the-rust-programming-language-in-2021/"
+                            }
+                           
+                        ]
+                    }
+                    
+                ]
+            },
+            "Vercion Control Systeme": {
+                "description": "Version control/source control systems allow developers to track and control changes to code over time. These services often include the ability to make atomic revisions to code, branch/fork off of specific points, and to compare versions of code. They are useful in determining the who, what, when, and why code changes were made.\nVisit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "Git",
+                        "link": "https://git-scm.com/"
+                    },
+                    {
+                        "name": "What is Version Control?",
+                        "link": "https://www.atlassian.com/git/tutorials/what-is-version-control"
+                    }
+                   
+                ],
+                "order": 3,
+                "options": [
+                   
+                    {
+                        "name": "Git",
+                        "recommendation-type": "opinion",
+                        "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.\nisit the following resources to learn more:n",
+                        "resources": [
+                            {
+                                "name": "Git & GitHub Crash Course For Beginners",
+                                "link": "https://www.youtube.com/watch?v=SWYqp7iY_Tc"
+                            },
+                            {
+                                "name": "Learn Git with Tutorials, News and Tips - Atlassian",
+                                "link": "https://www.atlassian.com/git"
+                            },
+                            {
+                                "name": "Git Cheat Sheet",
+                                "link": "https://cs.fyi/guide/git-cheatsheet"
+                            },
+                            {
+                                "name": "Learn Git Branching",
+                                "link": "https://learngitbranching.js.org/"
+                            },
+                            {
+                                "name": "Git Tutorial",
+                                "link": "https://www.w3schools.com/git/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Repo Hosting Services": {
+                "description": " When working on a team, you often need a remote place to put your code so others can access it, create their own branches, and create or review pull requests. These services often include issue tracking, code review, and continuous integration features. A few popular choices are GitHub, GitLab, BitBucket, and AWS CodeCommit.\nVisit the following resources to learn more:",
+                "resources": [
+                    {
+                        "name": "GitHub",
+                        "link": "https://github.com/features/"
+                    },
+                    {
+                        "name": "GitLab",
+                        "link": "https://about.gitlab.com/"
+                    },
+                    {
+                        "name": "BitBucket",
+                        "link": "https://bitbucket.org/product/guides/getting-started/overview"
+                    },
+                    {
+                        "name": "How to choose the best source code repository",
+                        "link": "https://bitbucket.org/product/code-repository"
+                    }
+                   
+                ],
+                "order": 4,
+                "options": [
+                    {
+                        "name": "GitHub",
+                        "recommendation-type": "opinion",
+                        "description": "GitHub is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "GitHub Website",
+                                "link": "https://github.com/"
+                            },
+                            {
+                                "name": "GitHub Documentation",
+                                "link": "https://docs.github.com/en/get-started/quickstart"
+                            },
+                            {
+                                "name": "How to Use Git in a Professional Dev Team",
+                                "link": "https://ooloo.io/project/github-flow"
+                            },
+                            {
+                                "name": "What is GitHub?",
+                                "link": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
+                            },
+                            {
+                                "name": "Git vs. GitHub: Whats the difference?",
+                                "link": "https://www.youtube.com/watch?v=wpISo9TNjfU"
+                            },
+                            {
+                                "name": "Git and GitHub for Beginners",
+                                "link": "https://www.youtube.com/watch?v=RGOj5yH7evk"
+                            },
+                            {
+                                "name": "Git and GitHub - CS50 Beyond 2019",
+                                "link": "https://www.youtube.com/watch?v=eulnSXkhE7I"
+                            },
+                            {
+                                "name": "Learn Git Branching",
+                                "link": "https://learngitbranching.js.org/?locale=en_us"
+                            }
+                          
+                        ]
+                    },
+                    {
+                        "name": "GitLab",
+                        "recommendation-type": "opinion",
+                        "description": "GitLab is a provider of internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "GitLab Website",
+                                "link": "https://gitlab.com/"
+                            },
+                            {
+                                "name": "GitLab Documentation",
+                                "link": "https://docs.gitlab.com/"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Bitbucket",
+                        "recommendation-type": "opinion",
+                        "description": "Bitbucket is a Git based hosting and source code repository service that is Atlassian’s alternative to other products like GitHub, GitLab etc\nBitbucket offers hosting options via Bitbucket Cloud (Atlassian’s servers), Bitbucket Server (customer’s on-premise) or Bitbucket Data Centre (number of servers in customers on-premise or cloud environment)\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Bitbucket Website",
+                                "link": "https://bitbucket.org/product"
+                            },
+                            {
+                                "name": "Getting started with Bitbucket",
+                                "link": "https://bitbucket.org/product/guides/basics/bitbucket-interface"
+                            },
+                            {
+                                "name": "Using Git with Bitbucket Cloud",
+                                "link": "https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud"
+                            },
+                            {
+                                "name": "A brief overview of Bitbucket",
+                                "link": "https://bitbucket.org/product/guides/getting-started/overview#a-brief-overview-of-bitbucket"
+                            },
+                            {
+                                "name": "Bitbucket tutorial | How to use Bitbucket Cloud",
+                                "link": "https://www.youtube.com/watch?v=M44nEyd_5To"
+                            },
+                            {
+                                "name": "Bitbucket Tutorial | Bitbucket for Beginners",
+                                "link": "https://www.youtube.com/watch?v=i5T-DB8tb4A"
+                            }
+                           
+                        ]
+                    }
+                   
+                ]
+            },
+            " OS and Generol Knowledge": {
+                "description": "Operating System is a program that manages a computer’s resources, especially the allocation of those resources among other programs. Typical resources include the central processing unit (CPU), computer memory, file storage, input/output (I/O) devices, and network connections.\nVisit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "What is an operating system?",
+                        "link": "https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/"
+                    },
+                    {
+                        "name": "Operating System summary",
+                        "link": "https://www.guru99.com/os-tutorial.html"
+                    },
+                    {
+                        "name": "Operating Systems: Crash Course Computer Science #18",
+                        "link": "https://www.youtube.com/watch?v=26QPDBe-NB8&ab_channel=CrashCourse"
+                    },
+                    {
+                        "name": "Introduction to Operating System",
+                        "link": "https://www.youtube.com/watch?v=vBURTt97EkA&list=PL9hkZBQk8d1zEGbY7ShWCZ2n1gtxqkRrS&index=1"
+                    }
+                    
+                ],
+                "order": 5,
+                "options": [
+                    {
+                        "name": "POSIX Basics",
+                        "recommendation-type": "opinion",
+                        "description": "POSIX (Portable Operating System Interface) is a family of standards for maintaining compatibility between operating systems. It describes utilities, APIs, and services that a compliant OS should provide to software, thus making it easier to port programs from one system to another.\nA practical example: in a Unix-like operating system, there are three standard streams, stdin, stdout and stderr - they are I/O connections that you will probably come across when using a terminal, as they manage the flow from the standard input (stdin), standard output (stdout) and standard error (stderr).\nSo, in this case, when we want to interact with any of these streams (through a process, for example), the POSIX operating system API makes it easier - for example, in the <unistd.h> C header where the stdin, stderr, and stdout are defined as STDIN_FILENO, STDERR_FILENO and STDOUT_FILENO.\nhttps://roadmap.sh/backend#:~:text=POSIX%20also%20adds%20a%20standard%20for%20exit%20codes%2C%20filesystem%20semantics%2C%20and%20several%20other%20command%20line%20utility%20API%20conventions.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "POSIX standard by IEEE",
+                                "link": "https://pubs.opengroup.org/onlinepubs/9699919799/"
+                            },
+                            {
+                                "name": "Summary of some POSIX implementations",
+                                "link": "https://unix.stackexchange.com/a/220877"
+                            },
+                            {
+                                "name": "A guide to POSIX",
+                                "link": "https://www.baeldung.com/linux/posix"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Terminal usage",
+                        "recommendation-type": "opinion",
+                        "description": "Terminals, also known as command lines or consoles, allow us to accomplish and automate tasks on a computer without the use of a graphical user interface.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Command line crash course",
+                                "link": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line"
+                            },
+                            {
+                                "name": "Basic Terminal Usage - Cheat Sheet to make the command line EASY",
+                                "link": "https://www.youtube.com/watch?v=jDINUSK7rXE"
+                            },
+                            {
+                                "name": "50+ Linux Commands You Must Know",
+                                "link": "https://www.digitalocean.com/community/tutorials/linux-commands"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Basic Terminal Commands",
+                        "recommendation-type": "opinion",
+                        "description": "Working within the terminal is common practice for any Backend Developer and there are many commands and utilities that can help you achieve your tasks more efficiently.\nThe best way to learn these commands is to practice them in your own machine/environment. Specifically, these are related to Linux commands/utilities which are the most prevalent in the market.\nTo understand these commands, read through the manual pages by using man command e.g. man grep, man awk etc.\nAfter enough exposure and practice to these commands, it will become easier to use these in practice\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "40 Basic Linux Commands",
+                                "link": "https://www.hostinger.com/tutorials/linux-commands"
+                            },
+                            {
+                                "name": "A collection of modern/faster/saner alternatives to common unix",
+                                "link": "https://github.com/ibraheemdev/modern-unix"
+                            },
+                            {
+                                "name": "commands",
+                                "link": "https://github.com/ibraheemdev/modern-unix"
+                            },
+                            {
+                                "name": "Command Line Tutorial",
+                                "link": "https://www.learnenough.com/command-line-tutorial"
+                            },
+                            {
+                                "name": "Commandline Challenge",
+                                "link": "https://cmdchallenge.com/"
+                            },
+                            {
+                                "name": "The 50 Most Popular Linux & Terminal Commands (with timestamps)",
+                                "link": "https://www.youtube.com/watch?v=ZtqBQ68cfJc"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Operating Systems",
+                        "recommendation-type": "opinion",
+                        "description": "An operating system is a main program on computer, that governs all other applications. It allows you to use browsers, play games, print documents, launch your favorite program.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Operating System - Overview",
+                                "link": "https://www.tutorialspoint.com/operating_system/os_overview.htm"
+                            },
+                            {
+                                "name": "Operating System Concepts",
+                                "link": "https://codex.cs.yale.edu/avi/os-book/OS10/index.html"
+                            },
+                            {
+                                "name": "Operating System Basics",
+                                "link": "https://www.youtube.com/watch?v=9GDX-IyZ_C8"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Memory Management",
+                        "recommendation-type": "opinion",
+                        "description": "The term Memory can be defined as a collection of data in a specific format. It is used to store instructions and process data. The memory comprises a large array or group of words or bytes, each with its own location. The primary motive of a computer system is to execute programs. These programs, along with the information they access, should be in the main memory during execution. The CPU fetches instructions from memory according to the value of the program counter.\nTo achieve a degree of multiprogramming and proper utilization of memory, memory management is important. There are several memory management methods, reflecting various approaches, and the effectiveness of each algorithm depends on the situation.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Demystifying memory management in modern programming",
+                                "link": "https://dev.to/deepu105/demystifying-memory-management-in-modern-programming-languages-ddd"
+                            },
+                            {
+                                "name": "languages",
+                                "link": "https://dev.to/deepu105/demystifying-memory-management-in-modern-programming-languages-ddd"
+                            },
+                            {
+                                "name": "Memory Management in Operating System",
+                                "link": "https://www.geeksforgeeks.org/memory-management-in-operating-system/"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Interprocess Communication",
+                        "recommendation-type": "opinion",
+                        "description": "Interprocess communication (IPC) refers specifically to the mechanisms an operating system provides to allow the processes to manage shared data\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Interprocess Communication",
+                                "link": "https://www.geeksforgeeks.org/inter-process-communication-ipc/"
+                            },
+                            {
+                                "name": "Interprocess Communication - Neso Academy",
+                                "link": "https://www.youtube.com/watch?v=dJuYKfR8vec"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "I/O Management",
+                        "recommendation-type": "opinion",
+                        "description": "One of the important jobs of an Operating System is to manage various I/O devices including mouse, keyboards, touchpad, disk drives, display adapters, USB devices, Bit-mapped screens, LED, Analog-to-digital converter, On/off switch, network connections, audio I/O, printers, etc.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Operating System - I/O Hardware",
+                                "link": "https://www.tutorialspoint.com/operating_system/os_io_hardware.htm"
+                            },
+                            {
+                                "name": "IO Management",
+                                "link": "https://www.omscs-notes.com/operating-systems/io-management/"
+                            },
+                            {
+                                "name": "Basics of OS (I/O Structure)",
+                                "link": "https://www.youtube.com/watch?v=F18RiREDkwE"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Basic Networking Concepts",
+                        "recommendation-type": "opinion",
+                        "description": "Computer networking refers to interconnected computing devices that can exchange data and share resources with each other. These networked devices use a system of rules, called communications protocols, to transmit information over physical or wireless technologies.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What is Computer Networking?",
+                                "link": "https://aws.amazon.com/what-is/computer-networking/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Threads and Concurrency",
+                        "recommendation-type": "opinion",
+                        "description": "A thread is the smallest unit of processing that can be performed in an OS. In most modern operating systems, a thread exists within a process - that is, a single process may contain multiple threads.\nConcurrency refers to the execution of multiple threads at the same time. It occurs in an operating system when multiple process threads are executing concurrently. These threads can interact with one another via shared memory or message passing. Concurrency results in resource sharing, which causes issues like deadlocks and resource scarcity. It aids with techniques such as process coordination, memory allocation, and execution schedule to maximize throughput.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What’s the Diff: Programs, Processes and Threads",
+                                "link": "https://www.backblaze.com/blog/whats-the-diff-programs-processes-and-threads/"
+                            },
+                            {
+                                "name": "Concurrency in Operating System",
+                                "link": "https://www.javatpoint.com/concurrency-in-operating-system"
+                            },
+                            {
+                                "name": "Intro to Processes & Threads",
+                                "link": "https://www.youtube.com/watch?v=exbKr6fnoUw"
+                            },
+                            {
+                                "name": "Introduction to Concurrency",
+                                "link": "https://www.youtube.com/watch?v=iKtvNJQoCNw"
+                            },
+                            {
+                                "name": "Concurrency, Threading and Parallelism Explained",
+                                "link": "https://www.youtube.com/watch?v=olYdb0DdGtM"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Process Management",
+                        "recommendation-type": "opinion",
+                        "description": "Process management involves various tasks like creation, scheduling, termination of processes, and a deadlock. Process is a program that is under execution, which is an important part of modern-day operating systems. The OS must allocate resources that enable processes to share and exchange information. It also protects the resources of each process from other methods and allows synchronization among processes.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Operating System: Process and Process Management",
+                                "link": "https://medium.com/@akhandmishra/operating-system-process-and-process-management-108d83e8ce60"
+                            },
+                            {
+                                "name": "Process Management in OS: PCB in Operating System",
+                                "link": "https://www.guru99.com/process-management-pcb.html"
+                            }
+                           
+                        ]
+                    }
+                   
+                ]
+            },
+            "Relational Databases": {
+                "description": "A relational database is a type of database that stores and provides access to data points that are related to one another. Relational databases store data in a series of tables. Interconnections between the tables are specified as foreign keys. A foreign key is a unique reference from one row in a relational table to another row in a table, which can be the same table but is most commonly a different table.\nVisit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "Relational Databases",
+                        "link": "https://www.ibm.com/cloud/learn/relational-databases"
+                    },
+                    {
+                        "name": "51 Years of Relational Databases",
+                        "link": "https://learnsql.com/blog/codd-article-databases/"
+                    },
+                    {
+                        "name": "Databases and SQL",
+                        "link": "https://www.edx.org/course/databases-5-sql"
+                    },
+                    {
+                        "name": "Intro To Relational Databases",
+                        "link": "https://www.udacity.com/course/intro-to-relational-databases--ud197"
+                    },
+                    {
+                        "name": "What is Relational Database",
+                        "link": "https://youtu.be/OqjJjpjDRLc"
+                    }
+                   
+                ],
+                "order": 6,
+                "options": [
+                    {
+                        "name": "PostgreSQL",
+                        "recommendation-type": "opinion",
+                        "description": "PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Visit Dedicated PostgreSQL DBA Roadmap",
+                                "link": "https://roadmap.sh/postgresql-dba"
+                            },
+                            {
+                                "name": "Official Website",
+                                "link": "https://www.postgresql.org/"
+                            },
+                            {
+                                "name": "What is PostgreSQL",
+                                "link": "https://www.geeksforgeeks.org/what-is-postgresql-introduction/"
+                            },
+                            {
+                                "name": "Learn PostgreSQL - Full Tutorial for Beginners",
+                                "link": "https://www.postgresqltutorial.com/"
+                            },
+                            {
+                                "name": "Learn PostgreSQL Tutorial - Full Course for Beginners",
+                                "link": "https://www.youtube.com/watch?v=qw--VYLpxG4"
+                            },
+                            {
+                                "name": "Postgres tutorial for Beginners",
+                                "link": "https://www.youtube.com/watch?v=eMIxuk0nOkU"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "MySQL",
+                        "recommendation-type": "opinion",
+                        "description": "MySQL is an incredibly popular open source relational database management system (RDBMS). MySQL can be used as a stand-alone client or in conjunction with other services to provide database connectivity. The M in LAMP stack stands for MySQL; that alone should provide an idea of its prevalence.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "MySQL website",
+                                "link": "https://www.mysql.com/"
+                            },
+                            {
+                                "name": "W3Schools - MySQL tutorial",
+                                "link": "https://www.w3schools.com/mySQl/default.asp"
+                            },
+                            {
+                                "name": "MySQL tutorial for beginners",
+                                "link": "https://www.youtube.com/watch?v=7S_tz1z_5bA"
+                            },
+                            {
+                                "name": "MySQL for Developers",
+                                "link": "https://planetscale.com/courses/mysql-for-developers/introduction/course-introduction"
+                            },
+                            {
+                                "name": "MySQL Tutorial",
+                                "link": "https://www.mysqltutorial.org/"
+                            }
+                          
+                        ]
+                    },
+                    {
+                        "name": "MariaDB",
+                        "recommendation-type": "opinion",
+                        "description": "MariaDB server is a community developed fork of MySQL server. Started by core members of the original MySQL team, MariaDB actively works with outside developers to deliver the most featureful, stable, and sanely licensed open SQL server in the industry. MariaDB was created with the intention of being a more versatile, drop-in replacement version of MySQL\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "MariaDB website",
+                                "link": "https://mariadb.org/"
+                            },
+                            {
+                                "name": "MariaDB vs MySQL",
+                                "link": "https://www.guru99.com/mariadb-vs-mysql.html"
+                            },
+                            {
+                                "name": "W3Schools - MariaDB tutorial",
+                                "link": "https://www.w3schools.blog/mariadb-tutorial"
+                            },
+                            {
+                                "name": "MariaDB Tutorial For Beginners in One Hour",
+                                "link": "https://www.youtube.com/watch?v=_AMj02sANpI"
+                            }
+                          
+                        ]
+                    },
+                    {
+                        "name": "MS SQL",
+                        "recommendation-type": "opinion",
+                        "description": "MS SQL (or Microsoft SQL Server) is the Microsoft developed relational database management system (RDBMS). MS SQL uses the T-SQL (Transact-SQL) query language to interact with the relational databases. There are many different versions and editions available of MS SQL\nVisit the following resources to learn more",
+                        "resources": [
+                            {
+                                "name": "MS SQL website",
+                                "link": "https://www.microsoft.com/en-ca/sql-server/"
+                            },
+                            {
+                                "name": "Tutorials for SQL Server",
+                                "link": "https://docs.microsoft.com/en-us/sql/sql-server/tutorials-for-sql-server-2016?view=sql-server-ver15"
+                            },
+                            {
+                                "name": "SQL Server tutorial for beginners",
+                                "link": "https://www.youtube.com/watch?v=-EPMOaV7h_Q"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Oracle",
+                        "recommendation-type": "opinion",
+                        "description": "Oracle Database Server or sometimes called Oracle RDBMS or even simply Oracle is a world leading relational database management system produced by Oracle Corporation.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://www.oracle.com/database/"
+                            },
+                            {
+                                "name": "Official Docs",
+                                "link": "https://docs.oracle.com/en/database/index.html"
+                            },
+                            {
+                                "name": "Oracle SQL Tutorial for Beginners",
+                                "link": "https://www.youtube.com/watch?v=ObbNGhcxXJA"
+                            }
+                           
+                        ]
+                    }
+                ]
+            },
+            "NoSQL Databases": {
+                "description": "NoSQL databases offer data storage and retrieval that is modelled differently to “traditional” relational databases. NoSQL databases typically focus more on horizontal scaling, eventual consistency, speed and flexibility and is used commonly for big data and real-time streaming applications. NoSQL is often described as a BASE system (Basically Available, Soft state, Eventual consistency) as opposed to SQL/relational which typically focus on ACID (Atomicity, Consistency, Isolation, Durability). Common NoSQL data structures include key-value pair, wide column, graph and document.\nVisit the following resources to learn more ",
+                "resources": [
+                    {
+                        "name": "NoSQL Explained",
+                        "link": "https://www.mongodb.com/nosql-explained"
+                    },
+                    {
+                        "name": "How do NoSQL Databases work",
+                        "link": "https://www.youtube.com/watch?v=0buKQHokLK8"
+                    },
+                    {
+                        "name": "SQL vs NoSQL Explained",
+                        "link": "https://www.youtube.com/watch?v=ruz-vK8IesE"
+                    }
+                   
+                ],
+                "Documento Database": [
+                    {
+                        "name": "MongoDB",
+                        "recommendation-type": "opinion",
+                        "description": "MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License (SSPL).\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Visit Dedicated MongoDB Roadmap",
+                                "link": "https://roadmap.sh/mongodb"
+                            },
+                            {
+                                "name": "MongoDB Website",
+                                "link": "https://www.mongodb.com/"
+                            },
+                            {
+                                "name": "MongoDB Documentation",
+                                "link": "https://docs.mongodb.com/"
+                            },
+                            {
+                                "name": "MongoDB Online Sandbox",
+                                "link": "https://mongoplayground.net/"
+                            },
+                            {
+                                "name": "Learning Path for MongoDB Developers",
+                                "link": "https://learn.mongodb.com/catalog"
+                            },
+                            {
+                                "name": "Dynamo DB Docs",
+                                "link": "https://docs.aws.amazon.com/dynamodb/index.html"
+                            },
+                            {
+                                "name": "Official Developers Guide",
+                                "link": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html"
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "CouchDB",
+                        "recommendation-type": "opinion",
+                        "description": "MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License (SSPL).\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Visit Dedicated MongoDB Roadmap",
+                                "link": "https://roadmap.sh/mongodb"
+                            },
+                            {
+                                "name": "MongoDB Website",
+                                "link": "https://www.mongodb.com/"
+                            },
+                            {
+                                "name": "MongoDB Documentation",
+                                "link": "https://docs.mongodb.com/"
+                            },
+                            {
+                                "name": "MongoDB Online Sandbox",
+                                "link": "https://mongoplayground.net/"
+                            },
+                            {
+                                "name": "Learning Path for MongoDB Developers",
+                                "link": "https://learn.mongodb.com/catalog"
+                            },
+                            {
+                                "name": "Dynamo DB Docs",
+                                "link": "https://docs.aws.amazon.com/dynamodb/index.html"
+                            },
+                            {
+                                "name": "Official Developers Guide",
+                                "link": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html"
+                            }
+                          
+                        ]
+                    }
+                   
+
+                ],
+                "Time Series": [
+                    {
+                        "name": "InfluxDB",
+                        "recommendation-type": "opinion",
+                        "description": "InfluxDB was built from the ground up to be a purpose-built time series database; i.e., it was not repurposed to be time series. Time was built-in from the beginning. InfluxDB is part of a comprehensive platform that supports the collection, storage, monitoring, visualization and alerting of time series data. It’s much more than just a time series database.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "InfluxDB Website",
+                                "link": "https://www.influxdata.com/"
+                            },
+                            {
+                                "name": "Time series database",
+                                "link": "https://www.influxdata.com/time-series-database/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Time Scale",
+                        "recommendation-type": "opinion",
+                        "description": "InfluxDB was built from the ground up to be a purpose-built time series database; i.e., it was not repurposed to be time series. Time was built-in from the beginning. InfluxDB is part of a comprehensive platform that supports the collection, storage, monitoring, visualization and alerting of time series data. It’s much more than just a time series database.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "InfluxDB Website",
+                                "link": "https://www.influxdata.com/"
+                            },
+                            {
+                                "name": "Time series database",
+                                "link": "https://www.influxdata.com/time-series-database/"
+                            }
+                           
+                          
+                        ]
+                    }
+                   
+
+                ],
+                "Realtime": [
+                    {
+                        "name": "Firebase",
+                        "recommendation-type": "opinion",
+                        "description": "A real-time database is broadly defined as a data store designed to collect, process, and/or enrich an incoming series of data points (i.e., a data stream) in real time, typically immediately after the data is created.",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                         
+                        ]
+                    },
+                    {
+                        "name": "Realtime databases",
+                        "recommendation-type": "opinion",
+                        "description": "A real-time database is broadly defined as a data store designed to collect, process, and/or enrich an incoming series of data points (i.e., a data stream) in real time, typically immediately after the data is created.",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                           
+                          
+                        ]
+                    }
+                   
+
+                ],
+                "Column DBs": [
+                    {
+                        "name": "Casandra",
+                        "recommendation-type": "opinion",
+                        "description": "A wide-column database (sometimes referred to as a column database) is similar to a relational database. It store data in tables, rows and columns. However in opposite to relational databases here each row can have its own format of the columns. Column databases can be seen as a two-dimensional key-value database. One of such database system is Apache Cassandra.\nWarning: note that a “columnar database” and a “column database” are two different terms!\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Apache Cassandra",
+                                "link": "https://cassandra.apache.org/_/index.html"
+                            },
+                            {
+                                "name": "Apache Cassandra Database - Full Course for Beginners",
+                                "link": "https://www.youtube.com/watch?v=J-cSy5MeMOA"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "HBase",
+                        "recommendation-type": "opinion",
+                        "description": "A wide-column database (sometimes referred to as a column database) is similar to a relational database. It store data in tables, rows and columns. However in opposite to relational databases here each row can have its own format of the columns. Column databases can be seen as a two-dimensional key-value database. One of such database system is Apache Cassandra.\nWarning: note that a “columnar database” and a “column database” are two different terms!\nVisit the following resources to learn more",
+                        "resources": [
+                            {
+                                "name": "Apache Cassandra",
+                                "link": "https://cassandra.apache.org/_/index.html"
+                            },
+                            {
+                                "name": "Apache Cassandra Database - Full Course for Beginners",
+                                "link": "https://wwwhttps://www.youtube.com/watch?v=J-cSy5MeMOA.mongodb.com/"
+                            }
+                            
+                          
+                        ]
+                    }
+                   
+
+                ],
+                "Key-Value": [
+                    {
+                        "name": "redis",
+                        "recommendation-type": "opinion",
+                        "description": "A key-value database (KV database) is a type of database that stores data as a collection of key-value pairs. In a KV database, each piece of data is identified by a unique key, and the value is the data associated with that key.\nKV databases are designed for fast and efficient storage and retrieval of data, and they are often used in applications that require high performance and low latency. They are particularly well-suited for storing large amounts of unstructured data, such as log data and user profiles.\nSome popular KV databases include Redis, Memcached, and LevelDB. These databases are often used in combination with other types of databases, such as relational databases or document databases, to provide a complete and scalable data storage solution.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Key-Value Databases - Wikipedia",
+                                "link": "https://en.wikipedia.org/wiki/Key-value_database"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "DynamoDB",
+                        "recommendation-type": "opinion",
+                        "description": "A key-value database (KV database) is a type of database that stores data as a collection of key-value pairs. In a KV database, each piece of data is identified by a unique key, and the value is the data associated with that key.\nKV databases are designed for fast and efficient storage and retrieval of data, and they are often used in applications that require high performance and low latency. They are particularly well-suited for storing large amounts of unstructured data, such as log data and user profiles.\nSome popular KV databases include Redis, Memcached, and LevelDB. These databases are often used in combination with other types of databases, such as relational databases or document databases, to provide a complete and scalable data storage solution.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Key-Value Databases - Wikipedia",
+                                "link": "https://en.wikipedia.org/wiki/Key-value_database"
+                            }
+                          
+                          
+                        ]
+                    }
+                   
+
+                ],
+                "Graph DBs": [
+                    {
+                        "name": "redis",
+                        "recommendation-type": "opinion",
+                        "description": "A graph database stores nodes and relationships instead of tables, or documents. Data is stored just like you might sketch ideas on a whiteboard. Your data is stored without restricting it to a pre-defined model, allowing a very flexible way of thinking about and using it.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What is a Graph Database?",
+                                "link": "hhttps://neo4j.com/developer/graph-database/"
+                            },
+                            {
+                                "name": "Graph Databases VS Relational Databases",
+                                "link": "https://www.freecodecamp.org/news/graph-database-vs-relational-database/"
+                            }
+                            
+                        ]
+                    }
+                    
+                   
+
+                ],
+               
+                "order": 7,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "More About Databases": {
+                "description": "A database is a collection of useful data of one or more related organizations structured in a way to make data an asset to the organization. A database management system is a software designed to assist in maintaining and extracting large collections of data in a timely fashion.\nVisit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "Oracle: What is a Database?",
+                        "link": "https://www.oracle.com/database/what-is-database/"
+                    },
+                    {
+                        "name": "Prisma.io: What are Databases?",
+                        "link": "https://www.prisma.io/dataguide/intro/what-are-databases"
+                    }
+                    
+                ],
+                "order": 8,
+                "options": [
+                    {
+                        "name": "Profiling Performance",
+                        "recommendation-type": "opinion",
+                        "description": "There are several ways to profile the performance of a database:\nMonitor system performance: You can use tools like the Windows Task Manager or the Unix/Linux top command to monitor the performance of your database server. These tools allow you to see the overall CPU, memory, and disk usage of the system, which can help identify any resource bottlenecks.\nUse database-specific tools: Most database management systems (DBMSs) have their own tools for monitoring performance. For example, Microsoft SQL Server has the SQL Server Management Studio (SSMS) and the sys.dm_os_wait_stats dynamic management view, while Oracle has the Oracle Enterprise Manager and the v$waitstat view. These tools allow you to see specific performance metrics, such as the amount of time spent waiting on locks or the number of physical reads and writes.\nUse third-party tools: There are also several third-party tools that can help you profile the performance of a database. Some examples include SolarWinds Database Performance Analyzer, Quest Software Foglight, and Redgate SQL Monitor. These tools often provide more in-depth performance analysis and can help you identify specific issues or bottlenecks.\nAnalyze slow queries: If you have specific queries that are running slowly, you can use tools like EXPLAIN PLAN or SHOW PLAN in MySQL or SQL Server to see the execution plan for the query and identify any potential issues. You can also use tools like the MySQL slow query log or the SQL Server Profiler to capture slow queries and analyze them further.\nMonitor application performance: If you are experiencing performance issues with a specific application that is using the database, you can use tools like Application Insights or New Relic to monitor the performance of the application and identify any issues that may be related to the database.\nHave a look at the documentation for the database that you are using.",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Failure Modes",
+                        "recommendation-type": "opinion",
+                        "description": "There are several different failure modes that can occur in a database, including:\nRead contention: This occurs when multiple clients or processes are trying to read data from the same location in the database at the same time, which can lead to delays or errors.\nWrite contention: This occurs when multiple clients or processes are trying to write data to the same location in the database at the same time, which can lead to delays or errors.\nThundering herd: This occurs when a large number of clients or processes try to access the same resource simultaneously, which can lead to resource exhaustion and reduced performance.\nCascade: This occurs when a failure in one part of the database system causes a chain reaction that leads to failures in other parts of the system.\nDeadlock: This occurs when two or more transactions are waiting for each other to release a lock on a resource, leading to a standstill.\nCorruption: This occurs when data in the database becomes corrupted, which can lead to errors or unexpected results when reading or writing to the database.\nHardware failure: This occurs when hardware components, such as disk drives or memory, fail, which can lead to data loss or corruption.\nSoftware failure: This occurs when software components, such as the database management system or application, fail, which can lead to errors or unexpected results.\nNetwork failure: This occurs when the network connection between the database and the client is lost, which can lead to errors or timeouts when trying to access the database.\nDenial of service (DoS) attack: This occurs when a malicious actor attempts to overwhelm the database with requests, leading to resource exhaustion and reduced performance.",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Normalization",
+                        "recommendation-type": "opinion",
+                        "description": "Database normalization is the process of structuring a relational database in accordance with a series of so-called normal forms in order to reduce data redundancy and improve data integrity. It was first proposed by Edgar F. Codd as part of his relational model.\nNormalization entails organizing the columns (attributes) and tables (relations) of a database to ensure that their dependencies are properly enforced by database integrity constraints. It is accomplished by applying some formal rules either by a process of synthesis (creating a new database design) or decomposition (improving an existing database design).\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What is Normalization in DBMS (SQL)? 1NF, 2NF, 3NF, BCNF Database",
+                                "link": "https://www.guru99.com/database-normalization.html"
+                            },
+                            {
+                                "name": "with Example",
+                                "link": "https://www.guru99.com/database-normalization.html"
+                            },
+                            {
+                                "name": "Database normalization",
+                                "link": "https://en.wikipedia.org/wiki/Database_normalization"
+                            },
+                            {
+                                "name": "Basic Concept of Database Normalization",
+                                "link": "https://www.youtube.com/watch?v=xoTyrdT9SZI"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "N plus one problem",
+                        "recommendation-type": "opinion",
+                        "description": "The N+1 query problem happens when your code executes N additional query statements to fetch the same data that could have been retrieved when executing the primary query.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "In Detail Explanation of N+1 Problem",
+                                "link": "https://medium.com/doctolib/understanding-and-fixing-n-1-query-30623109fe89"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Transactions",
+                        "recommendation-type": "opinion",
+                        "description": "In short, a database transaction is a sequence of multiple operations performed on a database, and all served as a single logical unit of work — taking place wholly or not at all. In other words, there’s never a case where only half of the operations are performed and the results saved.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What are Transactions?",
+                                "link": "https://fauna.com/blog/database-transaction"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "ACID",
+                        "recommendation-type": "opinion",
+                        "description": "ACID are the four properties of relational database systems that help in making sure that we are able to perform the transactions in a reliable manner. It’s an acronym which refers to the presence of four properties: atomicity, consistency, isolation and durability\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What is ACID Compliant Database?",
+                                "link": "https://retool.com/blog/whats-an-acid-compliant-database/"
+                            },
+                            {
+                                "name": "What is ACID Compliance?: Atomicity, Consistency, Isolation",
+                                "link": "https://fauna.com/blog/what-is-acid-compliance-atomicity-consistency-isolation"
+                            },
+                            {
+                                "name": "ACID Explained: Atomic, Consistent, Isolated & Durable",
+                                "link": "https://www.youtube.com/watch?v=yaQ5YMWkxq4"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "ORMs",
+                        "recommendation-type": "opinion",
+                        "description": "Object-Relational Mapping (ORM) is a technique that lets you query and manipulate data from a database using an object-oriented paradigm. When talking about ORM, most people are referring to a library that implements the Object-Relational Mapping technique, hence the phrase “an ORM”.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Object Relational Mapping - Wikipedia",
+                                "link": "https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping"
+                            },
+                            {
+                                "name": "What is an ORM and how should I use it?",
+                                "link": "https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-and-how-should-i-use-one"
+                            },
+                            {
+                                "name": "What is an ORM, how does it work, and how should I use one?",
+                                "link": "https://stackoverflow.com/a/1279678"
+                            }
+                           
+                        ]
+                    }
+                ]
+            },
+            "Scaling Databases": {
+                "description": "A database is a collection of useful data of one or more related organizations structured in a way to make data an asset to the organization. A database management system is a software designed to assist in maintaining and extracting large collections of data in a timely fashion.\nVisit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "Oracle: What is a Database?",
+                        "link": "https://www.oracle.com/database/what-is-database/"
+                    },
+                    {
+                        "name": "Prisma.io: What are Databases?",
+                        "link": "https://www.prisma.io/dataguide/intro/what-are-databases"
+                    }
+                  
+                ],
+                "order": 9,
+                "options": [
+                    {
+                        "name": "Database Indexes",
+                        "recommendation-type": "opinion",
+                        "description": "An index is a data structure that you build and assign on top of an existing table that basically looks through your table and tries to analyze and summarize so that it can create shortcuts.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "An in-depth look at Database Indexing",
+                                "link": "https://www.freecodecamp.org/news/database-indexing-at-a-glance-bb50809d48bd/"
+                            },
+                            {
+                                "name": "Database Indexing Explained",
+                                "link": "https://www.youtube.com/watch?v=-qNSXK7s7_w"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Data Replication",
+                        "recommendation-type": "opinion",
+                        "description": "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance (standby instance). Organizations replicate data to support high availability, backup, and/or disaster recovery.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What is Data Replication?",
+                                "link": "https://youtu.be/fUrKt-AQYtE"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Sharding strategies",
+                        "recommendation-type": "opinion",
+                        "description": "Sharding strategy is a technique to split a large dataset into smaller chunks (logical shard) in which we distribute these chunks in different machines/database nodes in order to distribute the traffic load. It’s a good mechanism to improve the scalability of an application. Many databases support sharding, but not all.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Database Sharding – System Design Interview Concept",
+                                "link": "https://www.geeksforgeeks.org/database-sharding-a-system-design-concept/"
+                            },
+                            {
+                                "name": "Wikipedia - Sharding in Database Architectures",
+                                "link": "https://en.wikipedia.org/wiki/Shard_(database_architecture)"
+                            },
+                            {
+                                "name": "How sharding a database can make it faster",
+                                "link": "https://stackoverflow.blog/2022/03/14/how-sharding-a-database-can-make-it-faster/"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "CAP Theorem",
+                        "recommendation-type": "opinion",
+                        "description": "CAP is an acronym that stands for Consistency, Availability and Partition Tolerance. According to CAP theorem, any distributed system can only guarantee two of the three properties at any point of time. You can’t guarantee all three properties at once.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What is CAP Theorem?",
+                                "link": "https://www.bmc.com/blogs/cap-theorem/"
+                            },
+                            {
+                                "name": "CAP Theorem - Wikipedia",
+                                "link": "https://en.wikipedia.org/wiki/CAP_theorem"
+                            },
+                            {
+                                "name": "An Illustrated Proof of the CAP Theorem",
+                                "link": "https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/"
+                            },
+                            {
+                                "name": "CAP Theorem and its applications in NoSQL Databases",
+                                "link": "https://www.ibm.com/uk-en/cloud/learn/cap-theorem"
+                            },
+                            {
+                                "name": "What is CAP Theorem?",
+                                "link": "https://www.youtube.com/watch?v=_RbsFXWRZ10"
+                            }
+                          
+                        ]
+                    }
+                ]
+            },
+            "Leam About APIs": {
+                "order": 10,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Caching": {
+                "description": " Caching is a technique of storing frequently used data or information in a local memory, for a certain time period. So, next time, when the client requests the same information, instead of retrieving the information from the database, it will give the information from the local memory. The main advantage of caching is that it improves the performance by reducing the processing burden.",
+                "resources": [
+                    {
+                        "name": "",
+                        "link": ""
+                    }
+                   
+                   
+                ],
+                "Server Side": [
+                    
+                    
+                    {
+                        "name": "Casandra",
+                        "recommendation-type": "opinion",
+                        "description": "A wide-column database (sometimes referred to as a column database) is similar to a relational database. It store data in tables, rows and columns. However in opposite to relational databases here each row can have its own format of the columns. Column databases can be seen as a two-dimensional key-value database. One of such database system is Apache Cassandra.\nWarning: note that a “columnar database” and a “column database” are two different terms!\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Apache Cassandra",
+                                "link": "https://cassandra.apache.org/_/index.html"
+                            },
+                            {
+                                "name": "Apache Cassandra Database - Full Course for Beginners",
+                                "link": "https://www.youtube.com/watch?v=J-cSy5MeMOA"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "HBase",
+                        "recommendation-type": "opinion",
+                        "description": "A wide-column database (sometimes referred to as a column database) is similar to a relational database. It store data in tables, rows and columns. However in opposite to relational databases here each row can have its own format of the columns. Column databases can be seen as a two-dimensional key-value database. One of such database system is Apache Cassandra.\nWarning: note that a “columnar database” and a “column database” are two different terms!\nVisit the following resources to learn more",
+                        "resources": [
+                            {
+                                "name": "Apache Cassandra",
+                                "link": "https://cassandra.apache.org/_/index.html"
+                            },
+                            {
+                                "name": "Apache Cassandra Database - Full Course for Beginners",
+                                "link": "https://wwwhttps://www.youtube.com/watch?v=J-cSy5MeMOA.mongodb.com/"
+                            }
+                            
+                          
+                        ]
+                    }
+                   
+
+                ],
+                "order": 11,
+                "options": [
+                    {
+                        "name": "Client Side Caching",
+                        "recommendation-type": "opinion",
+                        "description": "Client-side caching is the storage of network data to a local cache for future re-use. After an application fetches network data, it stores that resource in a local cache. Once a resource has been cached, the browser uses the cache on future requests for that resource to boost performance.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Everything you need to know about HTTP Caching",
+                                "link": "https://www.youtube.com/watch?v=HiBDZgTNpXY"
+                            }
+                          
+                        ]
+                    },
+                    
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Web Security Knowledge": {
+                "order": 12,
+                "module bundlers": {
+                    "options": [
+                        {
+                            "name": "",
+                            "recommendation-type": "opinion",
+                            "description": "",
+                            "resources": [
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "",
+                            "recommendation-type": "opinion",
+                            "description": "",
+                            "resources": [
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "",
+                            "recommendation-type": "opinion",
+                            "description": "",
+                            "resources": [
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "",
+                            "recommendation-type": "opinion",
+                            "description": "",
+                            "resources": [
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "Testing": {
+                "description": "A key to building software that meets requirements without defects is testing. Software testing helps developers know they are building the right software. When tests are run as part of the development process (often with continuous integration tools), they build confidence and prevent regressions in the code.\nVisit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "What is Software Testing?",
+                        "link": "https://www.guru99.com/software-testing-introduction-importance.html"
+                    },
+                    {
+                        "name": "Testing Pyramid",
+                        "link": "https://www.browserstack.com/guide/testing-pyramid-for-test-automation"
+                    }
+                    
+                ],
+                "order": 13,
+                "options": [
+                    {
+                        "name": "Integration Testing",
+                        "recommendation-type": "opinion",
+                        "description": "Integration testing is a broad category of tests where multiple software modules are integrated and tested as a group. It is meant to test the interaction between multiple services, resources, or modules. For example, an API’s interaction with a backend service, or a service with a database.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Integration Testing",
+                                "link": "https://www.guru99.com/integration-testing.html"
+                            },
+                            {
+                                "name": "How to Integrate and Test Your Tech Stack",
+                                "link": "https://thenewstack.io/how-to-integrate-and-test-your-tech-stack/"
+                            },
+                            {
+                                "name": "What is Integration Testing?",
+                                "link": "https://youtu.be/QYCaaNz8emY"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Unit Testing",
+                        "recommendation-type": "opinion",
+                        "description": "Unit testing is where individual units (modules, functions/methods, routines, etc.) of software are tested to ensure their correctness. This low-level testing ensures smaller components are functionally sound while taking the burden off of higher-level tests. Generally, a developer writes these tests during the development process and they are run as automated tests.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Unit Testing Tutorial",
+                                "link": "https://www.guru99.com/unit-testing-guide.html"
+                            },
+                            {
+                                "name": "What is Unit Testing?",
+                                "link": "https://youtu.be/3kzHmaeozDI"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Functional Testing",
+                        "recommendation-type": "opinion",
+                        "description": "Functional testing is where software is tested to ensure functional requirements are met. Usually, it is a form of black box testing in which the tester has no understanding of the source code; testing is performed by providing input and comparing expected/actual output. It contrasts with non-functional testing, which includes performance, load, scalability, and penetration testing.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What is Functional Testing?",
+                                "link": "https://www.guru99.com/functional-testing.html"
+                            },
+                            {
+                                "name": "Functional Testing vs Non-Functional Testing",
+                                "link": "https://youtu.be/j_79AXkG4PY"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "CI / CD": {
+                "description": " CI/CD (Continuous Integration/Continuous Deployment) is the practice of automating building, testing, and deployment of applications with the main goal of detecting issues early, and provide quicker releases to the production environment.\nVisit the following resources to learn more:",
+                "resources": [
+                    {
+                        "name": "DevOps CI/CD Explained in 100 Seconds by Fireship",
+                        "link": "https://www.youtube.com/watch?v=scEDHsr3APg"
+                    },
+                    {
+                        "name": "Automate your Workflows with GitHub Actions",
+                        "link": "https://www.youtube.com/watch?v=nyKZTKQS_EQ"
+                    },
+                    {
+                        "name": "What is CI/CD?",
+                        "link": "https://about.gitlab.com/topics/ci-cd/"
+                    },
+                    {
+                        "name": "A Primer: Continuous Integration and Continuous Delivery (CI/CD)",
+                        "link": "https://thenewstack.io/a-primer-continuous-integration-and-continuous-delivery-ci-cd/"
+                    },
+                    {
+                        "name": "3 Ways to Use Automation in CI/CD Pipelines",
+                        "link": "https://thenewstack.io/3-ways-to-use-automation-in-ci-cd-pipelines/"
+                    },
+                    {
+                        "name": "Articles about CI/CD",
+                        "link": "https://thenewstack.io/category/ci-cd/"
+                    }
+                   
+                ],
+                "order": 14,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Software Design & Architecture": {
+                "order": 15,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Design and Development Principles": {
+                "description": " ",
+                "resources": [
+                    {
+                        "name": "",
+                        "link": ""
+                    },
+                    {
+                        "name": "",
+                        "link": ""
+                    },
+                    {
+                        "name": "",
+                        "link": ""
+                    },
+                    {
+                        "name": "",
+                        "link": ""
+                    }
+                   
+                ],
+                "order": 16,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Architectural Potterns": {
+                "order": 17,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Message Brokers": {
+                "order": 18,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Containerization vs Virtualization": {
+                "description": " Containers and virtual machines are the two most popular approaches to setting up a software infrastructure for your organization.\nVisit the following resources to learn more:",
+                "resources": [
+                    {
+                        "name": "Containerization vs. Virtualization: Everything you need to know",
+                        "link": "https://middleware.io/blog/containerization-vs-virtualization/"
+                    },
+                    {
+                        "name": "Containerization or Virtualization - The Differences",
+                        "link": "https://www.youtube.com/watch?v=1WnDHitznGY"
+                    }
+                   
+                ],
+                "order": 19,
+                "options": [
+                    {
+                        "name": "Kubernetes",
+                        "recommendation-type": "opinion",
+                        "description": "Kubernetes is an open source container management platform, and the dominant product in this space. Using Kubernetes, teams can deploy images across multiple underlying hosts, defining their desired availability, deployment logic, and scaling logic in YAML. Kubernetes evolved from Borg, an internal Google platform used to provision and allocate compute resources. (similar to the Autopilot and Aquaman systems of Microsoft Azure)\nThe popularity of Kubernetes has made it an increasingly important skill for the DevOps Engineer and has triggered the creation of Platform teams across the industry. These Platform engineering teams often exist with the sole purpose of making Kubernetes approachable and usable for their product development colleagues.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Kubernetes Website",
+                                "link": "https://kubernetes.io/"
+                            },
+                            {
+                                "name": "Kubernetes Documentation",
+                                "link": "https://kubernetes.io/docs/home/"
+                            },
+                            {
+                                "name": "Kubernetes Crash Course for Absolute Beginners",
+                                "link": "https://www.youtube.com/watch?v=s_o8dwzRlu4"
+                            },
+                            {
+                                "name": "Primer: How Kubernetes Came to Be, What It Is, and Why You ShouldCare",
+                                "link": "https://thenewstack.io/primer-how-kubernetes-came-to-be-what-it-is-and-why-you-should-care/"
+                            },
+                            {
+                                "name": "Kubernetes: An Overview",
+                                "link": "https://thenewstack.io/kubernetes-an-overview/"
+                            }
+                          
+                        ]
+                    },
+                    {
+                        "name": "Docker",
+                        "recommendation-type": "opinion",
+                        "description": "Docker is a platform for working with containerized applications. Among its features are a daemon and client for managing and interacting with containers, registries for storing images, and a desktop application to package all these features together.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Docker Documentation",
+                                "link": "https://docs.docker.com/"
+                            },
+                            {
+                                "name": "What is Docker | AWS",
+                                "link": "https://aws.amazon.com/docker/"
+                            },
+                            {
+                                "name": "Complete Docker Course - From BEGINNER to PRO!",
+                                "link": "https://www.youtube.com/watch?v=RqTEHSBrYFw"
+                            },
+                            {
+                                "name": "Docker Tutorial",
+                                "link": "https://youtu.be/3c-iBn73dDE"
+                            },
+                            {
+                                "name": "Docker simplified in 55 seconds",
+                                "link": "https://youtu.be/vP_4DlOH1G4"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "LXC",
+                        "recommendation-type": "opinion",
+                        "description": "LXC is an abbreviation used for Linux Containers which is an operating system that is used for running multiple Linux systems virtually on a controlled host via a single Linux kernel. LXC is a userspace interface for the Linux kernel containment features. Through a powerful API and simple tools, it lets Linux users easily create and manage system or application containers.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "LXC Documentation",
+                                "link": "https://linuxcontainers.org/lxc/documentation/"
+                            },
+                            {
+                                "name": "What is LXC?",
+                                "link": "https://linuxcontainers.org/lxc/introduction/"
+                            },
+                            {
+                                "name": "Linux Container (LXC) Introduction",
+                                "link": "https://youtu.be/_KnmRdK69qM"
+                            },
+                            {
+                                "name": "Getting started with LXC containers",
+                                "link": "https://youtu.be/CWmkSj_B-wo"
+                            }
+                           
+                        ]
+                    }
+                   
+                ]
+            },
+            "GraphQL": {
+                "description": " GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.\nVisit the following resources to learn more:",
+                "resources": [
+                    {
+                        "name": "Server-Sent Events - MDN",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events"
+                    }
+                    
+                   
+                ],
+                "order": 20,
+                "options": [
+                    {
+                        "name": "Apollo",
+                        "recommendation-type": "opinion",
+                        "description": "Apollo is a platform for building a unified graph, a communication layer that helps you manage the flow of data between your application clients (such as web and native apps) and your back-end services.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Apollo Website",
+                                "link": "https://www.apollographql.com/"
+                            },
+                            {
+                                "name": "Official Docs",
+                                "link": "https://www.apollographql.com/docs/"
+                            },
+                            {
+                                "name": "Official YouTube Channel",
+                                "link": "https://www.youtube.com/c/ApolloGraphQL/"
+                            },
+                            {
+                                "name": "GraphQL With React Tutorial - Apollo Client",
+                                "link": "https://www.youtube.com/watch?v=YyUWW04HwKY"
+                            }
+                           
+                        ]
+                    }
+                   
+                   
+                ]
+            },
+            " WebSockets": {
+                "description": "Web sockets are defined as a two-way communication between the servers and the clients, which mean both the parties, communicate and exchange data at the same time. This protocol defines a full duplex communication from the ground up. Web sockets take a step forward in bringing desktop rich functionalities to the web browsers.\nVisit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "Introduction to WebSockets",
+                        "link": "https://www.tutorialspoint.com/websockets/index.htm"
+                    },
+                    {
+                        "name": "A Beginners Guide to WebSockets",
+                        "link": "https://www.youtube.com/watch?v=8ARodQ4Wlf4"
+                    },
+                    {
+                        "name": "Socket.io Library Bidirectional and low-latency communication for",
+                        "link": "https://socket.io/"
+                    },
+                    {
+                        "name": "every platform",
+                        "link": "https://socket.io/"
+                    }
+                   
+                ],
+                "order": 21,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Sever Sent Events": {
+                "description": " Server-Sent Events (SSE) is a technology that allows a web server to push data to a client in real-time. It uses an HTTP connection to send a stream of data from the server to the client, and the client can listen for these events and take action when they are received.\nSSE is useful for applications that require real-time updates, such as chat systems, stock tickers, and social media feeds. It is a simple and efficient way to establish a long-lived connection between a client and a server, and it is supported by most modern web browsers.\nTo use SSE, the client must create an EventSource object and specify the URL of the server-side script that will send the events. The server can then send events by writing them to the response stream with the proper formatting.\nVisit the following resources to learn more:",
+                "resources": [
+                    {
+                        "name": "Server-Sent Events - MDN",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events"
+                    }
+                    
+                   
+                ],
+                "order": 22,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                            
+                        ]
+                    }
+                    
+                ]
+            },
+            "Web Servers": {
+                "description": "Web servers can be either hardware or software, or perhaps a combination of the two.\nHardware Side:\nA hardware web server is a computer that houses web server software and the files that make up a website (for example, HTML documents, images, CSS stylesheets, and JavaScript files). A web server establishes a connection to the Internet and facilitates the physical data exchange with other web-connected devices.\nSoftware side:\nA software web server has a number of software components that regulate how hosted files are accessed by online users. This is at the very least an HTTP server. Software that knows and understands HTTP and URLs (web addresses) is known as an HTTP server (the protocol your browser uses to view webpages). The content of these hosted websites is sent to the end user’s device through an HTTP server, which may be accessed via the domain names of the websites it holds.\nBasically, an HTTP request is made by a browser anytime it wants a file that is stored on a web server. The relevant (hardware) web server receives the request, which is then accepted by the appropriate (software) HTTP server, which then locates the requested content and returns it to the browser over HTTP. (If the server cannot locate the requested page, it responds with a 404 error.)\nVisit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "What is a Web Server",
+                        "link": "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server"
+                    },
+                    {
+                        "name": "Web Server Concepts and Examples",
+                        "link": "https://youtu.be/9J1nJOivdyw"
+                    }
+                   
+                   
+                ],
+                "order": 23,
+                "options": [
+                    {
+                        "name": "Nginx",
+                        "recommendation-type": "opinion",
+                        "description": "NGINX is a powerful web server and uses a non-threaded, event-driven architecture that enables it to outperform Apache if configured correctly. It can also do other important things, such as load balancing, HTTP caching, or be used as a reverse proxy.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://nginx.org/"
+                            },
+                            {
+                                "name": "NGINX Explained in 100 Seconds",
+                                "link": "https://www.youtube.com/watch?v=JKxlsvZXG7c"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Apache",
+                        "recommendation-type": "opinion",
+                        "description": "Apache is a free, open-source HTTP server, available on many operating systems, but mainly used on Linux distributions. It is one of the most popular options for web developers, as it accounts for over 30% of all the websites, as estimated by W3Techs.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Apache Server Website",
+                                "link": "https://httpd.apache.org/"
+                            },
+                            {
+                                "name": "What is Apache Web Server?",
+                                "link": "https://www.youtube.com/watch?v=kaaenHXO4t4"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Caddy",
+                        "recommendation-type": "opinion",
+                        "description": "The Caddy web server is an extensible, cross-platform, open-source web server written in Go. It has some really nice features like automatic SSL/HTTPs and a really easy configuration file.\nVisit the following resources to learn more",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://caddyserver.com/"
+                            },
+                            {
+                                "name": "Getting started with Caddy the HTTPS Web Server from scratch",
+                                "link": "https://www.youtube.com/watch?v=t4naLFSlBpQ"
+                            }
+                         
+                        ]
+                    },
+                    {
+                        "name": "MS IIS",
+                        "recommendation-type": "opinion",
+                        "description": "Internet Information Services (IIS) for Windows® Server is a flexible, secure and manageable Web server for hosting anything on the Web.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://www.iis.net/"
+                            },
+                            {
+                                "name": "Learn Windows Web Server IIS",
+                                "link": "https://www.youtube.com/watch?v=1VdxPWwtISA"
+                            }
+                          
+                        ]
+                    }
+                ]
+            },
+            "Building For Scale": {
+                "order": 24,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+
+}

@@ -1,0 +1,3387 @@
+{
+    "roles": {
+        "C++": {
+            "Introduction to the Language": {
+                "order": 1,
+                "options": [
+                    {
+                        "name": "Learn the basics",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "W3Schools: Learn HTML",
+                                "link": "https://www.w3schools.com/html/html_intro.asp"
+                            },
+                            {
+                                "name": "MDN Docs: Getting Started with HTML",
+                                "link": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started"
+                            },
+                            {
+                                "name": "web.dev: Learn HTML",
+                                "link": "https://web.dev/learn/html"
+                            },
+                            {
+                                "name": "HTML Full Course - Build a Website Tutorial",
+                                "link": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
+                            },
+                            {
+                                "name": "HTML Tutorial for Beginners: HTML Crash Course",
+                                "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
+                            },
+                            {
+                                "name": "HTML Cheatsheet",
+                                "link": "https://htmlcheatsheet.com/"
+                            },
+                            {
+                                "name": "Scaler: HTML",
+                                "link": "https://www.scaler.com/topics/html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+
+                ]
+            },
+            "Setting Up your Environment": {
+                "order": 2,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Basic Operations": {
+                "order": 3,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Functions": {
+                "order": 4,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Data Types": {
+                "order": 5,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Pointers and References": {
+                "order": 6,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Structuring Codebase": {
+                "order": 7,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Structures and Classes": {
+                "order": 8,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Exception Handling": {
+                "order": 9,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Language Concepts": {
+                "order": 10,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Standard Template Library + STL": {
+                "order": 11,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Templates": {
+                "order": 12,
+                "module bundlers": { "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+    
+            },
+            "Idioms": {
+                "order": 13,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Standards": {
+                "order": 14,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Debuggers": {
+                "order": 15,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Compilers": {
+                "order": 16,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Build Systems": {
+                "order": 17,
+                "module bundlers": { "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+    
+            },
+            "Package Managers": {
+                "order": 18,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Working with Libraries": {
+                "order": 19,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+           
+        }
+    }
+    
+}

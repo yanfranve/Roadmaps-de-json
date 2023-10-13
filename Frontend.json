@@ -1,0 +1,2841 @@
+{
+    "roles": {
+        "Frontend": {
+            "Internet": {
+                "description": "he Internet is a global network of computers connected to each other which communicate through a standardized set of protocols. Visit the following resources to learn more:",
+                "resources": [
+                    {
+                        "name": "How does the Internet Work?",
+                        "link": "https://cs.fyi/guide/how-does-internet-work"
+                    },
+                    {
+                        "name": "The Internet Explained",
+                        "link": "https://www.vox.com/2014/6/16/18076282/the-internet"
+                    },
+                    {
+                        "name": "How Does the Internet Work?",
+                        "link": "http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm"
+                    },
+                    {
+                        "name": "Introduction to Internet",
+                        "link": "https://roadmap.sh/guides/what-is-internet"
+                    },
+                    {
+                        "name": "Learn How the Web Works",
+                        "link": "https://internetfundamentals.com/"
+                    },
+                    {
+                        "name": "How does the Internet work?",
+                        "link": "https://www.youtube.com/watch?v=x3c1ih2NJEg"
+                    },
+                    {
+                        "name": "How the Internet Works in 5 Minutes",
+                        "link": "https://www.youtube.com/watch?v=7_LPdttKXPc"
+                    }
+                ],
+                "order": 1,
+                "options": [
+                    {
+                        "name": "How does the internet work?",
+                        "recommendation-type": "opinion",
+                        "description": "The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols. Visit the following resources to learn more",
+                        "resources": [
+                            {
+                                "name": "How does the Internet Work?",
+                                "link": "https://cs.fyi/guide/how-does-internet-work"
+                            },
+                            {
+                                "name": "How Does the Internet Work? MDN Docs",
+                                "link": "URL_de_MDN_Docs"
+                            },
+                            {
+                                "name": "Introduction to Internet",
+                                "link": "https://roadmap.sh/guides/what-is-internet"
+                            },
+                            {
+                                "name": "How does the Internet work? ",
+                                "link": "https://www.youtube.com/watch?v=TNQsmPf24go"
+                            },
+                            {
+                                "name": "How the Internet Works in 5 Minutes",
+                                "link": "https://www.youtube.com/watch?v=7_LPdttKXPc"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "What is HTTP?",
+                        "recommendation-type": "opinion",
+                        "description": "HTTP is the TCP/IP based application layer communication protocol which standardizes how the client and server communicate with each other. HTTP follows a classical 'Client-Server model' with a client opening a connection request, then waiting until it receives a response. HTTP is a stateless protocol, which means that the server does not keep any data (state) between two requests. Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Everything you need to know about HTTP",
+                                "link": "https://cs.fyi/guide/http-in-depth"
+                            },
+                            {
+                                "name": "What is HTTP?",
+                                "link": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/"
+                            },
+                            {
+                                "name": "How HTTPS Works …in a comic!",
+                                "link": "https://howhttps.works/"
+                            },
+                            {
+                                "name": "An overview of HTTP",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
+                            },
+                            {
+                                "name": "HTTP/3 From A To Z: Core Concepts",
+                                "link": "https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/"
+                            },
+                            {
+                                "name": "HTTP/3 Is Now a Standard: Why Use It and How to Get Started",
+                                "link": "https://thenewstack.io/http-3-is-now-a-standard-why-use-it-and-how-to-get-started/"
+                            },
+                            {
+                                "name": "HTTP Crash Course & Exploration",
+                                "link": "https://www.youtube.com/watch?v=iYM2zFP3Zn0"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Domain Name",
+                        "recommendation-type": "opinion",
+                        "description": "A domain name is a unique, easy-to-remember address used to access websites, such as ‘google.com’, and ‘facebook.com’. Users can connect to websites using domain names thanks to the Domain Name System (DNS).Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What is a Domain Name?",
+                                "link": "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name"
+                            },
+                            {
+                                "name": "What is a Domain Name? | Domain name vs. URL",
+                                "link": "https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/"
+                            },
+                            {
+                                "name": "A Beginners Guide to How Domain Names Work",
+                                "link": "https://www.youtube.com/watch?v=Y4cRx19nhJk"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "What is hosting?",
+                        "recommendation-type": "opinion",
+                        "description": "Web hosting is an online service that allows you to publish your website files onto the internet. So, anyone who has access to the internet has access to your website.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What Is Web Hosting? Explained",
+                                "link": "https://www.youtube.com/watch?v=htbY9-yggB0"
+                            },
+                            {
+                                "name": "Different Types of Web Hosting Explained",
+                                "link": "https://www.youtube.com/watch?v=AXVZYzw8geg"
+                            },
+                            {
+                                "name": "Where to Host a Fullstack Project on a Budget",
+                                "link": "https://www.youtube.com/watch?v=Kx_1NYYJS7Q"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "DNS and how it works?",
+                        "recommendation-type": "opinion",
+                        "description": "The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What is DNS?",
+                                "link": "https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/"
+                            },
+                            {
+                                "name": "Mess with DNS - DNS Playground",
+                                "link": "https://messwithdns.net/"
+                            },
+                            {
+                                "name": "How DNS works (comic)",
+                                "link": "https://howdns.works/"
+                            },
+                            {
+                                "name": "DNS and How does it Work?",
+                                "link": "https://www.youtube.com/watch?v=Wj0od2ag5sk"
+                            },
+                            {
+                                "name": "DNS Records",
+                                "link": "https://www.youtube.com/watch?v=7lxgpKh_fRY"
+                            },
+                            {
+                                "name": "When to add glue records to DNS settings",
+                                "link": "https://www.youtube.com/watch?v=e48AyJOA9W8"
+                            },
+                            {
+                                "name": "DNS Records for Newbies - How To Manage Website Records",
+                                "link": "https://www.youtube.com/watch?v=YV5tkQYcvfg"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Browsers and how they work?",
+                        "recommendation-type": "opinion",
+                        "description": "A web browser is a software application that enables a user to access and display web pages or other online content through its graphical user interfac Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "How Browsers Work",
+                                "link": "https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/"
+                            },
+                            {
+                                "name": "Role of Rendering Engine in Browsers",
+                                "link": "https://www.browserstack.com/guide/browser-rendering-engine"
+                            },
+                            {
+                                "name": "Populating the Page: How Browsers Work",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work"
+                            },
+                            {
+                                "name": "How Do Web Browsers Work?",
+                                "link": "https://www.youtube.com/watch?v=WjDrMKZWCt0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "HTML": {
+                "description": "HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.Visit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "W3Schools: Learn HTML",
+                        "link": "https://www.w3schools.com/html/html_intro.asp"
+                    },
+                    {
+                        "name": "htmlreference.io: All HTML elements at a glance",
+                        "link": "https://htmlreference.io/"
+                    },
+                    {
+                        "name": "HTML For Beginners The Easy Way",
+                        "link": "https://html.com/"
+                    },
+                    {
+                        "name": "Web Development Basics",
+                        "link": "https://internetingishard.netlify.app/html-and-css/index.html"
+                    },
+                    {
+                        "name": "Codecademy - Learn HTML",
+                        "link": "https://www.codecademy.com/learn/learn-html"
+                    },
+                    {
+                        "name": "Interactive HTML Course",
+                        "link": "https://github.com/denysdovhan/learnyouhtml"
+                    },
+                    {
+                        "name": "HTML Full Course for Beginners | Complete All-in-One Tutorial",
+                        "link": "https://youtu.be/mJgBOIoGihA"
+                    },
+                    {
+                        "name": "HTML Full Course - Build a Website Tutorial",
+                        "link": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
+                    },
+                    
+                    {
+                        "name": "HTML Tutorial for Beginners: HTML Crash Course",
+                        "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
+                    }
+                ],
+                "order": 2,
+                "options": [
+                    {
+                        "name": "Learn the basics",
+                        "recommendation-type": "opinion",
+                        "description": "HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "W3Schools: Learn HTML",
+                                "link": "https://www.w3schools.com/html/html_intro.asp"
+                            },
+                            {
+                                "name": "MDN Docs: Getting Started with HTML",
+                                "link": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started"
+                            },
+                            {
+                                "name": "web.dev: Learn HTML",
+                                "link": "https://web.dev/learn/html"
+                            },
+                            {
+                                "name": "HTML Full Course - Build a Website Tutorial",
+                                "link": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
+                            },
+                            {
+                                "name": "HTML Tutorial for Beginners: HTML Crash Course",
+                                "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
+                            },
+                            {
+                                "name": "HTML Cheatsheet",
+                                "link": "https://htmlcheatsheet.com/"
+                            },
+                            {
+                                "name": "Scaler: HTML",
+                                "link": "https://www.scaler.com/topics/html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Writing Semantic HTML",
+                        "recommendation-type": "opinion",
+                        "description": "Semantic element clearly describes its meaning to both the browser and the developer. In HTML, semantic element are the type of elements that can be used to define different parts of a web page such as <form>, <table>, <article>, <header>, <footer>, etc.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Guide to Writing Semantic HTML",
+                                "link": "https://cs.fyi/guide/writing-semantic-html"
+                            },
+                            {
+                                "name": "W3Schools: Semantic HTML",
+                                "link": "https://www.w3schools.com/html/html5_semantic_elements.asp"
+                            },
+                            {
+                                "name": "How To Write Semantic HTML",
+                                "link": "https://hackernoon.com/how-to-write-semantic-html-dkq3ulo"
+                            },
+                            {
+                                "name": "HTML Best Practices - How to Build a Better HTML-Based Website",
+                                "link": "https://www.freecodecamp.org/news/html-best-practices/"
+                            },
+                            {
+                                "name": "Semantic HTML: What It Is and How It Improves Your Site",
+                                "link": "https://blog.hubspot.com/website/semantic-html"
+                            },
+                            {
+                                "name": "Semantic Markup",
+                                "link": "https://html.com/semantic-markup"
+                            },
+                            {
+                                "name": "Semantic HTML - web.dev",
+                                "link": "https://web.dev/learn/html/semantic-html/"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Forms and Validations",
+                        "recommendation-type": "opinion",
+                        "description": "Before submitting data to the server, it is important to ensure all required form controls are filled out, in the correct format. This is called client-side form validation, and helps ensure data submitted matches the requirements set forth in the various form controls.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "MDN Web Docs: Client-side form validation",
+                                "link": "https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation"
+                            },
+                            {
+                                "name": "Learn Forms by web.dev",
+                                "link": "https://web.dev/learn/forms/"
+                            },
+                            {
+                                "name": "W3Schools: JavaScript Form Validation",
+                                "link": "https://www.w3schools.com/js/js_validation.asp"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Accessibility",
+                        "recommendation-type": "opinion",
+                        "description": "Web accessibility means that websites, tools, and technologies are designed and developed in such a way that people with disabilities can use them easily.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Developing for Web Accessibility by W3C WAI",
+                                "link": "https://www.w3.org/WAI/tips/developing/"
+                            },
+                            {
+                                "name": "Accessibility Tutorial",
+                                "link": "https://www.w3schools.com/accessibility/index.php"
+                            },
+                            {
+                                "name": "A Complete Guide To Accessible Front-End Components",
+                                "link": "https://www.smashingmagazine.com/2021/03/complete-guide-accessible-front-end-components/"
+                            },
+                            {
+                                "name": "Complete Playlist on Accessibility",
+                                "link": "https://youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g"
+                            },
+                            {
+                                "name": "MDN Accessibility",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/Accessibility"
+                            },
+                            {
+                                "name": "Accessibility for Developers by Google",
+                                "link": "https://web.dev/accessibility"
+                            },
+                            {
+                                "name": "Web Accessibility by Udacity",
+                                "link": "https://www.udacity.com/course/web-accessibility--ud891"
+                            },
+                            {
+                                "name": "Accessibility as an Essential Part of the Inclusive Developer Experience",
+                                "link": "https://thenewstack.io/accessibility-as-an-essential-part-of-the-inclusive-developer-experience/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "SEO Basics",
+                        "recommendation-type": "opinion",
+                        "description": "SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines such as Google, Bing etc.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Google Search Central — SEO Docs",
+                                "link": "https://developers.google.com/search/docs"
+                            },
+                            {
+                                "name": "SEO Guide",
+                                "link": "https://github.com/seo/guide"
+                            },
+                            {
+                                "name": "8 Must-Know SEO Best Practices For Developers",
+                                "link": "https://neilpatel.com/blog/seo-developers/"
+                            },
+                            {
+                                "name": "SEO for Developers",
+                                "link": "https://medium.com/welldone-software/seo-for-developers-a-quick-overview-5b5b7ce34679"
+                            },
+                            {
+                                "name": "Complete SEO Course for Beginners",
+                                "link": "https://www.youtube.com/watch?v=xsVTqzratPs"
+                            },
+                            {
+                                "name": "SEO Expert Course",
+                                "link": "https://www.youtube.com/watch?v=SnxeXZpZkI0"
+                            },
+                            {
+                                "name": "Learning SEO",
+                                "link": "https://learningseo.io/"
+                            }
+                            
+                        ]
+                    }
+                ]
+            },
+            "CSS": {
+                "description": " CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.Visit the following resources to learn more:",
+                "resources": [
+                    {
+                        "name": "The Odin Project",
+                        "link": "https://www.theodinproject.com//"
+                    },
+                    {
+                        "name": "What The Flexbox!",
+                        "link": "https://flexbox.io/"
+                    },
+                    {
+                        "name": "Learn CSS | Codecademy",
+                        "link": "https://www.codecademy.com/learn/learn-css"
+                    },
+                    {
+                        "name": "Learn Intermediate CSS | Codecademy",
+                        "link": "https://www.codecademy.com/learn/learn-intermediate-css"
+                    },
+                    {
+                        "name": "CSS Complete Course",
+                        "link": "https://youtu.be/n4R2E7O-Ngo"
+                    },
+                    {
+                        "name": "CSS Crash Course For Absolute Beginners",
+                        "link": "https://www.youtube.com/watch?v=yfoY53QXEnI"
+                    },
+                    {
+                        "name": "HTML and CSS Tutorial",
+                        "link": "https://www.youtube.com/watch?v=D-h8L5hgW-w"
+                    },
+                    {
+                        "name": "CSS Masterclass - Tutorial & Course for Beginners",
+                        "link": "https://www.youtube.com/watch?v=FqmB-Zj2-PA"
+                    },
+                    {
+                        "name": "W3Schools — Learn CSS",
+                        "link": "https://www.w3schools.com/css/"
+                    },
+                    {
+                        "name": "cssreference.io: All CSS properties at a glance",
+                        "link": "https://cssreference.io/"
+                    },
+                    {
+                        "name": "Web.dev by Google — Learn CSS",
+                        "link": "https://web.dev/learn/css/"
+                    },
+                    {
+                        "name": "freeCodeCamp — Responsive Web Design",
+                        "link": "https://www.freecodecamp.org/learn/responsive-web-design/"
+                    },
+                    {
+                        "name": "Learn to Code HTML & CSS",
+                        "link": "https://learn.shayhowe.com/html-css/building-your-first-web-page/"
+                    },
+                    {
+                        "name": "Joshw Comeaus CSS Hack Blog Posts",
+                        "link": "https://www.joshwcomeau.com/"
+                    },
+                    {
+                        "name": "100 Days CSS Challenge",
+                        "link": "https://100dayscss.com/"
+                    },
+                    {
+                        "name": "CSS Tutorial | Scaler",
+                        "link": "https://www.scaler.com/topics/css"
+                    }
+                ],
+                "order": 3,
+                "options": [
+                    {
+                        "name": "Learn the basics",
+                        "recommendation-type": "opinion",
+                        "description": "CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "W3Schools — Learn CSS",
+                                "link": "https://www.w3schools.com/css/"
+                            },
+                            {
+                                "name": "web.dev — Learn CSS",
+                                "link": "https://web.dev/learn/css/"
+                            },
+                            {
+                                "name": "freeCodeCamp — Responsive Web Design",
+                                "link": "https://www.freecodecamp.org/learn/responsive-web-design/"
+                            },
+                            {
+                                "name": "Learn to Code HTML & CSS",
+                                "link": "https://learn.shayhowe.com/html-css/building-your-first-web-page/"
+                            },
+                            {
+                                "name": "CSS Crash Course For Absolute Beginners",
+                                "link": "https://www.youtube.com/watch?v=yfoY53QXEnI"
+                            },
+                            {
+                                "name": "HTML and CSS Tutorial",
+                                "link": "https://www.youtube.com/watch?v=D-h8L5hgW-w"
+                            },
+                            {
+                                "name": "CSS Masterclass - Tutorial & Course for Beginners",
+                                "link": "https://www.youtube.com/watch?v=FqmB-Zj2-PA"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Making layouts",
+                        "recommendation-type": "opinion",
+                        "description": "Float, grid, flexbox, positioning, display and box model are some of the key topics that are used for making layouts. Use the resources below to learn about these topics.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Learn and Practice Flexbox",
+                                "link": "https://flexboxfroggy.com/"
+                            },
+                            {
+                                "name": "Game for learning CSS Grid",
+                                "link": "https://cssgridgarden.com/"
+                            },
+                            {
+                                "name": "All about Floats",
+                                "link": "https://css-tricks.com/all-about-floats/"
+                            },
+                            {
+                                "name": "Positioning Types: How Do They Differ?",
+                                "link": "https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/"
+                            },
+                            {
+                                "name": "The Box Model",
+                                "link": "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model"
+                            },
+                            {
+                                "name": "The CSS Display Property",
+                                "link": "https://www.freecodecamp.org/news/the-css-display-property-display-none-display-table-inline-block-and-more/"
+                            },
+                            {
+                                "name": "A Complete Guide to Flexbox",
+                                "link": "https://css-tricks.com/snippets/css/a-guide-to-flexbox"
+                            },
+                            {
+                                "name": "A Complete Guide to Grid",
+                                "link": "https://css-tricks.com/snippets/css/complete-guide-grid"
+                            },
+                            {
+                                "name": "Learn CSS Grid - Course",
+                                "link": "https://cssgrid.io/"
+                            },
+                            {
+                                "name": "Learn CSS Grid for free",
+                                "link": "https://scrimba.com/learn/cssgrid"
+                            },
+                            {
+                                "name": "Get on the Grid at Last with the CSS Grid Layout Module",
+                                "link": "https://thenewstack.io/get-grid-last-css-grid-template-markup/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Responsive Web Design",
+                        "recommendation-type": "opinion",
+                        "description": "Responsive Web Designing is the technique to make your webpages look good on all screen sizes. There are certain techniques used to achieve that e.g. CSS media queries, percentage widths, min or max widths heights etc.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Responsive Web Design",
+                                "link": "https://www.w3schools.com/css/css_rwd_intro.asp"
+                            },
+                            {
+                                "name": "Learn Responsive Design",
+                                "link": "https://web.dev/learn/design/"
+                            },
+                            {
+                                "name": "The Beginner’s Guide to Responsive Web Design",
+                                "link": "https://kinsta.com/blog/responsive-web-design/"
+                            },
+                            {
+                                "name": "The guide to responsive web design in 2022",
+                                "link": "https://webflow.com/blog/responsive-web-design"
+                            },
+                            {
+                                "name": "5 simple tips to making responsive layouts the easy way",
+                                "link": "https://www.youtube.com/watch?v=VQraviuwbzU"
+                            },
+                            {
+                                "name": "Introduction To Responsive Web Design",
+                                "link": "https://www.youtube.com/watch?v=srvUrASNj0s"
+                            }
+                           
+                        ]
+                    }
+                   
+                ]
+            },
+            "JavaScript": {
+                "description": "JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on.Visit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "Visit Dedicated JavaScript Roadmap",
+                        "link": "https://roadmap.sh/javascript"
+                    },
+                    {
+                        "name": "W3Schools - JavaScript Tutorial",
+                        "link": "https://www.w3schools.com/js/"
+                    },
+                    {
+                        "name": "The Modern JavaScript Tutorial",
+                        "link": "https://javascript.info/"
+                    },
+                    {
+                        "name": "Learn JavaScript: Covered many topics",
+                        "link": "https://www.javascripttutorial.net/"
+                    },
+                    {
+                        "name": "Eloquent JavaScript textbook",
+                        "link": "https://eloquentjavascript.net/"
+                    },
+                    {
+                        "name": "You Dont Know JS Yet (book series)",
+                        "link": "https://github.com/getify/You-Dont-Know-JS"
+                    },
+                    {
+                        "name": "JavaScript Crash Course for Beginners",
+                        "link": "https://youtu.be/hdI2bqOjy3c?t=2"
+                    },
+                    {
+                        "name": "Build a Netflix Landing Page Clone with HTML, CSS & JS",
+                        "link": "https://youtu.be/P7t13SGytRk?t=22"
+                    },
+                    {
+                        "name": "Build 30 Javascript projects in 30 days",
+                        "link": "https://javascript30.com/"
+                    },
+                    {
+                        "name": "Learn the basics of JavaScript",
+                        "link": "https://github.com/workshopper/javascripting"
+                    },
+                    {
+                        "name": "JavaScript for Beginners",
+                        "link": "https://www.scaler.com/topics/course/javascript-beginners"
+                    }
+                ],
+                "order": 4,
+                "options": [
+                    {
+                        "name": "Learn the basics",
+                        "recommendation-type": "opinion",
+                        "description": "JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "W3Schools - JavaScript Tutorial",
+                                "link": "https://www.w3schools.com/js/"
+                            },
+                            {
+                                "name": "The Modern JavaScript Tutorial",
+                                "link": "https://javascript.info/"
+                            },
+                            {
+                                "name": "JavaScript Crash Course for Beginners",
+                                "link": "https://youtu.be/hdI2bqOjy3c?t=2"
+                            },
+                            {
+                                "name": "Build a Netflix Landing Page Clone with HTML, CSS & JS",
+                                "link": "https://youtu.be/P7t13SGytRk?t=22"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Learn DOM Manipulation",
+                        "recommendation-type": "opinion",
+                        "description": "The Document Object Model (DOM) is a programming interface built for HTML and XML documents. It represents the page that allows programs and scripts to dynamically update the document structure, content, and style. With DOM, we can easily access and manipulate tags, IDs, classes, attributes, etc.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "DOM Tree",
+                                "link": "https://javascript.info/dom-nodes"
+                            },
+                            {
+                                "name": "GeeksForGeeks - DOM (Document Object Model)",
+                                "link": "https://www.geeksforgeeks.org/dom-document-object-model/"
+                            },
+                            {
+                                "name": "What is the DOM?",
+                                "link": "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/"
+                            },
+                            {
+                                "name": "Eloquent JavaScript, 3rd Edition: The Document Object Model",
+                                "link": "https://eloquentjavascript.net/14_dom.html"
+                            },
+                            {
+                                "name": "JavaScript HTML DOM",
+                                "link": "https://www.w3schools.com/js/js_htmldom.asp"
+                            },
+                            {
+                                "name": "JavaScript DOM",
+                                "link": "https://www.javascripttutorial.net/javascript-dom/"
+                            },
+                            {
+                                "name": "Learn the HTML DOM with Exercises - CodeGuage",
+                                "link": "https://www.codeguage.com/courses/js/html-dom-introduction"
+                            },
+                            {
+                                "name": "What is DOM, Shadow DOM and Virtual DOM?",
+                                "link": "https://www.youtube.com/watch?v=7Tok22qxPzQ"
+                            },
+                            {
+                                "name": "JavaScript DOM Crash Course",
+                                "link": "https://www.youtube.com/watch?v=0ik6X4DJKCc"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fetch API / Ajax(XHR) ",
+                        "recommendation-type": "opinion",
+                        "description": "Ajax is the technique that lets us send and receive the data asynchronously from the servers e.g. updating the user profile or asynchronously fetching the list of searched products without reloading the page.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Fetch API MDN Docs",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+                            },
+                            {
+                                "name": "A Simple Guide to JavaScript Fetch API",
+                                "link": "https://www.javascripttutorial.net/javascript-fetch-api/"
+                            },
+                            {
+                                "name": "Introduction to Fetch",
+                                "link": "https://web.dev/introduction-to-fetch/"
+                            },
+                            {
+                                "name": "JavaScript Fetch API",
+                                "link": "https://www.youtube.com/watch?v=-ZI0ea5O2oA"
+                            }
+                           
+                        ]
+                    }
+                   
+                ]
+            },
+            "Vercion Control Systeme ": {
+                "description": "Version control systems allow you to track changes to your codebase/files over time. They allow you to go back to some previous version of the codebase without any issues. Also, they help in collaborating with people working on the same code – if you’ve ever collaborated with other people on a project, you might already know the frustration of copying and merging the changes from someone else into your codebase; version control systems allow you to get rid of this issue.Visit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "Version Control System Introduction",
+                        "link": "https://www.youtube.com/watch?v=zbKdDsNNOhg"
+                    },
+                    {
+                        "name": "Git & GitHub Crash Course For Beginners",
+                        "link": "https://www.youtube.com/watch?v=SWYqp7iY_Tc"
+                    },
+                    {
+                        "name": "Learn Git in 20 Minutes",
+                        "link": "https://youtu.be/Y9XZQO1n_7c?t=21"
+                    },
+                    {
+                        "name": "Git Documentation",
+                        "link": "https://git-scm.com/docs"
+                    },
+                    {
+                        "name": "Learn Git by Atlassian",
+                        "link": "https://www.atlassian.com/git"
+                    }
+                    
+                ],
+                "order": 5,
+                "options": [
+                    {
+                        "name": "Git",
+                        "recommendation-type": "opinion",
+                        "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Git & GitHub Crash Course For Beginners",
+                                "link": "https://www.youtube.com/watch?v=SWYqp7iY_Tc"
+                            },
+                            {
+                                "name": "Learn Git with Tutorials, News and Tips - Atlassian",
+                                "link": "https://www.atlassian.com/git"
+                            },
+                            {
+                                "name": "Git Cheat Sheet",
+                                "link": "https://cs.fyi/guide/git-cheatsheet"
+                            },
+                            {
+                                "name": "Tutorial: Git for Absolutely Everyone",
+                                "link": "https://thenewstack.io/tutorial-git-for-absolutely-everyone/"
+                            }
+                            
+                        ]
+                    }
+                   
+                ]
+            },
+            "VCS Hosting": {
+                "description": "There are different repository hosting services with the most famous one being GitHub, GitLab and BitBucket. I would recommend creating an account on GitHub because that is where most of the OpenSource work is done and most of the developers are. Visit the following resources to learn more:",
+                "resources": [
+                    {
+                        "name": "GitHub: Where the world builds software",
+                        "link": "https://github.com/"
+                    },
+                    {
+                        "name": "GitLab: Iterate faster, innovate together",
+                        "link": "https://gitlab.com/"
+                    },
+                    {
+                        "name": "BitBucket: The Git solution for professional teams",
+                        "link": "https://bitbucket.com/"
+                    }
+                    
+                ],
+                "order": 6,
+                "options": [
+                    {
+                        "name": "GitHub",
+                        "recommendation-type": "opinion",
+                        "description": "GitHub is a provider of internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "GitHub: Quickstart",
+                                "link": "https://docs.github.com/en/get-started/quickstart/hello-world"
+                            },
+                            {
+                                "name": "Learn GitHub by doing",
+                                "link": "https://skills.github.com/"
+                            },
+                            {
+                                "name": "What is GitHub?",
+                                "link": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
+                            },
+                            {
+                                "name": "Git vs. GitHub: Whats the difference?",
+                                "link": "https://www.youtube.com/watch?v=wpISo9TNjfU"
+                            },
+                            {
+                                "name": "Git and GitHub for Beginners",
+                                "link": "https://www.youtube.com/watch?v=RGOj5yH7evk"
+                            },
+                            {
+                                "name": "Git and GitHub - CS50 Beyond 2019",
+                                "link": "https://www.youtube.com/watch?v=eulnSXkhE7I"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "GitLab",
+                        "recommendation-type": "opinion",
+                        "description": "GitLab is a provider of internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "GitLab Documentation",
+                                "link": "https://docs.gitlab.com/"
+                            },
+                            {
+                                "name": "GitLab Website",
+                                "link": "https://gitlab.com/"
+                            },
+                            {
+                                "name": "Development: Connect git to GitLab for Small Projects",
+                                "link": "https://thenewstack.io/development-connect-git-to-gitlab-for-small-projects/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "BitBucket",
+                        "recommendation-type": "opinion",
+                        "description": "BitBucket is a provider of internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "How to use BitBucket?",
+                                "link": "https://bitbucket.org/product/guides"
+                            },
+                            {
+                                "name": "BitBucket Website",
+                                "link": "https://bitbucket.com/"
+                            }
+                           
+                        ]
+                    }
+                   
+                ]
+            },
+            "Package Managers": {
+                "description": "Package managers allow you to manage the dependencies (external code written by you or someone else) that your project needs to work correctly.Visit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "Modern JavaScript for Dinosaurs",
+                        "link": "https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html"
+                    },
+                    {
+                        "name": "An Absolute Beginners Guide to Using npm",
+                        "link": "https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/"
+                    },
+                    {
+                        "name": "Yarn - Getting Started",
+                        "link": "https://yarnpkg.com/en/docs/getting-started"
+                    },
+                    {
+                        "name": "NPM tutorial for Beginners",
+                        "link": "https://www.youtube.com/watch?v=2V1UUhBJ62Y"
+                    },
+                    {
+                        "name": "NPM Crash Course",
+                        "link": "https://www.youtube.com/watch?v=jHDhaSSKmB0"
+                    },
+                    {
+                        "name": "Yarn Crash Course",
+                        "link": "https://www.youtube.com/watch?v=g9_6KmiBISk"
+                    }
+                   
+                ],
+                "order": 7,
+                "options": [
+                    {
+                        "name": "npm",
+                        "recommendation-type": "opinion",
+                        "description": "npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Modern JavaScript for Dinosaurs",
+                                "link": "https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html"
+                            },
+                            {
+                                "name": "An Absolute Beginners Guide to Using npm",
+                                "link": "https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/"
+                            },
+                            {
+                                "name": "How to NPM",
+                                "link": "https://github.com/workshopper/how-to-npm"
+                            },
+                            {
+                                "name": "NPM tutorial for Beginners",
+                                "link": "https://www.youtube.com/watch?v=2V1UUhBJ62Y"
+                            },
+                            {
+                                "name": "NPM Crash Course",
+                                "link": "https://www.youtube.com/watch?v=jHDhaSSKmB0"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "pnpm",
+                        "recommendation-type": "opinion",
+                        "description": "PNPM is an alternative package manager for Node. js which stands for “Performant NPM”. The main purpose of PNPM is to hold all the packages at a global (centralized) store and use them if needed by other projects too by creating hard links to it.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://pnpm.io/"
+                            },
+                            {
+                                "name": "Meet PNPM: The Faster, More Performant NPM",
+                                "link": "https://blog.bitsrc.io/pnpm-javascript-package-manager-4b5abd59dc9"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Yarn",
+                        "recommendation-type": "opinion",
+                        "description": "Yarn is a software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm (package manager).Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Modern JavaScript for Dinosaurs",
+                                "link": "https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html"
+                            },
+                            {
+                                "name": "Yarn - Getting Started",
+                                "link": "https://yarnpkg.com/en/docs/getting-started"
+                            },
+                            {
+                                "name": "Yarn Crash Course",
+                                "link": "https://www.youtube.com/watch?v=g9_6KmiBISk"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Pick a Framework": {
+                "description": " Web frameworks are designed to write web applications. Frameworks are collections of libraries that aid in the development of a software product or website. Frameworks for web application development are collections of various tools. Frameworks vary in their capabilities and functions, depending on the tasks set. They define the structure, establish the rules, and provide the development tools required.Visit the following resources to learn more:",
+                "resources": [
+                    {
+                        "name": "What is the difference between a framework and a library?",
+                        "link": "https://www.youtube.com/watch?v=D_MO9vIRBcA"
+                    },
+                    {
+                        "name": "Which JS Framework is best?",
+                        "link": "https://www.youtube.com/watch?v=cuHDQhDhvPE"
+                    }
+                    
+                ],
+                "order": 8,
+                "options": [
+                    {
+                        "name": "React",
+                        "recommendation-type": "opinion",
+                        "description": "React is the most popular front-end JavaScript library for building user interfaces. React can also render on the server using Node and power mobile apps using React Native.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Visit Dedicated React Roadmap",
+                                "link": "https://roadmap.sh/react"
+                            },
+                            {
+                                "name": "React Website",
+                                "link": "https://react.dev/"
+                            },
+                            {
+                                "name": "Official Getting Started",
+                                "link": "https://react.dev/learn/tutorial-tic-tac-toe"
+                            },
+                            {
+                                "name": "The Beginners Guide to React",
+                                "link": "https://egghead.io/courses/the-beginner-s-guide-to-react"
+                            },
+                            {
+                                "name": "React JS Course for Beginners",
+                                "link": "https://www.youtube.com/watch?v=nTeuhbP7wdE"
+                            },
+                            {
+                                "name": "React Course - Beginners Tutorial for React JavaScript Library [2022]",
+                                "link": "https://www.youtube.com/watch?v=bMknfKXIFA8"
+                            },
+                            {
+                                "name": "Understanding Reacts UI Rendering Process",
+                                "link": "https://www.youtube.com/watch?v=i793Qm6kv3U"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Vue.js",
+                        "recommendation-type": "opinion",
+                        "description": "Vue.js is an open-source JavaScript framework for building user interfaces and single-page applications. It is mainly focused on front end developmentVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Visit Dedicated Vue Roadmap",
+                                "link": "https://roadmap.sh/vue"
+                            },
+                            {
+                                "name": "Vue.js Website",
+                                "link": "https://vuejs.org/"
+                            },
+                            {
+                                "name": "Official Getting Started",
+                                "link": "https://vuejs.org/v2/guide/"
+                            },
+                            {
+                                "name": "Vue.js Course for Beginners",
+                                "link": "https://www.youtube.com/watch?v=FXpIoQ_rT_c"
+                            },
+                            {
+                                "name": "Vue.js Crash Course",
+                                "link": "https://www.youtube.com/watch?v=qZXt1Aom3Cs"
+                            },
+                            {
+                                "name": "Meet Vue.js, the Flexible JavaScript Framework",
+                                "link": "https://thenewstack.io/meet-vue-js-flexible-javascript-framework/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Angular",
+                        "recommendation-type": "opinion",
+                        "description": "Angular is a component based front-end development framework built on TypeScript which includes a collection of well-integrated libraries that include features like routing, forms management, client-server communication, and more.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Visit Dedicated Angular Roadmap",
+                                "link": "https://roadmap.sh/angular"
+                            },
+                            {
+                                "name": "Official - Getting started with Angular",
+                                "link": "https://angular.io/start"
+                            },
+                            {
+                                "name": "Angular for Beginners Course [Full Front End Tutorial with TypeScript]",
+                                "link": "https://www.youtube.com/watch?v=3qBXWUpoPHo"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Qwik",
+                        "recommendation-type": "opinion",
+                        "description": "Qwik is a new kind of web framework that can deliver instant loading web applications at any size or complexity. Your sites and apps can boot with about 1kb of JS (regardless of application complexity), and achieve consistent performance at scale.",
+                        "resources": [
+                            {
+                                "name": "Read more about Qwik on the official website.",
+                                "link": "https://qwik.builder.io/"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Svelte",
+                        "recommendation-type": "opinion",
+                        "description": "Svelte is a javascript framework that unlike Vue and React does not use vertical DOM diffing but instead knows exactly what and where to update when the state changes. It’s mainly focused on frontend and building user interfaces.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Svelte Website",
+                                "link": "https://svelte.dev/"
+                            },
+                            {
+                                "name": "Svelte Documentation",
+                                "link": "https://svelte.dev/docs"
+                            },
+                            {
+                                "name": "Svelte Course Playlist for beginners",
+                                "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO"
+                            },
+                            {
+                                "name": "All About Svelte, the Much-Loved, State-Driven Web Framework",
+                                "link": "https://thenewstack.io/all-about-svelte-the-much-loved-state-driven-web-framework/"
+                            },
+                            {
+                                "name": "Svelte and the Future of Frontend Development",
+                                "link": "https://thenewstack.io/svelte-and-the-future-of-front-end-development/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "SolidJS",
+                        "recommendation-type": "opinion",
+                        "description": "Solid is a reactive JavaScript toolkit for building user interfaces without a virtual DOM. To ensure that only the relevant code is executed when a state update occurs, it compiles templates down to real DOM nodes once and wraps modifications into fine-grained reactions.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website - SolidJS",
+                                "link": "https://www.solidjs.com/"
+                            },
+                            {
+                                "name": "SolidJS Tutorial",
+                                "link": "https://www.solidjs.com/tutorial/introduction_basics"
+                            }
+                           
+                        ]
+                    }
+                ]
+            },
+            "Writing CSS": {
+                "description": "The way we write CSS in our modern front-end applications is completely different from how we used to write CSS before. There are methods such as Styled Components, CSS Modules, Styled JSX, Emotion, etc ",
+                "order": 9,
+                "options": [
+                    {
+                        "name": "Tailwind",
+                        "recommendation-type": "opinion",
+                        "description": "CSS Framework that provides atomic CSS classes to help you style components e.g. flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Tailwind Website",
+                                "link": "https://tailwindcss.com/"
+                            },
+                            {
+                                "name": "Tailwind CSS Full Course for Beginners",
+                                "link": "https://www.youtube.com/watch?v=lCxcTsOHrjo"
+                            },
+                            {
+                                "name": "Tailwind CSS Crash Course",
+                                "link": "https://www.youtube.com/watch?v=UBOj6rqRUME"
+                            },
+                            {
+                                "name": "Should You Use Tailwind CSS?",
+                                "link": "https://www.youtube.com/watch?v=hdGsFpZ0J2E"
+                            },
+                            {
+                                "name": "Official Screencasts",
+                                "link": "https://www.youtube.com/c/TailwindLabs/videos"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Radix UI",
+                        "recommendation-type": "opinion",
+                        "description": "An open-source UI component library for building high-quality, accessible design systems and web apps.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://www.radix-ui.com/"
+                            },
+                            {
+                                "name": "Official Documentation",
+                                "link": "https://www.radix-ui.com/docs/primitives/overview/introduction"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Shadcn UI",
+                        "recommendation-type": "opinion",
+                        "description": "Shadcn UI are beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source. They are built with Tailwind CSS and Radix UI.",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://ui.shadcn.com/"
+                            },
+                            {
+                                "name": "Official GitHub Repository",
+                                "link": "https://github.com/shadcn-ui/ui"
+                            }
+                            
+                        ]
+                    }
+                    
+                ]
+            },
+            "CSS Architecture": {
+                "description": "CSS is notoriously difficult to manage in large, complex, rapidly-iterated systems. There are different ways of writing CSS that allows in writing more maintainable CSS. Visit the following resources to learn more:",
+                "resources": [
+                    {
+                        "name": "A Look at Some CSS Methodologies",
+                        "link": "https://www.webfx.com/blog/web-design/css-methodologies/"
+                    },
+                    {
+                        "name": "BEM Official Website",
+                        "link": "https://en.bem.info/"
+                    },
+                    {
+                        "name": "OOCSS Official Website",
+                        "link": "http://oocss.org/"
+                    },
+                    {
+                        "name": "SMACSS Official Website",
+                        "link": "http://smacss.com/"
+                    }
+                   
+                ],
+                "order": 10,
+                "options": [
+                    {
+                        "name": "BEM",
+                        "recommendation-type": "opinion",
+                        "description": "The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS. Developed by the team at Yandex, its goal is to help developers better understand the relationship between the HTML and CSS in a given project.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "BEM Official Website",
+                                "link": "https://en.bem.info/"
+                            },
+                            {
+                                "name": "BEM Documentation",
+                                "link": "https://en.bem.info/methodology/quick-start"
+                            },
+                            {
+                                "name": "BEM 101",
+                                "link": "https://css-tricks.com/bem-101"
+                            },
+                            {
+                                "name": "BEM Tutorials",
+                                "link": "https://en.bem.info/tutorials/"
+                            }
+                           
+                        ]
+                    }
+                    
+                ]
+            },
+            "CSS Preprocessors": {
+                "description": "CSS Preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations.Visit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "CSS Preprocessors Explained",
+                        "link": "https://www.freecodecamp.org/news/css-preprocessors/"
+                    },
+                    {
+                        "name": "Why Use Preprocessors?",
+                        "link": "https://sherocommerce.com/what-is-a-css-preprocessors-why-use-them/"
+                    }
+                   
+                ],
+                "order": 11,
+                "options": [
+                    {
+                        "name": "Sass",
+                        "recommendation-type": "opinion",
+                        "description": "Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. It lets you write maintainable CSS and provides features like variable, nesting, mixins, extension, functions, loops, conditionals and so on.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Sass Website",
+                                "link": "https://sass-lang.com/"
+                            },
+                            {
+                                "name": "Official Documentation",
+                                "link": "https://sass-lang.com/documentation"
+                            },
+                            {
+                                "name": "Sass Tutorial for Beginners",
+                                "link": "https://www.youtube.com/watch?v=_a5j7KoflTs"
+                            },
+                            {
+                                "name": "Sass, BEM, & Responsive Design",
+                                "link": "https://www.youtube.com/watch?v=jfMHA8SqUL4"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "PostCSS",
+                        "recommendation-type": "opinion",
+                        "description": "PostCSS is a tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://postcss.org/"
+                            }
+                            
+                        ]
+                    }
+                   
+                ]
+            },
+            "Build Tools": {
+                "description": "Task runners automatically execute commands and carry out processes behind the scenes. This helps automate your workflow by performing mundane, repetitive tasks that you would otherwise waste an egregious amount of time repeating yourself.Common usages of task runners include numerous development tasks such as: spinning up development servers, compiling code (ex. SCSS to CSS), running linters, serving files up from a local port on your computer, and many more!Visit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "webpack is a static module bundler for modern JavaScript",
+                        "link": "https://webpack.js.org/"
+                    },
+                    {
+                        "name": "applications",
+                        "link": "https://webpack.js.org/"
+                    },
+                    {
+                        "name": "Vite Next Generation Frontend Tooling",
+                        "link": "https://vitejs.dev/"
+                    },
+                    {
+                        "name": "Parcel is a zero configuration build tool for the web",
+                        "link": "https://parceljs.org/"
+                    }
+                   
+                ],
+                "order": 12,
+                "module bundlers": {
+                    "options": [
+                        {
+                            "name": "Vite",
+                            "recommendation-type": "opinion",
+                            "description": "Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects.Visit the following resources to learn more:",
+                            "resources": [
+                                {
+                                    "name": "Vite Website",
+                                    "link": "https://vitejs.dev/"
+                                },
+                                {
+                                    "name": "Vite Documentation",
+                                    "link": "https://vitejs.dev/guide"
+                                },
+                                {
+                                    "name": "Vite Crash Course",
+                                    "link": "https://youtu.be/LQQ3CR2JTX8"
+                                },
+                                {
+                                    "name": "Vite Tutorial Video",
+                                    "link": "https://www.youtube.com/watch?v=VAeRhmpcWEQ"
+                                }
+                               
+                            ]
+                        },
+                        {
+                            "name": "esbuild",
+                            "recommendation-type": "opinion",
+                            "description": "Our current build tools for the web are 10-100x slower than they could be. The main goal of the esbuild bundler project is to bring about a new era of build tool performance, and create an easy-to-use modern bundler along the way.Visit the following resources to learn more:",
+                            "resources": [
+                                {
+                                    "name": "Esbuild Official Website",
+                                    "link": "https://esbuild.github.io/"
+                                },
+                                {
+                                    "name": "Esbuild Documentation",
+                                    "link": "https://esbuild.github.io/api/"
+                                },
+                                {
+                                    "name": "Why are People Obsessed with esbuild?",
+                                    "link": "https://www.youtube.com/watch?v=9XS_RA6zyyU"
+                                },
+                                {
+                                    "name": "What Is ESBuild?",
+                                    "link": "https://www.youtube.com/watch?v=zy8vu8cbwf0"
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "name": "Webpack",
+                            "recommendation-type": "opinion",
+                            "description": "Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.Visit the following resources to learn more:",
+                            "resources": [
+                                {
+                                    "name": "Webpack Official Website",
+                                    "link": "https://webpack.js.org/"
+                                },
+                                {
+                                    "name": "Webpack Documentation",
+                                    "link": "https://webpack.js.org/concepts/"
+                                },
+                                {
+                                    "name": "A Complete Guide to Webpack 5",
+                                    "link": "https://www.valentinog.com/blog/webpack"
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "name": "Rollup",
+                            "recommendation-type": "opinion",
+                            "description": "Rollup is a module bundler for JavaScript which compiles small pieces of code into something larger and more complex, such as a library or application.Visit the following resources to learn more:",
+                            "resources": [
+                                {
+                                    "name": "Official Website and Docs",
+                                    "link": "https://rollupjs.org/"
+                                },
+                                {
+                                    "name": "How to Set Up JavaScript Bundling Using Rollup",
+                                    "link": "https://www.youtube.com/watch?v=ICYLOZuFMz8"
+                                }
+                               
+                            ]
+                        },
+                        {
+                            "name": "Parcel",
+                            "recommendation-type": "opinion",
+                            "description": "Parcel is a web application bundler, differentiated by its developer experience. It offers blazing-fast performance utilizing multicore processing and requires zero configuration.Visit the following resources to learn more:",
+                            "resources": [
+                                {
+                                    "name": "Official Website and Docs",
+                                    "link": "https://parceljs.org/plugin-system/bundler/"
+                                },
+                                {
+                                    "name": "Using Parcel Bundler with React",
+                                    "link": "https://www.youtube.com/watch?v=hCxvp3_o0gM"
+                                }
+                                
+                            ]
+                        }
+                    ]
+                },
+                "Task Runners": {
+                    "options": [
+                        {
+                            "name": "npm Scripts",
+                            "recommendation-type": "opinion",
+                            "description": "npm scripts are the entries in the scripts field of the package.json file. The scripts field holds an object where you can specify various commands and scripts that you want to expose.Visit the following resources to learn more:",
+                            "resources": [
+                                {
+                                    "name": "Introduction to npm scripts",
+                                    "link": "https://www.geeksforgeeks.org/introduction-to-npm-scripts/"
+                                },
+                                {
+                                    "name": "Codevolution: npm scripts",
+                                    "link": "https://www.youtube.com/watch?v=hHt3oVk3XVk"
+                                }
+                                
+                            ]
+                        }
+                       
+                    ]
+                },
+                "Linters formatters": {
+                    "options": [
+                        {
+                            "name": "Prettier",
+                            "recommendation-type": "opinion",
+                            "description": "Prettier is an opinionated code formatter with support for JavaScript, HTML, CSS, YAML, Markdown, GraphQL Schemas. By far the biggest reason for adopting Prettier is to stop all the on-going debates over styles.Visit the following resources to learn more:",
+                            "resources": [
+                                {
+                                    "name": "Prettier Website",
+                                    "link": "https://prettier.io/"
+                                },
+                                {
+                                    "name": "Why Prettier",
+                                    "link": "https://prettier.io/docs/en/why-prettier.html"
+                                }
+                               
+                            ]
+                        },
+                        {
+                            "name": "ESLint",
+                            "recommendation-type": "opinion",
+                            "description": "With ESLint you can impose the coding standard using a certain set of standalone rules.Visit the following resources to learn more:",
+                            "resources": [
+                                {
+                                    "name": "ESLint Official Website",
+                                    "link": "https://eslint.org/"
+                                },
+                                {
+                                    "name": "Introduction to ESLint",
+                                    "link": "https://dev.to/shivambmgupta/eslint-what-why-when-how-5f1d"
+                                },
+                                {
+                                    "name": "ESLint Quickstart - find errors automatically",
+                                    "link": "https://www.youtube.com/watch?v=qhuFviJn-es"
+                                }
+                                
+                            ]
+                        }
+                        
+                    ]
+                }
+                
+            },
+            "Testing Your Apps": {
+                "description": "Before delivering your application to users, you need to be sure that your app meets the requirements it was designed for, and that it doesn’t do any weird, unintended things (called ‘bugs’). To accomplish this, we ‘test’ our applications in different ways.Visit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "A comprehensive dive into software testing.",
+                        "link": "https://www.softwaretestingmaterial.com/software-testing/"
+                    },
+                    {
+                        "name": "The different types of software tests",
+                        "link": "https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing"
+                    },
+                    {
+                        "name": "Testing React apps with Jest",
+                        "link": "https://jestjs.io/docs/tutorial-react"
+                    }
+                  
+                ],
+                "order": 13,
+                "options": [
+                    {
+                        "name": "Vitest",
+                        "recommendation-type": "opinion",
+                        "description": "Vitest is a fast Vite-native unit test framework with out-of-box ESM, TypeScript and JSX support. Works on React, Vue, Svelte and more projects created with Vite Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Vitest Website",
+                                "link": "https://vitest.dev/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Jest",
+                        "recommendation-type": "opinion",
+                        "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more! Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Jest Website",
+                                "link": "https://jestjs.io/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Playwright",
+                        "recommendation-type": "opinion",
+                        "description": "Playwright is an open-source test automation library initially developed by Microsoft contributors. It supports programming languages such as Java, Python, C#, and NodeJS. Playwright comes with Apache 2.0 License and is most popular with NodeJS with Javascript/Typescript.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Playwright Website",
+                                "link": "https://playwright.dev/"
+                            },
+                            {
+                                "name": "Playwright Tutorial: Learn Basics and Setup",
+                                "link": "https://www.browserstack.com/guide/playwright-tutorial"
+                            },
+                            {
+                                "name": "Playwright, a Time-Saving End-to-End Testing Framework",
+                                "link": "https://thenewstack.io/playwright-a-time-saving-end-to-end-testing-framework/"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Cypress",
+                        "recommendation-type": "opinion",
+                        "description": "Cypress framework is a JavaScript-based end-to-end testing framework built on top of Mocha – a feature-rich JavaScript test framework running on and in the browser, making asynchronous testing simple and convenient. It also uses a BDD/TDD assertion library and a browser to pair with any JavaScript testing framework.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://www.cypress.io/"
+                            },
+                            {
+                                "name": "Official Documentation",
+                                "link": "https://docs.cypress.io/guides/overview/why-cypress#Other"
+                            },
+                            {
+                                "name": "Cypress End-to-End Testing",
+                                "link": "https://www.youtube.com/watch?v=7N63cMKosIE"
+                            }
+                           
+                        ]
+                    }
+                ]
+            },
+            
+                "Authentication Strategies": {
+                    "description": "Authentication strategies are methods or techniques used to verify the identity of a user or system in order to grant access to a protected resource. There are several different authentication strategies that can be used, including: Basic Authentication, Session Based Authentication, Token Based Authentication, JWT Authentication, OAuth, SSO. You don’t necessarily need to learn all of these from the get-go, but it’s important to know what they are and how they work. This will help you make better decisions when choosing an authentication strategy for your application.",
+                    "order": 14,
+                    "options": [
+                        {
+                            "resources": [
+                                {
+                                    "name": "Basic Authentication",
+                                    "link": "https://roadmap.sh/guides/basic-authentication"
+                                },
+                                {
+                                    "name": "Session Based Authentication",
+                                    "link": "https://roadmap.sh/guides/session-authentication"
+                                },
+                                {
+                                    "name": "Token Based Authentication",
+                                    "link": "https://roadmap.sh/guides/token-authentication"
+                                },
+                                {
+                                    "name": "JWT Authentication",
+                                    "link": "https://roadmap.sh/guides/jwt-authentication"
+                                },
+                                {
+                                    "name": "OAuth",
+                                    "link": "https://roadmap.sh/guides/oauth"
+                                },
+                                {
+                                    "name": "Single Sign-On (SSO)",
+                                    "link": "https://roadmap.sh/guides/sso"
+                                }
+                            ]
+                        }
+                    ]
+                },
+            
+            
+            "Web Security Basics": {
+                "description": "Web security refers to the protective measures taken by the developers to protect the web applications from threats that could affect the business.Visit the following resources to learn more:",
+                "resources": [
+                    {
+                        "name": "Why HTTPS Matters",
+                        "link": "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https"
+                    },
+                    {
+                        "name": "Wikipedia - OWASP",
+                        "link": "https://en.wikipedia.org/wiki/OWASP"
+                    },
+                    {
+                        "name": "OWASP Web Application Security Testing Checklist",
+                        "link": "https://github.com/0xRadi/OWASP-Web-Checklist"
+                    },
+                    {
+                        "name": "OWASP Top 10 Security Risks",
+                        "link": "https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2021/"
+                    },
+                    {
+                        "name": "OWASP Cheatsheets",
+                        "link": "https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html"
+                    },
+                    {
+                        "name": "Content Security Policy (CSP)",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP"
+                    },
+                    {
+                        "name": "OWASP ZAP Step-by-Step Tutorial",
+                        "link": "https://www.youtube.com/playlist?list=PLH8n_ayg-60J9i3nsLybper-DR3zJw6Z5"
+                    }
+                ],
+                "order": 15,
+                "options": [
+                    {
+                        "name": "CORS",
+                        "recommendation-type": "opinion",
+                        "description": "Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Cross-Origin Resource Sharing (CORS)",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS"
+                            },
+                            {
+                                "name": "CORS in 100 Seconds",
+                                "link": "https://www.youtube.com/watch?v=4KHiSt0oLJ0"
+                            },
+                            {
+                                "name": "CORS in 6 minutes",
+                                "link": "https://www.youtube.com/watch?v=PNtFSVU-YTI"
+                            },
+                            {
+                                "name": "Understanding CORS",
+                                "link": "https://rbika.com/blog/understanding-cors"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "HTTPS",
+                        "recommendation-type": "opinion",
+                        "description": "HTTPS is a secure way to send data between a web server and a browser.Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website. HTTPS is encrypted in order to increase security of data transfer. This is particularly important when users transmit sensitive data, such as by logging into a bank account, email service, or health insurance provider Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What is HTTPS?",
+                                "link": "https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/"
+                            },
+                            {
+                                "name": "Why HTTPS Matters",
+                                "link": "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https"
+                            },
+                            {
+                                "name": "Enabling HTTPS on Your Servers",
+                                "link": "https://web.dev/enable-https/"
+                            },
+                            {
+                                "name": "How HTTPS works (comic)",
+                                "link": "https://howhttps.works/"
+                            },
+                            {
+                                "name": "SSL, TLS, HTTP, HTTPS Explained",
+                                "link": "https://www.youtube.com/watch?v=hExRDVZHhig"
+                            },
+                            {
+                                "name": "HTTPS — Stories from the field",
+                                "link": "https://www.youtube.com/watch?v=GoXgl9r0Kjk"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Content Security Policy",
+                        "recommendation-type": "opinion",
+                        "description": "Content Security Policy is a computer security standard introduced to prevent cross-site scripting, clickjacking and other code injection attacks resulting from execution of malicious content in the trusted web page context.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "MDN Content Security Policy (CSP)",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP"
+                            },
+                            {
+                                "name": "Google Devs Content Security Policy (CSP)",
+                                "link": "https://developers.google.com/web/fundamentals/security/csp"
+                            },
+                            {
+                                "name": "Web.dev - Content Security Policy (CSP)",
+                                "link": "https://web.dev/csp/"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "OWASP Security Risks",
+                        "recommendation-type": "opinion",
+                        "description": "OWASP or Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Wikipedia - OWASP",
+                                "link": "https://en.wikipedia.org/wiki/OWASP"
+                            },
+                            {
+                                "name": "OWASP Web Application Security Testing Checklist",
+                                "link": "https://github.com/0xRadi/OWASP-Web-Checklist"
+                            },
+                            {
+                                "name": "OWASP Top 10 Security Risks",
+                                "link": "https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2021/"
+                            },
+                            {
+                                "name": "OWASP Cheatsheets",
+                                "link": "https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html"
+                            },
+                            {
+                                "name": "OWASP Top 10: A Guide to the Worst Software Vulnerabilities",
+                                "link": "https://thenewstack.io/owasp-top-10-a-guide-to-the-worst-software-vulnerabilities/"
+                            }
+                          
+                        ]
+                    }
+                ]
+            },
+            "Web Components": {
+                "description": " Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps.Visit the following resources to learn more:",
+                "resources": [
+                    {
+                        "name": "Web Components | MDN",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/Web_Components"
+                    },
+                    {
+                        "name": "WebComponents.org",
+                        "link": "https://webcomponents.github.io/"
+                    },
+                    {
+                        "name": "Web Components Crash Course",
+                        "link": "https://www.youtube.com/watch?v=PCWaFLy3VUo"
+                    }
+                    
+                ],
+                "order": 16,
+                "options": [
+                    {
+                        "name": "HTML Templates",
+                        "recommendation-type": "opinion",
+                        "description": "The <template> HTML element is a mechanism for holding HTML that is not to be rendered immediately when a page is loaded but may be instantiated subsequently during runtime using JavaScript. Think of a template as a content fragment that is being stored for subsequent use in the document.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Using templates and slots | MDN web docs",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Custom Elements",
+                        "recommendation-type": "opinion",
+                        "description": "One of the key features of the Web Components standard is the ability to create custom elements that encapsulate your functionality on an HTML page, rather than having to make do with a long, nested batch of elements that together provide a custom page feature.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Using custom elements | MDN web docs",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Shadow DOM",
+                        "recommendation-type": "opinion",
+                        "description": "An important aspect of web components is encapsulation — being able to keep the markup structure, style, and behavior hidden and separate from other code on the page so that different parts do not clash, and the code can be kept nice and clean. The Shadow DOM API is a key part of this, providing a way to attach a hidden separated DOM to an element.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Using shadow DOM | MDN web docs",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM"
+                            }
+                            
+                        ]
+                    }
+                   
+                ]
+            },
+            "Type Chechers": {
+                "description": "Type checker helps developers write code with fewer bugs by adding types to their code, trying to catch type errors within your code, and then removing them during compile time. Flow and TypeScript are two popular static type checkers for JavaScript. ",
+                "order": 17,
+                "options": [
+                    {
+                        "name": "TypeScript",
+                        "recommendation-type": "opinion",
+                        "description": "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://www.typescriptlang.org/"
+                            },
+                            {
+                                "name": "Official Docs for Deep Dives",
+                                "link": "https://www.typescriptlang.org/docs/"
+                            },
+                            {
+                                "name": "The TypeScript Handbook",
+                                "link": "https://www.typescriptlang.org/docs/handbook/intro.html"
+                            },
+                            {
+                                "name": "TypeScript Tutorial",
+                                "link": "https://www.tutorialspoint.com/typescript/index.htm"
+                            },
+                            {
+                                "name": "Scrimba — TypeScript Basics",
+                                "link": "https://scrimba.com/learn/typescript"
+                            },
+                            {
+                                "name": "TypeScript for Beginners",
+                                "link": "https://www.youtube.com/watch?v=BwuLxPH8IDs"
+                            },
+                            {
+                                "name": "What Is TypeScript?",
+                                "link": "https://thenewstack.io/what-is-typescript/"
+                            },
+                            {
+                                "name": "TypeScript Tutorial: Go beyond ‘Hello, World!’",
+                                "link": "https://thenewstack.io/typescript-tutorial-go-beyond-hello-world/"
+                            },
+                            {
+                                "name": "TypeScript Tutorial: A Guide to Using the Programming Language",
+                                "link": "https://thenewstack.io/typescript-tutorial-a-guide-to-using-the-programming-language/"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            "Server Side Rendering (ssr)": {
+                "description": " Server-side rendering refers to the process that the service side completes the HTML structure splicing of the page, sends it to the browser, and then binds the status and events for it to become a fully interactive page.Visit the following resources to learn more:",
+                "resources": [
+                    {
+                        "name": "what is server side rendering",
+                        "link": "https://www.educative.io/answers/what-is-server-side-rendering"
+                    },
+                    {
+                        "name": "When should I Server-Side Render?",
+                        "link": "https://medium.com/@mbleigh/when-should-i-server-side-render-c2a383ff2d0f"
+                    },
+                    {
+                        "name": "Server-Side Rendering (SSR)",
+                        "link": "https://vuejs.org/guide/scaling-up/ssr.html"
+                    },
+                    {
+                        "name": "what is server side rendering?",
+                        "link": "https://www.youtube.com/watch?v=GQzn7XRdzxY"
+                    },
+                    {
+                        "name": "What is server-side rendering for web development?",
+                        "link": "https://www.youtube.com/watch?v=okvg3MRAPs0"
+                    }
+                    
+                ],
+                "order": 18,
+                "options": [
+                    {
+                        "name": "React",
+                        "recommendation-type": "opinion",
+                        "description": "React is the most popular front-end JavaScript library for building user interfaces. React can also render on the server using Node and power mobile apps using React Native.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Visit Dedicated React Roadmap",
+                                "link": "https://roadmap.sh/react"
+                            },
+                            {
+                                "name": "React Website",
+                                "link": "https://react.dev/"
+                            },
+                            {
+                                "name": "Official Getting Started",
+                                "link": "https://react.dev/learn/tutorial-tic-tac-toe"
+                            },
+                            {
+                                "name": "The Beginners Guide to React",
+                                "link": "https://egghead.io/courses/the-beginner-s-guide-to-react"
+                            },
+                            {
+                                "name": "React JS Course for Beginners",
+                                "link": "https://www.youtube.com/watch?v=nTeuhbP7wdE"
+                            },
+                            {
+                                "name": "React Course - Beginners Tutorial for React JavaScript Library [2022]",
+                                "link": "https://www.youtube.com/watch?v=bMknfKXIFA8"
+                            },
+                            {
+                                "name": "Understanding Reacts UI Rendering Process",
+                                "link": "https://www.youtube.com/watch?v=i793Qm6kv3U"
+                            },
+                            
+                            {
+                                "name": "Next.js",
+                                "recommendation-type": "opinion",
+                                "description": "Next.js is an open-source development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites.Visit the following resources to learn more:",
+                                "resources": [
+                                    {
+                                        "name": "Official Website",
+                                        "link": "https://nextjs.org/"
+                                    },
+                                    {
+                                        "name": "Official Docs for Getting Started",
+                                        "link": "https://nextjs.org/docs/getting-started"
+                                    },
+                                    {
+                                        "name": "Mastering Next.js",
+                                        "link": "https://masteringnextjs.com/"
+                                    },
+                                    {
+                                        "name": "The Next.js Handbook — freeCodeCamp",
+                                        "link": "https://www.freecodecamp.org/news/the-next-js-handbook/"
+                                    },
+                                    {
+                                        "name": "Next.js for Beginners - freeCodeCamp",
+                                        "link": "https://youtu.be/1WmNXEVia8I"
+                                    }
+                                    
+                                ]
+                            },
+                            {
+                                "name": "Remix",
+                                "recommendation-type": "opinion",
+                                "description": "Remix is a full stack web framework that lets you focus on the user interface and work back through web standards to deliver a fast, slick, and resilient user experience. People are gonna love using your stuff.Visit the following resources to learn more:",
+                                "resources": [
+                                    {
+                                        "name": "Official Website",
+                                        "link": "https://remix.run/"
+                                    },
+                                    {
+                                        "name": "Official Docs for Getting Started",
+                                        "link": "https://remix.run/docs/en/v1#getting-started"
+                                    }
+                                   
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Angular",
+                        "recommendation-type": "opinion",
+                        "description": "Angular is a component based front-end development framework built on TypeScript which includes a collection of well-integrated libraries that include features like routing, forms management, client-server communication, and more.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official - Getting started with Angular",
+                                "link": "https://angular.io/start"
+                            },
+                           
+                            {
+                                "name": "Universal",
+                                "recommendation-type": "opinion",
+                                "description": "The Angular Universal project is a community driven project to expand on the core APIs from Angular (platform-server) to enable developers to do the server side rendering of Angular applications. It mainly uses express to render pages on pages on node.js server.Visit the following resources to learn more:",
+                                "resources": [
+                                    {
+                                        "name": "Server-side rendering (SSR) with Angular Universal",
+                                        "link": "https://angular.io/guide/universal"
+                                    }
+                                    
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vue.js",
+                        "recommendation-type": "opinion",
+                        "description": "Vue.js is an open-source JavaScript framework for building user interfaces and single-page applications. It is mainly focused on front end development.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Vue.js Website",
+                                "link": "https://vuejs.org/"
+                            },
+                            {
+                                "name": "Official Getting Started",
+                                "link": "https://vuejs.org/v2/guide/"
+                            },
+                            {
+                                "name": "Vue.js Course for Beginners",
+                                "link": "https://www.youtube.com/watch?v=FXpIoQ_rT_c"
+                            },
+                            {
+                                "name": "Vue.js Crash Course",
+                                "link": "https://www.youtube.com/watch?v=qZXt1Aom3Cs"
+                            },
+                            {
+                                "name": "Meet Vue.js, the Flexible JavaScript Framework",
+                                "link": "https://thenewstack.io/meet-vue-js-flexible-javascript-framework/"
+                            },
+                            
+                            {
+                                "name": "Nuxt.js",
+                                "recommendation-type": "opinion",
+                                "description": "Nuxt.js is a free and open source JavaScript library based on Vue.js, Node.js, Webpack and Babel.js. Nuxt is inspired by Next.js, which is a framework of similar purpose, based on React.js.Visit the following resources to learn more:",
+                                "resources": [
+                                    {
+                                        "name": "Nuxt Website",
+                                        "link": "https://nuxtjs.org/"
+                                    },
+                                    {
+                                        "name": "Nuxt Docs",
+                                        "link": "https://nuxtjs.org/docs/get-started/installation"
+                                    },
+                                    {
+                                        "name": "Nuxt Tutorials",
+                                        "link": "https://nuxtjs.org/tutorials"
+                                    },
+                                    {
+                                        "name": "Get Started with Nuxt",
+                                        "link": "https://explorers.netlify.com/learn/get-started-with-nuxt"
+                                    },
+                                    {
+                                        "name": "Nuxt.js Fundamentals",
+                                        "link": "https://vueschool.io/courses/nuxtjs-fundamentals"
+                                    }
+                                   
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Svelte",
+                        "recommendation-type": "opinion",
+                        "description": "Svelte is a javascript framework that unlike Vue and React does not use vertical DOM diffing but instead knows exactly what and where to update when the state changes. It’s mainly focused on frontend and building user interfaces.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Svelte Website",
+                                "link": "https://svelte.dev/"
+                            },
+                            {
+                                "name": "Svelte Documentation",
+                                "link": "https://svelte.dev/docs"
+                            },
+                            {
+                                "name": "Svelte Course Playlist for beginners",
+                                "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO"
+                            },
+                            {
+                                "name": "All About Svelte, the Much-Loved, State-Driven Web Framework",
+                                "link": "https://thenewstack.io/all-about-svelte-the-much-loved-state-driven-web-framework/"
+                            },
+                            {
+                                "name": "Svelte and the Future of Frontend Development",
+                                "link": "https://thenewstack.io/svelte-and-the-future-of-front-end-development/"
+                            },
+                           
+                            {
+                                "name": "Svelte Kit",
+                                "recommendation-type": "opinion",
+                                "description": "Svelte Kit is a framework for building web applications with the Svelte JavaScript framework. It is designed to be a complete solution for building web applications, with support for server-side rendering, automatic code splitting, and optimized performance.Visit the following resources to learn more:",
+                                "resources": [
+                                    {
+                                        "name": "Svelte Kit Official Website",
+                                        "link": "https://kit.svelte.dev/"
+                                    },
+                                    {
+                                        "name": "Official Svelte Kit Docs",
+                                        "link": "https://kit.svelte.dev/docs/introduction"
+                                    }
+                                   
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "GraphQL": {
+                "description": "GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.Visit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "Introduction to GraphQL",
+                        "link": "https://graphql.org/learn/"
+                    },
+                    {
+                        "name": "The Fullstack Tutorial for GraphQL",
+                        "link": "https://www.howtographql.com/"
+                    },
+                    {
+                        "name": "GraphQL Tutorials",
+                        "link": "https://odyssey.apollographql.com/"
+                    },
+                    {
+                        "name": "GraphQL Course for Beginners",
+                        "link": "https://www.youtube.com/watch?v=ed8SzALpx1Q"
+                    },
+                    {
+                        "name": "Introduction to GraphQL",
+                        "link": "https://thenewstack.io/introduction-to-graphql/"
+                    },
+                    {
+                        "name": "How to Execute a Simple GraphQL Query",
+                        "link": "https://thenewstack.io/how-to-execute-a-simple-graphql-query/"
+                    }
+                    
+                ],
+                "order": 19,
+                "options": [
+                    {
+                        "name": "Apollo",
+                        "recommendation-type": "opinion",
+                        "description": "Apollo is a platform for building a unified graph, a communication layer that helps you manage the flow of data between your application clients (such as web and native apps) and your back-end services.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Apollo Website",
+                                "link": "https://www.apollographql.com/"
+                            },
+                            {
+                                "name": "Official Docs",
+                                "link": "https://www.apollographql.com/docs/"
+                            },
+                            {
+                                "name": "Official YouTube Channel",
+                                "link": "https://www.youtube.com/c/ApolloGraphQL/"
+                            },
+                            {
+                                "name": "GraphQL With React Tutorial - Apollo Client",
+                                "link": "https://www.youtube.com/watch?v=YyUWW04HwKY"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Relay Modern",
+                        "recommendation-type": "opinion",
+                        "description": "Relay is a JavaScript client used in the browser to fetch GraphQL data. It’s a JavaScript framework developed by Facebook for managing and fetching data in React applications. It is built with scalability in mind in order to power complex applications like Facebook. The ultimate goal of GraphQL and Relay is to deliver instant UI-response interactions.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://relay.dev/"
+                            },
+                            {
+                                "name": "Introduction to Relay modern",
+                                "link": "https://relay.dev/docs/"
+                            }
+                            
+                        ]
+                    }
+                   
+                ]
+            },
+            "Static Site Generators": {
+                "description": "A static site generator is a tool that generates a full static HTML website based on raw data and a set of templates. Essentially, a static site generator automates the task of coding individual HTML pages and gets those pages ready to serve to users ahead of time. Because these HTML pages are pre-built, they can load very quickly in users’ browsers.Visit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "What is a static site generator?",
+                        "link": "https://www.cloudflare.com/learning/performance/static-site-generator/"
+                    },
+                    {
+                        "name": "Next.js SSG",
+                        "link": "https://nextjs.org/docs/advanced-features/static-html-export"
+                    },
+                    {
+                        "name": "Gatsby SSG",
+                        "link": "https://www.gatsbyjs.com/docs/glossary/static-site-generator/"
+                    },
+                    {
+                        "name": "SSG — An 11ty, Vite And JAM Sandwich",
+                        "link": "https://www.smashingmagazine.com/2021/10/building-ssg-11ty-vite-jam-sandwich/"
+                    },
+                    {
+                        "name": "Get Back to Basics With Static Website Generators",
+                        "link": "https://thenewstack.io/get-back-basics-static-website-generators/"
+                    }
+                    
+                ],
+                "order": 20,
+                "options": [
+                    {
+                        "name": "Astro",
+                        "recommendation-type": "opinion",
+                        "description": "Astro is an all-in-one web framework for building fast, content-focused websites. Astro combines the power of a modern component-based framework with the performance and flexibility of a static site generator.Component Islands: A new web architecture for building faster websites.Server-first API design: Move expensive hydration off of your users’ devices.Zero JS, by default: No JavaScript runtime overhead to slow you down.Edge-ready: Deploy anywhere, even a global edge runtime like Deno or Cloudflare.Customizable: Tailwind, MDX, and 100+ other integrations to choose from.UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Astro Website",
+                                "link": "https://astro.build/"
+                            },
+                            {
+                                "name": "Official Astro Docs",
+                                "link": "https://docs.astro.build/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Eleventy",
+                        "recommendation-type": "opinion",
+                        "description": "Eleventy (11ty) is a simple to use, easy to customize, highly performant and powerful static site generator with a helpful set of plugins (e.g. navigation, build-time image transformations, cache assets). Pages can be built and written with a variety of template languages (HTML, Markdown, JavaScript, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, Pug or JS template literals). But it also offers the possibility to dynamically create pages from local data or external sources that are compiled at build time. It has zero client-side JavaScript dependencies.Visit the following resources to learn more",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://www.11ty.dev/"
+                            },
+                            {
+                                "name": "A collection of 11ty starters, projects, plugins, and resources",
+                                "link": "https://11ty.rocks/"
+                            },
+                            {
+                                "name": "Introduction to Eleventy",
+                                "link": "https://www.youtube.com/watch?v=-dM6AmNmMFA"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Next.js",
+                        "recommendation-type": "opinion",
+                        "description": "Next.js is an open-source development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://nextjs.org/"
+                            },
+                            {
+                                "name": "Official Docs for Getting Started",
+                                "link": "https://nextjs.org/docs/getting-started"
+                            },
+                            {
+                                "name": "Mastering Next.js",
+                                "link": "https://masteringnextjs.com/"
+                            },
+                            {
+                                "name": "The Next.js Handbook — freeCodeCamp",
+                                "link": "https://www.freecodecamp.org/news/the-next-js-handbook/"
+                            },
+                            {
+                                "name": "Next.js for Beginners - freeCodeCamp",
+                                "link": "https://youtu.be/1WmNXEVia8I"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Remix",
+                        "recommendation-type": "opinion",
+                        "description": "Remix is a full stack web framework that lets you focus on the user interface and work back through web standards to deliver a fast, slick, and resilient user experience. People are gonna love using your stuff.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://remix.run/"
+                            },
+                            {
+                                "name": "Official Docs for Getting Started",
+                                "link": "https://remix.run/docs/en/v1#getting-started"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Vuepress",
+                        "recommendation-type": "opinion",
+                        "description": "VuePress is composed of two parts: a minimalistic static site generator (opens new window)with a Vue-powered theming system and Plugin API, and a default theme optimized for writing technical documentation. It was created to support the documentation needs of Vue’s own sub projectsVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://vuepress.vuejs.org/"
+                            },
+                            {
+                                "name": "Official Docs for Getting Started",
+                                "link": "https://vuepress.vuejs.org/guide/getting-started.html"
+                            },
+                            {
+                                "name": "Introduction to VuePress",
+                                "link": "https://www.youtube.com/watch?v=lIv1ItUzktc"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Jekyll",
+                        "recommendation-type": "opinion",
+                        "description": "Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Jekyll Website",
+                                "link": "https://jekyllrb.com/"
+                            },
+                            {
+                                "name": "Jekyll Docs",
+                                "link": "https://jekyllrb.com/docs/"
+                            }
+                          
+                        ]
+                    },
+                    {
+                        "name": "Hugo",
+                        "recommendation-type": "opinion",
+                        "description": "Hugo is the world’s fastest static website engine. It’s written in Go (aka Golang) and developed by bep, spf13 and friends.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://gohugo.io/"
+                            },
+                            {
+                                "name": "Official Docs for Getting Started",
+                                "link": "https://gohugo.io/documentation/"
+                            },
+                            {
+                                "name": "Introduction to Hugo - Static Site Generator",
+                                "link": "https://www.youtube.com/watch?v=qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3"
+                            },
+                            {
+                                "name": "Tutorial: Use Hugo to Generate a Static Website",
+                                "link": "https://thenewstack.io/tutorial-use-hugo-to-generate-a-static-website/"
+                            }
+                           
+                        ]
+                    },
+                     
+                    {
+                        "name": "Nuxt.js",
+                        "recommendation-type": "opinion",
+                        "description": "Nuxt.js is a free and open source JavaScript library based on Vue.js, Node.js, Webpack and Babel.js. Nuxt is inspired by Next.js, which is a framework of similar purpose, based on React.js.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Nuxt Website",
+                                "link": "https://nuxtjs.org/"
+                            },
+                            {
+                                "name": "Official Docs for Getting Started",
+                                "link": "https://nuxtjs.org/docs/get-started/installation"
+                            },
+                            {
+                                "name": "Mastering Nuxt.js",
+                                "link": "https://masteringnuxt.com/"
+                            },
+                            {
+                                "name": "Vue.js for Beginners - Full Course at freeCodeCamp YouTube Channel",
+                                "link": "https://www.youtube.com/watch?v=FXpIoQ_rT_c"
+                            }
+                            
+                        ]
+                    }
+                ]
+            },
+            "Progressive Web Apps": {
+                "description": "Progressive Web Apps (PWAs) are websites that are progressively enhanced to function like installed, native apps on supporting platforms, while functioning like regular websites on other browsers Visit the following resources to learn more:",
+                "resources": [
+                    {
+                        "name": "Progressive Web Apps for Beginners",
+                        "link": "https://www.freecodecamp.org/news/what-are-progressive-web-apps/"
+                    },
+                    {
+                        "name": "Learn PWA",
+                        "link": "https://web.dev/learn/pwa/"
+                    },
+                    {
+                        "name": "MDN Web Docs: Progressive Web Apps",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/"
+                    },
+                    {
+                        "name": "Build a Progressive Web App",
+                        "link": "https://www.youtube.com/watch?v=sFsRylCQblw"
+                    }
+                   
+                ],
+                "order": 21,
+                "options": [
+                    {
+                        "name": "PRPL Pattern",
+                        "recommendation-type": "opinion",
+                        "description": "The PRPL pattern is a performance optimization pattern for web applications that focuses on minimizing the time it takes for the initial rendering of a web page. It stands for Push, Render, Pre-cache, and Lazy-load, and it involves the following steps:\n\nPush: Prioritize the delivery of critical resources, such as HTML, CSS, and JavaScript, to the client as early as possible.\nRender: Start rendering the web page as soon as the critical resources are received, even if some non-critical resources are still being downloaded.\nPre-cache: Pre-cache non-critical resources in the background so that they are available when needed.\nLazy-load: Defer the loading of non-critical resources until they are needed, such as when the user scrolls to them or interacts with them.\n\nThe PRPL pattern is designed to improve the perceived performance of a web page by reducing the time it takes for the page to become interactive. It is particularly useful for applications that are served over slow or unreliable networks, as it allows the page to render as quickly as possible and then gradually load the remaining resources.",
+                        "resources": [
+                            {
+                                "name": "PRPL Pattern - Google Developers",
+                                "link": "https://developers.google.com/web/fundamentals/performance/prpl-pattern"
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "name": "RAIL Model",
+                        "recommendation-type": "opinion",
+                        "description": "The RAIL model is a performance optimization model for web applications that focuses on improving the perceived performance of a web page. It stands for Response, Animation, Idle, and Load, and it involves the following four performance goals:\n\nResponse: The time it takes for the web page to respond to user input should be under 100 milliseconds.\nAnimation: The time it takes for an animation to run should be under 10 milliseconds.\nIdle: The web page should take advantage of idle time to perform non-critical tasks.\nLoad: The time it takes for the web page to fully load should be under 1 second.\n\nThe RAIL model is designed to provide a framework for optimizing the performance of a web page by focusing on the four key areas that impact the user’s perception of performance. It is particularly useful for applications that require high levels of interactivity, such as games and social media applications.",
+                        "resources": [
+                            {
+                                "name": "RAIL Model - Google Developers",
+                                "link": "https://developers.google.com/web/fundamentals/performance/rail"
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "name": "Performance Metrics",
+                        "recommendation-type": "opinion",
+                        "description": "Web performance metrics are quantitative measures of the performance of a web page or application. They are used to assess the speed and efficiency of a web page, and they can help identify areas for improvement. Some common web performance metrics include:\n\nLoad time: The time it takes for a web page to fully load and become interactive.\nFirst contentful paint (FCP): The time it takes for the first content to appear on the page.\nTime to interactive (TTI): The time it takes for the page to become fully interactive.\nFirst input delay (FID): The time it takes for the page to respond to the first user input.\nTotal blocking time (TBT): The time it takes for the page to become fully interactive, taking into account the time spent blocking the main thread.\n\nThere are many tools and techniques available for measuring web performance metrics, including browser dev tools, performance monitoring tools, and web performance APIs. By tracking these metrics and analyzing the results, web developers can identify areas for improvement and optimize the performance of their web pages.",
+                        "resources": [
+                            {
+                                "name": "Web Performance Metrics - Google Developers",
+                                "link": "https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics"
+                            },
+                            {
+                                "name": "Measuring performance and user experience - Google Developers",
+                                "link": "https://web.dev/metrics/"
+                            },
+                            {
+                                "name": "Measuring performance and user experience - MDN",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/Guide/Performance"
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "name": "Using Lighthouse",
+                        "recommendation-type": "opinion",
+                        "description": "Lighthouse is an open-source tool developed by Google that is used to audit the performance, accessibility, and SEO of web pages. It is available as a browser extension and as a command-line tool, and it can be run on any web page to generate a report with recommendations for improvement.\n\nLighthouse works by simulating the load and interaction of a web page and measuring various performance metrics, such as load time, time to first paint, and time to interactive. It also checks for common issues such as incorrect image sizes, missing alt text, and broken links.\n\nLighthouse provides a comprehensive and easy-to-use tool for identifying and fixing performance and accessibility issues on web pages. It is widely used by web developers and is integrated into many popular development tools.",
+                        "resources": [
+                            {
+                                "name": "Lighthouse - Google Developers",
+                                "link": "https://developers.google.com/web/tools/lighthouse"
+                            },
+                            {
+                                "name": "Improving Load Performance - Chrome DevTools 101",
+                                "link": "https://www.youtube.com/watch?v=5flw5q5odie"
+                            }
+                        ]
+                    },
+                    
+                    
+                    {
+                        "name": "Using DevTools",
+                        "recommendation-type": "opinion",
+                        "description": "Most of the browsers have built-in developer tools that help you perform web development specific tasks on a webpage. My personal recommendation would be to use Chrome DevTools as it is the most advanced and has the most features. However, if you are using a different browser, you can still use the DevTools to debug your web application.\n\nChrome DevTools is a set of web development tools built into the Google Chrome browser. It allows web developers to debug and optimize web pages by providing a range of features for inspecting and manipulating the page’s HTML, CSS, and JavaScript.\n\nSome of the features provided by Chrome DevTools include:\n\n- Elements panel: Inspect and modify the page’s HTML and CSS.\n- Console panel: View and debug JavaScript errors and log messages.\n- Network panel: Monitor network requests and responses, and analyze performance issues.\n- Performance panel: Analyze the performance of the page and identify bottlenecks.\n- Application panel: Inspect the page’s resources, such as cookies and local storage.\n\nChrome DevTools is a powerful and essential tool for web developers, and it is widely used to debug and optimize web pages. It is constantly updated with new features and improvements, and it is available on all modern web browsers.",
+                        "resources": [
+                            {
+                                "name": "Chrome DevTools - Google Developers",
+                                "link": "https://developers.google.com/web/tools/chrome-devtools"
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "name": "Storage",
+                        "recommendation-type": "opinion",
+                        "description": "The Web Storage API provides mechanisms for storing key-value pairs in a web browser. It includes two storage objects: localStorage and sessionStorage, which allow you to save data on the client side and persist it across multiple browser sessions, respectively.\n\nThe Web Storage API is designed to be simple and easy to use, and it is widely supported across modern web browsers. It is often used as an alternative to cookies, as it allows for larger amounts of data to be stored and is more efficient in terms of performance.",
+                        "resources": [
+                            {
+                                "name": "Web Storage API - MDN",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API"
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "name": "Web Sockets",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "Web Sockets - MDN",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Server Sent Events",
+                        "recommendation-type": "opinion",
+                        "description": "Server-Sent Events (SSE) is a technology that allows a web server to push data to a client in real-time. It uses an HTTP connection to send a stream of data from the server to the client, and the client can listen for these events and take action when they are received.\n\nSSE is useful for applications that require real-time updates, such as chat systems, stock tickers, and social media feeds. It is a simple and efficient way to establish a long-lived connection between a client and a server, and it is supported by most modern web browsers.\n\nTo use SSE, the client must create an EventSource object and specify the URL of the server-side script that will send the events. The server can then send events by writing them to the response stream with the proper formatting.",
+                        "resources": [
+                            {
+                                "name": "Server-Sent Events - MDN",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events"
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "name": "Service Workers",
+                        "recommendation-type": "opinion",
+                        "description": "Service Workers are a type of web worker that acts as a proxy between a web page and the network, allowing web developers to build offline-first and reliable applications. Service Workers can intercept network requests, access the cache, and make decisions on how to respond to a request based on the available resources.\n\nService Workers are written in JavaScript and are registered by a web page. Once registered, they can control the page and all its requests, even when the page is not open in a browser. This allows Service Workers to enable features such as push notifications, background synchronization, and offline support.\n\nService Workers are supported by most modern web browsers, and they are an essential component of progressive web applications (PWAs).",
+                        "resources": [
+                            {
+                                "name": "Service Workers - MDN",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Location",
+                        "recommendation-type": "opinion",
+                        "description": "The Geolocation API is a web API that provides access to the device’s location data, such as latitude and longitude. It allows web developers to build location-based applications, such as mapping and location sharing, by using the device’s GPS, Wi-Fi, and other sensors to determine the user’s location.\nTo use the Geolocation API, a web page must first request permission from the user to access their location. If permission is granted, the page can then use the navigator.geolocation object to access the device’s location data. The API provides several methods for getting the user’s current location, watching for location changes, and calculating distances between two locations.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Geolocation API - MDN",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API/"
+                            }
+                            
+                           
+                        ]
+                    },
+                    {
+                        "name": "Notifications",
+                        "recommendation-type": "opinion",
+                        "description": "The Notifications API is a web API that allows web pages to display system-level notifications to the user. These notifications can be used to alert the user of important events, such as new messages or updates, even when the web page is not open in the browser.\nTo use the Notifications API, a web page must first request permission from the user to display notifications. If permission is granted, the page can then use the Notification constructor to create a new notification and display it to the user. The notification can include a title, body text, and an icon, and it can be customized with options such as a timeout and a click action.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Notifications API - MDN",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/"
+                            },
+                            {
+                                "name": "Create React Notifications With the Web Notifications API",
+                                "link": "https://www.youtube.com/watch?v=mfrppinfmz0"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Device Orientation ",
+                        "recommendation-type": "opinion",
+                        "description": "The Device Orientation API is a web API that provides access to the device’s orientation and motion data, such as its pitch, roll, and yaw. It allows web developers to build applications that can respond to the device’s orientation and motion, such as augmented reality and motion-controlled games.\nTo use the Device Orientation API, a web page must first request permission from the user to access the device’s orientation data. If permission is granted, the page can then use the DeviceOrientationEvent object to access the device’s orientation data and respond to changes in orientation. The API provides several properties for accessing the device’s orientation and motion data, as well as events for detecting changes in orientation.\nThe Device Orientation API is supported by most modern web browsers and is often used in conjunction with other APIs, such as the Geolocation API, to build location-based applications.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Device Orientation API - MDN",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/API/Device_orientation_events"
+                            }
+                            
+                           
+                        ]
+                    },
+                    {
+                        "name": "Payments",
+                        "recommendation-type": "opinion",
+                        "description": "The Payment Request API is a web API that allows web developers to build checkout flows within their web applications. It provides a standardized, browser-based interface for collecting payment and shipping information from the user, and it supports a wide range of payment methods, including credit cards, debit cards, and digital wallets.\nTo use the Payment Request API, a web page must first create a PaymentRequest object and specify the payment and shipping options that are available to the user. The page can then invoke the Payment Request UI by calling the show() method on the PaymentRequest object. The user can then select their preferred payment and shipping options and confirm the payment, at which point the Payment Request API will return a payment response object that can be used to complete the transaction.\nThe Payment Request API is supported by most modern web browsers and is designed to be simple and efficient for both the developer and the user.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Payment Request API - MDN",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API"
+                            }
+                           
+                           
+                        ]
+                    },
+                    {
+                        "name": "Credentials",
+                        "recommendation-type": "opinion",
+                        "description": "The Credential Management API is a web API that allows web developers to integrate password-based and federated login flows into their applications. It provides a standardized, browser-based interface for storing and retrieving user credentials, such as username and password combinations and OAuth tokens.\nTo use the Credential Management API, a web page must first create a Credential object and specify the credentials that the user wishes to store. The page can then use the navigator.credentials object to store and retrieve the user’s credentials. The API provides several methods for storing and retrieving credentials, as well as for prompting the user to sign in or sign up.\nThe Credential Management API is supported by most modern web browsers and is designed to improve the security and usability of login flows by allowing the user to store and reuse their credentials across multiple sites and devices.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Credential Management API - MDN",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/API/Credential_Management_API"
+                            }
+                            
+                           
+                        ]
+                    }
+                    
+                ]
+            },
+            "Mobile Applications": {
+                "description": "A while back, developing a mobile app using JavaScript was impossible. But now JavaScript developers can create mobile applications using their knowledge for web development. Here is the list of options to create mobile applications in JavaScript. ",
+                "resources": [
+                    {
+                        "name": "React Native",
+                        "link": "https://reactnative.dev/"
+                    },
+                    {
+                        "name": "Flutter",
+                        "link": "https://flutter.dev/"
+                    },
+                    {
+                        "name": "Ionic",
+                        "link": "https://ionicframework.com/"
+                    },
+                    {
+                        "name": "NativeScript",
+                        "link": "https://nativescript.org/"
+                    }
+                   
+                ],
+                "order": 22,
+                "options": [
+                    {
+                        "name": "React Native",
+                        "recommendation-type": "opinion",
+                        "description": "React Native is a popular JavaScript-based mobile app framework that allows you to build natively-rendered mobile apps for iOS and Android. The framework lets you create an application for various platforms by using the same codebase.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://reactnative.dev/"
+                            },
+                            {
+                                "name": "Official Getting Started to React Native",
+                                "link": "https://reactnative.dev/docs/getting-started"
+                            },
+                            {
+                                "name": "Build a React Native App by Mosh",
+                                "link": "https://www.youtube.com/watch?v=0-S5a0eXPoc"
+                            },
+                            {
+                                "name": "Learn React Native by CodeAcademy",
+                                "link": "https://www.codecademy.com/learn/learn-react-native"
+                            }
+                          
+                        ]
+                    },
+                    {
+                        "name": "Flutter",
+                        "recommendation-type": "opinion",
+                        "description": "Flutter is a free and open-source mobile UI framework created by Google and released in May 2017. In a few words, it allows you to create a native mobile application with only one codebase. This means that you can use one programming language and one codebase to create two different apps (for iOS and Android).Flutter consists of two important parts:An SDK (Software Development Kit): A collection of tools that are going to help you develop your applications. This includes tools to compile your code into native machine code (code for iOS and Android).A Framework (UI Library based on widgets): A collection of reusable UI elements (buttons, text inputs, sliders, and so on) that you can personalize for your own needs. To develop with Flutter, you will use a programming language called Dart. The language was created by Google in October 2011, but it has improved a lot over these past years.Dart focuses on front-end development, and you can use it to create mobile and web applications.If you know a bit of programming, Dart is a typed object programming language. You can compare Dart’s syntax to JavaScriptVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Visit Dedicated Flutter Roadmap",
+                                "link": "https://roadmap.sh/flutter"
+                            },
+                            {
+                                "name": "Flutter Website",
+                                "link": "https://flutter.dev/"
+                            },
+                            {
+                                "name": "Flutter Tutorial",
+                                "link": "https://www.w3adda.com/flutter-tutorial"
+                            },
+                            {
+                                "name": "Flutter Tutorial for Beginners",
+                                "link": "https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ"
+                            },
+                            {
+                                "name": "Flutter Tutorial",
+                                "link": "https://www.w3adda.com/flutter-tutorial"
+                            },
+                            {
+                                "name": "Learn Dart Programming",
+                                "link": "https://www.tutorialspoint.com/dart_programming/index.htm"
+                            },
+                            {
+                                "name": "12 Ways Flutter Streamlines App Development",
+                                "link": "https://thenewstack.io/12-ways-flutter-streamlines-app-development/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Ionic",
+                        "recommendation-type": "opinion",
+                        "description": "Ionic framework is an open-source UI toolkit for building performant, high-quality mobile apps, desktop apps, and progressive web apps using web technologies such as HTML, CSS, and JavaScript.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://ionicframework.com/"
+                            },
+                            {
+                                "name": "Official Getting Started to Ionic framework",
+                                "link": "https://ionicframework.com/docs/"
+                            },
+                            {
+                                "name": "Ionic Framework 4 - Full Tutorial",
+                                "link": "https://www.youtube.com/watch?v=AvbuIRg8_Jg"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "NativeScript",
+                        "recommendation-type": "opinion",
+                        "description": "NativeScript is an open source framework for creating native iOS and Android apps in Angular, TypeScript, or JavaScript.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://nativescript.org/"
+                            },
+                            {
+                                "name": "Official Getting Started to NativeScript",
+                                "link": "https://docs.nativescript.org/"
+                            },
+                            {
+                                "name": "NativeScript Tutorial for Beginners",
+                                "link": "https://www.youtube.com/watch?v=DcCSq2Y9bow"
+                            }
+                           
+                        ]
+                    }
+                ]
+            },
+            "Desktop Applications": {
+                "description": "A while back, developing a desktop app using JavaScript was impossible. But now JavaScript developers can create desktop applications using their knowledge for web development. Here is the list of options to create desktop applications in JavaScript. ",
+                "resources": [
+                    {
+                        "name": "Electron",
+                        "link": "https://www.electronjs.org/"
+                    },
+                    {
+                        "name": "NodeGUI",
+                        "link": "https://docs.nodegui.org/"
+                    },
+                    {
+                        "name": "NW.js",
+                        "link": "https://nwjs.io/"
+                    },
+                    {
+                        "name": "Meteor",
+                        "link": "https://www.meteor.com/"
+                    }
+                   
+                ],
+                "order": 23,
+                "options": [
+                    {
+                        "name": "Electron",
+                        "recommendation-type": "opinion",
+                        "description": "Electron allows you to build cross-platform desktop applications with HTML, CSS, and Javascript/Typescript. It uses Chromium and Node.js, so essentially it is a “Browser” like application that is compatible with Mac, Windows, and Linux.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Electron Website",
+                                "link": "https://www.electronjs.org/"
+                            },
+                            {
+                                "name": "Electron Docs",
+                                "link": "https://www.electronjs.org/docs/latest/"
+                            },
+                            {
+                                "name": "Create a Desktop App With JavaScript & Electron",
+                                "link": "https://youtu.be/ml743nrkmhw"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Tauri",
+                        "recommendation-type": "opinion",
+                        "description": "Tauri is a toolkit that helps developers make applications for the major desktop platforms - using virtually any frontend framework in existence. The core is built with Rust, and the CLI leverages Node.js making Tauri a genuinely polyglot approach to creating and maintaining great apps.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Tauri Website",
+                                "link": "https://tauri.app/"
+                            },
+                            {
+                                "name": "Tauri Docs",
+                                "link": "https://tauri.app/v1/guides/"
+                            },
+                            {
+                                "name": "How Tauri Turns Web Designs into Compact Native Apps",
+                                "link": "https://thenewstack.io/how-tauri-turns-web-designs-into-compact-native-apps/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Flutter",
+                        "recommendation-type": "opinion",
+                        "description": "Flutter is a free and open-source multi-platform UI framework created by Google and released in May 2017. In a few words, it allows you to create a native mobile application with only one codebase. This means that you can use one programming language and one codebase to create three different apps (for iOS, Android and Desktop).Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Visit Dedicated Flutter Roadmap",
+                                "link": "https://roadmap.sh/flutter"
+                            },
+                            {
+                                "name": "Flutter Website",
+                                "link": "https://flutter.dev/"
+                            },
+                            {
+                                "name": "Flutter for Desktop",
+                                "link": "https://flutter.dev/multi-platform/desktop"
+                            },
+                            {
+                                "name": "Flutter Tutorial",
+                                "link": "https://www.w3adda.com/flutter-tutorial"
+                            },
+                            {
+                                "name": "Flutter Tutorial for Beginners",
+                                "link": "https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ"
+                            },
+                            {
+                                "name": "Flutter Tutorial",
+                                "link": "https://www.w3adda.com/flutter-tutorial"
+                            },
+                            {
+                                "name": "Learn Dart Programming",
+                                "link": "https://www.tutorialspoint.com/dart_programming/index.htm"
+                            },
+                            {
+                                "name": "12 Ways Flutter Streamlines App Development",
+                                "link": "https://thenewstack.io/12-ways-flutter-streamlines-app-development/"
+                            }
+                            
+                        ]
+                    }
+                    
+                ]
+            },
+            "Bonus Content": {
+                "order": 24,
+                "description": "It is not required to complete the bonus content, it just expands on the topics covered in the roadmap and has the items which were missed in the roadmap. Go through them if you want.",
+                "UI / UX Knowledge": "Gaining UI/UX knowledge is not a must for a Frontend Developer but having an eye for design and a good understanding of UI/UX will help you in your career.",
+                "Design Systems": "Learn how to create and work with design systems.",
+                "Visual Programming": "It is entirely possible to be a successful, competent frontend developer without it, but for many frontend developers this path represents a serious chunk of their workload, and represents a very in-demand option for frontend development – especially for developers who have a visual aptitude.",
+                "For Animations": "GSAP, Lottie, Framer Motion or MoJs",
+                "Web Graphics Library (WebGL)": "WebGL MDN, WebGL Fundamentals",
+                "2D Graphics": "Canvas, PixiJS, PhaserJS",
+                "3D Graphics": "ThreeJS, BabylonJS Have a look at Qwik and Partytown.",
+                "Houdini": "Here is a good introductory article to houdini.",
+                "WebRTC": "WebRTC is a free, open project that provides browsers and mobile applications with Real-Time Communications (RTC) capabilities via simple APIs. The WebRTC components have been optimized to best serve this purpose.",
+                "IDLs": "Not every developer will have a need for understanding IDLs but there’s a good argument for having more JavaScript developers aware of their existence and hopefully the ability for making use of them as well.",
+                "WebAssembly": "WebAssembly is a comparatively new technology that allows you to run code written in languages other than JavaScript on the web. It’s a low-level assembly-like language with a compact binary format that runs with near-native performance and provides languages such as C/C++ and Rust with a compilation target so that they can run on the web."
+            }
+            
+        }
+    }
+}
