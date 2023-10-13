@@ -1954,45 +1954,7 @@
                    
                    
                 ],
-                "Server Side": [
-                    
-                    
-                    {
-                        "name": "Casandra",
-                        "recommendation-type": "opinion",
-                        "description": "A wide-column database (sometimes referred to as a column database) is similar to a relational database. It store data in tables, rows and columns. However in opposite to relational databases here each row can have its own format of the columns. Column databases can be seen as a two-dimensional key-value database. One of such database system is Apache Cassandra.\nWarning: note that a “columnar database” and a “column database” are two different terms!\nVisit the following resources to learn more:",
-                        "resources": [
-                            {
-                                "name": "Apache Cassandra",
-                                "link": "https://cassandra.apache.org/_/index.html"
-                            },
-                            {
-                                "name": "Apache Cassandra Database - Full Course for Beginners",
-                                "link": "https://www.youtube.com/watch?v=J-cSy5MeMOA"
-                            }
-                            
-                        ]
-                    },
-                    {
-                        "name": "HBase",
-                        "recommendation-type": "opinion",
-                        "description": "A wide-column database (sometimes referred to as a column database) is similar to a relational database. It store data in tables, rows and columns. However in opposite to relational databases here each row can have its own format of the columns. Column databases can be seen as a two-dimensional key-value database. One of such database system is Apache Cassandra.\nWarning: note that a “columnar database” and a “column database” are two different terms!\nVisit the following resources to learn more",
-                        "resources": [
-                            {
-                                "name": "Apache Cassandra",
-                                "link": "https://cassandra.apache.org/_/index.html"
-                            },
-                            {
-                                "name": "Apache Cassandra Database - Full Course for Beginners",
-                                "link": "https://wwwhttps://www.youtube.com/watch?v=J-cSy5MeMOA.mongodb.com/"
-                            }
-                            
-                          
-                        ]
-                    }
-                   
-
-                ],
+              
                 "order": 11,
                 "options": [
                     {
@@ -2009,46 +1971,27 @@
                     },
                     
                     {
-                        "name": "",
+                        "name": "CDN",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "A Content Delivery Network (CDN) service aims to provide high availability and performance improvements of websites. This is achieved with fast delivery of website assets and content typically via geographically closer endpoints to the client requests. Traditional commercial CDNs (Amazon CloudFront, Akamai, CloudFlare and Fastly) provide servers across the globe which can be used for this purpose. Serving assets and contents via a CDN reduces bandwidth on website hosting, provides an extra layer of caching to reduce potential outages and can improve website security as well\nVisit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "CloudFlare - What is a CDN? | How do CDNs work?",
+                                "link": "https://www.cloudflare.com/en-ca/learning/cdn/what-is-a-cdn/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Wikipedia - Content Delivery Network",
+                                "link": "https://en.wikipedia.org/wiki/Content_delivery_network"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "What is Cloud CDN?",
+                                "link": "https://www.youtube.com/watch?v=841kyd_mfH0"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "What is a Content Delivery Network (CDN)?",
+                                "link": "https://www.youtube.com/watch?v=Bsq5cKkS33I"
                             }
+                           
                         ]
                     },
                     {
@@ -2137,7 +2080,72 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "Server Side":{
+                    "description": "Server-side caching temporarily stores web files and data on the origin server to reuse later.\nWhen the user first requests for the webpage, the website goes under the normal process of retrieving data from the server and generates or constructs the webpage of the website. After the request has happened and the response has been sent back, the server copies the webpage and stores it as a cache.\nNext time the user revisits the website, it loads the already saved or cached copy of the webpage, thus making it faster.\nVisit the following resources to learn more: ",
+                    "resources": [
+                        {
+                            "name": "Server-side caching",
+                            
+                            "link": "https://www.starwindsoftware.com/resource-library/server-side-caching/"
+                        },
+                        {
+                            "name": "Server-side caching and Client-side caching",
+                            "link": "https://www.codingninjas.com/codestudio/library/server-side-caching-and-client-side-caching"
+                        }
+                        
+                        
+                    ],
+                    "options": [
+                        {
+                            "name": "Redis",
+                            "recommendation-type": "opinion",
+                            "description": "Redis is an open source (BSD licensed), in-memory data structure store used as a database, cache, message broker, and streaming engine. Redis provides data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes, and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions, and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster.\nVisit the following resources to learn more:",
+                            "resources": [
+                                {
+                                    "name": "Redis Website",
+                                    "link": "https://redis.io/"
+                                },
+                                {
+                                    "name": "Redis in 100 Seconds",
+                                    "link": "https://www.youtube.com/watch?v=G1rOthIU-uo"
+                                }
+                              
+                            ]
+                        },
+                        
+                        {
+                            "name": "Memcached",
+                            "recommendation-type": "opinion",
+                            "description": "Memcached (pronounced variously mem-cash-dee or mem-cashed) is a general-purpose distributed memory-caching system. It is often used to speed up dynamic database-driven websites by caching data and objects in RAM to reduce the number of times an external data source (such as a database or API) must be read. Memcached is free and open-source software, licensed under the Revised BSD license. Memcached runs on Unix-like operating systems (Linux and macOS) and on Microsoft Windows. It depends on the libevent library.\nMemcached’s APIs provide a very large hash table distributed across multiple machines. When the table is full, subsequent inserts cause older data to be purged in the least recently used (LRU) order. Applications using Memcached typically layer requests and additions into RAM before falling back on a slower backing store, such as a database.\nMemcached has no internal mechanism to track misses which may happen. However, some third-party utilities provide this functionality.\nVisit the following resources to learn more:",
+                            "resources": [
+                                {
+                                    "name": "Memcached, From Wikipedia",
+                                    "link": "https://en.wikipedia.org/wiki/Memcached"
+                                },
+                                {
+                                    "name": "Memcached, From Official Github",
+                                    "link": "https://github.com/memcached/memcached#readme"
+                                },
+                                {
+                                    "name": "Memcached Tutorial",
+                                    "link": "https://www.tutorialspoint.com/memcached/index.htm"
+                                }
+                               
+                            ]
+                        }
+                    
+                    ]
+                    
+                    
+                    
+                        
+                        
+                      
+    
+                    
+                }
+
             },
             "Web Security Knowledge": {
                 "order": 12,
@@ -3186,181 +3194,98 @@
                     }
                 ]
             },
-            "Message Brokers": {
+            "Search Engines": {
+                "description": "Search engines are an essential part of any web application, responsible for providing efficient and relevant search results for users. They store and retrieve data based on unique indexes, which allow for fast and accurate searches. As a backend developer, understanding search engines functionalities, and how to integrate them into your web application, is crucial.\n\nThere are two primary types of search engines:\nFull-text search engines: These are specifically designed for searching and analyzing text documents. They can efficiently index large volumes of text and provide relevant results based on keywords or phrases. Popular full-text search engines examples include Elasticsearch, Solr, and Amazon CloudSearch.\nDatabase search engines: Database engines are built-in features of most databases. They provide search capabilities within the data stored in the database. Examples include MySQL FULLTEXT search and PostgreSQL Full-Text Search.\n\n Key Concepts\nWhen dealing with search engines, it’s important to understand these key concepts:\nIndexing: The process of analyzing and storing data in an optimized format for fast search and retrieval.\nTokenization: Breaking text into individual words or terms (also known as tokens), for efficient indexing and searching.\nQuerying: The act of searching the indexed data by asking a specific question or requesting information based on keywords or phrases.\nRelevance scoring: A score assigned to each search result that indicates how closely it matches the query, based on algorithms and relevance models.\n\nIntegration\nTo integrate a search engine into your web application, you would typically follow these steps:\nChoose the search engine: Identify the search engine that best suits your application’s needs, considering factors such as scalability, performance, and ease of integration.\nIndex your data: Analyze and store your data using the chosen search engine. This process may involve creating an index, specifying fields, and defining how the data should be tokenized and analyzed.\nImplement search functionality: Develop the backend code for handling search requests, such as sending queries to the search engine and parsing the responses. Additionally, make sure to handle user inputs, like keywords, phrases, and filters.\nDisplay search results: Design the frontend of your application to show search results in a user-friendly manner, including pagination, sorting, and filters.",
+                "resources": [
+                    {
+                        "name": "",
+                        "link": ""
+                    }
+                    
+                   
+                ], 
                 "order": 18,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Solr",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Solr is highly reliable, scalable and fault tolerant, providing distributed indexing, replication and load-balanced querying, automated failover and recovery, centralized configuration and more. Solr powers the search and navigation features of many of the world’s largest internet sites.\nVisit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Official Website",
+                                "link": "https://solr.apache.org/"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Official Documentation",
+                                "link": "https://solr.apache.org/resources.html#documentation"
                             }
+                           
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Elasticsearch",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Elastic search at its core is a document-oriented search engine. It is a document based database that lets you INSERT, DELETE , RETRIEVE and even perform analytics on the saved records. But, Elastic Search is unlike any other general purpose database you have worked with, in the past. It’s essentially a search engine and offers an arsenal of features you can use to retrieve the data stored in it, as per your search criteria. And that too, at lightning speeds.\nVisit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Elasticsearch Website",
+                                "link": "https://www.elastic.co/elasticsearch/"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Elasticsearch Documentation",
+                                "link": "https://www.elastic.co/guide/index.html"
                             }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
+                          
                         ]
                     }
+                   
+                ]
+            },
+            "Message Brokers": {
+                "description": "Message brokers are an inter-application communication technology to help build a common integration mechanism to support cloud-native, microservices-based, serverless, and hybrid cloud architectures. Two of the most famous message brokers are RabbitMQ and Apache Kafka\nVisit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "Introduction to Message Brokers",
+                        "link": "https://www.youtube.com/watch?v=57Qr9tk6Uxc"
+                    }
+                    
+                   
+                ], 
+                "order": 18,
+                "options": [
+                    {
+                        "name": "RabbitMQ",
+                        "recommendation-type": "opinion",
+                        "description": "With tens of thousands of users, RabbitMQ is one of the most popular open-source message brokers. RabbitMQ is lightweight and easy to deploy on-premises and in the cloud. It supports multiple messaging protocols. RabbitMQ can be deployed in distributed and federated configurations to meet high-scale, high-availability requirements.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "RabbitMQ Tutorials",
+                                "link": "https://www.rabbitmq.com/getstarted.html"
+                            },
+                            {
+                                "name": "RabbitMQ Tutorial - Message Queues and Distributed Systems",
+                                "link": "https://www.youtube.com/watch?v=nFxjaVmFj5E"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Kafka",
+                        "recommendation-type": "opinion",
+                        "description": "Apache Kafka is an open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Apache Kafka quickstart",
+                                "link": "https://kafka.apache.org/quickstart"
+                            },
+                            {
+                                "name": "Apache Kafka Fundamentals",
+                                "link": "https://www.youtube.com/watch?v=B5j3uNBH8X4"
+                            }
+                          
+                        ]
+                    }
+                   
                 ]
             },
             "Containerization vs Virtualization": {
