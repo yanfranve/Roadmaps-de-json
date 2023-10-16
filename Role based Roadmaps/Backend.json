@@ -200,7 +200,7 @@
                     }
                 ]
             },
-            "learnenough a Language": {
+            "Learn a Language": {
                 "description": "Even if you’re a beginner the least you would have known is that Web Development is majorly classified into two facets: Frontend Development and Backend Development. And obviously, they both have their respective set of tools and technologies. For instance, when we talk about Frontend Development, there always comes 3 names first and foremost  HTML, CSS, and JavaScript.\nIn the same way, when it comes to Backend Web Development – we primarily require a backend (or you can say server-side) programming language to make the website function along with various other tools & technologies such as databases, frameworks, web servers, etc.\nPick a language from the given list and make sure to learn its quirks, core details about its runtime e.g. concurrency, memory model etc. ",
                
                 "order": 2,
@@ -732,7 +732,7 @@
                    
                 ]
             },
-            " OS and Generol Knowledge": {
+            " OS and General Knowledge": {
                 "description": "Operating System is a program that manages a computer’s resources, especially the allocation of those resources among other programs. Typical resources include the central processing unit (CPU), computer memory, file storage, input/output (I/O) devices, and network connections.\nVisit the following resources to learn more: ",
                 "resources": [
                     {
@@ -1769,134 +1769,326 @@
                 ]
             },
             "Learn About APIs": {
+                "description": "API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.\nVisit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "What is an API?",
+                        "link": "https://aws.amazon.com/what-is/api/"
+                    },
+                    {
+                        "name": "What is an API?",
+                        "link": "https://www.youtube.com/watch?v=s7wmiS2mSXY"
+                    }
+                   
+                   
+                ],
                 "order": 10,
                 "options": [
                     {
-                        "name": "",
+                        "name": "REST",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "REST, or REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "What is REST?",
+                                "link": "https://www.codecademy.com/article/what-is-rest"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "REST Fundamental",
+                                "link": "https://dev.to/cassiocappellari/fundamentals-of-rest-api-2nag"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "What is a REST API?",
+                                "link": "https://www.redhat.com/en/topics/api/what-is-a-rest-api"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Roy Fielding's dissertation chapter, Representational State Transfer (REST)",
+                                "link": "https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Learn REST: A RESTful Tutorial",
+                                "link": "https://restapitutorial.com/"
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "name": "JSON APIs",
+                        "recommendation-type": "opinion",
+                        "description": "JSON or JavaScript Object Notation is an encoding scheme that is designed to eliminate the need for an ad-hoc code for each application to communicate with servers that communicate in a defined way. JSON API module exposes an implementation for data stores and data structures, such as entity types, bundles, and fields.",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://jsonapi.org/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Official Docs",
+                                "link": "https://jsonapi.org/implementations/"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "JSON API: Explained in 4 minutes",
+                                "link": "https://www.youtube.com/watch?v=N-4prIh7t38"
                             }
                         ]
                     },
                     {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
+                        "name": "SOAP APIs",
+                        "recommendation-type": "not strict",
+                        "description": "Simple Object Access Protocol (SOAP) is a message protocol for exchanging information between systems and applications. When it comes to application programming interfaces (APIs), a SOAP API is developed in a more structured and formalized way. SOAP messages can be carried over a variety of lower-level protocols, including the web-related Hypertext Transfer Protocol (HTTP).",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "w3school SOAP explanation",
+                                "link": "https://www.w3schools.com/xml/xml_soap.asp"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "gRPC",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "gRPC is a high-performance, open source universal RPC framework. RPC stands for Remote Procedure Call, and there's an ongoing debate on what the 'g' stands for. RPC is a protocol that allows a program to execute a procedure of another program located on another computer. The great advantage is that the developer doesn't need to code the details of the remote interaction. The remote procedure is called like any other function, but the client and the server can be coded in different languages.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "gRPC Website",
+                                "link": "https://grpc.io/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "gRPC Docs",
+                                "link": "https://grpc.io/docs/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "What Is GRPC?",
+                                "link": "https://www.wallarm.com/what/the-concept-of-grpc'"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "What Is GRPC? (Alternate Resource)",
+                                "link": "https://www.youtube.com/watch?v=hVrwuMnCtok'"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "GraphQL",
+                        "recommendation-type": "opinion",
+                        "description": "GraphQL is a query language and runtime system for APIs (application programming interfaces). It is designed to provide a flexible and efficient way for clients to request data from servers, and it is often used as an alternative to REST (representational state transfer) APIs. One of the main features of GraphQL is its ability to specify exactly the data that is needed, rather than receiving a fixed set of data from an endpoint. This allows clients to request only the data that they need, and it reduces the amount of data that needs to be transferred over the network. GraphQL also provides a way to define the structure of the data that is returned from the server, allowing clients to request data in a predictable and flexible way. This makes it easier to build and maintain client applications that depend on data from the server. GraphQL is widely used in modern web and mobile applications, and it is supported by a large and active developer community.",
+                        "resources": [
+                            {
+                                "name": "GraphQL Official Website",
+                                "link": "https://graphql.org/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Hateoas",
+                        "recommendation-type": "not strict",
+                        "description": "HATEOAS is an acronym for Hypermedia As The Engine Of Application State, it’s the concept that when sending information over a RESTful API the document received should contain everything the client needs in order to parse and use the data i.e they don’t have to contact any other endpoint not explicitly mentioned within the Document\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Oktane17: Designing Beautiful REST + JSON APIs (3:56 - 5:57)",
+                                "link": "https://youtu.be/MiOSzpfP1Ww?t=236"
+                            }
+                         
+                        ]
+                    },
+                  
+                    {
+                        "name": "OpenAPI Specification",
+                        "recommendation-type": "not strict",
+                        "description": "The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. When properly defined, a consumer can understand and interact with the remote service with a minimal amount of implementation logic.",
+                        "resources": [
+                            {
+                                "name": "OpenAPI Specification Website",
+                                "link": "https://swagger.io/specification/I"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Open API Live Editor",
+                                "link": "https://swagger.io/tools/swagger-editor/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Official training guide",
+                                "link": "https://swagger.io/docs/specification/about/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "OpenAPI 3.0: How to Design and Document APIs with the Latest OpenAPI Specification 3.0",
+                                "link": "https://www.youtube.com/watch?v=6kwmW_p_Tig"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "OpenAPI 3.0 Documentation",
+                                "link": "https://www.youtube.com/watch?v=6kwmW_p_Tig"
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "name": "Authentication",
+                        "recommendation-type": "opinion",
+                        "description": "The API authentication process validates the identity of the client attempting to make a connection by using an authentication protocol. The protocol sends the credentials from the remote client requesting the connection to the remote access server in either plain text or encrypted form. The server then knows whether it can grant access to that remote client or not. Here is the list of common ways of authentication:",
+                        "resources": [
+                            {
+                                "name": "User Authentication: Understanding the Basics & Top Tips",
+                                "link": "https://swoopnow.com/user-authentication/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "An overview about authentication methods",
+                                "link": "https://betterprogramming.pub/how-do-you-authenticate-mate-f2b70904cc3a"
+                            },
+                            {
+                                "name": "SSO - Single Sign On",
+                                "link": "https://roadmap.sh/guides/sso"
+                            },
+                            {
+                                "name": "OAuth - Open Authorization",
+                                "link": "https://roadmap.sh/guides/oauth"
+                            },
+                            {
+                                "name": "JWT Authentication",
+                                "link": "https://roadmap.sh/guides/jwt-authentication"
+                            },
+                            {
+                                "name": "Token Based Authentication",
+                                "link": "https://roadmap.sh/guides/token-authentication"
+                            },
+                            {
+                                "name": "Session Based Authentication",
+                                "link": "https://roadmap.sh/guides/session-authentication"
+                            },
+                            {
+                                "name": "Basic Authentication",
+                                "link": "https://roadmap.sh/guides/basic-authentication"
+                            }
+                          
+                        ],
+                        "options": [
+                            {
+                                "name": "Cookie-Based",
+                                "recommendation-type": "not strict",
+                                "description": "Cookies are pieces of data used to identify the user and their preferences. The browser returns the cookie to the server every time the page is requested. Specific cookies like HTTP cookies are used to perform cookie-based authentication to maintain the session for each user.\nVisit the following resources to learn more:",
+                                "resources": [
+                                    {
+                                        "name": "How does cookie based authentication work?",
+                                        "link": "https://stackoverflow.com/questions/17769011/how-does-cookie-based-authentication-work"
+                                    }
+                                  
+                                ]
+                            },
+                            {
+                                "name": "OAuth",
+                                "recommendation-type": "opinion",
+                                "description": "OAuth stands for Open Authorization and is an open standard for authorization. It works to authorize devices, APIs, servers and applications using access tokens rather than user credentials, known as “secure delegated access”.\nIn its most simplest form, OAuth delegates authentication to services like Facebook, Amazon, Twitter and authorizes third-party applications to access the user account without having to enter their login and password.\nIt is mostly utilized for REST/APIs and only provides a limited scope of a user’s data.\nVisit the following resources to learn more:",
+                                "resources": [
+                                    {
+                                        "name": "Okta - What the Heck is OAuth",
+                                        "link": "https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth"
+                                    },
+                                    {
+                                        "name": "DigitalOcean - An Introduction to OAuth 2",
+                                        "link": "https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2"
+                                    },
+                                    {
+                                        "name": "What is OAuth really all about",
+                                        "link": "https://www.youtube.com/watch?v=t4-416mg6iU"
+                                    },
+                                    {
+                                        "name": "OAuth 2.0: An Overview",
+                                        "link": "https://www.youtube.com/watch?v=CPbvxxslDTU"
+                                    }
+                                   
+                                ]
+                            },
+                            {
+                                "name": "Basic authentication",
+                                "recommendation-type": "opinion",
+                                "description": "Given the name “Basic Authentication”, you should not confuse Basic Authentication with the standard username and password authentication. Basic authentication is a part of the HTTP specification, and the details can be found in the RFC7617.\nBecause it is a part of the HTTP specifications, all the browsers have native support for “HTTP Basic Authentication”.\nVisit the following resources to learn more:",
+                                "resources": [
+                                    {
+                                        "name": "HTTP Basic Authentication",
+                                        "link": "https://roadmap.sh/guides/http-basic-authentication"
+                                    },
+                                    {
+                                        "name": "Illustrated HTTP Basic Authentication",
+                                        "link": "https://www.youtube.com/watch?v=mwccHwUn7Gc"
+                                    }
+                                    
+                                ]
+                            },
+                            {
+                                "name": "Token-Based Authentication",
+                                "recommendation-type": "opinion",
+                                "description": "Token-based authentication is a protocol which allows users to verify their identity, and in return receive a unique access token. During the life of the token, users then access the website or app that the token has been issued for, rather than having to re-enter credentials each time they go back to the same webpage, app, or any resource protected with that same token.\n\nAuth tokens work like a stamped ticket. The user retains access as long as the token remains valid. Once the user logs out or quits an app, the token is invalidated.\n\nToken-based authentication is different from traditional password-based or server-based authentication techniques. Tokens offer a second layer of security, and administrators have detailed control over each action and transaction.\n\nBut using tokens requires a bit of coding know-how. Most developers pick up the techniques quickly, but there is a learning curve.",
+                                "resources": [
+                                    {
+                                        "name": "What Is Token-Based Authentication?",
+                                        "link": "https://www.okta.com/identity-101/what-is-token-based-authentication/"
+                                    }
+                                ]
+                            },
+                            
+                            {
+                                "name": "JWT",
+                                "recommendation-type": "opinion",
+                                "description": "JWT stands for JSON Web Token is a token-based encryption open standard/methodology that is used to transfer information securely as a JSON object. Clients and Servers use JWT to securely share information, with the JWT containing encoded JSON objects and claims. JWT tokens are designed to be compact, safe to use within URLs, and ideal for SSO contexts.\nVisit the following resources to learn more:",
+                                "resources": [
+                                    {
+                                        "name": "jwt.io Website",
+                                        "link": "https://jwt.io/"
+                                    },
+                                    {
+                                        "name": "Introduction to JSON Web Tokens",
+                                        "link": "https://jwt.io/introduction"
+                                    },
+                                    {
+                                        "name": "What is JWT?",
+                                        "link": "https://www.akana.com/blog/what-is-jwt"
+                                    },
+                                    {
+                                        "name": "What Is JWT and Why Should You Use JWT",
+                                        "link": "https://www.youtube.com/watch?v=7Q17ubqLfaM"
+                                    },
+                                    {
+                                        "name": "What is JWT? JSON Web Token Explained",
+                                        "link": "https://www.youtube.com/watch?v=926mknSW9Lo"
+                                    }
+                                   
+                                ]
+                            },
+                            {
+                                "name": "OpenID",
+                                "recommendation-type": "not strict",
+                                "description": "OpenID is a protocol that utilizes the authorization and authentication mechanisms of OAuth 2.0 and is now widely adopted by many identity providers on the Internet. It solves the problem of needing to share user’s personal info between many different web services(e.g. online shops, discussion forums etc.)\nVisit the following resources to learn more:",
+                                "resources": [
+                                    {
+                                        "name": "Official Website",
+                                        "link": "https://openid.net/"
+                                    },
+                                    {
+                                        "name": "What is OpenID",
+                                        "link": "https://openid.net/connect/"
+                                    },
+                                    {
+                                        "name": "OAuth vs OpenID",
+                                        "link": "https://securew2.com/blog/oauth-vs-openid-which-is-better"
+                                    },
+                                    {
+                                        "name": "An Illustrated Guide to OAuth and OpenID Connect",
+                                        "link": "https://www.youtube.com/watch?v=t18YB3xDfXI"
+                                    },
+                                    {
+                                        "name": "OAuth 2.0 and OpenID Connect (in plain English)",
+                                        "link": "https://www.youtube.com/watch?v=996OiexHze0"
+                                    },
+                                    {
+                                        "name": "Security Assertion Markup Language (SAML)",
+                                        "recommendation-type": "not strict",
+                                        "description": "SAML stands for Security Assertion Markup Language. It is an XML-based standard for exchanging authentication and authorization data between parties, particularly between an identity provider (IdP) and a service provider (SP). In a SAML-based system, a user requests access to a protected resource. The service provider asks the identity provider to authenticate the user and assert whether they are granted access to the resource.\n\nBenefits of SAML\nSome advantages of using SAML include:\n\n- Single Sign-On (SSO): Users can log in once at the IdP and access multiple service providers without needing to authenticate again.\n- Improved security: Passwords and user credentials are not required to be stored and managed by the service provider, reducing the potential vectors for attack.\n- Increased efficiency: As users no longer need to maintain multiple sets of credentials, managing access becomes easier for both the user and the system administrators.\n- Interoperability: SAML enables a wide range of applications to work together, regardless of the underlying technology or platform.\n\nSAML Components\nThree main components are involved in the SAML architecture:\n\n- Identity Provider (IdP): The entity that manages users’ identities and authenticates them by providing security tokens, also called assertions.\n- Service Provider (SP): The entity that provides a service (such as a web application or API) and relies on the identity provider to authenticate users and grant/deny access to the resources.\n- User/Principal: The end user seeking access to the service provided by the service provider.\n\nSAML Workflow\nThe SAML authentication process consists of the following steps:\n\n1. The user requests access to a protected resource from the service provider.\n2. If the user is not already authenticated, the service provider generates and sends a SAML authentication request to the identity provider.\n3. The identity provider authenticates the user (using, e.g., a username and password, multi-factor authentication, or another method).\n4. The identity provider constructs a SAML response, which includes details about the user and asserts whether the user is authorized to access the requested resource.\n5. The SAML response is sent back to the service provider, typically via the user’s web browser or API client.\n6. The service provider processes the SAML response, extracts the necessary information, and grants or denies access to the user based on the identity provider’s assertion.\n\nWith SAML, you can streamline user authentication and authorization across various applications and systems, providing a better user experience and improving your overall backend security.",
+                                        "resources": [
+                                            {
+                                                "name": "",
+                                                "link": ""
+                                            }
+                                        ]
+                                    }
+                                    
+                                   
+                                ]
                             }
                         ]
                     },
@@ -2822,6 +3014,7 @@
                 ]
             },
             "Design and Development Principles": {
+                
                 "description": " ",
                 "resources": [
                     {
@@ -2845,13 +3038,33 @@
                 "order": 16,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Design Patterns",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Design patterns are typical solutions to commonly occurring problems in software design. They can be broken into three categories:\nCreational Patterns for the creation of objects\nStructural Patterns to provide relationship between objects\nBehavioral Patterns to help define how objects interact\nVisit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Design Patterns for Humans",
+                                "link": "https://github.com/kamranahmedse/design-patterns-for-humans"
+                            },
+                            {
+                                "name": "GOF design patterns",
+                                "link": "https://springframework.guru/gang-of-four-design-patterns/"
+                            },
+                            {
+                                "name": "Design Patterns",
+                                "link": "https://refactoring.guru/design-patterns"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Domain-Driven Design",
+                        "recommendation-type": "opinion",
+                        "description": "Domain-driven design (DDD) is a software design approach focusing on modeling software to match a domain according to input from that domain’s experts.\nIn terms of object-oriented programming, it means that the structure and language of software code (class names, class methods, class variables) should match the business domain. For example, if a software processes loan applications, it might have classes like LoanApplication and Customer, and methods such as AcceptOffer and Withdraw.\nDDD connects the implementation to an evolving model and it is predicated on the following goals:\nPlacing the project’s primary focus on the core domain and domain logic;\nBasing complex designs on a model of the domain;\nInitiating a creative collaboration between technical and domain experts to iteratively refine a conceptual model that addresses particular domain problems.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Domain Driven Design Quickly",
+                                "link": "https://matfrs2.github.io/RS2/predavanja/literatura/Avram%20A,%20Marinescu%20F.%20-%20Domain%20Driven%20Design%20Quickly.pdf"
                             },
                             {
                                 "name": "",
@@ -2888,132 +3101,47 @@
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Test Driven Development",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Test driven development (TDD) is the process of writing tests for software’s requirements which will fail until the software is developed to meet those requirements. Once those tests pass, then the cycle repeats to refactor code or develop another feature/requirement. In theory, this ensures that software is written to meet requirements in the simplest form, and avoids code defects\nVisit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "What is Test Driven Development (TDD)?",
+                                "link": "https://www.guru99.com/test-driven-development.html"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Test-driven development",
+                                "link": "https://www.ibm.com/garage/method/practices/code/practice_test_driven_development/"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Agile in Practice: Test Driven Development",
+                                "link": "https://youtu.be/uGaNkTahrIw"
                             }
+                         
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "CQRS",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "CQRS, or command query responsibility segregation, defines an architectural pattern where the main focus is to separate the approach of reading and writing operations for a data store. CQRS can also be used along with Event Sourcing pattern in order to persist application state as an ordered of sequence events, making it possible to restore data to any point in time.\nVisit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "CQRS Pattern",
+                                "link": "https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs"
                             }
+                           
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Event Sourcing",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Event sourcing is a design pattern in which the state of a system is represented as a sequence of events that have occurred over time. In an event-sourced system, changes to the state of the system are recorded as events and stored in an event store. The current state of the system is derived by replaying the events from the event store.\nOne of the main benefits of event sourcing is that it provides a clear and auditable history of all the changes that have occurred in the system. This can be useful for debugging and for tracking the evolution of the system over time.\nEvent sourcing is often used in conjunction with other patterns, such as Command Query Responsibility Segregation (CQRS) and domain-driven design, to build scalable and responsive systems with complex business logic. It is also useful for building systems that need to support undo/redo functionality or that need to integrate with external systems.\nVisit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Event Sourcing - Martin Fowler",
+                                "link": "https://martinfowler.com/eaaDev/EventSourcing.html"
                             }
+                           
                         ]
                     }
                 ]

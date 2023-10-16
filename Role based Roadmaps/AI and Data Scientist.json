@@ -1,0 +1,493 @@
+{
+    "roles": {
+        "AI and Data Scientist": {
+            "Mathematics": {
+               
+                "order": 1,
+                "options": [
+                    {
+                        "name": "Learn Algebra, Calculus, Mathematical Analysis",
+                        "resources": [
+                            {
+                                "name": "Mathematics for Machine Learning Specialization",
+                                "link": "https://imp.i384100.net/baqMYv"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Differential Calculus",
+                        "resources": [
+                            {
+                                "name": "Algebra and Differential Calculus for Data Science",
+                                "link": "https://imp.i384100.net/LX5M7M"
+                            }
+                          
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            },
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Statistics": {
+               
+                "order": 2,
+                "options": [
+                    {
+                        "name": "Statistics, CLT",
+                        "resources": [
+                            {
+                                "name": "https://imp.i384100.net/3eRv4v",
+                                "link": "https://imp.i384100.net/3eRv4v"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Hypothesis Testing",
+                        "resources": [
+                            {
+                                "name": "Introduction to Statistical Analysis: Hypothesis Testing",
+                                "link": "https://imp.i384100.net/vN0JAA"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "AB Testing",
+                        "resources": [
+                            {
+                                "name": "Practitioner’s Guide to Statistical Tests",
+                                "link": "https://vkteam.medium.com/practitioners-guide-to-statistical-tests-ed2d580ef04f#1e3b"
+                            },
+                            {
+                                "name": "Step by Step Process for Planning an A/B Test",
+                                "link": "https://towardsdatascience.com/step-by-step-for-planning-an-a-b-test-ef3c93143c0b"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Increasing Test Sensitivity",
+                        "resources": [
+                            {
+                                "name": "Minimum Detectable Effect (MDE)",
+                                "link": "https://splitmetrics.com/resources/minimum-detectable-effect-mde/"
+                            },
+                            {
+                                "name": "Improving the Sensitivity of Online Controlled Experiments: Case Studies at Netflix",
+                                "link": "https://kdd.org/kdd2016/papers/files/adp0945-xieA.pdf"
+                            },
+                            {
+                                "name": "Improving the Sensitivity of Online Controlled Experiments by Utilizing Pre-Experiment Data",
+                                "link": "https://exp-platform.com/Documents/2013-02-CUPED-ImprovingSensitivityOfControlledExperiments.pdf"
+                            },
+                            {
+                                "name": "How Booking.com increases the power of online experiments with CUPED",
+                                "link": "https://booking.ai/how-booking-com-increases-the-power-of-online-experiments-with-cuped-995d186fff1d"
+                            },
+                            {
+                                "name": "Improving Experimental Power through Control Using Predictions as Covariate — CUPAC",
+                                "link": "https://doordash.engineering/2020/06/08/improving-experimental-power-through-control-using-predictions-as-covariate-cupac/"
+                            },
+                            {
+                                "name": "Improving the Sensitivity of Online Controlled Experiments: Case Studies at Netflix",
+                                "link": "https://www.researchgate.net/publication/305997925_Improving_the_Sensitivity_of_Online_Controlled_Experiments_Case_Studies_at_Netflix"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Ratio Metrics",
+                        "resources": [
+                            {
+                                "name": "Applying the Delta Method in Metric Analytics: A Practical Guide with Novel Ideas",
+                                "link": "https://arxiv.org/pdf/1803.06336.pdf"
+                            },
+                            {
+                                "name": "Approximations for Mean and Variance of a Ratio",
+                                "link": "https://www.stat.cmu.edu/~hseltman/files/ratio.pdf"
+                            }
+                        
+                        ]
+                    }
+             
+                ]
+            },
+            "Econometrics": {
+               
+                "order": 3,
+                "options": [
+                    {
+                        "name": "Econometrics Pre-requisites",
+                        "resources": [
+                            {
+                                "name": "10 Fundamental Theorems for Econometrics",
+                                "link": "https://bookdown.org/ts_robinson1994/10EconometricTheorems/"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "Regressions, Time series, Fitting Distributions",
+                        "resources": [
+                            {
+                                "name": "10 Fundamental Theorems for Econometrics",
+                                "link": "https://bookdown.org/ts_robinson1994/10EconometricTheorems/"
+                            },
+                            {
+                                "name": "Dougherty Intro to Econometrics 4th edition",
+                                "link": "https://www.academia.edu/33062577/Dougherty_Intro_to_Econometrics_4th_ed_small"
+                            },
+                            {
+                                "name": "Econometrics: Methods and Applications",
+                                "link": "https://imp.i384100.net/k0krYL"
+                            },
+                            {
+                                "name": "Kaggle - Learn Time Series",
+                                "link": "https://www.kaggle.com/learn/time-series"
+                            },
+                            {
+                                "name": "Time series Basics : Exploring traditional TS",
+                                "link": "https://www.kaggle.com/code/jagangupta/time-series-basics-exploring-traditional-ts#Hierarchical-time-series"
+                            },
+                            {
+                                "name": "How to Create an ARIMA Model for Time Series Forecasting in Python",
+                                "link": "https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python"
+                            },
+                            {
+                                "name": "11 Classical Time Series Forecasting Methods in Python",
+                                "link": "https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/"
+                            },
+                            {
+                                "name": "Blockchain.com Data Scientist TakeHome Test",
+                                "link": "https://github.com/stalkermustang/bcdc_ds_takehome"
+                            },
+                            {
+                                "name": "Linear Regression for Business Statistics",
+                                "link": "https://imp.i384100.net/9g97Ke"
+                            }
+                        ]
+                    }
+                 
+                ]
+            },
+            "Coding": {
+               
+                "order": 4,
+                "options": [
+                    {
+                        "name": "Python",
+                        "resources": [
+                            {
+                                "name": "Kaggle — Python",
+                                "link": "https://www.kaggle.com/learn/python"
+                            },
+                            {
+                                "name": "Google’s Python Class",
+                                "link": "https://developers.google.com/edu/python"
+                            }
+                          
+                        ]
+                    },
+                    {
+                        "name": "Data Structures and Algorithms",
+                        "resources": [
+                            {
+                                "name": "Learn Algorithms",
+                                "link": "https://leetcode.com/explore/learn/"
+                            },
+                            {
+                                "name": "Leetcode - Study Plans",
+                                "link": "https://leetcode.com/studyplan/"
+                            },
+                            {
+                                "name": "Algorithms Specialization",
+                                "link": "https://imp.i384100.net/5gqv4n"
+                            }
+                           
+                        ]
+                    },
+                    {
+                        "name": "SQL",
+                        "resources": [
+                            {
+                                "name": "SQL Tutorial",
+                                "link": "https://www.sqltutorial.org/"
+                            }
+                           
+                        ]
+                    }
+                   
+                ]
+            },
+            "Exploratory Data Analysis": {
+               
+                "order": 5,
+                "options": [
+                    {
+                        "name": "Data Understanding, Analysis and Visualization",
+                        "resources": [
+                            {
+                                "name": "Exploratory Data Analysis With Python and Pandas",
+                                "link": "https://imp.i384100.net/AWAv4R"
+                            },
+                            {
+                                "name": "Exploratory Data Analysis for Machine Learning",
+                                "link": "https://imp.i384100.net/GmQMLE"
+                            },
+                            {
+                                "name": "Exploratory Data Analysis with Seaborn",
+                                "link": "https://imp.i384100.net/ZQmMgR"
+                            }
+                           
+                        ]
+                    }
+                   
+                ]
+            },
+            "Machine Learning": {
+               
+                "order": 6,
+                "options": [
+                    {
+                        "name": "Classic/Advanced ML",
+                        "resources": [
+                            {
+                                "name": "Open Machine Learning Course",
+                                "link": "https://mlcourse.ai/book/topic01/topic01_intro.html"
+                            },
+                            {
+                                "name": "Coursera: Machine Learning Specialization",
+                                "link": "https://imp.i384100.net/oqGkrg"
+                            },
+                            {
+                                "name": "Pattern Recognition and Machine Learning by Christopher Bishop",
+                                "link": "https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf"
+                            },
+                            {
+                                "name": "Repository of notes, code and notebooks in Python for the book",
+                                "link": "https://github.com/gerdm/prml"
+                            },
+                            {
+                                "name": "Pattern Recognition and Machine Learning by Christopher Bishop",
+                                "link": "https://github.com/gerdm/prml"
+                            }
+                           
+                        ]
+                    }
+                  
+                ]
+            },
+            "Deep Learning": {
+               
+                "order": 7,
+                "options": [
+                    {
+                        "name": "Fully Connected NN, CNN, RNN, LSTM, Transformers, Transfer Learning",
+                        "resources": [
+                            {
+                                "name": "The Illustrated Transformer",
+                                "link": "https://jalammar.github.io/illustrated-transformer/"
+                            },
+                            {
+                                "name": "Attention is All you Need",
+                                "link": "https://arxiv.org/pdf/1706.03762.pdf"
+                            },
+                            {
+                                "name": "Deep Learning Book",
+                                "link": "https://www.deeplearningbook.org/"
+                            },
+                            {
+                                "name": "Deep Learning Specialization",
+                                "link": "https://imp.i384100.net/Wq9MV3"
+                            }
+                           
+                        ]
+                    }
+                  
+                ]
+            },
+            "MLOps": {
+               
+                "order": 8,
+                "options": [
+                    {
+                        "name": "MLOps",
+                        "resources": [
+                            {
+                                "name": "Machine Learning Engineering for Production (MLOps) Specialization",
+                                "link": "https://imp.i384100.net/nLA5mx"
+                            }
+                           
+                        ]
+                    }
+                  
+                ]
+            }
+        }
+    }
+}
