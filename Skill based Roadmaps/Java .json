@@ -263,7 +263,223 @@
                 "resources": [],
                 "order": 2,
                 "options": [
+                    {
+                        "name": "Generics",
+                        "recommendation-type": "opinion",
+                        "description": "Java Generic methods and generic classes enable programmers to specify, with a single method declaration, a set of related methods, or with a single class declaration, a set of related types, respectively.",
+                        "resources": [
+                            {
+                                "name": "Generics in Java",
+                                "link": "https://docs.oracle.com/javase/tutorial/java/generics/index.html"
+                            },
+                            {
+                                "name": "Java - Generics",
+                                "link": "https://www.geeksforgeeks.org/generics-in-java/"
+                            },
+                            {
+                                "name": "Generics in Java",
+                                "link": "https://www.javatpoint.com/generics-in-java"
+                            },
+                            {
+                                "name": "Generics in Java",
+                                "link": "https://www.baeldung.com/java-generics"
+                            },
+                            {
+                                "name": "An introduction to generic types in Java",
+                                "link": "https://docs.oracle.com/javase/tutorial/extra/generics/index.html"
+                            }
+                        ]
+                    },
                     
+                    {
+                        "name": "Streams",
+                        "recommendation-type": "opinion",
+                        "description": "ava provides a new additional package in Java 8 called java.util.stream. This package consists of classes, interfaces and enum to allows functional-style operations on the elements. You can use stream by importing java.util.stream package.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Streams in Java",
+                                "link": "https://www.geeksforgeeks.org/stream-in-java/"
+                            },
+                            {
+                                "name": "Java 8 Stream",
+                                "link": "https://www.javatpoint.com/java-8-stream"
+                            },
+                            {
+                                "name": "Streams API Tutorial in Java 8+",
+                                "link": "https://www.youtube.com/watch?v=VNovNwHr9jY"
+                            },
+                            {
+                                "name": "Java 8 Streams Tutorial",
+                                "link": "https://www.youtube.com/watch?v=t1-YZ6bF-g0"
+                            },
+                            {
+                                "name": "The Java 8 Stream API Tutorial",
+                                "link": "https://www.baeldung.com/java-8-streams"
+                            }
+                          
+                        ]
+                    },
+                    {
+                        "name": "How JVM Works",
+                        "recommendation-type": "opinion",
+                        "description": "The Java Virtual Machine is a program whose purpose is to execute other programs. JVMs are available for many hardware and software platforms (i.e. JVM is platform dependent). JVM is the one that actually calls the main method present in a java code. JVM is a part of JRE (Java Runtime Environment).",
+                        "resources": [
+                            {
+                                "name": "What is JVM?",
+                                "link": "https://www.geeksforgeeks.org/jvm-works-jvm-architecture/"
+                            },
+                            {
+                                "name": "Introducing the Java Virtual Machine",
+                                "link": "https://docs.oracle.com/javase/8/docs/technotes/guides/vm/"
+                            },
+                            {
+                                "name": "JVM Architecture",
+                                "link": "https://en.wikipedia.org/wiki/Java_virtual_machine"
+                            },
+                            {
+                                "name": "JVM (Java Virtual Machine) Architecture",
+                                "link": "https://www.tutorialspoint.com/jvm/index.htm"
+                            },
+                            {
+                                "name": "How JVM works?",
+                                "link": "https://www.guru99.com/java-virtual-machine-jvm.html"
+                            },
+                            {
+                                "name": "Garbage Collection",
+                                "recommendation-type": "opinion",
+                                "description": "Java garbage collection is the process by which Java programs perform automatic memory management. Java programs run on the JVM, and objects are created on the heap, a portion of memory dedicated to the program. Understanding garbage collection is crucial for efficient memory usage in Java applications.",
+                                "resources": [
+                                    {
+                                        "name": "Java Garbage Collection",
+                                        "link": "https://stackify.com/what-is-java-garbage-collection/"
+                                    },
+                                    {
+                                        "name": "Garbage Collection in Java",
+                                        "link": "https://www.geeksforgeeks.org/garbage-collection-java/"
+                                    },
+                                    {
+                                        "name": "Java Garbage Collection",
+                                        "link": "https://www.javatpoint.com/Garbage-Collection"
+                                    },
+                                    {
+                                        "name": "Garbage Collection in Java - Geekific",
+                                        "link": "https://www.youtube.com/watch?v=xxoacv5xm9s"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Basics of Threads",
+                                "recommendation-type": "opinion",
+                                "description": "Threads in Java determine the direction or path that a program takes during execution. Every Java program typically has at least one thread, the main thread, which is provided by the JVM (Java Virtual Machine) at the start of program execution. Understanding threads is essential for concurrent and parallel programming in Java.",
+                                "resources": [
+                                    {
+                                        "name": "Threads in Java",
+                                        "link": "https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html"
+                                    },
+                                    {
+                                        "name": "An Introduction to Thread in Java",
+                                        "link": "https://www.simplilearn.com/tutorials/java-tutorial/thread-in-java"
+                                    },
+                                    {
+                                        "name": "Java Threads",
+                                        "link": "https://www.geeksforgeeks.org/java-threads/"
+                                    },
+                                    {
+                                        "name": "How to Create a Thread in Java?",
+                                        "link": "https://www.javatpoint.com/how-to-create-a-thread-in-java"
+                                    },
+                                    {
+                                        "name": "Java Threads Tutorial",
+                                        "link": "Java Threads Tutorial"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Memory Management",
+                                "recommendation-type": "opinion",
+                                "description": "In Java, memory management involves the allocation and deallocation of objects, which is essential for efficient memory usage. Understanding how Java handles memory is crucial for developing robust and performant applications.",
+                                "resources": [
+                                    {
+                                        "name": "Java Memory Management",
+                                        "link": "https://www.geeksforgeeks.org/java-memory-management/"
+                                    },
+                                    {
+                                        "name": "Memory Management in Java",
+                                        "link": "https://www.javatpoint.com/memory-management-in-java"
+                                    },
+                                    {
+                                        "name": "Memory Management Tutorial in Java",
+                                        "link": "https://www.youtube.com/watch?v=fM8yj93X80s"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Collection Framework",
+                                "recommendation-type": "opinion",
+                                "description": "The Collection Framework in Java provides a powerful framework for storing and manipulating groups of objects. It allows you to perform essential operations such as searching, sorting, insertion, manipulation, and deletion on data collections. Understanding and effectively using Java's Collection Framework is vital for building efficient and robust applications.",
+                                "resources": [
+                                    {
+                                        "name": "Collections in Java",
+                                        "link": "Collections in Java"
+                                    },
+                                    {
+                                        "name": "Java - Collections Framework",
+                                        "link": "https://www.tutorialspoint.com/java/java_collections.htm"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Serialization",
+                                "recommendation-type": "opinion",
+                                "description": "Serialization in Java involves converting the state of an object into a byte stream, while deserialization reverses this process. This enables the conversion of Java objects into sequences of bytes that can be stored in databases or transmitted over a network. Understanding serialization is essential for tasks involving data persistence and inter-process communication.",
+                                "resources": [
+                                    {
+                                        "name": "Serialization and Deserialization in Java",
+                                        "link": "https://www.geeksforgeeks.org/serialization-in-java/"
+                                    },
+                                    {
+                                        "name": "Introduction to Java Serialization",
+                                        "link": "https://www.javatpoint.com/serialization-in-java"
+                                    },
+                                    {
+                                        "name": "Introduction to Java Serialization",
+                                        "link": "https://www.baeldung.com/java-serialization"
+                                    },
+                                    {
+                                        "name": "Networking Sockets",
+                                        "recommendation-type": "opinion",
+                                        "description": "Java networking involves connecting computing devices to share resources and data. Java socket programming is a fundamental component of this, enabling data exchange between devices. Sockets serve as endpoints for two-way communication between networked programs and are identified by port numbers for effective data routing.",
+                                        "resources": [
+                                            {
+                                                "name": "Sockets",
+                                                "link": "https://docs.oracle.com/javase/tutorial/networking/sockets/index.html"
+                                            },
+                                            {
+                                                "name": "What is Socket Programming?",
+                                                "link": "https://youtu.be/BqBKEXLqdvI"
+                                            },
+                                            {
+                                                "name": "Socket Programming",
+                                                "link": "https://www.geeksforgeeks.org/socket-programming-in-java/"
+                                            },
+                                            {
+                                                "name": "Java Networking",
+                                                "link": "https://www.tutorialspoint.com/java/java_networking.htm"
+                                            }
+                                        ]
+                                    }
+                                    
+                                ]
+                            }
+                            
+                            
+                            
+                            
+                        ]
+                        
+                    }
+                    
+
                 ]
             },
             "Build Tools": {

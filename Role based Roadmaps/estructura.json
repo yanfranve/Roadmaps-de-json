@@ -3,219 +3,144 @@
         "Frontend": {
             "A": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "B": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "C": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "D": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "E": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "F": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "G": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "H": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "I": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "J": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "K": {
-                "description": " ",
-                "resources": [   
-                ],
-                "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "L": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "LL": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
-            "M":{
+            "M": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "N": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "Ñ": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "O": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "P": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
-            "Q":{
+            "Q": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "R": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "S": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "T": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "U": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             "V": {
                 "description": " ",
-                "resources": [   
-                ],
+                "resources": [],
                 "order": 1,
-                "options": [
-                  
-                ]
+                "options": []
             },
             " ": {
                 "description": " ",
@@ -355,9 +280,7 @@
                         "name": "",
                         "recommendation-type": "opinion",
                         "description": "",
-                        "resources": [
-                           
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "",
@@ -368,12 +291,10 @@
                                 "name": "",
                                 "link": ""
                             }
-                            
                         ]
                     }
                 ]
             }
         }
     }
-
 }
