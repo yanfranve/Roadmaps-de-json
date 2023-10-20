@@ -168,7 +168,88 @@
                                 "link": "https://www.tutorialspoint.com/java/java_data_types.htm"
                             }
                         ]
+                    },
+                    {
+                        "name": "Conditionals",
+                        "recommendation-type": "opinion",
+                        "description": "Java has the following conditional statements:\n\n- Use if to specify a block of code to be executed, if a specified condition is true\n- Use else to specify a block of code to be executed if the same condition is false\n- Use else if to specify a new condition to test; if the first condition is false\n- Use switch to specify many alternative blocks of code to be executed\n- Use ?,: operator to specify one line condition",
+                        "resources": [
+                            {
+                                "name": "What are Conditional statements?",
+                                "link": "https://www.javatpoint.com/java-decisions"
+                            },
+                            {
+                                "name": "Conditionals in Java",
+                                "link": "https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html"
+                            },
+                            {
+                                "name": "Conditionals and Loops in Java",
+                                "link": "https://www.tutorialspoint.com/java/java_decision_making.htm"
+                            },
+                            {
+                                "name": "Switch Statements + Nested Case in Java",
+                                "link": "https://www.geeksforgeeks.org/nested-switch-in-java/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Functions",
+                        "recommendation-type": "opinion",
+                        "description": "A method/function is a way to perform some task. Similarly, in programming like Java, a function method is a block of code written to perform a specific task repeatedly. It provides reusability of code. We write the function once and use it many times. It works on the ‘DRY’ principle i.e., “Do not repeat yourself”.\n\nSteps -\n\n- Define function - datatype function_name(parameters){body}\n- Call function - function_name(values)",
+                        "resources": [
+                            {
+                                "name": "Methods/Functions in Java",
+                                "link": "https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html"
+                            },
+                            {
+                                "name": "What are methods or functions in Java",
+                                "link": "https://beginnersbook.com/2013/04/method-overloading/"
+                            },
+                            {
+                                "name": "Learn Functions/Methods in Java",
+                                "link": "https://www.programiz.com/java-programming/function-method"
+                            },
+                            {
+                                "name": "Functions / Methods in Java",
+                                "link": "https://www.javatpoint.com/function-in-java"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Loops",
+                        "recommendation-type": "opinion",
+                        "description": "In Java and other programming languages, loops are used to iterate a part of the program several times. There are four types of loops in Java, for, forEach, while, and do...while.\n\nSynatx of for loop is for(initialization;condition;increment/decrement){}\nSyntax of forEach loop is for(data_type variable:array_name){}",
+                        "resources": [
+                            {
+                                "name": "What are loops in Java?",
+                                "link": "https://www.javatpoint.com/loops-in-java"
+                            },
+                            {
+                                "name": "Loops in Java",
+                                "link": "https://www.geeksforgeeks.org/loops-in-java/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exception Handling",
+                        "recommendation-type": "opinion",
+                        "description": "Exception Handling in Java is one of the effective means to handle the runtime errors so that the regular flow of the application can be preserved. Java Exception Handling is a mechanism to handle runtime errors such as ClassNotFoundException, IOException, SQLException, RemoteException, etc.\n\nThere are three types of exceptions -\n\nChecked Exception - exceptions checked at compile time. Example - IOException\nUnchecked Exception - exceptions checked at run time. Example - NullPointerException\nError - It is irrecoverable. Example - OutOfMemoryError",
+                        "resources": [
+                            {
+                                "name": "Exception Handling - G4G",
+                                "link": "https://www.geeksforgeeks.org/exception-handling-in-java/"
+                            },
+                            {
+                                "name": "Understanding Java Exceptions",
+                                "link": "https://docs.oracle.com/javase/tutorial/essential/exceptions/"
+                            }
+                        ]
                     }
+                    
+                    
+
+                    
+                    
                     
                     
                     
@@ -180,20 +261,200 @@
             "Getting Deeper": {
                 "description": " ",
                 "resources": [],
-                "order": 1,
-                "options": []
+                "order": 2,
+                "options": [
+                    
+                ]
             },
             "Build Tools": {
                 "description": " A build tool is a program or command-line utility that automates the process of compiling, assembling, and deploying software.\nBuild tools are not only limited to compiling code; they can also help with package management, dependency handling, and continuous integration systems.",
                 "resources": [],
-                "order": 1,
-                "options": []
+                "order": 3,
+                "options": [
+                    {
+                        "name": "Gradle",
+                        "recommendation-type": "opinion",
+                        "description": "Gradle is an open-source build automation tool that helps software engineers to test, build, and release high-performance software products. In addition, Gradle also supports multi-language development. Currently, the supported languages for Gradle include Java, Kotlin, Groovy, Scala, C/C++, and JavaScript.",
+                        "resources": [
+                            {
+                                "name": "Gradle",
+                                "link": "https://gradle.org/"
+                            },
+                            {
+                                "name": "Gradle Tutorial",
+                                "link": "https://gradle.org/guides/"
+                            },
+                            {
+                                "name": "Working with Gradle",
+                                "link": "https://docs.gradle.org/current/userguide/userguide.html"
+                            },
+                            {
+                                "name": "Building Java Projects with Gradle",
+                                "link": "https://spring.io/guides/gs/gradle/"
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "name": "Maven",
+                        "recommendation-type": "opinion",
+                        "description": "Maven is an open-source build tool, used primarily for Java projects.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Getting started",
+                                "link": "https://maven.apache.org/guides/getting-started/"
+                            },
+                            {
+                                "name": "Building Java Projects with Maven",
+                                "link": "https://spring.io/guides/gs/maven/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "name": "Ant",
+                        "recommendation-type": "opinion",
+                        "description": "Apache Ant is a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other. The main known usage of Ant is the build of Java applications. Ant supplies a number of built-in tasks allowing to compile, assemble, test, and run Java applications. Ant can also be used effectively to build non-Java applications, for instance C or C++ applications. More generally, Ant can be used to pilot any type of process which can be described in terms of targets and tasks.",
+                        "resources": [
+                            {
+                                "name": "Apache Ant",
+                                "link": "https://ant.apache.org/"
+                            },
+                            {
+                                "name": "Apache Ant Tutorial",
+                                "link": "https://ant.apache.org/manual/tutorial-HelloWorldWithAnt.html"
+                            },
+                            {
+                                "name": "Apache Ant",
+                                "link": "https://ant.apache.org/manual/"
+                            },
+                            {
+                                "name": "What is Apache Ant?",
+                                "link": "https://en.wikipedia.org/wiki/Apache_Ant"
+                            }
+                        ]
+                    }
+                    
+                ]
             },
             "Web Frameworks": {
                 "description": "Frameworks are tools with pre-written code, that act as a template or skeleton, which can be reused to create an application by simply filling with your code as needed which enables developers to program their application with no overhead of creating each line of code again and again from scratch. ",
                 "resources": [],
-                "order": 1,
-                "options": []
+                "order": 4,
+                "options": [
+                    {
+                        "name": "Spring",
+                        "recommendation-type": "opinion",
+                        "description": "Spring is a powerful open-source Java platform (framework) that is used to create and maintain web applications.",
+                        "resources": [
+                            {
+                                "name": "Official Site",
+                                "link": "https://spring.io/"
+                            },
+                            {
+                                "name": "Quickstart guide",
+                                "link": "https://spring.io/quickstart"
+                            },
+                            {
+                                "name": "Official guides",
+                                "link": "https://spring.io/guides"
+                            },
+                            {
+                                "name": "Spring Framework Documentation",
+                                "link": "https://docs.spring.io/spring-framework/docs/current/reference/html/"
+                            },
+                            {
+                                "name": "Different Spring tutorials",
+                                "link": "https://www.tutorialspoint.com/spring/index.htm"
+                            },
+                            {
+                                "name": "What is Spring Framework? An Unorthodox Guide",
+                                "link": "https://www.baeldung.com/spring-framework"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spring Boot",
+                        "recommendation-type": "opinion",
+                        "description": "Spring Boot is an open source, microservice-based Java web framework. The Spring Boot framework creates a fully production-ready environment that is completely configurable using its prebuilt code within its codebase. The microservice architecture provides developers with a fully enclosed application, including embedded application servers.",
+                        "resources": [
+                            {
+                                "name": "Visit Dedicated Spring Boot Roadmap",
+                                "link": "https://github.com/kamranahmedse/developer-roadmap#-spring-boot-roadmap"
+                            },
+                            {
+                                "name": "Spring Boot",
+                                "link": "https://spring.io/projects/spring-boot"
+                            },
+                            {
+                                "name": "What is Spring Boot?",
+                                "link": "https://www.baeldung.com/spring-boot"
+                            },
+                            {
+                                "name": "Spring Boot Tutorial",
+                                "link": "https://www.tutorialspoint.com/spring_boot/index.htm"
+                            },
+                            {
+                                "name": "Learn Spring Boot",
+                                "link": "https://www.javatpoint.com/spring-boot-tutorial"
+                            },
+                            {
+                                "name": "Spring Boot Tutorial",
+                                "link": "https://springframework.guru/spring-boot-tutorial/"
+                            },
+                            {
+                                "name": "Spring Boot for Beginners",
+                                "link": "https://www.guru99.com/spring-boot-tutorial.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Play Framework",
+                        "recommendation-type": "opinion",
+                        "description": "Play Framework is a high-productivity web application framework that allows the model-view-controller pattern. It is written in Scala but can also be used for other programming languages that are compiled and run on the JVM, e.g., Java.",
+                        "resources": [
+                            {
+                                "name": "Play Framework Website",
+                                "link": "https://www.playframework.com/"
+                            },
+                            {
+                                "name": "Introduction to Play Framework",
+                                "link": "https://www.baeldung.com/intro-to-play"
+                            },
+                            {
+                                "name": "What is Play Framework?",
+                                "link": "https://www.javatpoint.com/play-framework"
+                            },
+                            {
+                                "name": "Intro to Play Framework",
+                                "link": "https://www.tutorialspoint.com/play_framework/index.htm"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spark",
+                        "recommendation-type": "opinion",
+                        "description": "Spark is a micro framework for creating web applications in Kotlin and Java 8. Sinatra, a popular Ruby micro framework, was the inspiration for it.",
+                        "resources": [
+                            {
+                                "name": "Spark Java",
+                                "link": "http://sparkjava.com/"
+                            },
+                            {
+                                "name": "Intro to Spark Java Framework",
+                                "link": "https://www.baeldung.com/spark-framework-rest-api"
+                            },
+                            {
+                                "name": "What is Spark Java?",
+                                "link": "https://www.javatpoint.com/spark-java"
+                            }
+                        ]
+                    }
+                    
+                    
+                    
+                    
+                ]
             },
             "ORM": {
                 "description": " A programming method to map objects in Java to relational entities in a database. In other words, converting data between relational databases and object-oriented programming languages. Some popular ORM tools/frameworks in Java are:\nSpring Data JPA\nHibernate\nEbean\nVisit the following resources to learn more:",
@@ -414,9 +675,27 @@
                 ]
             },
             "Testing your Apps": {
-                "description": " ",
-                "resources": [],
+                "description": "A key to building software that meets requirements without defects is testing. Software testing helps developers know they are building the right software. When tests are run as part of the development process (often with continuous integration tools), they build confidence and prevent regressions in the code.\nVisit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "What is Software Testing?",
+                        "link": "https://www.guru99.com/software-testing-introduction-importance.html"
+                    },
+                    {
+                        "name": "Testing Pyramid",
+                        "link": "https://www.browserstack.com/guide/testing-pyramid-for-test-automation"
+                    }
+                ],
                 "order": 1,
+                "Behavior Testing": {
+                    "options": []
+                },
+                "Integration Testing": {
+                    "options": []
+                },
+                "Unit Testing": {
+                    "options": []
+                },
                 "options": []
             }
         }
