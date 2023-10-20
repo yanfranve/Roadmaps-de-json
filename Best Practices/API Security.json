@@ -1,0 +1,337 @@
+{
+    "Best": {
+        "API Security": {
+            "AUthentication": {
+                "order": 1,
+                "options": [
+                    {
+                        "name": "Avoid Basic Authentication",
+                        "recommendation-type": "opinion",
+                        "description": "You should avoid using basic authentication and use any other standard authentication methodologies i.e. OAuth, JWT, etc.\n\nBasic authentication is a simple method for authenticating a user by transmitting the user’s credentials in plain text over the network. This method is inherently insecure and should be avoided whenever possible.\n\nThere are several reasons why basic authentication should be avoided and replaced with more secure authentication techniques:\n\n1. Lack of confidentiality: Basic authentication transmits the user’s credentials (username and password) in plain text over the network. This means that anyone who intercepts the traffic can easily read the credentials and gain access to the user’s account.\n\n2. Lack of integrity: Basic authentication does not provide any mechanism to ensure that the data being transmitted has not been tampered with or modified in transit. This means that an attacker can modify the traffic to gain access to the user’s account or perform other malicious activities.\n\n3. Lack of authentication strength: Basic authentication relies solely on the user’s credentials to authenticate them. This means that if an attacker is able to obtain the user’s credentials (for example, through phishing or social engineering), they can easily gain access to the user’s account.\n\n4. No support for multi-factor authentication: Basic authentication does not support multi-factor authentication (MFA), which is a critical security feature that provides an additional layer of protection against unauthorized access.\n\nIn contrast, other authentication techniques such as OAuth, OpenID Connect, and SAML provide more secure and robust methods for authentication. These methods typically use encrypted protocols to protect the user’s credentials, provide mechanisms for verifying the integrity of the data, and support MFA. As a result, they are much more secure and reliable than basic authentication and should be used whenever possible."
+                    },
+                    {
+                        "name": "Authentication Mechanisms",
+                        "recommendation-type": "opinion",
+                        "description": "Use standard authentication mechanisms for generating tokens, storing credentials, and authenticating users.\n\nHere are some examples of established authentication mechanisms that you can use instead of reinventing the wheel:\n\n1. OAuth: OAuth is a widely used open standard for authorization that enables users to grant third-party applications access to their resources without sharing their credentials. It is commonly used by web services and APIs to enable users to sign in with their social media accounts or other third-party accounts.\n\n2. OpenID Connect: OpenID Connect is an authentication protocol built on top of OAuth 2.0 that enables users to authenticate with multiple websites and applications using a single set of credentials. It is commonly used for single sign-on (SSO) across multiple websites and applications.\n\n3. SAML: Security Assertion Markup Language (SAML) is an XML-based standard for exchanging authentication and authorization data between parties. It is commonly used for SSO across multiple domains or organizations.\n\n4. Password hashing algorithms: Password hashing algorithms like bcrypt and scrypt are widely used to securely store and protect user passwords. These algorithms ensure that even if an attacker gains access to the password database, they will not be able to easily recover the passwords.\n\n5. Two-factor authentication (2FA): 2FA is an authentication mechanism that requires users to provide two forms of identification to access their accounts. This typically involves something the user knows (like a password) and something the user has (like a mobile device or security key). Many services and applications now offer 2FA as an additional security measure."
+                    },
+                    {
+                        "name": "Max Retry/Jail in Login",
+                        "recommendation-type": "opinion",
+                        "description": "“Max Retry” and “jail” features are commonly used in login mechanisms to enhance security and prevent brute-force attacks.\n\nMax Retry: The “Max Retry” feature limits the number of login attempts that a user can make within a specified time period. After a certain number of failed login attempts, the user is locked out of their account for a specified period of time, typically several minutes or hours. This helps to prevent brute-force attacks, where an attacker attempts to guess a user’s password by making repeated login attempts. By limiting the number of attempts, the system can slow down or prevent such attacks.\n\nJail: The “jail” feature involves blocking IP addresses or user accounts that have exceeded the maximum number of failed login attempts within a certain time period. The blocked IP addresses or user accounts are prevented from attempting further logins for a specified period of time, typically several minutes or hours. This helps to prevent brute-force attacks, and also provides a mechanism to prevent malicious users from repeatedly attempting to access an account or system."
+                    },
+                    {
+                        "name": "Sensitive Data Encryption",
+                        "recommendation-type": "opinion",
+                        "description": "Encrypting sensitive data is important for protecting it from unauthorized access, theft, and exploitation.\n\nEncryption is a process of converting plain text data into a cipher text that can only be deciphered by someone who has the decryption key. This makes it difficult for attackers to access sensitive data, even if they are able to intercept it or gain unauthorized access to it.\n\nTo encrypt sensitive data, you can use encryption algorithms such as AES or RSA, along with a strong key management system to ensure that keys are securely stored and managed. Additionally, you can implement other security measures such as access controls, firewalls, and intrusion detection systems to further protect sensitive data."
+                    }
+                ]
+            },
+            "JWT": {
+                "order": 2,
+                "options": [
+                    {
+                        "name": "JWT Secret",
+                        "recommendation-type": "opinion",
+                        "description": "You should have a good JWT secret to protect against token tempering as well as avoiding brute force attacks.\n\nA strong secret key should be randomly generated, long, and complex, and should be stored securely and rotated periodically."
+                    },
+                    {
+                        "name": "JWT Algorithm",
+                        "recommendation-type": "opinion",
+                        "description": "Do not extract the algorithm from the header, use backend.\n\nExtracting the algorithm from the header of a JWT token can pose a security risk, as an attacker could modify the algorithm and potentially gain unauthorized access. It is therefore recommended to verify the algorithm on the backend rather than extracting it from the header. This can help ensure that the algorithm used to sign and verify the token is secure and has not been tampered with."
+                    },
+                    {
+                        "name": "Token Expiry",
+                        "recommendation-type": "opinion",
+                        "description": "Token expiry should be set to a reasonable time to reduce the window of vulnerability, limit the impact of token theft, and improve overall security.\n\nSetting a short token expiration time (TTL, RTTL) is important for security purposes, as it reduces the window of vulnerability, limits the impact of token theft, and improves overall security. However, the expiration time should be balanced with usability, as setting it too short may inconvenience users and reduce productivity."
+                    },
+                    {
+                        "name": "Jwt Payload",
+                        "recommendation-type": "opinion",
+                        "description": "Avoid storing sensitive data in JWT payload\n\nStoring sensitive data in a JWT token payload can increase the risk of data breaches and other security incidents. If an attacker is able to obtain or tamper with the token, they could potentially access the sensitive data stored in the payload."
+                    },
+                    {
+                        "name": "JWT Payload Size",
+                        "recommendation-type": "opinion",
+                        "description": "Avoid storing large payloads in JWT tokens\n\nA smaller payload can reduce network overhead, improve processing speed, and decrease the risk of attacks aimed at overloading the system."
+                    }
+                ]
+            },
+            "Access Control": {
+                "order": 3,
+                "options": [
+                    {
+                        "name": "Throttle Requests",
+                        "recommendation-type": "opinion",
+                        "description": "Limit requests (throttling) to avoid DDoS / Brute Force attacks.\n\nLimiting requests through throttling is important to prevent DDoS attacks and brute force attacks. DDoS attacks overwhelm the server with too many requests, while brute force attacks try to guess user credentials through multiple login attempts. Throttling limits the number of requests that can be sent within a certain time period, making it harder for attackers to carry out these types of attacks. This can protect the system from being overwhelmed and can prevent attackers from gaining unauthorized access."
+                    },
+                    {
+                        "name": "Use HTTPs",
+                        "recommendation-type": "opinion",
+                        "description": "Use HTTPS on server side and secure ciphers\n\nEnsure that your API server uses HTTPS instead of HTTP. HTTPS is a secure protocol that encrypts data in transit, making it difficult for attackers to intercept and read sensitive information. To implement HTTPS, you need to obtain an SSL/TLS certificate and configure your server to use HTTPS.\n\nHTTPS uses ciphers to encrypt data in transit. It is important to choose secure ciphers that are resistant to attacks and offer strong encryption. Some common secure ciphers include AES, ChaCha20, and ECDHE for key exchange. Make sure to disable weak and outdated ciphers, such as RC4 and TLS 1.0/1.1, which are vulnerable to attacks."
+                    },
+                    {
+                        "name": "HSTS Header",
+                        "recommendation-type": "opinion",
+                        "description": "Use HSTS header with SSL to avoid SSL Strip attacks.\n\nSSL strip is a type of attack where an attacker intercepts traffic between a client and a server that is meant to be secured by SSL/TLS encryption, and downgrades the connection to a plain text (non-encrypted) HTTP connection. This type of attack can go unnoticed by the user because the attacker is able to redirect the user to a look-alike website that also uses HTTP instead of HTTPS.\n\nIn an SSL strip attack, the attacker sets up a man-in-the-middle (MITM) position between the client and the server. When the client initiates a connection with the server, the attacker intercepts the SSL/TLS traffic and removes or replaces the HTTPS links with HTTP links. This can trick the user into thinking they are using a secure connection when in fact, they are not. The attacker can then monitor and manipulate the data transmitted between the client and server.\n\nHSTS header is a security header that instructs browsers to only access the site over HTTPS. This header is used to prevent SSL Strip attacks. It is a good practice to use HSTS header with SSL."
+                    },
+                    {
+                        "name": "Directory Listings",
+                        "recommendation-type": "opinion",
+                        "description": "Turn off directory listings.\n\nDirectory listings are a feature of web servers that allow users to view the contents of a directory on a server. By default, web servers often have directory listings enabled, which means that anyone who has access to the server can see all the files and directories in a given folder.\n\nTurning off directory listings is important for API security because it prevents attackers from gaining access to sensitive files and directories on the server. If directory listings are enabled and an attacker gains access to the server, they can easily view and download any files that are not properly protected. By disabling directory listings, you can ensure that only authorized users can access the files and directories on the server."
+                    },
+                    {
+                        "name": "Restrict Private APIs",
+                        "recommendation-type": "opinion",
+                        "description": "Private APIs should only be accessible from safe-listed IPs.\n\nPrivate APIs should only be accessible from safe-listed IPs to ensure that only authorized users or systems can access the API. By restricting access to specific IP addresses, you can prevent unauthorized access from external networks or malicious actors. This can help to protect sensitive data and prevent attacks such as DDoS or brute-force attacks. Additionally, restricting access to safe-listed IPs can help to ensure the reliability and performance of the API by preventing excessive traffic from unauthorized sources."
+                    }
+                ]
+            },
+            "OAuth": {
+                "order": 4,
+                "options": [
+                    {
+                        "name": "redirect_uri",
+                        "recommendation-type": "opinion",
+                        "description": "Validate 'redirect_uri' on the server-side to prevent open redirect attacks.\n\nIn OAuth, redirect_uri is a parameter that specifies the URI (Uniform Resource Identifier) that the authorization server should redirect the user to after authentication is complete. The redirect_uri is often used in the OAuth flow to return an authorization code or access token to the client application.\n\nIt is important to validate the redirect_uri on the server-side to prevent attacks such as open redirection attacks. In an open redirection attack, an attacker can modify the redirect_uri parameter to redirect the user to a malicious website. By validating the redirect_uri on the server-side, you can ensure that the redirect URI is a valid and authorized URI for the client application.\n\nValidating the redirect_uri on the server-side can also prevent other types of attacks such as phishing attacks or cross-site request forgery (CSRF) attacks. By verifying that the redirect_uri matches a predefined list of authorized URIs, you can ensure that the user is redirected to a trusted site after authentication is complete."
+                    },
+                    {
+                        "name": "Avoid Implicit Grant Flow",
+                        "recommendation-type": "opinion",
+                        "description": "Avoid 'response_type=token' and try to exchange for code instead.\n\nIn OAuth, response_type=token is a method for obtaining an access token directly from the authorization endpoint, without using an authorization code. This method is known as the implicit grant flow.\n\nHowever, it is recommended to avoid using response_type=token and instead use the authorization code grant flow, where the client exchanges an authorization code for an access token. This is because the implicit grant flow can be less secure than the authorization code grant flow.\n\nThe reason for this is that the access token is returned directly to the client in the URL fragment of the redirect URI. This means that the access token could be intercepted or exposed in the browser history or server logs. In contrast, with the authorization code grant flow, the access token is returned to the client only after the client has exchanged the authorization code for the token using a secure server-to-server communication.\n\nTherefore, by using the authorization code grant flow instead of the implicit grant flow, you can help to protect the access token from being exposed or intercepted by malicious actors."
+                    },
+                    {
+                        "name": "Use State Param",
+                        "recommendation-type": "opinion",
+                        "description": "Use state parameter to avoid CSRF attacks\n\nIn OAuth, the state parameter is used as a security measure to prevent CSRF (Cross-Site Request Forgery) attacks. CSRF attacks occur when a malicious website or script sends a request to a legitimate website on behalf of a user who is currently authenticated.\n\nTo prevent CSRF attacks, the state parameter is used to store a unique value that is generated by the client application before initiating the authorization request. This value is included in the authorization request and then verified by the authorization server when the user is redirected back to the client application. If the state value in the authorization response matches the state value that was sent by the client application, the authorization is considered valid and the access token is returned to the client.\n\nBy using the state parameter, you can help to prevent malicious actors from intercepting or modifying the authorization request in transit, as the unique state value is only known to the client application and the authorization server. This can help to ensure the integrity and security of the OAuth flow and protect against CSRF attacks."
+                    },
+                    {
+                        "name": "Validate Scope",
+                        "recommendation-type": "opinion",
+                        "description": "Have default scope, and validate scope for each application\n\nIn OAuth, scopes are used to specify the permissions and access levels that are granted to client applications when accessing protected resources on behalf of a user.\n\nThe best practice of having a default scope and validating the scope for each application is important because it helps to ensure that client applications only have access to the resources that they require, and that users are only granting the necessary permissions to each application.\n\nThe default scope is a set of permissions that are granted to all client applications by default, unless otherwise specified by the user. By having a default scope, you can ensure that all applications are subject to the same baseline security and access controls.\n\nIn addition to having a default scope, it is also recommended to validate the scope for each application. This means that when a user grants access to an application, the server should check to ensure that the requested scope is valid and appropriate for that application. This can help to prevent malicious applications from requesting excessive permissions or unauthorized access to user data.\n\nBy having a default scope and validating the scope for each application, you can help to ensure that the OAuth flow is secure and that client applications are only accessing the resources and permissions that they require."
+                    }
+                ]
+            },
+            "Input": {
+                "order": 5,
+                "options": [
+                    {
+                        "name": "Proper HTTP Methods",
+                        "recommendation-type": "opinion",
+                        "description": "Use the proper HTTP method according to the operation: GET (read), POST (create), PUT/PATCH (replace/update), and DELETE (to delete a record), and respond with 405 Method Not Allowed if the requested method isn’t appropriate for the requested resource."
+                    },
+                    {
+                        "name": "Content Type Validation",
+                        "recommendation-type": "opinion",
+                        "description": "Validate content-type on request headers to prevent XSS attacks. Validating the Content-Type header on the request can help to make APIs more secure by ensuring that the request data is in the expected format and reducing the risk of attacks such as injection attacks or cross-site scripting (XSS)."
+                    },
+                    {
+                        "name": "Validate User Input",
+                        "recommendation-type": "opinion",
+                        "description": "Validate user input to avoid common vulnerabilities. User input is a common source of vulnerabilities in web applications. This is because user input is often not properly validated, sanitized, or escaped before being used in a web application. This can allow an attacker to manipulate the input and execute malicious code or cause the application to behave unexpectedly."
+                    },
+                    {
+                        "name": "Authorization Header",
+                        "recommendation-type": "opinion",
+                        "description": "Use standard Authorization header for sending tokens instead of custom headers or query/body parameters. Sending tokens in the query or body parameters is generally not recommended because these parameters may be logged or cached by various systems, including web servers, proxies, and gateways. This can potentially lead to the exposure of sensitive data, including authentication tokens. Additionally, sending tokens in query or body parameters can make them more vulnerable to cross-site request forgery (CSRF) attacks. In a CSRF attack, an attacker can trick a user into submitting a request that includes their authentication token, which the attacker can then use to impersonate the user and gain access to their account. By contrast, using the Authorization header to send tokens helps to ensure that the tokens are not logged or cached by intermediary systems, and it can also help to protect against CSRF attacks by allowing the server to validate the token before processing the request."
+                    },
+                    {
+                        "name": "Avoid Client-Side Encryption",
+                        "recommendation-type": "opinion",
+                        "description": "Use server-side encryption instead of client-side encryption. Client-side encryption is not recommended because client-side codebase can be easily reverse engineered which can lead to the exposure of encryption algorithms."
+                    },
+                    {
+                        "name": "API Gateway",
+                        "recommendation-type": "opinion",
+                        "description": "Use an API Gateway for caching, Rate Limit policies, and other security features. An API gateway can make your APIs more secure by providing a centralized point of control for managing and securing API traffic. Here are a few ways an API gateway can improve API security:\n\nAuthentication and authorization: API gateways can handle user authentication and authorization, reducing the burden on individual APIs and improving consistency across the organization. This can include techniques such as JWT verification, OAuth, and other authentication mechanisms.\n\nTraffic filtering and rate limiting: An API gateway can enforce traffic filtering and rate limiting to protect APIs against DDoS attacks, brute force attacks, and other types of abuse.\n\nEncryption and decryption: An API gateway can handle encryption and decryption of sensitive data to protect against data breaches and theft.\n\nLogging and monitoring: An API gateway can provide centralized logging and monitoring of API traffic, helping to identify and respond to security threats and other issues.\n\nIntegration with security tools: An API gateway can be integrated with security tools such as WAFs, SIEMs, and other security tools to provide additional layers of protection."
+                    }
+                    
+                    
+                    
+                    
+                    
+                    
+                ]
+            },
+            "Processing": {
+               
+                "order": 6,
+                "options": [
+                    {
+                        "name": "Endpoint Authentication",
+                        "recommendation-type": "opinion",
+                        "description": "Check if all the protected endpoints are behind authentication to avoid broken authentication process. By identifying and fixing broken authentication workflows, the API can prevent attacks such as brute force attacks, credential stuffing, session hijacking, and other authentication-related attacks. This can help ensure that the system is secure and that sensitive data is protected."
+                    },
+                    {
+                        "name": "Avoid Personal ID in URLs",
+                        "recommendation-type": "opinion",
+                        "description": "Avoid user’s personal ID in the resource URLs (e.g., users/242/orders). User’s own resource ID should be avoided. Use /me/orders instead of /user/654321/orders. This will help avoid the risk of exposing the user’s personal ID that can be used for further attacks."
+                    },
+                    {
+                        "name": "Prefer UUIDs",
+                        "recommendation-type": "opinion",
+                        "description": "Use UUIDs instead of auto-incrementing integers. UUIDs are globally unique, and are not sequential. They are also more difficult to guess than sequential integers. Use of UUIDs over auto-incrementing IDs prevents attackers from guessing or iterating through resource IDs. UUIDs are randomly generated and contain 128 bits of entropy, making it practically impossible for attackers to guess them. In contrast, auto-incrementing IDs can be easily predicted or iterated through, allowing attackers to access or manipulate resources they shouldn’t have access to. Additionally, using UUIDs can help prevent information disclosure by hiding the order of resource creation or access."
+                    },
+                    {
+                        "name": "Disable Entity Parsing in XML",
+                        "recommendation-type": "opinion",
+                        "description": "Disable entity parsing if you are parsing XML to avoid XXE attacks. If the XML parser is vulnerable to XXE attacks, the attacker can use this vulnerability to read files on the server, perform SSRF attacks, and more. This can lead to the disclosure of sensitive information, denial of service, and other attacks. XXE (XML External Entity) attack is a type of attack that targets applications that parse XML input from untrusted sources. In this attack, an attacker injects a malicious XML payload. This payload can contain external entities that the attacker can use to retrieve sensitive data, execute remote code, or launch denial of service attacks. XXE attacks can be prevented by disabling external entity processing or by validating and sanitizing the XML input before parsing it."
+                    },
+                    {
+                        "name": "Disable Entity Expansion",
+                        "recommendation-type": "opinion",
+                        "description": "Disable entity expansion if using XML, YAML, or any other language that allows entities because it helps prevent XXE (XML External Entity) or YAML tag injection attacks. In these attacks, the attacker normally injects some sort of custom code in the input to perform attacks against the application. By disabling entity expansion, the input cannot be manipulated in this way, reducing the risk of such attacks."
+                    },
+                    {
+                        "name": "Use CDN for Uploads",
+                        "recommendation-type": "opinion",
+                        "description": "Using a Content Delivery Network (CDN) for file uploads can make an API more secure by offloading the file upload traffic from the API server and reducing the risk of DDoS attacks."
+                    },
+                    {
+                        "name": "Avoid HTTP Blocking",
+                        "recommendation-type": "opinion",
+                        "description": "Avoid HTTP blocking if you are using a huge amount of data by moving the HTTP heavy operations to background jobs or asynchronous tasks. HTTP blocking is a common issue in web applications that can lead to unresponsiveness and server crashes. To prevent this, move heavy operations to background jobs or asynchronous tasks using a message queue to process requests in the background, allowing the application to remain responsive."
+                    },
+                    {
+                        "name": "Turn Debug Mode Off",
+                        "recommendation-type": "opinion",
+                        "description": "Make sure to turn the debug mode off in production. Debug mode is intended for developers to troubleshoot code and can expose sensitive information about the application and server. It should not be used in a production environment."
+                    },
+                    {
+                        "name": "Non-Executable Stacks",
+                        "recommendation-type": "opinion",
+                        "description": "Use non-executable stacks to prevent attackers from executing code on your server. A non-executable stack is a security mechanism that prevents malicious code from being executed by preventing the stack memory from being executed as code. This helps to prevent attacks such as buffer overflow attacks. By using non-executable stacks, the program can keep the stack separate from executable code and help prevent these types of attacks."
+                    }
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                ]
+            },
+            "Output": {
+                
+                "order": 7,
+                "options": [
+                    {
+                        "name": "X-Content-Type-Options: nosniff",
+                        "recommendation-type": "opinion",
+                        "description": "You should send the X-Content-Type-Options: nosniff header to prevent MIME type sniffing attacks on your web application. This header tells the browser not to override the response content type even if it’s not the expected type. For example, if an attacker manages to upload an HTML file with a disguised extension like .jpg, the server may still send the correct content type header for the HTML file. However, some browsers may ignore this header and try to “sniff” the content type based on the actual contents of the file, leading to a potential cross-site scripting (XSS) attack. By sending the X-Content-Type-Options: nosniff header, you tell the browser to always trust the provided content type and not try to sniff the content type. This helps to mitigate the risk of attackers exploiting content type mismatches to deliver malicious content to unsuspecting users."
+                    },
+                    {
+                        "name": "X-Frame-Options: Deny",
+                        "recommendation-type": "opinion",
+                        "description": "The X-Frame-Options header prevents the page from being displayed in an iframe, which is commonly used in clickjacking attacks. By setting the value of this header to deny, you are telling the browser not to display the page in any iframe. This helps prevent the page from being embedded within an attacker’s website and reduces the risk of clickjacking attacks."
+                    },
+                    {
+                        "name": "Content Security Policy",
+                        "recommendation-type": "opinion",
+                        "description": "Sending the Content-Security-Policy: default-src 'none' header is a security best practice that helps prevent cross-site scripting (XSS) attacks. This header tells the browser to not allow any resources to be loaded from external sources, such as scripts, stylesheets, or images. It only allows resources that are explicitly whitelisted in the CSP header, such as scripts or stylesheets hosted on your own domain. This can help prevent malicious actors from injecting code into your web pages via XSS attacks, as the browser will not execute any scripts or load any resources that are not explicitly allowed by the CSP policy."
+                    },
+                    {
+                        "name": "Remove Fingerprints",
+                        "recommendation-type": "opinion",
+                        "description": "Remove fingerprinting headers (i.e. x-powered-by etc) from the HTTP request. Fingerprinting headers can be used to identify the web server and its version. This information can be used by attackers to identify vulnerabilities in the web server and exploit them."
+                    },
+                    {
+                        "name": "Force Content-Type",
+                        "recommendation-type": "opinion",
+                        "description": "Always force the Content-Type header to be set to relevant MIME type. Forcing the content-type for API security is important because it ensures that the client and server are communicating in a mutually agreed-upon format for the data being transmitted. This can prevent attacks such as content spoofing or injection, where an attacker tries to trick the server into processing malicious content by pretending that it is of a different content type. By forcing the content-type to a specific format, the server can validate that the data it is receiving is legitimate and safe to process. Additionally, forcing the content-type can help prevent certain types of parsing errors that could be exploited by attackers."
+                    },
+                    {
+                        "name": "Avoid Returning Sensitive Data",
+                        "recommendation-type": "opinion",
+                        "description": "Only return the data that is needed for the client to function. Returning only the data that is needed for the client to function is an important best practice for API security. This is because limiting the amount of data that is returned reduces the amount of sensitive information that is exposed. By only returning the necessary data, you can help prevent security vulnerabilities such as data leakage, injection attacks, and other types of attacks that rely on exposing too much information. Additionally, reducing the amount of data returned can improve the performance of your API by reducing the amount of data that needs to be processed and transmitted."
+                    },
+                    {
+                        "name": "Proper Response Code",
+                        "recommendation-type": "opinion",
+                        "description": "Return the proper status code according to the operation completed. e.g.\n200 OK\n400 Bad Request\n401 Unauthorized\n405 Method Not Allowed\n…etc. Returning the proper status code according to the operation completed is important for API security because it allows the client to understand the outcome of their request and take appropriate actions. For example, if the server returns a 401 Unauthorized status code, the client knows that their authentication credentials are incorrect and can prompt the user to re-enter their login details. On the other hand, if the server returns a 200 OK status code even though the request failed, the client may not realize there was an issue and could potentially execute malicious actions or display incorrect data. Providing accurate status codes can help prevent security vulnerabilities and improve the overall reliability and usability of the API."
+                    }
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                ]
+            },
+            "CI & CD": {
+                
+                "order": 8,
+                "options": [
+                    {
+                        "name": "Unit/Integration Tests",
+                        "recommendation-type": "opinion",
+                        "description": "Audit your design and implementation with unit/integration tests coverage. Unit and integration testing can help identify vulnerabilities in the API code and design, such as input validation errors, authentication and authorization flaws, and other security-related issues. By performing comprehensive testing, developers can ensure that the API works as intended and that it is secure against common attacks such as injection attacks, cross-site scripting, and other exploits. Adequate testing can also help identify and resolve performance bottlenecks, improve scalability and reliability, and ensure the overall quality of the API."
+                    },
+                    {
+                        "name": "Code Review Process",
+                        "recommendation-type": "opinion",
+                        "description": "Use a code review process and disregard self-approval. Having a good code review process allows for additional sets of eyes to review the code and identify potential security issues or vulnerabilities. A code review process involves other team members reviewing the code to ensure it follows best practices and is secure. Disregarding self-approval means that the developer who wrote the code should not be the only one responsible for approving it for release. This helps to catch potential mistakes or oversights before the code is deployed, reducing the risk of security breaches or other issues."
+                    },
+                    {
+                        "name": "Run Security Analysis",
+                        "recommendation-type": "opinion",
+                        "description": "Continuously run security analysis on your code. Continuous security analysis helps identify and address security vulnerabilities in the codebase before they can be exploited by attackers. It involves using automated tools and manual techniques to scan code for potential weaknesses, such as insecure coding practices, configuration errors, and outdated dependencies. By identifying and fixing vulnerabilities early in the development cycle, the risk of a security breach or data loss can be significantly reduced, improving the overall security posture of the system."
+                    },
+                    {
+                        "name": "Dependencies",
+                        "recommendation-type": "opinion",
+                        "description": "Check your dependencies for known vulnerabilities and keep them up to date. Vulnerabilities in third-party libraries and components can be exploited by attackers to gain access to your system or data. These vulnerabilities can be introduced through outdated or insecure dependencies that have not been updated with the latest security patches. By regularly checking for vulnerabilities and keeping your dependencies up to date, you can ensure that your API is not susceptible to known security risks. This can be done by using automated tools or services that scan your codebase and provide reports on any vulnerabilities found in your dependencies. By addressing these vulnerabilities promptly, you can reduce the risk of your API being compromised by attackers."
+                    },
+                    {
+                        "name": "Rollback Solution",
+                        "recommendation-type": "opinion",
+                        "description": "Design a rollback solution for deployments. Sometimes deploying a new version of the API can introduce unexpected bugs or issues that were not caught during testing. In such cases, rolling back to the previous version of the API can help to mitigate the impact of the issue and restore the service to a functional state. A well-designed rollback solution can help reduce downtime and minimize the impact on users."
+                    }
+                    
+                    
+                    
+                    
+                    
+                ]
+            },
+            "Monitoring": {
+                
+                "order": 9,
+                "options": [
+                    {
+                        "name": "Centralized Logins",
+                        "recommendation-type": "opinion",
+                        "description": "Using centralized logins for all services and components is important for several reasons:\n\nCentralized logins enable you to manage authentication and authorization in one place, reducing the risk of security gaps or inconsistencies across different services.\n\nCentralized logins provide a single point of entry, allowing you to control access and monitor activity more easily.\n\nCentralized logins make it easier to enforce security policies across different services and components, ensuring that only authorized users can access sensitive data or perform certain actions.\n\nTo use centralized logins, you need to set up a single sign-on (SSO) system that enables users to authenticate once and then access multiple services without having to provide credentials again. This can be done using protocols like OAuth or SAML, which enable secure authentication and authorization across different applications and services. Once set up, you can use centralized logging tools like ELK stack, Splunk, or Graylog to collect logs from different services and components and analyze them in one place. This enables you to quickly identify and respond to security threats or anomalies."
+                    },
+                    {
+                        "name": "Monitor Everything",
+                        "recommendation-type": "opinion",
+                        "description": "Using agents to monitor all requests, responses, and errors allows for real-time monitoring and detection of any abnormal activity or potential attacks. These agents can be configured to track metrics such as response times, error rates, and usage patterns, which can help identify any anomalies that could be indicative of an attack. By monitoring all requests and responses, the agents can provide visibility into the behavior of the API, which can help identify any potential security vulnerabilities or weaknesses. Additionally, agents can be used to log and analyze all data flowing through the API, which can be useful for debugging and auditing purposes.\n\nTo use agents for monitoring, a dedicated monitoring solution can be deployed alongside the API. This solution can be configured to capture data from all requests and responses, and analyze the data for any anomalies or issues. Agents can be implemented using various monitoring tools and technologies such as agents for application performance monitoring (APM), log monitoring, and network monitoring. The agents should be configured to provide real-time alerts to security teams if any suspicious activity is detected, allowing for immediate action to be taken."
+                    },
+                    {
+                        "name": "Setup Alerts",
+                        "recommendation-type": "opinion",
+                        "description": "Using alerts for various communication channels such as SMS, Slack, Email, Kibana, Cloudwatch, etc. can help you quickly respond to any issues or anomalies in your system. These alerts can be set up to notify you in real-time if a particular event or condition occurs, allowing you to take proactive measures to prevent downtime, data loss, or security breaches. Additionally, alerts can provide valuable insights into system performance and user behavior, allowing you to make informed decisions about your API’s design and implementation."
+                    },
+                    {
+                        "name": "Avoid Logging Sensitive Data",
+                        "recommendation-type": "opinion",
+                        "description": "Make sure that you are not logging any sensitive data such as passwords, credit card numbers, or personal information. This is because logging sensitive data can expose it to attackers, allowing them to gain unauthorized access to your system or data. Additionally, logging sensitive data can violate data privacy laws and regulations, exposing you to legal liability."
+                    },
+                    {
+                        "name": "Use IDS/IPS Systems",
+                        "recommendation-type": "opinion",
+                        "description": "Intrusion detection systems (IDS) and intrusion prevention systems (IPS) can be used to detect and block attacks. These systems can be configured to monitor all incoming and outgoing traffic, and detect any suspicious activity. If any suspicious activity is detected, the systems can be configured to block the traffic, preventing the attack from succeeding. IDS and IPS systems can be implemented using various tools and technologies such as network intrusion detection systems (NIDS), host-based intrusion detection systems (HIDS), and network intrusion prevention systems (NIPS). These systems can be deployed alongside the API, and configured to monitor all incoming and outgoing traffic. The systems can be configured to provide real-time alerts to security teams if any suspicious activity is detected, allowing for immediate action to be taken."
+                    }
+                    
+                    
+                    
+                    
+                    
+                ]
+            }
+        }
+    }
+}

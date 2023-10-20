@@ -237,6 +237,11 @@
                 ]
             },
             "Setup Development Environment": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 2,
                 "options": [
                     {
@@ -425,6 +430,11 @@
                 ]
             },
             "Widgets": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 3,
                 "options": [
                     {
@@ -602,6 +612,11 @@
                 ]
             },
             "Working with Assets": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 4,
                 "options": [
                     {
@@ -779,6 +794,11 @@
                 ]
             },
             "Version Control Systems": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 5,
                 "options": [
                     {
@@ -956,6 +976,11 @@
                 ]
             },
             "Repo Hosting Services": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 6,
                 "options": [
                     {
@@ -1133,6 +1158,11 @@
                 ]
             },
             "Design Principles": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 7,
                 "options": [
                     {
@@ -1310,6 +1340,11 @@
                 ]
             },
             "Package Manager": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 8,
                 "options": [
                     {
@@ -1487,6 +1522,11 @@
                 ]
             },
             "Working with APIs": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 9,
                 "options": [
                     {
@@ -1664,6 +1704,11 @@
                 ]
             },
             "Storage": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 10,
                 "options": [
                     {
@@ -1841,6 +1886,11 @@
                 ]
             },
             "Advanced Dart": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 11,
                 "options": [
                     {
@@ -2018,6 +2068,11 @@
                 ]
             },
             "State Management": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 12,
                 "module bundlers": {
                     "options": [
@@ -2197,6 +2252,11 @@
                 }
             },
             "Reactive Programming": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 13,
                 "options": [
                     {
@@ -2374,6 +2434,11 @@
                 ]
             },
             "Animations": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 14,
                 "options": [
                     {
@@ -2551,6 +2616,11 @@
                 ]
             },
             "Testing": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 15,
                 "options": [
                     {
@@ -2728,6 +2798,11 @@
                 ]
             },
             "Dev Tools": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 16,
                 "options": [
                     {
@@ -2905,6 +2980,11 @@
                 ]
             },
             "CI/CD": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 17,
                 "options": [
                     {
@@ -3082,6 +3162,11 @@
                 ]
             },
             "Flutter Internals": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 18,
                 "options": [
                     {
@@ -3259,6 +3344,11 @@
                 ]
             },
             "Analytics": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 19,
                 "options": [
                     {
@@ -3436,6 +3526,11 @@
                 ]
             },
             "Deployment": {
+                "description": " ",
+                "resources": [
+                    
+                   
+                ],
                 "order": 20,
                 "options": [
                     {

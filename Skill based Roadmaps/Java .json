@@ -1,0 +1,424 @@
+{
+    "Skill": {
+        "JAVA": {
+            "Learn the Fundamentals": {
+                "description": "Learn the basics of Java, including syntax, data types, variables, conditionals, functions, data structures, and more.",
+                "resources": [
+                    {
+                        "name": "Java Basics - W3Schools",
+                        "link": "https://www.w3schools.com/java/"
+                    },
+                    {
+                        "name": "Java Tutorial for Beginners",
+                        "link": "https://www.javatpoint.com/java-tutorial"
+                    },
+                    {
+                        "name": "Java + DSA + Interview Preparation Course (For beginners)",
+                        "link": "https://www.udemy.com/course/java-dsa-interview-preparation/"
+                    },
+                    {
+                        "name": "Head First Java",
+                        "link": "https://www.oreilly.com/library/view/head-first-java/0596009208/"
+                    },
+                    {
+                        "name": "Thinking in Java",
+                        "link": "http://www.mindviewinc.com/TIJ4/"
+                    },
+                    {
+                        "name": "Effective Java",
+                        "link": "https://www.pearson.com/us/higher-education/program/Bloch-Effective-Java/PGM112540.html"
+                    },
+                    {
+                        "name": "Java: A Beginners Guide",
+                        "link": "https://www.oracle.com/technical-resources/"
+                    },
+                    {
+                        "name": "Java: The Complete Reference",
+                        "link": "https://www.oracle.com/technical-resources/"
+                    }
+                ],
+                "order": 1,
+                "options": [
+                    {
+                        "name": "Data Structures",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about common data structures such as arrays, linked lists, stacks, hash tables, queues, trees, heaps, and graphs.",
+                        "resources": [
+                            {
+                                "name": "What are Data Structures?",
+                                "link": "https://www.geeksforgeeks.org/data-structures/"
+                            },
+                            {
+                                "name": "Data Structures and Algorithms",
+                                "link": "https://www.tutorialspoint.com/data_structures/index.htm"
+                            },
+                            {
+                                "name": "Java + DSA + Interview Preparation Course",
+                                "link": "https://www.udemy.com/course/java-dsa-interview-preparation/"
+                            },
+                            {
+                                "name": "Data Structures Illustrated",
+                                "link": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "OOP",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about Object-Oriented Programming (OOP) concepts in Java, including classes, interfaces, objects, inheritance, polymorphism, abstraction, and encapsulation.",
+                        "resources": [
+                            {
+                                "name": "OOPs Concept in Java",
+                                "link": "https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/"
+                            },
+                            {
+                                "name": "Java OOPs Concepts",
+                                "link": "https://www.tutorialspoint.com/java/java_object_oriented.htm"
+                            },
+                            {
+                                "name": "Java complete OOPs playlist",
+                                "link": "https://www.youtube.com/playlist?list=PLsyeobzWxl7r5l0R1YFpD8VXRjU8f7Rcc"
+                            },
+                            {
+                                "name": "Java OOPs Concepts",
+                                "link": "https://www.javatpoint.com/java-oops-concepts"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Packages",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about packages in Java, which are namespaces that contain classes and interfaces, and how to create and use them in your Java programs.",
+                        "resources": [
+                            {
+                                "name": "Packages in Java",
+                                "link": "https://www.geeksforgeeks.org/packages-in-java/"
+                            },
+                            {
+                                "name": "Java Package",
+                                "link": "https://docs.oracle.com/javase/tutorial/java/package/index.html"
+                            },
+                            {
+                                "name": "Packages In Java",
+                                "link": "https://www.javatpoint.com/package"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Files and APIs",
+                        "recommendation-type": "opinion",
+                        "description": "Learn how to work with files, including reading, writing, and deleting files and folders, as well as making API calls and handling incoming responses in Java.",
+                        "resources": [
+                            {
+                                "name": "How To Work With Files In Java",
+                                "link": "https://www.geeksforgeeks.org/file-handling-java/"
+                            },
+                            {
+                                "name": "Java File Class",
+                                "link": "https://docs.oracle.com/javase/8/docs/api/java/io/File.html"
+                            },
+                            {
+                                "name": "Java.io.File Class in Java",
+                                "link": "https://www.tutorialspoint.com/java/io/java_io_file.htm"
+                            },
+                            {
+                                "name": "Java HttpURLConnection Example - Java HTTP Request GET, POST",
+                                "link": "https://www.journaldev.com/7148/java-httpurlconnection"
+                            },
+                            {
+                                "name": "5 ways to make HTTP requests in Java",
+                                "link": "https://dzone.com/articles/5-ways-to-make-http-requests-in-java"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Basic Syntax",
+                        "recommendation-type": "opinion",
+                        "description": "Understanding the basics is the key to a solid foundation. In this section, learn the basic terminologies, naming conventions, reserved words, conditions, functions, data structures, OOP, packages, etc.",
+                        "resources": [
+                            {
+                                "name": "Basic Java Syntax",
+                                "link": "https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html"
+                            },
+                            {
+                                "name": "Java - Basic Syntax",
+                                "link": "https://www.tutorialspoint.com/java/java_basic_syntax.htm"
+                            },
+                            {
+                                "name": "Java Tutorial for Beginners",
+                                "link": "https://www.javatpoint.com/java-tutorial"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Data Types and Variables",
+                        "recommendation-type": "opinion",
+                        "description": "Variable in Java is a data container that stores the data values during Java program execution. Every variable is assigned a data type, which designates the type and quantity of values it can hold. Variable is a memory location name of the data. The Java variables have mainly three types: Local, Instance and Static.\n\nData Types are divided into two group -\n\nPrimitive - byte,short,int,long,float,double,boolean and char\nNon-Primitive - String, Arrays and Classes",
+                        "resources": [
+                            {
+                                "name": "What are Data Types & Variables?",
+                                "link": "https://www.javatpoint.com/java-data-types"
+                            },
+                            {
+                                "name": "Java Variables",
+                                "link": "https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html"
+                            },
+                            {
+                                "name": "Learn more about Data types and Variables",
+                                "link": "https://www.tutorialspoint.com/java/java_data_types.htm"
+                            }
+                        ]
+                    }
+                    
+                    
+                    
+                    
+                    
+                    
+                ]
+            },
+            "Getting Deeper": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "Build Tools": {
+                "description": " A build tool is a program or command-line utility that automates the process of compiling, assembling, and deploying software.\nBuild tools are not only limited to compiling code; they can also help with package management, dependency handling, and continuous integration systems.",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "Web Frameworks": {
+                "description": "Frameworks are tools with pre-written code, that act as a template or skeleton, which can be reused to create an application by simply filling with your code as needed which enables developers to program their application with no overhead of creating each line of code again and again from scratch. ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "ORM": {
+                "description": " A programming method to map objects in Java to relational entities in a database. In other words, converting data between relational databases and object-oriented programming languages. Some popular ORM tools/frameworks in Java are:\nSpring Data JPA\nHibernate\nEbean\nVisit the following resources to learn more:",
+                "resources": [
+                    {
+                        "name": "ORM tutorial",
+                        "link": "https://www.altexsoft.com/blog/object-relational-mapping/"
+                    },
+                    {
+                        "name": "Java Databases: An Overview of Libraries & APIs",
+                        "link": "https://www.marcobehler.com/guides/java-databases"
+                    }
+                ],
+                "order": 1,
+                "options": [
+                    {
+                        "name": "JPA",
+                        "recommendation-type": "opinion",
+                        "description": "The Jakarta Persistence API provides Java developers with an object/relational mapping facility for managing relational data in Java applications. JPA is not a tool nor a framework, but a set of interfaces for accessing, persisting, and managing data between Java objects and (a) relational database. Because it is a set of interfaces, it will require an implementation to work with and persist Java objects. This will be ORM.",
+                        "resources": [
+                            {
+                                "name": "TutorialsPoint JPA",
+                                "link": "https://www.tutorialspoint.com/jpa/index.htm"
+                            },
+                            {
+                                "name": "Official Java doc - Package javax.persistence",
+                                "link": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/package-summary.html"
+                            },
+                            {
+                                "name": "Pro Jakarta Persistence in Jakarta EE 10",
+                                "link": "https://www.apress.com/gp/book/9781484261627"
+                            },
+                            {
+                                "name": "Java Persistence with Spring Data and Hibernate by Catalin Tudose",
+                                "link": "https://www.amazon.com/Java-Persistence-Spring-Data-Hibernate/dp/1484255690"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spring Data JPA",
+                        "recommendation-type": "opinion",
+                        "description": "Spring Data JPA aims to significantly improve the implementation of data access layers by reducing the effort to the amount that’s actually needed. As a developer you write your repository interfaces, including custom finder methods, and Spring will provide the implementation automatically.",
+                        "resources": [
+                            {
+                                "name": "Spring Data JPA",
+                                "link": "https://spring.io/projects/spring-data-jpa"
+                            },
+                            {
+                                "name": "Introduction to Spring Data JPA",
+                                "link": "https://www.baeldung.com/the-persistence-layer-with-spring-data-jpa"
+                            },
+                            {
+                                "name": "Spring Data JPA Tutorial",
+                                "link": "https://www.javatpoint.com/spring-boot-jpa"
+                            },
+                            {
+                                "name": "Spring Boot – Spring Data JPA",
+                                "link": "https://www.baeldung.com/spring-boot-data-source-properties"
+                            },
+                            {
+                                "name": "Spring Data JPA Tutorial",
+                                "link": "https://www.tutorialspoint.com/spring_data/spring_data_jpa.htm"
+                            },
+                            {
+                                "name": "Spring Boot Tutorial - Spring Data JPA",
+                                "link": "https://www.callicoder.com/spring-boot-jpa-hibernate-postgresql-restful-api-example/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hibernate",
+                        "recommendation-type": "opinion",
+                        "description": "Hibernate is an open source object-relational mapping tool that provides a framework to map object-oriented domain models to relational databases for web applications.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Hibernate",
+                                "link": "https://hibernate.org/"
+                            },
+                            {
+                                "name": "Hibernate Tutorial",
+                                "link": "https://www.javatpoint.com/hibernate-tutorial"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ebean",
+                        "recommendation-type": "opinion",
+                        "description": "Ebean is an object-relational mapping tool written in Java. It supports the standard JPA annotations for declaring entities. However, it provides a much simpler API for persisting. In fact, one of the points worth mentioning about the Ebean architecture is that it is sessionless, meaning it does not fully manage entities.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Ebean",
+                                "link": "https://ebean.io/"
+                            },
+                            {
+                                "name": "Ebean Documentation",
+                                "link": "https://ebean.io/docs/"
+                            },
+                            {
+                                "name": "Guide to Ebean",
+                                "link": "https://www.baeldung.com/ebean-orm"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Logging Frameworks": {
+                "description": "Logging is an important feature that helps developers to trace out the errors. It provides the ability to capture the log file. Logging provides the complete tracing information of the application and also records the critical failure if any occur in an application. There are three components of Logging: Logger, Logging handlers or Appenders and Layouts or logging formatters.\nVisit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "Introduction to Java Logging",
+                        "link": "https://www.baeldung.com/java-logging-intro"
+                    },
+                    {
+                        "name": "Java Logger",
+                        "link": "https://www.javatpoint.com/java-logger"
+                    },
+                    {
+                        "name": "Java Logging Frameworks",
+                        "link": "https://en.wikipedia.org/wiki/Java_logging_framework"
+                    },
+                    {
+                        "name": "How to Do Logging In Java",
+                        "link": "https://www.marcobehler.com/guides/java-logging"
+                    }
+                ],
+                "order": 1,
+                "options": [
+                    {
+                        "name": "Log4j2",
+                        "recommendation-type": "opinion",
+                        "description": "Apache Log4j is a Java-based logging utility. Log4j Java library’s role is to log information that helps applications run smoothly, determine what’s happening, and help with the debugging process when errors occur. Logging libraries typically write down messages to the log file or a database.\nLog4j2 is the updated version of the popular and influential log4j library, used extensively throughout the Java ecosystem for so many years. Version 2. x keeps all the logging features of its predecessor and builds on that foundation with some significant improvements, especially in the area of performance.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://logging.apache.org/log4j/2.x/manual/configuration.html"
+                            },
+                            {
+                                "name": "Log4j explained: Everything you need to know",
+                                "link": "https://www.techtarget.com/whatis/feature/Log4j-explained-Everything-you-need-to-know"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Logback",
+                        "recommendation-type": "opinion",
+                        "description": "Logback is one of the most widely used logging frameworks in the Java Community. It’s a replacement for its predecessor, Log4j. Logback offers a faster implementation, provides more options for configuration, and more flexibility in archiving old log files.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://logback.qos.ch/manual/configuration.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Slf4j",
+                        "recommendation-type": "opinion",
+                        "description": "The SLF4J or the Simple Logging Facade for Java is an abstraction layer for various Java logging frameworks, like Log4j 2 or Logback. This allows for plugging different logging frameworks at deployment time without the need for code changes.\nThe SLF4J or the Simple Logging Facade for Java is an abstraction layer for various Java logging frameworks, like Log4j 2 or Logback. This allows for plugging different logging frameworks at deployment time without the need for code changes.",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://www.slf4j.org/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tinylog",
+                        "recommendation-type": "opinion",
+                        "description": "Tinylog is a lightweight open-source logging framework for Java and Android, optimized for ease of use.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://tinylog.org/v1/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "JDBC": {
+                "description": "JDBC is an API(Application programming interface) used in java programming to interact with databases. The classes and interfaces of JDBC allow the application to send requests made by users to the specified database.\nVisit the following resources to learn more:",
+                "resources": [
+                    {
+                        "name": "Introduction to JDBC",
+                        "link": "https://www.geeksforgeeks.org/introduction-to-jdbc/"
+                    },
+                    {
+                        "name": "IBM: What is JDBC",
+                        "link": "https://www.ibm.com/docs/en/informix-servers/12.10?topic=started-what-is-jdbc"
+                    }
+                ],
+                "order": 1,
+                "options": [
+                    {
+                        "name": "Jdbi3",
+                        "recommendation-type": "opinion",
+                        "description": "Jdbi is an open source Java library (Apache license) that uses lambda expressions and reflection to provide a friendlier, higher level interface than JDBC to access the database.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Jdbi",
+                                "link": "https://jdbi.org/"
+                            },
+                            {
+                                "name": "Jdbi Tutorial",
+                                "link": "https://www.baeldung.com/jdbi"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "JDBC Template",
+                        "recommendation-type": "opinion",
+                        "description": "JDBCTemplate is a central class in Spring’s JDBC core package that simplifies the use of JDBC and helps to avoid common errors. It internally uses JDBC API and eliminates many problems with JDBC API. It executes SQL queries or updates, initiating iteration over ResultSets, catching JDBC exceptions, and translating them to the generic. It executes core JDBC workflow, leaving application code to provide SQL and extract results. It handles the exception and provides informative exception messages with the help of exception classes defined in the org.springframework.dao package.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "JDBC Template tutorial",
+                                "link": "https://www.baeldung.com/spring-jdbc-jdbctemplate"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Testing your Apps": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            }
+        }
+    }
+}

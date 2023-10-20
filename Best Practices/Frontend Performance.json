@@ -1,0 +1,984 @@
+{
+    "Best": {
+        "Frontend Performance": {
+            "High Priority": {
+                "order": 1,
+                "options": [
+                    {
+                        "name": "Avoid iframes",
+                        "recommendation-type": "opinion",
+                        "description": "Use iframes only if you don’t have any other technical possibility. Try to avoid iframes as much as you can. Iframes are not only bad for performance, but also for accessibility and usability. Iframes are also not indexed by search engines.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Minify CSS",
+                        "recommendation-type": "opinion",
+                        "description": "All CSS files are minified, comments, white spaces and new lines are removed from production files. When CSS files are minified, the content is loaded faster and less data is sent to the client. It’s important to always minify CSS files in production. It is beneficial for the user as it is for any business who wants to lower bandwidth costs and lower resource usage. Use tools to minify your files automatically before or during your build or your deployment.",
+                        "resources": [
+                            {
+                                "name": "cssnano: A modular minifier based on the PostCSS ecosystem.",
+                                "link": "https://cssnano.co/"
+                            },
+                            {
+                                "name": "CSS Minifier",
+                                "link": "https://www.minifier.org/"
+                            },
+                            {
+                                "name": "@neutrinojs/style-minify - npm",
+                                "link": "https://www.npmjs.com/package/@neutrinojs/style-minify"
+                            },
+                            {
+                                "name": "Online CSS Compressor",
+                                "link": "https://www.csscompressor.com/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Non-Blocking CSS",
+                        "recommendation-type": "opinion",
+                        "description": "CSS files need to be non-blocking to prevent the DOM from taking time to load. CSS files can block the page load and delay the rendering of your page. Using preload can actually load the CSS files before the browser starts showing the content of the page. You need to add the rel attribute with the preload value and add as=\"style\" on the <link> element.",
+                        "resources": [
+                            {
+                                "name": "loadCSS by filament group",
+                                "link": "https://github.com/filamentgroup/loadCSS"
+                            },
+                            {
+                                "name": "Example of preload CSS using loadCSS",
+                                "link": "https://github.com/filamentgroup/loadCSS#recommended-example-with-script-tag"
+                            },
+                            {
+                                "name": "Preloading content with rel=“preload”",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content"
+                            },
+                            {
+                                "name": "Preload: What Is It Good For? — Smashing Magazine",
+                                "link": "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Inline Critical CSS",
+                        "recommendation-type": "opinion",
+                        "description": "The CSS critical (or “above the fold”) collects all the CSS used to render the visible portion of the page. It is embedded before your principal CSS call and between  in a single line (minified if possible). Inlining critical CSS helps to speed up the rendering of the web pages by reducing the number of requests to the server.",
+                        "resources": [
+                            {
+                                "name": "Understanding Critical CSS",
+                                "link": "https://web.dev/extract-critical-css/"
+                            },
+                            {
+                                "name": "Critical by Addy Osmani on GitHub automates this.",
+                                "link": "https://github.com/addyosmani/critical"
+                            },
+                            {
+                                "name": "Inlining critical CSS for better web performance | Go Make Things",
+                                "link": "https://gomakethings.com/inlining-critical-css-for-better-web-performance/"
+                            },
+                            {
+                                "name": "Critical Path CSS Generator - Prioritize above the fold content :: SiteLocity",
+                                "link": "https://www.sitelocity.com/critical-path-css-generator"
+                            },
+                            {
+                                "name": "Reduce the size of the above-the-fold content",
+                                "link": "https://varvy.com/pagespeed/above-the-fold-css.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Avoid Inline CSS",
+                        "recommendation-type": "opinion",
+                        "description": "Avoid using embed or inline CSS inside your <body> (Not valid for HTTP/2). One of the first reasons is because it’s a good practice to separate content from design. It also helps you have a more maintainable code and keep your site accessible. But regarding performance, it’s simply because it decreases the file size of your HTML pages and the load time. Always use external stylesheets or embed CSS in your <head> (and follow the others CSS performance rules). Observe CSS Best Practices: Avoid CSS Inline Styles.",
+                        "resources": [
+                            {
+                                "name": "Observe CSS Best Practices: Avoid CSS Inline Styles",
+                                "link": "https://web.dev/avoid-css-inline-styles/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stylesheet Complexity",
+                        "recommendation-type": "opinion",
+                        "description": "Analyzing your stylesheets can help you to flag issues, redundancies and duplicate CSS selectors. Sometimes you may have redundancies or validation errors in your CSS, analyzing your CSS files and removing these complexities can help you to speed up your CSS files (because your browser will read them faster). Your CSS should be organized; using a CSS preprocessor can help you with that. Some online tools listed below can also help you analyze and correct your code.",
+                        "resources": [
+                            {
+                                "name": "TestMyCSS | Optimize and Check CSS Performance",
+                                "link": "https://www.testmycss.com/"
+                            },
+                            {
+                                "name": "CSS Stats",
+                                "link": "https://cssstats.com/"
+                            },
+                            {
+                                "name": "macbre/analyze-css: CSS selectors complexity and performance analyzer",
+                                "link": "https://github.com/macbre/analyze-css"
+                            },
+                            {
+                                "name": "Project Wallace",
+                                "link": "https://www.projectwallace.com/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Images Optimization",
+                        "recommendation-type": "opinion",
+                        "description": "Your images are optimized, compressed without a direct impact on the end user. Optimized images load faster in your browser and consume less data. Try using CSS3 effects when it’s possible (instead of a small image). When it’s possible, use fonts instead of text encoded in your images. Use SVG. Use a tool and specify a compression level under 85.",
+                        "resources": [
+                            {
+                                "name": "Image Optimization",
+                                "link": "https://developers.google.com/web/fundamentals/media/images"
+                            },
+                            {
+                                "name": "Essential Image Optimization",
+                                "link": "https://images.guide/"
+                            },
+                            {
+                                "name": "TinyJPG  Compress JPEG images intelligently",
+                                "link": "https://tinyjpg.com/"
+                            },
+                            {
+                                "name": "Kraken.io - Online Image Optimizer",
+                                "link": "https://kraken.io/"
+                            },
+                            {
+                                "name": "Compressor.io",
+                                "link": "https://compressor.io/"
+                            },
+                            {
+                                "name": "Cloudinary - Image Analysis Tool",
+                                "link": "https://cloudinary.com/features/image_analysis"
+                            },
+                            {
+                                "name": "ImageEngine - Image Webpage Loading Test",
+                                "link": "https://www.imageengine.io/image-webpage-loading-test"
+                            },
+                            {
+                                "name": "SVGOMG - Optimize SVG vector graphics files",
+                                "link": "https://jakearchibald.github.io/svgomg/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Image Format",
+                        "recommendation-type": "opinion",
+                        "description": "To ensure that your images don’t slow your website, choose the format that will correspond to your image. If it’s a photo, JPEG is most of the time more appropriate than PNG or GIF. However, don’t forget to look at the more modern formats that can reduce the size of your files. Each image format has pros and cons, so it’s important to know these to make the best choice possible. Use Lighthouse to identify which images can eventually use modern formats (like JPEG 2000, JPEG XR, or WebP). Compare different formats; sometimes using PNG8 is better than PNG16, sometimes it’s not.",
+                        "resources": [
+                            {
+                                "name": "Serve Images in Modern Formats",
+                                "link": "https://web.dev/serve-images-in-next-gen-formats/"
+                            },
+                            {
+                                "name": "What Is the Right Image Format for Your Website?",
+                                "link": "https://www.keycdn.com/blog/image-format"
+                            },
+                            {
+                                "name": "PNG8 - The Clear Winner",
+                                "link": "https://www.smashingmagazine.com/2019/10/png8-clear-winner/"
+                            },
+                            {
+                                "name": "8-bit vs 16-bit - What Color Depth You Should Use And Why It Matters",
+                                "link": "https://www.designify.com/color-depth-8-bit-vs-16-bit-what-should-you-use-and-why/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Minify JavaScript",
+                        "recommendation-type": "opinion",
+                        "description": "All JavaScript files are minified, comments, white spaces, and new lines are removed from production files (still valid if using HTTP/2). Removing all unnecessary spaces, comments, and line breaks will reduce the size of your JavaScript files and speed up your site’s page load times and obviously lighten the download for your user. Use the tools suggested below to minify your files automatically before or during your build or your deployment.",
+                        "resources": [
+                            {
+                                "name": "terser - JavaScript parser, mangler, and compressor toolkit for ES6+",
+                                "link": "https://terser.org/"
+                            },
+                            {
+                                "name": "uglify-js - npm",
+                                "link": "https://www.npmjs.com/package/uglify-js"
+                            },
+                            {
+                                "name": "Online JavaScript Compressor",
+                                "link": "https://jscompress.com/"
+                            },
+                            {
+                                "name": "Short read: How is HTTP/2 different? Should we still minify and concatenate?",
+                                "link": "https://www.keycdn.com/blog/http2-different-minify"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Non-Blocking JavaScript",
+                        "recommendation-type": "opinion",
+                        "description": "JavaScript files are loaded asynchronously using async or deferred using the defer attribute. JavaScript blocks the normal parsing of the HTML document, so when the parser reaches a <script> tag (particularly inside the <head>), it stops to fetch and run it. Adding async or defer are highly recommended if your scripts are placed at the top of your page but less valuable if just before your </body> tag. It’s a good practice to always use these attributes to avoid any performance issue. Add async (if the script doesn’t rely on other scripts) or defer (if the script relies upon or is relied upon by an async script) as an attribute to your script tag. If you have small scripts, maybe use inline script placed above async scripts.",
+                        "resources": [
+                            {
+                                "name": "Defer loading JavaScript",
+                                "link": "https://developers.google.com/speed/docs/insights/BlockingJS"
+                            },
+                            {
+                                "name": "Remove Render-Blocking JavaScript",
+                                "link": "https://web.dev/render-blocking-resources/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Page weight below 1500",
+                        "recommendation-type": "opinion",
+                        "description": "Reduce the size of your page + resources as much as you can. Ideally, you should try to target < 500 KB, but the state of the web shows that the median size is around 1500 KB (even on mobile). Depending on your target users, network connection, devices, it's important to reduce as much as possible your total Kilobytes to have the best user experience possible. All the listed best practices in this list will help you to reduce as much as possible your resources and your code.",
+                        "resources": [
+                            {
+                                "name": "Page Weight",
+                                "link": "https://www.pageweight.com/"
+                            },
+                            {
+                                "name": "What Does My Site Cost?",
+                                "link": "https://whatdoesmysitecost.com/"
+                            },
+                            {
+                                "name": "Measure full page size in Chrome DevTools - Stack Overflow",
+                                "link": "https://stackoverflow.com/questions/19566134/measure-full-page-size-in-chrome-devtools"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Page Load Time",
+                        "recommendation-type": "opinion",
+                        "description": "Reduce as much as possible your page load times to quickly deliver your content to your users. The faster your website or app is, the lower the probability of bounce increases. In other terms, you have fewer chances to lose your user or future client. Enough research on the subject proves that point. Use online tools like Page Speed Insights or WebPageTest to analyze what could be slowing you down and use the Front-End Performance Checklist to improve your load times.",
+                        "resources": [
+                            {
+                                "name": "Page Speed Insights",
+                                "link": "https://developers.google.com/speed/pagespeed/insights/"
+                            },
+                            {
+                                "name": "WebPageTest",
+                                "link": "https://www.webpagetest.org/"
+                            },
+                            {
+                                "name": "Front-End Performance Checklist",
+                                "link": "https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/"
+                            },
+                            {
+                                "name": "Compare your mobile site speed",
+                                "link": "https://www.thinkwithgoogle.com/marketing-resources/data-measurement/mobile-site-speed-test"
+                            },
+                            {
+                                "name": "Test Your Mobile Website Speed and Performance - Think With Google",
+                                "link": "https://www.thinkwithgoogle.com/marketing-resources/data-measurement/test-my-site"
+                            },
+                            {
+                                "name": "Average Page Load Times for 2018 - How does yours compare? - MachMetrics Speed Blog",
+                                "link": "https://www.machmetrics.com/speed-blog/page-load-time-2018/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Keep TTFB < 1.3s",
+                        "recommendation-type": "opinion",
+                        "description": "Reduce as much as you can the time your browser waits before receiving data.",
+                        "resources": [
+                            {
+                                "name": "What is Waiting (TTFB) in DevTools, and what to do about it",
+                                "link": "https://calendar.perfplanet.com/2013/what-is-ttfb/"
+                            },
+                            {
+                                "name": "Monitoring your servers with free tools is easy",
+                                "link": "https://www.keycdn.com/blog/server-monitoring-tools"
+                            },
+                            {
+                                "name": "Time to First Byte (TTFB)",
+                                "link": "https://en.wikipedia.org/wiki/Time_to_first_byte"
+                            },
+                            {
+                                "name": "Global latency testing tool",
+                                "link": "https://www.uptrends.com/tools/uptime"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Minimize HTTP Requests",
+                        "recommendation-type": "opinion",
+                        "description": "Always ensure that every file requested are essential for your website or application.",
+                        "resources": [
+                            {
+                                "name": "Combine external CSS",
+                                "link": "https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery"
+                            },
+                            {
+                                "name": "Combine external JavaScript",
+                                "link": "https://developers.google.com/speed/docs/insights/CombineExternalJS"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Use same Protocol",
+                        "recommendation-type": "opinion",
+                        "description": "Avoid having your website serving files coming from source using HTTP on your website which is using HTTPS for example. If your website is using HTTPS, external files should come from the same protocol.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Serve Reachable Files",
+                        "recommendation-type": "opinion",
+                        "description": "Avoid requesting unreachable files (404)\n404 request can slow down the performance of your website and negatively impact the user experience. Additionally, they can also cause search engines to crawl and index non-existent pages, which can negatively impact your search engine rankings. To avoid 404 requests, ensure that all links on your website are valid and that any broken links are fixed promptly.",
+                        "resources": [
+                            {
+                                "name": "How to avoid Bad Requests?",
+                                "link": "https://varvy.com/pagespeed/avoid-bad-requests.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "HTTP Caching",
+                        "recommendation-type": "opinion",
+                        "description": "Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.",
+                        "resources": [
+                            {
+                                "name": "Using cache-control for browser caching",
+                                "link": "https://varvy.com/pagespeed/cache-control.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enable Compression",
+                        "recommendation-type": "opinion",
+                        "description": "Use a compression method such as Gzip or Brotli to reduce the size of your JavaScript files. With smaller file sizes, users will be able to download the asset faster, resulting in improved performance.",
+                        "resources": [
+                            {
+                                "name": "Check GZIP compression",
+                                "link": "https://checkgzipcompression.com/"
+                            },
+                            {
+                                "name": "Check Brotli Compression",
+                                "link": "https://www.giftofspeed.com/gzip-test/"
+                            },
+                            {
+                                "name": "Can I use… Brotli",
+                                "link": "https://caniuse.com/?search=brotli"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Page Speed Insights",
+                        "recommendation-type": "opinion",
+                        "description": "Page Speed Insights is a free tool from Google that analyzes the performance of a web page and provides suggestions for improvements.",
+                        "resources": [
+                            {
+                                "name": "Page Speed Insights",
+                                "link": "https://pagespeed.web.dev/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lighthouse",
+                        "recommendation-type": "opinion",
+                        "description": "Lighthouse is an open-source tool developed by Google that is used to audit the performance, accessibility, and SEO of web pages. It is available as a browser extension and as a command-line tool, and it can be run on any web page to generate a report with recommendations for improvement.\n\nLighthouse works by simulating the load and interaction of a web page and measuring various performance metrics, such as load time, time to first paint, and time to interactive. It also checks for common issues such as incorrect image sizes, missing alt text, and broken links.\n\nLighthouse provides a comprehensive and easy-to-use tool for identifying and fixing performance and accessibility issues on web pages. It is widely used by web developers and is integrated into many popular development tools.",
+                        "resources": [
+                            {
+                                "name": "Lighthouse - Google Developers",
+                                "link": "https://developers.google.com/web/tools/lighthouse"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "webpagetest.org",
+                        "recommendation-type": "opinion",
+                        "description": "Webpagetest.org is a website performance testing tool that allows users to test the load time and performance of web pages. It provides a wealth of information about the page load, including load time, Speed Index, and filmstrip view of the page load, as well as a breakdown of the page components and their load times. It also allows for testing from multiple locations and browsers. The test results can be shared and compared with others. It is widely used by developers, marketers, and website owners to improve the performance and user experience of their websites.",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Chrome DevTools",
+                        "recommendation-type": "opinion",
+                        "description": "Chrome DevTools is a set of web development tools built into the Google Chrome browser. It allows developers to inspect and debug the front-end of web applications.\n\nSome of the benefits of using Chrome DevTools include:\n\n- Inspecting and editing HTML and CSS in real-time, which can be useful for identifying and fixing layout issues\n- Debugging JavaScript code, including setting breakpoints, stepping through code, and examining the call stack\n- Profiling the performance of web pages, including identifying slow-running JavaScript code and analyzing network requests\n- Inspecting and debugging browser-side storage, including cookies, local storage, and indexedDB\n- Auditing web pages for performance, accessibility, and best practices\n\nChrome DevTools are a powerful and essential tool for web developers, as it helps to improve debugging, testing, and optimization of the web application.",
+                        "resources": [
+                            {
+                                "name": "Chrome DevTools Docs",
+                                "link": "https://developer.chrome.com/docs/devtools/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bundlephobia",
+                        "recommendation-type": "opinion",
+                        "description": "Bundlephobia is a website and npm package that allows developers to search for the size of any JavaScript package before adding it to their project. It provides information on the size of the package, as well as the size of its dependencies, to help developers make informed decisions about which packages to use and how they may impact the overall size of their application. Bundlephobia also offers badges which can be added to your GitHub README.md file to show the size of your package.",
+                        "resources": [
+                            {
+                                "name": "Official Website - Bundlephobia",
+                                "link": "https://bundlephobia.com/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Squoosh.app",
+                        "recommendation-type": "opinion",
+                        "description": "Squoosh.app is a web app that allows you to compress images using a variety of codecs. It is built by Google Chrome team and is open source.",
+                        "resources": [
+                            {
+                                "name": "Squoosh.app",
+                                "link": "https://squoosh.app/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Medium Priority": {
+                "order": 2,
+                "options": [
+                    {
+                        "name": "Minify HTML",
+                        "recommendation-type": "opinion",
+                        "description": "The HTML code is minified, comments, white spaces and new lines are removed from production files.\n\nRemoving all unnecessary spaces, comments and attributes will reduce the size of your HTML and speed up your site’s page load times and obviously lighten the download for your user.\n\nMost of the frameworks have plugins to facilitate the minification of the webpages. You can use a bunch of NPM modules that can do the job for you automatically.",
+                        "resources": [
+                            {
+                                "name": "HTML minifier | Code Beautify",
+                                "link": "https://codebeautify.org/html-minifier"
+                            },
+                            {
+                                "name": "Online HTML Compressor",
+                                "link": "https://www.textfixer.com/html/compress-html-compression.php"
+                            },
+                            {
+                                "name": "Experimenting with HTML minifier — Perfection Kills",
+                                "link": "https://perfectionkills.com/experimenting-with-html-minifier/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Use CDN",
+                        "recommendation-type": "opinion",
+                        "description": "Use a CDN to serve your static assets. This will reduce the load on your server and improve the performance of your site.",
+                        "resources": [
+                            {
+                                "name": "10 Tips to Optimize CDN Performance - CDN Planet",
+                                "link": "https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/"
+                            },
+                            {
+                                "name": "HTTP Caching | Web Fundamentals | Google Developers",
+                                "link": "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Prefer Vector Images",
+                        "recommendation-type": "opinion",
+                        "description": "Prefer using vector image rather than bitmap images (when possible).\n\nVector images (SVG) tend to be smaller than images and SVG’s are responsive and scale perfectly. These images can be animated and modified by CSS.",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Image Dimensions",
+                        "recommendation-type": "opinion",
+                        "description": "Set width and height attributes on <img> if the final rendered image size is known.\nIf height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Avoid Base64 Images",
+                        "recommendation-type": "opinion",
+                        "description": "You could eventually convert tiny images to base64 but it’s actually not the best practice.\n\nUsing Base64 encoded images in your frontend can have several drawbacks.\n\nFirst, Base64 encoded images are larger in size than their binary counterparts, which can slow down the loading time of your website.\n\nSecond, because Base64 encoded images are embedded directly in the HTML or CSS, they are included in the initial page load, which can cause delays for users with slower internet connections.\n\nThird, Base64 encoded images do not benefit from browser caching, as they are part of the HTML or CSS and not a separate resource. So, every time the page is loaded, the images will be re-downloaded, even if the user has visited the page before.\n\nFourth, Base64 encoded images are not compatible with some old browser versions.\n\nInstead of using Base64 encoded images, it is generally recommended to use binary image files and reference them using an img tag in HTML, with a standard src attribute. This allows the browser to cache the image and use it for subsequent page loads, resulting in faster loading times and better user experience.",
+                        "resources": [
+                            {
+                                "name": "Base64 Encoding & Performance, Part 1 and 2 by Harry Roberts",
+                                "link": "https://csswizardry.com/2017/02/base64-encoding-and-performance-part-1/"
+                            },
+                            {
+                                "name": "A closer look at Base64 image performance – The Page Not Found Blog",
+                                "link": "https://www.thepagenotfound.com/2020/01/a-closer-look-at-base64-image-performance.html"
+                            },
+                            {
+                                "name": "When to base64 encode images (and when not to) | David Calhoun",
+                                "link": "https://www.davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/"
+                            },
+                            {
+                                "name": "Base64 encoding images for faster pages | Performance and seo factors",
+                                "link": "https://performanceandseofactors.com/base64-encoding-images-for-faster-pages/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lazy Loading",
+                        "recommendation-type": "opinion",
+                        "description": "Offscreen images are loaded lazily (A noscript fallback is always provided).\n\nIt will improve the response time of the current page and then avoid loading unnecessary images that the user may not need.\n\nUse Lighthouse to identify how many images are offscreen.\n\nUse a JavaScript plugin like the following to lazyload your images. Make sure you target offscreen images only.\n\nAlso make sure to lazyload alternative images shown at mouseover or upon other user actions.",
+                        "resources": [
+                            {
+                                "name": "verlok/lazyload: GitHub",
+                                "link": "https://github.com/verlok/lazyload"
+                            },
+                            {
+                                "name": "aFarkas/lazysizes: GitHub",
+                                "link": "https://github.com/aFarkas/lazysizes"
+                            },
+                            {
+                                "name": "mfranzke/loading-attribute-polyfill: GitHub",
+                                "link": "https://github.com/mfranzke/loading-attribute-polyfill"
+                            },
+                            {
+                                "name": "Lazy Loading Images and Video | Web Fundamentals | Google Developers",
+                                "link": "https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video"
+                            },
+                            {
+                                "name": "5 Brilliant Ways to Lazy Load Images For Faster Page Loads - Dynamic Drive Blog",
+                                "link": "https://www.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Responsive Images",
+                        "recommendation-type": "opinion",
+                        "description": "Ensure to serve images that are close to your display size.\nSmall devices don’t need images bigger than their viewport. It’s recommended to have multiple versions of one image on different sizes.\nCreate different image sizes for the devices you want to target\nUse srcset and picture to deliver multiple variants of each image.",
+                        "resources": [
+                            {
+                                "name": "Responsive images - Learn web development | MDN",
+                                "link": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Avoid Inline JavaScript",
+                        "recommendation-type": "opinion",
+                        "description": "Avoid having multiple JavaScript codes embedded in the middle of your body. Regroup your JavaScript code inside external files or eventually in the <head> or at the end of your page (before </body>).\nlacing JavaScript embedded code directly in your <body> can slow down your page because it loads while the DOM is being built. The best option is to use external files with async or defer to avoid blocking the DOM.\nAnother option is to place some scripts inside your <head>. Most of the time analytics code or small script that need to load before the DOM gets to main processing.\nEnsure that all your files are loaded using async or defer and decide wisely the code that you will need to inject in your <head>.",
+                        "resources": [
+                            {
+                                "name": "h11 Tips to Optimize JavaScript and Improve Website Loading Speeds",
+                                "link": "https://www.upwork.com/hiring/development/11-tips-to-optimize-javascript-and-improve-website-loading-speeds/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dependency Updates",
+                        "recommendation-type": "opinion",
+                        "description": "All JavaScript libraries used in your project are necessary (prefer Vanilla JavaScript for simple functionalities), updated to their latest version and don’t overwhelm your JavaScript with unnecessary methods.\n\nMost of the time, new versions come with optimization and security fixes. You should use the most optimized code to speed up your project and ensure that you’ll not slow down your website or app with outdated plugins.\n\nIf your project uses NPM packages, npm-check is a pretty interesting library to upgrade/update your libraries. Greenkeeper can automatically look for your dependencies and suggest an update every time a new version is out.",
+                        "resources": [
+                            {
+                                "name": "Vanilla JavaScript for building powerful web applications",
+                                "link": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Vanilla_JavaScript_for_building_powerful_web_applications"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "JavaScript Performance",
+                        "recommendation-type": "opinion",
+                        "description": "Check for performance problems in your JavaScript files (and CSS too)\nJavaScript complexity can slow down runtime performance. Identifying these possible issues are essential to offer the smoothest user experience\nUse the Timeline tool in the Chrome Developer Tool to evaluate scripts events and found the one that may take too much time.",
+                        "resources": [
+                            {
+                                "name": "Speed Up JavaScript Execution | Tools for Web Developers",
+                                "link": "https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution"
+                            },
+                            {
+                                "name": "JavaScript Profiling With The Chrome Developer Tools",
+                                "link": "https://www.smashingmagazine.com/2012/06/javascript-profiling-chrome-developer-tools/"
+                            },
+                            {
+                                "name": "How to Record Heap Snapshots | Tools for Web Developers",
+                                "link": "https://developers.google.com/web/tools/chrome-devtools/memory-problems/heap-snapshots"
+                            },
+                            {
+                                "name": "Chapter 22 - Profiling the Frontend - Blackfire",
+                                "link": "https://blackfire.io/docs/book/22-frontend-profiling"
+                            },
+                            {
+                                "name": "30 Tips To Improve Javascript Performance",
+                                "link": "http://www.monitis.com/blog/30-tips-to-improve-javascript-performance/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Use Service Workers",
+                        "recommendation-type": "opinion",
+                        "description": "You are using Service Workers in your PWA to cache data or execute possible heavy tasks without impacting the user experience of your application.",
+                        "resources": [
+                            {
+                                "name": "Service Workers: an Introduction | Web Fundamentals | Google",
+                                "link": "https://developers.google.com/web/fundamentals/primers/service-workers/"
+                            },
+                            {
+                                "name": "Developers",
+                                "link": "https://developers.google.com/web/fundamentals/primers/service-workers/"
+                            },
+                            {
+                                "name": "Measuring the Real-world Performance Impact of Service Workers |",
+                                "link": "https://developers.google.com/web/showcase/2016/service-worker-perf"
+                            },
+                            {
+                                "name": "Web | Google Developers",
+                                "link": "https://developers.google.com/web/showcase/2016/service-worker-perf"
+                            },
+                            {
+                                "name": "What Are Service Workers and How They Help Improve Performance",
+                                "link": "https://www.keycdn.com/blog/service-workers/"
+                            },
+                            {
+                                "name": "How does a service worker work? - YouTube",
+                                "link": "https://www.youtube.com/watch?v=__xAtWgfzvc"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cookie Size",
+                        "recommendation-type": "opinion",
+                        "description": "If you are using cookies, be sure each cookie doesn’t exceed 4096 bytes and your domain name doesn’t have more than 20 cookies. Cookies are exchanged in the HTTP headers between web servers and browsers. It’s important to keep the size of cookies as low as possible to minimize the impact on the user’s response time.",
+                        "resources": [
+                            {
+                                "name": "Cookie specification: RFC 6265",
+                                "link": "https://tools.ietf.org/html/rfc6265"
+                            },
+                            {
+                                "name": "Cookies - Browser Cookie Limits",
+                                "link": "https://browser.engineering/cookies"
+                            },
+                            {
+                                "name": "Website Performance: Cookies Don’t Taste So Good - Monitis Blog",
+                                "link": "https://www.monitis.com/blog/website-performance-cookies-dont-taste-so-good/"
+                            },
+                            {
+                                "name": "Google’s Web Performance Best Practices #3: Minimize Request Overhead - GlobalDots Blog",
+                                "link": "https://www.globaldots.com/google-web-performance-best-practices-3-minimize-request-overhead/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Keep Cookie ",
+                        "recommendation-type": "opinion",
+                        "description": "If you are using cookies, be sure each cookie doesn’t exceed 4096 bytes and your domain name doesn’t have more than 20 cookies. Cookies are exchanged in the HTTP headers between web servers and browsers. It’s important to keep the size of cookies as low as possible to minimize the impact on the user’s response time.",
+                        "resources": [
+                            {
+                                "name": "Cookie specification: RFC 6265",
+                                "link": "https://tools.ietf.org/html/rfc6265"
+                            },
+                            {
+                                "name": "Cookies - Browser Cookie Limits",
+                                "link": "https://browser.engineering/cookies"
+                            },
+                            {
+                                "name": "Website Performance: Cookies Don’t Taste So Good - Monitis Blog",
+                                "link": "https://www.monitis.com/blog/website-performance-cookies-dont-taste-so-good/"
+                            },
+                            {
+                                "name": "Google’s Web Performance Best Practices #3: Minimize Request Overhead - GlobalDots Blog",
+                                "link": "https://www.globaldots.com/google-web-performance-best-practices-3-minimize-request-overhead/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Low Priority": {
+                "order": 3,
+                "options": [
+                    {
+                        "name": "Preload URLs",
+                        "recommendation-type": "opinion",
+                        "description": "Popular browsers can use directive on <link> tag and \"rel\" attribute with certain keywords to pre-load specific URLs. Prefetching allows a browser to silently fetch the necessary resources needed to display content that a user might access in the near future. The browser is able to store these resources in its cache and speed up the way web pages load when they are using different domains for page resources. When a web page has finished loading and the idle time has passed, the browser begins downloading other resources. When a user goes to a particular link (already prefetched), the content will be instantly served.",
+                        "resources": [
+                            {
+                                "name": "What Is Prefetching and Why Use It",
+                                "link": "https://www.keycdn.com/blog/prefetching"
+                            },
+                            {
+                                "name": "Prefetching, preloading, prebrowsing",
+                                "link": "https://css-tricks.com/prefetching-preloading-prebrowsing/"
+                            },
+                            {
+                                "name": "What is Preload, Prefetch, and Preconnect",
+                                "link": "https://www.keycdn.com/blog/resource-hints"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "CSS Concatenation",
+                        "recommendation-type": "opinion",
+                        "description": "CSS files are concatenated into a single file (Not always valid for HTTP/2). If you are still using HTTP/1, you may need to still concatenate your files, it’s less true if your server uses HTTP/2 (tests should be made). Use online tools or any plugin before or during your build or your deployment to concatenate your files. Ensure, of course, that concatenation does not break your project.",
+                        "resources": [
+                            {
+                                "name": "HTTP: Optimizing Application Delivery - High Performance Browser Networking (O’Reilly)",
+                                "link": "https://hpbn.co/http/"
+                            },
+                            {
+                                "name": "Performance Best Practices in the HTTP/2 Era",
+                                "link": "https://developers.google.com/web/fundamentals/performance/http2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Remove Unused CSS",
+                        "recommendation-type": "opinion",
+                        "description": "Removing unused CSS selectors can reduce the size of your files and then speed up the load of your assets. Always check if the framework CSS you want to use doesn’t already have a reset/normalize code included. Sometimes you may not need everything that is inside your reset/normalize file.",
+                        "resources": [
+                            {
+                                "name": "UnCSS Online",
+                                "link": "https://uncss-online.com/"
+                            },
+                            {
+                                "name": "PurifyCSS",
+                                "link": "https://purifycss.online/"
+                            },
+                            {
+                                "name": "PurgeCSS",
+                                "link": "https://purgecss.com/"
+                            },
+                            {
+                                "name": "Chrome DevTools Coverage",
+                                "link": "https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Use WOFF 2.0 Web Font",
+                        "recommendation-type": "opinion",
+                        "description": "According to Google, the WOFF 2.0 Web Font compression format offers a 30% average gain over WOFF 1.0. It’s then good to use WOFF 2.0, WOFF 1.0 as a fallback, and TTF. Check before buying your new font that the provider gives you the WOFF2 format. If you are using a free font, you can always use Font Squirrel to generate all the formats you need.",
+                        "resources": [
+                            {
+                                "name": "WOFF 2.0 – Learn more about the next generation Web Font Format and convert TTF to WOFF2",
+                                "link": "https://www.w3.org/TR/WOFF2/"
+                            },
+                            {
+                                "name": "Create Your Own @font-face Kits » Font Squirrel",
+                                "link": "https://www.fontsquirrel.com/tools/webfont-generator"
+                            },
+                            {
+                                "name": "IcoMoon App - Icon Font, SVG, PDF & PNG Generator",
+                                "link": "https://icomoon.io/app/"
+                            },
+                            {
+                                "name": "Using @font-face | CSS-Tricks",
+                                "link": "https://css-tricks.com/snippets/css/using-font-face/"
+                            },
+                            {
+                                "name": "Can I use… WOFF2",
+                                "link": "https://caniuse.com/woff2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Preconnect on Fonts",
+                        "recommendation-type": "opinion",
+                        "description": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin /> When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the resource (fonts, CSS files…). Prefetches and preconnects allow the browser to lookup the DNS information and start establishing a TCP connection to the server hosting the font file. This provides a performance boost because by the time the browser gets around to parsing the css file with the font information and discovering it needs to request a font file from the server, it will already have pre-resolved the DNS information and have an open connection to the server ready in its connection pool.",
+                        "resources": [
+                            {
+                                "name": "Faster Google Fonts with Preconnect - CDN Planet",
+                                "link": "https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/"
+                            },
+                            {
+                                "name": "Make Your Site Faster with Preconnect Hints | Viget",
+                                "link": "https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/"
+                            },
+                            {
+                                "name": "Ultimate Guide to Browser Hints: Preload, Prefetch, and Preconnect - MachMetrics Speed Blog",
+                                "link": "https://speed.machmetrics.com/blog/ultimate-guide-to-browser-hints-preload-prefetch-preconnect"
+                            },
+                            {
+                                "name": "A Comprehensive Guide to Font Loading Strategies—zachleat.com",
+                                "link": "https://www.zachleat.com/web/comprehensive-webfonts/"
+                            },
+                            {
+                                "name": "Web Font Loader - GitHub",
+                                "link": "https://github.com/typekit/webfontloader"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Keep Web Font Size Under 300kb",
+                        "recommendation-type": "opinion",
+                        "description": "Web fonts are a great way to add style to your website. However, they can also be a major performance bottleneck. The more fonts you use, the more time it takes for the browser to download and render the page. This can lead to a poor user experience and a high bounce rate.\nWebfont sizes shouldn’t exceed 300kb (all variants included) and are optimized for performance.",
+                        "resources": [
+                            {
+                                "name": "Font Bytes - Page Weight",
+                                "link": "https://httparchive.org/reports/page-weight#bytesFont"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Prevent Flash Text",
+                        "recommendation-type": "opinion",
+                        "description": "Avoid transparent text until the Webfont is loaded",
+                        "resources": [
+                            {
+                                "name": "font-display for the Masses",
+                                "link": "https://css-tricks.com/font-display-masses/"
+                            },
+                            {
+                                "name": "CSS font-display: The Future of Font Rendering on the Web",
+                                "link": "https://www.sitepoint.com/css-font-display-future-font-rendering-web/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Check Dependency Size",
+                        "recommendation-type": "opinion",
+                        "description": "Ensure to use wisely external libraries, most of the time, you can use a lighter library for a same functionality. You may be tempted to use one of the 745 000 packages you can find on npm, but you need to choose the best package for your needs. For example, MomentJS is an awesome library but with a lot of methods you may never use, that’s why Day.js was created. It’s just 2kB vs 16.4kB gz for Moment. Always compare and choose the best and lighter library for your needs. You can also use tools like npm trends to compare NPM package downloads counts or Bundlephobia to know the size of your dependencies.",
+                        "resources": [
+                            {
+                                "name": "ai/size-limit: Prevent JS libraries bloat",
+                                "link": "https://github.com/ai/size-limit"
+                            },
+                            {
+                                "name": "webpack-bundle-analyzer - npm",
+                                "link": "https://www.npmjs.com/package/webpack-bundle-analyzer"
+                            },
+                            {
+                                "name": "js-dependency-viewer - npm",
+                                "link": "https://www.npmjs.com/package/js-dependency-viewer"
+                            },
+                            {
+                                "name": "Size Limit: Make the Web lighter",
+                                "link": "https://size-limit.github.io/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Framework Guides",
+                        "recommendation-type": "opinion",
+                        "description": "These guides are intended to help you optimize your application for performance when using a specific framework.",
+                        "resources": [
+                            {
+                                "name": "Angular",
+                                "link": "https://angular.io/guide/deployment#reduce-size"
+                            },
+                            {
+                                "name": "Angular Performance Checklist",
+                                "link": "https://github.com/mgechev/angular-performance-checklist"
+                            },
+                            {
+                                "name": "React",
+                                "link": "https://reactjs.org/docs/optimizing-performance.html"
+                            },
+                            {
+                                "name": "React image manipulation | Cloudinary",
+                                "link": "https://cloudinary.com/documentation/react2_image_manipulation"
+                            },
+                            {
+                                "name": "Debugging React performance with React 16 and Chrome Devtools.",
+                                "link": "https://reactjs.org/docs/optimizing-performance.html#profiling-components-with-the-chrome-performance-tab"
+                            },
+                            {
+                                "name": "Build Performant - React",
+                                "link": "https://buildperf.com/"
+                            },
+                            {
+                                "name": "Vue",
+                                "link": "https://vuejs.org/"
+                            },
+                            {
+                                "name": "Vue - Useful Links|Style Guide and Performance",
+                                "link": "https://vuejs.org/v2/style-guide/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Recommended Guides",
+                        "recommendation-type": "opinion",
+                        "description": "Optimize the critical rendering path and other aspects of web performance with these guides.",
+                        "resources": [
+                            {
+                                "name": "Critical CSS? Not So Fast!",
+                                "link": "https://www.smashingmagazine.com/2019/01/understanding-critical-rendering-path/"
+                            },
+                            {
+                                "name": "Priority Hints - What Your Browser Doesn’t Know (Yet)",
+                                "link": "https://developers.google.com/web/updates/2016/03/priority-hints"
+                            },
+                            {
+                                "name": "Optimizing resource loading with Priority Hints",
+                                "link": "https://web.dev/priority-hints/"
+                            },
+                            {
+                                "name": "Chrome Resource Priorities and Scheduling",
+                                "link": "https://developers.google.com/web/updates/2018/02/using-resource-hints"
+                            },
+                            {
+                                "name": "How To Optimize CSS for Peak Site Performance",
+                                "link": "https://www.creativebloq.com/inspiration/the-secret-of-successful-css-61621235"
+                            },
+                            {
+                                "name": "Eliminate render blocking CSS to improve start render time",
+                                "link": "https://varvy.com/pagespeed/render-blocking.html"
+                            },
+                            {
+                                "name": "Small Bundles, Fast Pages: What To Do With Too Much JavaScript",
+                                "link": "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript"
+                            },
+                            {
+                                "name": "How to Eliminate Render-Blocking Resources: a Deep Dive",
+                                "link": "https://developers.google.com/web/updates/2018/02/using-resource-hints"
+                            },
+                            {
+                                "name": "The Critical Request: How to Prioritize Requests to Improve Speed",
+                                "link": "https://developers.google.com/web/fundamentals/performance/resource-prioritization"
+                            },
+                            {
+                                "name": "How to Improve CSS Performance",
+                                "link": "https://www.smashingmagazine.com/2018/11/css-performance-the-gain-without-the-pain/"
+                            },
+                            {
+                                "name": "The Simplest Way to Load CSS Asynchronously",
+                                "link": "https://developers.google.com/web/fundamentals/performance/load-css-fast"
+                            },
+                            {
+                                "name": "CSS audit",
+                                "link": "https://developers.google.com/web/tools/lighthouse/audits/no-unload-event-fired"
+                            },
+                            {
+                                "name": "Measuring the Critical Rendering Path",
+                                "link": "https://developers.google.com/web/fundamentals/performance/critical-rendering-path/"
+                            },
+                            {
+                                "name": "Inlining or Caching? Both Please!",
+                                "link": "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript"
+                            },
+                            {
+                                "name": "CSS and Network Performance",
+                                "link": "https://www.html5rocks.com/en/tutorials/speed/css-and-network/"
+                            },
+                            {
+                                "name": "Analyzing Critical Rendering Path Performance",
+                                "link": "https://developers.google.com/web/tools/lighthouse/audits/no-unload-event-fired"
+                            },
+                            {
+                                "name": "Front-End Performance Checklist",
+                                "link": "https://www.smashingmagazine.com/2015/01/optimizing-your-website-images/"
+                            },
+                            {
+                                "name": "The PRPL Pattern",
+                                "link": "https://developers.google.com/web/fundamentals/performance/prpl-pattern/"
+                            },
+                            {
+                                "name": "Now You See Me: How To Defer, Lazy-Load And Act With IntersectionObserver",
+                                "link": "https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/"
+                            },
+                            {
+                                "name": "Optimising the front end for the browser",
+                                "link": "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript"
+                            },
+                            {
+                                "name": "Prefer DEFER Over ASYNC",
+                                "link": "https://varvy.com/pagespeed/render-blocking.html"
+                            },
+                            {
+                                "name": "A comprehensive guide to font loading strategies",
+                                "link": "https://www.zachleat.com/web/comprehensive-webfonts/"
+                            },
+                            {
+                                "name": "Understanding the critical rendering path, rendering pages in 1 second",
+                                "link": "https://developers.google.com/web/fundamentals/performance/critical-rendering-path/"
+                            },
+                            {
+                                "name": "More Weight Doesn’t Mean More Wait",
+                                "link": "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript"
+                            },
+                            {
+                                "name": "JavaScript Rendering Performance"
+                            }
+                        ]
+                    }
+                    
+                ]
+            }
+        }
+    }
+}

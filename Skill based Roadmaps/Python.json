@@ -1,0 +1,896 @@
+{
+    "Skill": {
+        "Python": {
+            "learn the Basics": {
+                "description": "Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected.",
+                "resources": [
+                    {
+                        "name": "Official Website: Python",
+                        "link": "https://www.python.org/"
+                    },
+                    {
+                        "name": "Tutorial Series: How to Code in Python",
+                        "link": "https://docs.python.org/3/tutorial/"
+                    },
+                    {
+                        "name": "Python Wikipedia",
+                        "link": "https://en.wikipedia.org/wiki/Python_(programming_language)"
+                    },
+                    {
+                        "name": "Google's Python Class",
+                        "link": "https://developers.google.com/edu/python/"
+                    },
+                    {
+                        "name": "W3Schools - Python Tutorial",
+                        "link": "https://www.w3schools.com/python/"
+                    }
+                ],
+                "order": 1,
+                "options": [
+                    {
+                        "name": "Typecasting",
+                        "recommendation-type": "opinion",
+                        "description": "The process of converting the value of one data type (integer, string, float, etc.) to another data type is called type conversion. Python has two types of type conversion: Implicit and Explicit.",
+                        "resources": [
+                            {
+                                "name": "Type Conversion and Casting",
+                                "link": "https://realpython.com/lessons/type-conversion-and-casting/"
+                            },
+                            {
+                                "name": "Type Casting in Python with Examples",
+                                "link": "https://www.guru99.com/type-casting-p.html"
+                            },
+                            {
+                                "name": "Python Exceptions: An Introduction",
+                                "link": "https://realpython.com/python-exceptions/"
+                            },
+                            {
+                                "name": "Errors and Exceptions",
+                                "link": "https://docs.python.org/3/tutorial/errors.html"
+                            },
+                            {
+                                "name": "Python Exception Handling",
+                                "link": "https://docs.python.org/3/tutorial/errors.html"
+                            },
+                            {
+                                "name": "Python Try Except",
+                                "link": "https://realpython.com/python-exceptions/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Functions",
+                        "recommendation-type": "opinion",
+                        "description": "In programming, a function is a reusable block of code that executes a certain functionality when it is called. Functions are integral parts of every programming language because they help make your code more modular and reusable. In Python, you define a function with the def keyword, then write the function identifier (name) followed by parentheses and a colon.",
+                        "resources": [
+                            {
+                                "name": "Python Functions – How to Define and Call a Function",
+                                "link": "https://realpython.com/lessons/how-to-define-and-call-functions-in-python/"
+                            },
+                            {
+                                "name": "Python Functions - W3Schools",
+                                "link": "https://www.w3schools.com/python/python_functions.asp"
+                            },
+                            {
+                                "name": "Python Functions",
+                                "link": "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+                            },
+                            {
+                                "name": "Built-in Functions in Python",
+                                "link": "https://docs.python.org/3/library/functions.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lists, Tuples, Sets, and Dictionaries",
+                        "recommendation-type": "opinion",
+                        "description": "Lists: are just like dynamic sized arrays, declared in other languages (vector in C++ and ArrayList in Java). Lists need not be homogeneous always which makes it the most powerful tool in Python.\n\nTuple: A Tuple is a collection of Python objects separated by commas. In some ways, a tuple is similar to a list in terms of indexing, nested objects, and repetition but a tuple is immutable, unlike lists that are mutable.\n\nSet: A Set is an unordered collection data type that is iterable, mutable, and has no duplicate elements. Python’s set class represents the mathematical notion of a set.\n\nDictionary: In python, Dictionary is an ordered (since Py 3.7) [unordered (Py 3.6 & prior)] collection of data values, used to store data values like a map, which, unlike other Data Types that hold only a single value as an element, Dictionary holds key:value pair. Key-value is provided in the dictionary to make it more optimized.",
+                        "resources": [
+                            {
+                                "name": "Difference Between List, Tuple, Set and Dictionary in Python",
+                                "link": "https://www.geeksforgeeks.org/python-difference-between-list-set-tuple-and-dictionary/"
+                            },
+                            {
+                                "name": "Differences and Applications of List, Tuple, Set and Dictionary in Python",
+                                "link": "https://www.tutorialspoint.com/differences-and-applications-of-list-tuple-set-and-dictionary-in-python"
+                            },
+                            {
+                                "name": "Tuples vs. Lists vs. Sets in Python",
+                                "link": "https://realpython.com/tutorials/lists-tuples-set-and-dictionaries/"
+                            },
+                            {
+                                "name": "Python for Beginners: Lists",
+                                "link": "https://thepythonguru.com/python-lists/"
+                            },
+                            {
+                                "name": "Python for Beginners: When and How to Use Tuples",
+                                "link": "https://thepythonguru.com/python-tuples/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Basic Syntax",
+                        "recommendation-type": "opinion",
+                        "description": "Setup the environment for Python and get started with the basics.",
+                        "resources": [
+                            {
+                                "name": "W3Schools - Python",
+                                "link": "https://www.w3schools.com/python/"
+                            },
+                            {
+                                "name": "Python for Beginners - Learn Python in 1 Hour",
+                                "link": "https://thepythonguru.com/python-tutorial-for-beginners/"
+                            },
+                            {
+                                "name": "Python Basics",
+                                "link": "https://docs.python.org/3/tutorial/introduction.html"
+                            },
+                            {
+                                "name": "Learn X in Y Minutes / Python",
+                                "link": "https://learnxinyminutes.com/docs/python/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variables",
+                        "recommendation-type": "opinion",
+                        "description": "Variables are used to store information to be referenced and manipulated in a computer program. They also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves. It is helpful to think of variables as containers that hold information. Their sole purpose is to label and store data in memory. This data can then be used throughout your program.",
+                        "resources": [
+                            {
+                                "name": "Variables in Python",
+                                "link": "https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator"
+                            },
+                            {
+                                "name": "W3Schools — Python Variables",
+                                "link": "https://www.w3schools.com/python/python_variables.asp"
+                            },
+                            {
+                                "name": "Python Variables - Geeks for Geeks",
+                                "link": "https://www.geeksforgeeks.org/variables-python/"
+                            },
+                            {
+                                "name": "Python Data Types",
+                                "link": "https://docs.python.org/3/library/stdtypes.html"
+                            },
+                            {
+                                "name": "Basic Data Types in Python",
+                                "link": "https://realpython.com/python-data-types/"
+                            },
+                            {
+                                "name": "Python for Beginners: Data Types",
+                                "link": "https://thepythonguru.com/python-variables/"
+                            },
+                            {
+                                "name": "Python Variables - Python Tutorial for Beginners with Examples | Mosh",
+                                "link": "https://codewithmosh.com/courses/enrolled/274887"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Conditionals",
+                        "recommendation-type": "opinion",
+                        "description": "Conditional Statements in Python perform different actions depending on whether a specific condition evaluates to true or false. Conditional Statements are handled by IF-ELIF-ELSE statements and MATCH-CASE statements in Python.",
+                        "resources": [
+                            {
+                                "name": "Python Conditional Statements: IF…Else, ELIF & Switch Case",
+                                "link": "https://www.guru99.com/if-loop-python-conditional-structures.html"
+                            },
+                            {
+                                "name": "Conditional Statements in Python",
+                                "link": "https://realpython.com/python-conditional-statements/"
+                            },
+                            {
+                                "name": "How to use a match statement in Python",
+                                "link": "https://docs.python.org/3/whatsnew/3.10.html#pep-634-structural-pattern-matching"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Data Structures and Algorithms": {
+                "description": "A data structure is a named location that can be used to store and organize data. And, an algorithm is a collection of steps to solve a particular problem. Learning data structures and algorithms allow us to write efficient and optimized computer programs.",
+                "resources": [
+                    {
+                        "name": "Learn DS & Algorithms",
+                        "link": "https://www.geeksforgeeks.org/data-structures/"
+                    },
+                    {
+                        "name": "Data Structures Illustrated",
+                        "link": "https://visualgo.net/en"
+                    },
+                    {
+                        "name": "DSA Course by Google",
+                        "link": "https://developers.google.com/edu/python/"
+                    }
+                ],
+                "order": 2,
+                "options": [
+                    {
+                        "name": "Arrays and Linked Lists",
+                        "recommendation-type": "opinion",
+                        "description": "Arrays store elements in contiguous memory locations, resulting in easily calculable addresses for the elements stored and this allows faster access to an element at a specific index. Linked lists are less rigid in their storage structure and elements are usually not stored in contiguous locations, hence they need to be stored with additional tags giving a reference to the next element. This difference in the data storage scheme decides which data structure would be more suitable for a given situation.",
+                        "resources": [
+                            {
+                                "name": "Linked Lists vs Arrays",
+                                "link": "https://www.geeksforgeeks.org/linked-list-vs-array/"
+                            },
+                            {
+                                "name": "Python Array Tutorial",
+                                "link": "https://thepythonguru.com/python-arrays/"
+                            },
+                            {
+                                "name": "Python Arrays",
+                                "link": "https://www.w3schools.com/python/ref_array.asp"
+                            },
+                            {
+                                "name": "Arrays in Python",
+                                "link": "https://www.datacamp.com/community/tutorials/tutorial-python-arrays-datacamp-tutorials"
+                            },
+                            {
+                                "name": "Array Data Structure | Illustrated Data Structures",
+                                "link": "https://visualgo.net/en/list"
+                            },
+                            {
+                                "name": "Linked List Data Structure | Illustrated Data Structures",
+                                "link": "https://visualgo.net/en/list"
+                            },
+                            {
+                                "name": "Linked List Python",
+                                "link": "https://realpython.com/linked-lists-python/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Heaps Stacks and Queues",
+                        "recommendation-type": "opinion",
+                        "description": "Stacks: Operations are performed LIFO (last in, first out), which means that the last element added will be the first one removed. A stack can be implemented using an array or a linked list. If the stack runs out of memory, it’s called a stack overflow.\n\nQueue: Operations are performed FIFO (first in, first out), which means that the first element added will be the first one removed. A queue can be implemented using an array.\n\nHeap: A tree-based data structure in which the value of a parent node is ordered in a certain way with respect to the value of its child node(s). A heap can be either a min heap (the value of a parent node is less than or equal to the value of its children) or a max heap (the value of a parent node is greater than or equal to the value of its children).",
+                        "resources": [
+                            {
+                                "name": "Heaps, Stacks, Queues",
+                                "link": "https://www.cdn.geeksforgeeks.org/data-structures/"
+                            },
+                            {
+                                "name": "Stack Data Structure | Illustrated Data Structures",
+                                "link": "https://visualgo.net/en/list"
+                            },
+                            {
+                                "name": "Queue Data Structure | Illustrated Data Structures",
+                                "link": "https://visualgo.net/en/list"
+                            },
+                            {
+                                "name": "Stack in Python",
+                                "link": "https://realpython.com/how-to-implement-python-stack/"
+                            },
+                            {
+                                "name": "How to Implement Python Stack?",
+                                "link": "https://runestone.academy/runestone/books/published/pythonds/BasicDS/ImplementingaStackinPython.html"
+                            },
+                            {
+                                "name": "Queue in Python",
+                                "link": "https://realpython.com/how-to-implement-python-queue/"
+                            },
+                            {
+                                "name": "Python Stacks, Queues, and Priority Queues in Practice",
+                                "link": "https://www.geeksforgeeks.org/heap-queue-or-heapq-in-python/"
+                            },
+                            {
+                                "name": "Heap Implementation in Python",
+                                "link": "https://realpython.com/tutorials/data-structures/heap-queue/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hash Tables",
+                        "recommendation-type": "opinion",
+                        "description": "Hash Table, Map, HashMap, Dictionary, or Associative Array are all names for the same data structure. It is a data structure that implements a set abstract data type, a structure that can map keys to values.",
+                        "resources": [
+                            {
+                                "name": "Hash Table Data Structure | Illustrated Data Structures",
+                                "link": "https://visualgo.net/en/hashtable"
+                            },
+                            {
+                                "name": "Hash Tables and Hashmaps in Python",
+                                "link": "https://realpython.com/python-dicts/#how-dictionaries-work"
+                            },
+                            {
+                                "name": "Build a Hash Table in Python",
+                                "link": "https://realpython.com/tutorials/data-structures/hash-table/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Binary Search Trees",
+                        "recommendation-type": "opinion",
+                        "description": "A binary search tree, also called an ordered or sorted binary tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node’s left subtree and less than the ones in its right subtree.",
+                        "resources": [
+                            {
+                                "name": "Tree Data Structure | Illustrated Data Structures",
+                                "link": "https://visualgo.net/en/bst"
+                            },
+                            {
+                                "name": "How to Implement Binary Search Tree in Python",
+                                "link": "https://realpython.com/binary-search-tree-python/"
+                            },
+                            {
+                                "name": "Problem Set",
+                                "link": "https://realpython.com/tutorials/data-structures/problem-set-binary-search-trees/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Recursion",
+                        "recommendation-type": "opinion",
+                        "description": "Recursion is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem. Recursion solves such recursive problems by using functions that call themselves from within their own code.",
+                        "resources": [
+                            {
+                                "name": "Recursion in Python",
+                                "link": "https://realpython.com/python-recursion/"
+                            },
+                            {
+                                "name": "Recursion in Python: An Introduction",
+                                "link": "https://realpython.com/courses/python-recursion/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sorting Algorithms",
+                        "recommendation-type": "opinion",
+                        "description": "Sorting refers to arranging data in a particular format. Sorting algorithm specifies the way to arrange data in a particular order. Most common orders are in numerical or lexicographical order. The importance of sorting lies in the fact that data searching can be optimized to a very high level if data is stored in a sorted manner.",
+                        "resources": [
+                            {
+                                "name": "Sorting Algorithms in Python",
+                                "link": "https://realpython.com/sorting-algorithms-python/"
+                            },
+                            {
+                                "name": "Python - Sorting Algorithms",
+                                "link": "https://www.tutorialspoint.com/python_data_structure/python_sorting_algorithms.htm"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Advanced Topics": {
+                "description": "Now that you have covered the basics of Python, let’s move on to some advanced topics. In this section, you will be learning about things like OOP, Lambdas, Decorators, Iterators, Modules, and more.",
+                "resources": [],
+                "order": 3,
+                "options": [
+                    {
+                        "name": "Iterators",
+                        "recommendation-type": "opinion",
+                        "description": "An iterator is an object that contains a countable number of values. An iterator is an object that can be iterated upon, meaning that you can traverse through all the values. Technically, in Python, an iterator is an object which implements the iterator protocol, which consists of the methods iter() and next().",
+                        "resources": [
+                            {
+                                "name": "Iterators in Python",
+                                "link": "enlace_a_recurso_1"
+                            },
+                            {
+                                "name": "Python Iterators",
+                                "link": "enlace_a_recurso_2"
+                            },
+                            {
+                                "name": "Python Iterators",
+                                "link": "enlace_a_recurso_3"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Regular Expressions",
+                        "recommendation-type": "opinion",
+                        "description": "A regular expression is a sequence of characters that specifies a search pattern in text. Usually, such patterns are used by string-searching algorithms for “find” or “find and replace” operations on strings, or for input validation.",
+                        "resources": [
+                            {
+                                "name": "Regular Expressions in Python",
+                                "link": "https://docs.python.org/3/library/re.html"
+                            },
+                            {
+                                "name": "Python Regular Expressions",
+                                "link": "https://developers.google.com/edu/python/regular-expressions"
+                            },
+                            {
+                                "name": "Python - Regular Expressions",
+                                "link": "https://www.tutorialspoint.com/python/python_reg_expressions.htm"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Decorators",
+                        "recommendation-type": "opinion",
+                        "description": "A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. Decorators are usually called before the definition of a function you want to decorate.",
+                        "resources": [
+                            {
+                                "name": "Python Decorators",
+                                "link": "https://www.datacamp.com/tutorial/decorators-python"
+                            },
+                            {
+                                "name": "Decorators in Python",
+                                "link": "https://www.geeksforgeeks.org/decorators-in-python/"
+                            },
+                            {
+                                "name": "Decorators in Python",
+                                "link": "Decorators in Python"
+                            },
+                            {
+                                "name": "Python Decorators in 1 Minute",
+                                "link": "https://www.youtube.com/watch?v=BE-L7xu8pO4"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lambdas",
+                        "recommendation-type": "opinion",
+                        "description": "Python Lambda Functions are anonymous functions, which means that the function is without a name. As we already know that the def keyword is used to define a normal function in Python. Similarly, the lambda keyword is used to define an anonymous function in Python.",
+                        "resources": [
+                            {
+                                "name": "Lambdas in Python",
+                                "link": "https://www.w3schools.com/python/python_lambda.asp"
+                            },
+                            {
+                                "name": "How to use Lambda functions",
+                                "link": "How to use Lambda functions"
+                            },
+                            {
+                                "name": "Python Lambda Functions",
+                                "link": "https://www.youtube.com/watch?v=kr22jigjlok"
+                            }
+                        ]
+                    }
+                ],
+                "OOP": {
+                    "options": [
+                        {
+                            "name": "Classes",
+                            "recommendation-type": "opinion",
+                            "description": "A class is a user-defined blueprint or prototype from which objects are created. Classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made. Each class instance can have attributes attached to it for maintaining its state. Class instances can also have methods (defined by their class) for modifying their state.",
+                            "resources": [
+                                {
+                                    "name": "Classes in Python",
+                                    "link": "https://docs.python.org/3/tutorial/classes.html"
+                                },
+                                {
+                                    "name": "Python Classes and Objects",
+                                    "link": "https://www.geeksforgeeks.org/python-classes-and-objects/"
+                                },
+                                {
+                                    "name": "Python OOP Tutorial",
+                                    "link": "https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Inheritance",
+                            "recommendation-type": "opinion",
+                            "description": "Inheritance allows us to define a class that inherits all the methods and properties from another class.",
+                            "resources": [
+                                {
+                                    "name": "Python Inheritance",
+                                    "link": "https://www.w3schools.com/python/python_inheritance.asp"
+                                },
+                                {
+                                    "name": "Inheritance in Python",
+                                    "link": "https://www.javatpoint.com/inheritance-in-python"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Methods and Dunder",
+                            "recommendation-type": "opinion",
+                            "description": "A method in python is somewhat similar to a function, except it is associated with object/classes. Methods in python are very similar to functions except for two major differences.\nThe method is implicitly used for an object for which it is called.\nThe method is accessible to data that is contained within the class.\nDunder or magic methods in Python are the methods having two prefix and suffix underscores in the method name. Dunder here means “Double Under (Underscores)”. These are commonly used for operator overloading. Few examples for magic methods are: init, add, len, repr etc.",
+                            "resources": [
+                                {
+                                    "name": "Method vs Function in Python",
+                                    "link": "https://www.tutorialspoint.com/difference-between-method-and-function-in-python"
+                                },
+                                {
+                                    "name": "Dunder or magic methods in Python",
+                                    "link": "https://www.geeksforgeeks.org/dunder-magic-methods-python/"
+                                },
+                                {
+                                    "name": "Python - Magic or Dunder Methods",
+                                    "link": "https://www.tutorialsteacher.com/python/magic-methods-in-python"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Modules": {
+                    "options": [
+                        {
+                            "name": "Builtin Modules",
+                            "recommendation-type": "opinion",
+                            "description": "Python interpreter has a number of built-in functions. They are always available for use in every interpreter session. Many of them have been discussed in previously. For example print() and input() for I/O, number conversion functions (int(), float(), complex()), data type conversions (list(), tuple(), set()) etc.",
+                            "resources": [
+                                {
+                                    "name": "Python Modules",
+                                    "link": "https://www.digitalocean.com/community/tutorials/python-modules"
+                                },
+                                {
+                                    "name": "Python - Built-In Modules",
+                                    "link": "https://www.knowledgehut.com/tutorials/python-tutorial/python-built-in-modules"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Custom Modules",
+                            "recommendation-type": "opinion",
+                            "description": "Modules refer to a file containing Python statements and definitions. A file containing Python code, for example: example.py, is called a module, and its module name would be example. We use modules to break down large programs into small manageable and organized files. Furthermore, modules provide reusability of code.",
+                            "resources": [
+                                {
+                                    "name": "Python Modules",
+                                    "link": "https://docs.python.org/3/tutorial/modules.html"
+                                },
+                                {
+                                    "name": "Python Modules - Geeks for Geeks",
+                                    "link": "https://www.geeksforgeeks.org/python-modules/"
+                                },
+                                {
+                                    "name": "Modules in Python",
+                                    "link": "https://www.programiz.com/python-programming/modules"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Package Managers": {
+                    "options": [
+                        {
+                            "name": "PyPI",
+                            "recommendation-type": "opinion",
+                            "description": "PyPI, typically pronounced pie-pee-eye, is a repository containing several hundred thousand packages. These range from trivial Hello, World implementations to advanced deep learning libraries.",
+                            "resources": [
+                                {
+                                    "name": "PyPI Official Website",
+                                    "link": "https://pypi.org/"
+                                },
+                                {
+                                    "name": "Getting Started with Pip and PyPI in Python",
+                                    "link": "https://www.youtube.com/watch?v=bPSfNKvhooA"
+                                },
+                                {
+                                    "name": "How to Publish an Open-Source Python Package to PyPI",
+                                    "link": "https://realpython.com/pypi-publish-python-package/"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Pip",
+                            "recommendation-type": "opinion",
+                            "description": "Python's standard package manager for installing and managing non-standard library packages.",
+                            "resources": [
+                                {
+                                    "name": "Using Python's pip to Manage Your Project's Dependencies",
+                                    "link": "https://realpython.com/what-is-pip/t"
+                                },
+                                {
+                                    "name": "Python PIP Introduction",
+                                    "link": "https://www.w3schools.com/python/python_pip.asp"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Conda",
+                            "recommendation-type": "opinion",
+                            "description": "An open source package and environment management system for Windows, macOS, and Linux, useful for managing packages and creating environments.",
+                            "resources": [
+                                {
+                                    "name": "Conda Docs",
+                                    "link": "https://docs.conda.io/en/latest/"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "List Comprehensions",
+                            "recommendation-type": "opinion",
+                            "description": "List comprehensions are a concise way to create a list using a single line of code in Python. They are a powerful tool for creating and manipulating lists, and they can be used to simplify and shorten code.",
+                            "resources": [
+                                {
+                                    "name": "Python - List Comprehension",
+                                    "link": "https://www.w3schools.com/python/python_lists_comprehension.asp"
+                                },
+                                {
+                                    "name": "Python List Comprehensions",
+                                    "link": "https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Generator Compressions",
+                            "recommendation-type": "opinion",
+                            "description": "Generator comprehensions are a concise way to create a generator using a single line of code in Python. They are similar to list comprehensions, but instead of creating a list, they create a generator object that produces the values on-demand, as they are needed. Generator comprehensions are a useful tool for creating generators that generate a large sequence of values, as they allow you to create the generator without creating the entire sequence in memory at once. This can be more efficient and use less memory, especially for large sequences.",
+                            "resources": [
+                                {
+                                    "name": "Python Generator Expressions",
+                                    "link": "https://www.pythontutorial.net/advanced-python/python-generator-expressions/"
+                                },
+                                {
+                                    "name": "List Comprehensions in Python and Generator Expressions",
+                                    "link": "https://djangostars.com/blog/list-comprehensions-and-generator-expressions/"
+                                },
+                                {
+                                    "name": "Python | Generator Expressions",
+                                    "link": "https://www.geeksforgeeks.org/generator-expressions/"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Python Paradigms",
+                            "recommendation-type": "opinion",
+                            "description": "Python is a multi-paradigm programming language, which means that it supports several programming paradigms. Some of the main paradigms supported by Python are:\n\n- Imperative programming: This paradigm focuses on telling the computer what to do, step by step. Python supports imperative programming with features such as variables, loops, and control structures.\n- Object-oriented programming (OOP): This paradigm is based on the idea of objects and their interactions. Python supports OOP with features such as classes, inheritance, and polymorphism.\n- Functional programming: This paradigm is based on the idea of functions as first-class citizens, and it emphasizes the use of pure functions and immutable data. Python supports functional programming with features such as higher-order functions, lambda expressions, and generators.\n- Aspect-oriented programming: This paradigm is based on the idea of separating cross-cutting concerns from the main functionality of a program. Python does not have built-in support for aspect-oriented programming, but it can be achieved using libraries or language extensions. Python’s support for multiple paradigms makes it a versatile and flexible language, and it allows developers to choose the paradigm that best fits their needs.",
+                            "resources": [
+                                {
+                                    "name": "Programming Paradigms in Python",
+                                    "link": "https://www.geeksforgeeks.org/programming-paradigms-in-python/"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "Learn a Framework": {
+                "description": "Frameworks automate the common implementation of common solutions which gives the flexibility to the users to focus on the application logic instead of the basic routine processes. Frameworks make the life of web developers easier by giving them a structure for app development. They provide common patterns in a web application that are fast, reliable, and easily maintainable.",
+                "resources": [
+                    {
+                        "name": "Pyscript: A Browser-Based Python Framework for the 99%",
+                        "link": "https://pyscript.org/"
+                    }
+                ],
+                "order": 4,
+                "options": [
+                    {
+                        "name": "Synchronous Frameworks",
+                        "recommendation-type": "opinion",
+                        "description": "Synchronous frameworks in Python handle the flow of data in a synchronous manner. On a synchronous request, you make the request and stop executing your program until you get a response from the HTTP server. The interpreter is blocked until the request is completed. Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Sync vs. Async Python: What is the Difference?",
+                                "link": "https://blog.miguelgrinberg.com/post/sync-vs-async-python-what-is-the-difference"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Asynchronous",
+                        "recommendation-type": "opinion",
+                        "description": "Asynchronous programming is a type of parallel programming in which a unit of work is allowed to run separately from the primary application thread. When the work is complete, it notifies the main thread about completion or failure of the worker thread. This style is mostly concerned with the asynchronous execution of tasks. Python has several asynchronous frameworks that are used to implement asynchronous programming. Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Top 5 Asynchronous Web Frameworks for Python",
+                                "link": "insertar_enlace_a_la_fuente_aquí"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "FastAPI",
+                        "recommendation-type": "opinion",
+                        "description": "FastAPI is a Web framework for developing RESTful APIs in Python. FastAPI is based on Pydantic and type hints to validate, serialize, and deserialize data and automatically auto-generate OpenAPI documents.",
+                        "resources": [
+                            {
+                                "name": "Official Documentation",
+                                "link": "https://fastapi.tiangolo.com/"
+                            },
+                            {
+                                "name": "Create an API with Fast-API (Full 19 Hour Course)",
+                                "link": "https://www.youtube.com/watch?v=0sOvCWFmrtA"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Django",
+                        "recommendation-type": "opinion",
+                        "description": "Django is a free and open-source, Python-based web framework that follows the model–template–views architectural pattern. It is maintained by the Django Software Foundation, an independent organization established in the US as a 501 non-profit.",
+                        "resources": [
+                            {
+                                "name": "Django Official Website",
+                                "link": "https://www.djangoproject.com/"
+                            },
+                            {
+                                "name": "Official Getting Started Guide",
+                                "link": "Official Getting Started Guide"
+                            },
+                            {
+                                "name": "Python Django Tutorial for Beginners",
+                                "link": "Python Django Tutorial for Beginners"
+                            },
+                            {
+                                "name": "Is Django synchronous or asynchronous?",
+                                "link": "Is Django synchronous or asynchronous?"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Flask",
+                        "recommendation-type": "opinion",
+                        "description": "Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.",
+                        "resources": [
+                            {
+                                "name": "Flask - Official Website",
+                                "link": "https://flask.palletsprojects.com/"
+                            },
+                            {
+                                "name": "Flask - Official Tutorial",
+                                "link": "https://flask.palletsprojects.com/en/2.2.x/tutorial/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pyramid",
+                        "recommendation-type": "opinion",
+                        "description": "Pyramid is a general, open source, web application development framework built in python. It allows python developer to create web applications with ease. Pyramid is backed by the enterprise knowledge Management System KARL (a George Soros project).",
+                        "resources": [
+                            {
+                                "name": "Pyramid - Official Website",
+                                "link": "https://trypyramid.com/"
+                            },
+                            {
+                                "name": "Pyramid Documentation",
+                                "link": "https://trypyramid.com/documentation.html"
+                            },
+                            {
+                                "name": "Pyramid Framework Introduction",
+                                "link": "https://www.tutorialspoint.com/python_web_development_libraries/python_web_development_libraries_pyramid_framework.htm"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "gevent",
+                        "recommendation-type": "opinion",
+                        "description": "gevent is a Python library that provides a high-level interface to the event loop. It is based on non-blocking IO (libevent/libev) and lightweight greenlets. Non-blocking IO means requests waiting for network IO won't block other requests; greenlets mean we can continue to write code in synchronous style.",
+                        "resources": [
+                            {
+                                "name": "gevent — Official Website",
+                                "link": "http://www.gevent.org/"
+                            },
+                            {
+                                "name": "GitHub Repository",
+                                "link": "https://github.com/gevent/gevent"
+                            },
+                            {
+                                "name": "gevent For the Working Python Developer",
+                                "link": "https://sdiehl.github.io/gevent-tutorial/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "AIOHTTP",
+                        "recommendation-type": "opinion",
+                        "description": "aiohttp is a Python 3.5+ library that provides a simple and powerful asynchronous HTTP client and server implementation.",
+                        "resources": [
+                            {
+                                "name": "Official Docs",
+                                "link": "https://docs.aiohttp.org/en/stable/"
+                            },
+                            {
+                                "name": "Python Asyncio, Requests, Aiohttp | Make faster API Calls",
+                                "link": "https://www.youtube.com/watch?v=nFn4_nA_yk8"
+                            },
+                            {
+                                "name": "Creating a RESTful API with Python and aiohttp",
+                                "link": "https://tutorialedge.net/python/create-rest-api-python-aiohttp/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tornado",
+                        "recommendation-type": "opinion",
+                        "description": "Tornado is a scalable, non-blocking web server and web application framework written in Python. It was developed for use by FriendFeed; the company was acquired by Facebook in 2009 and Tornado was open-sourced soon after.",
+                        "resources": [
+                            {
+                                "name": "Tornado — Official Website",
+                                "link": "https://www.tornadoweb.org/"
+                            },
+                            {
+                                "name": "A Step-by-Step Tutorial on Python Tornado",
+                                "link": "https://phrase.com/blog/posts/tornado-web-framework-i18n/"
+                            },
+                            {
+                                "name": "Tornado Python Framework",
+                                "link": "https://www.youtube.com/watch?v=-gJ21qzpieA"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sanic",
+                        "recommendation-type": "opinion",
+                        "description": "Sanic is a Python 3.7+ web server and web framework that's written to go fast. It allows the usage of the async/await syntax added in Python 3.5, which makes your code non-blocking and speedy.",
+                        "resources": [
+                            {
+                                "name": "Sanic Official Website",
+                                "link": "https://sanic.dev/en/"
+                            },
+                            {
+                                "name": "Introduction to Sanic Web Framework - Python",
+                                "link": "https://www.geeksforgeeks.org/introduction-to-sanic-web-framework-python/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Testing your Apps": {
+                "description": "A key to building software that meets requirements without defects is testing. Software testing helps developers know they are building the right software. When tests are run as part of the development process (often with continuous integration tools), they build confidence and prevent regressions in the code.",
+                "resources": [
+                    {
+                        "name": "What is Software Testing?",
+                        "link": "https://www.guru99.com/software-testing.html"
+                    },
+                    {
+                        "name": "Testing Pyramid",
+                        "link": "https://martinfowler.com/articles/practical-test-pyramid.html"
+                    },
+                    {
+                        "name": "Automate Quality, Security Checks for Python Library Dependencies",
+                        "link": "https://realpython.com/automate-quality-security-checks-python-library-dependencies/"
+                    }
+                ],
+                "order": 5,
+                "options": [
+                    {
+                        "name": "Doctest",
+                        "recommendation-type": "opinion",
+                        "description": "Python’s standard library comes equipped with a test framework module called doctest. The doctest module programmatically searches Python code for pieces of text within comments that look like interactive Python sessions. Then, the module executes those sessions to confirm that the code referenced by a doctest runs as expected.",
+                        "resources": [
+                            {
+                                "name": "Doctest module reference",
+                                "link": "https://docs.python.org/3/library/doctest.html"
+                            },
+                            {
+                                "name": "How To Write Doctests in Python",
+                                "link": "https://realpython.com/tutorials/best-practices/writing-doctests/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Nose",
+                        "recommendation-type": "opinion",
+                        "description": "Nose is another opensource testing framework that extends unittest to provide a more flexible testing framework.",
+                        "resources": [
+                            {
+                                "name": "Introduction to Nose",
+                                "link": "https://nose.readthedocs.io/en/latest/"
+                            },
+                            {
+                                "name": "Getting Started With Nose In Python",
+                                "link": "https://realpython.com/tutorials/best-practices/writing-doctests/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "pytest",
+                        "recommendation-type": "opinion",
+                        "description": "pytest is a mature full-featured Python testing tool that helps you write better programs.",
+                        "resources": [
+                            {
+                                "name": "Official Docs",
+                                "link": "https://docs.pytest.org/en/latest/"
+                            },
+                            {
+                                "name": "Pytest Tutorial",
+                                "link": "https://realpython.com/tutorials/testing/pytest-testing/"
+                            },
+                            {
+                                "name": "Effective Python Testing With Pytest",
+                                "link": "https://automationpanda.com/2017/03/03/effective-python-testing-with-pytest/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "PyUnit / Unittest",
+                        "recommendation-type": "opinion",
+                        "description": "PyUnit is an easy way to create unit testing programs and UnitTests with Python. (Note that docs.python.org uses the name “unittest”, which is also the module name.)",
+                        "resources": [
+                            {
+                                "name": "How To Use unittest to Write a Test Case for a Function in Python",
+                                "link": "https://docs.python.org/3/library/unittest.html"
+                            },
+                            {
+                                "name": "PyUnit Docs",
+                                "link": "https://docs.python.org/3/library/unittest.html"
+                            },
+                            {
+                                "name": "A Gentle Introduction to Unit Testing in Python",
+                                "link": "https://realpython.com/python-testing/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

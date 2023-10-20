@@ -2,2321 +2,721 @@
     "roles": {
         "React Native": {
             "Introduction": {
+                "description": "React Native is an open-source framework developed by Facebook that allows developers to build mobile applications using JavaScript and React. It enables building apps for both iOS and Android platforms by offering a shared codebase, which significantly reduces development time and effort.",
+                "resources": [
+                    {
+                        "title": "Official Website",
+                        "url": "https://reactnative.dev/"
+                    },
+                    {
+                        "title": "Official Getting Started to React Native",
+                        "url": "https://reactnative.dev/docs/getting-started"
+                    },
+                    {
+                        "title": "Build a React Native App by Mosh",
+                        "url": "https://codewithmosh.com/p/the-complete-react-native-and-redux-course"
+                    },
+                    {
+                        "title": "Learn React Native by CodeAcademy",
+                        "url": "https://www.codecademy.com/learn/learn-react-3"
+                    }
+                ],
                 "order": 1,
                 "options": [
                     {
-                        "name": "Learn the basics",
+                        "name": "React Native",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "React Native is a popular open-source framework developed by Facebook for building mobile applications using JavaScript and React. It enables developers to build native mobile apps for iOS and Android platforms using a single codebase, which significantly speeds up development without compromising on the performance and usability of the apps.\n\nWith React Native, you write components with JSX, a syntax that combines JavaScript and XML. These components can map to native UI elements like views, text, images, and more.\n\nFor more in-depth information about React Native, I recommend visiting the official documentation.",
                         "resources": [
                             {
-                                "name": "W3Schools: Learn HTML",
-                                "link": "https://www.w3schools.com/html/html_intro.asp"
-                            },
-                            {
-                                "name": "MDN Docs: Getting Started with HTML",
-                                "link": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started"
-                            },
-                            {
-                                "name": "web.dev: Learn HTML",
-                                "link": "https://web.dev/learn/html"
-                            },
-                            {
-                                "name": "HTML Full Course - Build a Website Tutorial",
-                                "link": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
-                            },
-                            {
-                                "name": "HTML Tutorial for Beginners: HTML Crash Course",
-                                "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
-                            },
-                            {
-                                "name": "HTML Cheatsheet",
-                                "link": "https://htmlcheatsheet.com/"
-                            },
-                            {
-                                "name": "Scaler: HTML",
-                                "link": "https://www.scaler.com/topics/html"
+                                "title": "Official React Native Documentation",
+                                "url": "https://reactnative.dev/docs/getting-started"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Why React Native?",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "React Native is a widely popular framework for building native mobile applications using JavaScript and React. There are plenty of reasons why you would want to choose React Native for your next mobile app development project:\n\n- Code Reusability: React Native allows you to share a significant amount of your codebase between iOS and Android platforms. This not only reduces the development time but also makes it easier to maintain the app.\n- Familiar React Concepts: If you’re already familiar with ReactJS, React Native will feel right at home for you. Since it’s based on React, the same principles of components and state management apply in React Native too.\n- Native Performance: React Native apps deliver near-native performance as the framework works directly with native components like Views and Text, thus eliminating the need for WebView or other similar intermediaries.\n- Vast Ecosystem: React Native enjoys a huge community and vast ecosystem that includes a wide range of libraries and tools that simplify and accelerate the development process. Additionally, Facebook and other major companies actively contribute to the growth and improvement of React Native.\n- Hot Reloading: React Native supports hot-reloading, which means you can see the changes you make in your code directly on the device/emulator without having to recompile or rebuild the app entirely. This makes for a faster and more efficient development process.",
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "React Native Alternatives",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "React Native is a popular choice for cross-platform application development, but there are other options available. Some of the common alternatives to React Native are Flutter, Ionic, and Xamarin. Flutter being the most popular alternative to React Native.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "title": "Flutter Official Website",
+                                "url": "https://flutter.dev/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "title": "Ionic Official Website",
+                                "url": "https://ionicframework.com/"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "title": "Xamarin Official Website",
+                                "url": "https://dotnet.microsoft.com/apps/xamarin"
                             }
                         ]
                     }
-
                 ]
             },
             "Learn the Pre-requisites": {
+                "description": "Before you start learning React Native, you should have a basic knowledge of JavaScript and React. You don’t need to fully master these topics, but you should be familiar with them. Learn the basics of JavaScript (e.g. topics marked for beginners in JavaScript Roadmap and continue with React Native. I have heard good things about the official React Native documentation, so you can start there and pick up the relevant topics wherever needed.",
+                "resources": [
+                    {
+                        "title": "JavaScript Roadmap for Beginners",
+                        "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"
+                    },
+                    {
+                        "title": "Official React Native Documentation",
+                        "url": "https://reactnative.dev/docs/getting-started"
+                    }
+                ],
                 "order": 2,
                 "options": [
                     {
-                        "name": "",
+                        "name": "CSS Basics",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "CSS is a stylesheet language used for describing the look and formatting of a document written in HTML or XML. It is primarily used for styling web pages and user interfaces written in HTML and XHTML. React Native uses CSS to style its components. You can learn some CSS basics to get started with React Native and learn more as you go.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "title": "W3Schools CSS Tutorial",
+                                "url": "https://www.w3schools.com/css/"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "JavaScript Basics",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "There’s a lot more to learn in JavaScript but my recommendation is to learn the basics and then learn as you go. You’ll learn a lot more by building things than by reading about them.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "title": "Learn Beginner Topics in JavaScript Roadmap",
+                                "url": "https://roadmap.sh/javascript"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "React Basics",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "React Native uses React, a JavaScript library for building user interfaces. You should have a basic understanding of React concepts before proceeding with React Native. Some of the concepts you should be familiar with include:\n\nComponents and Props\nComponent State\nWriting Markup with JSX\nJavaScript in JSX with Curly Braces\nOnce you have a basic understanding of React, start with React Native.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "title": "Components and Props",
+                                "url": "https://react.dev/learn/your-first-component"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "title": "Component State",
+                                "url": "https://react.dev/learn/managing-state"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "title": "Writing Markup with JSX",
+                                "url": "https://react.dev/learn/your-first-component"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "title": "JavaScript in JSX with Curly Braces",
+                                "url": "https://react.dev/learn/javascript-in-jsx-with-curly-braces"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "title": "React Native Basics",
+                                "url": "https://reactnative.dev/docs/getting-started"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Components",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "React components are the building blocks of the user interface (UI) in a React application. They are used to break down the UI into reusable, isolated, and manageable pieces. Components handle rendering the UI and managing the logic and behavior.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "title": "Components and Props",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "State",
+                        "recommendation-type": "opinion",
+                        "description": "State is an object that holds data managed within a React component. It allows components to become dynamic and interactive by keeping track of its data changes. When the state of a component changes, React re-renders the component and updates the DOM accordingly. In a functional component, utilize the useState hook to initialize state:\n\n```javascript\nimport React, { useState } from 'react';\n\nfunction App() {\n  const [text, setText] = useState('Hello, World!');\n  //...\n}\n```\n\n**Accessing State**\n\nIn functional components, access the state by utilizing the first variable from the useState hook:\n\n```javascript\nfunction App() {\n  const [text, setText] = useState('Hello, World!');\n  return <div>{text}</div>;\n}\n```\n\n**Updating State**\n\nUtilize the second variable returned from the useState hook (which is a function) to update the state:\n\n```javascript\nfunction App() {\n  const [text, setText] = useState('Hello, World!');\n\n  function handleClick() {\n    setText('State updated!');\n  }\n\n  return (\n    <div>\n      <div>{text}</div>\n      <button onClick={handleClick}>Update State</button>\n    </div>\n  );\n}\n```\n\nRemember: do not modify the state directly; always use the setState() method or updater function provided by the useState hook.",
+                        "resources": [
+                            {
+                                "title": "Component State",
+                                "url": "https://react.dev/learn/managing-state"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Props",
+                        "recommendation-type": "opinion",
+                        "description": "In React, props are short for properties and are used to pass data from a parent component to a child component. They are similar to function arguments, and they help make components reusable and maintainable.",
+                        "resources": [
+                            {
+                                "title": "Components and Props",
+                                "url": "https://react.dev/learn/your-first-component"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "JSX",
+                        "recommendation-type": "opinion",
+                        "description": "JSX is a syntax extension for JavaScript that allows you to write HTML-like code within your JavaScript code. It was developed to be used with React and has become an integral part of working with React.\n\nBasic Syntax\nJSX looks similar to HTML, and you can mix it with JavaScript expressions within curly braces {}.\n\nHere’s an example with a simple JSX element:\n\nconst element = <h1>Hello, world!</h1>;\nJavaScript Expressions in JSX\nYou can embed JavaScript expressions within JSX by wrapping them in curly braces {}.\n\nHere’s an example:\n\nconst name = 'John Doe';\nconst element = <h1>Hello, {name}!</h1>;\nAttributes in JSX\nYou can use JSX to define attributes for your elements, similar to how you would in HTML. However, some attribute names in JSX are slightly different from their HTML counterparts due to conflicts with reserved JavaScript keywords (for example, className instead of class).\n\nHere’s an example:\n\nconst className = 'my-class';\nconst element = <h1 className={className}>Hello, world!</h1>;\nChildren in JSX\nYou can nest JSX elements by enclosing them within the opening and closing tags of a parent element.\n\nHere’s an example:\n\nconst element = (\n  <div>\n    <h1>Hello, world!</h1>\n    <p>This is an example of nested JSX elements.</p>\n  </div>\n);\nJSX Represents Objects\nUnder the hood, JSX represents JavaScript objects called “React elements”. When you use JSX, your JavaScript code gets automatically transformed into these React elements.\n\nHere’s an example of a JSX element and its corresponding JavaScript object:\n\nconst elementJSX = (\n  <h1 className=greeting> \n\n   Hello, world!\n  </h1>\n);\n\nconst elementJSObject = React.createElement(\n  'h1',\n  {className: 'greeting'},\n  'Hello, world!'\n);\nBoth elementJSX and elementJSObject represent the same thing and will produce the same result when rendered.\n\nThat’s a brief summary of JSX. You’ll find that it becomes an essential part of working with React as you continue learning about React Native.",
+                        "resources": [
+                            {
+                                "title": "Writing Markup with JSX",
+                                "url": "https://react.dev/learn/writing-markup-with-jsx"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "title": "JavaScript in JSX with Curly Braces",
+                                "url": "https://react.dev/learn/javascript-in-jsx-with-curly-braces"
                             }
                         ]
                     }
                 ]
             },
             "Environment Setup": {
+                "description": "In React Native, setting up the development environment is a crucial step. The environment setup process includes installing and configuring various tools and packages required for developing, building, and launching a React Native application. There are two main approaches when setting up your React Native development environment:\n\nExpo CLI: Expo CLI is a command-line tool built for creating and managing React Native projects easily. It streamlines your development process by providing an entire development environment, including building and deploying your app to both iOS and Android platforms. Visit the Expo CLI Quickstart page for detailed instructions on how to set up your environment.\n\nReact Native CLI: React Native CLI is the official command-line interface for building native mobile apps using React Native. This method requires you to manually set up the native development environment and tools needed for iOS and Android app development. Visit the React Native CLI Quickstart page for detailed instructions on how to set up your environment.",
+                "resources": [],
                 "order": 3,
                 "options": [
                     {
-                        "name": "",
+                        "name": "React Native CLI",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "React Native CLI is the official command-line interface for building native mobile apps using React Native. This method requires you to manually set up the native development environment and tools needed for iOS and Android app development.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native CLI Quickstart",
+                                "url": "https://reactnative.dev/docs/environment-setup"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Metro Bundler",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Metro Bundler is the default bundler for React Native applications. It’s a JavaScript module bundler that takes all your application code and dependencies, and bundles them together into a single JavaScript file or multiple files (based on platform).",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Metro Bundler Website",
+                                "url": "https://facebook.github.io/metro/"
                             }
                         ]
                     }
-                ]
+                ],
+                "Expo": {
+                    "description": "Expo is a framework and a platform that allows you to develop, build, and deploy React Native applications easily and quickly. It simplifies the development process and provides a set of useful tools and services, including its own CLI (Command Line Interface), a managed workflow, and an SDK (Software Development Kit) with pre-built modules for common features.",
+                    "resources": [
+                        {
+                            "name": "Expo CLI Quickstart",
+                            "url": "https://docs.expo.dev/get-started/installation/"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "name": "Create Expo App",
+                            "recommendation-type": "opinion",
+                            "description": "create-expo-app is a command line tool that generates a React Native project that works out of the box with Expo. It is the easiest way to get started building a new React Native application.",
+                            "resources": [
+                                {
+                                    "name": "Official Expo Documentation",
+                                    "url": "https://docs.expo.dev/get-started/create-a-new-app/"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Expo Snack",
+                            "recommendation-type": "opinion",
+                            "description": "Expo Snack is an online playground and development environment for creating and testing React Native projects. With Snack, you can easily edit and preview your code changes directly in your browser or on a mobile device using the Expo Go app. It offers a fast, easy, and convenient way to develop, test, and share your projects without needing to set up a local development environment.",
+                            "resources": [
+                                {
+                                    "name": "Expo Snack Website",
+                                    "url": "https://snack.expo.dev/"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Expo Tradeoffs",
+                            "recommendation-type": "opinion",
+                            "description": "Expo is a powerful tool that simplifies the React Native development process, but it has some limitations. Here’s a summary of the tradeoffs you may face when using Expo.",
+                            "resources": []
+                        }
+                    ]
+                }
             },
             "Development Workflow": {
+                "description": "React Native has a decent guide on how to get started with development workflow. Visit the Workflow section of the official documentation to learn about different topics.",
+                "resources": [],
                 "order": 4,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Running on Device",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "It’s always a good idea to test your app on an actual device before releasing it to your users. This document will guide you through the necessary steps to run your React Native app on a device and to get it ready for production.",
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "Debugging",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "Debugging is an essential aspect of the development workflow in React Native. Learn all about debugging in React Native in the Debugging section of the React Native documentation.",
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "In-App Developer Menu",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "React Native provides an in-app developer menu which offers several debugging options. You can access the Dev Menu by shaking your device or via keyboard shortcuts:\n\nAndroid: Cmd + M or Ctrl + M\niOS: Cmd + D or Ctrl + D\nVisit the React Native docs for more information",
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "Enabling Fast Refresh",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "Fast Refresh is a React Native feature that allows you to get near-instant feedback while making changes in your code. It achieves this by reloading only the portion of the app that was changed, without losing the current state. This makes the development process a lot smoother as you don’t have to wait for the entire app to rebuild after making a change.\n\nLearn more about Fast Refresh and how to enable it in the React Native documentation.",
+                        "resources": []
+                    },
+                    {
+                        "name": "LogBox",
+                        "recommendation-type": "opinion",
+                        "description": "LogBox is a new feature added to React Native to improve how logs are displayed and managed in your development environment. It provides better visualization and organization of logs, warnings, and errors, making it easier for developers to address issues in their code.\n\n- Better Error Formatting: Errors are displayed in a more understandable format with clear syntax highlighting and relevant information regarding the error and the specific code that caused it.\n- Improved Warnings: Warnings now come with filtering and sorting options, allowing you to control which warnings you want to prioritize or ignore during development.\n- Component Stacks: Instead of displaying the raw call stack, LogBox provides a component stack that shows component hierarchy, allowing you to pinpoint the exact component causing the issue.\n- Customizable: You can disable LogBox, customize its behavior, or even extend it with your own code to tailor your debugging experience.\n\nRead more about LogBox in the official documentation.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Sourcemaps",
+                        "recommendation-type": "opinion",
+                        "description": "Sourcemaps are files that map the original source code of a project to its minified or transpiled version. This is especially useful in environments, like React Native, where the code may be transformed before being executed in the device/emulator. Sourcemaps help developers to debug their code more easily by mapping errors in the transformed code back to their original location in the source code.\n\nThere are various types of sourcemaps which give different levels of detail to the debugging process:\n\n- eval: Uses eval function to generate the sourcemaps. This is faster but provides less detailed information than other options.\n- cheap-source-map: Simple line-to-line mapping without column information. Faster than source-map but less accurate.\n- cheap-module-source-map: Similar to cheap-source-map but with support for modules.\n- source-map: Full source mapping with both line and column information. It is accurate, though slower compared to other options.\n\nAfter generating sourcemaps, you can use them to debug errors more efficiently, as they will reference the original locations in the source code. The browser’s developer tools, like Google Chrome, have built-in support for sourcemaps, providing the ability to navigate and debug errors with ease.",
+                        "resources": []
+                    },
+                    {
+                        "name": "React Native - DevTools",
+                        "recommendation-type": "opinion",
+                        "description": "You can use the standalone version of React Developer Tools to debug the React component hierarchy. Visit the React Native Documentation for more information.",
+                        "resources": []
                     }
                 ]
             },
             "Core Components": {
+                "description": "Core components are the essential building blocks provided by React Native to create a user interface for mobile applications. They are platform-agnostic, meaning they work across both iOS and Android devices. Some of the common core components include:",
+                "resources": [],
                 "order": 5,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Text Component",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "The Text component is a basic element in React Native used to display text content on the screen. It provides basic styling properties and can be nested within other components to create more complex UIs.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native Documentation",
+                                "url": "https://reactnative.dev/docs/text"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Text Input",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "TextInput is a core component in React Native used for collecting user data like emails or passwords. It can be customized with various props for styling and functionality. Here's a basic example of how to use it, and for more advanced use cases, you can explore the official documentation.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native Documentation",
+                                "url": "https://reactnative.dev/docs/textinput"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Button",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "A Button is a built-in React Native component used to create clickable buttons. It's a simple, customizable, and easy-to-use component that captures touches and triggers an onPress event when pressed. Here's a simple example of how to create a Button in React Native, and when pressed, it shows an alert. Customize it to suit your application's needs.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native Documentation",
+                                "url": "https://reactnative.dev/docs/button"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Image",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "The Image component is used to display images in a React Native application. It allows you to load and display local as well as remote images, providing essential props and methods for better image handling and customization. Learn how to use the Image component to display images, whether they're local or remote, set dimensions, apply image scaling and positioning, and use additional props for further customization.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native Documentation - Image",
+                                "url": "https://reactnative.dev/docs/image"
                             }
                         ]
+                    },
+                    {
+                        "name": "ImageBackground",
+                        "recommendation-type": "opinion",
+                        "description": "ImageBackground is a React Native core component that allows you to display an image as a background while still being able to place content inside the component. This helps in creating beautiful layouts with images and text or other content on top. Learn how to use ImageBackground to create visually appealing backgrounds with overlaid content.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Switch",
+                        "recommendation-type": "opinion",
+                        "description": "A Switch is a core component in React Native used to implement a “toggle” or “on-off” input. It provides a UI for the user to switch between two different states, typically true or false. Learn how to use the Switch component to create toggle switches for enabling or disabling features and settings in your React Native application.",
+                        "resources": []
+                    },
+                    {
+                        "name": "StatusBar",
+                        "recommendation-type": "opinion",
+                        "description": "The StatusBar component is used to control the appearance of the status bar on the top of the screen. Learn how to customize the look of status bars on Android, iOS, and other platforms in your React Native application using the StatusBar component.",
+                        "resources": []
+                    },
+                    {
+                        "name": "ActivityIndicator",
+                        "recommendation-type": "opinion",
+                        "description": "The ActivityIndicator is a core component in React Native that provides a simple visual indication of ongoing activity or loading state within your application. Learn how to use the ActivityIndicator to give users feedback on background tasks and customize its appearance and behavior in your React Native app.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Modal",
+                        "recommendation-type": "opinion",
+                        "description": "A Modal is a component that displays content on top of the current view, creating an overlay that can be used for various purposes, such as displaying additional information, confirmation messages, or a selection menu. Learn how to use the Modal component in your React Native app and explore its properties to control appearance and behavior.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Pressable",
+                        "recommendation-type": "opinion",
+                        "description": "Pressable is a core component in React Native that makes any view respond properly to touch or press events. It provides a wide range of event handlers for managing user interactions, such as onPress, onPressIn, onPressOut, and onLongPress. With Pressable, you can create custom buttons, cards, or any touchable elements within your app. Learn how to use Pressable and customize its appearance and behavior based on user interactions.",
+                        "resources": []
+                    },
+                    {
+                        "name": "SafeAreaView",
+                        "recommendation-type": "opinion",
+                        "description": "SafeAreaView is a React Native core component that helps to adjust your app’s UI elements and layout to accommodate the notches, curved edges, or home indicator on iOS devices. It is particularly useful for the iPhone X and newer iPhone models, as it ensures that content is rendered within the visible portion of the screen.",
+                        "resources": []
+                    },
+                    {
+                        "name": "KeyboardAvoidingView",
+                        "recommendation-type": "opinion",
+                        "description": "KeyboardAvoidingView is a built-in React Native component that automatically adjusts its children components’ position when the keyboard opens, preventing them from being obscured by the on-screen keyboard. It’s a useful component, particularly for forms and input fields where the user needs to see the text they’re typing.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Listings",
+                        "recommendation-type": "opinion",
+                        "description": "When working with listings in React Native, the commonly used components include:\n\nFlatList - It is a high-performance, scrollable list component that renders a large number of items efficiently.\n\nSectionList - Similar to FlatList, but it is used when you want to display data in separate sections with section headers.\n\nVirtualizedList - A lower-level component for rendering large lists and for more fine-grained control over list rendering performance.\n\nThese components are essential when dealing with dynamic data and displaying large lists in React Native applications.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Scroll View",
+                        "recommendation-type": "opinion",
+                        "description": "In React Native, the ScrollView is a generic scrolling container used to provide a scrollable view to its child components. It is useful when you need to display scrollable content larger than the screen, such as lists, images, or text. A ScrollView must have a bounded height in order to properly work.\n\nKeep in mind that ScrollView is not optimized for long lists of items, and you should use the FlatList or SectionList components for better performance in those cases. However, it’s still useful for smaller content where you need a scrollable area, such as forms or when the content size is unknown.",
+                        "resources": []
+                    },
+                    {
+                        "name": "List Views in React Native",
+                        "recommendation-type": "opinion",
+                        "description": "List views are an essential component in mobile applications when you need to display a list of items in an organized and efficient way. In React Native, there are two primary components to display a list - FlatList and SectionList. Let’s dive into each one with some examples.\n\nFlatList\nA FlatList is a simple list view component that renders a list of items in a user-friendly scrolling format. FlatList is great for large lists of data that only render a small number of items on the screen at a time. It supports both horizontal and vertical scrolling, allows you to customize the appearance of items, and provides built-in performance optimizations.\n\nSectionList\nA SectionList is a more complex list view component that presents items in multiple sections with optional section headers. It is suitable for use cases where you need to categorize data into separate sections and display a header for each section.\n\nIn summary, FlatList and SectionList are the primary list view components in React Native. Use FlatList for simple lists and when performance is a priority, and use SectionList when you need to organize data into multiple sections.",
+                        "resources": []
+                    },
+                    {
+                        "name": "FlatList",
+                        "recommendation-type": "opinion",
+                        "description": "FlatList is a React Native core component that displays a scrolling list of changing, but similarly structured, data. It is an efficient list component that makes use of a limited scrolling renderWindow, reducing the memory footprint and creating smooth scrolling. Additionally, FlatList supports-Headers, Footers, Pull-to-refresh, and Horizontal scrolling, among other things.\n\nHere is a basic example demonstrating how to use the FlatList component:",
+                        "resources": []
+                    },
+                    {
+                        "name": "SectionList",
+                        "recommendation-type": "opinion",
+                        "description": "SectionList is a component used to render sections and headers in a scroll view. It helps to manage and optimize a large list of items divided into categories. It is one of the List View components provided by React Native along with FlatList.",
+                        "resources": []
+                    },
+                    {
+                        "name": "RefreshControl",
+                        "recommendation-type": "opinion",
+                        "description": "RefreshControl is a component in React Native that is used to provide pull-to-refresh functionality for scrollable components like ScrollView, ListView, and FlatList.",
+                        "resources": []
                     }
+                    
+                    
+                    
+                    
+                    
                 ]
             },
             "Writing Platform Specific Code": {
+                "description": "In React Native, you might need to maintain certain parts of your application differently for iOS and Android. This is where “Platform Specific Code” comes into play. There are two ways you can achieve this:\n\nPlatform module\nReact Native provides a Platform module that can be used to detect which platform your code is running on (iOS or Android). This can be helpful when you have minor platform differences in your code execution, component styles, or API calls.\n\nExample:\n\nimport { Platform, StyleSheet } from 'react-native';\n\nconst styles = StyleSheet.create({\n  container: {\n    ...Platform.select({\n      ios: {\n        backgroundColor: 'red',\n      },\n      android: {\n        backgroundColor: 'blue',\n      },\n    }),\n  },\n});\nFile extensions\nAnother way to handle platform-specific logic is by using file extensions like .ios.js and ..android.js. By naming your files with these extensions, React Native will automatically pick up the appropriate file based on the platform the app is running on.\n\nExample:\n\nLet’s say you have two files in your project, Header.ios.js and Header.android.js. When you import the Header component in your code, React Native will automatically import the correct file for the platform.\n\n// App.js\nimport Header from './Header';",
+                "resources": [],
                 "order": 6,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Platform Module",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "The Platform module, as the name suggests, is a part of React Native that detects the platform on which the app is running. This enables you to have specific code for either Android or iOS, allowing you to account for platform-specific differences in design or behavior.\n\nTo utilize the Platform module, you need to import it and then access the OS property. This property returns a string, which denotes the platform — either 'ios' or 'android'.\n\nHere’s an example:\n\nimport { Platform } from 'react-native';\n\nif (Platform.OS === 'ios') {\n  console.log('Running on iOS');\n} else if (Platform.OS === 'android') {\n  console.log('Running on Android');\n}\nFor a more elegant way to define platform-specific properties, React Native provides the Platform.select method. This method takes an object with keys 'ios' and 'android', representing the respective platforms, and returns the value associated with the current platform.\n\nHere’s an example of Platform.select in use:\n\nimport { Platform, StyleSheet } from 'react-native';\n\nconst styles = StyleSheet.create({\n  container: {\n    ...Platform.select({\n      ios: {\n        backgroundColor: 'red',\n      },\n      android: {\n        backgroundColor: 'blue',\n      },\n    }),\n  },\n});\nIn this example, the container’s background color will be red on iOS and blue on Android.\n\nWith the Platform module, you can easily create platform-specific code, enabling you to have the best user experience for each platform. Just remember to import the module and use the provided properties and methods.",
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "File Extensions",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "In React Native, you can write platform-specific code by using specific file extensions. By appending .android. or .ios. to your file’s name, React Native will load the file corresponding to the platform you are running your app on.\n\nThere are two main scenarios where you can use this approach:\n\nPlatform-Specific Component Files\nYou can create separate files for each platform’s specific components, keeping the implementation and styling different for Android and iOS.\n\nFor example, if you have a Header component, you can create two separate files Header.ios.js and Header.android.js. React Native will automatically pick the right file depending on the platform it’s running on.\n\n// Header.ios.js\nimport React from 'react';\nimport { View, Text } from 'react-native';\n\nconst Header = () => {\n  return (\n    <View style={{ backgroundColor: 'blue' }}>\n      <Text>iOS Header</Text>\n    </View>\n  );\n};\n\nexport default Header;\n// Header.android.js\nimport React from 'react';\nimport { View, Text } from 'react-native';\n\nconst Header = () => {\n  return (\n    <View style={{ backgroundColor: 'green' }}>\n      <Text>Android Header</Text>\n    </View>\n  );\n};\n\nexport default Header;\nPlatform-Specific Code within a File\nYou can also use the Platform module from React Native to determine which platform-specific code to run within a single file.\n\nimport { Platform, StyleSheet, Text } from 'react-native';\n\nconst ComponentWithPlatformSpecificCode = () => {\n  return <Text style={styles.content}>Hello World!</Text>;\n};\n\nconst styles = StyleSheet.create({\n  content: {\n    color: Platform.select({\n      ios: 'blue',\n      android: 'green',\n    }),\n  },\n};\n\nexport default ComponentWithPlatformSpecificCode;\nUsing file extensions and the Platform module, you can create tailor-made components and features for different platforms while maintaining a clean and organized codebase.",
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "React Native Web",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "React Native Web is an extension of React Native which allows you to run your React Native apps not only on iOS and Android devices, but also on the web. It uses the same components and APIs you’re familiar with in React Native, but renders them into the DOM of a webpage instead of native UI elements.\n\nThe main goal of React Native Web is to provide a consistent developer experience across platforms, reducing the effort needed to build and maintain multi-platform apps.\n\nPlatform-specific Code\nWhile React Native Web is designed to provide a consistent experience across platforms, there may still be cases where you want to use platform-specific code for an improved native experience.\n\nFor example, let’s say you have a React Native app with the following styles:\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    justifyContent: 'center',\n    alignItems: 'center',\n  },\n  text: {\n    fontSize: 16,\n    color: 'blue',\n  },\n});\nNow, let’s say you want to apply some platform-specific styling. You can create separate stylesheets for each platform, like styles.native.js and styles.web.js. The contents of styles.native.js would look like this:\n\nimport { StyleSheet } from 'react-native';\n\nexport default StyleSheet.create({\n  container: {\n    // Your platform-specific styles\n  },\n  text: {\n    // Your platform-specific styles\n  },\n});\nAnd the contents of styles.web.js would look like this:\n\nimport { StyleSheet } from 'react-native';\n\nexport default StyleSheet.create({\n  container: {\n    // Your platform-specific styles\n  },\n  text: {\n    // Your platform-specific styles\n  },\n});\nThen, in your main component file, you can import the appropriate styles for each platform automatically:\n\nimport styles from './styles';\n\n// Now, your styles are platform-specific!\nThis way, you can cater your styles to the specific platform your app is running on, without having to clutter your main component code with conditional styling.\n\nReact Native Web also provides a utility called Platform that you can use to determine the current platform and apply platform-specific code directly:\n\nimport { Platform, StyleSheet } from 'react-native';\n\nconst styles = StyleSheet.create({\n  container: {\n    ...Platform.select({\n      web: {\n        // Web-specific styles\n      },\n      native: {\n        // Native-specific styles\n      },\n    }),\n  },\n  text: {\n    ...Platform.select({\n      web: {\n        // Web-specific styles\n      },\n      native: {\n        // Native-specific styles\n      },\n    }),\n  },\n});\nWith these techniques, you’ll be able to create tailored experiences across different platforms while maintaining a consistent development experience.",
+                        "resources": []
                     }
                 ]
             },
             "Styling": {
+                "description": "Styling in React Native is accomplished through JavaScript and uses a subset of CSS properties. Unlike CSS in web development, React Native has its own set of components and styling rules. The main components used for styling are StyleSheet, View, and Text.\n\nStyleSheet\nStyleSheet is a module provided by React Native to manage and optimize styles. It is similar to a CSS stylesheet and helps in creating and working with multiple styles efficiently.\n\nimport { StyleSheet, View, Text } from 'react-native';\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    backgroundColor: '#fff',\n    alignItems: 'center',\n    justifyContent: 'center',\n  },\n  text: {\n    fontSize: 20,\n    fontWeight: 'bold',\n  },\n});\nView and Text components\nView and Text components are the basic building blocks for creating a user interface in React Native. They are used to add structure and style to the layout.\n\nimport React from 'react';\nimport { StyleSheet, View, Text } from 'react-native';\n\nexport default function App() {\n  return (\n    <View style={styles.container}>\n      <Text style={styles.text}>Hello, React Native!</Text>\n    </View>\n  );\n}\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    backgroundColor: '#fff',\n    alignItems: 'center',\n    justifyContent: 'center',\n  },\n  text: {\n    fontSize: 20,\n    fontWeight: 'bold',\n  },\n});\nInline styles\nIn some cases, you might prefer to apply styles directly to a component using inline styling. However, it is not recommended for larger applications due to performance issues.\n\nimport React from 'react';\nimport { View, Text } from 'react-native';\n\nexport default function App() {\n  return (\n    <View\n      style={{\n        flex: 1,\n        backgroundColor: '#fff',\n        alignItems: 'center',\n        justifyContent: 'center',\n      }}\n    >\n      <Text\n        style={{\n          fontSize: 20,\n          fontWeight: 'bold',\n        }}\n      >\n        Hello, React Native!\n      </Text>\n    </View>\n  );\n}\nIn summary, styling in React Native is done through JavaScript using a subset of CSS properties. The main components used for styling are StyleSheet, View, and Text. You can also use inline styles when necessary, although it’s not recommended for performance reasons.",
+                "resources": [],
                 "order": 7,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Layouts in React Native",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "In React Native, layouts are primarily managed using the Flexbox styling system. Flexbox is a powerful and flexible layout system that allows you to create responsive and complex UIs using a set of simple rules.\n\nFlexbox\nFlexbox consists of three key elements: the container, main axis, and cross axis.\n\nThe container is the parent flex container that holds and distributes all the child elements.\nThe main axis is the primary direction of the layout (horizontal or vertical).\nThe cross axis is the perpendicular direction, opposite of the main axis.\nHere are some of the most commonly used Flexbox styles:\n\nflexDirection: This style specifies the primary axis using four possible values: row, row-reverse, column, or column-reverse.\n<View style={{flexDirection: 'row'}}>\n  <Text>First child</Text>\n  <Text>Second child</Text>\n</View>\nalignItems: This style is used to align the child items along the cross-axis. It uses the values flex-start, flex-end, center, stretch, or baseline.\n<View style={{flexDirection: 'row', alignItems: 'center'}}>\n  <Text>First child</Text>\n  <Text>Second child</Text>\n</View>\njustifyContent: This style is used to align the child items along the main axis. It accepts the values flex-start, flex-end, center, space-between, or space-around.\n<View style={{flexDirection: 'row', justifyContent: 'space-between'}}>\n  <Text>First child</Text>\n  <Text>Second child</Text>\n</View>\nflexWrap: Set to either wrap or nowrap to specify if child items should wrap around to the next line when there’s not enough space on the current line.\n<View style={{flexDirection: 'row', flexWrap: 'wrap'}}>\n  <Text>First child</Text>\n  <Text>Second child</Text>\n  <Text>Third child</Text>\n</View>\nflex: This style determines how the child items grow or shrink when there’s remaining space in the container. It’s a shorthand for flex-grow, flex-shrink, and flex-basis.\n<View style={{flexDirection: 'row'}}>\n  <Text style={{flex: 1}}>First child</Text>\n  <Text style={{flex: 2}}>Second child</Text>\n</View>\nYou can use these styles in various combinations to create flexible layouts in React Native. Flexbox makes it easy to create responsive UIs that adapt to changes in screen size or orientation. Note that some of these styles might not work as expected in React Native compared to in CSS for the web, but the overall concepts remain the same.\n\nTo learn more about these styling properties, you can refer to the official React Native documentation.",
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "Accessibility",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "Accessibility (a11y) in React Native allows you to create applications that are usable to everyone, including people with disabilities. It provides a set of attributes and APIs to customize UI components by considering diverse user needs.\n\nAccessibility Props\nReact Native provides several accessibility properties that can be applied to components for enhancing their a11y features:\n\naccessible : (Boolean) - Indicates if the element can be focused by screen readers.\n\n<TouchableOpacity accessible={true} />\naccessibilityLabel : (String) - Used by the screen reader to describe the element to the user.\n\n<TouchableOpacity accessibilityLabel=\"Tap me!\">\naccessibilityHint : (String) - Gives a hint to the user of the components behavior.\n\n<TouchableOpacity accessibilityHint=\"Tapping this button will show a welcome text\">\naccessibilityRole : (String) - Describes the role of the element for the screen reader.\n\n<TextInput accessibilityRole=\"search\" />\naccessibilityValue : (Object with properties: min, max, now) - Defines the accessibility values for elements such as progress bars or sliders, among others.\n\n<Slider\n  accessibilityValue={{\n    min: 0,\n    max: 100,\n    now: 50,\n  }}\n/>\naccessibilityState : (Object) - Represents the current state of the component.\n\n<TouchableOpacity\n  accessibilityState={{\n    disabled: false,\n    selected: true,\n  }}\n/>\naccessibilityActions and onAccessibilityAction are used to create custom actions.\n\nimport { AccessibilityInfo, Text, View } from 'react-native';\n\nfunction CustomButton() {\n  const [count, setCount] = React.useState(0);\n\n  const onIncrement = () => {\n    setCount(count + 1);\n  };\n\n  React.useEffect(() => {\n    const announce = () => {\n      AccessibilityInfo.announceForAccessibility(`Count raised to ${count}`);\n    };\n    announce();\n  }, [count]);\n\n  return (\n    <View\n      accessible={true}\n      accessibilityActions={[\n        { name: \"increment\", label: \"increase count\" },\n      ]}\n      onAccessibilityAction={(event) => {\n        switch (event.nativeEvent.actionName) {\n          case \"increment\":\n            onIncrement();\n            break;\n        }\n      }}\n    >\n      <Text>Increment Counter: {count}</Text>\n    </View>\n  );\n}\nOf course, different platforms may have some exclusive accessibility properties, which can be found in the official React Native documentation",
+                        "resources": []
                     }
                 ]
             },
             "Networking": {
+                "description": "React Native provides the ability to make network requests and manage data fetched from remote sources. Networking can be accomplished through the following techniques:\n\nFetch\nThe fetch function is a top-level API to make HTTP requests. It is a promise-based API for handling network requests. It allows you to fetch resources (typically JSON data) from a provided URL.\n\nFetch Example\nfetch('https://jsonplaceholder.typicode.com/todos/1')\n  .then((response) => response.json())\n  .then((json) => console.log(json))\n  .catch((error) => console.error(error));\nAxios\nAxios is a popular and widely-used library for making HTTP requests in javascript applications. It’s promise-based and provides a simple-to-use API.",
+                "resources": [],
                 "order": 8,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Fetch",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "Fetch is a JavaScript function available in React Native that is used to make network requests, similar to XMLHttpRequest in web applications. It allows you to handle requests and retrieve data from APIs or other sources. The Fetch API is built on Promises, making it simple to handle success and error cases.\n\nUsage\nHere’s a basic example demonstrating how to use fetch to make a GET request:\n\nfetch('https://jsonplaceholder.typicode.com/todos/1')\n  .then(response => response.json())\n  .then(data => console.log(data))\n  .catch(error => console.error(error));\nPOST Request\nTo make a POST request using fetch, you need to provide an additional object with the method, headers, and body properties:\n\nfetch('https://jsonplaceholder.typicode.com/todos', {\n  method: 'POST',\n  headers: {\n    'Accept': 'application/json',\n    'Content-Type': 'application/json'\n  },\n  body: JSON.stringify({\n    title: 'New Task',\n    completed: false\n  })\n})\n  .then(response => response.json())\n  .then(data => console.log(data))\n  .catch(error => console.error(error));\nIn this example, we are making a POST request to add a new task to the sample API. The method property is set to ‘POST’, and headers define the content type as ‘application/json’. The body property contains the new task in JSON format, which needs to be converted to a string using JSON.stringify(). Just like the GET request, we handle the response and catch any errors that occur.",
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "Websockets",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "WebSockets are a protocol that allows full-duplex communication between a client and a server over a single, long-lived connection. They are useful when real-time communication is needed, such as in chat applications, online gaming, or financial trading platforms.\n\nSetting up a WebSocket connection\nIn React Native, you can use the WebSocket API to establish a WebSocket connection with the server. Here’s an example of how to open a WebSocket connection:\n\nconst webSocket = new WebSocket('ws://my-websocket-server.com');\nReceiving and sending messages\nYou can handle the different events associated with a WebSocket connection by attaching event listeners to the WebSocket instance.\nHandling connection\nTo handle connection establishment, you can use the onopen event listener:\n\nwebSocket.onopen = (event) => {\n  console.log('WebSocket connection opened:', event);\n};\nHandling incoming messages\nTo receive messages from the server, you can use the onmessage event listener:\n\nwebSocket.onmessage = (event) => {\n  console.log('Received from server:', event.data);\n};\nSending messages to the server\nTo send messages to the server, you can use the send method:\n\nwebSocket.send('Hello server');\nHandling connection error and closure\nYou can catch connection errors and closure events using the onerror and onclose event listeners:\n\nwebSocket.onerror = (event) => {\n  console.log('WebSocket error:', event);\n};\nwebSocket.onclose = (event) => {\n  console.log('WebSocket connection closed:', event);\n};\nClosing the WebSocket connection\nTo close the WebSocket connection, you can use the close method:\n\nwebSocket.close();\nThat’s a brief summary of using WebSockets in React Native! Don’t forget to handle various edge cases such as connection loss, reconnection, and graceful shutdowns in a real-world application.",
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "Connectivity Status",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Connectivity refers to the mechanisms that allow data transfer between your React Native app and external resources through various means of communication. It is essential to ensure efficient communication with APIs, servers, and external systems, to update your app’s data, fetching content or enabling real-time interactions.",
                         "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
+                            "Networking Types",
+                            "Libraries for Networking"
                         ]
                     }
                 ]
             },
             "Push Notifications": {
+                "description": "Push notifications are a way to engage and retain users by delivering alerts, messages, or other information directly to their devices, even when the app is not running. They are an essential feature in modern mobile applications as they help keep users informed about important updates and allow developers to encourage user interaction with the app.\n\nIn React Native, you can implement push notifications using third-party libraries or services. Some popular options are:\n\nFirebase Cloud Messaging (FCM) for both Android and iOS\nApple Push Notification Service (APNs) for iOS",
+                "resources": [],
                 "order": 9,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
+                "options": []
             },
             "Interactions": {
+                "description": "Interaction in React Native means dealing with how the user can interact with your application. This typically involves handling touch events, gestures, and animations to provide a more engaging and dynamic user experience. There are several built-in components and libraries available in React Native to help you build interactive elements in your app.",
+                "resources": [
+                    {
+                        "name": "React Native Touchables",
+                        "url": "https://reactnative.dev/docs/touchableopacity"
+                    },
+                    {
+                        "name": "React Native Gesture Responder System",
+                        "url": "https://reactnative.dev/docs/gesture-responder-system"
+                    },
+                    {
+                        "name": "React Native PanResponder",
+                        "url": "https://reactnative.dev/docs/panresponder"
+                    },
+                    {
+                        "name": "React Native Animated",
+                        "url": "https://reactnative.dev/docs/animated"
+                    }
+                ],
                 "order": 10,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Touchables",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "In React Native, Touchable components are used to handle user interactions like taps, long presses, and double-taps on the appropriate elements. The main Touchable components include:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native TouchableOpacity",
+                                "url": "https://reactnative.dev/docs/touchableopacity"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native TouchableHighlight",
+                                "url": "https://reactnative.dev/docs/touchablehighlight"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native TouchableWithoutFeedback",
+                                "url": "https://reactnative.dev/docs/touchablewithoutfeedback"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native TouchableNativeFeedback",
+                                "url": "https://reactnative.dev/docs/touchnativefeedback"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native TouchableScale (from react-native-touchable-scale)",
+                                "url": "https://www.npmjs.com/package/react-native-touchable-scale"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Gesture Responder System",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Gesture handling is an essential and powerful feature in React Native that helps create interactive and responsive user interfaces. React Native provides several built-in components and libraries to recognize and respond to different types of user gestures. Some of the common gestures include tapping, swiping, dragging, and pinching.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native TouchableOpacity",
+                                "url": "https://reactnative.dev/docs/touchableopacity"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native TouchableHighlight",
+                                "url": "https://reactnative.dev/docs/touchablehighlight"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native TouchableWithoutFeedback",
+                                "url": "https://reactnative.dev/docs/touchablewithoutfeedback"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native PanResponder",
+                                "url": "https://reactnative.dev/docs/panresponder"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Scrolling and Swiping",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "In React Native, scrolling and swiping interactions can be defined and customized with a set of built-in components. These components are efficient and provide fluid navigation through the elements inside them.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native ScrollView",
+                                "url": "https://reactnative.dev/docs/scrollview"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native FlatList",
+                                "url": "https://reactnative.dev/docs/flatlist"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native Gesture Handler",
+                                "url": "https://docs.swmansion.com/react-native-gesture-handler/docs/"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Screen Navigation",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "In React Native, navigating from one screen to another is a crucial aspect of app development. The most commonly used navigation libraries are React Navigation and React Native Navigation.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native Navigation",
+                                "url": "https://wix.github.io/react-native-navigation/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "React Navigation",
+                                "url": "https://reactnavigation.org/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Animations",
+                        "recommendation-type": "opinion",
+                        "description": "React Native supports two types of animations: Animated and LayoutAnimation. The Animated API provides a basic set of methods for creating and managing animations, while the LayoutAnimation API provides a way to animate changes from one layout to another.",
+                        "resources": [
+                            {
+                                "name": "Animated API Documentation",
+                                "url": "https://reactnative.dev/docs/animated"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "LayoutAnimation API Documentation",
+                                "url": "https://reactnative.dev/docs/layoutanimation"
                             }
                         ]
                     }
                 ]
             },
             "Deep Linking": {
+                "description": "Deep linking is a technique used in mobile applications that allows you to open a specific screen, content, or functionality within the application using a URL or a custom URL scheme. This is useful for providing seamless user experiences by navigating the user directly to the desired part of the app. Deep linking can be triggered by clicking on a link in an email, scanning a QR code, or through a push notification.\n\nThere are two types of deep links:\n\nUniversal Links (iOS) / App Links (Android): These are HTTPS URLs that allow the user to navigate to a specific screen when the app is installed and fallback to a specified website when the app is not installed.\nCustom URL Schemes: Unique URLs, like myapp://my-screen, that can open the app directly to a specific screen when clicked.\n\nHandling Deep Links in React Native\nIn React Native, you can handle deep links using the Linking module which provides the necessary methods to work with deep links.\n\nFirst, you have to import Linking from \"react-native\":\n\nimport { Linking } from 'react-native';\nTo handle deep links, you need to add a listener that will be triggered when the app receives a deep link. You can add the listener in the componentDidMount lifecycle method and remove it in the componentWillUnmount method.\n\nFor example:\n\nimport React from 'react';\nimport { Linking, Text, View } from 'react-native';\n\nclass App extends React.Component {\n  componentDidMount() {\n    Linking.addEventListener('url', this.handleOpenURL);\n  }\n\n  componentWillUnmount() {\n    Linking.removeEventListener('url', this.handleOpenURL);\n  }\n\n  handleOpenURL(event) {\n    // Handle your deep link logic\n    console.log('Received deep link: ', event.url);\n  }\n\n  render() {\n    return (\n      <View>\n        <Text>Hello from React Native!</Text>\n      </View>\n    );\n  }\n}\n\nexport default App;\nTo work with universal links or app links, you need to configure your app on both iOS and Android. You can follow the official guide here.\nYou can also use popular libraries like react-navigation or react-native-navigation that provide built-in support for handling deep links in your app.",
+                "resources": [],
                 "order": 11,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
+                "options": []
             },
             "Security": {
+                "description": "React Native Security\nReact Native is a framework for building cross-platform mobile applications using JavaScript and ReactJS. As with any application development, security is a crucial aspect to protect your application data and user information. Here is a brief overview of some React Native security best practices.\n\n1. Secure Storage\nStore sensitive data, such as authentication tokens, encryption keys, or user credentials, securely using a storage solution that comes with built-in encryption mechanisms.\n\nExample:\nFor React Native, react-native-keychain and react-native-encrypted-storage are popular libraries handling secure storage.\n\nimport * as Keychain from 'react-native-keychain';\n\n// Save data to the keychain\nawait Keychain.setGenericPassword(username, password);\n\n// Retrieve data from the keychain\nconst credentials = await Keychain.getGenericPassword();\n2. Secure Communication\nUse HTTPS for network communication with APIs and remote services. This ensures that the data exchanged between server and client is encrypted and secure.\n\nExample:\nUse the fetch method with URLs starting with ‘https://‘.\n\nconst response = await fetch('https://example.com/api/data');\nconst data = await response.json();\n3. Minimize Permissions\nRequest only the necessary permissions from the user that your application needs to function, and do this at runtime when the feature actually needs the permission.\n\nExample:\nUsing react-native-permissions, you can request permissions when they are needed:\n\nimport {check, PERMISSIONS, request, RESULTS} from 'react-native-permissions';\n\nasync function requestLocationPermission() {\n  const result = await check(PERMISSIONS.IOS.LOCATION_WHEN_IN_USE);\n\n  if (result === RESULTS.DENIED) {\n    return await request(PERMISSIONS.IOS.LOCATION_WHEN_IN_USE);\n  }\n\n  return result;\n}\n4. Validate User Input\nEnsure you validate and sanitize all user input before processing it. This helps to prevent potential threats like SQL injection or cross-site scripting (XSS).\n\nExample:\nUse a validation library like Yup to validate user input.\n\nimport * as Yup from 'yup';\n\nconst loginSchema = Yup.object({\n  email: Yup.string().email('Invalid email address').required('Required'),\n  password: Yup.string()\n    .min(8, 'Password must be at least 8 characters')\n    .required('Required'),\n});\n\nloginSchema.validate({email: 'user@example.com', password: 'password'});\n5. Keep Dependencies Up to Date\nRegularly update your dependencies to ensure they don’t contain known security vulnerabilities. Use tools like npm audit and dependabot to automatically audit and update your dependencies.\n\nExample:\nUsing npm, you can update your dependencies and check for potential vulnerabilities:\n\nnpm update\nnpm audit\nFollowing these best practices will help you create more secure React Native applications, protecting your application’s data and your users’ information.",
+                "resources": [],
                 "order": 12,
-                "module bundlers": { "options": [
+                "options": [
                     {
-                        "name": "",
+                        "name": "Authentication",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Authentication is a crucial aspect of securing your React Native application. It enables you to verify the identity of users and give access to protected resources and features. Here are the common methods used for authentication in React Native:\n\nJWT Authentication\nOAuth\nSimple Token Authentication\nHave a look at the following react native page for further details about security.\n\nAuthentication and Deep Linking",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Authentication and Deep Linking",
+                                "link": "https://reactnative.dev/docs/security#authentication-and-deep-linking"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Networking",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "React Native offers various ways to handle networking tasks like making API calls, sending/receiving data from remote servers, and handling different network protocols.\n\nFetch\nHTTP Call Libraries\nWeb Sockets\nThese are the major ways to handle networking tasks in React Native. Choose the method that best suits your specific use case and allows you to take full advantage of the features offered.",
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "Storage",
                         "recommendation-type": "opinion",
                         "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     }
                 ]
-            }
-    
             },
             "Storage": {
+                "description": "React Native provides a few ways to persist data locally in the app. Here’s a brief summary of the storage options available: AsyncStorage, Expo Secure Store, Expo File System, and Expo SQLite. Choose the storage option that best fits your app’s requirements and use cases. Keep in mind that AsyncStorage and SecureStorage are more suited for small-scale data storage, while Realm and SQLite support more complex storage and querying needs.",
+                "resources": [],
                 "order": 13,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Other Storage Options",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "Besides AsyncStorage, there are other options available for handling data storage in React Native applications. This guide will briefly cover some popular options: Realm, Firebase Realtime Database, and SQLite. These are just a few examples of additional storage options for React Native. Depending on your requirements, you may choose the one that best fits your project.",
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "react-native-async-storage",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "An asynchronous, unencrypted, persistent, key-value storage system for React Native.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Documentation",
+                                "url": "https://github.com/react-native-async-storage/async-storage"
                             }
                         ]
                     }
-                ]
+                ],
+                "Expo Ecosystem": {
+                    "options": [
+                        {
+                            "name": "expo-secure-store",
+                            "recommendation-type": "opinion",
+                            "description": "Expo Secure Store is a built-in package provided by the Expo SDK to store encrypted data securely on users’ devices. It is a key-value storage system, but it is not designed to store larger amounts of data such as app databases or complex data structures. It is most appropriate for storing secret keys, access tokens, and small user preferences. To use it, first install the package using 'expo install expo-secure-store' and then follow the provided API for saving, retrieving, and deleting data securely. Keep in mind that while the store is encrypted, it is not foolproof, and a determined attacker may be able to extract data. However, it provides a good balance between security and usability for most use cases.",
+                            "resources": []
+                        },
+                        {
+                            "name": "Expo File System",
+                            "recommendation-type": "opinion",
+                            "description": "Expo File System is a universal module that provides access to the file system on the device. Using this module, you can perform various file operations like reading, writing, copying, moving, and deleting files and folders. It also supports reading file metadata and querying file URI. To use the Expo File System library, you need to install the 'expo-file-system' package, and you can perform tasks such as reading, writing, copying, moving, and deleting files. This is a versatile tool for file management in your React Native app. Refer to the official documentation for in-depth details and additional features.",
+                            "resources": []
+                        },
+                        {
+                            "name": "Expo SQLite",
+                            "recommendation-type": "opinion",
+                            "description": "Expo SQLite is a powerful tool for handling local SQLite databases in your React Native application. By using this API, you can create, read, update, and delete data as needed, without writing native code. Expo SQLite is available as part of the expo-sqlite package, which provides an easy-to-use interface for SQLite functionalities. With Expo SQLite, you can efficiently manage SQLite databases within your React Native applications, enabling various database operations without the need for writing native code.",
+                            "resources": []
+                        }
+                    ]
+                }
             },
             "Testing": {
+                "description": " ",
+                "resources": [],
                 "order": 14,
                 "options": [
                     {
@@ -2494,541 +894,124 @@
                 ]
             },
             "Performance": {
+                "description": "Performance is a crucial aspect of any application, and React Native is no exception. Optimizing performance in your React Native apps will not only lead to a better user experience but also lessen the load on device resources.",
+                "resources": [
+                    "React Native Documentation"
+                ],
                 "order": 15,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Understand Frame Rates",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Frame rates represent the number of frames (or images) displayed per second in an animation or video. The performance of a React Native application can be highly impacted by the frame rate, so it is important to optimize your application for the best possible user experience. Higher frame rates provide smoother animations, but may require more system resources. To achieve the desired frame rate, the application should ensure that each frame is computed and rendered within the time budget.\n\nIn general, frame rates can be categorized into two types:\n\nStatic Frame Rate: This is when your application’s frame rate remains constant during its runtime.\nAdaptive Frame Rate: This is when your application adjusts the frame rate according to device performance and available resources.",
+                        "resources": [
+                            "Animated library"
+                        ]
+                    },
+                    {
+                        "name": "Common Problem Sources",
+                        "recommendation-type": "opinion",
+                        "description": "1. Console Logs\nExcessive console logs can lead to decreased performance in React Native, especially in debug mode. In order to avoid this, keep the usage of console logging to a minimum, and clean up unnecessary logs before releasing the app.\n\n2. Images\nHeavy and unoptimized images can lead to performance issues in React Native. To avoid this, use the following techniques:\n\n- Optimize image size and resolution before bundling them in the application.\n- Use resizeMode prop on the Image component to cache images for better rendering.\n\n3. Inline Functions and Styles\nUsing inline functions and styles within components can lead to unnecessary re-rendering and performance issues. Instead, define functions and styles outside of the component render method.\n\n// Bad\nrender() {\n  return (\n    <TouchableOpacity onPress={() => this.onPress()}>\n      <Text style={{fontSize: 16, color: 'blue'}}>Click me</Text>\n    </TouchableOpacity>\n  );\n}\n\n// Good\nconst styles = StyleSheet.create({\n  buttonText: {\n    fontSize: 16,\n    color: 'blue',\n  },\n});\n\nonPressHandler = () => {\n  // Handle press\n};\n\nrender() {\n  return (\n    <TouchableOpacity onPress={this.onPressHandler}>\n      <Text style={styles.buttonText}>Click me</Text>\n    </TouchableOpacity>\n  );\n}\n\n4. PureComponent and React.memo\nComponents that extend React.PureComponent or are wrapped in React.memo() can lead to performance issues in case they’re updating frequently and causing unnecessary re-renders. Make sure to only use them when appropriate to avoid performance bottlenecks.\n\n5. ListView and FlatList\nWhen working with large lists in React Native, using ListView instead of FlatList can cause performance issues. Replace ListView with the more performant FlatList or SectionList components.\n\n// Use FlatList instead of ListView\n<FlatList\n  data={this.state.data}\n  renderItem={({item}) => <MyListItemComponent item={item} />}\n  keyExtractor={(item) => item.id}\n/>\n\n6. JavaScript Thread Blockage\nBlocking the JavaScript thread with expensive synchronous computations can lead to poor performance. Make sure to handle heavy computations asynchronously or offload them to native modules.\n\nRead more in the Official React Native documentation.",
+                        "resources": [
+                            "Official React Native documentation"
+                        ]
+                    },
+                    {
+                        "name": "Speeding up Builds",
+                        "recommendation-type": "opinion",
+                        "description": "Building your React Native app could be expensive and take several minutes of developers' time. This can be problematic as your project grows and generally in bigger organizations with multiple React Native developers.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Optimizing FlatList Config",
+                        "recommendation-type": "opinion",
+                        "description": "In React Native, the FlatList component is used to efficiently display large lists of items. It’s crucial to optimize the FlatList configuration for better performance. Here are some important tips to help you optimize FlatList configurations:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "RAM Bundles and Inline Requires",
+                                "link": "https://reactnative.dev/docs/ram-bundles-inline-requires"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "RAM Bundles + Inline Requires",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "If you have a large app you may want to consider the Random Access Modules (RAM) bundle format, and using inline requires. This is useful for apps that have a large number of screens which may not ever be opened during a typical usage of the app. Generally it is useful to apps that have large amounts of code that are not needed for a while after startup. For instance the app includes complicated profile screens or lesser used features, but most sessions only involve visiting the main screen of the app for updates. We can optimize the loading of the bundle by using the RAM format and requiring those features and screens inline (when they are actually used).",
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "Profiling",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Use the built-in profiler to get detailed information about work done in the JavaScript thread and main thread side-by-side. Access it by selecting Perf Monitor from the Debug menu. For iOS, Instruments is an invaluable tool, and on Android you should learn to use systrace.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Profiling React Native",
+                                "url": "https://reactnative.dev/docs/profiling"
                             }
                         ]
                     }
                 ]
             },
             "Using Native Modules": {
+                "description": "Sometimes a React Native app needs to access a native platform API that is not available by default in JavaScript, for example the native APIs to access Apple or Google Pay. Maybe you want to reuse some existing Objective-C, Swift, Java or C++ libraries without having to reimplement it in JavaScript, or write some high performance, multi-threaded code for things like image processing.\n\nThe NativeModule system exposes instances of Java/Objective-C/C++ (native) classes to JavaScript (JS) as JS objects, thereby allowing you to execute arbitrary native code from within JS. While we don’t expect this feature to be part of the usual development process, it is essential that it exists. If React Native doesn’t export a native API that your JS app needs you should be able to export it yourself!",
+                "resources": [],
                 "order": 16,
                 "options": [
                     {
-                        "name": "",
+                        "name": "For Android",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Visit the Native Modules documentation in react native documentation to learn more about this topic.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Native Modules Documentation",
+                                "url": "https://reactnative.dev/docs/native-modules-android"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "For iOS",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Visit the Native Modules documentation in react native documentation to learn more about this topic.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Native Modules Documentation",
+                                "url": "https://reactnative.dev/docs/native-modules-ios"
                             }
                         ]
                     }
                 ]
             },
             "Publishing Apps": {
+                "description": "Publishing React Native apps is the process of deploying your application on various app stores so that users can download and use your app. The two most popular app stores for publishing are the Apple App Store (iOS) and the Google Play Store (Android).",
+                "resources": [],
                 "order": 17,
-                "module bundlers": { "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
+                "module bundlers": {
+                    "options": [
+                        {
+                            "name": "Publishing React Native Apps on Google Store",
+                            "recommendation-type": "opinion",
+                            "description": "Publishing your React Native app on Google Store consists of several steps.",
+                            "resources": [
+                                {
+                                    "name": "Publishing to Google Play Store",
+                                    "link": "https://reactnative.dev/docs/signed-apk-android"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Publishing Apps in App Store",
+                            "recommendation-type": "opinion",
+                            "description": "The App Store is Apple’s official platform for distributing iOS apps to users with iPhones, iPads, and iPod Touch devices. To publish an app on the App Store, you need to follow specific guidelines and use the necessary tools provided by Apple.",
+                            "resources": [
+                                {
+                                    "name": "Publishing to Apple App Store",
+                                    "link": "https://reactnative.dev/docs/publishing-to-app-stored"
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
-    
-            }
-            
-           
         }
     }
-    
 }
