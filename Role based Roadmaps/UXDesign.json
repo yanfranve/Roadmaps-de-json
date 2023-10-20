@@ -12,343 +12,97 @@
                 "Frameworks": {
                     "options": [
                         {
-                            "name": "",
-                            "recommendation-type": "Pick this or purple",
-                            "description": "",
+                            "name": "BJ Fogg’s Behavior Model",
+                            "recommendation-type": "opinion",
+                            "description": "B.J. Fogg, a renowned psychologist, and researcher at Stanford University, proposed the Fogg Behavior Model (FBM). This insightful model helps UX designers understand and influence user behavior by focusing on three core elements: motivation, ability, and triggers.",
                             "resources": [
                                 {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "Meaning of BJ Fogg’s Behavior Model",
+                                    "link": "https://behaviormodel.org/"
                                 }
                             ]
                         },
                         {
-                            "name": "",
-                            "recommendation-type": "not strict",
-                            "description": "",
+                            "name": "Stephen Wendell’s CREATE Action Funnel",
+                            "recommendation-type": "opinion",
+                            "description": "Stephen Wendell’s Create Action Funnel is a UX design framework focused on converting website visitors into active customers through a systematic and engaging process. The approach emphasizes understanding user behavior, catering to their needs, and directing them towards specific actions. The Action Funnel consists of four major steps: Establish the Objectives, Understand User Mindsets, Design the Optimal User Flow, and Refine and Test the Experience.",
                             "resources": [
                                 {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "Behavioral Science Crash Course: Steve Wendel’s CREATE Action Funnel",
+                                    "link": "https://www.prodify.group/blog/behavioral-science-crash-course-steve-wendels-create-action-funnel"
                                 }
                             ]
                         },
                         {
-                            "name": "",
-                            "recommendation-type": "not strict",
-                            "description": "",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ]
+                            "name": "Spectrum of Thinking Interventions",
+                            "recommendation-type": "opinion",
+                            "description": "The Spectrum of Thinking Interventions provides a structure to guide your UX design process, helping you identify the types and range of thinking interventions that the user may require. This spectrum encompasses four primary categories: guidance, explanation, exploration, and creation. With this spectrum in mind, it is essential as a UX designer to analyze which types of thinking interventions are most relevant to your target users and design the most accessible and effective solutions. Always consider how these interventions will influence users’ decision-making processes and their overall satisfaction with your digital product or service.",
+                            "resources": []
                         },
                         {
-                            "name": "",
-                            "recommendation-type": "not strict",
-                            "description": "",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ]
-                        },
-                        {
-                            "name": "",
-                            "recommendation-type": "not strict",
-                            "description": "",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ]
+                            "name": "Dual Process Theory",
+                            "recommendation-type": "opinion",
+                            "description": "The Dual Process Theory is a psychological concept that suggests that human thinking operates on two different levels – an intuitive, fast, and automatic level (known as System 1), as well as a more deliberate, slow, and logical level (System 2). In the context of UX design, understanding these two systems can help designers create user interfaces and experiences that cater to both types of thinking. By understanding the Dual Process Theory and designing for both types of cognitive processing, UX designers can create user experiences that are both delightful and efficient, ultimately leading to higher user satisfaction and engagement.",
+                            "resources": []
                         }
+                        
+                        
+                        
+                      
                     ]
+                    
                 },
                 "Buzzwords to lookout for": {
                     "options": [
                         {
-                            "name": "",
-                            "recommendation-type": "Pick this or purple",
-                            "description": "",
+                            "name": "Nudge Theory",
+                            "recommendation-type": "opinion",
+                            "description": "Nudge Theory is a behavioral science concept that focuses on understanding how humans make choices and how small, subtle changes in our environment can have a significant impact on our decision-making process. In the context of UX design, nudge theory can be applied in various ways to influence user behavior and drive desired outcomes. When applying nudge theory in UX design, it’s crucial to maintain a balance between encouraging positive behaviors and respecting user autonomy. Designers should aim to empower users with meaningful choices and useful information, rather than manipulating or deceiving them.",
                             "resources": [
                                 {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "Nudge Theory Explained with Examples (on YouTube)",
+                                    "link": "https://www.youtube.com/watch?v=example1"
                                 },
                                 {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "Nudge Theory Explained in less than 10 minutes",
+                                    "link": "https://example2.com"
                                 },
                                 {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "Nudge Theory overview with examples",
+                                    "link": "https://example3.com"
                                 }
                             ]
                         },
                         {
-                            "name": "",
-                            "recommendation-type": "not strict",
-                            "description": "",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ]
+                            "name": "Persuasive Technology",
+                            "recommendation-type": "opinion",
+                            "description": "Persuasive technology is an area of UX design that focuses on using technology to influence human behavior and encourage users to take specific actions. The goal of persuasive technology is to subtly persuade or encourage users to adopt specific habits or behaviors, often with the intent of improving their overall experience or achieving a particular outcome. Incorporating persuasive technology into UX design can lead to more engaging and effective user experiences. However, it’s crucial to use these techniques responsibly and ethically, ensuring that the end goal aligns with the best interests of users and does not exploit or manipulate them in any negative way.",
+                            "resources": []
                         },
                         {
-                            "name": "",
-                            "recommendation-type": "not strict",
-                            "description": "",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ]
+                            "name": "Behavior Design",
+                            "recommendation-type": "opinion",
+                            "description": "Behavior Design is an approach that combines elements of psychology, neuroscience, and design principles to understand and influence human behaviors. The goal behind behavior design is to make it easier for users to accomplish their goals or desired actions within a product, service, or system. In the context of UX Design, behavior design focuses on motivation, ability, and triggers to create effective behavior designs that drive user satisfaction and increase the chances of achieving their desired goals.",
+                            "resources": []
                         },
                         {
-                            "name": "",
-                            "recommendation-type": "not strict",
-                            "description": "",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ]
+                            "name": "Behavioral Science",
+                            "recommendation-type": "opinion",
+                            "description": "Behavioral science is the interdisciplinary study of human behavior, encompassing disciplines like psychology, sociology, and anthropology. In UX design, applying behavioral science concepts and principles can enhance user experience by improving user engagement, usability, and overall satisfaction. Key principles include cognitive biases, loss aversion, social proof, incentivization, choice architecture, and habit formation.",
+                            "resources": []
                         },
                         {
-                            "name": "",
-                            "recommendation-type": "not strict",
-                            "description": "",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ]
+                            "name": "Behavioral Economics",
+                            "recommendation-type": "opinion",
+                            "description": "Behavioral Economics is a subfield of economics that studies the psychological, social, and emotional factors influencing decision-making and economic behavior. It explores deviations from traditional economic models due to bounded rationality, prospect theory, anchoring, mental accounting, and nudging. UX designers can apply these principles to create interfaces and experiences that account for biases, reduce cognitive load, and promote better decision-making.",
+                            "resources": []
                         }
+                        
+                        
+                        
+                        
+                        
+                       
                     ]
                 },
                 "order": 1,
