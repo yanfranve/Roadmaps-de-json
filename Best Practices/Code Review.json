@@ -1090,35 +1090,136 @@
                 "order": 5,
                 "options": [
                     {
-                        "name": "Proper HTTP Methods",
+                        "name": "Be Professional",
                         "recommendation-type": "opinion",
-                        "description": "Use the proper HTTP method according to the operation: GET (read), POST (create), PUT/PATCH (replace/update), and DELETE (to delete a record), and respond with 405 Method Not Allowed if the requested method isn’t appropriate for the requested resource."
+                        "description": "When engaged in reviewing your peers’ work, it’s crucial to approach each comment and suggestion with tact and empathy, ensuring that your communication remains constructive and free from personal attacks or derogatory remarks. To make sure you abide by this best practice and foster a positive team dynamic, here are some tips to guide your feedback approach:",
+                        "resources": [
+                            {
+                                "title": "Focus on the code, not the person",
+                                "description": "Address the code changes and avoid directing comments towards the individual who submitted the code."
+                            },
+                            {
+                                "title": "Use neutral language",
+                                "description": "Keep your language objective and non-inflammatory, steering clear of words or phrases that may be perceived as aggressive, dismissive, or condescending."
+                            },
+                            {
+                                "title": "Be specific and clear",
+                                "description": "Offer feedback that is direct and actionable, outlining any areas of concern or suggested improvements with clarity and detail."
+                            },
+                            {
+                                "title": "Be open to questions and discussion",
+                                "description": "Encourage open dialogue by inviting questions or alternative viewpoints, demonstrating a willingness to listen and learn from others."
+                            },
+                            {
+                                "title": "Offer praise alongside critiques",
+                                "description": "Celebrate the successes of your team members, acknowledging their hard work and achievements as you address any issues or opportunities for growth."
+                            },
+                            {
+                                "title": "Remember the human element",
+                                "description": "Keep in mind that there’s a person behind every code submission - remain empathetic, respectful, and patient throughout the code review process."
+                            }
+                        ]
                     },
                     {
-                        "name": "Content Type Validation",
+                        "name": "Provide Clear Feedback",
                         "recommendation-type": "opinion",
-                        "description": "Validate content-type on request headers to prevent XSS attacks. Validating the Content-Type header on the request can help to make APIs more secure by ensuring that the request data is in the expected format and reducing the risk of attacks such as injection attacks or cross-site scripting (XSS)."
+                        "description": "In a code review, providing clear and actionable feedback is essential to ensure that the developer can easily understand the suggestions and make improvements accordingly. This involves offering specific recommendations for enhancement, addressing potential issues, and articulating the reasoning behind your concerns. By doing so, you not only help the developer to learn and grow, but you also contribute to the overall quality of the codebase.",
+                        "resources": [
+                            {
+                                "title": "Be Specific",
+                                "description": "When pointing out a concern or suggesting an improvement, be precise about the code change you are referring to. Include line numbers or code statements to make it easier for the developer to locate and address the issue."
+                            },
+                            {
+                                "title": "Offer Concrete Solutions",
+                                "description": "Instead of just pointing out what’s wrong, propose a solution or an alternative approach for the developer to consider. This not only showcases your understanding of the code but also makes the feedback more constructive."
+                            },
+                            {
+                                "title": "Explain Your Concerns",
+                                "description": "If you have a concern, do not just state what is wrong; explain why it is a problem and how it can impact the codebase. This will help the developer grasp the rationale behind your feedback, making it easier for them to accept and implement your suggestions."
+                            },
+                            {
+                                "title": "Use Clear Language",
+                                "description": "Avoid jargon or shorthand that the developer may not understand. Use plain language and be concise in your explanations."
+                            },
+                            {
+                                "title": "Stay Positive",
+                                "description": "While critiquing the code, maintain a supportive and positive tone. Start with acknowledging the good aspects of the code and appreciate the developer’s efforts before diving into areas of improvement."
+                            }
+                        ]
                     },
                     {
-                        "name": "Validate User Input",
+                        "name": "Potential Issues",
                         "recommendation-type": "opinion",
-                        "description": "Validate user input to avoid common vulnerabilities. User input is a common source of vulnerabilities in web applications. This is because user input is often not properly validated, sanitized, or escaped before being used in a web application. This can allow an attacker to manipulate the input and execute malicious code or cause the application to behave unexpectedly."
+                        "description": "Code reviews are a crucial part of ensuring the quality, maintainability, and efficiency of software. One particularly important aspect of a code review is identifying potential performance, security, and scalability concerns. This involves examining the submitted code for any areas where it may not perform well, exhibit vulnerabilities, or have difficulty handling increased usage. As a code reviewer, it is your responsibility to discuss these concerns with the author and offer suggestions for improvement. This ensures the final product is not only functionally correct but also delivers a robust and stable experience for its users.",
+                        "resources": []
                     },
                     {
-                        "name": "Authorization Header",
+                        "name": "Prioritize Feedback",
                         "recommendation-type": "opinion",
-                        "description": "Use standard Authorization header for sending tokens instead of custom headers or query/body parameters. Sending tokens in the query or body parameters is generally not recommended because these parameters may be logged or cached by various systems, including web servers, proxies, and gateways. This can potentially lead to the exposure of sensitive data, including authentication tokens. Additionally, sending tokens in query or body parameters can make them more vulnerable to cross-site request forgery (CSRF) attacks. In a CSRF attack, an attacker can trick a user into submitting a request that includes their authentication token, which the attacker can then use to impersonate the user and gain access to their account. By contrast, using the Authorization header to send tokens helps to ensure that the tokens are not logged or cached by intermediary systems, and it can also help to protect against CSRF attacks by allowing the server to validate the token before processing the request."
+                        "description": "Tackling the most important issues first ensures that the developer’s time is well-spent in addressing high-impact concerns, resulting in a higher quality product with fewer critical issues. As the author of this guide, I would like to share some practical tips to ensure that you prioritize your feedback effectively:\n\n- Clearly define the goals and objectives of the code review process, so you can align your feedback with those priorities.\n- Categorize your observations into ‘high’, ‘medium’, and ‘low’ priority, based on the impact they have on the code’s performance, security, and maintainability.\n- Understand the context of the code changes and the corresponding requirements, to ensure you’re addressing the most relevant issues first.\n- Focus on identifying and resolving design issues, performance bottlenecks, and potential security vulnerabilities before diving into stylistic or formatting concerns.\n- Discuss priorities with the team and get a consensus on the order in which issues should be addressed, to ensure that everyone’s input is considered in shaping the priorities.\nBy paying close attention to these tips, you can ensure that your code review feedback is consistently aligned with the highest-priority concerns, maximizing the value of the code review process for both yourself and your teammates.",
+                        "resources": []
                     },
                     {
-                        "name": "Avoid Client-Side Encryption",
+                        "name": "Reviewing Tests",
                         "recommendation-type": "opinion",
-                        "description": "Use server-side encryption instead of client-side encryption. Client-side encryption is not recommended because client-side codebase can be easily reverse engineered which can lead to the exposure of encryption algorithms."
+                        "description": "One of the essential aspects of code review is evaluating the tests accompanying the code changes. Ensuring these tests adequately cover functionality and edge cases is crucial for maintaining the reliability and stability of the software. This involves examining the structure and design of tests, as well as the effectiveness in confirming the code behaves as expected. It is vital for a code reviewer to focus on whether the tests cover all possible scenarios and comprehensively test the code change, from regular usage to potential edge cases that may cause issues. Here are a few tips to help guide you through this process:\n\n- Assess test coverage: Examine the range of test cases provided to ensure they appropriately test not only the basic functionality but also various edge cases and potential error scenarios.\n- Investigate test design: Evaluate the design of the test suite, ensuring each test serves a specific purpose and that they are organized and maintainable.\n- Verify the implementation: Check the implementation of each test, making sure it is correctly set up and achieves the desired outcome.\n- Prioritize critical areas: Pay special attention to complex or crucial code sections to confirm they have adequate test coverage.\n- Look for potential scenarios: Be proactive in identifying any additional scenarios that might not have been covered, and suggest improvements or new test cases to better validate these situations.",
+                        "resources": []
                     },
                     {
-                        "name": "API Gateway",
+                        "name": "Project Guidelines and Best Practices",
                         "recommendation-type": "opinion",
-                        "description": "Use an API Gateway for caching, Rate Limit policies, and other security features. An API gateway can make your APIs more secure by providing a centralized point of control for managing and securing API traffic. Here are a few ways an API gateway can improve API security:\n\nAuthentication and authorization: API gateways can handle user authentication and authorization, reducing the burden on individual APIs and improving consistency across the organization. This can include techniques such as JWT verification, OAuth, and other authentication mechanisms.\n\nTraffic filtering and rate limiting: An API gateway can enforce traffic filtering and rate limiting to protect APIs against DDoS attacks, brute force attacks, and other types of abuse.\n\nEncryption and decryption: An API gateway can handle encryption and decryption of sensitive data to protect against data breaches and theft.\n\nLogging and monitoring: An API gateway can provide centralized logging and monitoring of API traffic, helping to identify and respond to security threats and other issues.\n\nIntegration with security tools: An API gateway can be integrated with security tools such as WAFs, SIEMs, and other security tools to provide additional layers of protection."
+                        "description": "Ensuring that code changes adhere to the project’s coding standards and best practices is a critical aspect of a successful code review. This involves evaluating the quality and consistency of the code, as well as making sure that the changes are efficient, secure, and maintainable. In this section, we will provide you with some tips on how to assess adherence to coding standards and best practices during the code review process.\n\n- Familiarize yourself with the project’s coding guidelines and best practices: Before diving into the review, read and understand the project’s established coding standards, such as naming conventions, indentation, and commenting styles.\n- Utilize linters and code analyzers: These tools can automatically identify inconsistencies in the code and detect potential issues related to best practices, thereby reducing manual effort to detect such issues.\n- Look for code smells: Code smells are indicators of potential issues in the code’s maintainability or performance. Keep an eye out for code duplication, large functions or classes, and unclear variable or function names.\n- Evaluate design patterns and principles: Ensure that the implementation follows established design patterns and principles like SOLID, DRY, and KISS.\n- Consider security: Evaluate the code for possible security risks, such as input validation, proper error handling, and unsafe API usage.\n- Assess test coverage: Ensure that the submitted code includes adequate test coverage to validate the correctness of the changes and avoid regressions.\n- Provide constructive feedback: When pointing out adherence issues or suggesting improvements, make sure to provide specific examples and clear explanations. Encourage the contributor to discuss and clarify any concerns.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Documentation is Updated",
+                        "recommendation-type": "opinion",
+                        "description": "Proper documentation serves as a guide for future developers, allowing them to easily understand, maintain, and enhance the existing codebase. In addition, good documentation can also save time, mitigate confusion, and reduce errors among team members. To make sure that the relevant documentation is up-to-date and precise, follow these tips:\n\n- Require updated documentation as part of the code review process: Make it a standard practice for developers to submit updates to the relevant documentation along with their code changes.\n- Check for consistency and accuracy: Review the updated documentation to ensure it accurately and clearly reflects the changes made in the code. This includes following naming conventions, correct syntax, and descriptions of the new features or functions.\n- Assess whether there are any missing sections: Look for parts of the code that may have been altered or added but have not been documented. Make sure to remind the developer to provide appropriate documentation for these changes as well.\n- Encourage detailed comments in the code: Ensure that the contributors sufficiently explain their changes within the code itself. While not a strict replacement for external documentation, code comments are invaluable for understanding the intent behind the code.\n- Keep documentation easy to maintain: Suggest using clear, concise language and a consistent format throughout the documentation, making it easier for team members to maintain and update as needed.\n\nBy following these tips, you will ensure that your team’s documentation stays up-to-date, providing a valuable resource to support the continued quality and maintainability of your codebase.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Team-wide style is followed",
+                        "recommendation-type": "opinion",
+                        "description": "To achieve this, I recommend adopting a team-wide style guide, which serves as the authoritative reference for code styling within the project. As a reviewer, your role is to verify the changes against this guide, rather than imposing your personal preferences. This helps to reduce inconsistencies and foster a collaborative environment. To ensure the effective implementation of the style guide, consider the following tips:\n\n- Create a clear and concise style guide that covers all major aspects of code styling, such as naming conventions, indentation, and code organization.\n- Share the style guide with all team members and make sure everyone understands its requirements and follows them consistently.\n- Integrate automated linting tools and formatters into your development process to check and enforce code style automatically.\n- Provide dedicated workshops or training sessions to new team members on the style guide, so that they can quickly get up to speed with the team’s preferred style.\n- During the code review process, focus on ensuring that the changes align with the style guide. If you find deviations, point them out and guide the developer towards the proper style.\n- Continuously review and update the style guide based on the team’s changing needs and preferences. Encourage team members to suggest improvements and changes to make the guide more effective over time.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Nitpick Comments",
+                        "recommendation-type": "opinion",
+                        "description": "I highly recommend leaving comments to suggest improvements, as this helps ensure high quality and maintainable code. However, it is important to differentiate between critical revisions and those elements that have room for improvement but can be considered as “nice to have.” To indicate these less critical suggestions, we use the prefix “Nit.” They convey that your suggestion is a minor point and helps the developer understand the reviewer’s perspective on the importance of the suggestion. This allows them to prioritize their revisions effectively. Here are some tips to keep in mind:\n\n- When leaving a comment or suggestion, consider whether it is critical to meeting the coding standards or offering a significant improvement to the code. If not, prefix your comment with “Nit.”\n- Encourage a balanced approach to comments, where you highlight both critical and non-critical suggestions. This allows the developer to address important aspects, while being aware of opportunities for improvement.\n- When reviewing code, always ensure you give positive feedback as well. This points out what the developer is doing right, and offers motivation to continue doing great work.\n- In your comments, be specific and clear about what needs improvement, keeping in mind that the developer may not have the same context as you. This will facilitate productive discussions and faster decision-making.\n\nBy following this practice, you create a healthy environment for code review that fosters open communication, learning, and improvement while making sure that critical standards are met.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Seek Continuous Improvement Over Perfection",
+                        "recommendation-type": "opinion",
+                        "description": "It is important to always strive for better results without getting bogged down in the pursuit of an impractical ideal. In code review, this means recognizing that not every submission will be flawless, and that even seasoned developers can have room for enhancements. The goal should be to continuously learn and improve, rather than aiming for an unattainable level of perfection. Here are some tips to help foster a mindset of continuous improvement during code review:\n\n- Embrace a growth mindset: Understand that everyone, including yourself, can learn and grow from constructive feedback. Encourage a culture where team members feel comfortable sharing their knowledge and expertise.\n- Set realistic expectations: Acknowledge that not every code submission will be perfect and that it is natural for errors and improvements to be identified during the review process.\n- Encourage collaboration: Promote a culture where team members give and receive feedback willingly, supporting each other’s learning and development as developers.\n- Focus on incremental progress: Instead of trying to fix every single issue at once, prioritize the most impactful changes and aim for steady progress over time.\n- Celebrate improvements: Recognize and celebrate the efforts made by team members in addressing feedback and making positive changes to their code.\n\nBy embracing the continuous improvement mindset, your team will be more open to feedback and motivated to learn, ultimately resulting in more efficient and higher-quality code.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Short-term and long-term Considerations",
+                        "recommendation-type": "opinion",
+                        "description": "In a well-balanced code review, it is essential to keep both short-term and long-term considerations in mind. Short-term considerations focus on the immediate impact of the changes, such as bug fixes, performance improvements, and adherence to coding standards. On the other hand, long-term considerations are aimed at ensuring the code remains maintainable, scalable, and aligned with the broader architectural vision. As a code reviewer, it is your responsibility to strike a balance between these two aspects, making sure your feedback addresses immediate concerns without compromising the codebase’s future health. Here are some tips to help you achieve this:\n\n- Encourage the use of design patterns and architectural best practices that promote maintainability and adaptability.\n- Check for code readability and simplicity, as these contribute to easier future modifications.\n- Consider the impact of changes on existing and potential integrations, keeping in mind the system’s overall extensibility.\n- Ensure new features or improvements are justified, avoiding the addition of unnecessary complexity that may hinder future development.\n- Encourage documentation for any non-trivial code or design decisions, which helps other developers understand the rationale behind the change and avoids potential issues down the line.\n- Consider if the proposed solution aligns with the team’s overall coding practices, tech stack, and organizational goals, ensuring a coherent and unified codebase.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Pair Programming Reviews",
+                        "recommendation-type": "opinion",
+                        "description": "When there are a lot of changes to review, it can be difficult to keep track of everything. Pair programming is a great way to ensure that all changes are reviewed and discussed in detail. It also helps to foster collaboration and knowledge sharing between developers. In this section, we will discuss the benefits of pair programming and provide tips on how to make the most of this technique.\n\nPair programming is an agile software development technique in which two developers work together at the same computer. One developer writes the code while the other reviews each line of code as it’s written, providing immediate feedback to catch issues early on. This technique can be used as an alternative or supplement to traditional code reviews. Pair programming helps to ensure code quality, reduce defects, and foster knowledge sharing between developers. To make the most of pair programming, consider the following tips:\n\n- Choose partners with complementary skills, so that both participants can learn from each other.\n- Set clear expectations about the goals and outcomes of the pair programming session.\n- Take regular breaks and swap roles between writing and reviewing code to keep both developers engaged.\n- Foster open communication; encourage questions, suggestions, and discussions.\n- Regularly reflect on the process and adjust as needed to ensure it remains effective and productive for both developers.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Positive Feedback and Criticism",
+                        "recommendation-type": "opinion",
+                        "description": "In any code review process, providing positive feedback alongside constructive criticism is essential for creating a healthy and collaborative work environment. Recognizing and reinforcing good practices not only boosts team morale but also encourages the development of robust and maintainable code. As an integral part of the code review process, it is crucial to balance our feedback to avoid discouraging developers and to promote their growth. In this guide, we will discuss some tips to ensure that you provide positive feedback effectively during code reviews.\n\n- Highlight well-written code segments, efficient solutions, or adherence to coding standards, and express appreciation for these efforts.\n- Be specific with your positive feedback, and explain clearly what you liked about that particular piece of code.\n- Encourage developers to share their thought processes or challenges they overcame during the code implementation, which can foster team learning and make the developers feel valued.\n- Regularly acknowledge team members’ hard work and dedication to creating high-quality code. This recognition can foster motivation and dedication.\n- When offering constructive criticism, do so in a respectful and supportive manner, framing it as an opportunity for growth and learning.\n\nBy incorporating these tips into your code review process, you can create a more productive and positive experience for the entire team while fostering continuous improvement and collaboration.",
+                        "resources": []
                     }
+                    
+                    
+                    
+                    
+                    
+                    
+                    
                     
                     
                     
