@@ -684,7 +684,7 @@
                         "link": "https://www.marcobehler.com/guides/java-databases"
                     }
                 ],
-                "order": 1,
+                "order": 5,
                 "options": [
                     {
                         "name": "JPA",
@@ -796,7 +796,7 @@
                         "link": "https://www.marcobehler.com/guides/java-logging"
                     }
                 ],
-                "order": 1,
+                "order": 6,
                 "options": [
                     {
                         "name": "Log4j2",
@@ -902,17 +902,166 @@
                         "link": "https://www.browserstack.com/guide/testing-pyramid-for-test-automation"
                     }
                 ],
-                "order": 1,
+                "order": 7,
                 "Behavior Testing": {
-                    "options": []
+                    "options": [
+                        {
+                            "name": "Cucumber JVM",
+                            "recommendation-type": "opinion",
+                            "description": "Cucumber is a testing tool that supports Behavior Driven Development (BDD). It provides a user-friendly way to write tests that can be understood by individuals with varying levels of technical knowledge.",
+                            "resources": [
+                                {
+                                    "name": "Cucumber",
+                                    "link": "https://cucumber.io/"
+                                },
+                                {
+                                    "name": "Cucumber Documentation",
+                                    "link": "https://cucumber.io/docs/cucumber/"
+                                },
+                                {
+                                    "name": "Cucumber-JVM for Java",
+                                    "link": "https://automationpanda.com/2017/10/24/cucumber-jvm-for-java/"
+                                },
+                                {
+                                    "name": "Cucumber-JVM 5 with Enhanced Cucumber Expression",
+                                    "link": "https://www.youtube.com/watch?v=jCzpxvAJoZM"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Cukes",
+                            "recommendation-type": "opinion",
+                            "description": "cukes-rest simplifies Cucumber and offers HTTP specification bindings. It also provides additional features, including handling request/response content from a file system, variable support in .features files, context inflation in all steps, and a custom plug-in system for project-specific content.",
+                            "resources": [
+                                {
+                                    "name": "Cukes Github",
+                                    "link": "https://github.com/ctco/cukes"
+                                },
+                                {
+                                    "name": "Getting Started with Cukes-REST",
+                                    "link": "https://speakerdeck.com/larchaon/getting-started-with-cukes-rest?slide=23"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Jbehave",
+                            "recommendation-type": "opinion",
+                            "description": "JBehave is a framework for Behaviour-Driven Development (BDD), which aims to make TDD and acceptance-test driven design more accessible and intuitive. It focuses on behavior-based vocabulary and serves as a design philosophy.",
+                            "resources": [
+                                {
+                                    "name": "Jbehave",
+                                    "link": "https://jbehave.org/"
+                                },
+                                {
+                                    "name": "Jbehave Tutorial",
+                                    "link": "https://jbehave.org/tutorials.html"
+                                }
+                            ]
+                        }
+                        
+                        
+                        
+                       
+                        
+                    ]
                 },
                 "Integration Testing": {
-                    "options": []
+                    "options": [
+                        {
+                            "name": "Rest Assured",
+                            "recommendation-type": "opinion",
+                            "description": "Testing and validating REST services in Java can be challenging, but REST Assured simplifies this process by bringing the ease of dynamic languages like Ruby and Groovy to the Java domain.",
+                            "resources": [
+                                {
+                                    "name": "Rest-assured",
+                                    "link": "https://rest-assured.io/"
+                                },
+                                {
+                                    "name": "Rest-assured Documentation",
+                                    "link": "https://github.com/rest-assured/rest-assured/wiki"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "JMeter",
+                            "recommendation-type": "opinion",
+                            "description": "Apache JMeter is an Apache project used as a load testing tool to analyze and measure the performance of various services, with a primary focus on web applications.",
+                            "resources": [
+                                {
+                                    "name": "Apache JMeter Website",
+                                    "link": "https://jmeter.apache.org/"
+                                }
+                            ]
+                        }
+                        
+                        
+                    ]
                 },
                 "Unit Testing": {
-                    "options": []
+                    "options": [
+                        {
+                            "name": "JUnit",
+                            "recommendation-type": "opinion",
+                            "description": "JUnit is a testing framework for Java.",
+                            "resources": [
+                                {
+                                    "name": "JUnit",
+                                    "link": "https://junit.org/junit5"
+                                },
+                                {
+                                    "name": "JUnit Documentation",
+                                    "link": "https://junit.org/junit5/docs/current/user-guide/"
+                                },
+                                {
+                                    "name": "JUnit tutorial",
+                                    "link": "https://www.guru99.com/junit-tutorial.html"
+                                },
+                                {
+                                    "name": "Basic JUnit tutorial",
+                                    "link": "https://www.baeldung.com/junit-5"
+                                },
+                                {
+                                    "name": "Testing with JUnit crash course",
+                                    "link": "https://www.youtube.com/watch?v=flpmSXVTqBI"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "TestNG",
+                            "recommendation-type": "opinion",
+                            "description": "TestNG is a testing framework inspired from JUnit and NUnit but introducing some new functionalities that make it more powerful and easier to use.",
+                            "resources": [
+                                {
+                                    "name": "Testng",
+                                    "link": "https://testng.org/doc/"
+                                },
+                                {
+                                    "name": "Testng Documentation",
+                                    "link": "https://testng.org/doc/documentation-main.html"
+                                },
+                                {
+                                    "name": "Testng tutorial",
+                                    "link": "https://testng.org/doc/documentation-main.html#tutorials"
+                                }
+                            ]
+                        }
+                        
+                        
+                    ]
                 },
-                "options": []
+                "options": [
+                    {
+                        "name": "Mocking",
+                        "recommendation-type": "opinion",
+                        "description": "Mocking is a testing technique that isolates a unit under test from its external dependencies, creating a controlled testing environment. In traditional mocking, you create mock objects for classes that interact with the class being tested. Common targets for mocking include database connections, web services, slow classes, classes with side effects, and classes with non-deterministic behavior.",
+                        "resources": [
+                            {
+                                "name": "Mockito - Mocking Framework for Java",
+                                "link": "https://site.mockito.org/"
+                            }
+                        ]
+                    }
+                ]
             }
         }
     }
