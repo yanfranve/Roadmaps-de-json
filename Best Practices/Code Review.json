@@ -377,96 +377,459 @@
                             }
                         ]
                     }
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                   
 
+                ]
+            },
+            "During Development(author)": {
+              
+                "order": 2,
+                "options": [
+                    {
+                        "name": "Follow Guidelines",
+                        "recommendation-type": "opinion",
+                        "description": "In software development, following the coding standards and any other team guidelines is a crucial aspect of maintaining a consistent and highly readable codebase. Establishing a level of uniformity in your code allows your teammates to easily understand your work and minimize miscommunications during the code review process. To ensure you adhere to this best practice, consider the following tips:",
+                        "resources": [
+                            {
+                                "title": "Familiarize yourself with team coding standards and guidelines",
+                                "description": "These standards may include rules for naming conventions, file structures, indentation, and comment styles. Make sure you understand the rationale behind these rules and adhere to them consistently."
+                            },
+                            {
+                                "title": "Use a linter or code formatter",
+                                "description": "Tools like linters and formatters analyze your code and automatically flag or fix violations of the coding standards. They help to catch issues early and maintain consistency in your code."
+                            },
+                            {
+                                "title": "Peer review",
+                                "description": "Encourage your colleagues to review your code, even outside of the official code review process. This can help identify areas where you may not be following the standards and promote a strong team culture of mutual learning and improvement."
+                            },
+                            {
+                                "title": "Continuous learning",
+                                "description": "Update your knowledge on current best practices in programming and actively work on improving your skills. This will enable you to make better decisions about which coding standards to follow and contribute to the evolution of your team’s guidelines."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stay Consistent",
+                        "recommendation-type": "opinion",
+                        "description": "Consistency is vital because it ensures that your code integrates seamlessly with the rest of the project and maintains a coherent structure that is easy to understand and maintain. It also ensures that the system remains stable and reliable over time as it evolves. To achieve consistency, we recommend the following tips: familiarize yourself with the project’s design patterns and conventions, consider the impact of changes on the entire system, work closely with other team members to ensure alignment, and always prioritize consistency and maintainability over temporary optimizations or shortcuts. Now, let’s delve deeper into these tips to help you become a better code reviewer.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Failing Test for a Bug Fix",
+                        "recommendation-type": "opinion",
+                        "description": "A failing test is a valuable addition to the development process, as it ensures that developers can identify the root cause of the issue and verify that their changes effectively resolve the problem. This practice not only helps in improving code quality but also aids in avoiding regression in the future. To ensure you follow this best practice, below are some tips on how you can write a failing test for a bug fix:",
+                        "resources": [
+                            {
+                                "title": "Understand the bug",
+                                "description": "Analyze the issue report and, if possible, reproduce the bug locally to gain a clear understanding of the problem at hand."
+                            },
+                            {
+                                "title": "Write a test case",
+                                "description": "Create a test case that simulates the conditions under which the bug occurs, and make sure the test fails initially due to the presence of the bug."
+                            },
+                            {
+                                "title": "Implement the bug fix",
+                                "description": "Write the necessary code changes to resolve the bug while keeping the test case in mind."
+                            },
+                            {
+                                "title": "Verify the fix",
+                                "description": "Once the fix is implemented, run the test case again to ensure that the test case now passes, validating that the bug has been effectively resolved."
+                            },
+                            {
+                                "title": "Run other tests",
+                                "description": "Execute any additional test cases and perform a thorough code review to ensure that the bug fix does not create new issues or regressions in other parts of the codebase."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Break it Down",
+                        "recommendation-type": "opinion",
+                        "description": "Tackling large and complex tasks in software development can be overwhelming and time-consuming, not to mention the challenges it brings during the code review process. By breaking down these tasks into smaller, more manageable PRs (Pull Requests), we can ensure a smoother, faster, and more accurate code review. Smaller PRs are easier to understand, test, and merge which speeds up the development cycle and results in better code quality. Here are some tips to making sure your tasks are broken down into smaller PRs:",
+                        "resources": [
+                            {
+                                "title": "Modularize your code",
+                                "description": "Make sure your code is divided into logical modules and functions, with each module serving a single responsibility."
+                            },
+                            {
+                                "title": "Focus on one feature or bug fix per PR",
+                                "description": "Resist the temptation to fix multiple issues or implement several features within the same PR. This keeps the scope of the PR narrow and easier to review."
+                            },
+                            {
+                                "title": "Keep the changes incremental",
+                                "description": "If a task requires a significant amount of code changes, break it down into multiple PRs that can be built and tested independently."
+                            },
+                            {
+                                "title": "Communicate with your team",
+                                "description": "Make sure your team members know which tasks have been broken down and the order in which they should be reviewed and merged."
+                            },
+                            {
+                                "title": "Draft clear and concise PR descriptions",
+                                "description": "Outline the scope, purpose, and technical details of the PR, making it easier for reviewers to understand the changes and provide relevant feedback."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Impact of Change",
+                        "recommendation-type": "opinion",
+                        "description": "In software development, it’s crucial to consider the impact that any proposed changes to the code might have on other parts of the system. Modifications in one area might inadvertently affect the behavior of seemingly unrelated components, leading to unexpected issues and bugs. As the code reviewer, it is your responsibility to be mindful of potential side effects and to ensure that the proposed changes promote stability and maintainability. In this section, we will discuss strategies you can employ to evaluate the impact of changes on the overall system and offer tips to help you confirm that any modifications will not introduce new problems or conflicts. Remember, the goal is to improve the codebase and maintain the integrity of the system as a whole.",
+                        "resources": [
+                            {
+                                "title": "Analyze potential side effects",
+                                "description": "Consider how the proposed changes may impact other parts of the system and identify potential side effects."
+                            },
+                            {
+                                "title": "Review code dependencies",
+                                "description": "Examine the codebase for dependencies and interactions with the modified components."
+                            },
+                            {
+                                "title": "Test thoroughly",
+                                "description": "Ensure that thorough testing is conducted to verify that the changes do not introduce new problems or conflicts."
+                            },
+                            {
+                                "title": "Seek input from domain experts",
+                                "description": "Consult with domain experts or team members with expertise in the affected areas to gain insights into potential impacts."
+                            },
+                            {
+                                "title": "Maintain documentation",
+                                "description": "Keep documentation updated to reflect any changes and dependencies that could affect the system."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Note Questions for Review",
+                        "recommendation-type": "opinion",
+                        "description": "Taking notes on any questions or concerns about the change during a code review is essential for increasing efficiency and enabling better communication among team members. This practice allows you to be prepared with a clear list of points to discuss during the review meeting. In this section of the guide, we will outline various tips to help you make the most of this best practice in your code review process, such as setting aside time for note-taking, organizing your notes in a clear and logical manner, and using specific examples to illustrate your concerns. By following these tips, you will enhance the effectiveness of your code reviews and foster better collaboration within your team.",
+                        "resources": [
+                            {
+                                "title": "Allocate dedicated note-taking time",
+                                "description": "Set aside specific time during the review process to take notes on questions and concerns."
+                            },
+                            {
+                                "title": "Organize your notes logically",
+                                "description": "Ensure that your notes are structured in a clear and coherent manner, making them easy to follow."
+                            },
+                            {
+                                "title": "Use examples to illustrate concerns",
+                                "description": "Provide concrete code examples when noting concerns to facilitate better understanding."
+                            },
+                            {
+                                "title": "Prepare for review meetings",
+                                "description": "Use your notes to prepare for review meetings and discussions, ensuring all questions and concerns are addressed."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Write Automated Tests",
+                        "recommendation-type": "opinion",
+                        "description": "Writing automated tests is an essential best practice that plays a monumental role in assuring the software’s overall quality and stability. Automated tests not only exercise specific elements of your code, but they also ensure that your code functions correctly by systematically pinpointing issues that may not surface during casual usage. Incorporating automated testing into your code review process is indispensable, as it allows you to confidently approve code changes knowing that they perform as expected.",
+                        "resources": [
+                            {
+                                "title": "Prioritize test coverage",
+                                "description": "Write tests that cover the most important functionality, including edge cases, error handling, and integrations."
+                            },
+                            {
+                                "title": "Use a test framework",
+                                "description": "Leverage a testing framework to create well-structured, organized, and maintainable test suites."
+                            },
+                            {
+                                "title": "Adopt test-driven development",
+                                "description": "Write tests before implementing code to ensure accurate and efficient code design."
+                            },
+                            {
+                                "title": "Make testing part of your development process",
+                                "description": "Establish a consensus within your team that code changes must include appropriate tests."
+                            },
+                            {
+                                "title": "Keep tests up to date",
+                                "description": "Regularly update and refactor tests to ensure they accurately reflect the software’s functionality."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Documentation",
+                        "recommendation-type": "opinion",
+                        "description": "It is important to keep your project’s documentation up-to-date with every new feature or modifications made in your codebase. Comprehensive and well-maintained documentation plays a crucial role in the overall code review process, as it provides a clear understanding of the changes, their purpose, and their potential impact. This helps reviewers to efficiently assess the quality and relevance of your work.",
+                        "resources": [
+                            {
+                                "title": "Identify the need for documentation updates",
+                                "description": "Assess the significance of changes and new features for documentation updates."
+                            },
+                            {
+                                "title": "Be concise and descriptive",
+                                "description": "Provide essential information, benefits, use cases, and potential caveats in your documentation."
+                            },
+                            {
+                                "title": "Focus on clarity and simplicity",
+                                "description": "Use clear and straightforward language, avoiding jargon or complex phrases."
+                            },
+                            {
+                                "title": "Update relevant sections",
+                                "description": "Ensure that all pertinent sections of the documentation, such as user guides, API references, and developer notes, are updated."
+                            },
+                            {
+                                "title": "Include in-code comments",
+                                "description": "Add meaningful comments and explanations within your code to give context about specific blocks or sections."
+                            },
+                            {
+                                "title": "Encourage review and feedback",
+                                "description": "Ask your peers to provide feedback on the documentation updates during the code review process to ensure accuracy."
+                            },
+                            {
+                                "title": "Maintain proper versioning",
+                                "description": "Document and update the corresponding versions affected by the changes, especially if your project utilizes versioning."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Update Documentation",
+                        "recommendation-type": "opinion",
+                        "description": "In the process of improving and modifying code, it is crucial to keep the documentation up to date to ensure that other developers and users can understand and utilize the software efficiently. 'Updating any documentation that may have been made obsolete through the changes' means that whenever there is an alteration in the code, related documentation should also be revised accordingly. This practice helps maintain the coherence between the code and its documentation, and avoids confusion that could arise from contradicting or outdated information.",
+                        "resources": [
+                            {
+                                "title": "Make a habit of revisiting the documentation right after any code change",
+                                "description": "Consistently update documentation after each code modification to maintain alignment."
+                            },
+                            {
+                                "title": "During the code review process, include documentation checks as a standard step",
+                                "description": "Incorporate documentation review as part of the code review process to ensure consistency."
+                            },
+                            {
+                                "title": "Always double-check the affected areas in the documentation to ensure they align with the code changes",
+                                "description": "Thoroughly verify that documentation reflects the code changes in relevant sections."
+                            },
+                            {
+                                "title": "Use inline comments and clear commit messages to highlight any modifications made in the code, this will make updating the documentation easier",
+                                "description": "Clearly indicate code changes in the form of inline comments and commit messages to facilitate documentation updates."
+                            },
+                            {
+                                "title": "Collaborate with team members to cross-check both the code and documentation to ensure consistency and accuracy",
+                                "description": "Work with your team to ensure that both code and documentation remain aligned, consistent, and accurate."
+                            }
+                        ]
+                    }
+                    
+                    
+                    
+                    
+                    
+                 
                 ]
             },
             "After the Development(author)": {
                 "order": 3,
                 "options": [
                     {
-                        "name": "Throttle Requests",
+                        "name": "Self-review",
                         "recommendation-type": "opinion",
-                        "description": "Limit requests (throttling) to avoid DDoS / Brute Force attacks.\n\nLimiting requests through throttling is important to prevent DDoS attacks and brute force attacks. DDoS attacks overwhelm the server with too many requests, while brute force attacks try to guess user credentials through multiple login attempts. Throttling limits the number of requests that can be sent within a certain time period, making it harder for attackers to carry out these types of attacks. This can protect the system from being overwhelmed and can prevent attackers from gaining unauthorized access."
-                    },
-                    {
-                        "name": "Use HTTPs",
-                        "recommendation-type": "opinion",
-                        "description": "Use HTTPS on server side and secure ciphers\n\nEnsure that your API server uses HTTPS instead of HTTP. HTTPS is a secure protocol that encrypts data in transit, making it difficult for attackers to intercept and read sensitive information. To implement HTTPS, you need to obtain an SSL/TLS certificate and configure your server to use HTTPS.\n\nHTTPS uses ciphers to encrypt data in transit. It is important to choose secure ciphers that are resistant to attacks and offer strong encryption. Some common secure ciphers include AES, ChaCha20, and ECDHE for key exchange. Make sure to disable weak and outdated ciphers, such as RC4 and TLS 1.0/1.1, which are vulnerable to attacks."
-                    },
-                    {
-                        "name": "HSTS Header",
-                        "recommendation-type": "opinion",
-                        "description": "Use HSTS header with SSL to avoid SSL Strip attacks.\n\nSSL strip is a type of attack where an attacker intercepts traffic between a client and a server that is meant to be secured by SSL/TLS encryption, and downgrades the connection to a plain text (non-encrypted) HTTP connection. This type of attack can go unnoticed by the user because the attacker is able to redirect the user to a look-alike website that also uses HTTP instead of HTTPS.\n\nIn an SSL strip attack, the attacker sets up a man-in-the-middle (MITM) position between the client and the server. When the client initiates a connection with the server, the attacker intercepts the SSL/TLS traffic and removes or replaces the HTTPS links with HTTP links. This can trick the user into thinking they are using a secure connection when in fact, they are not. The attacker can then monitor and manipulate the data transmitted between the client and server.\n\nHSTS header is a security header that instructs browsers to only access the site over HTTPS. This header is used to prevent SSL Strip attacks. It is a good practice to use HSTS header with SSL."
-                    },
-                    {
-                        "name": "Directory Listings",
-                        "recommendation-type": "opinion",
-                        "description": "Turn off directory listings.\n\nDirectory listings are a feature of web servers that allow users to view the contents of a directory on a server. By default, web servers often have directory listings enabled, which means that anyone who has access to the server can see all the files and directories in a given folder.\n\nTurning off directory listings is important for API security because it prevents attackers from gaining access to sensitive files and directories on the server. If directory listings are enabled and an attacker gains access to the server, they can easily view and download any files that are not properly protected. By disabling directory listings, you can ensure that only authorized users can access the files and directories on the server."
-                    },
-                    {
-                        "name": "Restrict Private APIs",
-                        "recommendation-type": "opinion",
-                        "description": "Private APIs should only be accessible from safe-listed IPs.\n\nPrivate APIs should only be accessible from safe-listed IPs to ensure that only authorized users or systems can access the API. By restricting access to specific IP addresses, you can prevent unauthorized access from external networks or malicious actors. This can help to protect sensitive data and prevent attacks such as DDoS or brute-force attacks. Additionally, restricting access to safe-listed IPs can help to ensure the reliability and performance of the API by preventing excessive traffic from unauthorized sources."
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                           
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Reviewing your code by yourself not only helps you spot potential issues and make improvements, but it also saves time for your peers and shows respect for the collective effort. By thoroughly examining your work with a critical eye, you contribute to maintaining a high-quality and efficient code review process.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "title": "Take a break",
+                                "description": "After completing your work, step away from it for a while. This helps you review your code from a fresh perspective."
+                            },
+                            {
+                                "title": "Self-review checklist",
+                                "description": "Create a checklist of elements to inspect, such as syntax, logic, performance optimizations, and readability. This keeps your focus and ensures consistency across your code."
+                            },
+                            {
+                                "title": "Test thoroughly",
+                                "description": "Perform unit tests, integration tests, and run your code in various scenarios to ensure it works as expected."
+                            },
+                            {
+                                "title": "Read your code as if you’re the reviewer",
+                                "description": "Use the perspective of a teammate unfamiliar with your work to assess if your code is understandable and easy to follow."
+                            },
+                            {
+                                "title": "Verify documentation",
+                                "description": "Examine and update any documentation, comments, or inline explanations. This assists reviewers in understanding your code and its purpose."
                             }
-                            
                         ]
                     },
+                    
                     {
-                        "name": "",
+                        "name": "Ensuring Completeness of Change",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                           
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "I cannot emphasize enough the significance of submitting a well-prepared code change for review. This not only saves time for the reviewer and the author but also helps maintain high-quality code in the repository. Here are some essential tips to make sure that your code changes are complete and review-ready:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "title": "Verify thorough testing",
+                                "description": "Verify that you have thoroughly tested your changes in different scenarios to confirm that they work as expected and do not introduce any new issues."
+                            },
+                            {
+                                "title": "Write appropriate unit tests",
+                                "description": "Ensure that you have written appropriate unit tests for your changes. These tests should be concise, well-structured, and cover all the possible scenarios."
+                            },
+                            {
+                                "title": "Follow coding standards and style guides",
+                                "description": "Make sure your code follows the project’s coding standards and style guides. Consistency in style makes the code easier to read and maintain."
+                            },
+                            {
+                                "title": "Include clear and concise commit messages",
+                                "description": "Include clear and concise commit messages that provide context and background information about the changes made. This will help the reviewer understand the purpose and reasoning behind the changes."
+                            },
+                            {
+                                "title": "Update or add documentation",
+                                "description": "Update or add documentation related to your changes, if necessary. This can include in-code comments, user-facing documentation, or developer-focused guides."
+                            },
+                            {
+                                "title": "Perform a self-review",
+                                "description": "Before submitting your changes, perform a self-review. Reexamine your code closely to catch any potential issues or suggest improvements yourself."
                             }
-                            
+                        ]
+                    },
+                    
+                    {
+                        "name": "Tested in a Development Environment",
+                        "recommendation-type": "opinion",
+                        "description": "In a code review, it is essential to verify that the code change has been properly tested in a development environment before it is merged into the main codebase. This not only helps to detect potential issues early in the development process but also ensures that the changes function as intended without causing any unexpected behavior or side effects.",
+                        "resources": [
+                            {
+                                "title": "Examine the test results",
+                                "description": "Ensure that the developer has shared the test results alongside the code changes. Look for passed/failed test cases, test case coverage, and performance metrics."
+                            },
+                            {
+                                "title": "Validate the testing strategy",
+                                "description": "Check if the tests cover all the critical scenarios affected by the change and confirm that they address potential regression, edge cases, and potential security vulnerabilities."
+                            },
+                            {
+                                "title": "Request a demo",
+                                "description": "If possible, ask the developer to provide a demo of the changes working in the development environment. This can help you visualize the change and evaluate its impact on the software."
+                            },
+                            {
+                                "title": "Set up the development environment on your machine",
+                                "description": "By setting up the development environment and running the tests locally, you can get a first-hand experience of the changes made and ensure their effectiveness."
+                            },
+                            {
+                                "title": "Check the automated testing pipeline",
+                                "description": "Ensure that the Continuous Integration (CI) system is set up to run tests on the submitted code changes automatically. Monitor the pipeline for any test failures or performance degradation relating to the changes."
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "name": "Coding Standards and Best Practices",
+                        "recommendation-type": "opinion",
+                        "description": "Double-checking that the code adheres to the project’s coding standards and best practices is essential to maintain consistency, readability, and maintainability of the codebase. It ensures that individual developer preferences do not negatively impact the overall quality of the project. As you conduct a code review, it’s crucial to verify that the submitted code follows the agreed-upon guidelines in terms of style, architecture, and design patterns.",
+                        "resources": [
+                            {
+                                "title": "Familiarize yourself with the project’s coding guidelines and best practices before starting the review",
+                                "description": "Understanding the project's coding standards is the first step to ensure adherence."
+                            },
+                            {
+                                "title": "Use a linter or code analysis tool that automatically checks the code for style, syntax, and other standards-related issues",
+                                "description": "Leverage tools to automate the process of checking for coding standards compliance."
+                            },
+                            {
+                                "title": "Assess the code’s modularity, adherence to the Single Responsibility Principle, and the separation of concerns",
+                                "description": "Evaluate code structure and design principles for adherence to best practices."
+                            },
+                            {
+                                "title": "Verify that the code follows the project’s naming conventions for variables, functions, classes, and other elements",
+                                "description": "Consistency in naming is a key element of coding standards."
+                            },
+                            {
+                                "title": "Ensure that the code has appropriate and consistent comments and documentation, so it’s easy to understand and maintain",
+                                "description": "Documentation is crucial for code maintainability and understanding."
+                            },
+                            {
+                                "title": "Look out for code redundancy and possible performance bottlenecks",
+                                "description": "Identify areas that might affect code performance and maintainability."
+                            },
+                            {
+                                "title": "Compare the code to similar implementations in the project to determine if it aligns with established conventions and patterns",
+                                "description": "Alignment with existing project patterns is an important aspect of coding standards."
+                            },
+                            {
+                                "title": "Confirm that unit tests and integration tests are in place and cover the critical functionality of the code",
+                                "description": "Testing is integral to verifying code quality and functionality."
+                            },
+                            {
+                                "title": "In case of any doubts or uncertainties, consult with other team members or the project’s lead developer for clarification",
+                                "description": "Effective communication within the team is crucial for maintaining coding standards."
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "name": "Potential Issues",
+                        "recommendation-type": "opinion",
+                        "description": "Being proactive about potential performance, security, and scalability issues can save significant time and effort, as well as ensure that your code is optimized for growth and adaptability. To make sure that you are addressing these concerns during the review, consider the following tips: analyze the complexity of any algorithms used, ensure proper memory management, validate user inputs, and plan for future enhancements. By keeping these factors in mind, you can effectively contribute to building a stable and efficient software solution.",
+                        "resources": []
+                    },
+                    {
+                        "name": "About Pull Requests",
+                        "recommendation-type": "opinion",
+                        "description": "Providing a proper title, description, screenshots, relevant links, and configuration changes helps reviewers quickly grasp the purpose, functionality, and any other important context associated with the changes introduced by the PR. To ensure the quality and effectiveness of your PR documentation, follow these helpful tips:",
+                        "resources": [
+                            {
+                                "title": "Title",
+                                "description": "Choose a clear and concise title, summarizing the main purpose or functionality added by the changes."
+                            },
+                            {
+                                "title": "Description",
+                                "description": "Write a thorough description of what your changes do, how they work, and any potential side effects or limitations. Make sure to include information about the problem you are solving or the feature you are implementing."
+                            },
+                            {
+                                "title": "Screenshots",
+                                "description": "If your changes involve visual elements or affect the user interface, include screenshots to give reviewers a better understanding of the visual impact."
+                            },
+                            {
+                                "title": "Relevant Links",
+                                "description": "Provide any relevant links, such as issue trackers, feature requests, or design documents, to aid reviewers in understanding the context of your work."
+                            },
+                            {
+                                "title": "Configuration Changes",
+                                "description": "Mention any changes in configuration settings or introduce any new settings that are required to run or test your code. Explain how these settings should be used and what their default values should be."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Open Mind as an Author",
+                        "recommendation-type": "opinion",
+                        "description": "In the software development world, code reviews are an essential component of a successful and productive team. They provide valuable insights to improve code quality, encourage collaboration, and foster a learning environment. It is vital to approach the review process with an open mind and be willing to learn from and collaborate with other team members. This not only helps you grow as a developer but also contributes to building a positive work atmosphere. In this section, we will discuss some useful tips on maintaining an open-minded attitude during code reviews and ensuring effective collaboration within the team.",
+                        "resources": [
+                            {
+                                "title": "Understand that everyone has unique perspectives and strengths",
+                                "description": "Recognize that your team members may have different areas of expertise and can offer valuable insights."
+                            },
+                            {
+                                "title": "Embrace constructive criticism",
+                                "description": "Do not take negative feedback personally. Instead, view it as an opportunity to improve and learn."
+                            },
+                            {
+                                "title": "Be patient and polite",
+                                "description": "Give your colleagues the space and time to express their thoughts, ask questions, and provide feedback."
+                            },
+                            {
+                                "title": "Ask for clarifications",
+                                "description": "If you’re unsure about a suggestion or comment, ask the reviewer to explain their rationale, instead of making assumptions or getting defensive."
+                            },
+                            {
+                                "title": "Share your knowledge",
+                                "description": "If you notice room for improvement in someone else’s code, share your knowledge without making the person feel inferior."
+                            },
+                            {
+                                "title": "Be willing to change your approach",
+                                "description": "If a colleague suggests an alternative solution, consider it seriously and weigh the pros and cons."
+                            },
+                            {
+                                "title": "Learn from the experience",
+                                "description": "Reflect on each code review, considering the comments and suggestions made. Incorporate the lessons learned in future projects."
+                            }
                         ]
                     }
+                   
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+               
                 ]
             },
             "Before Reviewing (Reviewer)": {
-                "order": 4,
+                "order": 3,
                 "options": [
                     {
                         "name": "redirect_uri",
@@ -591,7 +954,7 @@
                 ]
             },
             "During Code Review (Reviewer)": {
-                "order": 5,
+                "order": 4,
                 "options": [
                     {
                         "name": "Proper HTTP Methods",
@@ -633,7 +996,7 @@
             },
             "After the Code Review(author)": {
                
-                "order": 6,
+                "order": 5,
                 "options": [
                     {
                         "name": "Endpoint Authentication",
@@ -679,7 +1042,7 @@
             },
             "After the Code Review(Reviewer)": {
                 
-                "order": 7,
+                "order": 6,
                 "options": [
                     {
                         "name": "X-Content-Type-Options: nosniff",
@@ -722,7 +1085,7 @@
             },
             "After Approval(author/Reviewer)": {
                 
-                "order": 8,
+                "order": 7,
                 "options": [
                     {
                         "name": "Unit/Integration Tests",
