@@ -1,21 +1,43 @@
 {
     "Skill": {
         "Code Review": {
-            "Code Style": {
-                "description": "Is the project’s formatting style applied?\nDoes it adhere to the agreed-upon naming conventions?\nIs it DRY (Don't Repeat Yourself)?\nIs the code sufficiently 'readable' (method lengths, etc.)?"
-            },
-            "Tests": {
-                "description": "Is the project’s formatting style applied?\nDoes it adhere to the agreed-upon naming conventions?\nIs it DRY (Don't Repeat Yourself)?\nIs the code sufficiently 'readable' (method lengths, etc.)?"
-            },
-            "Documentation": {
-                "description": "Are the new features reasonably documented?\nAre all relevant types of documentation covered, such as README, API docs, user guide, reference docs, etc?\nIs the documentation understandable and free of significant typos and grammar mistakes?"
-            },
-            "Implementation Semantice": {
-                "description": "Does it satisfy the original requirements?\nIs it logically correct?\nIs there no unnecessary complexity?\nIs it robust (no concurrency issues, proper error handling, etc.)?\nIs it performant?\nIs it secure e.g., no SQL injections, etc?\nIs it observable e.g., metrics, logging, tracing, etc.?\nDo newly added dependencies pull their weight? Is their license acceptable?"
-            },
-            "AOI Semantics": {
-                "description": "API as small as possible, as large as needed?\nIs there one way of doing one thing, not multiple ones?\nIs it consistent, does it follow the principle of least surprise?\nClean split of API/internals without internals leaking into the API?\nAre there no breaking changes to user-facing parts (API classes, configuration, metrics, log formats, etc)?\nIs a new API generally useful and not overly specific to a single use case?"
-            }
+            "options": [
+                {
+                    "name": "Code Style",
+                    "recommendation-type": "opinion",
+                    "description": "Is the project’s formatting style applied?\nDoes it adhere to the agreed-upon naming conventions?\nIs it DRY (Don't Repeat Yourself)?\nIs the code sufficiently 'readable' (method lengths, etc.)?"
+                  
+                },
+                {
+                    "name": "Tests",
+                    "recommendation-type": "opinion",
+                    "description": "Is the project’s formatting style applied?\nDoes it adhere to the agreed-upon naming conventions?\nIs it DRY (Don't Repeat Yourself)?\nIs the code sufficiently 'readable' (method lengths, etc.)?"
+                  
+                },
+                {
+                    "name": "Documentation",
+                    "recommendation-type": "opinion",
+                    "description": "Are the new features reasonably documented?\nAre all relevant types of documentation covered, such as README, API docs, user guide, reference docs, etc?\nIs the documentation understandable and free of significant typos and grammar mistakes?"
+                  
+                },
+                {
+                    "name": "Implementation Semantice",
+                    "recommendation-type": "opinion",
+                    "description": "Does it satisfy the original requirements?\nIs it logically correct?\nIs there no unnecessary complexity?\nIs it robust (no concurrency issues, proper error handling, etc.)?\nIs it performant?\nIs it secure e.g., no SQL injections, etc?\nIs it observable e.g., metrics, logging, tracing, etc.?\nDo newly added dependencies pull their weight? Is their license acceptable?"
+                  
+                },
+                {
+                    "name": "AOI Semantics",
+                    "recommendation-type": "opinion",
+                    "description": "API as small as possible, as large as needed?\nIs there one way of doing one thing, not multiple ones?\nIs it consistent, does it follow the principle of least surprise?\nClean split of API/internals without internals leaking into the API?\nAre there no breaking changes to user-facing parts (API classes, configuration, metrics, log formats, etc)?\nIs a new API generally useful and not overly specific to a single use case?"
+                  
+                }
+            ]
+            
+            
+           
+           
+          
         }
     }
 }
