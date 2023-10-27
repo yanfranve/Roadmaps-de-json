@@ -55,11 +55,54 @@
                                 "name": "Functions in go",
                                 "link": "https://www.golangprograms.com/go-language/functions.html"
                             }
-                          
+                        ]
+                    },
+                    {
+                        "name": "Packages",
+                        "recommendation-type": "opinion",
+                        "description": "Packages are the most powerful part of the Go language. The purpose of a package is to design and maintain a large number of programs by grouping related features together into single units so that they can be easy to maintain and understand and independent of the other package programs. This modularity allows them to share and reuse. In Go language, every package is defined with a different name and that name is close to their functionality like “strings” package and it contains methods and functions that are only related to strings.",
+                        "resources": [
+                            {
+                                "name": "How to create a package in Go",
+                                "link": "https://example.com/create-package-go"
+                            },
+                            {
+                                "name": "How to manage external dependencies in Go",
+                                "link": "https://example.com/manage-dependencies-go"
+                            },
+                            {
+                                "name": "Go Packages explorer",
+                                "link": "https://example.com/go-packages-explorer"
+                            },
+                            {
+                                "name": "Standard library",
+                                "link": "https://example.com/standard-library-go"
+                            },
+                            {
+                                "name": "Packages in Golang",
+                                "link": "https://example.com/packages-golang"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Type Casting",
+                        "recommendation-type": "opinion",
+                        "description": "Go doesn’t support automatic type conversion, but it allows type casting, which is the process of explicitly changing the variable type.",
+                        "resources": [
+                            {
+                                "name": "Geeks for Geeks: Type casting",
+                                "link": "https://www.geeksforgeeks.org/type-conversion-in-go/"
+                            },
+                            {
+                                "name": "Tour of Go: Type Casting Basics",
+                                "link": "https://tour.golang.org/moretypes/13"
+                            },
+                            {
+                                "name": "Go Docs: Type Casting",
+                                "link": "https://golang.org/ref/spec#Conversions"
+                            }
                         ]
                     }
-                    
-                   
                 ]
             },
             "Go advanced": {
@@ -74,34 +117,79 @@
                 "order": 3,
                 "options": [
                     {
-                        "name": "Structured Data",
+                        "name": "Urfave cli",
                         "recommendation-type": "opinion",
-                        "description": "Asking the model to generate structured data is a great way to utilize the power of LLMs.",
-                        "resources": []
+                        "description": "Urfave cli is a simple, fast, and fun package for building command line apps in Go.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Urfave cli Github Repo",
+                                "link": "https://github.com/urfave/cli"
+                            },
+                            {
+                                "name": "https://cli.urfave.org/",
+                                "link": "https://cli.urfave.org/"
+                            },
+                            {
+                                "name": "How to Build cli in Go",
+                                "link": "https://blog.hackajob.co/how-to-build-cli-in-go/"
+                            },
+                            {
+                                "name": "Building CLI using urfave cli",
+                                "link": "https://zerokspot.com/weblog/2021/01/25/building-a-cli-using-urfave-cli/"
+                            }
+                        ]
                     },
                     {
-                        "name": "Inferring",
+                        "name": "Cobra",
                         "recommendation-type": "opinion",
-                        "description": "Making use of LLMs to infer information from text is another common use case.",
-                        "resources": []
-                    },
-                    {
-                        "name": "Writing Emails",
-                        "recommendation-type": "opinion",
-                        "description": "Language Models, like ChatGPT, can be incredibly beneficial for writing emails due to their ability to generate coherent and contextually appropriate text. When composing an email, an LLM can provide assistance with various aspects, such as generating engaging introductions or addressing specific questions or concerns. For instance, if you're writing a sales email, you can prompt the LLM with the request to generate a compelling opening paragraph that captures the recipient's attention. Similarly, when responding to customer inquiries, you can ask the LLM to help craft clear and informative responses that address the query with precision.\n\nFor example, here is a prompt to generate an automated email response to a customer inquiry:\n\nWrite an email informing a customer that their inquiry has been received and will be addressed shortly. Include the order number and the customer's name in the email.\n\nHere is the response generated by the LLM:\n\nSubject: Confirmation - Inquiry Received - Order #123456\n\nDear [Customer's Name],\n\nI'm writing to confirm that we have received your inquiry regarding your recent order. We appreciate you taking the time to reach out to us.\n\nYour order number is #123456, and we understand the importance of your inquiry. Rest assured, our team is already reviewing your case and will address it promptly. We strive to provide a timely response and a satisfactory resolution to all customer inquiries.\n\nIf we require any additional information or clarification, we will reach out to you directly. In the meantime, please feel free to contact us if you have any further questions or concerns about your order.\n\nWe value your business and are committed to ensuring your complete satisfaction. Thank you for choosing our company, and we appreciate your patience as we work on addressing your inquiry.\n\nBest regards,\nAI Customer Service",
-                        "resources": []
+                        "description": "Cobra is a library for creating powerful modern CLI applications.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Cobra Github Repo",
+                                "link": "https://github.com/spf13/cobra"
+                            },
+                            {
+                                "name": "Cobra Website",
+                                "link": "https://cobra.dev/"
+                            },
+                            {
+                                "name": "Cobra Package Documentation",
+                                "link": "https://pkg.go.dev/github.com/spf13/cobra/"
+                            }
+                        ]
                     }
                 ]
             },
             "ORMs": {
-                "description": " ",
+                "description": "Object-relational mapping (ORM, O/RM, and O/R mapping tool) in computer science is a programming technique for converting data between type systems using object-oriented programming languages. This creates, in effect, a “virtual object database”, hence a layer of abstraction, that can be used from within the programming language. Most common ORM library in Go is GORM. ",
                 "resources": [],
                 "order": 4,
-                "options": []
+                "options": [
+                    {
+                        "name": "Gorm",
+                        "recommendation-type": "opinion",
+                        "description": "The GORM is a fantastic ORM library for Golang, aiming to be developer-friendly. It is an ORM library for dealing with relational databases, developed on top of the database/sql package. It offers a full-featured ORM experience.",
+                        "resources": [
+                            {
+                                "name": "Gorm",
+                                "link": "https://gorm.io/"
+                            },
+                            {
+                                "name": "Gorm Package",
+                                "link": "https://pkg.go.dev/gorm.io/gorm"
+                            }
+                        ]
+                    }
+                ]
             },
             "Web Frameworks": {
-                "description": " ",
-                "resources": [],
+                "description": "There are several famous web frameworks for Go. Most common ones being:\n Beego,GinRevel,Echo\nVisit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "Comparison of Web Frameworks",
+                        "link": "https://github.com/diyan/go-web-framework-comparison/"
+                    }
+                ],
                 "order": 5,
                 "options": []
             },
@@ -118,34 +206,303 @@
                     }
                 ],
                 "order": 6,
-                "options": []
+                "options": [
+                    {
+                        "name": "Zerolog",
+                        "recommendation-type": "opinion",
+                        "description": "The zerolog package provides a fast and simple logger dedicated to JSON output.Zerolog’s API is designed to provide both a great developer experience and stunning performance. Its unique chaining API allows zerolog to write JSON (or CBOR) log events by avoiding allocations and reflection.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "GitHub Repository",
+                                "link": "https://github.com/rs/zerolog"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Zap",
+                        "recommendation-type": "opinion",
+                        "description": "Blazing fast, structured, leveled logging in Go.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "GitHub Repository",
+                                "link": "https://github.com/uber-go/zap"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Apex",
+                        "recommendation-type": "opinion",
+                        "description": "Structured logging package for Go.Visit the following resources to learn more: :",
+                        "resources": [
+                            {
+                                "name": "GitHub Repository",
+                                "link": "https://github.com/apex/log"
+                            }
+                        ]
+                    }
+                ]
             },
             "Go realtime communication": {
                 "description": " ",
                 "resources": [],
-                "order": 1,
-                "options": []
+                "order": 7,
+                "options": [
+                    {
+                        "name": "Melody",
+                        "recommendation-type": "opinion",
+                        "description": "Melody is websocket framework based on github.com/gorilla/websocket that abstracts away the tedious parts of handling websockets. It gets out of your way so you can write real-time apps. Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "GitHub Repository",
+                                "link": "https://github.com/olahol/melody"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Centrifugo",
+                        "recommendation-type": "opinion",
+                        "description": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, SSE/EventSource, GRPC, SockJS, WebTransport). Centrifugo has the concept of a channel – so it’s a user-facing PUB/SUB server. Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "GitHub Repository",
+                                "link": "https://github.com/centrifugal/centrifugo"
+                            },
+                            {
+                                "name": "Getting started",
+                                "link": "https://centrifugal.dev/docs/getting-started/introduction"
+                            }
+                        ]
+                    }
+                ]
             },
             "API Clients": {
                 "description": "An API client is a set of tools and protocols that operate from an application on a computer. They help you to bypass some operations when developing a web application rather than reinventing the wheel every time. Using a client API is a great way to speed up the development process.\nVisit the following resources to learn more: ",
-                "resources": [],
-                "order": 1,
-                "options": [{
-                    "name": "API Clients",
-                    "link": "https://rapidapi.com/blog/api-glossary/client/"
-                }]
+                "resources": [
+                    {
+                        "name": "API Clients",
+                        "link": "https://rapidapi.com/blog/api-glossary/client/"
+                    }
+                ],
+                "order": 8,
+                "options": [
+                    {
+                        "name": "REST",
+                        "recommendation-type": "opinion",
+                        "description": "REST (Representational State Transfer) API (Application Programming Interface) is used to deliver user functionality when dealing with websites. HTTP requests are used to communicate with REST APIs so users can navigate a URL website. These URLs can return certain information that is stored as part of the API.",
+                        "resources": [
+                            {
+                                "name": "Tutorial",
+                                "link": "INSERT_TUTORIAL_LINK_HERE"
+                            },
+                            {
+                                "name": "RESTful APIs Series",
+                                "link": "INSERT_RESTFUL_APIS_SERIES_LINK_HERE"
+                            },
+                            {
+                                "name": "Introduction to RESTful APIs",
+                                "link": "INSERT_INTRODUCTION_LINK_HERE"
+                            }
+                        ]
+                    }
+                ]
             },
             "Testing Go Code": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
+                "description": "Go has a built-in testing command that we can use to test our program.",
+                "resources": [
+                    {
+                        "name": "Official Go Tutorial: Add a test",
+                        "link": "https://tour.golang.org/welcome/1"
+                    },
+                    {
+                        "name": "Go by Example: Testing",
+                        "link": "https://gobyexample.com/testing"
+                    },
+                    {
+                        "name": "YourBasic Go: Table-driven unit tests",
+                        "link": "https://yourbasic.org/golang/unit-testing-go/"
+                    },
+                    {
+                        "name": "Learn Go with Tests",
+                        "link": "https://quii.gitbook.io/learn-go-with-tests/"
+                    }
+                ],
+                "order": 9,
                 "options": []
             },
             "Tools for Microservices": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
+                "description": "Microservices are an architectural approach to software development that allows the creation of a distributed application from deployable services that allow communication through a well-defined API. Being a solution to monoliths.",
+                "resources": [
+                    {
+                        "name": "Introduction to microservices",
+                        "link": "https://microservices.io/"
+                    },
+                    {
+                        "name": "Microservice Patterns and Resources by Chris Richardson",
+                        "link": "https://microservices.io/patterns/index.html"
+                    },
+                    {
+                        "name": "Microservices AntiPatterns and Pitfalls - Mark Richards",
+                        "link": "https://www.oreilly.com/library/view/microservices-antipatterns-and/9781492048093/"
+                    },
+                    {
+                        "name": "Building Microservices, 2nd Edition - Sam Newman",
+                        "link": "https://samnewman.io/books/building-microservices/"
+                    }
+                ],
+                "order": 10,
+                "options": [
+                    {
+                        "name": "Protocol Buffers",
+                        "recommendation-type": "opinion",
+                        "description": "Protocol Buffers(Protobuf) is a free, open-source, language-neutral, platform-neutral, extensible data format used to serialize structured data. It’s like JSON, except it’s smaller and faster, and it generates native language bindings.",
+                        "resources": [
+                            {
+                                "name": "Protobuf Github",
+                                "link": "https://github.com/protocolbuffers/protobuf"
+                            },
+                            {
+                                "name": "Protobuf Documentation",
+                                "link": "https://developers.google.com/protocol-buffers"
+                            },
+                            {
+                                "name": "Protobuf with Go",
+                                "link": "https://developers.google.com/protocol-buffers/docs/reference/go-generated"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "gRPC Go",
+                        "recommendation-type": "opinion",
+                        "description": "Go language implementation of gRPC (gRPC is a technology for implementing RPC APIs).",
+                        "resources": [
+                            {
+                                "name": "gRPC-go Github",
+                                "link": "https://github.com/grpc/grpc-go"
+                            },
+                            {
+                                "name": "gRPC-go Doc",
+                                "link": "https://pkg.go.dev/google.golang.org/grpc"
+                            },
+                            {
+                                "name": "Basic tutorial introduction to gRPC in Go",
+                                "link": "https://grpc.io/docs/languages/go/basics/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "gRPC Gateway",
+                        "recommendation-type": "opinion",
+                        "description": "gRPC-Gateway creates a layer over gRPC services that will act as a RESTful service to a client. It is a plugin of protoc. It reads a gRPC service definition and generates a reverse-proxy server which translates a RESTful JSON API into gRPC.",
+                        "resources": [
+                            {
+                                "name": "gRPC-Gateway Github",
+                                "link": "https://github.com/grpc-ecosystem/grpc-gateway"
+                            },
+                            {
+                                "name": "gRPC-Gateway Documentation",
+                                "link": "https://grpc-ecosystem.github.io/grpc-gateway/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Twirp",
+                        "recommendation-type": "opinion",
+                        "description": "Twirp is a framework for service-to-service communication emphasizing simplicity and minimalism. It generates routing and serialization from API definition files and lets you focus on your application’s logic instead of thinking about folderol like HTTP methods and paths and JSON. Twirp is similar to gRPC, but without the custom HTTP server and transport implementations: it runs on the standard library’s extremely-well-tested-and-high-performance net/http Server. It can run on HTTP 1.1, not just http/2, and supports JSON serialization for easy debugging.",
+                        "resources": [
+                            {
+                                "name": "GitHub Repository",
+                                "link": "https://github.com/twitchtv/twirp"
+                            },
+                            {
+                                "name": "Getting started",
+                                "link": "https://github.com/twitchtv/twirp/blob/main/docs/getting_started.md"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rpcx",
+                        "recommendation-type": "opinion",
+                        "description": "Rpcx is a RPC (Remote Procedure Call) framework like Alibaba Dubbo and Weibo Motan. Some of the advantages of using Rpcx:\n\nSimple: easy to learn, easy to develop, easy to integrate, and easy to deploy\nPerformance: high performance (>= grpc-go)\nCross-platform: supports raw slice of bytes, JSON, Protobuf, and MessagePack. Theoretically, it can be used with Java, PHP, Python, C/C++, Node.js, C#, and other platforms\nService discovery and service governance: supports ZooKeeper, etcd, and Consul.",
+                        "resources": [
+                            {
+                                "name": "Rpcx English Documentation",
+                                "link": "https://github.com/smallnest/rpcx/blob/master/README.md"
+                            },
+                            {
+                                "name": "Rpcx Github",
+                                "link": "https://github.com/smallnest/rpcx"
+                            },
+                            {
+                                "name": "Rpcx Official Website",
+                                "link": "https://rpcx.io/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Go kit",
+                        "recommendation-type": "opinion",
+                        "description": "Go kit is a programming toolkit for building microservices (or elegant monoliths) in Go. It solves common problems in distributed systems and application architecture so you can focus on delivering business value.",
+                        "resources": [
+                            {
+                                "name": "Go-kit Website",
+                                "link": "https://gokit.io/"
+                            },
+                            {
+                                "name": "Microservices in Go using the Go kit",
+                                "link": "https://medium.com/@manakuro/microservices-in-go-using-go-kit-407cc40156e0"
+                            },
+                            {
+                                "name": "Building Microservices with the Go Kit Toolkit",
+                                "link": "https://gokit.io/examples/stringsvc.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Micro",
+                        "recommendation-type": "opinion",
+                        "description": "It is an API first development platform. It leverages the microservices architecture pattern and provides a set of services which act as the building blocks of a platform.",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://micro.mu/"
+                            },
+                            {
+                                "name": "Micro Github",
+                                "link": "https://github.com/micro/micro"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "go-zero",
+                        "recommendation-type": "opinion",
+                        "description": "go-zero is a web and rpc framework with lots of engineering best practices builtin. It’s born to ensure the stability of the busy services with resilience design, and has been serving sites with tens of millions users for years.",
+                        "resources": [
+                            {
+                                "name": "Go-zero",
+                                "link": "https://go-zero.dev/"
+                            },
+                            {
+                                "name": "Go-zero Docs",
+                                "link": "https://go-zero.dev/docs/getting-started.html"
+                            },
+                            {
+                                "name": "GitHub Repository",
+                                "link": "https://github.com/tal-tech/go-zero"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Watermill",
+                        "recommendation-type": "opinion",
+                        "description": "Watermill is an event streaming library for handling asynchronous requests in go. It provides multiple sets of implementations for pub/sub. e.g: You can use conventional pub/sub implementations like Kafka or RabbitMQ, but also HTTP or MySQL binlog, if that fits your use case.",
+                        "resources": [
+                            {
+                                "name": "Watermill Website",
+                                "link": "https://watermill.io/"
+                            }
+                        ]
+                    }
+                ]
             }
         }
     }
