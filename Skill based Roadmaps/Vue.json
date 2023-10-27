@@ -1,0 +1,993 @@
+{
+    "Skill": {
+        "Vue": {
+            "Fundamental Topics": {
+                "description": "Explore Vue.js, a JavaScript framework for building user interfaces. Learn about its declarative and component-based programming model.",
+                "resources": [
+                    {
+                        "name": "Vue.js Official Website",
+                        "link": "https://vuejs.org/"
+                    },
+                    {
+                        "name": "Official Documentation",
+                        "link": "https://vuejs.org/guide/introduction.html"
+                    }
+                ],
+                "order": 1,
+                "options": [
+                    {
+                        "name": "App Configurations",
+                        "recommendation-type": "opinion",
+                        "description": "Learn how to access and modify application configurations using the provided config object.",
+                        "resources": [
+                            {
+                                "name": "Official Documentation",
+                                "link": "https://vuejs.org/api/application.html#app-config"
+                            },
+                            {
+                                "name": "Official API Documentation",
+                                "link": "https://vuejs.org/api/application.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rendering Lists",
+                        "recommendation-type": "opinion",
+                        "description": "Learn how to use the v-for directive to render lists in Vue.js.",
+                        "resources": [
+                            {
+                                "name": "Rendering Lists in Vue.js",
+                                "link": "https://vuejs.org/guide/essentials/list.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Conditional Rendering",
+                        "recommendation-type": "opinion",
+                        "description": "Learn how to use the v-if directive for conditional rendering in Vue.js.",
+                        "resources": [
+                            {
+                                "name": "Conditional Rendering",
+                                "link": "https://vuejs.org/guide/essentials/conditional.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lifecycle Hooks",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about the lifecycle hooks in Vue.js that allow you to add your own code at specific stages of component initialization.",
+                        "resources": [
+                            {
+                                "name": "Life Cycle Hooks",
+                                "link": "https://vuejs.org/guide/essentials/lifecycle.html"
+                            },
+                            {
+                                "name": "The Lifecycles of Vue.js",
+                                "link": "https://dev.to/amolikvivian/the-lifecycles-of-vue-js-lhh"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Forms Handling",
+                        "recommendation-type": "opinion",
+                        "description": "Learn how to use the v-model directive in Vue.js to create two-way data bindings on form input elements.",
+                        "resources": [
+                            {
+                                "name": "Form Input Bindings",
+                                "link": "https://vuejs.org/guide/essentials/forms.html"
+                            },
+                            {
+                                "name": "Vue JS 3 Tutorial - Form Handling",
+                                "link": "https://www.youtube.com/watch?v=T-AE-GtSlN4"
+                            },
+                            {
+                                "name": "A complete guide to forms in Vue.js",
+                                "link": "https://blog.logrocket.com/an-imperative-guide-to-forms-in-vue-js-2/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Events Handling",
+                        "recommendation-type": "opinion",
+                        "description": "Learn how to handle events in Vue.js and make your dynamic website respond to user interactions.",
+                        "resources": [
+                            {
+                                "name": "Event Handling in Vue.js",
+                                "link": "https://vuejs.org/guide/essentials/event-handling.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Computed Properties",
+                        "recommendation-type": "opinion",
+                        "description": "Learn how to use computed properties in Vue.js to simplify complex logic and improve code maintainability.",
+                        "resources": [
+                            {
+                                "name": "Computed Properties",
+                                "link": "https://vuejs.org/guide/essentials/computed.html#computed-properties"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vue CLI",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about Vue CLI, a powerful tool for rapid Vue.js development with interactive scaffolding, runtime dependencies, plugins, and a full graphical user interface.",
+                        "resources": [
+                            {
+                                "name": "Vue CLI Guide",
+                                "link": "https://cli.vuejs.org/guide/"
+                            }
+                        ]
+                    },
+                    {
+                        "Components": {
+                            "description": "Learn about components in Vue.js and how they enable you to create reusable and isolated pieces of user interfaces.",
+                            "resources": [
+                                {
+                                    "name": "Components Basics",
+                                    "link": "https://vuejs.org/guide/essentials/component-basics.html"
+                                },
+                                {
+                                    "name": "Components in Depth",
+                                    "link": "https://vuejs.org/guide/components/registration.html"
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "name": "Single File Components",
+                                    "recommendation-type": "opinion",
+                                    "description": "Learn about Vue Single-File Components (SFC) and how they enable you to encapsulate a component's template, logic, and styling in a single file for better organization and reusability.",
+                                    "resources": [
+                                        {
+                                            "name": "Single File Components",
+                                            "link": "https://vuejs.org/guide/scaling-up/sfc.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Component Registration",
+                                    "recommendation-type": "opinion",
+                                    "description": "Learn about registering Vue components, whether globally or locally, to make them available for use in your Vue templates.",
+                                    "resources": [
+                                        {
+                                            "name": "Component Registration",
+                                            "link": "https://vuejs.org/guide/components/registration.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Props",
+                                    "recommendation-type": "opinion",
+                                    "description": "Learn about using props in Vue.js to pass data to components, making them flexible and reusable.",
+                                    "resources": [
+                                        {
+                                            "name": "Props Basics",
+                                            "link": "https://vuejs.org/guide/essentials/component-basics.html#passing-props"
+                                        },
+                                        {
+                                            "name": "Props in Depth",
+                                            "link": "https://vuejs.org/guide/components/props.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Events",
+                                    "recommendation-type": "opinion",
+                                    "description": "Learn how to use events in Vue.js to communicate between components and notify parent components of actions.",
+                                    "resources": [
+                                        {
+                                            "name": "Listening to Events",
+                                            "link": "https://vuejs.org/guide/essentials/component-basics.html#listening-to-events"
+                                        },
+                                        {
+                                            "name": "Events in Detail",
+                                            "link": "https://vuejs.org/guide/components/events.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Attribute Inheritance",
+                                    "recommendation-type": "opinion",
+                                    "description": "Learn how attribute inheritance works in Vue.js, allowing components to inherit attributes from their parent components.",
+                                    "resources": [
+                                        {
+                                            "name": "Fallthrough Attributes",
+                                            "link": "https://vuejs.org/guide/components/attrs.html"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Templates",
+                        "recommendation-type": "opinion",
+                        "description": "Learn how Vue uses an HTML-based template syntax to bind the DOM to component data declaratively.",
+                        "resources": [
+                            {
+                                "name": "Template Syntax",
+                                "link": "https://vuejs.org/guide/essentials/template-syntax.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Directives",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about Vue's special attributes with the v- prefix and explore the built-in directives.",
+                        "resources": [
+                            {
+                                "name": "Directives Documentation",
+                                "link": "https://vuejs.org/guide/essentials/template-syntax.html#directives"
+                            }
+                        ]
+                    },
+                    {
+                        "API Styles": {
+                            "description": "Explore the differences between the Composition API and Options API in Vue for creating components.",
+                            "resources": [
+                                {
+                                    "name": "The Difference Between the Composition API and Options API in Vue",
+                                    "link": "https://fjolt.com/article/vue-composition-api-vs-options-api"
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "name": "Options API",
+                                    "recommendation-type": "opinion",
+                                    "description": "Learn about the Options API for structuring Vue applications and how it compares to the Composition API.",
+                                    "resources": [
+                                        {
+                                            "name": "TypeScript with Options API",
+                                            "link": "https://vuejs.org/guide/typescript/options-api.html"
+                                        },
+                                        {
+                                            "name": "Options API Documentation",
+                                            "link": "https://vuejs.org/api/#options-api"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Composition API",
+                                    "recommendation-type": "opinion",
+                                    "description": "Learn about the Composition API in Vue 3 and how it can enhance your Vue component development.",
+                                    "resources": [
+                                        {
+                                            "name": "TypeScript with Composition API",
+                                            "link": "https://vuejs.org/guide/typescript/composition-api.html"
+                                        },
+                                        {
+                                            "name": "Composition API FAQ",
+                                            "link": "https://vuejs.org/guide/extras/composition-api-faq.html"
+                                        },
+                                        {
+                                            "name": "Composition API",
+                                            "link": "https://vuejs.org/api/#composition-api"
+                                        },
+                                        {
+                                            "name": "Vue 3 Composition API",
+                                            "link": "https://www.thisdot.co/blog/vue-3-composition-api-ref-and-reactive"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "Advanced Topics": {
+                "description": "Explore advanced topics in Vue.js to take your skills to the next level.",
+                "resources": [
+                    {
+                        "name": "Async Components",
+                        "link": "Insertar enlace"
+                    }
+                ],
+                "Composition API": {
+                    "options": [
+                        {
+                            "name": "Ref",
+                            "recommendation-type": "opinion",
+                            "description": "Learn about the usage of ref() and reactive() in Vue 3 for tracking changes and reactivity.",
+                            "resources": [
+                                {
+                                    "name": "Ref() vs Reactive() in Vue 3 — what’s the right choice?",
+                                    "link": "https://medium.com/@bsalwiczek/ref-vs-reactive-in-vue-3-whats-the-right-choice-7c6f7265ce39"
+                                },
+                                {
+                                    "name": "Reactivity API — ref",
+                                    "link": "https://vuejs.org/api/reactivity-core.html#ref"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "toRefs",
+                            "recommendation-type": "opinion",
+                            "description": "Learn how to use toRefs in Vue 3 to convert reactive objects to plain objects with refs.",
+                            "resources": [
+                                {
+                                    "name": "Reactivity API — toRefs",
+                                    "link": "https://vuejs.org/api/reactivity-utilities.html#toref"
+                                },
+                                {
+                                    "name": "Vue 3: Reactivity Made Easy (ref, reactive, toRefs… oh my!)",
+                                    "link": "https://www.youtube.com/watch?v=sAj6tdVS2cA"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "reactive",
+                            "recommendation-type": "opinion",
+                            "description": "Learn how to use the reactive function in Vue 3 to create reactive data structures.",
+                            "resources": [
+                                {
+                                    "name": "Reactivity API — reactive",
+                                    "link": "https://vuejs.org/api/reactivity-core.html#reactive"
+                                },
+                                {
+                                    "name": "Diving into Vue 3 - The Reactivity API",
+                                    "link": "https://developers.deepgram.com/blog/2022/02/diving-into-vue-3-reactivity-api/"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "computed",
+                            "recommendation-type": "opinion",
+                            "description": "Learn how to use computed properties in Vue 3 to create dynamic and reactive values.",
+                            "resources": [
+                                {
+                                    "name": "Reactivity Core — computed",
+                                    "link": "https://vuejs.org/api/reactivity-core.html#computed"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "watch",
+                            "recommendation-type": "opinion",
+                            "description": "Learn how to use the watch feature in Vue.js to react to changes in data sources.",
+                            "resources": [
+                                {
+                                    "name": "Reactivity API — watch",
+                                    "link": "https://vuejs.org/api/reactivity-core.html#watch"
+                                },
+                                {
+                                    "name": "Understanding watchers in Vue",
+                                    "link": "https://blog.logrocket.com/understanding-watchers-vue/"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "nextTick",
+                            "recommendation-type": "opinion",
+                            "description": "nextTick is a utility for waiting for the next DOM update flush.\nVisit the following resources to learn more:",
+                            "resources": [
+                                {
+                                    "name": "Global API — nextTick",
+                                    "link": "https://vuejs.org/api/general.html#nexttick"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Composables",
+                            "recommendation-type": "opinion",
+                            "description": "In the context of Vue applications, a “composable” is a function that leverages Vue’s Composition API to encapsulate and reuse stateful logic.\nWhen building frontend applications, we often need to reuse logic for common tasks. For example, we may need to format dates in many places, so we extract a reusable function for that. This formatter function encapsulates stateless logic: it takes some input and immediately returns expected output. There are many libraries out there for reusing stateless logic - for example lodash and date-fns, which you may have heard of.\nVisit the following resources to learn more:",
+                            "resources": [
+                                {
+                                    "name": "Vue.js Composables",
+                                    "link": "https://vuejs.org/guide/reusability/composables.html"
+                                },
+                                {
+                                    "name": "What is a Composable? (Vue 3)",
+                                    "link": "https://www.youtube.com/watch?v=h8yveYCbFQM"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "order": 2,
+                "options": [
+                    {
+                        "name": "Async Components",
+                        "recommendation-type": "opinion",
+                        "description": "In large applications, we may need to divide the app into smaller chunks and only load a component from the server when it’s needed. To make that possible, Vue has a defineAsyncComponent function.",
+                        "resources": [
+                            {
+                                "name": "Async Components",
+                                "link": "https://v3.vuejs.org/guide/migration/async-components.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Teleport Components",
+                        "recommendation-type": "opinion",
+                        "description": "Sometimes we may run into the following scenario: a part of a component’s template belongs to it logically, but from a visual standpoint, it should be displayed somewhere else in the DOM, outside of the Vue application. This is where the <Teleport> component comes in.",
+                        "resources": [
+                            {
+                                "name": "Teleport Components",
+                                "link": "https://v3.vuejs.org/guide/teleport.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Provide / Inject",
+                        "recommendation-type": "opinion",
+                        "description": "Usually, when we need to pass data from the parent to a child component, we use props. However, imagine the case where we have a large component tree, and a deeply nested component needs something from a distant ancestor component. With only props, we would have to pass the same prop across the entire parent chain. We can solve props drilling with provide and inject.",
+                        "resources": [
+                            {
+                                "name": "Provide / Inject in Vue.js",
+                                "link": "https://v3.vuejs.org/guide/component-provide-inject.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Custom Directives",
+                        "recommendation-type": "opinion",
+                        "description": "So far you may have covered two forms of code reuse in Vue: components and composables. Components are the main building blocks, while composables are focused on reusing stateful logic. Custom directives, on the other hand, are mainly intended for reusing logic that involves low-level DOM access on plain elements.",
+                        "resources": [
+                            {
+                                "name": "Custom Directives",
+                                "link": "https://v3.vuejs.org/guide/custom-directive.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Custom Events",
+                        "recommendation-type": "opinion",
+                        "description": "Sometimes you may need to define custom events that can be used in your components. Vue.js allows you to do this by emitting custom event objects using $emit.",
+                        "resources": [
+                            {
+                                "name": "Custom Events in Vue",
+                                "link": "https://v3.vuejs.org/guide/component-custom-events.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Plugins",
+                        "recommendation-type": "opinion",
+                        "description": "Plugins are self-contained code that usually add app-level functionality to Vue.",
+                        "resources": [
+                            {
+                                "name": "Plugins in Vue.js",
+                                "link": "https://v3.vuejs.org/guide/plugins.html"
+                            },
+                            {
+                                "name": "How to Write Your Own Vue.js Plugin",
+                                "link": "https://v3.vuejs.org/guide/plugins.html#writing-a-plugin"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Watchers",
+                        "recommendation-type": "opinion",
+                        "description": "With Composition API, we can use the watch function to trigger a callback whenever a piece of reactive state changes.",
+                        "resources": [
+                            {
+                                "name": "Watchers in Vue.js",
+                                "link": "https://v3.vuejs.org/guide/composition-api-watchers.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Slots",
+                        "recommendation-type": "opinion",
+                        "description": "In some cases, we may want to pass a template fragment to a child component, and let the child component render the fragment within its own template. The <slot> element is a slot outlet that indicates where the parent-provided slot content should be rendered.",
+                        "resources": [
+                            {
+                                "name": "Slots in Vue.js",
+                                "link": "https://v3.vuejs.org/guide/component-slots.html"
+                            }
+                        ]
+                    },
+                    {
+                        "Animations": {
+                            "options": [
+                                {
+                                    "name": "Transition",
+                                    "recommendation-type": "opinion",
+                                    "description": "Vue offers two built-in components that can help work with transitions and animations in response to changing state:\n\n<Transition> for applying animations when an element or component is entering and leaving the DOM. This is covered on this page.\n<TransitionGroup> for applying animations when an element or component is inserted into, removed from, or moved within a v-for list. This is covered in the next chapter.",
+                                    "resources": [
+                                        {
+                                            "name": "Transition Component",
+                                            "link": "https://v3.vuejs.org/guide/transitions-overview.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Transition Group",
+                                    "recommendation-type": "opinion",
+                                    "description": "<TransitionGroup> is a built-in component designed for animating the insertion, removal, and order change of elements or components that are rendered in a list.",
+                                    "resources": [
+                                        {
+                                            "name": "TransitionGroup Component",
+                                            "link": "https://v3.vuejs.org/guide/transitions-list.html"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "Ecosystem": {
+                "description": "Thanks to its popularity, Vue has been enriched by a vast ecosystem of plugins and tools. A (long) list is available here: awesome-vue.",
+                "resources": [
+                    {
+                        "name": "Awesome Vue.js",
+                        "link": "https://github.com/vuejs/awesome-vue"
+                    }
+                ],
+                "order": 3,
+                "options": [
+                    {
+                        "name": "Routing",
+                        "recommendation-type": "opinion",
+                        "description": "Routing is an essential concept in Single Page Applications (SPA). When your application is divided into separated logical sections, and all of them are under their own URL, your users can easily share links among each other.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Vue Router",
+                        "recommendation-type": "opinion",
+                        "description": "Vue Router is the official router for Vue.js which allows creating static/dynamic routes, has support for navigation interception, allows for component based configuration and much more.",
+                        "resources": [
+                            {
+                                "name": "Learn More about Vue Router",
+                                "link": "https://router.vuejs.org/"
+                            }
+                        ]
+                    },
+                    {
+                        "Forms": {
+                            "description": "Apart from the built-in form-binding support, there are several options available that allow for handling forms and data in a much more convenient manner.",
+                            "resources": [
+                                {
+                                    "name": "Form Input Bindings",
+                                    "link": "https://vuejs.org/guide/essentials/forms.html"
+                                },
+                                {
+                                    "name": "User Inputs in Vue 3",
+                                    "link": "https://vueschool.io/lessons/user-inputs-vue-devtools-in-vue-3?friend=vuejs"
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "name": "Vue formulate",
+                                    "recommendation-type": "opinion",
+                                    "description": "Vue formulate’s built-in validation, error handling, grouped & repeatable fields, form generation, and more — make complex form creation a breeze.",
+                                    "resources": [
+                                        {
+                                            "name": "Official Website: Vue Formulate",
+                                            "link": "https://vueformulate.com/"
+                                        },
+                                        {
+                                            "name": "wearebraid/vue-formulate",
+                                            "link": "https://github.com/wearebraid/vue-formulate"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Vuelidate",
+                                    "recommendation-type": "opinion",
+                                    "description": "Simple, lightweight model-based validation for Vue.js.",
+                                    "resources": [
+                                        {
+                                            "name": "Official Website: Vuelidate",
+                                            "link": "https://vuelidate.js.org/"
+                                        },
+                                        {
+                                            "name": "vuelidate/vuelidate",
+                                            "link": "vuelidate/vuelidate"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Server-side rendering": {
+                            "description": "Server-side rendering refers to the process that the service side completes the HTML structure splicing of the page, sends it to the browser, and then binds the status and events for it to become a fully interactive page.",
+                            "resources": [
+                                {
+                                    "name": "what is server side rendering",
+                                    "link": "https://www.educative.io/answers/what-is-server-side-rendering"
+                                },
+                                {
+                                    "name": "When should I Server-Side Render?",
+                                    "link": "https://medium.com/@mbleigh/when-should-i-server-side-render-c2a383ff2d0f"
+                                },
+                                {
+                                    "name": "Server-Side Rendering (SSR)",
+                                    "link": "https://vuejs.org/guide/scaling-up/ssr.html"
+                                },
+                                {
+                                    "name": "what is server side rendering?",
+                                    "link": "https://www.youtube.com/watch?v=GQzn7XRdzxY"
+                                },
+                                {
+                                    "name": "What is server-side rendering for web development?",
+                                    "link": "https://www.youtube.com/watch?v=okvg3MRAPs0"
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "name": "Quasar",
+                                    "recommendation-type": "opinion",
+                                    "description": "Quasar Framework is an open-source Vue.js based framework for building apps, with a single codebase, and deploy it on the Web as a SPA, PWA, SSR, to a Mobile App, using Cordova for iOS & Android, and to a Desktop App, using Electron for Mac, Windows, and Linux.",
+                                    "resources": [
+                                        {
+                                            "name": "Official Website: Quasar",
+                                            "link": "https://quasar.dev/"
+                                        },
+                                        {
+                                            "name": "Quasar Framework: Vue.js Cross Platform App",
+                                            "link": "https://www.youtube.com/watch?v=opmng7llVJ0&list=PLAiDzIdBfy8iu_MZrq3IPuSFcRgCQ0iL0"
+                                        },
+                                        {
+                                            "name": "How to Build an App using Quasar Framework",
+                                            "link": "https://www.youtube.com/watch?v=czJIuHyPPXo"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Nuxt.js",
+                                    "recommendation-type": "opinion",
+                                    "description": "Nuxt.js is a free and open source JavaScript library based on Vue.js, Node.js, Webpack, and Babel.js. Nuxt is inspired by Next.js, which is a framework of similar purpose, based on React.js.",
+                                    "resources": [
+                                        {
+                                            "name": "Nuxt Website",
+                                            "link": "https://nuxt.com/"
+                                        },
+                                        {
+                                            "name": "Nuxt Docs",
+                                            "link": "https://nuxt.com/docs/getting-started/introduction"
+                                        },
+                                        {
+                                            "name": "Get Started with Nuxt",
+                                            "link": "https://explorers.netlify.com/learn/get-started-with-nuxt"
+                                        },
+                                        {
+                                            "name": "Nuxt.js Fundamentals",
+                                            "link": "https://vueschool.io/courses/nuxtjs-fundamentals"
+                                        },
+                                        {
+                                            "name": "Nuxt Examples",
+                                            "link": "https://nuxt.com/docs/examples/essentials/hello-world"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Static Site Generators": {
+                            "description": "A static site generator is a tool that generates a full static HTML website based on raw data and a set of templates. Essentially, a static site generator automates the task of coding individual HTML pages and gets those pages ready to serve to users ahead of time. Because these HTML pages are pre-built, they can load very quickly in users’ browsers.",
+                            "resources": [
+                                {
+                                    "name": "What is a static site generator?",
+                                    "link": "https://www.cloudflare.com/learning/performance/static-site-generator/"
+                                },
+                                {
+                                    "name": "Next.js SSG",
+                                    "link": "https://nextjs.org/docs/advanced-features/static-html-export"
+                                },
+                                {
+                                    "name": "Gatsby SSG",
+                                    "link": "https://www.gatsbyjs.com/docs/glossary/static-site-generator/"
+                                },
+                                {
+                                    "name": "SSG — An 11ty, Vite And JAM Sandwich",
+                                    "link": "https://www.smashingmagazine.com/2021/10/building-ssg-11ty-vite-jam-sandwich/"
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "name": "Nuxt.js",
+                                    "recommendation-type": "opinion",
+                                    "description": "Nuxt.js is a free and open source JavaScript library based on Vue.js, Node.js, Webpack, and Babel.js. Nuxt is inspired by Next.js, which is a framework of similar purpose, based on React.js.",
+                                    "resources": [
+                                        {
+                                            "name": "Nuxt Website",
+                                            "link": "https://nuxt.com/"
+                                        },
+                                        {
+                                            "name": "Nuxt Docs",
+                                            "link": "https://nuxt.com/docs/getting-started/introduction"
+                                        },
+                                        {
+                                            "name": "Get Started with Nuxt",
+                                            "link": "https://explorers.netlify.com/learn/get-started-with-nuxt"
+                                        },
+                                        {
+                                            "name": "Nuxt.js Fundamentals",
+                                            "link": "https://vueschool.io/courses/nuxtjs-fundamentals"
+                                        },
+                                        {
+                                            "name": "Nuxt Examples",
+                                            "link": "https://nuxt.com/docs/examples/essentials/hello-world"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Gridsome",
+                                    "recommendation-type": "opinion",
+                                    "description": "Gridsome is a Vue.js powered Jamstack framework for building static generated websites & apps that are fast by default.",
+                                    "resources": [
+                                        {
+                                            "name": "Gridsome Website",
+                                            "link": "https://gridsome.org/"
+                                        },
+                                        {
+                                            "name": "Gridsome Documentation",
+                                            "link": "https://gridsome.org/docs/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "VuePress",
+                                    "recommendation-type": "opinion",
+                                    "description": "VuePress is composed of two parts: a minimalistic static site generator with a Vue-powered theming system and Plugin API, and a default theme optimized for writing technical documentation. It was created to support the documentation needs of Vue’s own sub projects.",
+                                    "resources": [
+                                        {
+                                            "name": "Official Website",
+                                            "link": "https://vuepress.vuejs.org/"
+                                        },
+                                        {
+                                            "name": "Official Docs for Getting Started",
+                                            "link": "https://vuepress.vuejs.org/guide/getting-started.html"
+                                        },
+                                        {
+                                            "name": "Introduction to VuePress",
+                                            "link": "https://www.youtube.com/watch?v=lIv1ItUzktc"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "State Management": {
+                            "description": "Application state management is the process of maintaining knowledge of an application’s inputs across multiple related data flows that form a complete business transaction — or a session — to understand the condition of the app at any given moment. In computer science, an input is information put into the program by the user and state refers to the condition of an application according to its stored inputs — saved as variables or constants. State can also be described as the collection of preserved information that forms a complete session.",
+                            "resources": [
+                                {
+                                    "name": "What is State Management?",
+                                    "link": "https://www.techtarget.com/searchapparchitecture/definition/state-management"
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "name": "Pinia",
+                                    "recommendation-type": "opinion",
+                                    "description": "Pinia is a store library for Vue.js, and can be used in Vue 2 and Vue 3, with the same API, except in SSR and its installation. It allows state sharing between pages and components around the application. As the documentation says, it is extensible, intuitive (by organization), has devtools support (in Vue.js devtools), inferred typed state even in javascript and more. In Pinia you can access, mutate, replace, use getters that work like computed, use actions, etc. The library is recommended by the official Vue.js documentation.",
+                                    "resources": [
+                                        {
+                                            "name": "Official Documentation",
+                                            "link": "URL_del_recurso_para_aprender_más_sobre_Pinia"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Mobile Apps": {
+                            "description": "Building a mobile application with Vue.js is not impossible. In fact, you can build production-ready apps that look and feel like native mobile apps with Vue.js.",
+                            "resources": [
+                                {
+                                    "name": "Comparing Vue.js mobile app development frameworks",
+                                    "link": "https://blog.logrocket.com/comparing-vue-js-mobile-app-development-frameworks/#whyusevuejstobuildmobileapps"
+                                },
+                                {
+                                    "name": "Native Script + Vue",
+                                    "link": "https://nativescript-vue.org/"
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "name": "Capacitor",
+                                    "recommendation-type": "opinion",
+                                    "description": "Since Vue.js is a web framework, it does not natively support mobile app development. So how do we get access to native mobile features such as the camera and geolocation? Ionic has an official native runtime called Capacitor. With Capacitor’s plugin, you can access the native API of the device your app is running on and build truly native mobile application with Ionic Vue.",
+                                    "resources": [
+                                        {
+                                            "name": "Building cross-platform apps with Capacitor and Vue.js",
+                                            "link": "URL_del_recurso_para_aprender_más_sobre_Capacitor_y_Vue.js"
+                                        },
+                                        {
+                                            "name": "Building Mobile Apps With Capacitor And Vue.js",
+                                            "link": "URL_del_recurso_para_aprender_más_sobre_construir_apps_móviles_con_Capacitor_y_Vue.js"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "API Calls": {
+                            "description": "There are several options available to make API calls from your Vue.js applications.",
+                            "resources": [
+                                {
+                                    "name": "How To Make API calls in Vue.JS Applications",
+                                    "link": "https://medium.com/bb-tutorials-and-thoughts/how-to-make-api-calls-in-vue-js-applications-43e017d4dc86"
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "name": "Apollo",
+                                    "recommendation-type": "opinion",
+                                    "description": "Apollo is a platform for building a unified graph, a communication layer that helps you manage the flow of data between your application clients (such as web and native apps) and your back-end services.",
+                                    "resources": [
+                                        {
+                                            "name": "Apollo Website",
+                                            "link": "Uhttps://www.apollographql.com/"
+                                        },
+                                        {
+                                            "name": "Official Docs",
+                                            "link": "https://www.apollographql.com/docs/"
+                                        },
+                                        {
+                                            "name": "Official YouTube Channel",
+                                            "link": "Uhttps://www.youtube.com/c/ApolloGraphQL/"
+                                        },
+                                        {
+                                            "name": "GraphQL With React Tutorial - Apollo Client",
+                                            "link": "https://www.youtube.com/watch?v=YyUWW04HwKY"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Relay Modern",
+                                    "recommendation-type": "opinion",
+                                    "description": "Relay is a JavaScript client used in the browser to fetch GraphQL data. It’s a JavaScript framework developed by Facebook for managing and fetching data in React applications. It is built with scalability in mind in order to power complex applications like Facebook. The ultimate goal of GraphQL and Relay is to deliver instant UI-response interactions.",
+                                    "resources": [
+                                        {
+                                            "name": "Official Website",
+                                            "link": "https://relay.dev/"
+                                        },
+                                        {
+                                            "name": "Introduction to Relay modern",
+                                            "link": "https://relay.dev/docs/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Axios",
+                                    "recommendation-type": "opinion",
+                                    "description": "The most common way for frontend programs to communicate with servers is through the HTTP protocol. You are probably familiar with the Fetch API and the XMLHttpRequest interface, which allows you to fetch resources and make HTTP requests.\n\nAxios is a client HTTP API based on the XMLHttpRequest interface provided by browsers.",
+                                    "resources": [
+                                        {
+                                            "name": "Axios Getting Started",
+                                            "link": "https://axios-http.com/docs/intro"
+                                        },
+                                        {
+                                            "name": "How to make HTTP requests with Axios",
+                                            "link": "https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/#why"
+                                        },
+                                        {
+                                            "name": "Unfetch",
+                                            "recommendation-type": "opinion",
+                                            "description": "Unfetch is the bare minimum 500b fetch polyfill.",
+                                            "resources": [
+                                                {
+                                                    "name": "Official GitHub Repository",
+                                                    "link": "https://github.com/developit/unfetch"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Testing": {
+                            "options": [
+                                {
+                                    "name": "Jest",
+                                    "recommendation-type": "opinion",
+                                    "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!",
+                                    "resources": [
+                                        {
+                                            "name": "Jest Website",
+                                            "link": "https://jestjs.io/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Vue Testing Library",
+                                    "recommendation-type": "opinion",
+                                    "description": "The Vue Testing Library is a very lightweight solution for testing Vue components. Its primary guiding principle is: The more your tests resemble the way your software is used, the more confidence they can give you.",
+                                    "resources": [
+                                        {
+                                            "name": "Getting Started with Vue Testing Library",
+                                            "link": "https://testing-library.com/docs/vue-testing-library/intro/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Cypress",
+                                    "recommendation-type": "opinion",
+                                    "description": "Cypress framework is a JavaScript-based end-to-end testing framework built on top of Mocha – a feature-rich JavaScript test framework running on and in the browser, making asynchronous testing simple and convenient. It also uses a BDD/TDD assertion library and a browser to pair with any JavaScript testing framework.",
+                                    "resources": [
+                                        {
+                                            "name": "Official Website",
+                                            "link": "https://www.cypress.io/"
+                                        },
+                                        {
+                                            "name": "Official Documentation",
+                                            "link": "https://docs.cypress.io/guides/overview/why-cypress#Other"
+                                        },
+                                        {
+                                            "name": "Cypress End-to-End Testing",
+                                            "link": "https://www.youtube.com/watch?v=7N63cMKosIE"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Styling": {
+                            "options": [
+                                {
+                                    "name": "Tailwind CSS",
+                                    "recommendation-type": "opinion",
+                                    "description": "CSS Framework that provides atomic CSS classes to help you style components e.g. flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.",
+                                    "resources": [
+                                        {
+                                            "name": "Tailwind Website",
+                                            "link": "https://tailwindcss.com/"
+                                        },
+                                        {
+                                            "name": "Tailwind CSS Full Course for Beginners",
+                                            "link": "https://www.youtube.com/watch?v=lCxcTsOHrjo"
+                                        },
+                                        {
+                                            "name": "Tailwind CSS Crash Course",
+                                            "link": "https://www.youtube.com/watch?v=UBOj6rqRUME"
+                                        },
+                                        {
+                                            "name": "Should You Use Tailwind CSS?",
+                                            "link": "https://www.youtube.com/watch?v=hdGsFpZ0J2E"
+                                        },
+                                        {
+                                            "name": "Official Screencasts",
+                                            "link": "https://www.youtube.com/c/TailwindLabs/videos"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Vuetify",
+                                    "recommendation-type": "opinion",
+                                    "description": "Vuetify is a Vue UI Library with beautifully handcrafted Material Components. No design skills required — everything you need to create amazing applications is at your fingertips.",
+                                    "resources": [
+                                        {
+                                            "name": "Official Website",
+                                            "link": "https://vuetifyjs.com/en/"
+                                        },
+                                        {
+                                            "name": "Getting started with Vuetify",
+                                            "link": "https://vuetifyjs.com/en/getting-started/installation/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Element UI",
+                                    "recommendation-type": "opinion",
+                                    "description": "Element UI is another Vue.js component library with several built-in components to style your Vue.js applications.",
+                                    "resources": [
+                                        {
+                                            "name": "Official Website",
+                                            "link": "https://element-plus.org/en-US/"
+                                        },
+                                        {
+                                            "name": "Official Getting Started",
+                                            "link": "https://element-plus.org/en-US/guide/design.html"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+           
+        }
+    }
+}

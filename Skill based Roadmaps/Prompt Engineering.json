@@ -1,0 +1,463 @@
+{
+    "Skill": {
+        "Prompt Engineering": {
+            "Basic LLM Concepts": {
+                "description": "LLM stands for “Large Language Model.” These are advanced AI systems designed to understand and generate human-like text based on the input they receive. These models have been trained on vast amounts of text data and can perform a wide range of language-related tasks, such as answering questions, carrying out conversations, summarizing text, translating languages, and much more.",
+                "resources": [
+                    {
+                        "name": "Introduction to LLMs",
+                        "link": "https://roadmap.sh/guides/introduction-to-llms"
+                    }
+                ],
+                "order": 1,
+                "options": [
+                    {
+                        "name": "What are LLMs?",
+                        "recommendation-type": "opinion",
+                        "description": "LLMs, or Language Learning Models, are advanced Artificial Intelligence models specifically designed for understanding and generating human language. These models are typically based on deep learning architectures, such as Transformers, and are trained on massive amounts of text data from various sources to acquire a deep understanding of the nuances and complexities of language. LLMs have the ability to achieve state-of-the-art performance in multiple Natural Language Processing (NLP) tasks, such as machine translation, sentiment analysis, summarization, and more. They can also generate coherent and contextually relevant text based on given input, making them highly useful for applications like chatbots, question-answering systems, and content generation. As an example, OpenAI’s GPT-3 is a prominent LLM that has gained significant attention due to its capability to generate high-quality text and perform a variety of language tasks with minimal fine-tuning.",
+                        "resources": [
+                            {
+                                "name": "Introduction to LLMs",
+                                "link": "https://roadmap.sh/guides/introduction-to-llms"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Types of LLMs",
+                        "recommendation-type": "opinion",
+                        "description": "On a high level, LLMs can be categorized into two types i.e. Base LLMs and Instruction tuned LLMs.\n\nBase LLMs\nBase LLMs are the LLMs which are designed to predict the next word based on the training data. They are not designed to answer questions, carry out conversations or help solve problems. For example, if you give a base LLM the sentence “In this book about LLMs, we will discuss”, it might complete this sentence and give you “In this book about LLMs, we will discuss what LLMs are, how they work, and how you can leverage them in your applications.” Or if you give it “What are some famous social networks?”, instead of answering it might give back “Why do people use social networks?” or “What are some of the benefits of social networks?“. As you can see, it is giving us relevant text but it is not answering the question. This is where the Instruction tuned LLMs come in to the picture.\n\nInstruction tuned LLMs\nInstruction Tuned LLMs, instead of trying to autocomplete your text, try to follow the given instructions using the data that they have been trained on. For example, if you input the sentence “What are LLMs?” it will use the data that it is trained on and try to answer the question. Similarly, if you input “What are some famous social networks?” it will try to answer the question instead of giving you a random answer.\n\nInstruction Tuned LLMs are built on top of Base LLMs:\n\nInstruction Tuned LLMs = Base LLMs + Further Tuning + RLHF\nTo build an Instruction Tuned LLM, a Base LLM is taken and is further trained using a large dataset covering sample “Instructions” and how the model should perform as a result of those instructions. The model is then fine-tuned using a technique called “Reinforcement Learning with Human Feedback” (RLHF) which allows the model to learn from human feedback and improve its performance over time.",
+                        "resources": []
+                    },
+                    {
+                        "name": "How are LLMs Built?",
+                        "recommendation-type": "opinion",
+                        "description": "On a high level, training an LLM model involves three steps: data collection, training, and evaluation.\n\nData Collection: The first step is to collect the data that will be used to train the model. The data can be collected from various sources such as Wikipedia, news articles, books, websites, etc.\n\nTraining: The data then goes through a training pipeline where it is cleaned and preprocessed before being fed into the model for training. The training process usually takes a long time and requires a lot of computational power.\n\nEvaluation: The final step is to evaluate the performance of the model to see how well it performs on various tasks such as question answering, summarization, translation, etc.\n\nThe output from the training pipeline is an LLM model, which is simply the parameters or weights that capture the knowledge learned during the training process. These parameters or weights are typically serialized and stored in a file, which can then be loaded into any application that requires language processing capabilities, e.g., text generation, question answering, language processing, etc.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Vocabulary",
+                        "recommendation-type": "opinion",
+                        "description": "When working with LLMs, you will come across a lot of new terms. This section will help you understand the meaning of these terms and how they are used in the context of LLMs.\n\nMachine Learning (ML) — ML is a field of study that focuses on algorithms that can learn from data. ML is a subfield of AI.\n\n“Model” vs. “AI” vs. “LLM” — These terms are used somewhat interchangeably throughout this course, but they do not always mean the same thing. LLMs are a type of AI, as noted above, but not all AIs are LLMs. When we mentioned models in this course, we are referring to AI models. As such, in this course, you can consider the terms “model” and “AI” to be interchangeable.\n\nLLM — Large language model. A large language model is a type of artificial intelligence that can understand and generate human-like text based on the input it receives. These models have been trained on vast amounts of text data and can perform a wide range of language-related tasks, such as answering questions, carrying out conversations, summarizing text, translating languages, and much more.\n\nMLM — Masked language model. A masked language model is a type of language model that is trained to predict the next word in a sequence of words. It is typically trained on a large corpus of text data and can be used for a variety of tasks, such as machine translation, sentiment analysis, summarization, and more.\n\nNLP — Natural language processing. Natural language processing is a branch of artificial intelligence that deals with the interaction between computers and human languages. It is used to analyze, understand, and generate human language.\n\nLabel — Labels are just possibilities for the classification of a given text. For example, if you have a text that says “I love you”, then the labels could be “positive”, “negative”, or “neutral”. The model will try to predict which label is most likely to be correct based on the input text.\n\nLabel Space — The label space is the set of all possible labels that can be assigned to a given text. For example, if you have a text that says “I love you”, then the label space could be “positive”, “negative”, or “neutral”.\n\nLabel Distribution — The label distribution is the probability distribution over the label space. For example, if you have a text that says “I love you”, then the label distribution could be [0.8, 0.1, 0.1]. This means that the model thinks there is an 80% chance that the text is positive, a 10% chance that it is negative, and a 10% chance that it is neutral.\n\nSentiment Analysis — Sentiment analysis is the process of determining the emotional tone behind a series of words, used to gain an understanding of the attitudes, opinions, and emotions expressed within an online mention. Sentiment analysis is also known as opinion mining, deriving the opinion or attitude of a speaker.\n\nVerbalizer — In the classification setting, verbalizers are mappings from labels to words in a language model’s vocabulary. For example, consider performing sentiment classification with the following prompt:\n\nTweet: 'I love hotpockets'\nWhat is the sentiment of this tweet? Say 'pos' or 'neg'.\nHere, the verbalizer is the mapping from the conceptual labels of positive and negative to the tokens pos and neg.\n\nReinforcement Learning from Human Feedback (RLHF) — RLHF is a technique for training a model to perform a task by providing it with human feedback. The model is trained to maximize the amount of positive feedback it receives from humans while minimizing the amount of negative feedback it receives.",
+                        "resources": [
+                            {
+                                "name": "LLM Vocabulary Reference",
+                                "link": "https://learnprompting.org/docs/vocabulary"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Introduction to Prompting": {
+                "description": "Prompting is the process of giving a model a 'prompt' or instruction for the task that you want it to perform. For example, if you have some English text that you may want to translate to French, you could give the following prompt:\n\nTranslate the text delimited by triple quotes from English to French:\n\n\"\"\"Hello, how are you?\"\"\"\nThe model will then generate the following output:\n\nBonjour, comment allez-vous?\n\nIn this example, we gave the model a prompt with instructions to perform a task. If you notice, we followed a special way to write our prompt. We could simply give it the following prompt, and it would have still worked:\n\nTranslate the following to French:\n\nHello, how are you?\nBut it's one of the best practices to be clear and use delimiters to separate the content in prompt from the instructions. You will learn more about it in the 'Best Practices' nodes of the roadmap.",
+                "resources": [
+                    {
+                        "name": "Basic Prompting Guide",
+                        "link": "https://learnprompting.org/docs/basics/intro"
+                    }
+                ],
+                "order": 2,
+                "options": [
+                    {
+                        "name": "Basic Prompting",
+                        "recommendation-type": "opinion",
+                        "description": "All you need to instruct a model to perform a task is a prompt. A prompt is a piece of text that you give to the model to perform a task. For example, if you want to summarize an article, you could simply write the prompt with the article text on the top and the prompt:\n\nLong article text here .............\n....................................\n\nSummarize the above article for me. Or if you want to translate a sentence from English to French, you could simply write the prompt with the English sentence on the top and the prompt:\n\nThis is a sentence in English.\n\nTranslate the above sentence to French. Or if you want to generate a new text, you could simply write the prompt with the instructions and the model will give you the text.\n\nWrite me an introductory guide about Prompt Engineering. However, using plain text as prompts, i.e., without using any best practices, you may not be able to fully utilize the power of LLMs. That's where 'Prompt Engineering,' or knowing the best practices for writing better prompts and getting the most out of LLMs, comes in.",
+                        "resources": [
+                            {
+                                "name": "Prompt Engineering Best Practices",
+                                "link": "URL_de_las_mejores_prácticas_de_ingeniería_de_prompts"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Need for Prompt Engineering",
+                        "recommendation-type": "opinion",
+                        "description": "Prompts play a key role in the process of generating useful and accurate information from AI language models. Given below are some of the reasons why 'Prompt Engineering,' or learning how to write better prompts, is important.\n\nGuiding Model Behavior\nAI language models perform best when answering questions, assisting with tasks, or producing text in response to a specific query or command. Without prompts, the model would generate content aimlessly, without any context or purpose. A well-crafted prompt helps guide the model's behavior to produce useful and relevant results.\n\nImproving Text Quality and Relevance\nUsing prompts optimizes the output generated by the AI language model. A clear and concise prompt encourages the model to generate text that meets the required quality and relevance standards. Thus, the need for prompting lies in ensuring the content generated by the AI is of high caliber and closely matches the intent of the user.\n\nEliciting a Specific Type of Output\nPrompts can be engineered to elicit a specific type of output from the AI language model, whether it's summarizing a piece of text, suggesting alternate phrasings, creating an engaging storyline, analyzing some sentiment, or extracting data from some text. By crafting prompts that focus on the desired output, users can better harness the power and flexibility of AI language models.\n\nAligning AI and Human Intent\nOne primary reason for implementing prompts is to align the AI-generated content with the human user's intent. Effective prompting can help minimize the AI's understanding gap and cater to individual users' preferences and needs.\n\nReducing Inaccuracies and Ambiguity\nPrompts can help reduce inaccuracies and ambiguities in the AI's responses. By providing a clear, concise, and complete prompt to the AI, users prevent the model from making unfounded assumptions or providing unclear information.\n\nIn conclusion, the need for prompting stems from its role in guiding AI model behavior, improving text quality and relevance, eliciting a specific output, aligning AI and human intent, and reducing inaccuracies and ambiguity in generated content. By understanding and mastering the art of prompting, users can unlock the true potential of AI language models.",
+                        "resources": [
+                            {
+                                "name": "Prompting Best Practices",
+                                "link": "URL_de_las_mejores_prácticas_de_ingeniería_de_prompts"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Prompts": {
+                "description": "At this point, you probably already know what the Prompts are and the importance of writing good prompts. This section covers the best practices for writing good prompts as well as covering some of the commonly used prompting techniques. ",
+                "resources": [],
+                "order": 3,
+                "options": [
+                    {
+                        "Writing Good Prompts": {
+                            "options": [
+                                {
+                                    "name": "Use Delimiters",
+                                    "recommendation-type": "opinion",
+                                    "description": "When crafting prompts for language models, it's crucial to ensure clear separation between the actual data and the instructions or context provided to the model. This distinction is particularly important when using data-driven prompts. One effective technique to achieve this separation is by using delimiters to mark the boundaries between the prompt and the data. Delimiters act as clear indicators for the model to understand where the data begins and ends, helping it to generate responses more accurately. To use delimiters effectively, choose appropriate delimiters that are unlikely to appear naturally in the data, position the delimiters correctly at the beginning and end of the data section, and use consistent delimiters throughout all prompts to maintain uniformity in the data format."
+                                },
+                                {
+                                    "name": "Structured Output",
+                                    "recommendation-type": "opinion",
+                                    "description": "When designing prompts for language models, it's often beneficial to request structured output formats such as JSON, XML, HTML, or similar formats. By asking for structured output, you can elicit specific and well-organized responses from the model, which can be particularly useful for tasks involving data processing, web scraping, or content generation. To request structured output, specify the output format you want the model to generate, define the structure and fields, and provide input context. Structured output prompts are effective for guiding the model to produce organized and task-specific responses."
+                                },
+                                {
+                                    "name": "Style Information",
+                                    "recommendation-type": "opinion",
+                                    "description": "By providing explicit instructions regarding the desired tone, you can influence the language model’s writing style and ensure it aligns with your specific requirements. Clearly communicate the desired tone, style, or mood in the prompt. Whether it’s formal, casual, humorous, professional, or any other specific style, mentioning it explicitly helps guide the model’s writing. Also, consider incorporating keywords or phrases that reflect the desired style. For example, if you want a formal tone, include phrases like 'in a professional manner' or 'using formal language.' This provides additional context to the model regarding the tone you expect.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Give Conditions",
+                                    "recommendation-type": "opinion",
+                                    "description": "Giving conditions and then asking the model to follow those conditions helps steer the model’s responses toward specific behaviors or outcomes. For example, you might give the model some long recipe text and ask it to extract the steps from the recipe or to return something else if no recipe is found in the text. In this way, you are making the output conditional, giving the model some additional context.\n\nYou will be provided with text delimited by triple quotes.\nIf it contains a sequence of instructions, rewrite those instructions in the following format:\n\nStep 1 - ...\nStep 2 - …\n…\nStep N - …\n\nIf the text does not contain a sequence of instructions, then simply write 'No steps provided.'",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Give Successful Examples",
+                                    "recommendation-type": "opinion",
+                                    "description": "In this technique, you give examples of successful behavior to the model and then ask it to continue the behavior. For example, you might give the model a few examples of successful chess moves and then ask it to continue the game. Here is an example of a prompt that uses this technique:\n\nRead the examples carefully and use them as a basis for your responses.\n\nInput: Banana\nOutput: Fruit\nInput: Apple\nOutput: Fruit\nInput: Carrot\nOutput: Vegetable\nGiven the provided examples, generate the appropriate response for the following inputs:\n\n- Turnip\n- Orange\n- Pear\n- Potato\n- Cucumber\n- Celery\n- Broccoli\n- Cauliflower\nThe output of this prompt is:\n\n- Turnip: Vegetable\n- Orange: Fruit\n- Pear: Fruit\n- Potato: Vegetable\n- Cucumber: Vegetable\n- Celery: Vegetable\n- Broccoli: Vegetable\n- Cauliflower: Vegetable",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Workout its Solution",
+                                    "recommendation-type": "opinion",
+                                    "description": "LLM Models try to jump to solutions as soon as possible. They are not interested in the process of solving a problem. Sometimes giving strict instructions helps get better results.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Iterate and Refine your prompts",
+                                    "recommendation-type": "opinion",
+                                    "description": "Don’t think of prompts as a one-and-done process. Iterate and refine is a crucial part of creating good prompts. It involves continually refining a prompt until it produces consistently accurate, relevant, and engaging responses.",
+                                    "resources": []
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Prompting Technique": {
+                            "options": [
+                                {
+                                    "name": "Role Prompting",
+                                    "recommendation-type": "opinion",
+                                    "description": "Role prompting is a technique used in prompt engineering to encourage the AI to approach a question or problem by assuming a specific role, character, or viewpoint. This strategy can lead to a more focused, creative, or empathetic response depending on the given role.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Few Shot Prompting",
+                                    "recommendation-type": "opinion",
+                                    "description": "Few-shot prompting is a technique in which a machine learning model is primed with a small number of examples (or “shots”) that demonstrate the desired behavior, output, or task, before being presented with a new, related input. This approach allows the model to build an understanding of what is expected of it, even with limited context. It is particularly valuable for fine-tuning and generalizing large pre-trained models such as OpenAI’s GPT-3.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Chain of Thought",
+                                    "recommendation-type": "opinion",
+                                    "description": "In the world of prompt engineering, the Chain of Thought technique is an essential tool aimed at generating thoughtful and meaningful responses. By engaging the model in a step-by-step thinking process, this technique encourages the exploration of concepts, ideas, or problem-solving strategies in a sequential manner.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Zero Shot Chain of Thought",
+                                    "recommendation-type": "opinion",
+                                    "description": "Zeroshot chain of thought is a prompting technique that encourages models to provide multi-step reasoning or follow a series of interconnected thoughts in order to tackle a given problem. This technique is particularly effective in tasks where the answer requires a reasoning process or depends on chaining several intermediate ideas together.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Least to Most Prompting",
+                                    "recommendation-type": "opinion",
+                                    "description": "Least to Most prompting takes Chain of Thought (CoT) prompting a step further by first breaking a problem into sub problems then solving each one. It is a technique inspired by real-world educational strategies for children.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Dual Prompt Approach",
+                                    "recommendation-type": "opinion",
+                                    "description": "Dual Prompt is a technique that combines two or more prompts to generate more specific and meaningful responses. This approach can be used to elicit more detailed information or to narrow down the focus of a response.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Combining Techniques",
+                                    "recommendation-type": "opinion",
+                                    "description": "All the techniques we’ve covered so far are useful on their own, but they’re even more powerful when combined. For example, you can combine “Role Prompting” and any other prompting technique e.g. Chain of Thought, Dual Prompt, etc. to get more specific responses.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Parts of a Prompt",
+                                    "recommendation-type": "opinion",
+                                    "description": "When constructing a prompt, it’s essential to understand the different parts that contribute to its effectiveness. A well-crafted prompt typically consists of context, instruction, and example. Understanding these parts will allow you to engineer prompts that elicit better and more precise responses.\n\nContext: The context sets the stage for the information that follows. This may include defining key terms, describing relevant situations, or simply providing background information. Context helps the AI to understand the general theme or subject matter being addressed in the prompt.\n\nInstruction: The instruction is the core component of the prompt. This is where you explicitly state the task or question that the AI is expected to perform or answer. It’s important to be clear and direct with your instructions, specifying any guidelines or criteria for the response.\n\nExample: In some cases, it’s helpful to provide one or more examples to guide or clarify the desired output. Examples can serve as a model for the AI and give an idea of what a successful response should look like. This is especially useful when the task is complex or has specific formatting requirements.\n\nBy considering these three parts of a prompt — context, instruction, and example — you can create effective and well-formed prompts that produce targeted and accurate responses from the AI.",
+                                    "resources": [
+                                        {
+                                            "name": "",
+                                            "link": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "Real World Usage Examples": {
+                "description": "LLMs are used in a variety of ways. Here are some examples of how LLMs are used in the real world.",
+                "resources": [],
+                "order": 4,
+                "options": [
+                    {
+                        "name": "Structured Data",
+                        "recommendation-type": "opinion",
+                        "description": "Asking the model to generate structured data is a great way to utilize the power of LLMs.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Inferring",
+                        "recommendation-type": "opinion",
+                        "description": "Making use of LLMs to infer information from text is another common use case.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Writing Emails",
+                        "recommendation-type": "opinion",
+                        "description": "Language Models, like ChatGPT, can be incredibly beneficial for writing emails due to their ability to generate coherent and contextually appropriate text. When composing an email, an LLM can provide assistance with various aspects, such as generating engaging introductions or addressing specific questions or concerns. For instance, if you're writing a sales email, you can prompt the LLM with the request to generate a compelling opening paragraph that captures the recipient's attention. Similarly, when responding to customer inquiries, you can ask the LLM to help craft clear and informative responses that address the query with precision.\n\nFor example, here is a prompt to generate an automated email response to a customer inquiry:\n\nWrite an email informing a customer that their inquiry has been received and will be addressed shortly. Include the order number and the customer's name in the email.\n\nHere is the response generated by the LLM:\n\nSubject: Confirmation - Inquiry Received - Order #123456\n\nDear [Customer's Name],\n\nI'm writing to confirm that we have received your inquiry regarding your recent order. We appreciate you taking the time to reach out to us.\n\nYour order number is #123456, and we understand the importance of your inquiry. Rest assured, our team is already reviewing your case and will address it promptly. We strive to provide a timely response and a satisfactory resolution to all customer inquiries.\n\nIf we require any additional information or clarification, we will reach out to you directly. In the meantime, please feel free to contact us if you have any further questions or concerns about your order.\n\nWe value your business and are committed to ensuring your complete satisfaction. Thank you for choosing our company, and we appreciate your patience as we work on addressing your inquiry.\n\nBest regards,\nAI Customer Service",
+                        "resources": []
+                    },
+                    {
+                        "name": "Coding Assistance",
+                        "recommendation-type": "opinion",
+                        "description": "You can use ChatGPT for debugging, code generation, reformatting, commenting, and more.",
+                        "resources": [
+                            {
+                                "name": "LLM Coding Assistance",
+                                "link": "https://learnprompting.org/docs/basic_applications/coding_assistance"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Study Buddy",
+                        "recommendation-type": "opinion",
+                        "description": "One of our favorite ways to use LLMs is as a study tool! In particular, it is useful for explaining confusing terms as well as quizzing you on test content.",
+                        "resources": [
+                            {
+                                "name": "LLMs as a Study Buddy",
+                                "link": "https://learnprompting.org/docs/basic_applications/study_tool"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Designing Chatbots",
+                        "recommendation-type": "opinion",
+                        "description": "Building chatbots to offer customer support, sales, or other services is a hot topic in the tech industry. LLMs make it possible to build chatbots that can respond to a wide variety of user inputs, and can be trained to respond to new inputs with minimal effort.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Pitfalls of LLMs": {
+                "description": "LLMs are extremely powerful, but they are by no means perfect. There are many pitfalls that you should be aware of when using them.",
+                "resources": [],
+                "order": 5,
+                "options": [
+                    {
+                        "name": "Citing Sources",
+                        "recommendation-type": "opinion",
+                        "description": "LLMs for the most part cannot accurately cite sources. This is because they do not have access to the Internet, and do not exactly remember where their information came from. They will frequently generate sources that look good, but are entirely inaccurate.\n\nStrategies like search augmented LLMs (LLMs that can search the Internet and other sources) can often fix this problem though.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Bias",
+                        "recommendation-type": "opinion",
+                        "description": "LLMs are often biased towards generating stereotypical responses. Even with safeguards in place, they will sometimes say sexist/racist/homophobic things. Be careful when using LLMs in consumer-facing applications, and also be careful when using them in research (they can generate biased results).",
+                        "resources": []
+                    },
+                    {
+                        "name": "Hallucinations",
+                        "recommendation-type": "opinion",
+                        "description": "LLMs will frequently generate falsehoods when asked a question that they do not know the answer to. Sometimes they will state that they do not know the answer, but much of the time they will confidently give a wrong answer.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Math",
+                        "recommendation-type": "opinion",
+                        "description": "LLMs are often bad at math. They have difficulty solving simple math problems, and they are often unable to solve more complex math problems.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Prompt Hacking",
+                        "recommendation-type": "opinion",
+                        "description": "Prompt hacking is a term used to describe a situation where a model, specifically a language model, is tricked or manipulated into generating outputs that violate safety guidelines or are off-topic. This could include content that’s harmful, offensive, or not relevant to the prompt.\n\nThere are a few common techniques employed by users to attempt 'prompt hacking,' such as:\n\nManipulating keywords: Users may introduce specific keywords or phrases that are linked to controversial, inappropriate, or harmful content in order to trick the model into generating unsafe outputs.\nPlaying with grammar: Users could purposely use poor grammar, spelling, or punctuation to confuse the model and elicit responses that might not be detected by safety mitigations.\nAsking leading questions: Users can try to manipulate the model by asking highly biased or loaded questions, hoping to get a similar response from the model.\nTo counteract prompt hacking, it’s essential for developers and researchers to build in safety mechanisms such as content filters and carefully designed prompt templates to prevent the model from generating harmful or unwanted outputs. Constant monitoring, analysis, and improvement to the safety mitigations in place can help ensure the model’s output aligns with the desired guidelines and behaves responsibly.\n\nRead more about prompt hacking here [Prompt Hacking.](https://example.com/prompt-hacking)"
+                    }
+                ]
+            },
+            "Improving Reliability": {
+                "description": "To a certain extent, most of the previous techniques covered have to do with improving completion accuracy, and thus reliability, in particular self-consistency. However, there are a number of other techniques that can be used to improve reliability, beyond basic prompting strategies.\n\nLLMs have been found to be more reliable than we might expect at interpreting what a prompt is trying to say when responding to misspelled, badly phrased, or even actively misleading prompts. Despite this ability, they still exhibit various problems including hallucinations, flawed explanations with CoT methods, and multiple biases including majority label bias, recency bias, and common token bias. Additionally, zero-shot CoT can be particularly biased when dealing with sensitive topics.\n\nCommon solutions to some of these problems include calibrators to remove a priori biases, and verifiers to score completions, as well as promoting diversity in completions.\n\nLearn more at [learnprompting.org](https://learnprompting.org)",
+                "order": 6,
+                "options": [
+                    {
+                        "name": "Prompt Debiasing",
+                        "recommendation-type": "opinion",
+                        "description": "Debiasing is the process of reducing bias in the development and performance of AI language models, such as OpenAI’s GPT-3. When constructing prompts, it’s important to address existing biases and assumptions that may be inadvertently incorporated into the model due to training data or other factors. By considering debiasing, we aim to promote fairness, neutrality, and inclusiveness in AI-generated responses.\n\nWhy is Debiasing Important?\nAI models can absorb various biases from their diverse training data, including but not limited to:\n- Gender bias\n- Racial bias\n- Ethnic bias\n- Political bias\nThese biases may result in unfair, offensive, or misleading outputs. As prompt engineers, our responsibility is to create prompts that minimize the unintentional effects of such biases in the responses generated by the model.\n\nKey Strategies for Debiasing\nHere are a few strategies that can help you address biases in your prompts:\n- Objective Wording: Use objective language and avoid making assumptions about race, gender, ethnicity, nationality, or any other potentially biased characteristics.\n- Equitable Representation: Ensure prompts represent diverse perspectives and experiences, so that the model learns to generate responses that are fair and unbiased.\n- Counter-balancing: If a bias is unavoidable due to the context or nature of the prompt, consider counter-balancing it by providing an alternative perspective or side to the argument.\n- Testing and Iterating: Continuously test and iterate on your prompts, seeking feedback from a diverse group of reviewers to identify and correct potential biases.\nLearn more at [learnprompting.org](https://learnprompting.org)"
+                    },
+                    {
+                        "name": "Prompt Ensembling",
+                        "recommendation-type": "opinion",
+                        "description": "Ensembling is a technique used to improve the reliability and accuracy of predictions by combining multiple different models, essentially leveraging the ‘wisdom of the crowd’. The idea is that combining the outputs of several models can cancel out biases, reduce variance, and lead to a more accurate and robust prediction.\n\nThere are several ensembling techniques that can be used, including:\n- Majority voting: Each model votes for a specific output, and the one with the most votes is the final prediction.\n- Weighted voting: Similar to majority voting, but each model has a predefined weight based on its performance, accuracy, or other criteria. The final prediction is based on the weighted sum of all model predictions.\n- Bagging: Each model is trained on a slightly different dataset, typically generated by sampling with replacement (bootstrap) from the original dataset. The predictions are then combined, usually through majority voting or averaging.\n- Boosting: A sequential ensemble method where each new model aims to correct the mistakes made by the previous models. The final prediction is a weighted combination of the outputs from all models.\n- Stacking: Multiple base models predict the output, and these predictions are used as inputs for a second-layer model, which provides the final prediction.\nIncorporating ensembling in your prompt engineering process can help produce more reliable results, but be mindful of factors such as increased computational complexity and potential overfitting. To achieve the best results, make sure to use diverse models in your ensemble and pay attention to tuning their parameters, balancing their weights, and selecting suitable ensembling techniques based on your specific problem and dataset."
+                    },
+                    {
+                        "name": "LLM Self Evaluation",
+                        "recommendation-type": "opinion",
+                        "description": "Self-evaluation is an essential aspect of the prompt engineering process. It involves the ability of an AI model to assess its own performance and determine the level of confidence it has in its responses. By properly incorporating self-evaluation, the AI can improve its reliability, as it will learn to identify its weaknesses and provide more accurate responses over time.\n\nImplementing Self-Evaluation:\nWhen incorporating self-evaluation into an AI model, you should consider the following elements:\n- Objective metrics: Develop quantitative measures that determine the quality of a response. Examples include accuracy, precision, recall, and F1 scores. These metrics can be used as part of the AI model’s assessment process, offering a consistent way to gauge its performance.\n- User feedback: Collect user feedback on the AI model’s responses, as users can provide valuable information about the quality and utility of the generated content. By allowing users to rate answers or report issues, the AI model can integrate this feedback into its self-evaluation process.\n- Confidence levels: Implement a system that measures the AI model’s confidence in its responses. A confidence score can help users understand the reliability of a response, and it can also help the AI model refine its behavior when it has uncertainty. Make sure the confidence score is calculated based on factors such as data quality, algorithm performance, and historical accuracy.\n- Error monitoring: Establish a system that continuously monitors the AI model’s performance by tracking errors, outliers, and other unexpected results. This monitoring process should inform the self-evaluation mechanism and help the AI model adapt over time.\nBy incorporating self-evaluation into your AI model, you can create a more reliable system that users will trust and appreciate. This, in turn, will lead to a greater sense of confidence in the AI model and its potential to solve real-world problems."
+                    },
+                    {
+                        "name": "Calibrating LLMs",
+                        "recommendation-type": "opinion",
+                        "description": "Calibration refers to the process of adjusting the model to produce responses that are consistent with human-defined ratings, rankings, or scores.\n\nImportance of Calibration:\nCalibrating the LLMs helps to:\n- Minimize system biases and improve response quality.\n- Increase the alignment between user expectations and the model’s output.\n- Improve the interpretability of the model’s behavior.\n\nCalibration Techniques:\nThere are various techniques to calibrate LLMs that you can explore, including:\n- Prompt Conditioning: Modifying the prompt itself to encourage desired behavior. This involves using explicit instructions or specifying the format of the desired response.\n- Response Rankings: Presenting the model with multiple potential responses and asking it to rank them by quality or relevance. This technique encourages the model to eliminate inappropriate or low-quality responses by assessing them against other possible answers.\n- Model Debiasing: Applying debiasing techniques, such as counterfactual data augmentation or fine-tuning the model with diverse, bias-mitigating training data.\n- Temperature Adjustment: Dynamically controlling the randomness or ‘temperature’ parameter during the inference to balance creativity and coherence of the output.\n\nIterative Calibration:\nCalibration should be an iterative process, where improvements are consistently monitored and further adjustments made based on the data collected from users. Continual learning from user interactions can help increase the model’s overall reliability and maintain its performance over time.\n\nRemember, calibrating LLMs is an essential part of creating reliable, high-quality language models that effectively meet user needs and expectations. Through prompt conditioning, response ranking, model debiasing, temperature adjustment, and iterative improvements, you can successfully achieve well-calibrated and reliable LLMs."
+                    },
+                    {
+                        "name": "Math",
+                        "recommendation-type": "opinion",
+                        "description": "As a prompt engineer, you can take the following steps to improve the reliability of Language Models (LMs) for mathematical tasks:\n\nClear and specific prompts: Craft clear and specific prompts that provide the necessary context for the mathematical task. Specify the problem type, expected input format, and desired output format. Avoid ambiguous or vague instructions that can confuse the LM.\nFormatting cues: Include formatting cues in the prompts to guide the LM on how to interpret and generate mathematical expressions. For example, use LaTeX formatting or explicit notations for mathematical symbols, equations, or variables.\nExample-based prompts: Provide example-based prompts that demonstrate the desired input-output behavior. Show the model correct solutions for different problem types to help it understand the expected patterns and formats.\nStep-by-step instructions: Break down complex mathematical problems into step-by-step instructions. Provide explicit instructions on how the model should approach the problem, such as defining variables, applying specific rules or formulas, or following a particular sequence of operations.\nError handling: Anticipate potential errors or misconceptions the LM might make, and explicitly instruct it on how to handle those cases. Provide guidance on common mistakes and offer corrective feedback to help the model learn from its errors.\nFeedback loop: Continuously evaluate the model’s responses and iterate on the prompts based on user feedback. Identify areas where the LM is consistently making errors or struggling, and modify the prompts to address those specific challenges.\nContext injection: Inject additional context into the prompt to help the model better understand the problem. This can include relevant background information, specific problem constraints, or hints to guide the LM towards the correct solution.\nProgressive disclosure: Gradually reveal information or subtasks to the LM, rather than providing the entire problem at once. This can help the model focus on smaller subproblems and reduce the cognitive load, leading to more reliable outputs.\nSanity checks: Include sanity checks in the prompt to verify the reasonableness of the model’s output. For example, you can ask the model to show intermediate steps or validate the solution against known mathematical properties.\nFine-tuning and experimentation: Fine-tune the LM on a dataset that specifically focuses on mathematical tasks. Experiment with different prompt engineering techniques and evaluate the impact on the model’s reliability. Iterate on the fine-tuning process based on the results obtained.\nBy applying these prompt engineering strategies, you can guide the LM towards more reliable and accurate responses for mathematical tasks, improving the overall usability and trustworthiness of the model."
+                    }
+                ]
+            },
+            "LLM Settings": {
+                "description": "LLM (Language Model) settings play a crucial role in prompt engineering as they directly influence the behavior and output of the language model. In this section, we will discuss some of the important LLM settings that you need to consider while designing prompts.\n\n1. Temperature\nTemperature is a hyperparameter that controls the randomness of the output generated by the language model. A higher temperature will result in more diverse and creative responses, while a lower temperature will produce more focused and deterministic responses.\nHigh Temperature (e.g., 1.0): More random and creative outputs, higher chances of deviation from the topic, and potentially lower relevance.\nLow Temperature (e.g., 0.2): More deterministic outputs, focused on the provided input, and higher relevance.\n2. Max Tokens\nMax tokens determine the length of the output generated by the model. By controlling the number of tokens in the response, you can influence the verbosity of the language model.\nHigher Max Tokens: Longer responses, more details, and higher chances of going off-topic.\nLower Max Tokens: Shorter responses, more concise, but might cut off important information.\n3. Top-K Sampling\nTop-K sampling is an approach to limit the number of predicted words that the language model can consider. By specifying a smaller K value, you can restrict the output to be focused and prevent the model from generating unrelated information.\nHigh K Value: Model considers more word options and might generate diverse content, but with a higher risk of going off-topic.\nLow K Value: Model has limited word options, leading to focused and related content.\nThese LLM settings give you control over the output of the language model, helping you steer the responses according to your requirements. Understanding the balance between these settings can improve the effectiveness of your prompt engineering efforts.",
+                "order": 7,
+                "options": [
+                    {
+                        "name": "Temperature",
+                        "recommendation-type": "opinion",
+                        "description": "Temperature is an important setting in the Language Models (LMs), specifically for the fine-tuning process. It refers to the “temperature” parameter in the softmax function of the language model. Adjusting the temperature can influence the randomness or conservativeness of the model’s output.\n\nRole of Temperature\nThe temperature controls the model’s level of creativity and boldness in generating text. A lower temperature value makes the model more conservative, sticking closely to the patterns it has learned from the training data. Higher temperature values encourage the model to explore riskier solutions by allowing less likely tokens to be more probable.\n\nPractical Uses\nWhen fine-tuning an LM, you can regulate its behavior by adjusting the temperature:\n\nLower temperature values (e.g., 0.2 or 0.5): The model will be more focused on phrases and word sequences that it learned from the training data. The output will be less diverse, but may lack novelty or creativity. Suitable for tasks where conservativeness is important, such as text summarization or translation.\n\nHigher temperature values (e.g., 1.0 or 2.0): The model will generate more creative outputs with innovative combinations of words. However, it may produce less coherent or contextually improper text. Useful for tasks where exploration and distinctiveness are required, like creative writing or brainstorming.\n\nExperimenting with various temperature values can lead to finding the optimal balance between creativity and coherence, depending on the specific task and desired output."
+                    },
+                    {
+                        "name": "Top P Sampling",
+                        "recommendation-type": "opinion",
+                        "description": "Top P, also known as “nucleus sampling,” is a method that provides a more dynamic way to control the randomness of a model’s generated output. It improves the trade-off between quality and diversity in text generation.\n\nHow Top P Works?\nInstead of picking the top K tokens with the highest probability like in Top K sampling, Top P sampling picks a number of tokens whose cumulative probability adds up to the given value of P. P is a probability mass with a range between 0 and 1. This means that the number of tokens picked will vary, automatically adapting to the distribution in a more granular way.\n\nAdvantages of Top P\nMore diverse and coherent outputs: Top P sampling strikes a balance between overly conservative and highly random text. This creates more diverse and coherent outputs compared to Top K sampling.\nAdaptive threshold: The dynamic nature of Top P sampling allows it to adapt to the token probability distribution, unlike Top K sampling which requires manual tuning of K.\nPrevents OOV tokens: By gathering the tokens based on a cumulative probability threshold, Top P sampling effectively prevents selecting out-of-vocabulary (OOV) tokens.\nAdjusting Top P Value\nLower values: Decreasing the value of P will result in more focused outputs, potentially at the expense of diversity.\nHigher values: Increasing the value of P will encourage the model to explore more diverse responses, possibly at the cost of coherence.\nIn practice, a commonly used Top P value is 0.9, but you should experiment with different values for P depending on your specific use-case and desired balance between diversity and coherence."
+                    },
+                    {
+                        "name": "Other Hyperparameters",
+                        "recommendation-type": "opinion",
+                        "description": ""
+                    }
+                ]
+            },
+            "Prompt Hacking": {
+                "description": " ",
+                "resources": [
+                    {
+                        "name": "Prompt Hacking",
+                        "link": "https://learnprompting.org/docs/category/-prompt-hacking"
+                    }
+                ],
+                "order": 8,
+                "options": [
+                    {
+                        "name": "Prompt Injection",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "Prompt Injection",
+                                "link": "https://learnprompting.org/docs/prompt_hacking/injection"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Prompt Injection",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "Prompt Injection",
+                                "link": "https://learnprompting.org/docs/prompt_hacking/injection"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Prompt Leaking",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "Prompt Leaking",
+                                "link": "https://learnprompting.org/docs/prompt_hacking/leaking"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Prompt Injection",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "Prompt Injection",
+                                "link": "https://learnprompting.org/docs/prompt_hacking/injection"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jailbreaking",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "Jailbreaking",
+                                "link": "https://learnprompting.org/docs/prompt_hacking/jailbreaking"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Defensive Measures",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "Defensive Measures",
+                                "link": "https://learnprompting.org/docs/category/-defensive-measures"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Offensive Measures",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "Offensive Measures",
+                                "link": "https://learnprompting.org/docs/category/-offensive-measures"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Image Prompting": {
+                "description": "Image prompting is a technique used in the process of developing and refining prompts to work with AI models, particularly those that are designed for processing and generating descriptions, captions, or other textual responses based on visual input. This technique emphasizes the importance of crafting effective image prompts that are descriptive, provide context, and specify the desired level of detail in responses. To create compelling image prompts, it's essential to start with a clear goal, adapt to the image content, test and iterate, and strike a balance between simplicity and complexity. Mastering image prompting can lead to more valuable insights and engaging responses when working with AI models that process images.",
+                "order": 9,
+                "options": [
+                    {
+                        "name": "Style Modifiers",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "Style Modifiers",
+                                "link": "https://learnprompting.org/docs/images/style_modifiers"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quality Boosters",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": []
+                    },
+                    {
+                        "name": "Weighted Terms",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": []
+                    },
+                    {
+                        "name": "Fix Deformed Generations",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": []
+                    }
+                ]
+            }
+        }
+    }
+}

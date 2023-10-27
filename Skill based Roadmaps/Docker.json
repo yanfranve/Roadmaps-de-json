@@ -2,87 +2,429 @@
     "Skill": {
         "Docker": {
             "Introduction": {
-                "description": " ",
+                "description": " Docker is an open-source platform that automates the deployment, scaling, and management of applications by isolating them into lightweight, portable containers. Containers are standalone executable units that encapsulate all necessary dependencies, libraries, and configuration files required for an application to run consistently across various environments.",
                 "resources": [],
                 "order": 1,
-                "options": []
+                "options": [
+                    {
+                        "name": "What are Containers?",
+                        "recommendation-type": "opinion",
+                        "description": "Containers are lightweight, portable, and isolated software environments that allow developers to run and package applications with their dependencies, consistently across different platforms. They help to streamline application development, deployment, and management processes while ensuring that applications run consistently, regardless of the underlying infrastructure.",
+                        "resources": [
+                            {
+                                "name": "How do containers work?",
+                                "link": "https://www.docker.com/resources/what-container/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Need for Containers",
+                        "recommendation-type": "opinion",
+                        "description": "In the world of software development and deployment, consistency and efficiency are crucial. Before containers came into the picture, developers often faced challenges when deploying applications across different environments including inconsistent environments, inefficient resource utilization, and slow processes and scalability issues. Containers address these challenges by providing a consistent environment, efficient resource utilization, and faster processes and scalability. Overall, containers have become an essential tool for organizations that want to respond quickly to market changes, improve resource efficiency, and ensure reliable and consistent software delivery. They have revolutionized modern software development practices and have a long-lasting impact in the world of deployment and application management.",
+                        "resources": [
+                            {
+                                "name": "Introduction to containers - AWS Skill Builder",
+                                "link": "https://explore.skillbuilder.aws/learn/course/106/introduction-to-containers"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bare Metal vs VM vs Containers",
+                        "recommendation-type": "opinion",
+                        "description": "Here is a quick overview of the differences between bare metal, virtual machines, and containers. Bare metal runs directly on the hardware, offering high performance but limited flexibility. Virtual machines run multiple applications on a single server with the help of a hypervisor, providing OS isolation. Containers run multiple applications without a hypervisor, offering efficiency and isolation. Learn more from the following resources:",
+                        "resources": [
+                            {
+                                "name": "History of Virtualization",
+                                "link": "https://courses.devopsdirective.com/docker-beginner-to-pro/lessons/01-history-and-motivation/03-history-of-virtualization"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Docker and OCI",
+                        "recommendation-type": "opinion",
+                        "description": "The Open Container Initiative (OCI) is a Linux Foundation project dedicated to creating industry standards for container formats and runtimes to ensure compatibility and interoperability in container environments. Docker, as one of the founding members of OCI, has played a crucial role in shaping container format and runtime standards. Docker's contributions include the development of the container runtime (Docker Engine) and image format (Docker Image), which serve as the basis for OCI specifications.",
+                        "resources": []
+                    }
+                ]
             },
             "Underlying Technologies": {
-                "description": " ",
+                "description": "Understanding the core technologies that power Docker will provide you with a deeper insight into how Docker works and will help you use the platform more effectively.\n\n- Linux Containers (LXC): Linux Containers (LXC) serve as the foundation for Docker. LXC is a lightweight virtualization solution that allows multiple isolated Linux systems to run on a single host without the need for a full-fledged hypervisor. LXC effectively isolates applications and their dependencies in a secure and optimized manner.\n- Control Groups (cgroups): Control Groups (cgroups) is a Linux kernel feature that allows the allocation and management of resources like CPU, memory, and I/O to a set of processes. Docker leverages cgroups to limit the resources used by containers and ensure that one container does not monopolize the resources of the host system.\n- Union File Systems (UnionFS): UnionFS is a file system service that allows the overlaying of multiple file systems in a single, unified view. Docker uses UnionFS to create a layered approach for images and containers, which enables better sharing of common files and faster container creation.\n- Namespaces: Namespaces are another Linux kernel feature that provides process isolation. They allow Docker to create isolated workspaces called containers. Namespaces ensure that processes within a container cannot interfere with processes outside the container or on the host system. There are several types of namespaces, like PID, NET, MNT, and USER, each responsible for isolating a different aspect of a process.",
                 "resources": [],
-                "order": 1,
-                "options": []
+                "order": 2,
+                "options": [
+                    {
+                        "name": "Namespaces",
+                        "recommendation-type": "opinion",
+                        "description": "Namespaces are one of the core technologies that Docker uses to provide isolation between containers. They allow the isolation of various system resources, creating an abstraction layer that keeps containerized processes separate from one another and from the host system. Linux provides various types of namespaces, including PID, Network, Mount, UTS, User, and IPC, each serving a specific isolation purpose. Docker leverages namespaces to create isolated environments for containers, ensuring that containers are portable and can run on any system without conflicts or interference from other processes or containers running on the same host.",
+                        "resources": []
+                    },
+                    {
+                        "name": "cgroups",
+                        "recommendation-type": "opinion",
+                        "description": "cgroups, or control groups, is a Linux kernel feature that allows you to allocate and manage resources like CPU, memory, network bandwidth, and I/O among groups of processes running on a system. It plays a critical role in providing resource isolation and limiting the resources that a running container can use. Docker utilizes cgroups to enforce resource constraints on containers, ensuring consistent and predictable container behavior. Key features and benefits of cgroups in the context of Docker containers include resource isolation, limiting resources, prioritizing containers, and monitoring. By leveraging cgroups, Docker provides a robust and efficient container runtime environment, ensuring that containers have the necessary resources while maintaining good overall system performance.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Union Filesystems",
+                        "recommendation-type": "opinion",
+                        "description": "Union filesystems, also known as UnionFS, are a crucial component in Docker's functionality. They create a virtual, layered file structure by overlaying multiple directories without modifying the original file system. This capability is particularly valuable in Docker, as it optimizes storage performance by reducing duplication and minimizing the container image size. Key features of union filesystems include a layered structure, copy-on-write (COW), resource sharing, and fast container initialization.",
+                        "resources": []
+                    }
+                ]
             },
             "Installation Setup": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
+                "description": "Docker provides a desktop application called Docker Desktop that simplifies the installation and setup process. There is also another option to install using the Docker Engine.",
+                "resources": [
+                    "Docker Desktop website",
+                    "Docker Engine"
+                ],
+                "order": 3,
+                "options": [
+                    {
+                        "name": "Docker Desktop",
+                        "recommendation-type": "opinion",
+                        "description": "Docker Desktop is an easy-to-install application that simplifies the setup of a Docker environment on Windows and macOS. It offers an intuitive user interface, automatic updates, Docker Hub integration, container and service management, built-in Kubernetes support, and resource allocation configuration. To install Docker Desktop, download the appropriate installer from the Docker Desktop website, run the installer, and verify the installation by checking the Docker version. Explore more about Docker Desktop using the following resources:",
+                        "resources": [
+                            {
+                                "name": "Docker Desktop Documentation",
+                                "link": "https://docs.docker.com/desktop/"
+                            },
+                            {
+                                "name": "Docker Get Started Guide",
+                                "link": "https://docs.docker.com/get-started/"
+                            },
+                            {
+                                "name": "Docker Hub",
+                                "link": "https://hub.docker.com/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Docker Engine",
+                        "recommendation-type": "opinion",
+                        "description": "Docker Engine is a subset of Docker Desktop components that are free and open source, designed for Linux operating systems. It includes the Docker Command Line Interface (CLI) and the Docker daemon (dockerd), which exposes the Docker Application Programming Interface (API). Docker Engine is capable of building container images, running containers, and performing most Docker-related tasks, but it's limited to Linux and may not offer the same level of developer experience polish as Docker Desktop.",
+                        "resources": [
+                            {
+                                "name": "Docker Engine - Docker Documentation",
+                                "link": "https://docs.docker.com/engine/"
+                            }
+                        ]
+                    }
+                ]
             },
             "Basics of Docker": {
-                "description": " ",
+                "description": "Docker is a platform that simplifies the process of building, packaging, and deploying applications in lightweight, portable containers. In this section, we'll cover the basics of Docker, its components, and key commands you'll need to get started.\n\nWhat is a Container?\nA container is a lightweight, standalone, and executable software package that includes all the dependencies (libraries, binaries, and configuration files) required to run an application. Containers isolate applications from their environment, ensuring they work consistently across different systems.\n\nDocker Components\nThere are three key components in the Docker ecosystem:\n\nDockerfile: A text file containing instructions (commands) to build a Docker image.\nDocker Image: A snapshot of a container, created from a Dockerfile. Images are stored in a registry, like Docker Hub, and can be pulled or pushed to the registry.\nDocker Container: A running instance of a Docker image.\n\nDocker Commands\nBelow are some essential Docker commands you'll use frequently:\n\ndocker pull <image>: Download an image from a registry, like Docker Hub.\ndocker build -t <image_name> <path>: Build an image from a Dockerfile, where <path> is the directory containing the Dockerfile.\ndocker image ls: List all images available on your local machine.\ndocker run -d -p <host_port>:<container_port> --name <container_name> <image>: Run a container from an image, mapping host ports to container ports.\ndocker container ls: List all running containers.\ndocker container stop <container>: Stop a running container.\ndocker container rm <container>: Remove a stopped container.\ndocker image rm <image>: Remove an image from your local machine.",
                 "resources": [],
-                "order": 1,
+                "order": 4,
                 "options": []
             },
             "Data Persistence": {
-                "description": " ",
+                "description": "Docker enables you to run containers that are isolated pieces of code, including applications and their dependencies, separated from the host operating system. Containers are ephemeral by default, which means any data stored in the container will be lost once it is terminated. To overcome this problem and retain data across container lifecycles, Docker provides various data persistence methods.\n\nIn this section, we will cover:\n\nDocker Volumes\nBind Mounts\nDocker tmpfs mounts\nDocker Volumes\nDocker volumes are the preferred way to persist data generated and utilized by a Docker container. A volume is a directory on the host machine Docker uses to store files and directories that can outlive the container’s lifecycle. Docker volumes can be shared among containers, and they offer various benefits like easy backups and data migration.\n\nTo create a volume, use the following command:\n\ndocker volume create volume_name\nTo use a volume, add a --volume (or -v) flag to your docker run command:\n\ndocker run --volume volume_name:/container/path image_name\nBind Mounts\nBind mounts allow you to map any directory on the host machine to a directory within the container. This method can be useful in development environments where you need to modify files on the host system, and those changes should be immediately available within the container.\n\nTo create a bind mount, use the --mount flag with type=bind in your docker run command:\n\ndocker run --mount type=bind,src=/host/path,dst=/container/path image_name\nDocker tmpfs mounts\nDocker tmpfs mounts allow you to create a temporary file storage directly in the container’s memory. Data stored in tmpfs mounts is fast and secure but will be lost once the container is terminated.\n\nTo use a tmpfs mount, add a --tmpfs flag to your docker run command:\n\ndocker run --tmpfs /container/path image_name\nBy employing these methods, you can ensure data persistence across container lifecycles, enhancing the usefulness and flexibility of Docker containers. Remember to choose the method that best suits your use case, whether it’s the preferred Docker volumes, convenient bind mounts, or fast and secure tmpfs mounts.",
                 "resources": [],
-                "order": 1,
-                "options": []
+                "order": 5,
+                "options": [
+                    {
+                        "name": "Ephemeral FS",
+                        "recommendation-type": "opinion",
+                        "description": "By default, the storage within a Docker container is ephemeral, which means that any data changes or modifications made inside a container only persist as long as the container is running. When the container is stopped and removed, all associated data is lost. Docker containers are inherently stateless, and this temporary or short-lived storage is known as the 'ephemeral container file system.' It is a fundamental feature of Docker that allows fast and consistent deployment across different environments without worrying about container state.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Volume Mounts",
+                        "recommendation-type": "opinion",
+                        "description": "Volume mounts are a method for mapping a folder or file from the host system to a folder or file inside a Docker container. This allows data to persist outside the container, even when the container is removed, and enables multiple containers to share the same volume for easy data sharing. You can create a volume in Docker using the 'docker volume create' command and then mount it to a container using the '-v' or '--mount' flag. You can also share volumes between multiple containers by simply mounting the same volume on each of them. Removing a volume can be done with the 'docker volume rm' command. Volume mounts are a useful feature for efficiently and securely persisting and sharing data between containers.",
+                        "resources": [
+                            {
+                                "name": "Docker Volumes",
+                                "link": "https://docs.docker.com/storage/volumes/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bind Mounts",
+                        "recommendation-type": "opinion",
+                        "description": "Bind mounts offer a more limited functionality compared to volumes. With bind mounts, a file or directory on the host machine is mounted directly into a Docker container, using the absolute path to reference the file or directory on the host. In contrast to volumes, which create a new directory within Docker's storage directory on the host machine, bind mounts rely on the host machine's filesystem having a specific directory structure available. The file or directory doesn't need to exist on the Docker host initially and is created on demand if it doesn't exist. Bind mounts are highly performant, but they depend on the specific directory structure of the host machine's filesystem.",
+                        "resources": [
+                            {
+                                "name": "Docker Bind Mounts",
+                                "link": "https://docs.docker.com/storage/bind-mounts/"
+                            }
+                        ]
+                    }
+                ]
             },
             "Using Third Party Images": {
-                "description": " ",
+                "description": "Third-party images are pre-built Docker container images that are available on Docker Hub or other container registries. These images are created and maintained by individuals or organizations and can be used as a starting point for your containerized applications.\n\nFinding Third-Party Images\nDocker Hub is the largest and most popular container image registry containing both official and community-maintained images. You can search for images based on the name or the technology you want to use.\n\nFor example: If you’re looking for a Node.js image, you can search for “node” on Docker Hub and you’ll find the official Node.js image along with many other community-maintained images.\n\nUsing an Image in Your Dockerfile\nTo use a third-party image in your Dockerfile, simply set the image name as the base image using the FROM directive. Here’s an example using the official Node.js image:\n\nFROM node:14\n\n# The rest of your Dockerfile...\nBe Aware of Security Concerns\nKeep in mind that third-party images can potentially have security vulnerabilities or misconfigurations. Always verify the source of the image and check its reputation before using it in production. Prefer using official images or well-maintained community images.\n\nMaintaining Your Images\nWhen using third-party images, it’s essential to keep them updated to incorporate the latest security updates and dependency changes. Regularly check for updates in your base images and rebuild your application containers accordingly.",
                 "resources": [],
-                "order": 1,
-                "options": []
+                "order": 6,
+                "options": [
+                    {
+                        "name": "Using Third Party Images: Databases",
+                        "recommendation-type": "opinion",
+                        "description": "Running your database in a Docker container can streamline your development process and simplify deployment. Docker Hub offers a wide selection of pre-made images for popular databases like MySQL, PostgreSQL, and MongoDB. Here are examples of how to use these images:",
+                        "resources": [
+                            {
+                                "name": "Docker Hub",
+                                "link": "https://hub.docker.com/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Interactive Test Environments with Docker",
+                        "recommendation-type": "opinion",
+                        "description": "Docker provides the flexibility to create isolated, disposable environments for testing purposes. These environments can be easily removed after testing, making it a convenient way to work with third-party software, test different dependencies or versions, and experiment without risking harm to your local setup. Here's how to set up an interactive test environment using Docker:",
+                        "resources": [
+                            {
+                                "name": "Docker Hub",
+                                "link": "https://hub.docker.com/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Command Line Utilities",
+                        "recommendation-type": "opinion",
+                        "description": "Docker images can include command line utilities or standalone applications, making it convenient to run tools inside containers without the need for installation or configuration. This is especially useful when working with third-party images. Here are a couple of examples:",
+                        "resources": [
+                            {
+                                "name": "Docker Hub",
+                                "link": "https://hub.docker.com/"
+                            }
+                        ]
+                    }
+                ]
             },
             "Building Container Images": {
-                "description": " ",
+                "description": "Container images are executable packages that include everything required to run an application: code, runtime, system tools, libraries, and settings. By building custom images, you can deploy applications seamlessly with all their dependencies on any Docker-supported platform.\n\nDockerfile\nThe key component in building a container image is the Dockerfile. It is essentially a script containing instructions on how to assemble a Docker image. Each instruction in the Dockerfile creates a new layer in the image, making it easier to track changes and minimize the image size. Here’s a simple example of a Dockerfile:\n\n# Use an official Python runtime as a parent image\nFROM python:3.7-slim\n\n# Set the working directory to /app\nWORKDIR /app\n\n# Copy the current directory contents into the container at /app\nCOPY . /app\n\n# Install any needed packages specified in requirements.txt\nRUN pip install --trusted-host pypi.python.org -r requirements.txt\n\n# Make port 80 available to the world outside this container\nEXPOSE 80\n\n# Define environment variable\nENV NAME World\n\n# Run app.py when the container launches\nCMD python, app.py\nBuilding an Image\n Once you have created the Dockerfile, you can build the image using the docker build command. Execute the following command in the terminal from the directory containing the Dockerfile:\n\ndocker build -t your-image-name .\nThis command tells Docker to build an image using the Dockerfile in the current directory (.), and assign it a name (-t your-image-name).\nInspecting Images and Layers\nAfter a successful build, you can inspect the created image using docker image command:\n\ndocker image ls\nTo take a closer look at the individual layers of an image, use the docker history command:\n\ndocker history your-image-name\nTo view the layers of an image, you can also use the docker inspect command:\n\ndocker inspect your-image-name\nTo remove an image, use the docker image rm command:\n\ndocker image rm your-image-name\nPushing Images to a Registry\nOnce your image is built, you can push it to a container registry (e.g., Docker Hub, Google Container Registry, etc.) to easily distribute and deploy your application. First, log in to the registry using your credentials:\n\ndocker login\nThen, tag your image with the registry URL:\n\ndocker tag your-image-name username/repository:tag\nFinally, push the tagged image to the registry:\n\ndocker push username/repository:tag\nBuilding container images is a crucial aspect of using Docker, as it enables you to package and deploy your applications with ease. By creating a Dockerfile with precise instructions, you can effortlessly build and distribute images across various platforms.",
                 "resources": [],
-                "order": 1,
-                "options": []
+                "order": 7,
+                "options": [
+                    {
+                        "name": "Dockerfile",
+                        "recommendation-type": "opinion",
+                        "description": "A Dockerfile is a text document that contains a set of instructions for the Docker engine to build an image. Each instruction adds a new layer to the image, and you can run containers from the resulting image. Dockerfiles are an integral part of infrastructure as code. Here's an overview of the structure and common instructions found in a Dockerfile:",
+                        "resources": [
+                            {
+                                "name": "Docker Documentation",
+                                "link": "https://docs.docker.com/engine/reference/builder/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Efficient Layer Caching",
+                        "recommendation-type": "opinion",
+                        "description": "When building container images, Docker caches the newly created layers to improve build times and minimize bandwidth usage. Understanding how to efficiently use layer caching is essential for optimizing the image build process. Here's an overview of how Docker layer caching works and some tips for efficient usage:",
+                        "resources": [
+                            {
+                                "name": "Docker Layer Caching",
+                                "link": "https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#leverage-build-cache"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Image Size and Security",
+                        "recommendation-type": "opinion",
+                        "description": "When building container images, it’s essential to consider both image size and security. Smaller images lead to faster builds and reduced network overhead, while security is crucial to prevent vulnerabilities in your applications. Here are some best practices for optimizing image size and enhancing security:",
+                        "resources": [
+                            {
+                                "name": "Docker Best Practices: Image Size and Security",
+                                "link": "https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#image-size"
+                            }
+                        ]
+                    }
+                ]
             },
             "Container Registries": {
-                "description": " ",
+                "description": "A Container Registry is a centralized storage and distribution system for Docker container images. It allows developers to easily share and deploy applications in the form of these images. Container registries play a crucial role in the deployment of containerized applications, as they provide a fast, reliable, and secure way to distribute container images across various production environments.\n\nBelow is a list of popular container registries available today:\n\nDocker Hub: Docker Hub is the default registry for public Docker images and serves as a platform for sharing and distributing images among developers.\n\nGoogle Container Registry (GCR): GCR is a managed, secure, and highly available registry provided by Google Cloud Platform, ideal for hosting private container images.\n\nAmazon Elastic Container Registry (ECR): Amazon ECR is a fully-managed Docker container registry provided by Amazon Web Services, offering high scalability and performance for storing, managing, and deploying container images.\n\nAzure Container Registry (ACR): ACR is a managed registry provided by Microsoft Azure, offering Geo-replication, access control, and integration with other Azure services.",
                 "resources": [],
-                "order": 1,
+                "order": 8,
                 "options": []
             },
             "Running Containers": {
-                "description": " ",
+                "description": "To start a new container, we use the docker run command followed by the image name. The basic syntax is as follows:\n\ndocker run [options] IMAGE [COMMAND] [ARG...]\nFor example, to run the official Nginx image, we would use:\n\ndocker run -d -p 8080:80 nginx\nThis starts a new container and maps the host’s port 8080 to the container’s port 80.\n\nListing Containers\nTo list all running containers, use the docker ps command. To view all containers (including those that have stopped), use the -a flag:\n\ndocker container ls -a\nAccessing Containers\nTo access a running container’s shell, use the docker exec command:\n\ndocker exec -it CONTAINER_ID bash\nReplace CONTAINER_ID with the ID or name of your desired container. You can find this in the output of docker ps.\nStopping Containers\nTo stop a running container, use the docker stop command followed by the container ID or name:\n\ndocker container stop CONTAINER_ID\nRemoving Containers\nOnce a container is stopped, we can remove it using the docker rm command followed by the container ID or name:\n\ndocker container rm CONTAINER_ID\nTo automatically remove containers when they exit, add the --rm flag when running a container:\n\ndocker run --rm IMAGE",
                 "resources": [],
-                "order": 1,
-                "options": []
+                "order": 9,
+                "options": [
+                    {
+                        "name": "Running Containers with docker run",
+                        "recommendation-type": "opinion",
+                        "description": "In this section, we’ll discuss the docker run command, which enables you to run Docker containers. The docker run command creates a new container from the specified image and starts it. The basic syntax for the docker run command is as follows:",
+                        "resources": [
+                            {
+                                "name": "Docker Run Command Documentation",
+                                "link": "https://docs.docker.com/engine/reference/run/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Docker Compose",
+                        "recommendation-type": "opinion",
+                        "description": "Docker Compose is a tool for defining and running multi-container Docker applications. It allows you to create, manage, and run your applications using a simple YAML file called docker-compose.yml. This file describes your application’s services, networks, and volumes, allowing you to easily run and manage your containers using just a single command.",
+                        "resources": [
+                            {
+                                "name": "Docker Compose Documentation",
+                                "link": "https://docs.docker.com/compose/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Runtime Configuration Options",
+                        "recommendation-type": "opinion",
+                        "description": "Runtime configuration options allow you to customize the behavior and resources of your Docker containers when you run them. These options can be helpful in managing container resources, security, and networking.",
+                        "resources": [
+                            {
+                                "name": "Docker Official Documentation - Runtime Configuration Options",
+                                "link": "https://docs.docker.com/engine/reference/run/"
+                            }
+                        ]
+                    }
+                ]
             },
             "Container Security": {
-                "description": " ",
+                "description": "Container security is a critical aspect of implementing and managing container technologies like Docker. It encompasses a set of practices, tools, and technologies designed to protect containerized applications and the infrastructure they run on. In this section, we’ll discuss some key container security considerations, best practices, and recommendations.\n\nContainer Isolation\nIsolation is crucial for ensuring the robustness and security of containerized environments. Containers should be isolated from each other and the host system, to prevent unauthorized access and mitigate the potential damage in case an attacker manages to compromise one container.\n\nNamespaces: Docker uses namespace technology to provide isolated environments for running containers. Namespaces restrict what a container can see and access in the broader system, including process and network resources.\nCgroups: Control groups (cgroups) are used to limit the resources consumed by containers, such as CPU, memory, and I/O. Proper use of cgroups aids in preventing DoS attacks and resource exhaustion scenarios.\nSecurity Patterns and Practices\nImplementing best practices and specific security patterns during the development, deployment, and operation of containers is essential to maintaining a secure environment.\n\nLeast Privilege: Containers should be run with the least possible privilege, granting only the minimal permissions required for the application.\nImmutable Infrastructure: Containers should be treated as immutable units - once built, they should not be altered. Any change should come by deploying a new container from an updated image.\nVersion Control: Images should be version-controlled and stored in a secure container registry.\nSecure Access Controls\nAccess controls should be applied to both container management and container data, in order to protect sensitive information and maintain the overall security posture.\n\nContainer Management: Use Role-Based Access Control (RBAC) to restrict access to container management platforms (e.g., Kubernetes) and ensure that users have only the minimum permissions necessary.\nContainer Data: Encrypt data at rest and in transit, especially when handling sensitive information.\nContainer Vulnerability Management\nContainers can be vulnerable to attacks, as their images depend on a variety of packages and libraries. To mitigate these risks, vulnerability management should be included in the container lifecycle.\n\nImage Scanning: Use automated scanning tools to identify vulnerabilities in containers and images. These tools should be integrated into the development pipeline to catch potential risks before they reach production.\nSecure Base Images: Use minimal and secure base images for container creation, reducing the attack surface and potential vulnerabilities.\nRegular Updates: Keep base images and containers up-to-date with the latest security patches and updates.\nBy understanding and applying these key aspects of container security, you’ll be well on your way to ensuring that your containerized applications and infrastructure are protected from potential threats.",
                 "resources": [],
-                "order": 1,
-                "options": []
+                "order": 10,
+                "options": [
+                    {
+                        "name": "Image Security",
+                        "recommendation-type": "opinion",
+                        "description": "Image security is a crucial aspect of deploying Docker containers in your environment. Ensuring the images you use are secure, up to date, and free of vulnerabilities is essential. In this section, we will review best practices and tools for securing and managing your Docker images.",
+                        "resources": [
+                            {
+                                "name": "Official Docker Images",
+                                "link": "https://hub.docker.com/explore/"
+                            },
+                            {
+                                "name": "Docker Hub",
+                                "link": "https://hub.docker.com/"
+                            },
+                            {
+                                "name": "Anchore",
+                                "link": "https://anchore.com/"
+                            },
+                            {
+                                "name": "Clair",
+                                "link": "https://github.com/quay/clair"
+                            },
+                            {
+                                "name": "Alpine Linux",
+                                "link": "https://alpinelinux.org/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Runtime Security",
+                        "recommendation-type": "opinion",
+                        "description": "Runtime security focuses on ensuring the security of Docker containers while they are running in production. This is a critical aspect of container security, as threats may arrive or be discovered after your containers have been deployed. Proper runtime security measures help to minimize the damage that can be done if a vulnerability is exploited.",
+                        "resources": []
+                    }
+                ]
             },
             "Docker CLI": {
-                "options": []
-            },
-            "L": {
-                "description": " ",
+                "description": "The Docker CLI (Command Line Interface) is a powerful tool that allows you to interact with and manage Docker containers, images, volumes, and networks. It provides a wide range of commands for users to create, run, and manage Docker containers and other Docker resources in their development and production workflows.\n\nIn this topic, we’ll dive into some key aspects of Docker CLI, covering the following:\n\n1. Installation\nTo get started with Docker CLI, you need to have Docker installed on your machine. You can follow the official installation guide for your respective operating system from the Docker documentation.\n\n2. Basic Commands\nHere are some essential Docker CLI commands to familiarize yourself with:\n\ndocker run: Create and start a container from a Docker image\ndocker container: List running containers\ndocker image: List all available images on your system\ndocker pull: Pull an image from Docker Hub or another registry\ndocker push: Push an image to Docker Hub or another registry\ndocker build: Build an image from a Dockerfile\ndocker exec: Run a command in a running container\ndocker logs: Show logs of a container\n3. Docker Run Options\ndocker run is one of the most important commands in the Docker CLI. You can customize the behavior of a container using various options, such as:\n\n-d, --detach: Run the container in the background\n-e, --env: Set environment variables for the container\n-v, --volume: Bind-mount a volume\n-p, --publish: Publish the container’s port to the host\n--name: Assign a name to the container\n--restart: Specify the container’s restart policy\n--rm: Automatically remove the container when it exits\n4. Dockerfile\nA Dockerfile is a script containing instructions to build a Docker image. You can use the Docker CLI to build, update, and manage Docker images using a Dockerfile.\n\nHere is a simple example of a Dockerfile:\n\n# Set the base image to use\nFROM alpine:3.7\n\n# Update the system and install packages\nRUN apk update and apk add curl\n\n# Set the working directory\nWORKDIR /app\n\n# Copy the application file\nCOPY app.sh .\n\n# Set the entry point\nENTRYPOINT [\"./app.sh\"]\nTo build the image, use the command:\n\ndocker build -t my-image .\n5. Docker Compose\nDocker Compose is a CLI tool for defining and managing multi-container Docker applications using YAML files. It works together with the Docker CLI, offering a consistent way to manage multiple containers and their dependencies.\n\nInstall Docker Compose using the official installation guide, and then you can create a docker-compose.yml file to define and run multi-container applications:\n\nversion: '3'\nservices:\n  web:\n    image: webapp-image\n    ports:\n      - \"80:80\"\n  database:\n    image: mysql\n    environment:\n      - MYSQL_ROOT_PASSWORD=my-secret-pw\nRun the application using the command:\n\ndocker-compose up\nIn conclusion, the Docker CLI is a robust and versatile tool for managing all aspects of Docker containers and resources. Once familiar with its commands and capabilities, you’ll be well-equipped to develop, maintain and deploy applications using Docker with ease.",
                 "resources": [],
-                "order": 1,
-                "options": []
+                "order": 11,
+                "options": [
+                    {
+                        "name": "Containers",
+                        "recommendation-type": "opinion",
+                        "description": "Containers can be thought of as lightweight, stand-alone, and executable software packages that include everything needed to run a piece of software, including the code, runtime, libraries, environment variables, and config files. Containers isolate software from its surroundings, ensuring that it works uniformly across different environments.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Docker Networks",
+                        "recommendation-type": "opinion",
+                        "description": "Docker networks provide an essential way of managing container communication. It allows containers to talk to each other and to the host machine using various network drivers. By understanding and utilizing different types of network drivers, you can design container networks to accommodate specific scenarios or application requirements.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Docker Images",
+                        "recommendation-type": "opinion",
+                        "description": "Docker images are lightweight, standalone, and executable packages that include everything needed to run an application. These images contain all necessary dependencies, libraries, runtime, system tools, and code to enable the application to run consistently across different environments.\n\nDocker images are built and managed using Dockerfiles. A Dockerfile is a script that consists of instructions to create a Docker image, providing a step-by-step guide for setting up the application environment.\n\nWorking with Docker Images\nDocker CLI provides several commands to manage and work with Docker images. Some essential commands include:\n\ndocker image ls: List all available images on your local system.\ndocker build: Build an image from a Dockerfile.\ndocker image rm: Remove one or more images.\ndocker pull: Pull an image from a registry (e.g., Docker Hub) to your local system.\ndocker push: Push an image to a repository.\nFor example, to pull the official Ubuntu image from Docker Hub, you can run the following command:\n\ndocker pull ubuntu:latest\nAfter pulling the image, you can create and run a container using that image with the docker run command:\n\ndocker run -it ubuntu:latest /bin/bash\nThis command creates a new container and starts an interactive session inside the container using the /bin/bash shell.\n\nSharing Images\nDocker images can be shared and distributed using container registries, such as Docker Hub, Google Container Registry, or Amazon Elastic Container Registry (ECR). Once your images are pushed to a registry, others can easily access and utilize them.\n\nTo share your image, you first need to tag it with a proper naming format:\n\ndocker tag <image-id> <username>/<repository>:<tag>\nThen, you can push the tagged image to a registry using:\n\ndocker push <username>/<repository>:<tag>\nIn conclusion, Docker images are a crucial part of the Docker ecosystem, allowing developers to package their applications, share them easily, and ensure consistency across different environments. By understanding Docker images and the commands to manage them, you can harness the power of containerization and enhance your development workflow."
+                    }
+                ]
             },
             "Developer Experience": {
-                "description": " ",
+                "description": "So far we have only discussed using Docker for deploying applications. However, Docker is also a great tool for developing applications. There are a few different recommendations that you can adopt to improve your development experience.\n\nUse Docker Compose in your application for ease of development.\nUse bind mounts to mount the code from your local into the container filesystem to avoid having to rebuild the container image with every single change.\nFor auto-reloading, you can use tools like Vite for client-side, Nodemon for Node.js, or Air for Golang.\nYou should also provide a way to debug your applications. For example, look into Delve for Go, enable debugging in Node.js using the --inspect flag, etc. It doesn’t matter what you use, but the point is that you should have a way to debug your application running inside the container.\nYou should have a way to run tests inside the container. For example, you could have a separate Docker Compose file for running tests.\nYou should have a CI pipeline for production images.\nEphemeral environment for each pull request\nFor more details and practical examples:\n\nDeveloper Experience Wishlist - Docker",
                 "resources": [],
-                "order": 1,
-                "options": []
+                "order": 12,
+                "options": [
+                    {
+                        "name": "Hot Reloading in Docker",
+                        "recommendation-type": "opinion",
+                        "description": "Even though we can speed up the image building with layer caching enabled, we don’t want to have to rebuild our container image with every code change. Instead, we want the state of our application in the container to reflect changes immediately. We can achieve this through a combination of bind mounts and hot reloading utilities!",
+                        "resources": [
+                            {
+                                "name": "Hot Reloading - Docker",
+                                "link": "https://courses.devopsdirective.com/docker-beginner-to-pro/lessons/11-development-workflow/01-hot-reloading"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Debuggers in Docker",
+                        "recommendation-type": "opinion",
+                        "description": "In order to make developing with containers competitive with developing locally, we need the ability to run and attach to debuggers inside the container.",
+                        "resources": [
+                            {
+                                "name": "Debuggers in Docker",
+                                "link": "https://courses.devopsdirective.com/docker-beginner-to-pro/lessons/11-development-workflow/02-debug-and-test"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Debuggers in Docker",
+                        "recommendation-type": "opinion",
+                        "description": "In order to make developing with containers competitive with developing locally, we need the ability to run and attach to debuggers inside the container.",
+                        "resources": [
+                            {
+                                "name": "Running Tests - Docker",
+                                "link": "https://courses.devopsdirective.com/docker-beginner-to-pro/lessons/11-development-workflow/03-tests"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Continuous Integration (CI)",
+                        "recommendation-type": "opinion",
+                        "description": "Continuous integration is the idea of executing some actions (for example build, test, etc…) automatically as you push code to your version control system.\n\nFor containers, there are a number of things we may want to do:\n\n- Build the container images\n- Execute tests\n- Scan container images for vulnerabilities\n- Tag images with useful metadata\n- Push to a container registry\nLearn more from the following:",
+                        "resources": [
+                            {
+                                "name": "Continuous Integration - Docker",
+                                "link": "https://courses.devopsdirective.com/docker-beginner-to-pro/lessons/11-development-workflow/04-continuous-integration-github-actions"
+                            }
+                        ]
+                    }
+                ]
             },
             "Deploying Containers": {
-                "description": " ",
+                "description": "Deploying containers is a crucial step in using Docker and containerization to manage applications more efficiently, easily scale, and ensure consistent performance across environments. This topic will give you an overview of how to deploy Docker containers to create and run your applications.\n\nOverview\nDocker containers are lightweight, portable, and self-sufficient environments that can run applications and their dependencies. Deploying containers involves starting, managing, and scaling these isolated environments in order to run your applications smoothly.\n\nBenefits of Container Deployment\nConsistency: Containers enable your application to run in the same way across various environments, avoiding the common “it works on my machine” issue.\nIsolation: Each container runs in an isolated environment, avoiding conflicts with other applications and ensuring that each service can be independently managed.\nScalability: Containers make it easy to scale applications by running multiple instances and distributing the workload among them.\nVersion Control: Deploying containers helps you manage different versions of your application, allowing you to easily roll back to previous versions if needed.\nKey Concepts\nImage: A Docker image is a lightweight, standalone, executable package that contains everything needed to run a piece of software, including the code, runtime, system tools, libraries, and settings.\nContainer: A Docker container is a running instance of a Docker image. You can deploy multiple containers from the same image, each running independently.\nDocker Registry: A place where Docker images are stored and retrieved. Docker Hub is the default registry used by Docker, but you can use your own private registry if desired.\nSteps to Deploy Containers\nCreate a Dockerfile: A Dockerfile is a script with instructions to build a Docker image. It should specify the base image, application code, dependencies, and configurations needed to run your application.\nBuild the Docker Image: Using the Docker client, you can build a new image by running docker build and specifying the path to your Dockerfile. This will create a new Docker image based on the instructions in your Dockerfile.\nPush the Docker Image: After building the image, you must push it to a registry (e.g., Docker Hub) so that it can be easily retrieved when deploying containers. Use the docker push command followed by the image name and tag.\nDeploy the Container: To deploy a new container from the Docker image, use the docker run command followed by the image name and tag. This will start a new container and execute the required application.\nManage the Container: Deployment involves ensuring the container is running properly and managing scaling, updates, and other key aspects. Use Docker commands like docker ps (to list running containers), docker stop (to stop a container), and docker rm (to remove a container) to manage your deployed containers.\nMonitor and Log: Collect logs and monitor the performance of your deployed containers to ensure they are running optimally. Use commands like docker logs (to view logs) and docker stats (to see container statistics) as needed.\nConclusion\nDeploying containers with Docker allows you to improve application consistency, security, and scalability while simplifying management and reducing the overhead typically associated with deployment. By understanding the concepts and steps outlined in this guide, you’ll be well-equipped to deploy your applications using Docker containers.",
                 "resources": [],
-                "order": 1,
-                "options": []
+                "order": 13,
+                "options": [
+                    {
+                        "name": "PaaS Options for Deploying Containers",
+                        "recommendation-type": "opinion",
+                        "description": "Platform as a Service (PaaS) is a cloud computing model that simplifies the deployment and management of containers. It abstracts away the underlying infrastructure allowing developers to focus on creating and running their applications. Given below are some of the popular PaaS options for deploying containers:\n\nAmazon Elastic Container Service\nAmazon Elastic Container Service is a fully managed container orchestration service offered by Amazon Web Services. It allows you to run containers without having to manage servers or clusters. It integrates with other AWS services such as IAM, CloudWatch, and CloudFormation.\n\n- Supports Docker containers and Amazon ECR\n- Offers a free tier for new users\n- Supports multiple deployment options\n- Pay for what you use, with no upfront costs\n\nGoogle Cloud Run\nGoogle Cloud Run is a fully-managed compute platform by Google that allows you to run stateless containers. It is designed for running applications that can scale automatically, enabling you to pay only for the resources you actually use.\n\n- Automatically scales based on demand\n- Supports custom domains and TLS certificates\n- Integrates with other Google Cloud services\n- Offers a generous free tier\n\nAWS Elastic Beanstalk\nAWS Elastic Beanstalk is an orchestration service offered by Amazon Web Services that allows you to deploy, manage, and scale applications using containers, without worrying about the underlying infrastructure.\n\n- Supports multiple languages and platforms, including Docker containers\n- Integration with other AWS services, such as RDS, S3, and CloudFront\n- Offers monitoring and logging capabilities\n- Pay for what you use, with no upfront costs\n\nMicrosoft Azure Container Instances\nAzure Container Instances is a service offered by Microsoft Azure that simplifies the deployment of containers using a serverless model. You can run containers without managing the underlying hosting infrastructure or container orchestration.\n\n- Fast and simple deployment process\n- Customizable size, network, and storage configurations\n- Integration with Azure services and Azure Kubernetes Service\n- Pay-per-second billing model\n\nIBM Cloud Code Engine\nIBM Cloud Code Engine is a fully managed, serverless platform by IBM that runs your containerized applications and source code. It supports deploying, running, and auto-scaling applications on Kubernetes.\n\n- Built on top of Kubernetes and Knative\n- Deploy from your container registry or source code repository\n- Supports event-driven and batch workloads\n- Pay-as-you-go model\n\nWhen choosing a PaaS option for deploying containers, consider factors such as integration with existing tools, ease of use, costs, scalability, and support for the programming languages and frameworks your team is familiar with. Regardless of your choice, PaaS options make it easy for developers to deploy applications without worrying about managing and maintaining the underlying infrastructure.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Kubernetes",
+                        "recommendation-type": "opinion",
+                        "description": "Kubernetes (K8s) is an open-source orchestration platform used for automating the deployment, scaling, and management of containerized applications. While Docker provides the container runtime environment, Kubernetes extends that functionality with a powerful and flexible management framework.\n\nKey Concepts\nCluster: A set of machines, called nodes, that run containerized applications in Kubernetes. A cluster can have multiple nodes for load balancing and fault tolerance.\nNode: A worker machine (physical, virtual, or cloud-based) that runs containers as part of the Kubernetes cluster. Each node is managed by the Kubernetes master.\nPod: The smallest and simplest unit in the Kubernetes object model. A pod represents a single instance of a running process and typically wraps one or more containers (e.g., a Docker container).\nService: An abstraction that defines a logical set of pods and a policy for accessing them. Services provide load balancing, monitoring, and networking capabilities for the underlying pods.\nDeployment: A high-level object that describes the desired state of a containerized application. Deployments manage the process of creating, updating, and scaling pods based on a specified container image.\nWhy Use Kubernetes?\nKubernetes plays a crucial role in managing containerized applications at scale, offering several advantages over traditional deployment mechanisms:\nScalability: By automatically scaling the number of running containers based on resource usage and application demands, Kubernetes ensures optimal resource utilization and consistent app performance.\nSelf-healing: Kubernetes continuously monitors the health of your containers and replaces failed pods to maintain the desired application state.\nRolling updates & rollbacks: Kubernetes makes it easy to update your applications by incrementally rolling out new versions of container images, without any downtime.\nLoad balancing: Services in Kubernetes distribute network traffic among container instances, offering a load balancing solution for your applications.\nKubernetes vs. Docker Swarm\nWhile both Kubernetes and Docker Swarm are orchestration platforms, they differ in terms of complexity, scalability, and ease of use. Kubernetes provides more advanced features, better scalability, and higher fault tolerance, but has a steeper learning curve. Docker Swarm, on the other hand, is simpler and more straightforward but lacks some advanced functionality.\nIn the context of these differences, selecting the right orchestration platform depends on the needs and requirements of your project.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Docker Swarm",
+                        "recommendation-type": "opinion",
+                        "description": "Docker Swarm is a container orchestration tool that enables users to manage multiple Docker nodes and deploy services across them. It is a native clustering and orchestration feature built into the Docker Engine, which allows you to create and manage a swarm of Docker nodes, referred to as a Swarm.\n\nKey concepts\nNode: A Docker node is an instance of the Docker Engine that participates in the swarm. Nodes can either be a worker or a manager. Worker nodes are responsible for running containers whereas manager nodes control the swarm and store the necessary metadata.\nServices: A service is a high-level abstraction of the tasks required to run your containers. It defines the desired state of a collection of containers, specifying the Docker image, desired number of replicas, and required ports.\nTasks: A task carries a Docker container and the commands required to run it. Swarm manager nodes assign tasks to worker nodes based on the available resources.\nMain advantages\nScalability: Docker Swarm allows you to scale services horizontally by easily increasing or decreasing the number of replicas.\nLoad balancing: Swarm ensures that the nodes within the swarm evenly handle container workloads by providing internal load balancing.\nService discovery: Docker Swarm allows you to automatically discover other services in the swarm by assigning a unique DNS entry to each service.\nRolling updates: Swarm enables you to perform rolling updates with near-zero downtime, easing the process of deploying new versions of your applications.\nVisit the official Docker Swarm documentation to learn more about its features and best practices.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Nomad: Deploying Containers",
+                        "recommendation-type": "opinion",
+                        "description": "Nomad is a cluster manager and scheduler that enables you to deploy, manage and scale your containerized applications. It automatically handles node failures, resource allocation, and container orchestration. Nomad supports running Docker containers as well as other container runtimes and non-containerized applications.\nTo dive deeper into Nomad, check out the official documentation.",
+                        "resources": []
+                    }
+                ]
             }
-           
         }
     }
 }

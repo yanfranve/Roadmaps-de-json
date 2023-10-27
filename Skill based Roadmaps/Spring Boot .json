@@ -1,0 +1,1047 @@
+{
+    "Skill": {
+        "Spring Boot ": {
+            "Spring Core": {
+                "description": "Learn more about Spring Core, the heart of the Spring framework, and its features for dependency injection, validation, type conversion, and messaging.",
+                "resources": [
+                    {
+                        "name": "Official website",
+                        "link": "https://spring.io/"
+                    },
+                    {
+                        "name": "Official Documentation",
+                        "link": "https://docs.spring.io/spring-framework/docs/current/reference/html/core.html"
+                    },
+                    {
+                        "name": "Getting Started with Spring",
+                        "link": "https://spring.io/guides/gs/serving-web-content/"
+                    },
+                    {
+                        "name": "Spring Core Tutorial",
+                        "link": "https://www.baeldung.com/spring-core-tutorial"
+                    },
+                    {
+                        "name": "Spring Framework",
+                        "link": "https://spring.io/projects/spring-framework"
+                    }
+                ],
+                "Introduction": {
+                    "name": "Introduction",
+                    "recommendation-type": "opinion",
+                    "description": "Learn about the introduction to Spring Boot and how it simplifies the development of production-ready Spring-based applications. Explore various resources to get started with Spring Boot.",
+                    "resources": [
+                        {
+                            "name": "Spring Boot - Introduction",
+                            "link": "https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started-introducing-spring-boot"
+                        },
+                        {
+                            "name": "Introduction to Spring Boot",
+                            "link": "https://www.baeldung.com/spring-boot-intro"
+                        },
+                        {
+                            "name": "Spring Boot",
+                            "link": "https://spring.io/projects/spring-boot"
+                        },
+                        {
+                            "name": "What is Spring Boot?",
+                            "link": "https://www.tutorialspoint.com/spring_boot/spring_boot_introduction.htm"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "name": "Terminology",
+                            "recommendation-type": "opinion",
+                            "description": "Learn key terminology and concepts related to Spring Core, providing a solid foundation for understanding the Spring Framework. Explore more resources to expand your knowledge of Spring.",
+                            "resources": [
+                                {
+                                    "name": "Spring Boot - Official Website",
+                                    "link": "https://spring.io/projects/spring-boot"
+                                },
+                                {
+                                    "name": "Spring Boot - Starter Guide",
+                                    "link": "https://spring.io/guides/gs/spring-boot/"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Architecture",
+                            "recommendation-type": "opinion",
+                            "description": "Explore the layered architecture of Spring Boot, understanding how different components interact to build robust applications. Learn more about Spring Boot's architecture with detailed explanations.",
+                            "resources": [
+                                {
+                                    "name": "Spring Boot Architecture",
+                                    "link": "https://www.baeldung.com/spring-boot-architecture"
+                                },
+                                {
+                                    "name": "Spring Boot Architecture - Detailed Explanation",
+                                    "link": "https://www.tutorialspoint.com/spring_boot/spring_boot_architecture.htm"
+                                },
+                                {
+                                    "name": "Spring Boot - Architecture",
+                                    "link": "https://www.journaldev.com/18124/spring-boot-architecture"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Why Spring",
+                            "recommendation-type": "opinion",
+                            "description": "Discover why Spring Boot is a popular choice for developing Spring-based applications. Explore its key features and advantages, and learn about the differences between Spring and Spring Boot.",
+                            "resources": [
+                                {
+                                    "name": "Why Spring?",
+                                    "link": "https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#spring-introduction"
+                                },
+                                {
+                                    "name": "Spring vs Spring Boot: Know The Difference",
+                                    "link": "https://dzone.com/articles/spring-vs-spring-boot-know-the-difference"
+                                },
+                                {
+                                    "name": "A Comparison Between Spring and Spring Boot",
+                                    "link": "https://www.javatpoint.com/spring-vs-spring-boot"
+                                },
+                                {
+                                    "name": "Advantages of Spring Boot",
+                                    "link": "https://www.guru99.com/spring-boot-tutorial.html"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "order": 1,
+                "options": [
+                    {
+                        "name": "Configuration",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about Spring Core Configuration and how to configure the Spring Framework for your application.",
+                        "resources": [
+                            {
+                                "name": "Spring Framework Documentation",
+                                "link": "https://docs.spring.io/spring-framework/docs/current/reference/html/core.html"
+                            },
+                            {
+                                "name": "Spring Configuration tutorial",
+                                "link": "https://www.baeldung.com/spring-configuration"
+                            },
+                            {
+                                "name": "Spring Framework tutorial",
+                                "link": "https://www.tutorialspoint.com/spring/index.htm"
+                            },
+                            {
+                                "name": "Spring Core video tutorial",
+                                "link": "https://www.youtube.com/watch?v=VIDEO_ID"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dependency Injection",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about Dependency Injection in Spring Boot and how it's managed by the Spring Framework's Inversion of Control (IoC) container.",
+                        "resources": [
+                            {
+                                "name": "Spring Dependency Injection",
+                                "link": "https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring"
+                            },
+                            {
+                                "name": "Dependency Injection Using Spring Boot",
+                                "link": "https://www.baeldung.com/spring-boot-dependency-injection"
+                            },
+                            {
+                                "name": "Dependency Injection in Spring",
+                                "link": "https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-dependency-injection"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spring IoC",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about Spring's Inversion of Control (IoC) and how it provides a flexible, modular approach to software development. Spring's IoC container manages object creation and configuration.",
+                        "resources": [
+                            {
+                                "name": "Spring IoC, Spring Bean Example Tutorial",
+                                "link": "https://www.baeldung.com/spring-ioc"
+                            },
+                            {
+                                "name": "Intro to Inversion of Control with Spring",
+                                "link": "https://www.tutorialspoint.com/spring/spring_inversion_of_control.htm"
+                            },
+                            {
+                                "name": "IoC Container",
+                                "link": "https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-factory-configuration"
+                            },
+                            {
+                                "name": "Spring – IoC Container",
+                                "link": "https://www.tutorialspoint.com/spring/spring_bean_definition.htm"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spring AOP",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about Spring's Aspect-Oriented Programming (AOP) and how it allows you to define cross-cutting concerns and apply them to specific join points in your application. Spring AOP makes your code more modular and flexible.",
+                        "resources": [
+                            {
+                                "name": "Spring AOP Tutorial",
+                                "link": "https://www.baeldung.com/spring-aop"
+                            },
+                            {
+                                "name": "AOP with Spring Framework",
+                                "link": "https://www.tutorialspoint.com/spring/aop_with_spring.htm"
+                            },
+                            {
+                                "name": "Spring AOP Tutorial",
+                                "link": "https://www.javatpoint.com/spring-aop-tutorial"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spring MVC",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about Spring's Model-View-Controller (MVC) framework for building web applications in Java. Spring MVC separates the application concerns into three components: Model, View, and Controller.",
+                        "resources": [
+                            {
+                                "name": "Spring MVC Tutorial",
+                                "link": "https://www.baeldung.com/spring-mvc-tutorial"
+                            },
+                            {
+                                "name": "Spring - MVC Framework",
+                                "link": "https://www.tutorialspoint.com/spring/spring_web_mvc_framework.htm"
+                            },
+                            {
+                                "name": "Web MVC framework",
+                                "link": "https://docs.spring.io/spring-framework/docs/current/reference/html/web.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spring MVC",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about Spring's Model-View-Controller (MVC) framework for building web applications in Java. Spring MVC separates the application concerns into three components: Model, View, and Controller.",
+                        "resources": [
+                            {
+                                "name": "Spring MVC Tutorial",
+                                "link": "https://www.baeldung.com/spring-mvc-tutorial"
+                            },
+                            {
+                                "name": "Spring - MVC Framework",
+                                "link": "https://www.tutorialspoint.com/spring/spring_web_mvc_framework.htm"
+                            },
+                            {
+                                "name": "Web MVC framework",
+                                "link": "https://docs.spring.io/spring-framework/docs/current/reference/html/web.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spring Bean Scopes",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about the different bean scopes in the Spring Framework and how they affect the lifecycle and visibility of beans within the container. Choosing the right scope is crucial for application behavior and performance.",
+                        "resources": [
+                            {
+                                "name": "Spring - Bean Scopes",
+                                "link": "https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-factory-scopes"
+                            },
+                            {
+                                "name": "Quick Guide to Spring Bean Scopes",
+                                "link": "https://www.baeldung.com/spring-bean-scopes"
+                            },
+                            {
+                                "name": "Spring Bean Scopes",
+                                "link": "https://www.tutorialspoint.com/spring/spring_bean_scopes.htm"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Spring security": {
+                "description": "Explore Spring Security, a robust framework for securing Java-based applications. Learn about its authentication and authorization capabilities for web applications and RESTful services.",
+                "resources": [
+                    {
+                        "name": "Spring Security",
+                        "link": "https://spring.io/projects/spring-security"
+                    },
+                    {
+                        "name": "Spring Security Introduction",
+                        "link": "https://www.baeldung.com/spring-security-intro"
+                    },
+                    {
+                        "name": "What is Spring security",
+                        "link": "https://docs.spring.io/spring-security/site/docs/current/reference/html5/#tech-intro"
+                    },
+                    {
+                        "name": "Spring Security: Authentication and Authorization In-Depth",
+                        "link": "https://www.baeldung.com/spring-security-authentication-authorization"
+                    }
+                ],
+                "order": 2,
+                "options": [
+                    {
+                        "name": "Authentication",
+                        "recommendation-type": "opinion",
+                        "description": "Explore authentication in Spring Security, the process of verifying user identities. Learn about various authentication methods, including traditional and modern approaches.",
+                        "resources": [
+                            {
+                                "name": "Spring Authentication",
+                                "link": "https://docs.spring.io/spring-security/site/docs/current/reference/html5/#authentication"
+                            },
+                            {
+                                "name": "Spring Security Basic Authentication",
+                                "link": "https://www.baeldung.com/spring-security-basic-authentication"
+                            },
+                            {
+                                "name": "Spring Security Authentication",
+                                "link": "https://www.baeldung.com/spring-security-authentication"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Authorization",
+                        "recommendation-type": "opinion",
+                        "description": "Explore authorization in Spring Security, which controls user access to specific resources and functionality. Learn about various authorization mechanisms and access control annotations.",
+                        "resources": [
+                            {
+                                "name": "Spring Authorization",
+                                "link": "https://docs.spring.io/spring-security/site/docs/current/reference/html5/#authorization"
+                            },
+                            {
+                                "name": "Advanced authorization in Spring",
+                                "link": "https://www.baeldung.com/spring-security-method-security"
+                            },
+                            {
+                                "name": "Spring Security: Authentication and Authorization In-Depth",
+                                "link": "https://www.baeldung.com/spring-security-authentication-authorization"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "OAuth2",
+                        "recommendation-type": "opinion",
+                        "description": "Discover OAuth2 with Spring Security and how it provides support for various grant types and resource protection. Get started with OAuth2 authentication using Spring Security OAuth2 library.",
+                        "resources": [
+                            {
+                                "name": "Spring Boot - OAuth2 with JWT",
+                                "link": "https://www.baeldung.com/spring-security-oauth2-jwt"
+                            },
+                            {
+                                "name": "Spring Boot and OAuth2",
+                                "link": "https://www.baeldung.com/spring-security-oauth2"
+                            },
+                            {
+                                "name": "Spring Security",
+                                "link": "https://spring.io/projects/spring-security"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "JWT Authentication",
+                        "recommendation-type": "opinion",
+                        "description": "Explore JWT Authentication with Spring Security and how to use JWT tokens to secure your APIs. Learn to implement JWT-based authentication and authorization.",
+                        "resources": [
+                            {
+                                "name": "JWT Token Authentication in Spring",
+                                "link": "https://www.baeldung.com/spring-security-jwt"
+                            },
+                            {
+                                "name": "Spring Security with JWT for REST API",
+                                "link": "https://www.baeldung.com/spring-security-jwt"
+                            },
+                            {
+                                "name": "Spring Security - JWT",
+                                "link": "https://spring.io/guides/topicals/spring-security-architecture"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Spring Boot": {
+                "description": "Explore the convenience of Spring Boot starters and how they simplify the inclusion of dependencies in your application, reducing the need for boilerplate code and configuration.",
+                "resources": [
+                    {
+                        "name": "Intro to Spring Boot Starters",
+                        "link": "https://www.baeldung.com/spring-boot-starters"
+                    },
+                    {
+                        "name": "Spring Boot Starters",
+                        "link": "https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-starter"
+                    }
+                ],
+                "order": 3,
+                "options": []
+            },
+            "Autoconfiguration": {
+                "description": "Learn about the powerful and convenient Spring Boot Autoconfiguration feature that simplifies bean and component configuration based on dependencies and properties, reducing the need for boilerplate code.",
+                "resources": [
+                    {
+                        "name": "Auto-configuration using Spring Boot",
+                        "link": "https://www.baeldung.com/spring-boot-auto-configuration"
+                    },
+                    {
+                        "name": "Spring Boot Auto-configuration",
+                        "link": "https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.spring-boot-auto-configuration"
+                    },
+                    {
+                        "name": "What is Spring Boot Auto-configuration",
+                        "link": "https://dzone.com/articles/spring-boot-auto-configuration"
+                    }
+                ],
+                "order": 4,
+                "options": []
+            },
+            "Actuators": {
+                "description": "Explore Spring Boot Actuators, a set of production-ready features that help monitor and manage your application. Learn about key features like the Health, Metrics, Info, and Configuration endpoints for application health and performance insights.",
+                "resources": [
+                    {
+                        "name": "Building a RESTful Web Service with Spring Boot Actuator",
+                        "link": "https://spring.io/guides/gs/actuator-service/"
+                    },
+                    {
+                        "name": "Spring Boot Starter Actuator",
+                        "link": "https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html"
+                    },
+                    {
+                        "name": "What is Spring Boot Actuator",
+                        "link": "https://dzone.com/articles/what-is-spring-boot-actuator"
+                    }
+                ],
+                "order": 5,
+                "options": []
+            },
+            "Embedded Server": {
+                "description": "Learn about Spring Boot’s Embedded Server feature that allows you to run a web server directly within your application. Explore the benefits of this feature for web application development, testing, and deployment.",
+                "resources": [
+                    {
+                        "name": "Embedded Servers in Spring",
+                        "link": "https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto-embedded-servlet-containers"
+                    },
+                    {
+                        "name": "What is an Embedded Server? (Spring Boot)",
+                        "link": "https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started-introducing-spring-boot"
+                    },
+                    {
+                        "name": "Embedded Web Servers ‘How-to’ guides",
+                        "link": "https://www.baeldung.com/spring-boot-embedded-servlet-containers"
+                    }
+                ],
+                "order": 6,
+                "options": []
+            },
+            "Hibernate": {
+                "description": "Learn about Hibernate, a Java framework that provides object-relational mapping and data querying for relational databases. Explore its features and integration with Spring.",
+                "resources": [
+                    {
+                        "name": "Difference Between Spring vs Hibernate",
+                        "link": "https://www.javatpoint.com/spring-vs-hibernate"
+                    },
+                    {
+                        "name": "Spring Boot - Integrating Hibernate and JPA",
+                        "link": "https://www.baeldung.com/spring-boot-hibernate"
+                    },
+                    {
+                        "name": "Spring Hibernate Integration Example",
+                        "link": "https://www.tutorialspoint.com/spring/spring_hibernate_integration.htm"
+                    }
+                ],
+                "order": 7,
+                "options": [
+                    {
+                        "name": "Transactions",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about transactions in Hibernate and the importance of maintaining atomicity and ACID properties. Explore Hibernate's Transaction interface and how it abstracts transaction management.",
+                        "resources": [
+                            {
+                                "name": "Hibernate Transaction Management Example",
+                                "link": "https://www.javatpoint.com/hibernate-transaction-management-example"
+                            },
+                            {
+                                "name": "Hibernate Transaction Management",
+                                "link": "https://www.javaguides.net/2018/12/hibernate-transaction-management-tutorial.html"
+                            },
+                            {
+                                "name": "Hibernate Transaction",
+                                "link": "https://www.w3schools.blog/hibernate-transaction-management"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Relationships",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about establishing relationships between entities in Hibernate and the advantages of referential integrity. Explore the four types of relationships available in Hibernate and their use cases.",
+                        "resources": [
+                            {
+                                "name": "Hibernate Relationships In Depth",
+                                "link": "https://www.java4s.com/hibernate/hibernate-relationships-in-depth/"
+                            },
+                            {
+                                "name": "Guide to JPA with Hibernate - Relationship Mapping",
+                                "link": "https://stackabuse.com/a-guide-to-jpa-with-hibernate-relationship-mapping/"
+                            },
+                            {
+                                "name": "Hibernate Mapping",
+                                "link": "https://dzone.com/articles/hibernate-mapping"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Entity Lifecycle",
+                        "recommendation-type": "opinion",
+                        "description": "Explore the lifecycle of entities in Hibernate and the various states an entity object goes through. Understand the significance of transient, persistent, detached, and removed states.",
+                        "resources": [
+                            {
+                                "name": "Hibernate Lifecycle",
+                                "link": "Insertar enlace"
+                            },
+                            {
+                                "name": "Entity Lifecycle in Hibernate",
+                                "link": "Insertar enlace"
+                            },
+                            {
+                                "name": "Hibernate Entity Lifecycle & Its State",
+                                "link": "Insertar enlace"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Microservices": {
+                "description": "Explore Spring Microservices, a framework for building and managing microservices-based applications with the Spring Framework.",
+                "resources": [
+                    {
+                        "name": "Microservices with Spring",
+                        "link": "https://spring.io/microservices"
+                    },
+                    {
+                        "name": "Microservices Tutorial",
+                        "link": "https://www.javatpoint.com/microservices"
+                    },
+                    {
+                        "name": "Microservices with Spring Boot",
+                        "link": "https://medium.com/omarelgabrys-blog/microservices-with-spring-boot-intro-to-microservices-part-1-c0d24cd422c3"
+                    }
+                ],
+                "order": 8,
+                "options": [
+                    {
+                        "Spring cloud": {
+                            "description": "Learn about Spring Cloud and how it simplifies building cloud-native applications using the Spring Framework. Explore key components and best practices.",
+                            "resources": [
+                                {
+                                    "name": "Spring Cloud",
+                                    "link": "https://spring.io/projects/spring-cloud"
+                                },
+                                {
+                                    "name": "Spring Cloud Tutorial",
+                                    "link": "https://www.javatpoint.com/spring-cloud"
+                                },
+                                {
+                                    "name": "Spring Cloud - Bootstrapping",
+                                    "link": "https://www.baeldung.com/spring-cloud-bootstrapping"
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "name": "Spring Cloud Gateway",
+                                    "recommendation-type": "opinion",
+                                    "description": "Learn about Spring Cloud Gateway and how it simplifies building API gateways for microservices using the Spring Framework. Explore key features and best practices.",
+                                    "resources": [
+                                        {
+                                            "name": "What is Spring Cloud Gateway?",
+                                            "link": "https://tanzu.vmware.com/developer/guides/scg-what-is/"
+                                        },
+                                        {
+                                            "name": "Spring Cloud Gateway",
+                                            "link": "https://spring.io/projects/spring-cloud-gateway"
+                                        },
+                                        {
+                                            "name": "Exploring the New Spring Cloud Gateway",
+                                            "link": "https://www.baeldung.com/spring-cloud-gateway"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Cloud Config",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about Spring Cloud Config, a library for managing configuration properties in distributed applications. Discover how it simplifies configuration management and centralizes configuration for multiple applications.",
+                        "resources": [
+                            {
+                                "name": "Spring Cloud Config",
+                                "link": "https://spring.io/projects/spring-cloud-config"
+                            },
+                            {
+                                "name": "Quick Intro to Spring Cloud Configuration",
+                                "link": "https://www.baeldung.com/spring-cloud-configuration"
+                            },
+                            {
+                                "name": "Spring Boot - Cloud Configuration Server",
+                                "link": "https://www.tutorialspoint.com/spring_boot/spring_boot_cloud_configuration_server.htm"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Circuit Breaker",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about Spring Cloud Circuit Breaker, a library for managing fault tolerance in microservices-based applications using the Circuit Breaker pattern. Discover how it enhances the resilience of distributed systems.",
+                        "resources": [
+                            {
+                                "name": "Spring Cloud Circuit Breaker",
+                                "link": "https://spring.io/projects/spring-cloud-circuitbreaker"
+                            },
+                            {
+                                "name": "Quick Guide to Spring Cloud Circuit Breaker",
+                                "link": "https://www.baeldung.com/spring-cloud-circuit-breaker"
+                            },
+                            {
+                                "name": "Spring Cloud - Circuit Breaker using Hystrix",
+                                "link": "Spring Cloud - Circuit Breaker using Hystrix"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spring Cloud OpenFeign",
+                        "recommendation-type": "opinion",
+                        "description": "Discover Spring Cloud OpenFeign, a library for creating declarative REST clients in Spring applications. Simplify making HTTP requests to microservices or remote services with ease.",
+                        "resources": [
+                            {
+                                "name": "Introduction to Spring Cloud OpenFeign",
+                                "link": "https://www.baeldung.com/spring-cloud-openfeign"
+                            },
+                            {
+                                "name": "Spring Cloud OpenFeign",
+                                "link": "https://spring.io/projects/spring-cloud-openfeign"
+                            },
+                            {
+                                "name": "Simple Implementation of Spring Cloud OpenFeign",
+                                "link": "https://medium.com/javarevisited/simple-implementation-of-spring-cloud-openfeign-7f022630d01d"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hystrix",
+                        "recommendation-type": "opinion",
+                        "description": "Discover Spring Cloud Hystrix, a library for managing fault tolerance in microservices-based applications using the Circuit Breaker pattern. Isolate points of access to remote systems, stop cascading failures, and enable resilience.",
+                        "resources": [
+                            {
+                                "name": "Spring Boot - Hystrix",
+                                "link": "https://www.tutorialspoint.com/spring_boot/spring_boot_hystrix.htm"
+                            },
+                            {
+                                "name": "Circuit Breaker: Hystrix Clients",
+                                "link": "https://cloud.spring.io/spring-cloud-netflix/multi/multi__circuit_breaker_hystrix_clients.html"
+                            },
+                            {
+                                "name": "Hystrix: Spring Cloud",
+                                "link": "https://stackabuse.com/spring-cloud-hystrix/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sleuth",
+                        "recommendation-type": "opinion",
+                        "description": "Explore Spring Cloud Sleuth, a library for distributed tracing in Spring-based applications. Understand how distributed tracing can help you track request flows and troubleshoot performance issues.",
+                        "resources": [
+                            {
+                                "name": "Spring Cloud Sleuth",
+                                "link": "https://spring.io/projects/spring-cloud-sleuth"
+                            },
+                            {
+                                "name": "Spring Cloud Sleuth in a Monolith Application",
+                                "link": "https://www.baeldung.com/spring-cloud-sleuth-single-application"
+                            },
+                            {
+                                "name": "Spring Cloud Tutorial",
+                                "link": "https://www.javainuse.com/spring/cloud-sleuth"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Eureka",
+                        "recommendation-type": "opinion",
+                        "description": "Discover Spring Cloud Eureka, a library for service discovery in microservices-based architectures. Explore how Eureka simplifies the process of service registration and discovery.",
+                        "resources": [
+                            {
+                                "name": "Introduction to Spring Cloud Netflix – Eureka",
+                                "link": "https://www.baeldung.com/spring-cloud-netflix-eureka"
+                            },
+                            {
+                                "name": "Spring Boot - Eureka Server",
+                                "link": "https://www.tutorialspoint.com/spring_boot/spring_boot_eureka_server.htm"
+                            },
+                            {
+                                "name": "Introducing Spring Cloud EUREKA",
+                                "link": "https://www.youtube.com/watch?v=1uNo1NrqsX4"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Spring Data": {
+                "description": "Explore Spring Data and its role in simplifying data access in Spring-based applications. Learn about the common interface it provides for various data stores and access technologies.",
+                "resources": [
+                    {
+                        "name": "Spring Data",
+                        "link": "https://spring.io/projects/spring-data"
+                    },
+                    {
+                        "name": "Spring Data - One API To Rule Them All?",
+                        "link": "https://www.infoq.com/articles/spring-data-intro/"
+                    },
+                    {
+                        "name": "What is JPA, Spring Data, and Spring Data JPA",
+                        "link": "https://www.amitph.com/jpa-and-spring-data-jpa/"
+                    }
+                ],
+                "order": 9,
+                "options": [
+                    {
+                        "name": "Spring Data JPA",
+                        "recommendation-type": "opinion",
+                        "description": "Discover how Spring Data JPA simplifies Java Persistence API (JPA) based repositories for Spring applications. Learn about its features for performing CRUD operations, pagination, and dynamic query generation.",
+                        "resources": [
+                            {
+                                "name": "Spring Data JPA",
+                                "link": "https://spring.io/projects/spring-data-jpa"
+                            },
+                            {
+                                "name": "Introduction to Spring Data JPA",
+                                "link": "https://www.baeldung.com/the-persistence-layer-with-spring-data-jpa"
+                            },
+                            {
+                                "name": "Spring Data JPA Tutorial",
+                                "link": "https://www.javatpoint.com/spring-and-jpa-integration"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spring Data MongoDB",
+                        "recommendation-type": "opinion",
+                        "description": "Explore how Spring Data MongoDB integrates with the MongoDB document database, providing a POJO-centric model for interacting with MongoDB data and creating a Repository-style data access layer.",
+                        "resources": [
+                            {
+                                "name": "Spring Data MongoDB",
+                                "link": "https://spring.io/projects/spring-data-mongodb"
+                            },
+                            {
+                                "name": "Introduction to Spring Data MongoDB",
+                                "link": "https://www.baeldung.com/spring-data-mongodb-tutorial"
+                            },
+                            {
+                                "name": "Spring Boot Integration with MongoDB Tutorial",
+                                "link": "https://www.mongodb.com/compatibility/spring-boot"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spring Data JDBC",
+                        "recommendation-type": "opinion",
+                        "description": "Explore Spring Data JDBC, a part of the Spring Data project that simplifies working with relational databases using JDBC while maintaining flexibility and power.",
+                        "resources": [
+                            {
+                                "name": "Spring Data JDBC",
+                                "link": "https://spring.io/projects/spring-data-jdbc"
+                            },
+                            {
+                                "name": "Spring Data JDBC - Reference Documentation",
+                                "link": "https://docs.spring.io/spring-data/jdbc/docs/current/reference/html/"
+                            },
+                            {
+                                "name": "Introduction to Spring Data JDBC",
+                                "link": "https://www.baeldung.com/spring-data-jdbc-intro"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Spring MVC": {
+                "description": "Discover Spring MVC, a web application framework that simplifies building web applications using the Model-View-Controller (MVC) design pattern.",
+                "resources": [
+                    {
+                        "name": "Spring MVC Tutorial",
+                        "link": "https://www.javatpoint.com/spring-mvc-tutorial"
+                    },
+                    {
+                        "name": "Spring - MVC Framework",
+                        "link": "https://www.tutorialspoint.com/spring/spring_web_mvc_framework.htm"
+                    },
+                    {
+                        "name": "Spring MVC Tutorial - Everything You Need To Know",
+                        "link": "https://www.edureka.co/blog/spring-mvc-tutorial/"
+                    }
+                ],
+                "order": 10,
+                "options": [
+                    {
+                        "name": "Servlet",
+                        "recommendation-type": "opinion",
+                        "description": "Explore the role of Spring servlets and the DispatcherServlet in managing requests and the Spring IoC container's lifecycle.",
+                        "resources": [
+                            {
+                                "name": "DispatcherServlet and web.xml in Spring Boot",
+                                "link": "https://www.baeldung.com/spring-boot-dispatcherservlet-web-xml"
+                            },
+                            {
+                                "name": "The DispatcherServlet",
+                                "link": "https://docs.spring.io/spring-framework/docs/3.0.0.M4/spring-framework-reference/html/ch15s02.html"
+                            },
+                            {
+                                "name": "What is Dispatcher Servlet in Spring?",
+                                "link": "https://www.geeksforgeeks.org/what-is-dispatcher-servlet-in-spring"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "JSP Files",
+                        "recommendation-type": "opinion",
+                        "description": "Explore the role of JSP files in implementing the view component of a Spring MVC application and generating dynamic web pages.",
+                        "resources": [
+                            {
+                                "name": "Spring MVC with JSP View",
+                                "link": "https://www.geeksforgeeks.org/spring-mvc-with-jsp-view/"
+                            },
+                            {
+                                "name": "Spring Boot With JavaServer Pages (JSP)",
+                                "link": "https://www.baeldung.com/spring-boot-jsp"
+                            },
+                            {
+                                "name": "Spring MVC: from JSP and Tiles to Thymeleaf",
+                                "link": "https://spring.io/blog/2012/10/30/spring-mvc-from-jsp-and-tiles-to-thymeleaf/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Architecture",
+                        "recommendation-type": "opinion",
+                        "description": "Explore the architecture of the Spring MVC web application framework and its use of the MVC design pattern.",
+                        "resources": [
+                            {
+                                "name": "Spring MVC Tutorial",
+                                "link": "Spring MVC Tutorial"
+                            },
+                            {
+                                "name": "Spring - MVC Framework",
+                                "link": "https://www.geeksforgeeks.org/spring-mvc-framework/"
+                            },
+                            {
+                                "name": "Overview of Spring MVC Architecture",
+                                "link": "https://terasolunaorg.github.io/guideline/1.0.1.RELEASE/en/Overview/SpringMVCOverview.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Components",
+                        "recommendation-type": "opinion",
+                        "description": "Explore the key components of the Spring MVC framework and their roles in handling web requests and generating responses.",
+                        "resources": [
+                            {
+                                "name": "Spring Boot vs Spring MVC: How do They Compare?",
+                                "link": "https://rollbar.com/blog/spring-boot-vs-spring-mvc-how-do-they-compare/"
+                            },
+                            {
+                                "name": "Spring MVC components",
+                                "link": "http://makble.com/spring-mvc-components"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Testing": {
+                "description": "Explore Spring's testing utilities and annotations for testing Spring applications.",
+                "resources": [
+                    {
+                        "name": "What Is Spring Testing?",
+                        "link": "https://www.developer.com/design/what-is-spring-testing/"
+                    },
+                    {
+                        "name": "Complete Guide To Spring Testing",
+                        "link": "https://www.lambdatest.com/blog/spring-testing/"
+                    }
+                ],
+                "order": 11,
+                "options": [
+                    {
+                        "name": "JPA Test",
+                        "recommendation-type": "opinion",
+                        "description": "Explore JPA testing in Spring and how to ensure the correctness of the persistence layer.",
+                        "resources": [
+                            {
+                                "name": "Testing JPA Queries with Spring Boot and @DataJpaTest",
+                                "link": "https://reflectoring.io/spring-boot-data-jpa-test/"
+                            },
+                            {
+                                "name": "@DataJpaTest example for Spring Data Repository Unit Test",
+                                "link": "https://www.bezkoder.com/spring-boot-unit-test-jpa-repo-datajpatest/"
+                            },
+                            {
+                                "name": "Testing in Spring Boot",
+                                "link": "https://www.baeldung.com/spring-boot-testing"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mock MVC",
+                        "recommendation-type": "opinion",
+                        "description": "Learn how to use Spring's MockMvc to test Spring MVC controllers without a web server.",
+                        "resources": [
+                            {
+                                "name": "Spring MockMVC tutorial",
+                                "link": "https://zetcode.com/spring/mockmvc/"
+                            },
+                            {
+                                "name": "Spring Boot MockMVC Example",
+                                "link": "https://howtodoinjava.com/spring-boot2/testing/spring-boot-mockmvc-example/"
+                            },
+                            {
+                                "name": "Integration Testing in Spring",
+                                "link": "https://baeldung.com/integration-testing-in-spring"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "@SpringBootTest annotation",
+                        "recommendation-type": "opinion",
+                        "description": "Learn how to use the @SpringBootTest annotation to create a fully-configured Spring ApplicationContext for testing.",
+                        "resources": [
+                            {
+                                "name": "Testing with Spring Boot and @SpringBootTest",
+                                "link": "https://reflectoring.io/spring-boot-test/"
+                            },
+                            {
+                                "name": "Annotation Interface SpringBootTest",
+                                "link": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/context/SpringBootTest.html"
+                            },
+                            {
+                                "name": "Testing in Spring Boot",
+                                "link": "https://www.baeldung.com/spring-boot-testing"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "@MockBean Annotation",
+                        "recommendation-type": "opinion",
+                        "description": "Learn how to use the @MockBean annotation to create mock implementations of beans in the Spring application context for testing.",
+                        "resources": [
+                            {
+                                "name": "Mockito.mock() vs @Mock vs @MockBean",
+                                "link": "https://www.baeldung.com/java-spring-mockito-mock-mockbean"
+                            },
+                            {
+                                "name": "Spring Boot @MockBean Example",
+                                "link": "https://howtodoinjava.com/spring-boot2/testing/spring-mockbean-annotation/"
+                            },
+                            {
+                                "name": "Annotation Interface MockBean",
+                                "link": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/mock/mockito/MockBean.html"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "LL": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "M": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "N": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "Ñ": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "O": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "P": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "Q": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "R": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "S": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "T": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "U": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "V": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            " ": {
+                "description": " ",
+                "resources": [
+                    {
+                        "name": "",
+                        "link": ""
+                    }
+                ],
+                "order": 1,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": []
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

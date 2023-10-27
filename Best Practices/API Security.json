@@ -144,16 +144,9 @@
                         "recommendation-type": "opinion",
                         "description": "Use an API Gateway for caching, Rate Limit policies, and other security features. An API gateway can make your APIs more secure by providing a centralized point of control for managing and securing API traffic. Here are a few ways an API gateway can improve API security:\n\nAuthentication and authorization: API gateways can handle user authentication and authorization, reducing the burden on individual APIs and improving consistency across the organization. This can include techniques such as JWT verification, OAuth, and other authentication mechanisms.\n\nTraffic filtering and rate limiting: An API gateway can enforce traffic filtering and rate limiting to protect APIs against DDoS attacks, brute force attacks, and other types of abuse.\n\nEncryption and decryption: An API gateway can handle encryption and decryption of sensitive data to protect against data breaches and theft.\n\nLogging and monitoring: An API gateway can provide centralized logging and monitoring of API traffic, helping to identify and respond to security threats and other issues.\n\nIntegration with security tools: An API gateway can be integrated with security tools such as WAFs, SIEMs, and other security tools to provide additional layers of protection."
                     }
-                    
-                    
-                    
-                    
-                    
-                    
                 ]
             },
             "Processing": {
-               
                 "order": 6,
                 "options": [
                     {
@@ -201,19 +194,9 @@
                         "recommendation-type": "opinion",
                         "description": "Use non-executable stacks to prevent attackers from executing code on your server. A non-executable stack is a security mechanism that prevents malicious code from being executed by preventing the stack memory from being executed as code. This helps to prevent attacks such as buffer overflow attacks. By using non-executable stacks, the program can keep the stack separate from executable code and help prevent these types of attacks."
                     }
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
                 ]
             },
             "Output": {
-                
                 "order": 7,
                 "options": [
                     {
@@ -251,17 +234,9 @@
                         "recommendation-type": "opinion",
                         "description": "Return the proper status code according to the operation completed. e.g.\n200 OK\n400 Bad Request\n401 Unauthorized\n405 Method Not Allowed\n…etc. Returning the proper status code according to the operation completed is important for API security because it allows the client to understand the outcome of their request and take appropriate actions. For example, if the server returns a 401 Unauthorized status code, the client knows that their authentication credentials are incorrect and can prompt the user to re-enter their login details. On the other hand, if the server returns a 200 OK status code even though the request failed, the client may not realize there was an issue and could potentially execute malicious actions or display incorrect data. Providing accurate status codes can help prevent security vulnerabilities and improve the overall reliability and usability of the API."
                     }
-                    
-                    
-                    
-                    
-                    
-                    
-                    
                 ]
             },
             "CI & CD": {
-                
                 "order": 8,
                 "options": [
                     {
@@ -289,15 +264,9 @@
                         "recommendation-type": "opinion",
                         "description": "Design a rollback solution for deployments. Sometimes deploying a new version of the API can introduce unexpected bugs or issues that were not caught during testing. In such cases, rolling back to the previous version of the API can help to mitigate the impact of the issue and restore the service to a functional state. A well-designed rollback solution can help reduce downtime and minimize the impact on users."
                     }
-                    
-                    
-                    
-                    
-                    
                 ]
             },
             "Monitoring": {
-                
                 "order": 9,
                 "options": [
                     {
@@ -325,11 +294,6 @@
                         "recommendation-type": "opinion",
                         "description": "Intrusion detection systems (IDS) and intrusion prevention systems (IPS) can be used to detect and block attacks. These systems can be configured to monitor all incoming and outgoing traffic, and detect any suspicious activity. If any suspicious activity is detected, the systems can be configured to block the traffic, preventing the attack from succeeding. IDS and IPS systems can be implemented using various tools and technologies such as network intrusion detection systems (NIDS), host-based intrusion detection systems (HIDS), and network intrusion prevention systems (NIPS). These systems can be deployed alongside the API, and configured to monitor all incoming and outgoing traffic. The systems can be configured to provide real-time alerts to security teams if any suspicious activity is detected, allowing for immediate action to be taken."
                     }
-                    
-                    
-                    
-                    
-                    
                 ]
             }
         }

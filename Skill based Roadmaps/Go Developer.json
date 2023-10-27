@@ -1,0 +1,152 @@
+{
+    "Skill": {
+        "Go Developer": {
+            "Learn the Basics": {
+                "description": "Learn the common concepts of Go like variables, loops, conditional statements, functions, data types, and so on. A good starting point for Go basics is its official documentation.",
+                "resources": [
+                    {
+                        "name": "Official Go Tutorial",
+                        "link": "https://golang.org/doc/tutorial"
+                    },
+                    {
+                        "name": "Go Tutorial",
+                        "link": "https://tour.golang.org/welcome/1"
+                    }
+                ],
+                "order": 1,
+                "options": [
+                    {
+                        "name": "Conditional Statements",
+                        "recommendation-type": "opinion",
+                        "description": "Conditional statements are used to run code only if a certain condition is true; Go supports if statements, if/else statements, and switch case statements.",
+                        "resources": [
+                            {
+                                "name": "Effective Go: if statement",
+                                "link": "https://go.dev/doc/effective_go#if"
+                            },
+                            {
+                                "name": "Basic conditional patterns",
+                                "link": "https://yourbasic.org/golang/if-else-statement/"
+                            },
+                            {
+                                "name": "Go by Example: If-Else",
+                                "link": "https://gobyexample.com/if-else"
+                            },
+                            {
+                                "name": "Golang programs If-Else statement",
+                                "link": "https://www.golangprograms.com/golang-if-else-statements.html"
+                            },
+                            {
+                                "name": "Golang programs switch case",
+                                "link": "https://www.golangprograms.com/golang-switch-case-statements.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Functions",
+                        "recommendation-type": "opinion",
+                        "description": "Discover how functions work in Go, the list of resources below will cover :\nHow to define and call functions in Go?\nNamed returns in Go?\nHandle multiple return types\nDifferent types of functions in Go.\nVisit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Go by Example: Functions",
+                                "link": "https://gobyexample.com/functions"
+                            },
+                            {
+                                "name": "Functions in go",
+                                "link": "https://www.golangprograms.com/go-language/functions.html"
+                            }
+                          
+                        ]
+                    }
+                    
+                   
+                ]
+            },
+            "Go advanced": {
+                "description": " ",
+                "resources": [],
+                "order": 2,
+                "options": []
+            },
+            "Building CLIs": {
+                "description": "LLMs are used in a variety of ways. Here are some examples of how LLMs are used in the real world.",
+                "resources": [],
+                "order": 3,
+                "options": [
+                    {
+                        "name": "Structured Data",
+                        "recommendation-type": "opinion",
+                        "description": "Asking the model to generate structured data is a great way to utilize the power of LLMs.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Inferring",
+                        "recommendation-type": "opinion",
+                        "description": "Making use of LLMs to infer information from text is another common use case.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Writing Emails",
+                        "recommendation-type": "opinion",
+                        "description": "Language Models, like ChatGPT, can be incredibly beneficial for writing emails due to their ability to generate coherent and contextually appropriate text. When composing an email, an LLM can provide assistance with various aspects, such as generating engaging introductions or addressing specific questions or concerns. For instance, if you're writing a sales email, you can prompt the LLM with the request to generate a compelling opening paragraph that captures the recipient's attention. Similarly, when responding to customer inquiries, you can ask the LLM to help craft clear and informative responses that address the query with precision.\n\nFor example, here is a prompt to generate an automated email response to a customer inquiry:\n\nWrite an email informing a customer that their inquiry has been received and will be addressed shortly. Include the order number and the customer's name in the email.\n\nHere is the response generated by the LLM:\n\nSubject: Confirmation - Inquiry Received - Order #123456\n\nDear [Customer's Name],\n\nI'm writing to confirm that we have received your inquiry regarding your recent order. We appreciate you taking the time to reach out to us.\n\nYour order number is #123456, and we understand the importance of your inquiry. Rest assured, our team is already reviewing your case and will address it promptly. We strive to provide a timely response and a satisfactory resolution to all customer inquiries.\n\nIf we require any additional information or clarification, we will reach out to you directly. In the meantime, please feel free to contact us if you have any further questions or concerns about your order.\n\nWe value your business and are committed to ensuring your complete satisfaction. Thank you for choosing our company, and we appreciate your patience as we work on addressing your inquiry.\n\nBest regards,\nAI Customer Service",
+                        "resources": []
+                    }
+                ]
+            },
+            "ORMs": {
+                "description": " ",
+                "resources": [],
+                "order": 4,
+                "options": []
+            },
+            "Web Frameworks": {
+                "description": " ",
+                "resources": [],
+                "order": 5,
+                "options": []
+            },
+            "Logging": {
+                "description": "Go has built-in features to make it easier for programmers to implement logging. Third parties have also built additional tools to make logging easier.\nVisit the following resources to learn more: ",
+                "resources": [
+                    {
+                        "name": "Logging in Go: Choosing a System and Using it",
+                        "link": "https://www.honeybadger.io/blog/golang-logging/"
+                    },
+                    {
+                        "name": "Logging in Golang - How to Start",
+                        "link": "https://www.loggly.com/use-cases/logging-in-golang-how-to-start/"
+                    }
+                ],
+                "order": 6,
+                "options": []
+            },
+            "Go realtime communication": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "API Clients": {
+                "description": "An API client is a set of tools and protocols that operate from an application on a computer. They help you to bypass some operations when developing a web application rather than reinventing the wheel every time. Using a client API is a great way to speed up the development process.\nVisit the following resources to learn more: ",
+                "resources": [],
+                "order": 1,
+                "options": [{
+                    "name": "API Clients",
+                    "link": "https://rapidapi.com/blog/api-glossary/client/"
+                }]
+            },
+            "Testing Go Code": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "Tools for Microservices": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            }
+        }
+    }
+}
