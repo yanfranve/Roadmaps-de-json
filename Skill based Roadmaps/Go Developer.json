@@ -191,7 +191,116 @@
                     }
                 ],
                 "order": 5,
-                "options": []
+                "options": [
+                    {
+                        "name": "Beego",
+                        "recommendation-type": "opinion",
+                        "description": "Beego is used for rapid development of enterprise applications in Go, including RESTful APIs, web apps, and backend services. It is inspired by Tornado, Sinatra, and Flask. Beego has some Go-specific features such as interfaces and struct embedding.",
+                        "resources": [
+                          {
+                            "name": "GitHub Repository",
+                            "link": "https://github.com/beego/beego"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Gin",
+                        "recommendation-type": "opinion",
+                        "description": "Gin is a high-performance HTTP web framework written in Golang (Go). Gin has a martini-like API and claims to be up to 40 times faster. Gin allows you to build web applications and microservices in Go.",
+                        "resources": [
+                          {
+                            "name": "Gin Website",
+                            "link": "https://github.com/gin-gonic/gin"
+                          },
+                          {
+                            "name": "Gin Website",
+                            "link": "https://pkg.go.dev/github.com/gin-gonic/gin"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Revel",
+                        "recommendation-type": "opinion",
+                        "description": "Revel organizes endpoints into Controllers. They provide easy data binding and form validation. Revel makes Go Templates simple to use at scale. Register functionality to be called before or after actions.",
+                        "resources": [
+                          {
+                            "name": "Revel Website",
+                            "link": "https://revel.github.io/tutorial/index.html"
+                          },
+                          {
+                            "name": "Revel Website",
+                            "link": "https://pkg.go.dev/github.com/revel/revel"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Echo",
+                        "recommendation-type": "opinion",
+                        "description": "Echo is a performance-focused, extensible, open-source Go web application framework. It is a minimalist web framework that stands between stdlib + router and a full-stack web framework.",
+                        "resources": [
+                          {
+                            "name": "GitHub Repository",
+                            "link": "https://github.com/labstack/echo"
+                          },
+                          {
+                            "name": "Official Website",
+                            "link": "https://echo.labstack.com/"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Gorilla",
+                        "recommendation-type": "opinion",
+                        "description": "Gorilla is a web toolkit for the Go programming language that provides useful, composable packages for writing HTTP-based applications.",
+                        "resources": [
+                          {
+                            "name": "GitHub Repository",
+                            "link": "https://github.com/gorilla"
+                          },
+                          {
+                            "name": "Official Website",
+                            "link": "https://www.gorillatoolkit.org/"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Go Fiber",
+                        "recommendation-type": "opinion",
+                        "description": "Go Fiber is an Express-inspired framework for Golang. Go Fiber is a web framework built on top of fast HTTP. It can be used to handle operations such as routing/endpoints, middleware, server request, etc.",
+                        "resources": [
+                          {
+                            "name": "GitHub Repository",
+                            "link": "https://github.com/gofiber/fiber"
+                          },
+                          {
+                            "name": "Official Website Docs",
+                            "link": "https://docs.gofiber.io/"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Buffalo",
+                        "recommendation-type": "opinion",
+                        "description": "Buffalo helps you to generate a web project that already has everything from front-end (JavaScript, SCSS, etc.) to the back-end (database, routing, etc.) already hooked up and ready to run. From there it provides easy APIs to build your web application quickly in Go.",
+                        "resources": [
+                          {
+                            "name": "GitHub Repository",
+                            "link": "https://github.com/gobuffalo/buffalo"
+                          },
+                          {
+                            "name": "Official Website Docs",
+                            "link": "https://gobuffalo.io/"
+                          }
+                        ]
+                      }
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                ]
             },
             "Logging": {
                 "description": "Go has built-in features to make it easier for programmers to implement logging. Third parties have also built additional tools to make logging easier.\nVisit the following resources to learn more: ",
@@ -292,18 +401,126 @@
                         "resources": [
                             {
                                 "name": "Tutorial",
-                                "link": "INSERT_TUTORIAL_LINK_HERE"
+                                "link": "https://go.dev/doc/tutorial/web-service-gin"
                             },
                             {
                                 "name": "RESTful APIs Series",
-                                "link": "INSERT_RESTFUL_APIS_SERIES_LINK_HERE"
+                                "link": "https://youtube.com/playlist?list=PLzUGFf4GhXBL4GHXVcMMvzgtO8-WEJIoY"
                             },
                             {
                                 "name": "Introduction to RESTful APIs",
-                                "link": "INSERT_INTRODUCTION_LINK_HERE"
+                                "link": "https://www.geeksforgeeks.org/rest-api-introduction/"
                             }
                         ]
-                    }
+                    },
+                    {
+                        "name": "GraphQL",
+                        "recommendation-type": "opinion",
+                        "description": "GraphQL is a query language for APIs, it offers a service that prioritizes giving just the data that the client requested and no more. Besides, you don’t need to be worried about breaking changes, versioning and backwards compatibility like REST APIs. Therefore you can implement your version and auto-document your API just by using GraphQL.",
+                        "resources": [
+                          {
+                            "name": "GraphQL Website",
+                            "link": "https://graphql.org/"
+                          },
+                          {
+                            "name": "Learn GraphQL",
+                            "link": "https://graphql.org/learn/"
+                          },
+                          {
+                            "name": "GraphQL Tutorials",
+                            "link": "https://www.graphql.com/tutorials/"
+                          },
+                          {
+                            "name": "Red Hat: What is GraphQL?",
+                            "link": "https://www.redhat.com/en/topics/api/what-is-graphql"
+                          },
+                          {
+                            "name": "Digital Ocean: An Introduction to GraphQL",
+                            "link": "https://www.digitalocean.com/community/tutorials/an-introduction-to-graphql"
+                          },
+                          {
+                            "name": "How to GraphQL: The Fullstack Tutorial for GraphQL",
+                            "link": "https://www.howtographql.com/"
+                          },
+                          {
+                            "name": "GraphQL Full Course - Novice to Expert (by freeCodeCamp.org on YouTube)",
+                            "link": "https://www.youtube.com/watch?v=ed8SzALpx1Q"
+                          },
+                          {
+                            "name": "Beginner GraphQL Series (by Ben Awad on YouTube)",
+                            "link": "https://www.youtube.com/playlist?list=PLN3n1USn4xln0j_NN9k4j5hS1thsGibKi"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Gqlgen",
+                        "recommendation-type": "opinion",
+                        "description": "According to their documentation, it’s a Golang library for building GraphQL servers without much effort.",
+                        "resources": [
+                          {
+                            "name": "Gqlgen website documentation",
+                            "link": "https://gqlgen.com/"
+                          },
+                          {
+                            "name": "Introducing gqlgen: a GraphQL Server Generator for Go",
+                            "link": "https://99designs.com.au/blog/engineering/gqlgen-a-graphql-server-generator-for-go/"
+                          },
+                          {
+                            "name": "GraphQL in Go - GQLGen Tutorial (by acklackl on YouTube)",
+                            "link": "https://www.youtube.com/watch?v=O6jYy421tGw"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Graphql go",
+                        "recommendation-type": "opinion",
+                        "description": "A GraphQL package for Go.",
+                        "resources": [
+                          {
+                            "name": "Graphql-go homepage",
+                            "link": "https://graphql-go.github.io/graphql-go.org/"
+                          },
+                          {
+                            "name": "Graphql-go documentation",
+                            "link": "https://pkg.go.dev/github.com/graphql-go/graphql"
+                          },
+                          {
+                            "name": "Githhttps://github.com/graphql-go/graphqlub Repository",
+                            "link": "INSERT_GITHUB_REPOSITORY_LINK_HERE"
+                          },
+                          {
+                            "name": "GraphQL-Go - Golang Tutorial (by TechPractice on YouTube)",
+                            "link": "https://www.youtube.com/watch?v=YK7BQfQ84ws"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Grequests",
+                        "recommendation-type": "opinion",
+                        "description": "Golang implementation of Python Grequests library (one of the well-known HTTP libraries in Python).",
+                        "resources": [
+                          {
+                            "name": "GitHub Repository",
+                            "link": "https://github.com/levigross/grequests"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Heimdall",
+                        "recommendation-type": "opinion",
+                        "description": "Heimdall is an HTTP client that helps your application make a large number of requests, at scale. With Heimdall, you can:\n\n- Use a hystrix-like circuit breaker to control failing requests\n- Add synchronous in-memory retries to each request, with the option of setting your own retrier strategy\n- Create clients with different timeouts for every request\n- All HTTP methods are exposed as a fluent interface.",
+                        "resources": [
+                          {
+                            "name": "GitHub Repository",
+                            "link": "https://github.com/gojek/heimdall"
+                          }
+                        ]
+                      }
+                      
+                      
+                      
+                      
+                      
                 ]
             },
             "Testing Go Code": {
