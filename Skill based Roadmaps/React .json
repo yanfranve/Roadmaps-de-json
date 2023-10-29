@@ -40,7 +40,7 @@
                     },
                     {
                         "name": "Create React App",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Create React App is the CLI based tool and is the best way to start building a new single-page application in React.It sets up your development environment so that you can use the latest JavaScript features, provides a nice developer experience, and optimizes your app for production. You’ll need to have Node >= 14.0.0 and npm >= 5.6 on your machine.\nVisit the following resources to learn more:",
                         "resources": [
                             {
@@ -431,7 +431,7 @@
                     }
                 ]
             },
-            "Routing": {
+            "Routers": {
                 "description": "Routing is an essential concept in Single Page Applications (SPA). When your application is divided into separated logical sections, and all of them are under their own URL, your users can easily share links among each other.",
                 "resources": [
                     {
@@ -474,7 +474,7 @@
                     },
                     {
                         "name": "Reach Router",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Reach Router is a small, simple router for React that borrows from React Router, Ember, and Preact Router. Reach Router has a small footprint, supports only simple route patterns by design, and has strong (but experimental) accessibility features.",
                         "resources": [
                             {
@@ -543,7 +543,7 @@
                     },
                     {
                         "name": "Redux",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Redux is a predictable state container for JavaScript apps. It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides a great developer experience, such as live code editing combined with a time-traveling debugger. Redux Toolkit (RTK) is a library for managing state in JavaScript applications. It is an opinionated set of tools and utilities for building Redux applications and is designed to make it easier and faster to build Redux applications. RTK is often used as an alternative to writing Redux applications from scratch, as it provides a set of conventions and utilities that can make it easier and faster to build Redux applications.",
                         "resources": [
                             {
@@ -578,7 +578,7 @@
                     },
                     {
                         "name": "MobX",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "MobX is an open source state management tool. MobX, a simple, scalable, and standalone state management library, follows functional reactive programming (FRP) implementation and prevents inconsistent state by ensuring that all derivations are performed automatically.",
                         "resources": [
                             {
@@ -593,7 +593,7 @@
                     },
                     {
                         "name": "Events",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Handling events with React elements is very similar to handling events on DOM elements. There are some syntax differences:\n\n- React events are named using camelCase, rather than lowercase.\n- With JSX you pass a function as the event handler, rather than a string.",
                         "resources": [
                             {
@@ -624,7 +624,7 @@
                 "options": [
                     {
                         "name": "Emotion",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Emotion is a library designed for writing CSS styles with JavaScript. It provides powerful and predictable style composition in addition to a great developer experience with features such as source maps, labels, and testing utilities. Both string and object styles are supported.",
                         "resources": [
                             {
@@ -639,7 +639,7 @@
                     },
                     {
                         "name": "Styled components",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Styled-components is a CSS-in-JS library that enables you to write regular CSS and attach it to JavaScript components. With styled-components, you can use the CSS you're already familiar with instead of having to learn a new styling structure.",
                         "resources": [
                             {
@@ -708,7 +708,7 @@
                     },
                     {
                         "name": "Mantine",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Mantine is a React components library with more than 100 customizable components and 40 hooks to cover you in any situation.",
                         "resources": [
                             {
@@ -727,7 +727,7 @@
                     },
                     {
                         "name": "Chakra UI",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Chakra UI is a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.",
                         "resources": [
                             {
@@ -758,7 +758,7 @@
                     },
                     {
                         "name": "CSS Modules",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "CSS files in which all class names and animation names are scoped locally by default.",
                         "resources": [
                             {
@@ -826,7 +826,7 @@
                                 },
                                 {
                                     "name": "Axios",
-                                    "recommendation-type": "opinion",
+                                    "recommendation-type": "Pick this or purple",
                                     "description": "Visit the following resources to learn more:",
                                     "resources": [
                                         {
@@ -837,7 +837,7 @@
                                 },
                                 {
                                     "name": "Superagent",
-                                    "recommendation-type": "opinion",
+                                    "recommendation-type": "Pick this or purple",
                                     "description": "Small progressive client-side HTTP request library, and Node.js module with the same API, supporting many high-level HTTP client features",
                                     "resources": [
                                         {
@@ -852,7 +852,7 @@
                                 },
                                 {
                                     "name": "rtk-query",
-                                    "recommendation-type": "opinion",
+                                    "recommendation-type": "Pick this or purple",
                                     "description": "RTK Query is a data fetching and caching tool that is included in the Redux Toolkit package. It is designed to simplify common use cases for fetching data, including caching, polling, and invalidation.",
                                     "resources": [
                                         {
@@ -869,7 +869,7 @@
                             "options": [
                                 {
                                     "name": "urql",
-                                    "recommendation-type": "opinion",
+                                    "recommendation-type": "Pick this or purple",
                                     "description": "urql (Universal React Query Library) is a library for managing GraphQL data in React applications. It is developed and maintained by Formidable Labs and is available as open-source software. urql is designed to be easy to use and flexible, with a simple API for performing GraphQL queries and mutations. It is often used as an alternative to other GraphQL libraries, such as Apollo Client, because of its simplicity and lightweight size. It is particularly well-suited for small to medium-sized React applications where the complexity of other GraphQL libraries may not be required.",
                                     "resources": [
                                         {
@@ -880,7 +880,7 @@
                                 },
                                 {
                                     "name": "Relay",
-                                    "recommendation-type": "opinion",
+                                    "recommendation-type": "Pick this or purple",
                                     "description": "Relay is a JavaScript client used in the browser to fetch GraphQL data. It’s a JavaScript framework developed by Facebook for managing and fetching data in React applications. It is built with scalability in mind in order to power complex applications like Facebook. The ultimate goal of GraphQL and Relay is to deliver instant UI-response interactions.",
                                     "resources": [
                                         {
@@ -963,7 +963,7 @@
                     },
                     {
                         "name": "Vitest",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Vitest is a fast Vite-native unit test framework with out-of-box ESM, TypeScript, and JSX support. Works on React, Vue, Svelte, and more projects created with Vite",
                         "resources": [
                             {
@@ -978,7 +978,7 @@
                     },
                     {
                         "name": "Cypress",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Cypress framework is a JavaScript-based end-to-end testing framework built on top of Mocha – a feature-rich JavaScript test framework running on and in the browser, making asynchronous testing simple and convenient. It also uses a BDD/TDD assertion library and a browser to pair with any JavaScript testing framework.",
                         "resources": [
                             {
@@ -1059,7 +1059,7 @@
                     },
                     {
                         "name": "Remix",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Remix is a full stack web framework that lets you focus on the user interface and work back through web standards to deliver a fast, slick, and resilient user experience. People are gonna love using your stuff.",
                         "resources": [
                             {
@@ -1101,7 +1101,7 @@
                     },
                     {
                         "name": "Formik",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "Formik is another famous open-source form library that helps with getting values in and out of form state, validation and error messages, and handling form submissions.",
                         "resources": [
                             {
@@ -1120,7 +1120,7 @@
                     },
                     {
                         "name": "Final Form",
-                        "recommendation-type": "opinion",
+                        "recommendation-type": "Pick this or purple",
                         "description": "High-performance subscription-based form state management for React.",
                         "resources": [
                             {
