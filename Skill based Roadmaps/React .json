@@ -778,10 +778,148 @@
                 ]
             },
             "API Calls": {
-                "description": " ",
-                "resources": [],
+                "description": "APIs, short for Application Programming Interfaces, are software-to-software interfaces. Meaning, they allow different applications to talk to each other and exchange information or functionality. This allows businesses to access another business’s data, piece of code, software, or services in order to extend the functionality of their own products — all while saving time and money. There are several options available to make API calls from your React.js applications.",
+                "resources": [
+                    {
+                        "name": "AJAX and APIs",
+                        "link": "https://reactjs.org/docs/faq-ajax.html"
+                    },
+                    {
+                        "name": "How to fetch data in React",
+                        "link": "https://www.robinwieruch.de/react-hooks-fetch-data/"
+                    }
+                ],
                 "order": 8,
-                "options": []
+                "options": [
+                    {
+                        "Rest": {
+                            "options": [
+                                {
+                                    "name": "SWR",
+                                    "recommendation-type": "opinion",
+                                    "description": "SWR is a React Hooks library for data fetching. The name “SWR” is derived from stale-while-revalidate, a cache invalidation strategy popularized by HTTP RFC 5861. SWR first returns the data from cache (stale), then sends the request (revalidate), and finally comes with the up-to-date data again. With just one hook, you can significantly simplify the data fetching logic in your project.",
+                                    "resources": [
+                                        {
+                                            "name": "SWR: React Hooks for Data Fetching",
+                                            "link": "https://swr.vercel.app/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "React Query",
+                                    "recommendation-type": "opinion",
+                                    "description": "Powerful asynchronous state management, server-state utilities and data fetching for TS/JS, React, Solid, Svelte and Vue.",
+                                    "resources": [
+                                        {
+                                            "name": "TanStack Query",
+                                            "link": "https://github.com/TanStack/query"
+                                        },
+                                        {
+                                            "name": "React Query in 100 Seconds",
+                                            "link": "https://www.youtube.com/watch?v=novnyCaa7To"
+                                        },
+                                        {
+                                            "name": "React Query Tutorial for Beginners - Complete Playlist",
+                                            "link": "https://www.youtube.com/playlist?list=PLC3y8-rFHvwjTELCrPrcZlo6blLBUspd2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Axios",
+                                    "recommendation-type": "opinion",
+                                    "description": "Visit the following resources to learn more:",
+                                    "resources": [
+                                        {
+                                            "name": "How to Use Axios with React",
+                                            "link": "https://www.freecodecamp.org/news/how-to-use-axios-with-react/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Superagent",
+                                    "recommendation-type": "opinion",
+                                    "description": "Small progressive client-side HTTP request library, and Node.js module with the same API, supporting many high-level HTTP client features",
+                                    "resources": [
+                                        {
+                                            "name": "Official Website",
+                                            "link": "https://visionmedia.github.io/superagent/"
+                                        },
+                                        {
+                                            "name": "GitHub Repository",
+                                            "link": "https://github.com/visionmedia/superagent"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "rtk-query",
+                                    "recommendation-type": "opinion",
+                                    "description": "RTK Query is a data fetching and caching tool that is included in the Redux Toolkit package. It is designed to simplify common use cases for fetching data, including caching, polling, and invalidation.",
+                                    "resources": [
+                                        {
+                                            "name": "RTK Query - Official Website",
+                                            "link": "https://redux-toolkit.js.org/rtk-query/overview"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "GraphQL": {
+                            "options": [
+                                {
+                                    "name": "urql",
+                                    "recommendation-type": "opinion",
+                                    "description": "urql (Universal React Query Library) is a library for managing GraphQL data in React applications. It is developed and maintained by Formidable Labs and is available as open-source software. urql is designed to be easy to use and flexible, with a simple API for performing GraphQL queries and mutations. It is often used as an alternative to other GraphQL libraries, such as Apollo Client, because of its simplicity and lightweight size. It is particularly well-suited for small to medium-sized React applications where the complexity of other GraphQL libraries may not be required.",
+                                    "resources": [
+                                        {
+                                            "name": "urql - Formidable Labs",
+                                            "link": "https://formidable.com/open-source/urql/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Relay",
+                                    "recommendation-type": "opinion",
+                                    "description": "Relay is a JavaScript client used in the browser to fetch GraphQL data. It’s a JavaScript framework developed by Facebook for managing and fetching data in React applications. It is built with scalability in mind in order to power complex applications like Facebook. The ultimate goal of GraphQL and Relay is to deliver instant UI-response interactions.",
+                                    "resources": [
+                                        {
+                                            "name": "Official Website",
+                                            "link": "https://relay.dev/"
+                                        },
+                                        {
+                                            "name": "Introduction to Relay modern",
+                                            "link": "https://relay.dev/docs/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Apollo",
+                                    "recommendation-type": "opinion",
+                                    "description": "Apollo is a platform for building a unified graph, a communication layer that helps you manage the flow of data between your application clients (such as web and native apps) and your back-end services.",
+                                    "resources": [
+                                        {
+                                            "name": "Apollo Website",
+                                            "link": "https://www.apollographql.com/"
+                                        },
+                                        {
+                                            "name": "Official Docs",
+                                            "link": "https://www.apollographql.com/docs/"
+                                        },
+                                        {
+                                            "name": "Official YouTube Channel",
+                                            "link": "https://www.youtube.com/c/ApolloGraphQL/"
+                                        },
+                                        {
+                                            "name": "GraphQL With React Tutorial - Apollo Client",
+                                            "link": "https://www.youtube.com/watch?v=YyUWW04HwKY"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "Testing": {
                 "description": "A key to building software that meets requirements without defects is testing. Software testing helps developers know they are building the right software. When tests are run as part of the development process (often with continuous integration tools), they build confidence and prevent regressions in the code.",
