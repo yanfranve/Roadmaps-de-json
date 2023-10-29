@@ -16,36 +16,40 @@
                 "order": 1,
                 "options": [
                     {
-                        "name": "What are LLMs?",
+                        "name": "Vite",
                         "recommendation-type": "opinion",
-                        "description": "LLMs, or Language Learning Models, are advanced Artificial Intelligence models specifically designed for understanding and generating human language. These models are typically based on deep learning architectures, such as Transformers, and are trained on massive amounts of text data from various sources to acquire a deep understanding of the nuances and complexities of language. LLMs have the ability to achieve state-of-the-art performance in multiple Natural Language Processing (NLP) tasks, such as machine translation, sentiment analysis, summarization, and more. They can also generate coherent and contextually relevant text based on given input, making them highly useful for applications like chatbots, question-answering systems, and content generation. As an example, OpenAI’s GPT-3 is a prominent LLM that has gained significant attention due to its capability to generate high-quality text and perform a variety of language tasks with minimal fine-tuning.",
+                        "description": "Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects.",
                         "resources": [
                             {
-                                "name": "Introduction to LLMs",
-                                "link": "https://roadmap.sh/guides/introduction-to-llms"
+                                "name": "Vite Website",
+                                "link": "https://vitejs.dev/"
+                            },
+                            {
+                                "name": "Vite Documentation",
+                                "link": "https://vitejs.dev/guide"
+                            },
+                            {
+                                "name": "Vite Crash Course",
+                                "link": "https://youtu.be/LQQ3CR2JTX8"
+                            },
+                            {
+                                "name": "Vite Crash Course | Faster Alternative To CRA | 2023",
+                                "link": "https://www.youtube.com/watch?v=89NJdbYTgJ8"
                             }
                         ]
                     },
                     {
-                        "name": "Types of LLMs",
+                        "name": "Create React App",
                         "recommendation-type": "opinion",
-                        "description": "On a high level, LLMs can be categorized into two types i.e. Base LLMs and Instruction tuned LLMs.\n\nBase LLMs\nBase LLMs are the LLMs which are designed to predict the next word based on the training data. They are not designed to answer questions, carry out conversations or help solve problems. For example, if you give a base LLM the sentence “In this book about LLMs, we will discuss”, it might complete this sentence and give you “In this book about LLMs, we will discuss what LLMs are, how they work, and how you can leverage them in your applications.” Or if you give it “What are some famous social networks?”, instead of answering it might give back “Why do people use social networks?” or “What are some of the benefits of social networks?“. As you can see, it is giving us relevant text but it is not answering the question. This is where the Instruction tuned LLMs come in to the picture.\n\nInstruction tuned LLMs\nInstruction Tuned LLMs, instead of trying to autocomplete your text, try to follow the given instructions using the data that they have been trained on. For example, if you input the sentence “What are LLMs?” it will use the data that it is trained on and try to answer the question. Similarly, if you input “What are some famous social networks?” it will try to answer the question instead of giving you a random answer.\n\nInstruction Tuned LLMs are built on top of Base LLMs:\n\nInstruction Tuned LLMs = Base LLMs + Further Tuning + RLHF\nTo build an Instruction Tuned LLM, a Base LLM is taken and is further trained using a large dataset covering sample “Instructions” and how the model should perform as a result of those instructions. The model is then fine-tuned using a technique called “Reinforcement Learning with Human Feedback” (RLHF) which allows the model to learn from human feedback and improve its performance over time.",
-                        "resources": []
-                    },
-                    {
-                        "name": "How are LLMs Built?",
-                        "recommendation-type": "opinion",
-                        "description": "On a high level, training an LLM model involves three steps: data collection, training, and evaluation.\n\nData Collection: The first step is to collect the data that will be used to train the model. The data can be collected from various sources such as Wikipedia, news articles, books, websites, etc.\n\nTraining: The data then goes through a training pipeline where it is cleaned and preprocessed before being fed into the model for training. The training process usually takes a long time and requires a lot of computational power.\n\nEvaluation: The final step is to evaluate the performance of the model to see how well it performs on various tasks such as question answering, summarization, translation, etc.\n\nThe output from the training pipeline is an LLM model, which is simply the parameters or weights that capture the knowledge learned during the training process. These parameters or weights are typically serialized and stored in a file, which can then be loaded into any application that requires language processing capabilities, e.g., text generation, question answering, language processing, etc.",
-                        "resources": []
-                    },
-                    {
-                        "name": "Vocabulary",
-                        "recommendation-type": "opinion",
-                        "description": "When working with LLMs, you will come across a lot of new terms. This section will help you understand the meaning of these terms and how they are used in the context of LLMs.\n\nMachine Learning (ML) — ML is a field of study that focuses on algorithms that can learn from data. ML is a subfield of AI.\n\n“Model” vs. “AI” vs. “LLM” — These terms are used somewhat interchangeably throughout this course, but they do not always mean the same thing. LLMs are a type of AI, as noted above, but not all AIs are LLMs. When we mentioned models in this course, we are referring to AI models. As such, in this course, you can consider the terms “model” and “AI” to be interchangeable.\n\nLLM — Large language model. A large language model is a type of artificial intelligence that can understand and generate human-like text based on the input it receives. These models have been trained on vast amounts of text data and can perform a wide range of language-related tasks, such as answering questions, carrying out conversations, summarizing text, translating languages, and much more.\n\nMLM — Masked language model. A masked language model is a type of language model that is trained to predict the next word in a sequence of words. It is typically trained on a large corpus of text data and can be used for a variety of tasks, such as machine translation, sentiment analysis, summarization, and more.\n\nNLP — Natural language processing. Natural language processing is a branch of artificial intelligence that deals with the interaction between computers and human languages. It is used to analyze, understand, and generate human language.\n\nLabel — Labels are just possibilities for the classification of a given text. For example, if you have a text that says “I love you”, then the labels could be “positive”, “negative”, or “neutral”. The model will try to predict which label is most likely to be correct based on the input text.\n\nLabel Space — The label space is the set of all possible labels that can be assigned to a given text. For example, if you have a text that says “I love you”, then the label space could be “positive”, “negative”, or “neutral”.\n\nLabel Distribution — The label distribution is the probability distribution over the label space. For example, if you have a text that says “I love you”, then the label distribution could be [0.8, 0.1, 0.1]. This means that the model thinks there is an 80% chance that the text is positive, a 10% chance that it is negative, and a 10% chance that it is neutral.\n\nSentiment Analysis — Sentiment analysis is the process of determining the emotional tone behind a series of words, used to gain an understanding of the attitudes, opinions, and emotions expressed within an online mention. Sentiment analysis is also known as opinion mining, deriving the opinion or attitude of a speaker.\n\nVerbalizer — In the classification setting, verbalizers are mappings from labels to words in a language model’s vocabulary. For example, consider performing sentiment classification with the following prompt:\n\nTweet: 'I love hotpockets'\nWhat is the sentiment of this tweet? Say 'pos' or 'neg'.\nHere, the verbalizer is the mapping from the conceptual labels of positive and negative to the tokens pos and neg.\n\nReinforcement Learning from Human Feedback (RLHF) — RLHF is a technique for training a model to perform a task by providing it with human feedback. The model is trained to maximize the amount of positive feedback it receives from humans while minimizing the amount of negative feedback it receives.",
+                        "description": "Create React App is the CLI based tool and is the best way to start building a new single-page application in React.It sets up your development environment so that you can use the latest JavaScript features, provides a nice developer experience, and optimizes your app for production. You’ll need to have Node >= 14.0.0 and npm >= 5.6 on your machine.\nVisit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "LLM Vocabulary Reference",
-                                "link": "https://learnprompting.org/docs/vocabulary"
+                                "name": "Official Docs",
+                                "link": "https://react.dev/learn/start-a-new-react-project"
+                            },
+                            {
+                                "name": "Advanced: Custom Setup with Webpack",
+                                "link": "https://www.robinwieruch.de/minimal-react-webpack-babel-setup/"
                             }
                         ]
                     }
@@ -62,165 +66,715 @@
                 "order": 2,
                 "options": [
                     {
-                        "name": "Basic Prompting",
-                        "recommendation-type": "opinion",
-                        "description": "All you need to instruct a model to perform a task is a prompt. A prompt is a piece of text that you give to the model to perform a task. For example, if you want to summarize an article, you could simply write the prompt with the article text on the top and the prompt:\n\nLong article text here .............\n....................................\n\nSummarize the above article for me. Or if you want to translate a sentence from English to French, you could simply write the prompt with the English sentence on the top and the prompt:\n\nThis is a sentence in English.\n\nTranslate the above sentence to French. Or if you want to generate a new text, you could simply write the prompt with the instructions and the model will give you the text.\n\nWrite me an introductory guide about Prompt Engineering. However, using plain text as prompts, i.e., without using any best practices, you may not be able to fully utilize the power of LLMs. That's where 'Prompt Engineering,' or knowing the best practices for writing better prompts and getting the most out of LLMs, comes in.",
+                        "name": "Class Components",
+                        "recommendation-type": "wouidn't",
+                        "description": "Components can either be created using the class based approach or a functional approach. These components are simple classes (made up of multiple functions that add functionality to the application). All class based components are child classes for the Component class of ReactJS. Although the class components are supported in React, it is encouraged to write functional components and make use of hooks in modern React applications.",
                         "resources": [
                             {
-                                "name": "Prompt Engineering Best Practices",
-                                "link": "URL_de_las_mejores_prácticas_de_ingeniería_de_prompts"
+                                "name": "Components and Props",
+                                "link": "https://react.dev/learn/thinking-in-react#props-vs-state"
+                            },
+                            {
+                                "name": "Is There Any Reason to Still Use React Class Components?",
+                                "link": "https://medium.com/geekculture/is-there-any-reason-to-still-use-react-class-components-9b6a1e6aa9ef"
+                            },
+                            {
+                                "name": "Functional Components vs Class Components in React",
+                                "link": "https://www.freecodecamp.org/news/functional-components-vs-class-components-in-react"
+                            },
+                            {
+                                "name": "Migrate Class Components to Functional Components with Hooks in React",
+                                "link": "https://www.robinwieruch.de/react-hooks-migration/"
                             }
                         ]
                     },
                     {
-                        "name": "Need for Prompt Engineering",
+                        "name": "Functional Components",
                         "recommendation-type": "opinion",
-                        "description": "Prompts play a key role in the process of generating useful and accurate information from AI language models. Given below are some of the reasons why 'Prompt Engineering,' or learning how to write better prompts, is important.\n\nGuiding Model Behavior\nAI language models perform best when answering questions, assisting with tasks, or producing text in response to a specific query or command. Without prompts, the model would generate content aimlessly, without any context or purpose. A well-crafted prompt helps guide the model's behavior to produce useful and relevant results.\n\nImproving Text Quality and Relevance\nUsing prompts optimizes the output generated by the AI language model. A clear and concise prompt encourages the model to generate text that meets the required quality and relevance standards. Thus, the need for prompting lies in ensuring the content generated by the AI is of high caliber and closely matches the intent of the user.\n\nEliciting a Specific Type of Output\nPrompts can be engineered to elicit a specific type of output from the AI language model, whether it's summarizing a piece of text, suggesting alternate phrasings, creating an engaging storyline, analyzing some sentiment, or extracting data from some text. By crafting prompts that focus on the desired output, users can better harness the power and flexibility of AI language models.\n\nAligning AI and Human Intent\nOne primary reason for implementing prompts is to align the AI-generated content with the human user's intent. Effective prompting can help minimize the AI's understanding gap and cater to individual users' preferences and needs.\n\nReducing Inaccuracies and Ambiguity\nPrompts can help reduce inaccuracies and ambiguities in the AI's responses. By providing a clear, concise, and complete prompt to the AI, users prevent the model from making unfounded assumptions or providing unclear information.\n\nIn conclusion, the need for prompting stems from its role in guiding AI model behavior, improving text quality and relevance, eliciting a specific output, aligning AI and human intent, and reducing inaccuracies and ambiguity in generated content. By understanding and mastering the art of prompting, users can unlock the true potential of AI language models.",
+                        "description": "Functional components are some of the more common components that you will come across while working in React. These are simply JavaScript functions. We can create a functional component in React by writing a JavaScript function. These functions may or may not receive data as parameters. In functional components, the return value is the JSX code to render to the DOM tree. Functional components can also have state, which is managed using React hooks.",
                         "resources": [
                             {
-                                "name": "Prompting Best Practices",
-                                "link": "URL_de_las_mejores_prácticas_de_ingeniería_de_prompts"
+                                "name": "Functional Components and Props",
+                                "link": "https://react.dev/reference/react/Component"
+                            },
+                            {
+                                "name": "Your first component",
+                                "link": "https://react.dev/learn/your-first-component"
+                            },
+                            {
+                                "name": "Passing props to a component",
+                                "link": "https://react.dev/learn/passing-props-to-a-component"
+                            },
+                            {
+                                "name": "Functional Components in React",
+                                "link": "https://www.robinwieruch.de/react-function-component/"
                             }
                         ]
+                    },
+                    {
+                        "Components Basics": {
+                            "options": [
+                                {
+                                    "name": "JSX",
+                                    "recommendation-type": "opinion",
+                                    "description": "JSX stands for JavaScript XML. It allows writing HTML in JavaScript and converts the HTML tags into React elements.",
+                                    "resources": [
+                                        {
+                                            "name": "Writing markup with JSX",
+                                            "link": "https://react.dev/learn/writing-markup-with-jsx"
+                                        },
+                                        {
+                                            "name": "JavaScript in JSX with Curly Braces",
+                                            "link": "https://react.dev/learn/javascript-in-jsx-with-curly-braces"
+                                        },
+                                        {
+                                            "name": "JSX in React - Explained with Examples",
+                                            "link": "https://www.freecodecamp.org/news/jsx-in-react-introduction/"
+                                        },
+                                        {
+                                            "name": "JSX in React on w3school",
+                                            "link": "https://www.w3schools.com/react/react_jsx.asp"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Props vs State",
+                                    "recommendation-type": "opinion",
+                                    "description": "Props (short for 'properties') and state are both plain JavaScript objects. While both hold information that influences the output of component render, they are different in one important way: props get passed to the component (similar to function parameters) whereas state is managed within the component (similar to variables declared within a function).",
+                                    "resources": [
+                                        {
+                                            "name": "State: A Component’s Memory",
+                                            "link": "https://react.dev/learn/state-a-components-memory"
+                                        },
+                                        {
+                                            "name": "How to use Props in React",
+                                            "link": "https://www.robinwieruch.de/react-pass-props-to-component/"
+                                        },
+                                        {
+                                            "name": "What is the difference between state and props in React?",
+                                            "link": "https://stackoverflow.com/questions/27991366/what-is-the-difference-between-state-and-props-in-react"
+                                        },
+                                        {
+                                            "name": "How to update state from props in React",
+                                            "link": "https://www.robinwieruch.de/react-derive-state-props/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Conditional Rendering",
+                                    "recommendation-type": "opinion",
+                                    "description": "In React, you can create distinct components that encapsulate behavior you need. Then, you can render only some of them, depending on the state of your application. Conditional rendering in React works the same way conditions work in JavaScript. Use JavaScript operators like if or the conditional operator to create elements representing the current state, and let React update the UI to match them.",
+                                    "resources": [
+                                        {
+                                            "name": "Conditional Rendering",
+                                            "link": "https://react.dev/learn/conditional-rendering"
+                                        },
+                                        {
+                                            "name": "Different techniques for conditional rendering in React",
+                                            "link": "https://www.robinwieruch.de/conditional-rendering-react/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Composition vs Inheritance",
+                                    "recommendation-type": "opinion",
+                                    "description": "React has a powerful composition model, and it is recommended to use composition instead of inheritance to reuse code between components.",
+                                    "resources": [
+                                        {
+                                            "name": "Composition vs Inheritance",
+                                            "link": "https://reactjs.org/docs/composition-vs-inheritance.html"
+                                        },
+                                        {
+                                            "name": "How to perform component composition in React",
+                                            "link": "https://www.robinwieruch.de/react-component-composition/"
+                                        },
+                                        {
+                                            "name": "Achieving Reusability With React Composition",
+                                            "link": "https://formidable.com/blog/2021/react-composition/"
+                                        },
+                                        {
+                                            "name": "Passing JSX as children",
+                                            "link": "https://react.dev/learn/passing-props-to-a-component#passing-jsx-as-children"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
                     }
                 ]
             },
             "Rendering": {
-                "description": " ",
-                "resources": [],
+                "description": "React follows a declarative approach to rendering components, which means that developers specify what a component should look like, and React takes care of rendering the component to the screen. This is in contrast to an imperative approach, where developers would write code to manually manipulate the DOM (Document Object Model) to update the UI. The virtual DOM (VDOM) is an important aspect of how React works, and it is used to optimize the rendering of components in a React application.",
+                "resources": [
+                    {
+                        "name": "React.js under the Hood",
+                        "link": "https://www.freecodecamp.org/news/react-under-the-hood/"
+                    }
+                ],
                 "order": 3,
-                "options": []
+                "options": [
+                    {
+                        "name": "Component Life Cycle",
+                        "recommendation-type": "opinion",
+                        "description": "React components have a lifecycle consisting of three phases: Mounting, Updating, and Unmounting, along with several 'lifecycle methods' that you can override to run code at particular times in the process. It is not recommended to use lifecycle methods manually. Instead, use the useEffect hook with functional components.",
+                        "resources": [
+                            {
+                                "name": "Class Component",
+                                "link": "https://react.dev/reference/react/Component"
+                            },
+                            {
+                                "name": "Lifecycle of Reactive Effects",
+                                "link": "https://react.dev/learn/lifecycle-of-reactive-effects"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lists and Keys",
+                        "recommendation-type": "opinion",
+                        "description": "When you render lists in React, you can use the key prop to specify a unique key for each item. This key is used to identify which item to update when you want to update a specific item.",
+                        "resources": [
+                            {
+                                "name": "Lists and Keys",
+                                "link": "https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key"
+                            },
+                            {
+                                "name": "Rendering Lists",
+                                "link": "https://react.dev/learn/rendering-lists"
+                            },
+                            {
+                                "name": "List components in React by Example",
+                                "link": "https://www.robinwieruch.de/react-list-component/"
+                            },
+                            {
+                                "name": "Why do we need the key prop in React?",
+                                "link": "https://www.robinwieruch.de/react-list-key/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Render Props",
+                        "recommendation-type": "opinion",
+                        "description": "The term ‘render props’ refers to a technique for sharing code between React components using a prop whose value is a function. A component with a render prop takes a function that returns a React element and calls it instead of implementing its own render logic.",
+                        "resources": [
+                            {
+                                "name": "Render Props in React",
+                                "link": "https://react.dev/learn/passing-props-to-a-component"
+                            },
+                            {
+                                "name": "How to create a Render Prop Component",
+                                "link": "https://www.robinwieruch.de/react-render-props/"
+                            },
+                            {
+                                "name": "Render Props Pattern",
+                                "link": "https://www.patterns.dev/posts/render-props-pattern/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Refs",
+                        "recommendation-type": "opinion",
+                        "description": "Refs provide a way to access DOM nodes or React elements created in the render method. In the typical React dataflow, props are the only way that parent components interact with their children. To modify a child, you re-render it with new props. However, there are a few cases where you need to imperatively modify a child outside of the typical dataflow. The child to be modified could be an instance of a React component, or it could be a DOM element. For both of these cases, React provides an escape hatch.",
+                        "resources": [
+                            {
+                                "name": "Referencing Values with Refs",
+                                "link": "https://react.dev/learn/referencing-values-with-refs"
+                            },
+                            {
+                                "name": "Manipulating the DOM with Refs",
+                                "link": "https://react.dev/learn/manipulating-the-dom-with-refs"
+                            },
+                            {
+                                "name": "Examples of using refs in React",
+                                "link": "https://www.robinwieruch.de/react-ref/"
+                            },
+                            {
+                                "name": "The Complete Guide to useRef() and Refs in React",
+                                "link": "https://dmitripavlutin.com/react-useref-guide/"
+                            },
+                            {
+                                "name": "Learn useRef in 11 Minutes - Web Dev Simplified",
+                                "link": "https://www.youtube.com/watch?v=t2ypzz6gJm0"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Events",
+                        "recommendation-type": "opinion",
+                        "description": "Handling events with React elements is very similar to handling events on DOM elements. There are some syntax differences:\n\n- React events are named using camelCase, rather than lowercase.\n- With JSX you pass a function as the event handler, rather than a string.",
+                        "resources": [
+                            {
+                                "name": "Responding to Events",
+                                "link": "https://react.dev/learn/responding-to-events"
+                            },
+                            {
+                                "name": "React Event Object (Synthetic Event)",
+                                "link": "https://react.dev/reference/react-dom/components/common#react-event-object"
+                            },
+                            {
+                                "name": "React Event Handler",
+                                "link": "https://www.robinwieruch.de/react-event-handler/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "High Order Components",
+                        "recommendation-type": "opinion",
+                        "description": "A higher-order component (HOC) is an advanced technique in React for reusing component logic. HOCs are not part of the React API, per se. They are a pattern that emerges from React’s compositional nature. Concretely, a higher-order component is a function that takes a component and returns a new component. Higher-order components are not commonly used in modern React code. In order to reuse logic, React hooks are mainly used now.",
+                        "resources": [
+                            {
+                                "name": "High-Order Components",
+                                "link": "https://reactjs.org/docs/higher-order-components.html"
+                            },
+                            {
+                                "name": "How to create a Higher-Order Component",
+                                "link": "https://www.robinwieruch.de/react-higher-order-components/"
+                            }
+                        ]
+                    }
+                ]
             },
             "Hooks": {
-                "description": "LLMs are used in a variety of ways. Here are some examples of how LLMs are used in the real world.",
-                "resources": [],
+                "description": "Hooks were introduced in React 16.8 and they let us use React’s features, like managing your component's state and performing an after effect when certain changes occur in state(s) without writing a class.",
+                "resources": [
+                    {
+                        "name": "Hooks Reference",
+                        "link": "https://react.dev/reference/react"
+                    }
+                ],
                 "order": 4,
                 "options": [
                     {
-                        "name": "Structured Data",
-                        "recommendation-type": "opinion",
-                        "description": "Asking the model to generate structured data is a great way to utilize the power of LLMs.",
-                        "resources": []
+                        "Basics Hooks ": {
+                            "description": "Hooks were introduced in React 16.8 and they let us use React’s features, like managing your component's state and performing an after effect when certain changes occur in state(s) without writing a class.",
+                            "resources": [
+                                {
+                                    "name": "Hooks Reference",
+                                    "link": "https://react.dev/reference/react"
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "name": "useState Hook",
+                                    "recommendation-type": "opinion",
+                                    "description": "useState hook is used to manage the state of a component in functional components. Calling useState returns an array with two elements: the current state value and a function to update the state.",
+                                    "resources": [
+                                        {
+                                            "name": "Using the State Hook",
+                                            "link": "https://react.dev/reference/react/useState"
+                                        },
+                                        {
+                                            "name": "React useState Hook by Example",
+                                            "link": "https://www.robinwieruch.de/react-usestate-hook/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "useEffect Hook",
+                                    "recommendation-type": "opinion",
+                                    "description": "useEffect is a special hook that lets you run side effects in React. It is similar to componentDidMount and componentDidUpdate, but it only runs when the component (or some of its props) changes and during the initial mount.",
+                                    "resources": [
+                                        {
+                                            "name": "Using the Effect Hook",
+                                            "link": "https://react.dev/reference/react/useEffect"
+                                        },
+                                        {
+                                            "name": "React useEffect Hook by Example",
+                                            "link": "https://www.robinwieruch.de/react-useeffect-hook/"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
                     },
                     {
-                        "name": "Inferring",
-                        "recommendation-type": "opinion",
-                        "description": "Making use of LLMs to infer information from text is another common use case.",
-                        "resources": []
-                    },
-                    {
-                        "name": "Writing Emails",
-                        "recommendation-type": "opinion",
-                        "description": "Language Models, like ChatGPT, can be incredibly beneficial for writing emails due to their ability to generate coherent and contextually appropriate text. When composing an email, an LLM can provide assistance with various aspects, such as generating engaging introductions or addressing specific questions or concerns. For instance, if you're writing a sales email, you can prompt the LLM with the request to generate a compelling opening paragraph that captures the recipient's attention. Similarly, when responding to customer inquiries, you can ask the LLM to help craft clear and informative responses that address the query with precision.\n\nFor example, here is a prompt to generate an automated email response to a customer inquiry:\n\nWrite an email informing a customer that their inquiry has been received and will be addressed shortly. Include the order number and the customer's name in the email.\n\nHere is the response generated by the LLM:\n\nSubject: Confirmation - Inquiry Received - Order #123456\n\nDear [Customer's Name],\n\nI'm writing to confirm that we have received your inquiry regarding your recent order. We appreciate you taking the time to reach out to us.\n\nYour order number is #123456, and we understand the importance of your inquiry. Rest assured, our team is already reviewing your case and will address it promptly. We strive to provide a timely response and a satisfactory resolution to all customer inquiries.\n\nIf we require any additional information or clarification, we will reach out to you directly. In the meantime, please feel free to contact us if you have any further questions or concerns about your order.\n\nWe value your business and are committed to ensuring your complete satisfaction. Thank you for choosing our company, and we appreciate your patience as we work on addressing your inquiry.\n\nBest regards,\nAI Customer Service",
-                        "resources": []
-                    },
-                    {
-                        "name": "Coding Assistance",
-                        "recommendation-type": "opinion",
-                        "description": "You can use ChatGPT for debugging, code generation, reformatting, commenting, and more.",
-                        "resources": [
-                            {
-                                "name": "LLM Coding Assistance",
-                                "link": "https://learnprompting.org/docs/basic_applications/coding_assistance"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Study Buddy",
-                        "recommendation-type": "opinion",
-                        "description": "One of our favorite ways to use LLMs is as a study tool! In particular, it is useful for explaining confusing terms as well as quizzing you on test content.",
-                        "resources": [
-                            {
-                                "name": "LLMs as a Study Buddy",
-                                "link": "https://learnprompting.org/docs/basic_applications/study_tool"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Designing Chatbots",
-                        "recommendation-type": "opinion",
-                        "description": "Building chatbots to offer customer support, sales, or other services is a hot topic in the tech industry. LLMs make it possible to build chatbots that can respond to a wide variety of user inputs, and can be trained to respond to new inputs with minimal effort.",
-                        "resources": []
+                        "Common Hooks ": {
+                            "description": "Hooks were introduced in React 16.8 and they let us use React’s features, like managing your component's state and performing an after effect when certain changes occur in state(s) without writing a class.",
+                            "resources": [
+                                {
+                                    "name": "Hooks Reference",
+                                    "link": "https://react.dev/reference/react"
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "name": "useState Hook",
+                                    "recommendation-type": "opinion",
+                                    "description": "useState hook is used to manage the state of a component in functional components. Calling useState returns an array with two elements: the current state value and a function to update the state.",
+                                    "resources": [
+                                        {
+                                            "name": "Using the State Hook",
+                                            "link": "https://react.dev/reference/react/useState"
+                                        },
+                                        {
+                                            "name": "React useState Hook by Example",
+                                            "link": "https://www.robinwieruch.de/react-usestate-hook/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "useEffect Hook",
+                                    "recommendation-type": "opinion",
+                                    "description": "useEffect is a special hook that lets you run side effects in React. It is similar to componentDidMount and componentDidUpdate, but it only runs when the component (or some of its props) changes and during the initial mount.",
+                                    "resources": [
+                                        {
+                                            "name": "Using the Effect Hook",
+                                            "link": "https://react.dev/reference/react/useEffect"
+                                        },
+                                        {
+                                            "name": "React useEffect Hook by Example",
+                                            "link": "React useEffect Hook by Exam"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
                     }
                 ]
             },
             "Routing": {
-                "description": "LLMs are extremely powerful, but they are by no means perfect. There are many pitfalls that you should be aware of when using them.",
-                "resources": [],
+                "description": "Routing is an essential concept in Single Page Applications (SPA). When your application is divided into separated logical sections, and all of them are under their own URL, your users can easily share links among each other.",
+                "resources": [
+                    {
+                        "name": "How to use Routing in React JS: A Comprehensive Guide",
+                        "link": "https://teachingbee.in/how-to-use-routing-in-react-js/"
+                    },
+                    {
+                        "name": "React Router 6 - Tutorial for Beginners",
+                        "link": "https://www.youtube.com/watch?v=59IXY5IDrBA"
+                    }
+                ],
                 "order": 5,
                 "options": [
                     {
-                        "name": "Citing Sources",
+                        "name": "React Router",
                         "recommendation-type": "opinion",
-                        "description": "LLMs for the most part cannot accurately cite sources. This is because they do not have access to the Internet, and do not exactly remember where their information came from. They will frequently generate sources that look good, but are entirely inaccurate.\n\nStrategies like search augmented LLMs (LLMs that can search the Internet and other sources) can often fix this problem though.",
-                        "resources": []
+                        "description": "React Router is the most famous library when it comes to implementing routing in React applications.",
+                        "resources": [
+                            {
+                                "name": "React Router — Official Website",
+                                "link": "https://reactrouter.com/"
+                            },
+                            {
+                                "name": "Getting Started Guide",
+                                "link": "https://reactrouter.com/en/main/start/tutorial"
+                            },
+                            {
+                                "name": "React Router v6 in 1 hour",
+                                "link": "https://youtu.be/0cSVuySEB0A"
+                            },
+                            {
+                                "name": "How to use React Router v6",
+                                "link": "https://www.robinwieruch.de/react-router/"
+                            },
+                            {
+                                "name": "React Router Cheat Sheet",
+                                "link": "https://stackdiary.com/guides/react-router-cheat-sheet-reference/"
+                            }
+                        ]
                     },
                     {
-                        "name": "Bias",
+                        "name": "Reach Router",
                         "recommendation-type": "opinion",
-                        "description": "LLMs are often biased towards generating stereotypical responses. Even with safeguards in place, they will sometimes say sexist/racist/homophobic things. Be careful when using LLMs in consumer-facing applications, and also be careful when using them in research (they can generate biased results).",
-                        "resources": []
-                    },
-                    {
-                        "name": "Hallucinations",
-                        "recommendation-type": "opinion",
-                        "description": "LLMs will frequently generate falsehoods when asked a question that they do not know the answer to. Sometimes they will state that they do not know the answer, but much of the time they will confidently give a wrong answer.",
-                        "resources": []
-                    },
-                    {
-                        "name": "Math",
-                        "recommendation-type": "opinion",
-                        "description": "LLMs are often bad at math. They have difficulty solving simple math problems, and they are often unable to solve more complex math problems.",
-                        "resources": []
-                    },
-                    {
-                        "name": "Prompt Hacking",
-                        "recommendation-type": "opinion",
-                        "description": "Prompt hacking is a term used to describe a situation where a model, specifically a language model, is tricked or manipulated into generating outputs that violate safety guidelines or are off-topic. This could include content that’s harmful, offensive, or not relevant to the prompt.\n\nThere are a few common techniques employed by users to attempt 'prompt hacking,' such as:\n\nManipulating keywords: Users may introduce specific keywords or phrases that are linked to controversial, inappropriate, or harmful content in order to trick the model into generating unsafe outputs.\nPlaying with grammar: Users could purposely use poor grammar, spelling, or punctuation to confuse the model and elicit responses that might not be detected by safety mitigations.\nAsking leading questions: Users can try to manipulate the model by asking highly biased or loaded questions, hoping to get a similar response from the model.\nTo counteract prompt hacking, it’s essential for developers and researchers to build in safety mechanisms such as content filters and carefully designed prompt templates to prevent the model from generating harmful or unwanted outputs. Constant monitoring, analysis, and improvement to the safety mitigations in place can help ensure the model’s output aligns with the desired guidelines and behaves responsibly.\n\nRead more about prompt hacking here [Prompt Hacking.](https://example.com/prompt-hacking)"
+                        "description": "Reach Router is a small, simple router for React that borrows from React Router, Ember, and Preact Router. Reach Router has a small footprint, supports only simple route patterns by design, and has strong (but experimental) accessibility features.",
+                        "resources": [
+                            {
+                                "name": "Reach Router — Official Website",
+                                "link": "https://reach.tech/router/"
+                            },
+                            {
+                                "name": "Getting Started Guide",
+                                "link": "https://reach.tech/router/tutorial/01-intro"
+                            }
+                        ]
                     }
                 ]
             },
             "State Management": {
-                "description": "To a certain extent, most of the previous techniques covered have to do with improving completion accuracy, and thus reliability, in particular self-consistency. However, there are a number of other techniques that can be used to improve reliability, beyond basic prompting strategies.\n\nLLMs have been found to be more reliable than we might expect at interpreting what a prompt is trying to say when responding to misspelled, badly phrased, or even actively misleading prompts. Despite this ability, they still exhibit various problems including hallucinations, flawed explanations with CoT methods, and multiple biases including majority label bias, recency bias, and common token bias. Additionally, zero-shot CoT can be particularly biased when dealing with sensitive topics.\n\nCommon solutions to some of these problems include calibrators to remove a priori biases, and verifiers to score completions, as well as promoting diversity in completions.\n\nLearn more at [learnprompting.org](https://learnprompting.org)",
+                "description": "Application state management is the process of maintaining knowledge of an application’s inputs across multiple related data flows that form a complete business transaction — or a session — to understand the condition of the app at any given moment. In computer science, an input is information put into the program by the user, and state refers to the condition of an application according to its stored inputs — saved as variables or constants. State can also be described as the collection of preserved information that forms a complete session.",
+                "resources": [
+                    {
+                        "name": "What is State Management?",
+                        "link": "https://www.techtarget.com/searchapparchitecture/definition/state-management"
+                    },
+                    {
+                        "name": "Overview of State in React",
+                        "link": "https://www.robinwieruch.de/react-state/"
+                    }
+                ],
                 "order": 6,
                 "options": [
                     {
-                        "name": "Prompt Debiasing",
+                        "name": "Context",
                         "recommendation-type": "opinion",
-                        "description": "Debiasing is the process of reducing bias in the development and performance of AI language models, such as OpenAI’s GPT-3. When constructing prompts, it’s important to address existing biases and assumptions that may be inadvertently incorporated into the model due to training data or other factors. By considering debiasing, we aim to promote fairness, neutrality, and inclusiveness in AI-generated responses.\n\nWhy is Debiasing Important?\nAI models can absorb various biases from their diverse training data, including but not limited to:\n- Gender bias\n- Racial bias\n- Ethnic bias\n- Political bias\nThese biases may result in unfair, offensive, or misleading outputs. As prompt engineers, our responsibility is to create prompts that minimize the unintentional effects of such biases in the responses generated by the model.\n\nKey Strategies for Debiasing\nHere are a few strategies that can help you address biases in your prompts:\n- Objective Wording: Use objective language and avoid making assumptions about race, gender, ethnicity, nationality, or any other potentially biased characteristics.\n- Equitable Representation: Ensure prompts represent diverse perspectives and experiences, so that the model learns to generate responses that are fair and unbiased.\n- Counter-balancing: If a bias is unavoidable due to the context or nature of the prompt, consider counter-balancing it by providing an alternative perspective or side to the argument.\n- Testing and Iterating: Continuously test and iterate on your prompts, seeking feedback from a diverse group of reviewers to identify and correct potential biases.\nLearn more at [learnprompting.org](https://learnprompting.org)"
+                        "description": "Context provides a way to pass data through the component tree without having to pass props down manually at every level. In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme) that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.",
+                        "resources": [
+                            {
+                                "name": "Passing Data Deeply with Context",
+                                "link": "https://react.dev/learn/passing-data-deeply-with-context"
+                            },
+                            {
+                                "name": "State with useContext and useState/useReducer",
+                                "link": "https://www.robinwieruch.de/react-state-usereducer-usestate-usecontext/"
+                            }
+                        ]
                     },
                     {
-                        "name": "Prompt Ensembling",
+                        "name": "Zustand",
                         "recommendation-type": "opinion",
-                        "description": "Ensembling is a technique used to improve the reliability and accuracy of predictions by combining multiple different models, essentially leveraging the ‘wisdom of the crowd’. The idea is that combining the outputs of several models can cancel out biases, reduce variance, and lead to a more accurate and robust prediction.\n\nThere are several ensembling techniques that can be used, including:\n- Majority voting: Each model votes for a specific output, and the one with the most votes is the final prediction.\n- Weighted voting: Similar to majority voting, but each model has a predefined weight based on its performance, accuracy, or other criteria. The final prediction is based on the weighted sum of all model predictions.\n- Bagging: Each model is trained on a slightly different dataset, typically generated by sampling with replacement (bootstrap) from the original dataset. The predictions are then combined, usually through majority voting or averaging.\n- Boosting: A sequential ensemble method where each new model aims to correct the mistakes made by the previous models. The final prediction is a weighted combination of the outputs from all models.\n- Stacking: Multiple base models predict the output, and these predictions are used as inputs for a second-layer model, which provides the final prediction.\nIncorporating ensembling in your prompt engineering process can help produce more reliable results, but be mindful of factors such as increased computational complexity and potential overfitting. To achieve the best results, make sure to use diverse models in your ensemble and pay attention to tuning their parameters, balancing their weights, and selecting suitable ensembling techniques based on your specific problem and dataset."
+                        "description": "Zustand is a small, fast, and scalable barebones state-management solution using simplified flux principles. It has a comfy API based on hooks, isn’t boilerplatey or opinionated. Zustand is often used as an alternative to other state management libraries, such as Redux and MobX, because of its simplicity and small size. It is particularly well-suited for small to medium-sized applications, where the complexity of larger state management libraries is not required.",
+                        "resources": [
+                            {
+                                "name": "Zustand - Official Website",
+                                "link": "https://github.com/pmndrs/zustand"
+                            },
+                            {
+                                "name": "Working with Zustand",
+                                "link": "https://tkdodo.eu/blog/working-with-zustand"
+                            },
+                            {
+                                "name": "Zustand - Official Documentation",
+                                "link": "https://docs.pmnd.rs/zustand/getting-started/introduction"
+                            },
+                            {
+                                "name": "pmndrs/zustand",
+                                "link": "https://github.com/pmndrs/zustand"
+                            }
+                        ]
                     },
                     {
-                        "name": "LLM Self Evaluation",
+                        "name": "Redux",
                         "recommendation-type": "opinion",
-                        "description": "Self-evaluation is an essential aspect of the prompt engineering process. It involves the ability of an AI model to assess its own performance and determine the level of confidence it has in its responses. By properly incorporating self-evaluation, the AI can improve its reliability, as it will learn to identify its weaknesses and provide more accurate responses over time.\n\nImplementing Self-Evaluation:\nWhen incorporating self-evaluation into an AI model, you should consider the following elements:\n- Objective metrics: Develop quantitative measures that determine the quality of a response. Examples include accuracy, precision, recall, and F1 scores. These metrics can be used as part of the AI model’s assessment process, offering a consistent way to gauge its performance.\n- User feedback: Collect user feedback on the AI model’s responses, as users can provide valuable information about the quality and utility of the generated content. By allowing users to rate answers or report issues, the AI model can integrate this feedback into its self-evaluation process.\n- Confidence levels: Implement a system that measures the AI model’s confidence in its responses. A confidence score can help users understand the reliability of a response, and it can also help the AI model refine its behavior when it has uncertainty. Make sure the confidence score is calculated based on factors such as data quality, algorithm performance, and historical accuracy.\n- Error monitoring: Establish a system that continuously monitors the AI model’s performance by tracking errors, outliers, and other unexpected results. This monitoring process should inform the self-evaluation mechanism and help the AI model adapt over time.\nBy incorporating self-evaluation into your AI model, you can create a more reliable system that users will trust and appreciate. This, in turn, will lead to a greater sense of confidence in the AI model and its potential to solve real-world problems."
+                        "description": "Redux is a predictable state container for JavaScript apps. It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides a great developer experience, such as live code editing combined with a time-traveling debugger. Redux Toolkit (RTK) is a library for managing state in JavaScript applications. It is an opinionated set of tools and utilities for building Redux applications and is designed to make it easier and faster to build Redux applications. RTK is often used as an alternative to writing Redux applications from scratch, as it provides a set of conventions and utilities that can make it easier and faster to build Redux applications.",
+                        "resources": [
+                            {
+                                "name": "Redux Toolkit - ReduxJS",
+                                "link": "https://redux-toolkit.js.org/"
+                            },
+                            {
+                                "name": "Official Website",
+                                "link": "https://redux.js.org/"
+                            },
+                            {
+                                "name": "Official Getting Started to Redux",
+                                "link": "https://redux.js.org/introduction/getting-started"
+                            },
+                            {
+                                "name": "Redux Toolkit Official Website",
+                                "link": "https://redux-toolkit.js.org/"
+                            },
+                            {
+                                "name": "Official Tutorial to Learn Redux",
+                                "link": "https://redux.js.org/tutorials/essentials/part-1-overview-concepts"
+                            },
+                            {
+                                "name": "Fundamentals of Redux Course from Dan Abramov",
+                                "link": "https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867"
+                            },
+                            {
+                                "name": "Redux Tutorial - Beginner to Advanced",
+                                "link": "https://youtube.com/watch?v=zrs7u6bdbUw"
+                            }
+                        ]
                     },
                     {
-                        "name": "Calibrating LLMs",
+                        "name": "MobX",
                         "recommendation-type": "opinion",
-                        "description": "Calibration refers to the process of adjusting the model to produce responses that are consistent with human-defined ratings, rankings, or scores.\n\nImportance of Calibration:\nCalibrating the LLMs helps to:\n- Minimize system biases and improve response quality.\n- Increase the alignment between user expectations and the model’s output.\n- Improve the interpretability of the model’s behavior.\n\nCalibration Techniques:\nThere are various techniques to calibrate LLMs that you can explore, including:\n- Prompt Conditioning: Modifying the prompt itself to encourage desired behavior. This involves using explicit instructions or specifying the format of the desired response.\n- Response Rankings: Presenting the model with multiple potential responses and asking it to rank them by quality or relevance. This technique encourages the model to eliminate inappropriate or low-quality responses by assessing them against other possible answers.\n- Model Debiasing: Applying debiasing techniques, such as counterfactual data augmentation or fine-tuning the model with diverse, bias-mitigating training data.\n- Temperature Adjustment: Dynamically controlling the randomness or ‘temperature’ parameter during the inference to balance creativity and coherence of the output.\n\nIterative Calibration:\nCalibration should be an iterative process, where improvements are consistently monitored and further adjustments made based on the data collected from users. Continual learning from user interactions can help increase the model’s overall reliability and maintain its performance over time.\n\nRemember, calibrating LLMs is an essential part of creating reliable, high-quality language models that effectively meet user needs and expectations. Through prompt conditioning, response ranking, model debiasing, temperature adjustment, and iterative improvements, you can successfully achieve well-calibrated and reliable LLMs."
+                        "description": "MobX is an open source state management tool. MobX, a simple, scalable, and standalone state management library, follows functional reactive programming (FRP) implementation and prevents inconsistent state by ensuring that all derivations are performed automatically.",
+                        "resources": [
+                            {
+                                "name": "MobX Official Website",
+                                "link": "https://mobx.js.org/"
+                            },
+                            {
+                                "name": "Intro to MobX Tutorial",
+                                "link": "https://www.youtube.com/watch?v=WQQq1QbYlAw"
+                            }
+                        ]
                     },
                     {
-                        "name": "Math",
+                        "name": "Events",
                         "recommendation-type": "opinion",
-                        "description": "As a prompt engineer, you can take the following steps to improve the reliability of Language Models (LMs) for mathematical tasks:\n\nClear and specific prompts: Craft clear and specific prompts that provide the necessary context for the mathematical task. Specify the problem type, expected input format, and desired output format. Avoid ambiguous or vague instructions that can confuse the LM.\nFormatting cues: Include formatting cues in the prompts to guide the LM on how to interpret and generate mathematical expressions. For example, use LaTeX formatting or explicit notations for mathematical symbols, equations, or variables.\nExample-based prompts: Provide example-based prompts that demonstrate the desired input-output behavior. Show the model correct solutions for different problem types to help it understand the expected patterns and formats.\nStep-by-step instructions: Break down complex mathematical problems into step-by-step instructions. Provide explicit instructions on how the model should approach the problem, such as defining variables, applying specific rules or formulas, or following a particular sequence of operations.\nError handling: Anticipate potential errors or misconceptions the LM might make, and explicitly instruct it on how to handle those cases. Provide guidance on common mistakes and offer corrective feedback to help the model learn from its errors.\nFeedback loop: Continuously evaluate the model’s responses and iterate on the prompts based on user feedback. Identify areas where the LM is consistently making errors or struggling, and modify the prompts to address those specific challenges.\nContext injection: Inject additional context into the prompt to help the model better understand the problem. This can include relevant background information, specific problem constraints, or hints to guide the LM towards the correct solution.\nProgressive disclosure: Gradually reveal information or subtasks to the LM, rather than providing the entire problem at once. This can help the model focus on smaller subproblems and reduce the cognitive load, leading to more reliable outputs.\nSanity checks: Include sanity checks in the prompt to verify the reasonableness of the model’s output. For example, you can ask the model to show intermediate steps or validate the solution against known mathematical properties.\nFine-tuning and experimentation: Fine-tune the LM on a dataset that specifically focuses on mathematical tasks. Experiment with different prompt engineering techniques and evaluate the impact on the model’s reliability. Iterate on the fine-tuning process based on the results obtained.\nBy applying these prompt engineering strategies, you can guide the LM towards more reliable and accurate responses for mathematical tasks, improving the overall usability and trustworthiness of the model."
+                        "description": "Handling events with React elements is very similar to handling events on DOM elements. There are some syntax differences:\n\n- React events are named using camelCase, rather than lowercase.\n- With JSX you pass a function as the event handler, rather than a string.",
+                        "resources": [
+                            {
+                                "name": "Responding to Events",
+                                "link": "Responding to Events"
+                            },
+                            {
+                                "name": "React Event Object (Synthetic Event)",
+                                "link": "https://react.dev/reference/react-dom/components/common#react-event-object"
+                            },
+                            {
+                                "name": "React Event Handler",
+                                "link": "https://www.robinwieruch.de/react-event-handler/"
+                            }
+                        ]
                     }
                 ]
             },
             "Styling": {
-                "description": "LLM (Language Model) settings play a crucial role in prompt engineering as they directly influence the behavior and output of the language model. In this section, we will discuss some of the important LLM settings that you need to consider while designing prompts.\n\n1. Temperature\nTemperature is a hyperparameter that controls the randomness of the output generated by the language model. A higher temperature will result in more diverse and creative responses, while a lower temperature will produce more focused and deterministic responses.\nHigh Temperature (e.g., 1.0): More random and creative outputs, higher chances of deviation from the topic, and potentially lower relevance.\nLow Temperature (e.g., 0.2): More deterministic outputs, focused on the provided input, and higher relevance.\n2. Max Tokens\nMax tokens determine the length of the output generated by the model. By controlling the number of tokens in the response, you can influence the verbosity of the language model.\nHigher Max Tokens: Longer responses, more details, and higher chances of going off-topic.\nLower Max Tokens: Shorter responses, more concise, but might cut off important information.\n3. Top-K Sampling\nTop-K sampling is an approach to limit the number of predicted words that the language model can consider. By specifying a smaller K value, you can restrict the output to be focused and prevent the model from generating unrelated information.\nHigh K Value: Model considers more word options and might generate diverse content, but with a higher risk of going off-topic.\nLow K Value: Model has limited word options, leading to focused and related content.\nThese LLM settings give you control over the output of the language model, helping you steer the responses according to your requirements. Understanding the balance between these settings can improve the effectiveness of your prompt engineering efforts.",
+                "description": "While 'CSS in JS' is the most predominant way of styling modern frontend applications, there are several different ways to style your React applications, whether it is vanilla CSS, CSS Modules, or CSS in JS, etc., and each has several frameworks available.",
+                "resources": [
+                    {
+                        "name": "Ways to CSS style a React application",
+                        "link": "https://www.robinwieruch.de/react-css-styling/"
+                    }
+                ],
                 "order": 7,
                 "options": [
                     {
-                        "name": "Temperature",
+                        "name": "Emotion",
                         "recommendation-type": "opinion",
-                        "description": "Temperature is an important setting in the Language Models (LMs), specifically for the fine-tuning process. It refers to the “temperature” parameter in the softmax function of the language model. Adjusting the temperature can influence the randomness or conservativeness of the model’s output.\n\nRole of Temperature\nThe temperature controls the model’s level of creativity and boldness in generating text. A lower temperature value makes the model more conservative, sticking closely to the patterns it has learned from the training data. Higher temperature values encourage the model to explore riskier solutions by allowing less likely tokens to be more probable.\n\nPractical Uses\nWhen fine-tuning an LM, you can regulate its behavior by adjusting the temperature:\n\nLower temperature values (e.g., 0.2 or 0.5): The model will be more focused on phrases and word sequences that it learned from the training data. The output will be less diverse, but may lack novelty or creativity. Suitable for tasks where conservativeness is important, such as text summarization or translation.\n\nHigher temperature values (e.g., 1.0 or 2.0): The model will generate more creative outputs with innovative combinations of words. However, it may produce less coherent or contextually improper text. Useful for tasks where exploration and distinctiveness are required, like creative writing or brainstorming.\n\nExperimenting with various temperature values can lead to finding the optimal balance between creativity and coherence, depending on the specific task and desired output."
+                        "description": "Emotion is a library designed for writing CSS styles with JavaScript. It provides powerful and predictable style composition in addition to a great developer experience with features such as source maps, labels, and testing utilities. Both string and object styles are supported.",
+                        "resources": [
+                            {
+                                "name": "Official Website and Docs",
+                                "link": "https://emotion.sh/docs/introduction"
+                            },
+                            {
+                                "name": "Styled components using emotion in React",
+                                "link": "https://www.youtube.com/watch?v=yO3JU2bMLGA"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Styled components",
+                        "recommendation-type": "opinion",
+                        "description": "Styled-components is a CSS-in-JS library that enables you to write regular CSS and attach it to JavaScript components. With styled-components, you can use the CSS you're already familiar with instead of having to learn a new styling structure.",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://styled-components.com/"
+                            },
+                            {
+                                "name": "Official Docs",
+                                "link": "https://styled-components.com/docs"
+                            },
+                            {
+                                "name": "Styled Components Crash Course & Project",
+                                "link": "https://www.youtube.com/watch?v=02zO0hZmwnw"
+                            },
+                            {
+                                "name": "Best Practices for Styled Components",
+                                "link": "https://www.robinwieruch.de/styled-components/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "recommendation-type": "opinion",
+                        "description": "CSS Framework that provides atomic CSS classes to help you style components e.g. flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.",
+                        "resources": [
+                            {
+                                "name": "Tailwhttps://tailwindcss.com/ind Website",
+                                "link": "INSERT_TAILWIND_WEBSITE_LINK_HERE"
+                            },
+                            {
+                                "name": "Tailwind CSS Full Course for Beginners",
+                                "link": "https://www.youtube.com/watch?v=lCxcTsOHrjo"
+                            },
+                            {
+                                "name": "Tailwind CSS Crash Course",
+                                "link": "https://www.youtube.com/watch?v=UBOj6rqRUME"
+                            },
+                            {
+                                "name": "Should You Use Tailwind CSS?",
+                                "link": "https://www.youtube.com/watch?v=hdGsFpZ0J2E"
+                            },
+                            {
+                                "name": "Official Screencasts",
+                                "link": "https://www.youtube.com/c/TailwindLabs/videos"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Material UI",
+                        "recommendation-type": "opinion",
+                        "description": "Material-UI is an open-source framework that features React components that implement Google's Material Design.",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://mui.com/"
+                            },
+                            {
+                                "name": "Official Documentation",
+                                "link": "https://mui.com/getting-started/installation/"
+                            },
+                            {
+                                "name": "Material UI React Tutorial",
+                                "link": "https://www.youtube.com/watch?v=vyJU9efvUtQ"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mantine",
+                        "recommendation-type": "opinion",
+                        "description": "Mantine is a React components library with more than 100 customizable components and 40 hooks to cover you in any situation.",
+                        "resources": [
+                            {
+                                "name": "Mantine Website",
+                                "link": "https://mantine.dev/"
+                            },
+                            {
+                                "name": "Usage with Create React App",
+                                "link": "https://mantine.dev/guides/cra/"
+                            },
+                            {
+                                "name": "5 Mantine Hooks for UI management",
+                                "link": "https://blog.logrocket.com/5-mantine-hooks-simplifying-ui-management-react/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Chakra UI",
+                        "recommendation-type": "opinion",
+                        "description": "Chakra UI is a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.",
+                        "resources": [
+                            {
+                                "name": "Chakra UI Website",
+                                "link": "https://chakra-ui.com/"
+                            },
+                            {
+                                "name": "Chakra UI Official Getting Started",
+                                "link": "https://chakra-ui.com/docs/getting-started"
+                            },
+                            {
+                                "name": "Build a Modern User Interface with Chakra UI",
+                                "link": "https://egghead.io/courses/build-a-modern-user-interface-with-chakra-ui-fac68106"
+                            },
+                            {
+                                "name": "Official Getting Started Video",
+                                "link": "https://youtu.be/wI2vqXsjsIo"
+                            },
+                            {
+                                "name": "Chakra UI Crash Course",
+                                "link": "https://youtu.be/s-bIsz-NR3c"
+                            },
+                            {
+                                "name": "Why You Should Start Using Chakra UI",
+                                "link": "Why You Should Start Using Chakra UI "
+                            }
+                        ]
+                    },
+                    {
+                        "name": "CSS Modules",
+                        "recommendation-type": "opinion",
+                        "description": "CSS files in which all class names and animation names are scoped locally by default.",
+                        "resources": [
+                            {
+                                "name": "Project GitHub Repository",
+                                "link": "https://github.com/css-modules/css-modules"
+                            },
+                            {
+                                "name": "Using CSS Modules In React App",
+                                "link": "https://medium.com/@ralph1786/using-css-modules-in-react-app-c2079eadbb87"
+                            },
+                            {
+                                "name": "CSS Modules: Why are they great?",
+                                "link": "https://www.youtube.com/watch?v=pKMWU9OrA2s"
+                            }
+                        ]
                     }
-                    
                 ]
             },
             "API Calls": {
@@ -230,28 +784,288 @@
                 "options": []
             },
             "Testing": {
-                "description": " ",
-                "resources": [],
+                "description": "A key to building software that meets requirements without defects is testing. Software testing helps developers know they are building the right software. When tests are run as part of the development process (often with continuous integration tools), they build confidence and prevent regressions in the code.",
+                "resources": [
+                    {
+                        "name": "What is Software Testing?",
+                        "link": "https://www.guru99.com/software-testing-introduction-importance.html"
+                    },
+                    {
+                        "name": "Testing Pyramid",
+                        "link": "https://www.browserstack.com/guide/testing-pyramid-for-test-automation"
+                    }
+                ],
                 "order": 9,
-                "options": []
+                "options": [
+                    {
+                        "name": "React Testing Library",
+                        "recommendation-type": "opinion",
+                        "description": "The React Testing Library is a very lightweight solution for testing React components. It provides light utility functions on top of react-dom and react-dom/test-utils, in a way that encourages better testing practices. Its primary guiding principle is: The more your tests resemble the way your software is used, the more confidence they can give you.",
+                        "resources": [
+                            {
+                                "name": "React Testing Library",
+                                "link": "https://testing-library.com/docs/react-testing-library/intro/"
+                            },
+                            {
+                                "name": "How to use React Testing Library",
+                                "link": "https://www.robinwieruch.de/react-testing-library/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jest",
+                        "recommendation-type": "opinion",
+                        "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue, and more!",
+                        "resources": [
+                            {
+                                "name": "Jest Website",
+                                "link": "https://jestjs.io/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vitest",
+                        "recommendation-type": "opinion",
+                        "description": "Vitest is a fast Vite-native unit test framework with out-of-box ESM, TypeScript, and JSX support. Works on React, Vue, Svelte, and more projects created with Vite",
+                        "resources": [
+                            {
+                                "name": "Vitest Website",
+                                "link": "https://vitest.dev/"
+                            },
+                            {
+                                "name": "Testing with Vitest",
+                                "link": "https://www.youtube.com/watch?v=cM_AeQHzlGg"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cypress",
+                        "recommendation-type": "opinion",
+                        "description": "Cypress framework is a JavaScript-based end-to-end testing framework built on top of Mocha – a feature-rich JavaScript test framework running on and in the browser, making asynchronous testing simple and convenient. It also uses a BDD/TDD assertion library and a browser to pair with any JavaScript testing framework.",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://www.cypress.io/"
+                            },
+                            {
+                                "name": "Official Documentation",
+                                "link": "https://docs.cypress.io/guides/overview/why-cypress#Other"
+                            },
+                            {
+                                "name": "Cypress End-to-End Testing",
+                                "link": "https://www.youtube.com/watch?v=7N63cMKosIE"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Playwright",
+                        "recommendation-type": "opinion",
+                        "description": "Playwright Test was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation of Google Chrome for Android and Mobile Safari. Playwright leverages the DevTools protocol to write powerful, stable automated tests. Playwright can actually see into and control the browser rather than relying on a middle translation layer, it allows for the simulation of more insightful and relevant user scenarios.",
+                        "resources": [
+                            {
+                                "name": "Official Website: Playwright",
+                                "link": "https://playwright.dev/"
+                            },
+                            {
+                                "name": "Playwright Tutorial",
+                                "link": "https://www.browserstack.com/guide/playwright-tutorial"
+                            }
+                        ]
+                    }
+                ]
             },
             "Frameworks": {
-                "description": " ",
-                "resources": [],
+                "description": "Server-side rendering (SSR) is a technique for rendering a JavaScript application on the server, rather than in the browser. This can improve the performance and user experience of a web application, as the initial render of the application is done on the server and the content is sent to the browser as a fully-rendered HTML page. There are several frameworks and libraries available for server-side rendering React applications, most common being:",
+                "resources": [
+                    {
+                        "name": "Next.js",
+                        "link": "https://nextjs.org/"
+                    },
+                    {
+                        "name": "Remix",
+                        "link": "https://remix.run/"
+                    }
+                ],
                 "order": 9,
-                "options": []
+                "options": [
+                    {
+                        "name": "Next.js",
+                        "recommendation-type": "opinion",
+                        "description": "Next.js is an open-source development framework built on top of Node.js enabling React-based web application functionalities such as server-side rendering and generating static websites.",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "ehttps://nextjs.org/"
+                            },
+                            {
+                                "name": "Official Docs for Getting Started",
+                                "link": "https://nextjs.org/docs/getting-started"
+                            },
+                            {
+                                "name": "Next.js Full course",
+                                "link": "https://www.youtube.com/watch?v=9P8mASSREYM&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH"
+                            },
+                            {
+                                "name": "Mastering Next.js",
+                                "link": "https://masteringnextjs.com/"
+                            },
+                            {
+                                "name": "Next.js for Beginners - freeCodeCamp",
+                                "link": "https://youtu.be/1WmNXEVia8I"
+                            },
+                            {
+                                "name": "The Next.js Handbook — freeCodeCamp",
+                                "link": "https://www.freecodecamp.org/news/the-next-js-handbook/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Remix",
+                        "recommendation-type": "opinion",
+                        "description": "Remix is a full stack web framework that lets you focus on the user interface and work back through web standards to deliver a fast, slick, and resilient user experience. People are gonna love using your stuff.",
+                        "resources": [
+                            {
+                                "name": "Official Website",
+                                "link": "https://remix.run/"
+                            },
+                            {
+                                "name": "Official Docs for Getting Started",
+                                "link": "https://remix.run/docs/en/v1#getting-started"
+                            }
+                        ]
+                    }
+                ]
             },
             "Forms": {
-                "description": " ",
-                "resources": [],
+                "description": "Although you can build forms using vanilla React, it normally requires a lot of boilerplate code. This is because the form is built using a combination of state and props. To make it easier to manage forms, we use some sort of library.",
+                "resources": [
+                    {
+                        "name": "How to use Forms in React",
+                        "link": "https://www.robinwieruch.de/react-form/"
+                    }
+                ],
                 "order": 9,
-                "options": []
+                "options": [
+                    {
+                        "name": "React Hook Form",
+                        "recommendation-type": "opinion",
+                        "description": "React hook form is an open-source form library for react. Performant, flexible and extensible forms with easy-to-use validation.",
+                        "resources": [
+                            {
+                                "name": "React Hook Form: Official Website",
+                                "link": "https://react-hook-form.com/"
+                            },
+                            {
+                                "name": "react-hook-form/react-hook-form",
+                                "link": "https://github.com/react-hook-form/react-hook-form"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Formik",
+                        "recommendation-type": "opinion",
+                        "description": "Formik is another famous open-source form library that helps with getting values in and out of form state, validation and error messages, and handling form submissions.",
+                        "resources": [
+                            {
+                                "name": "Official Website — Formik",
+                                "link": "https://formik.org/"
+                            },
+                            {
+                                "name": "Getting Started",
+                                "link": "https://formik.org/docs/overview"
+                            },
+                            {
+                                "name": "formik/formik",
+                                "link": "https://github.com/formik/formik"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Final Form",
+                        "recommendation-type": "opinion",
+                        "description": "High-performance subscription-based form state management for React.",
+                        "resources": [
+                            {
+                                "name": "Final Form — Official Website",
+                                "link": "https://final-form.org/react"
+                            },
+                            {
+                                "name": "final-form / react-final-form",
+                                "link": "https://github.com/final-form/react-final-form"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Suspense",
+                        "recommendation-type": "opinion",
+                        "description": "React Suspense is a feature in React that allows components to “suspend” rendering while they are waiting for something to happen, such as data to be fetched from an API or an image to be loaded. Suspense allows developers to create a more seamless user experience by rendering a placeholder or fallback component while the component is waiting for the required data to be available.",
+                        "resources": [
+                            {
+                                "name": "React Suspense",
+                                "link": "https://react.dev/reference/react/Suspense"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Portals",
+                        "recommendation-type": "opinion",
+                        "description": "Portals provide a first-class way to render children into a DOM node that exists outside the DOM hierarchy of the parent component.",
+                        "resources": [
+                            {
+                                "name": "Portals in React",
+                                "link": "https://react.dev/reference/react-dom/createPortal"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Error Boundaries",
+                        "recommendation-type": "opinion",
+                        "description": "Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed. Error boundaries catch errors during rendering, in lifecycle methods, and in constructors of the whole tree below them.",
+                        "resources": [
+                            {
+                                "name": "Error Boundaries in React",
+                                "link": "https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fiber Architecture",
+                        "recommendation-type": "opinion",
+                        "description": "React 16.0 was released with an update to the React core algorithm. This new core architecture is named “Fiber.” Facebook has completely rewritten the internals of React from the ground-up while keeping the public API essentially unchanged; in simple terms, it means only changing the engine of a running car.",
+                        "resources": [
+                            {
+                                "name": "React Fiber Architecture",
+                                "link": "https://github.com/acdlite/react-fiber-architecture"
+                            },
+                            {
+                                "name": "Understanding React Fiber Architecture",
+                                "link": "https://dzone.com/articles/understanding-of-react-fiber-architecture"
+                            }
+                        ]
+                    }
+                ]
             },
             "Mobile": {
-                "description": " ",
+                "description": "React Native is an open-source UI software framework created by Meta Platforms, Inc. It is used to develop applications for Android, Android TV, iOS, macOS, tvOS, Web, Windows, and UWP by enabling developers to use the React framework along with native platform capabilities.",
                 "resources": [],
                 "order": 9,
-                "options": []
+                "options": [
+                    {
+                        "name": "React Native",
+                        "recommendation-type": "opinion",
+                        "description": "React Native is an open-source UI software framework created by Meta Platforms, Inc. It is used to develop applications for Android, Android TV, iOS, macOS, tvOS, Web, Windows, and UWP by enabling developers to use the React framework along with native platform capabilities.",
+                        "resources": [
+                            {
+                                "name": "React Native: Official Website",
+                                "link": "https://reactnative.dev/"
+                            },
+                            {
+                                "name": "Official Getting Started",
+                                "link": "https://reactnative.dev/docs/getting-started"
+                            }
+                        ]
+                    }
+                ]
             }
         }
     }

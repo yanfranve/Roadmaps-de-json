@@ -71,6 +71,10 @@
             "L": {
                 "description": " ",
                 "resources": [],
+                "recommendation-type": "opinion",
+                "recommendation-type": "not strict",
+                "recommendation-type": "Pick this or purple",
+                "recommendation-type": "wouidn't",
                 "order": 1,
                 "options": []
             },
