@@ -1798,50 +1798,8 @@
                                 ]
                             }
                         ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
                     }
+                   
                 ]
             },
             "Caching": {
