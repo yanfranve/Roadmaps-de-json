@@ -1,6 +1,7 @@
 {
     "Skill": {
         "React": {
+            "description": " ",
             "CLI Tools": {
                 "description": "Here is the list of most common CLI tools for React development:",
                 "resources": [

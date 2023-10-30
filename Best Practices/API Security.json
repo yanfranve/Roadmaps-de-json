@@ -1,6 +1,7 @@
 {
     "Best": {
         "API Security": {
+            "description": " Detailed list of best practices to make your APIs secure",
             "AUthentication": {
                 "order": 1,
                 "options": [

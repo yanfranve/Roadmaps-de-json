@@ -1,6 +1,7 @@
 {
     "roles": {
         "React Native": {
+            "description": "Step by step guide to becoming a React Native developer in 2023 ",
             "Introduction": {
                 "description": "React Native is an open-source framework developed by Facebook that allows developers to build mobile applications using JavaScript and React. It enables building apps for both iOS and Android platforms by offering a shared codebase, which significantly reduces development time and effort.",
                 "resources": [
@@ -424,11 +425,6 @@
                         "description": "RefreshControl is a component in React Native that is used to provide pull-to-refresh functionality for scrollable components like ScrollView, ListView, and FlatList.",
                         "resources": []
                     }
-                    
-                    
-                    
-                    
-                    
                 ]
             },
             "Writing Platform Specific Code": {
@@ -715,179 +711,74 @@
                 }
             },
             "Testing": {
-                "description": " ",
+                "description": "When it comes to testing, you can use a combination of Jest, React Test Renderer, React Native Testing Library, Detox and Appium for all sorts of API needs. ",
                 "resources": [],
                 "order": 14,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Jest",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Official Website",
+                                "link": "https://jestjs.io/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Official Documentation",
+                                "link": "https://jestjs.io/docs/en/getting-started"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Jest Crash Course - Unit Testing in JavaScript",
+                                "link": "https://example.com/jest-crash-course"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "React Test Renderer",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "React Test Renderer is a library provided by the React team that allows you to render React components as JavaScript objects without depending on the DOM or a native mobile environment. It can be used to test components in Node.js environments where the actual rendering is not required.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "React Test Renderer",
+                                "link": "https://reactjs.org/docs/test-renderer.html"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "React Native Testing Library",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "React Native Testing Library (RNTL) is a collection of tools and utilities to test React Native components. It is built on top of the Testing Library ecosystem, designed to work seamlessly with Jest and other testing frameworks. Its primary goal is to enable efficient and effective testing by providing simple and intuitive APIs that promote best practices, like testing UI components in isolation and promoting accessibility checks.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native Testing Library",
+                                "link": "https://testing-library.com/docs/react-native-testing-library/intro"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "React Native Testing Library (Docs)",
+                                "link": "https://testing-library.com/docs/react-native-testing-library/intro"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Detox",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Detox is an end-to-end testing framework for React Native applications. It enables you to run tests on an actual device or in a simulator/emulator environment. The goal of Detox is to maintain a high level of confidence in your application’s behavior while allowing for quick test runs and easy debugging.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
+                                "name": "Detox Official Docs",
+                                "link": "https://github.com/wix/Detox"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Appium",
+                        "recommendation-type": "opinion",
+                        "description": "Appium is an open-source test automation framework for mobile devices, targeting native, hybrid, or mobile-web apps for iOS, Android, and Windows platforms. Appium works with multiple programming languages, including JavaScript, Ruby, Python, Java, and C#.",
+                        "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Appium Documentation",
+                                "link": "http://appium.io/docs/en/about-appium/intro/"
                             }
                         ]
                     }
@@ -985,32 +876,30 @@
                 "description": "Publishing React Native apps is the process of deploying your application on various app stores so that users can download and use your app. The two most popular app stores for publishing are the Apple App Store (iOS) and the Google Play Store (Android).",
                 "resources": [],
                 "order": 17,
-                "module bundlers": {
-                    "options": [
-                        {
-                            "name": "Publishing React Native Apps on Google Store",
-                            "recommendation-type": "opinion",
-                            "description": "Publishing your React Native app on Google Store consists of several steps.",
-                            "resources": [
-                                {
-                                    "name": "Publishing to Google Play Store",
-                                    "link": "https://reactnative.dev/docs/signed-apk-android"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Publishing Apps in App Store",
-                            "recommendation-type": "opinion",
-                            "description": "The App Store is Apple’s official platform for distributing iOS apps to users with iPhones, iPads, and iPod Touch devices. To publish an app on the App Store, you need to follow specific guidelines and use the necessary tools provided by Apple.",
-                            "resources": [
-                                {
-                                    "name": "Publishing to Apple App Store",
-                                    "link": "https://reactnative.dev/docs/publishing-to-app-stored"
-                                }
-                            ]
-                        }
-                    ]
-                }
+                "options": [
+                    {
+                        "name": "Publishing React Native Apps on Google Store",
+                        "recommendation-type": "opinion",
+                        "description": "Publishing your React Native app on Google Store consists of several steps.",
+                        "resources": [
+                            {
+                                "name": "Publishing to Google Play Store",
+                                "link": "https://reactnative.dev/docs/signed-apk-android"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Publishing Apps in App Store",
+                        "recommendation-type": "opinion",
+                        "description": "The App Store is Apple’s official platform for distributing iOS apps to users with iPhones, iPads, and iPod Touch devices. To publish an app on the App Store, you need to follow specific guidelines and use the necessary tools provided by Apple.",
+                        "resources": [
+                            {
+                                "name": "Publishing to Apple App Store",
+                                "link": "https://reactnative.dev/docs/publishing-to-app-stored"
+                            }
+                        ]
+                    }
+                ]
             }
         }
     }

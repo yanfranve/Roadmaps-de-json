@@ -1,6 +1,7 @@
 {
     "Skill": {
         "Spring Boot ": {
+            "description": " Step by step guide to becoming a Spring Boot developer in 2023",
             "Spring Core": {
                 "description": "Learn more about Spring Core, the heart of the Spring framework, and its features for dependency injection, validation, type conversion, and messaging.",
                 "resources": [
@@ -931,112 +932,6 @@
                             {
                                 "name": "Annotation Interface MockBean",
                                 "link": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/mock/mockito/MockBean.html"
-                            }
-                        ]
-                    }
-                ]
-            },
-            "LL": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "M": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "N": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "Ñ": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "O": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "P": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "Q": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "R": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "S": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "T": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "U": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "V": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            " ": {
-                "description": " ",
-                "resources": [
-                    {
-                        "name": "",
-                        "link": ""
-                    }
-                ],
-                "order": 1,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": []
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
                             }
                         ]
                     }

@@ -1,6 +1,7 @@
 {
     "Skill": {
         "Angular": {
+            "description": "Everything that is there to learn about Angular and the ecosystem in 2023. ",
             "Learn Typescript Basics": {
                 "description": "TypeScript extends JavaScript, providing a better developer experience. The benefits of using TypeScript over JavaScript include static typing, object-oriented programming, compile-time checks, code editor support, and the ability to use existing packages.",
                 "resources": [

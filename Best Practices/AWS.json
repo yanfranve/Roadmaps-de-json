@@ -1,6 +1,7 @@
 {
     "Best": {
         "AWS": {
+            "description": " Detailed list of best practices for Amazon Web Services (AWS)",
             "Development": {
                 "order": 1,
                 "options": [
@@ -8,41 +9,25 @@
                         "name": "Application State",
                         "recommendation-type": "opinion",
                         "description": "Do not store application state on servers\nThe reason for this is so that if you server gets killed, you won’t lose any application state. To that end, sessions should be stored in a database (or some other sort of central storage; memcached, redis, etc.), not on the local filesystem. Examples:\nLogs should be handled via syslog (or similar) and sent to a remote store.\nUploads should go direct to S3 (don’t store on local filesystem and have another process move to S3 for example). For S3 you can use pre-signed URLs to let your users directly upload to S3 by bypassing your server entirely.\nAny post-processing or long running tasks should be done via an asynchronous queue (SQS is great for this).",
-                        "resources": [
-                           
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Logs Information",
                         "recommendation-type": "opinion",
                         "description": "Store extra information in your logs.\nLog lines normally have information like timestamp, pid, etc. You’ll also probably want to add instance-id, region, availability-zone and environment (staging, production, etc), as these will help debugging considerably. You can get this information from the instance metadata service. The method I use is to grab this information as part of my bootstrap scripts, and store it in files on the filesystem (/env/az, /env/region, etc). This way I’m not constantly querying the metadata service for the information. You should make sure this\ninformation gets updated properly when your instances reboot, as you don’t want to save an AMI and have the same data persist, as it will then be incorrect.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                            
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Use Official SDKs",
                         "recommendation-type": "opinion",
                         "description": "If you need to interact with AWS, use the SDK for your language.\nDon’t try to roll your own, I did this at first as I only needed a simple upload to S3, but then you add more services and it’s just an all around bad idea. The AWS SDKs are well written, handle authentication automatically, handle retry logic, and they’re maintained and iterated on by Amazon. Also, if you use EC2 IAM roles (which you absolutely should, more on this later) then the SDK will automatically grab the correct credentials for you.",
-                        "resources": [
-                           
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Tools for Logs",
                         "recommendation-type": "opinion",
                         "description": "Have tools to view application logs.\nYou should have an admin tool, syslog viewer, or something that allows you to view current real-time log info without needing to SSH into a running instance. If you have centralised logging (which you really should), then you just want to be sure you can read the logs there without needing to use SSH. Needing to SSH into a running application instance to view logs is going to become problematic.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                            
-                        ]
+                        "resources": []
                     }
                 ]
             },
@@ -53,64 +38,38 @@
                         "name": "Disable SSH Access",
                         "recommendation-type": "opinion",
                         "description": "Disable SSH access to all servers\nThis sounds crazy, I know, but port 22 should be disallowed for everyone in your security group. If there’s one thing you take away from this post, this should be it: If you have to SSH into your servers, then your automation has failed. Disabling it at the firewall level (rather than on the servers themselves) will help the transition to this frame of thinking, as it will highlight any areas you need to automate, while still letting you easily re-instate access to solve immediate issues. It’s incredibly freeing to know that you never need to SSH into an instance. This is both the most frightening and yet most useful thing I’ve learned.\nDisabling inbound SSH has just been a way for me to stop myself cheating with automation (Oh, I’ll just SSH in and fix this one thing). I can still re-enable it in the security group if I need to actively debug something on an instance, since sometimes there really is no other way to debug certain issues. It also depends on your application; If your application relies on you being able to push things to a server via SSH, then disabling it might be a bad idea. Blocking inbound SSH worked for me, and forced me to get my automation into a decent state, but it might not be for everyone.",
-                        "resources": [
-                           
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Service Over Servers",
                         "recommendation-type": "opinion",
                         "description": "Servers are ephemeral, you don’t care about them. You only care about the service as a whole.\nIf a single server dies, it should be of no big concern to you. This is where the real benefit of AWS comes in compared to using physical servers yourself. Normally if a physical server dies, there’s panic. With AWS, you don’t care, because auto-scaling will give you a fresh new instance soon anyway. Netflix have taken this several steps further with their simian army, where they have things like Chaos Monkey, which will kill random instances in production (they also have Chaos Gorilla to kill AZs and I’ve heard rumour of a Chaos Kong to kill regions…). The point is that servers will fail, but this shouldn’t matter in your application.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                            
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Avoid Server EIPs",
                         "recommendation-type": "opinion",
                         "description": "Don’t give servers static/elastic IPs.\nFor a typical web application, you should put things behind a load balancer, and balance them between AZs. There are a few cases where Elastic IPs will probably need to be used, but in order to make best use of auto-scaling you’ll want to use a load balancer instead of giving every instance their own unique IP.",
-                        "resources": [
-                           
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Automate Everything",
                         "recommendation-type": "opinion",
                         "description": "This is more of general operations advice than AWS specific, but everything needs to be automated. Recovery, deployment, failover, etc. Package and OS updates should be managed by something, whether it’s just a bash script, or Chef/Puppet, etc. You shouldn’t have to care about this stuff. As mentioned in a different tip, you should also make sure to disable SSH access, as this will pretty quickly highlight any part of your process that isn’t automated.\nRemember the key phrase from the earlier tip, if you have to SSH into your servers, then your automation has failed.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                            
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Use IAM Acounts",
                         "recommendation-type": "opinion",
                         "description": "Everyone gets an IAM account. Never login to the master.\nUsually you’ll have an “operations account” for a service, and your entire ops team will have the password. With AWS, you definitely don’t want to do that. Everyone gets an IAM user with just the permissions they need (least privilege). An IAM user can control everything in the infrastructure. At the time of writing, the only thing an IAM user can’t access are some parts of the billing pages.\nIf you want to protect your account even more, make sure to enable multi-factor authentication for everyone (you can use Google Authenticator). I’ve heard of some users who give the MFA token to two people, and the password to two others, so to perform any action on the master account, two of the users need to agree. This is overkill for my case, but worth mentioning in case someone else wants to do it.",
-                        "resources": [
-                           
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Alerts as Notifications",
                         "recommendation-type": "opinion",
                         "description": "Get your alerts to become notifications.\nIf you’ve set everything up correctly, your health checks should automatically destroy bad instances and spawn new ones. There’s usually no action to take when getting a CloudWatch alert, as everything should be automated. If you’re getting alerts where manual intervention is required, do a post-mortem and figure out if there’s a way you can automate the action in future. The last time I had an actionable alert from CloudWatch was about a year ago, and it’s extremely awesome not to be woken up at 4am for ops alerts any more.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                            
-                        ]
+                        "resources": []
                     }
-
-
                 ]
             },
             "Billing": {
@@ -120,12 +79,7 @@
                         "name": "Billing Alerts",
                         "recommendation-type": "opinion",
                         "description": "Set up granular billing alerts.\nYou should always have at least one billing alert set up, but that will only tell you on a monthly basis once you’ve exceeded your allowance. If you want to catch runaway billing early, you need a more fine grained\napproach. The way I do it is to set up an alert for my expected usage each week. So the first week’s alert for say $1,000, the second for $2,000, third for $3,000, etc. If the week-2 alarm goes off before the 14th/15th of the month, then I know something is probably going wrong. For even more fine-grained control, you can set this up for each individual service, that way you instantly know which service is causing the problem. This could be useful if your usage on one service is quite steady month-to-month, but another is more erratic. Have the individual weekly alerts for the steady one, but just an overall one for the more erratic one. If everything is steady, then this is probably overkill, as looking at CloudWatch will quickly tell you which service is the one causing the problem.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     }
                 ]
             },
@@ -142,12 +96,7 @@
                         "name": "Avoid FS Mounts",
                         "recommendation-type": "opinion",
                         "description": "Avoid filesystem mounts (FUSE, etc).\nI’ve found them to be about as reliable as a large government department when used in critical applications. Use the SDK instead.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Cloudfront and S3",
@@ -159,12 +108,7 @@
                         "name": "S3 Keys",
                         "recommendation-type": "opinion",
                         "description": "Use random strings at the start of your keys\nThis seems like a strange idea, but one of the implementation details of S3 is that Amazon use the object key to determine where a file is physically placed in S3. So files with the same prefix might end up on the same hard disk for example. By randomising your key prefixes, you end up with a better distribution of your object files. (Source: S3 Performance Tips & Tricks)",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     }
                 ]
             },
@@ -181,12 +125,7 @@
                         "name": "Group Permissions",
                         "recommendation-type": "opinion",
                         "description": "Assign permissions to groups, not users.\nManaging users can be a pain, if you’re using Active Directory, or some other external authentication mechanism which you’ve integrated with IAM, then this probably won’t matter as much (or maybe it matters more). But I’ve found it much easier to manage permissions by assigning them only to groups, rather than to individual users. It’s much easier to rein in permissions and get an overall view of the system than going through each individual user to see what permissions have been assigned.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Security Audit",
@@ -198,12 +137,7 @@
                         "name": "CloudTrail",
                         "recommendation-type": "opinion",
                         "description": "Use CloudTrail to keep an audit log.\nCloudTrail will log any action performed via the APIs or web console into an S3 bucket. Set up the bucket with versioning to be sure no one can modify your logs, and you then have a complete audit trail of all changes in your account. You hope that you will never need to use this, but it’s well worth having for when you do.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     }
                 ]
             },
@@ -220,12 +154,7 @@
                         "name": "Pre-Warm ELB",
                         "recommendation-type": "opinion",
                         "description": "Pre-warm your ELBs if you’re expecting heavy traffic.\nIt takes time for your ELB to scale up capacity. If you know you’re going to have a large traffic spike (selling tickets, big event, etc), you need to “warm up” your ELB in advance. You can inject a load of traffic, and it will cause ELB to scale up and not choke when you actually get the traffic, however AWS suggest you contact them instead to prewarm your load balancer. (Source: Best Practices in Evaluating Elastic Load Balancing). Alternatively you can install your own load balancer software on an EC2 instance and use that instead (HAProxy, etc).",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     }
                 ]
             },
@@ -242,12 +171,7 @@
                         "name": "Termination Protection",
                         "recommendation-type": "opinion",
                         "description": "Use termination protection for non-auto-scaling instances.\nIf you have any instances which are one-off things that aren’t under auto-scaling, then you should probably enable termination protection, to stop anyone from accidentally deleting the instance. I’ve had it happen, it sucks, learn from my mistake!",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Use VPC",
@@ -259,12 +183,7 @@
                         "name": "Reserved Instances",
                         "recommendation-type": "opinion",
                         "description": "Use reserved instances to save big $$$.\nReserving an instance is just putting some money upfront in order to get a lower hourly rate. It ends up being a lot cheaper than an on-demand instance would cost. So if you know you’re going to be keeping an instance around for 1 or 3 years, it’s well worth reserving them. Reserved instances are a purely logical concept in AWS, you don’t assign a specific instance to be reserved, but rather just specify the type and size, and any instances that match the criteria will get the lower price.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Lock Security Groups",
@@ -276,12 +195,7 @@
                         "name": "Release EIPs",
                         "recommendation-type": "opinion",
                         "description": "Don’t keep unassociated Elastic IPs.\nYou get charged for any Elastic IPs you have created but not associated with an instance, so make sure you don’t keep them around once you’re done with them.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     }
                 ]
             },
@@ -309,12 +223,7 @@
                         "name": "Free Metrics",
                         "recommendation-type": "opinion",
                         "description": "Use the free metrics.\nCloudWatch monitors all sorts of things for free (bandwidth, CPU usage, etc.), and you get up to 2 weeks of historical data. This saves you having to use your own tools to monitor you systems. If you need longer than 2 weeks, unfortunately you’ll need to use a third-party or custom built monitoring solution.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Custom Metrics",
@@ -326,12 +235,7 @@
                         "name": "Detailed Monitoring",
                         "recommendation-type": "opinion",
                         "description": "Use detailed monitoring.\nIt’s ~$3.50 per instance/month, and well worth the extra cost for the extra detail. 1 minute granularity is much better than 5 minute. You can have cases where a problem is hidden in the 5 minute breakdown, but shows itself quite clearly in the 1 minute graphs. This may not be useful for everyone, but it’s made investigating some issues much easier for me.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     }
                 ]
             },
@@ -342,12 +246,7 @@
                         "name": "Configuration Endpoints",
                         "recommendation-type": "opinion",
                         "description": "Use the configuration endpoints, instead of individual node endpoints.\nNormally you would have to make your application aware of every Memcached node available. If you want to dynamically scale up your capacity, then this becomes an issue as you will need to have some way to make your application aware of the changes. An easier way is to use the configuration endpoint, which means using an AWS version of a Memcached library that abstracts away the auto-discovery of new nodes. The AWS guide to cache node auto-discovery has more information.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     }
                 ]
             },
@@ -364,12 +263,7 @@
                         "name": "Multiple API Keys",
                         "recommendation-type": "opinion",
                         "description": "Users can have multiple API keys.\nThis can be useful if someone is working on multiple projects, or if you want a one-time key just to test something out, without wanting to worry about accidentally revealing your normal key.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Multi-factor Auth",
@@ -392,12 +286,7 @@
                         "name": "ELB Healthchecks",
                         "recommendation-type": "opinion",
                         "description": "Use ELB health check instead of EC2 health checks.\nThis is a configuration option when creating your scaling group, you can specify whether to use the standard EC2 checks (is the instance connected to the network), or to use your ELB health check. The ELB health check offers way more flexibility. If your health check fails and the instance gets taken out of the load balancing pool, you’re pretty much always going to want to have that instance killed by auto-scaling and a fresh one take it’s place. If you don’t set up your scaling group to use the ELB checks, then that won’t necessarily happen. The AWS documentation on adding the health check has all the information you need to set this up.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Configured AZs",
@@ -409,12 +298,7 @@
                         "name": "Multiple Scaling Triggers",
                         "recommendation-type": "opinion",
                         "description": "Don’t use multiple scaling triggers on the same group.\nIf you have multiple CloudWatch alarms which trigger scaling actions for the same auto-scaling group, it might not work as you initially expect it to. For example, let’s say you add a trigger to scale up when CPU usage gets too high, or when the inbound network traffic gets high, and your scale down actions are the opposite. You might get an increase in CPU usage, but your inbound network is fine. So the high CPU trigger causes a scale-up action, but the low inbound traffic alarm immediately triggers a scale-down action. Depending on how you’ve set your cooldown period, this can cause quite a problem as they’ll just fight against each other. If you want multiple triggers, you can use multiple auto-scaling groups.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     }
                 ]
             },
@@ -431,12 +315,7 @@
                         "name": "App Changes for AWS",
                         "recommendation-type": "opinion",
                         "description": "While a lot of applications can probably just be deployed to an EC2 instance and work well, if you’re coming from a physical environment, you may need to re-architect your application in order to accommodate changes. Don’t just think you can copy the files over and be done with it.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Redundant Across AZs",
@@ -448,12 +327,7 @@
                         "name": "Beware AWS Limits",
                         "recommendation-type": "opinion",
                         "description": "Be aware of AWS service limits before you deploy\nVarious service limits are enforced which aren’t highlighted until you’re actually trying to deploy your application and get the error notification. These limits can easily be increased by making a request to AWS support, however that can involve a significant turn around time (as low as a few minutes, up to a few days, based on past experience), during which you won’t be able to finish deploying. A few days before deploying, you should consult the service limits page to see if you think you’re going to exceed any of them, and make your support request ahead of time. You will need to make a separate request to each department where you need a limit increased. It’s also worth pointing out that some limits are global, while others are per-region.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Naming Convention",
@@ -465,12 +339,7 @@
                         "name": "Key Management Strategy",
                         "recommendation-type": "opinion",
                         "description": "Decide on a key-management strategy from the start.\nAre you going to have one key-pair per group of instances, or are you going to have one key-pair you use for your entire account? It’s easy to modify your authorized-keys file with a bootstrap script of course, but you need to decide if you want to manage multiple key-pairs or not, as things will get complicated later on if you try to change your mind.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "AWS Right Choice",
@@ -487,12 +356,7 @@
                         "name": "ALIAS Records",
                         "recommendation-type": "opinion",
                         "description": "Use ALIAS records.\nAn ALIAS record will link your record set to a particular AWS resource directly (i.e. you can map a domain to an S3 bucket), but the key is that you don’t get charged for any ALIAS lookups. So whereas a CNAME entry would cost you money, an ALIAS record won’t. Also, unlike a CNAME, you can use an ALIAS on your zone apex. You can read more about this on the AWS page for creating alias resource record sets.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     }
                 ]
             },
@@ -503,12 +367,7 @@
                         "name": "Hive Results",
                         "recommendation-type": "opinion",
                         "description": "Specify a directory on S3 for Hive results.\nIf you use Hive to output results to S3, you must specify a directory in the bucket, not the root of the bucket, otherwise you’ll get a rather unhelpful NullPointerException with no real explanation as to why.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     }
                 ]
             }
