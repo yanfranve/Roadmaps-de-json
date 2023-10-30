@@ -1,6 +1,7 @@
 {
     "Skill": {
         "Go Developer": {
+            "description": "Step by step guide to becoming a Go developer in 2023 ",
             "Learn the Basics": {
                 "description": "Learn the common concepts of Go like variables, loops, conditional statements, functions, data types, and so on. A good starting point for Go basics is its official documentation.",
                 "resources": [

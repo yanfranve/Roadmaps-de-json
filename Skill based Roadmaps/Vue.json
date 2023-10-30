@@ -1,6 +1,7 @@
 {
     "Skill": {
         "Vue": {
+            "description": "Everything that is there to learn about Vue and the ecosystem in 2023. ",
             "Fundamental Topics": {
                 "description": "Explore Vue.js, a JavaScript framework for building user interfaces. Learn about its declarative and component-based programming model.",
                 "resources": [

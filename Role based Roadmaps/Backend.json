@@ -1,6 +1,7 @@
 {
     "roles": {
         "Backend": {
+            "description": "Step by step guide to becoming a modern backend developer in 2023 ",
             "Internet": {
                 "description": " The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.\nVisit the following resources to learn more:",
                 "resources": [
@@ -33,7 +34,6 @@
                         "link": "https://www.youtube.com/watch?v=Z_hU2zm4_S8"
                     }
                 ],
-                
                 "order": 1,
                 "options": [
                     {
@@ -202,7 +202,6 @@
             },
             "Learn a Language": {
                 "description": "Even if you’re a beginner the least you would have known is that Web Development is majorly classified into two facets: Frontend Development and Backend Development. And obviously, they both have their respective set of tools and technologies. For instance, when we talk about Frontend Development, there always comes 3 names first and foremost  HTML, CSS, and JavaScript.\nIn the same way, when it comes to Backend Web Development – we primarily require a backend (or you can say server-side) programming language to make the website function along with various other tools & technologies such as databases, frameworks, web servers, etc.\nPick a language from the given list and make sure to learn its quirks, core details about its runtime e.g. concurrency, memory model etc. ",
-               
                 "order": 2,
                 "options": [
                     {
@@ -234,7 +233,6 @@
                                 "name": "Complete Java course",
                                 "link": "https://www.youtube.com/watch?v=xk4_1vdrzzo"
                             }
-                           
                         ]
                     },
                     {
@@ -258,7 +256,6 @@
                                 "name": "C# tutorials",
                                 "link": "https://www.youtube.com/watch?v=gfkTfcpWqAY&list=PLTjRvDozrdlz3_FPXwb6lX_HoGXa09Yef"
                             }
-                           
                         ]
                     },
                     {
@@ -290,7 +287,6 @@
                                 "name": "Full PHP 8 Tutorial - Learn PHP The Right Way In 2022",
                                 "link": "https://www.youtube.com/watch?v=sVbEyFZKgqk&list=PLr3d3QYzkw2xabQRUpcZ_IBk9W50M9pe-"
                             }
-                           
                         ]
                     },
                     {
@@ -389,7 +385,6 @@
                                 "name": "Python for Beginners - Learn Python in 1 Hour",
                                 "link": "https://www.youtube.com/watch?v=kqtD5dpn9C8&ab_channel=ProgrammingwithMosh"
                             }
-                           
                         ]
                     },
                     {
@@ -413,7 +408,6 @@
                                 "name": "Ruby, An Introduction to a Programmer’s Best Friend",
                                 "link": "https://thenewstack.io/ruby-a-programmers-best-friend/"
                             }
-                            
                         ]
                     },
                     {
@@ -480,10 +474,8 @@
                                 "name": "Rust by the Numbers: The Rust Programming Language in 2021",
                                 "link": "https://thenewstack.io/rust-by-the-numbers-the-rust-programming-language-in-2021/"
                             }
-                           
                         ]
                     }
-                    
                 ]
             },
             "Version Control System": {
@@ -497,11 +489,9 @@
                         "name": "What is Version Control?",
                         "link": "https://www.atlassian.com/git/tutorials/what-is-version-control"
                     }
-                   
                 ],
                 "order": 3,
                 "options": [
-                   
                     {
                         "name": "Git",
                         "recommendation-type": "opinion",
@@ -527,7 +517,6 @@
                                 "name": "Git Tutorial",
                                 "link": "https://www.w3schools.com/git/"
                             }
-                            
                         ]
                     },
                     {
@@ -637,7 +626,6 @@
                         "name": "How to choose the best source code repository",
                         "link": "https://bitbucket.org/product/code-repository"
                     }
-                   
                 ],
                 "order": 4,
                 "options": [
@@ -678,7 +666,6 @@
                                 "name": "Learn Git Branching",
                                 "link": "https://learngitbranching.js.org/?locale=en_us"
                             }
-                          
                         ]
                     },
                     {
@@ -694,7 +681,6 @@
                                 "name": "GitLab Documentation",
                                 "link": "https://docs.gitlab.com/"
                             }
-                           
                         ]
                     },
                     {
@@ -726,10 +712,8 @@
                                 "name": "Bitbucket Tutorial | Bitbucket for Beginners",
                                 "link": "https://www.youtube.com/watch?v=i5T-DB8tb4A"
                             }
-                           
                         ]
                     }
-                   
                 ]
             },
             " OS and General Knowledge": {
@@ -751,7 +735,6 @@
                         "name": "Introduction to Operating System",
                         "link": "https://www.youtube.com/watch?v=vBURTt97EkA&list=PL9hkZBQk8d1zEGbY7ShWCZ2n1gtxqkRrS&index=1"
                     }
-                    
                 ],
                 "order": 5,
                 "options": [
@@ -772,7 +755,6 @@
                                 "name": "A guide to POSIX",
                                 "link": "https://www.baeldung.com/linux/posix"
                             }
-                            
                         ]
                     },
                     {
@@ -792,7 +774,6 @@
                                 "name": "50+ Linux Commands You Must Know",
                                 "link": "https://www.digitalocean.com/community/tutorials/linux-commands"
                             }
-                           
                         ]
                     },
                     {
@@ -824,7 +805,6 @@
                                 "name": "The 50 Most Popular Linux & Terminal Commands (with timestamps)",
                                 "link": "https://www.youtube.com/watch?v=ZtqBQ68cfJc"
                             }
-                            
                         ]
                     },
                     {
@@ -844,7 +824,6 @@
                                 "name": "Operating System Basics",
                                 "link": "https://www.youtube.com/watch?v=9GDX-IyZ_C8"
                             }
-                           
                         ]
                     },
                     {
@@ -864,7 +843,6 @@
                                 "name": "Memory Management in Operating System",
                                 "link": "https://www.geeksforgeeks.org/memory-management-in-operating-system/"
                             }
-                           
                         ]
                     },
                     {
@@ -880,7 +858,6 @@
                                 "name": "Interprocess Communication - Neso Academy",
                                 "link": "https://www.youtube.com/watch?v=dJuYKfR8vec"
                             }
-                            
                         ]
                     },
                     {
@@ -900,7 +877,6 @@
                                 "name": "Basics of OS (I/O Structure)",
                                 "link": "https://www.youtube.com/watch?v=F18RiREDkwE"
                             }
-                           
                         ]
                     },
                     {
@@ -912,7 +888,6 @@
                                 "name": "What is Computer Networking?",
                                 "link": "https://aws.amazon.com/what-is/computer-networking/"
                             }
-                            
                         ]
                     },
                     {
@@ -940,7 +915,6 @@
                                 "name": "Concurrency, Threading and Parallelism Explained",
                                 "link": "https://www.youtube.com/watch?v=olYdb0DdGtM"
                             }
-                           
                         ]
                     },
                     {
@@ -956,10 +930,8 @@
                                 "name": "Process Management in OS: PCB in Operating System",
                                 "link": "https://www.guru99.com/process-management-pcb.html"
                             }
-                           
                         ]
                     }
-                   
                 ]
             },
             "Relational Databases": {
@@ -985,7 +957,6 @@
                         "name": "What is Relational Database",
                         "link": "https://youtu.be/OqjJjpjDRLc"
                     }
-                   
                 ],
                 "order": 6,
                 "options": [
@@ -1018,7 +989,6 @@
                                 "name": "Postgres tutorial for Beginners",
                                 "link": "https://www.youtube.com/watch?v=eMIxuk0nOkU"
                             }
-                           
                         ]
                     },
                     {
@@ -1046,7 +1016,6 @@
                                 "name": "MySQL Tutorial",
                                 "link": "https://www.mysqltutorial.org/"
                             }
-                          
                         ]
                     },
                     {
@@ -1070,7 +1039,6 @@
                                 "name": "MariaDB Tutorial For Beginners in One Hour",
                                 "link": "https://www.youtube.com/watch?v=_AMj02sANpI"
                             }
-                          
                         ]
                     },
                     {
@@ -1090,7 +1058,6 @@
                                 "name": "SQL Server tutorial for beginners",
                                 "link": "https://www.youtube.com/watch?v=-EPMOaV7h_Q"
                             }
-                           
                         ]
                     },
                     {
@@ -1110,7 +1077,6 @@
                                 "name": "Oracle SQL Tutorial for Beginners",
                                 "link": "https://www.youtube.com/watch?v=ObbNGhcxXJA"
                             }
-                           
                         ]
                     }
                 ]
@@ -1130,10 +1096,8 @@
                         "name": "SQL vs NoSQL Explained",
                         "link": "https://www.youtube.com/watch?v=ruz-vK8IesE"
                     }
-                   
                 ],
                 "Documento Database": [
-                    
                     {
                         "name": "MongoDB",
                         "recommendation-type": "opinion",
@@ -1166,14 +1130,6 @@
                             {
                                 "name": "Official Developers Guide",
                                 "link": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html"
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
                             }
                         ]
                     },
@@ -1210,11 +1166,8 @@
                                 "name": "Official Developers Guide",
                                 "link": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html"
                             }
-                          
                         ]
                     }
-                   
-
                 ],
                 "Time Series": [
                     {
@@ -1230,7 +1183,6 @@
                                 "name": "Time series database",
                                 "link": "https://www.influxdata.com/time-series-database/"
                             }
-                            
                         ]
                     },
                     {
@@ -1246,12 +1198,8 @@
                                 "name": "Time series database",
                                 "link": "https://www.influxdata.com/time-series-database/"
                             }
-                           
-                          
                         ]
                     }
-                   
-
                 ],
                 "Realtime": [
                     {
@@ -1263,24 +1211,14 @@
                                 "name": "",
                                 "link": ""
                             }
-                         
                         ]
                     },
                     {
                         "name": "Realtime databases",
                         "recommendation-type": "opinion",
                         "description": "A real-time database is broadly defined as a data store designed to collect, process, and/or enrich an incoming series of data points (i.e., a data stream) in real time, typically immediately after the data is created.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                           
-                          
-                        ]
+                        "resources": []
                     }
-                   
-
                 ],
                 "Column DBs": [
                     {
@@ -1296,7 +1234,6 @@
                                 "name": "Apache Cassandra Database - Full Course for Beginners",
                                 "link": "https://www.youtube.com/watch?v=J-cSy5MeMOA"
                             }
-                            
                         ]
                     },
                     {
@@ -1312,12 +1249,8 @@
                                 "name": "Apache Cassandra Database - Full Course for Beginners",
                                 "link": "https://wwwhttps://www.youtube.com/watch?v=J-cSy5MeMOA.mongodb.com/"
                             }
-                            
-                          
                         ]
                     }
-                   
-
                 ],
                 "Key-Value": [
                     {
@@ -1329,7 +1262,6 @@
                                 "name": "Key-Value Databases - Wikipedia",
                                 "link": "https://en.wikipedia.org/wiki/Key-value_database"
                             }
-                            
                         ]
                     },
                     {
@@ -1341,12 +1273,8 @@
                                 "name": "Key-Value Databases - Wikipedia",
                                 "link": "https://en.wikipedia.org/wiki/Key-value_database"
                             }
-                          
-                          
                         ]
                     }
-                   
-
                 ],
                 "Graph DBs": [
                     {
@@ -1362,189 +1290,11 @@
                                 "name": "Graph Databases VS Relational Databases",
                                 "link": "https://www.freecodecamp.org/news/graph-database-vs-relational-database/"
                             }
-                            
                         ]
                     }
-                    
-                   
-
                 ],
-               
                 "order": 7,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
+                "options": []
             },
             "More About Databases": {
                 "description": "A database is a collection of useful data of one or more related organizations structured in a way to make data an asset to the organization. A database management system is a software designed to assist in maintaining and extracting large collections of data in a timely fashion.\nVisit the following resources to learn more: ",
@@ -1557,7 +1307,6 @@
                         "name": "Prisma.io: What are Databases?",
                         "link": "https://www.prisma.io/dataguide/intro/what-are-databases"
                     }
-                    
                 ],
                 "order": 8,
                 "options": [
@@ -1565,25 +1314,13 @@
                         "name": "Profiling Performance",
                         "recommendation-type": "opinion",
                         "description": "There are several ways to profile the performance of a database:\nMonitor system performance: You can use tools like the Windows Task Manager or the Unix/Linux top command to monitor the performance of your database server. These tools allow you to see the overall CPU, memory, and disk usage of the system, which can help identify any resource bottlenecks.\nUse database-specific tools: Most database management systems (DBMSs) have their own tools for monitoring performance. For example, Microsoft SQL Server has the SQL Server Management Studio (SSMS) and the sys.dm_os_wait_stats dynamic management view, while Oracle has the Oracle Enterprise Manager and the v$waitstat view. These tools allow you to see specific performance metrics, such as the amount of time spent waiting on locks or the number of physical reads and writes.\nUse third-party tools: There are also several third-party tools that can help you profile the performance of a database. Some examples include SolarWinds Database Performance Analyzer, Quest Software Foglight, and Redgate SQL Monitor. These tools often provide more in-depth performance analysis and can help you identify specific issues or bottlenecks.\nAnalyze slow queries: If you have specific queries that are running slowly, you can use tools like EXPLAIN PLAN or SHOW PLAN in MySQL or SQL Server to see the execution plan for the query and identify any potential issues. You can also use tools like the MySQL slow query log or the SQL Server Profiler to capture slow queries and analyze them further.\nMonitor application performance: If you are experiencing performance issues with a specific application that is using the database, you can use tools like Application Insights or New Relic to monitor the performance of the application and identify any issues that may be related to the database.\nHave a look at the documentation for the database that you are using.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                            
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Failure Modes",
                         "recommendation-type": "opinion",
                         "description": "There are several different failure modes that can occur in a database, including:\nRead contention: This occurs when multiple clients or processes are trying to read data from the same location in the database at the same time, which can lead to delays or errors.\nWrite contention: This occurs when multiple clients or processes are trying to write data to the same location in the database at the same time, which can lead to delays or errors.\nThundering herd: This occurs when a large number of clients or processes try to access the same resource simultaneously, which can lead to resource exhaustion and reduced performance.\nCascade: This occurs when a failure in one part of the database system causes a chain reaction that leads to failures in other parts of the system.\nDeadlock: This occurs when two or more transactions are waiting for each other to release a lock on a resource, leading to a standstill.\nCorruption: This occurs when data in the database becomes corrupted, which can lead to errors or unexpected results when reading or writing to the database.\nHardware failure: This occurs when hardware components, such as disk drives or memory, fail, which can lead to data loss or corruption.\nSoftware failure: This occurs when software components, such as the database management system or application, fail, which can lead to errors or unexpected results.\nNetwork failure: This occurs when the network connection between the database and the client is lost, which can lead to errors or timeouts when trying to access the database.\nDenial of service (DoS) attack: This occurs when a malicious actor attempts to overwhelm the database with requests, leading to resource exhaustion and reduced performance.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                           
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Normalization",
@@ -1606,7 +1343,6 @@
                                 "name": "Basic Concept of Database Normalization",
                                 "link": "https://www.youtube.com/watch?v=xoTyrdT9SZI"
                             }
-                            
                         ]
                     },
                     {
@@ -1618,7 +1354,6 @@
                                 "name": "In Detail Explanation of N+1 Problem",
                                 "link": "https://medium.com/doctolib/understanding-and-fixing-n-1-query-30623109fe89"
                             }
-                           
                         ]
                     },
                     {
@@ -1630,7 +1365,6 @@
                                 "name": "What are Transactions?",
                                 "link": "https://fauna.com/blog/database-transaction"
                             }
-                            
                         ]
                     },
                     {
@@ -1650,7 +1384,6 @@
                                 "name": "ACID Explained: Atomic, Consistent, Isolated & Durable",
                                 "link": "https://www.youtube.com/watch?v=yaQ5YMWkxq4"
                             }
-                           
                         ]
                     },
                     {
@@ -1670,7 +1403,6 @@
                                 "name": "What is an ORM, how does it work, and how should I use one?",
                                 "link": "https://stackoverflow.com/a/1279678"
                             }
-                           
                         ]
                     }
                 ]
@@ -1686,7 +1418,6 @@
                         "name": "Prisma.io: What are Databases?",
                         "link": "https://www.prisma.io/dataguide/intro/what-are-databases"
                     }
-                  
                 ],
                 "order": 9,
                 "options": [
@@ -1703,7 +1434,6 @@
                                 "name": "Database Indexing Explained",
                                 "link": "https://www.youtube.com/watch?v=-qNSXK7s7_w"
                             }
-                           
                         ]
                     },
                     {
@@ -1715,7 +1445,6 @@
                                 "name": "What is Data Replication?",
                                 "link": "https://youtu.be/fUrKt-AQYtE"
                             }
-                           
                         ]
                     },
                     {
@@ -1735,7 +1464,6 @@
                                 "name": "How sharding a database can make it faster",
                                 "link": "https://stackoverflow.blog/2022/03/14/how-sharding-a-database-can-make-it-faster/"
                             }
-                           
                         ]
                     },
                     {
@@ -1763,7 +1491,6 @@
                                 "name": "What is CAP Theorem?",
                                 "link": "https://www.youtube.com/watch?v=_RbsFXWRZ10"
                             }
-                          
                         ]
                     }
                 ]
@@ -1779,8 +1506,6 @@
                         "name": "What is an API?",
                         "link": "https://www.youtube.com/watch?v=s7wmiS2mSXY"
                     }
-                   
-                   
                 ],
                 "order": 10,
                 "options": [
@@ -1811,7 +1536,6 @@
                             }
                         ]
                     },
-                    
                     {
                         "name": "JSON APIs",
                         "recommendation-type": "opinion",
@@ -1874,7 +1598,6 @@
                                 "name": "GraphQL Official Website",
                                 "link": "https://graphql.org/"
                             }
-                            
                         ]
                     },
                     {
@@ -1886,10 +1609,8 @@
                                 "name": "Oktane17: Designing Beautiful REST + JSON APIs (3:56 - 5:57)",
                                 "link": "https://youtu.be/MiOSzpfP1Ww?t=236"
                             }
-                         
                         ]
                     },
-                  
                     {
                         "name": "OpenAPI Specification",
                         "recommendation-type": "not strict",
@@ -1917,7 +1638,6 @@
                             }
                         ]
                     },
-                    
                     {
                         "name": "Authentication",
                         "recommendation-type": "opinion",
@@ -1955,7 +1675,6 @@
                                 "name": "Basic Authentication",
                                 "link": "https://roadmap.sh/guides/basic-authentication"
                             }
-                          
                         ],
                         "options": [
                             {
@@ -1967,7 +1686,6 @@
                                         "name": "How does cookie based authentication work?",
                                         "link": "https://stackoverflow.com/questions/17769011/how-does-cookie-based-authentication-work"
                                     }
-                                  
                                 ]
                             },
                             {
@@ -1991,7 +1709,6 @@
                                         "name": "OAuth 2.0: An Overview",
                                         "link": "https://www.youtube.com/watch?v=CPbvxxslDTU"
                                     }
-                                   
                                 ]
                             },
                             {
@@ -2007,7 +1724,6 @@
                                         "name": "Illustrated HTTP Basic Authentication",
                                         "link": "https://www.youtube.com/watch?v=mwccHwUn7Gc"
                                     }
-                                    
                                 ]
                             },
                             {
@@ -2021,7 +1737,6 @@
                                     }
                                 ]
                             },
-                            
                             {
                                 "name": "JWT",
                                 "recommendation-type": "opinion",
@@ -2047,7 +1762,6 @@
                                         "name": "What is JWT? JSON Web Token Explained",
                                         "link": "https://www.youtube.com/watch?v=926mknSW9Lo"
                                     }
-                                   
                                 ]
                             },
                             {
@@ -2079,15 +1793,8 @@
                                         "name": "Security Assertion Markup Language (SAML)",
                                         "recommendation-type": "not strict",
                                         "description": "SAML stands for Security Assertion Markup Language. It is an XML-based standard for exchanging authentication and authorization data between parties, particularly between an identity provider (IdP) and a service provider (SP). In a SAML-based system, a user requests access to a protected resource. The service provider asks the identity provider to authenticate the user and assert whether they are granted access to the resource.\n\nBenefits of SAML\nSome advantages of using SAML include:\n\n- Single Sign-On (SSO): Users can log in once at the IdP and access multiple service providers without needing to authenticate again.\n- Improved security: Passwords and user credentials are not required to be stored and managed by the service provider, reducing the potential vectors for attack.\n- Increased efficiency: As users no longer need to maintain multiple sets of credentials, managing access becomes easier for both the user and the system administrators.\n- Interoperability: SAML enables a wide range of applications to work together, regardless of the underlying technology or platform.\n\nSAML Components\nThree main components are involved in the SAML architecture:\n\n- Identity Provider (IdP): The entity that manages users’ identities and authenticates them by providing security tokens, also called assertions.\n- Service Provider (SP): The entity that provides a service (such as a web application or API) and relies on the identity provider to authenticate users and grant/deny access to the resources.\n- User/Principal: The end user seeking access to the service provided by the service provider.\n\nSAML Workflow\nThe SAML authentication process consists of the following steps:\n\n1. The user requests access to a protected resource from the service provider.\n2. If the user is not already authenticated, the service provider generates and sends a SAML authentication request to the identity provider.\n3. The identity provider authenticates the user (using, e.g., a username and password, multi-factor authentication, or another method).\n4. The identity provider constructs a SAML response, which includes details about the user and asserts whether the user is authorized to access the requested resource.\n5. The SAML response is sent back to the service provider, typically via the user’s web browser or API client.\n6. The service provider processes the SAML response, extracts the necessary information, and grants or denies access to the user based on the identity provider’s assertion.\n\nWith SAML, you can streamline user authentication and authorization across various applications and systems, providing a better user experience and improving your overall backend security.",
-                                        "resources": [
-                                            {
-                                                "name": "",
-                                                "link": ""
-                                            }
-                                        ]
+                                        "resources": []
                                     }
-                                    
-                                   
                                 ]
                             }
                         ]
@@ -2139,15 +1846,7 @@
             },
             "Caching": {
                 "description": " Caching is a technique of storing frequently used data or information in a local memory, for a certain time period. So, next time, when the client requests the same information, instead of retrieving the information from the database, it will give the information from the local memory. The main advantage of caching is that it improves the performance by reducing the processing burden.",
-                "resources": [
-                    {
-                        "name": "",
-                        "link": ""
-                    }
-                   
-                   
-                ],
-              
+                "resources": [],
                 "order": 11,
                 "options": [
                     {
@@ -2159,10 +1858,8 @@
                                 "name": "Everything you need to know about HTTP Caching",
                                 "link": "https://www.youtube.com/watch?v=HiBDZgTNpXY"
                             }
-                          
                         ]
                     },
-                    
                     {
                         "name": "CDN",
                         "recommendation-type": "opinion",
@@ -2184,110 +1881,20 @@
                                 "name": "What is a Content Delivery Network (CDN)?",
                                 "link": "https://www.youtube.com/watch?v=Bsq5cKkS33I"
                             }
-                           
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
                         ]
                     }
                 ],
-                "Server Side":{
+                "Server Side": {
                     "description": "Server-side caching temporarily stores web files and data on the origin server to reuse later.\nWhen the user first requests for the webpage, the website goes under the normal process of retrieving data from the server and generates or constructs the webpage of the website. After the request has happened and the response has been sent back, the server copies the webpage and stores it as a cache.\nNext time the user revisits the website, it loads the already saved or cached copy of the webpage, thus making it faster.\nVisit the following resources to learn more: ",
                     "resources": [
                         {
                             "name": "Server-side caching",
-                            
                             "link": "https://www.starwindsoftware.com/resource-library/server-side-caching/"
                         },
                         {
                             "name": "Server-side caching and Client-side caching",
                             "link": "https://www.codingninjas.com/codestudio/library/server-side-caching-and-client-side-caching"
                         }
-                        
-                        
                     ],
                     "options": [
                         {
@@ -2303,10 +1910,8 @@
                                     "name": "Redis in 100 Seconds",
                                     "link": "https://www.youtube.com/watch?v=G1rOthIU-uo"
                                 }
-                              
                             ]
                         },
-                        
                         {
                             "name": "Memcached",
                             "recommendation-type": "Pick this or purple",
@@ -2324,195 +1929,245 @@
                                     "name": "Memcached Tutorial",
                                     "link": "https://www.tutorialspoint.com/memcached/index.htm"
                                 }
-                               
                             ]
                         }
-                    
                     ]
-                    
-                    
-                    
-                        
-                        
-                      
-    
-                    
                 }
-
             },
             "Web Security Knowledge": {
+                "description": "Web security refers to the protective measures taken by the developers to protect web applications from threats that could affect the business.",
+                "resources": [
+                    {
+                        "name": "Why HTTPS Matters",
+                        "link": "https://example.com/why-https-matters"
+                    },
+                    {
+                        "name": "Wikipedia - OWASP",
+                        "link": "https://en.wikipedia.org/wiki/OWASP"
+                    },
+                    {
+                        "name": "OWASP Web Application Security Testing Checklist",
+                        "link": "https://example.com/owasp-testing-checklist"
+                    },
+                    {
+                        "name": "OWASP Top 10 Security Risks",
+                        "link": "https://example.com/owasp-top-10-risks"
+                    },
+                    {
+                        "name": "OWASP Cheatsheets",
+                        "link": "https://example.com/owasp-cheatsheets"
+                    },
+                    {
+                        "name": "Content Security Policy (CSP)",
+                        "link": "https://example.com/content-security-policy"
+                    }
+                ],
                 "order": 12,
-                "module bundlers": {
+                "Hashing Algorithm": {
                     "options": [
                         {
-                            "name": "",
+                            "name": "MD5",
                             "recommendation-type": "opinion",
-                            "description": "",
+                            "description": "MD5 (Message-Digest Algorithm 5) is a hash function that is currently advised not to be used due to its extensive vulnerabilities. It is still used as a checksum to verify data integrity.",
                             "resources": [
                                 {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "Wikipedia - MD5",
+                                    "link": "https://en.wikipedia.org/wiki/MD5"
                                 },
                                 {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "What is MD5?",
+                                    "link": "https://example.com/what-is-md5"
                                 },
                                 {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "Why is MD5 not safe?",
+                                    "link": "https://example.com/why-is-md5-not-safe"
                                 }
                             ]
                         },
                         {
-                            "name": "",
+                            "name": "SHA family",
                             "recommendation-type": "opinion",
-                            "description": "",
+                            "description": "SHA (Secure Hash Algorithms) is a family of cryptographic hash functions created by the NIST. The family includes various members with different levels of security.",
                             "resources": [
                                 {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "Wikipedia - SHA-1",
+                                    "link": "https://en.wikipedia.org/wiki/SHA-1"
                                 },
                                 {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "Wikipedia - SHA-2",
+                                    "link": "https://en.wikipedia.org/wiki/SHA-2"
                                 },
                                 {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "Wikipedia - SHA-3",
+                                    "link": "https://en.wikipedia.org/wiki/SHA-3"
                                 }
                             ]
                         },
                         {
-                            "name": "",
+                            "name": "Scrypt",
                             "recommendation-type": "opinion",
-                            "description": "",
+                            "description": "Scrypt (pronounced “ess crypt”) is a password hashing function designed to make brute-force attacks more difficult. It is mainly used as a proof-of-work algorithm for cryptocurrencies.",
                             "resources": [
                                 {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "Wikipedia - Scrypt",
+                                    "link": "https://en.wikipedia.org/wiki/Scrypt"
                                 }
                             ]
                         },
                         {
-                            "name": "",
+                            "name": "Bcrypt",
                             "recommendation-type": "opinion",
-                            "description": "",
+                            "description": "Bcrypt is a password hashing function that has been proven reliable and secure since its release in 1999. It has been implemented into most commonly-used programming languages.",
                             "resources": [
                                 {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "bcrypt npm package",
+                                    "link": "https://example.com/bcrypt-npm"
                                 },
                                 {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "Understanding bcrypt",
+                                    "link": "https://example.com/understanding-bcrypt"
                                 },
                                 {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "bcrypt explained",
+                                    "link": "https://example.com/bcrypt-explained"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "HTTPS",
+                            "recommendation-type": "opinion",
+                            "description": "HTTPS is a secure way to send data between a web server and a browser. It ensures encrypted communication to protect data during transmission.",
+                            "resources": [
+                                {
+                                    "name": "What is HTTPS?",
+                                    "link": "https://example.com/what-is-https"
                                 },
                                 {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "Why HTTPS Matters",
+                                    "link": "https://example.com/why-https-matters"
                                 },
                                 {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "Enabling HTTPS on Your Servers",
+                                    "link": "https://example.com/enabling-https"
                                 },
                                 {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "How HTTPS works (comic)",
+                                    "link": "https://example.com/how-https-works-comic"
                                 },
                                 {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "SSL, TLS, HTTP, HTTPS Explained",
+                                    "link": "https://example.com/ssl-tls-http-https-explained"
                                 },
                                 {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "HTTPS — Stories from the field",
+                                    "link": "https://example.com/https-stories"
                                 },
                                 {
-                                    "name": "",
-                                    "link": ""
+                                    "name": "HTTPS explained with carrier pigeons",
+                                    "link": "https://example.com/https-carrier-pigeons"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "OWASP Security Risks",
+                            "recommendation-type": "opinion",
+                            "description": "OWASP (Open Web Application Security Project) is an online community that produces resources in the field of web application security. Learn more about security risks and standards.",
+                            "resources": [
+                                {
+                                    "name": "Wikipedia - OWASP",
+                                    "link": "https://en.wikipedia.org/wiki/OWASP"
+                                },
+                                {
+                                    "name": "OWASP Application Security Verification Standard",
+                                    "link": "https://example.com/owasp-verification-standard"
+                                },
+                                {
+                                    "name": "OWASP Top 10 Security Risks",
+                                    "link": "https://example.com/owasp-top-10-risks"
+                                },
+                                {
+                                    "name": "OWASP Cheatsheets",
+                                    "link": "https://example.com/owasp-cheatsheets"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "CORS",
+                            "recommendation-type": "opinion",
+                            "description": "Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to specify which origins are permitted to load its resources.",
+                            "resources": [
+                                {
+                                    "name": "Cross-Origin Resource Sharing (CORS)",
+                                    "link": "https://example.com/cors"
+                                },
+                                {
+                                    "name": "CORS in 100 Seconds",
+                                    "link": "https://example.com/cors-in-100-seconds"
+                                },
+                                {
+                                    "name": "CORS in 6 minutes",
+                                    "link": "https://example.com/cors-in-6-minutes"
+                                },
+                                {
+                                    "name": "Understanding CORS",
+                                    "link": "https://example.com/understanding-cors"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "SSL/TLS",
+                            "recommendation-type": "opinion",
+                            "description": "Secure Sockets Layer (SSL) and Transport Layer Security (TLS) are cryptographic protocols used to secure internet communications. TLS is recommended over SSL due to security concerns.",
+                            "resources": [
+                                {
+                                    "name": "Wikipedia - SSL/TLS",
+                                    "link": "https://en.wikipedia.org/wiki/Transport_Layer_Security"
+                                },
+                                {
+                                    "name": "Cloudflare - What is SSL?",
+                                    "link": "https://example.com/cloudflare-ssl"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Content Security Policy",
+                            "recommendation-type": "opinion",
+                            "description": "Content Security Policy is a standard to prevent web vulnerabilities like cross-site scripting. It helps protect web applications from code injection attacks.",
+                            "resources": [
+                                {
+                                    "name": "MDN — Content Security Policy (CSP)",
+                                    "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP"
+                                },
+                                {
+                                    "name": "Google Devs — Content Security Policy (CSP)",
+                                    "link": "https://developers.google.com/web/fundamentals/security/csp"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Server Security",
+                            "recommendation-type": "opinion",
+                            "description": "Learn about server security and how to secure your server effectively. This includes using firewalls, closing unnecessary ports, using strong passwords, keeping systems up to date, and more.",
+                            "resources": [
+                                {
+                                    "name": "Learn about OpenSSL",
+                                    "link": "https://example.com/learn-openssl"
+                                },
+                                {
+                                    "name": "Creating your own PKI",
+                                    "link": "https://example.com/creating-pki"
+                                },
+                                {
+                                    "name": "Managing certs and renewals",
+                                    "link": "https://example.com/managing-certs"
+                                },
+                                {
+                                    "name": "Intrusion Detection System (IDS)",
+                                    "link": "https://example.com/intrusion-detection-system"
+                                },
+                                {
+                                    "name": "Two-Factor Authentication",
+                                    "link": "https://example.com/two-factor-authentication"
                                 }
                             ]
                         }
@@ -2530,7 +2185,6 @@
                         "name": "Testing Pyramid",
                         "link": "https://www.browserstack.com/guide/testing-pyramid-for-test-automation"
                     }
-                    
                 ],
                 "order": 13,
                 "options": [
@@ -2551,7 +2205,6 @@
                                 "name": "What is Integration Testing?",
                                 "link": "https://youtu.be/QYCaaNz8emY"
                             }
-                           
                         ]
                     },
                     {
@@ -2567,7 +2220,6 @@
                                 "name": "What is Unit Testing?",
                                 "link": "https://youtu.be/3kzHmaeozDI"
                             }
-                           
                         ]
                     },
                     {
@@ -2582,50 +2234,6 @@
                             {
                                 "name": "Functional Testing vs Non-Functional Testing",
                                 "link": "https://youtu.be/j_79AXkG4PY"
-                            }
-                            
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
                             }
                         ]
                     }
@@ -2658,382 +2266,49 @@
                         "name": "Articles about CI/CD",
                         "link": "https://thenewstack.io/category/ci-cd/"
                     }
-                   
                 ],
                 "order": 14,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
+                "options": []
             },
             "Software Design & Architecture": {
                 "order": 15,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
+                "options": []
             },
             "Design and Development Principles": {
-                
-                "description": " ",
+                "description": "In this section, we’ll discuss some essential design and development principles to follow while building the backend of any application. These principles will ensure that the backend is efficient, scalable, and maintainable.",
                 "resources": [
                     {
-                        "name": "",
-                        "link": ""
+                        "name": "Separation of Concerns (SoC)",
+                        "link": "https://example.com/separation-of-concerns"
                     },
                     {
-                        "name": "",
-                        "link": ""
+                        "name": "Reusability",
+                        "link": "https://example.com/reusability"
                     },
                     {
-                        "name": "",
-                        "link": ""
+                        "name": "Keep It Simple and Stupid (KISS)",
+                        "link": "https://example.com/keep-it-simple-and-stupid"
                     },
                     {
-                        "name": "",
-                        "link": ""
+                        "name": "Don’t Repeat Yourself (DRY)",
+                        "link": "https://example.com/dont-repeat-yourself"
+                    },
+                    {
+                        "name": "Scalability",
+                        "link": "https://example.com/scalability"
+                    },
+                    {
+                        "name": "Security",
+                        "link": "https://example.com/security"
+                    },
+                    {
+                        "name": "Testing",
+                        "link": "https://example.com/testing"
+                    },
+                    {
+                        "name": "Documentation",
+                        "link": "https://example.com/documentation"
                     }
-                   
                 ],
                 "order": 16,
                 "options": [
@@ -3054,7 +2329,6 @@
                                 "name": "Design Patterns",
                                 "link": "https://refactoring.guru/design-patterns"
                             }
-                           
                         ]
                     },
                     {
@@ -3065,38 +2339,6 @@
                             {
                                 "name": "Domain Driven Design Quickly",
                                 "link": "https://matfrs2.github.io/RS2/predavanja/literatura/Avram%20A,%20Marinescu%20F.%20-%20Domain%20Driven%20Design%20Quickly.pdf"
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
                             }
                         ]
                     },
@@ -3117,7 +2359,6 @@
                                 "name": "Agile in Practice: Test Driven Development",
                                 "link": "https://youtu.be/uGaNkTahrIw"
                             }
-                         
                         ]
                     },
                     {
@@ -3129,7 +2370,6 @@
                                 "name": "CQRS Pattern",
                                 "link": "https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs"
                             }
-                           
                         ]
                     },
                     {
@@ -3141,7 +2381,6 @@
                                 "name": "Event Sourcing - Martin Fowler",
                                 "link": "https://martinfowler.com/eaaDev/EventSourcing.html"
                             }
-                           
                         ]
                     }
                 ]
@@ -3153,8 +2392,6 @@
                         "name": "Architectural Patterns in a nutshell",
                         "link": "https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013"
                     }
-                   
-                   
                 ],
                 "order": 17,
                 "options": [
@@ -3171,7 +2408,6 @@
                                 "name": "Monolithic Architecture - Advantages & Disadvantages",
                                 "link": "https://datamify.medium.com/monolithic-architecture-advantages-and-disadvantages-e71a603eec89"
                             }
-                           
                         ]
                     },
                     {
@@ -3199,7 +2435,6 @@
                                 "name": "Articles about Microservices",
                                 "link": "https://thenewstack.io/category/microservices/"
                             }
-                            
                         ]
                     },
                     {
@@ -3211,7 +2446,6 @@
                                 "name": "Reference Architecture Foundation for Service Oriented Architecture",
                                 "link": "http://docs.oasis-open.org/soa-rm/soa-ra/v1.0/soa-ra.html"
                             }
-                            
                         ]
                     },
                     {
@@ -3231,7 +2465,6 @@
                                 "name": "Serverless Computing in 100 Seconds",
                                 "link": "https://www.youtube.com/watch?v=W_VV2Fx32_Y&ab_channel=Fireship"
                             }
-                            
                         ]
                     },
                     {
@@ -3243,8 +2476,6 @@
                                 "name": "What is a Service Mesh?",
                                 "link": "https://www.nginx.com/blog/what-is-a-service-mesh/"
                             }
-                           
-                            
                         ]
                     },
                     {
@@ -3256,22 +2487,13 @@
                                 "name": "The Twelve-Factor App",
                                 "link": "https://12factor.net/"
                             }
-                           
-                            
                         ]
                     }
                 ]
             },
             "Search Engines": {
                 "description": "Search engines are an essential part of any web application, responsible for providing efficient and relevant search results for users. They store and retrieve data based on unique indexes, which allow for fast and accurate searches. As a backend developer, understanding search engines functionalities, and how to integrate them into your web application, is crucial.\n\nThere are two primary types of search engines:\nFull-text search engines: These are specifically designed for searching and analyzing text documents. They can efficiently index large volumes of text and provide relevant results based on keywords or phrases. Popular full-text search engines examples include Elasticsearch, Solr, and Amazon CloudSearch.\nDatabase search engines: Database engines are built-in features of most databases. They provide search capabilities within the data stored in the database. Examples include MySQL FULLTEXT search and PostgreSQL Full-Text Search.\n\n Key Concepts\nWhen dealing with search engines, it’s important to understand these key concepts:\nIndexing: The process of analyzing and storing data in an optimized format for fast search and retrieval.\nTokenization: Breaking text into individual words or terms (also known as tokens), for efficient indexing and searching.\nQuerying: The act of searching the indexed data by asking a specific question or requesting information based on keywords or phrases.\nRelevance scoring: A score assigned to each search result that indicates how closely it matches the query, based on algorithms and relevance models.\n\nIntegration\nTo integrate a search engine into your web application, you would typically follow these steps:\nChoose the search engine: Identify the search engine that best suits your application’s needs, considering factors such as scalability, performance, and ease of integration.\nIndex your data: Analyze and store your data using the chosen search engine. This process may involve creating an index, specifying fields, and defining how the data should be tokenized and analyzed.\nImplement search functionality: Develop the backend code for handling search requests, such as sending queries to the search engine and parsing the responses. Additionally, make sure to handle user inputs, like keywords, phrases, and filters.\nDisplay search results: Design the frontend of your application to show search results in a user-friendly manner, including pagination, sorting, and filters.",
-                "resources": [
-                    {
-                        "name": "",
-                        "link": ""
-                    }
-                    
-                   
-                ], 
+                "resources": [],
                 "order": 18,
                 "options": [
                     {
@@ -3287,7 +2509,6 @@
                                 "name": "Official Documentation",
                                 "link": "https://solr.apache.org/resources.html#documentation"
                             }
-                           
                         ]
                     },
                     {
@@ -3303,10 +2524,8 @@
                                 "name": "Elasticsearch Documentation",
                                 "link": "https://www.elastic.co/guide/index.html"
                             }
-                          
                         ]
                     }
-                   
                 ]
             },
             "Message Brokers": {
@@ -3316,9 +2535,7 @@
                         "name": "Introduction to Message Brokers",
                         "link": "https://www.youtube.com/watch?v=57Qr9tk6Uxc"
                     }
-                    
-                   
-                ], 
+                ],
                 "order": 18,
                 "options": [
                     {
@@ -3334,7 +2551,6 @@
                                 "name": "RabbitMQ Tutorial - Message Queues and Distributed Systems",
                                 "link": "https://www.youtube.com/watch?v=nFxjaVmFj5E"
                             }
-                           
                         ]
                     },
                     {
@@ -3350,10 +2566,8 @@
                                 "name": "Apache Kafka Fundamentals",
                                 "link": "https://www.youtube.com/watch?v=B5j3uNBH8X4"
                             }
-                          
                         ]
                     }
-                   
                 ]
             },
             "Containerization vs Virtualization": {
@@ -3367,7 +2581,6 @@
                         "name": "Containerization or Virtualization - The Differences",
                         "link": "https://www.youtube.com/watch?v=1WnDHitznGY"
                     }
-                   
                 ],
                 "order": 19,
                 "options": [
@@ -3396,7 +2609,6 @@
                                 "name": "Kubernetes: An Overview",
                                 "link": "https://thenewstack.io/kubernetes-an-overview/"
                             }
-                          
                         ]
                     },
                     {
@@ -3424,7 +2636,6 @@
                                 "name": "Docker simplified in 55 seconds",
                                 "link": "https://youtu.be/vP_4DlOH1G4"
                             }
-                           
                         ]
                     },
                     {
@@ -3448,10 +2659,8 @@
                                 "name": "Getting started with LXC containers",
                                 "link": "https://youtu.be/CWmkSj_B-wo"
                             }
-                           
                         ]
                     }
-                   
                 ]
             },
             "GraphQL": {
@@ -3461,8 +2670,6 @@
                         "name": "Server-Sent Events - MDN",
                         "link": "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events"
                     }
-                    
-                   
                 ],
                 "order": 20,
                 "options": [
@@ -3487,11 +2694,8 @@
                                 "name": "GraphQL With React Tutorial - Apollo Client",
                                 "link": "https://www.youtube.com/watch?v=YyUWW04HwKY"
                             }
-                           
                         ]
                     }
-                   
-                   
                 ]
             },
             " WebSockets": {
@@ -3513,54 +2717,9 @@
                         "name": "every platform",
                         "link": "https://socket.io/"
                     }
-                   
                 ],
                 "order": 21,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
+                "options": []
             },
             "Sever Sent Events": {
                 "description": " Server-Sent Events (SSE) is a technology that allows a web server to push data to a client in real-time. It uses an HTTP connection to send a stream of data from the server to the client, and the client can listen for these events and take action when they are received.\nSSE is useful for applications that require real-time updates, such as chat systems, stock tickers, and social media feeds. It is a simple and efficient way to establish a long-lived connection between a client and a server, and it is supported by most modern web browsers.\nTo use SSE, the client must create an EventSource object and specify the URL of the server-side script that will send the events. The server can then send events by writing them to the response stream with the proper formatting.\nVisit the following resources to learn more:",
@@ -3569,25 +2728,9 @@
                         "name": "Server-Sent Events - MDN",
                         "link": "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events"
                     }
-                    
-                   
                 ],
                 "order": 22,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                            
-                        ]
-                    }
-                    
-                ]
+                "options": []
             },
             "Web Servers": {
                 "description": "Web servers can be either hardware or software, or perhaps a combination of the two.\nHardware Side:\nA hardware web server is a computer that houses web server software and the files that make up a website (for example, HTML documents, images, CSS stylesheets, and JavaScript files). A web server establishes a connection to the Internet and facilitates the physical data exchange with other web-connected devices.\nSoftware side:\nA software web server has a number of software components that regulate how hosted files are accessed by online users. This is at the very least an HTTP server. Software that knows and understands HTTP and URLs (web addresses) is known as an HTTP server (the protocol your browser uses to view webpages). The content of these hosted websites is sent to the end user’s device through an HTTP server, which may be accessed via the domain names of the websites it holds.\nBasically, an HTTP request is made by a browser anytime it wants a file that is stored on a web server. The relevant (hardware) web server receives the request, which is then accepted by the appropriate (software) HTTP server, which then locates the requested content and returns it to the browser over HTTP. (If the server cannot locate the requested page, it responds with a 404 error.)\nVisit the following resources to learn more: ",
@@ -3600,8 +2743,6 @@
                         "name": "Web Server Concepts and Examples",
                         "link": "https://youtu.be/9J1nJOivdyw"
                     }
-                   
-                   
                 ],
                 "order": 23,
                 "options": [
@@ -3618,7 +2759,6 @@
                                 "name": "NGINX Explained in 100 Seconds",
                                 "link": "https://www.youtube.com/watch?v=JKxlsvZXG7c"
                             }
-                           
                         ]
                     },
                     {
@@ -3634,7 +2774,6 @@
                                 "name": "What is Apache Web Server?",
                                 "link": "https://www.youtube.com/watch?v=kaaenHXO4t4"
                             }
-                           
                         ]
                     },
                     {
@@ -3650,7 +2789,6 @@
                                 "name": "Getting started with Caddy the HTTPS Web Server from scratch",
                                 "link": "https://www.youtube.com/watch?v=t4naLFSlBpQ"
                             }
-                         
                         ]
                     },
                     {
@@ -3666,7 +2804,6 @@
                                 "name": "Learn Windows Web Server IIS",
                                 "link": "https://www.youtube.com/watch?v=1VdxPWwtISA"
                             }
-                          
                         ]
                     }
                 ]
@@ -3688,12 +2825,7 @@
                             "name": "What is Telemetry?",
                             "link": "https://www.sumologic.com/insight/what-is-telemetry/"
                         }
-                        
-                        
-                        
-                       
-                    ], 
-        
+                    ],
                     "options": [
                         {
                             "name": "Instrumentation",
@@ -3712,13 +2844,10 @@
                                     "name": "What is Telemetry?",
                                     "link": "https://www.sumologic.com/insight/what-is-telemetry//"
                                 }
-                               
-                               
                             ]
                         },
                         {
                             "name": "Monitoring",
-                           
                             "description": "Instrumentation refers to the measure of a product’s performance, in order to diagnose errors and to write trace information. Instrumentation can be of two types: source instrumentation and binary instrumentation.\nBackend monitoring allows the user to view the performance of infrastructure i.e. the components that run a web application. These include the HTTP server, middleware, database, third-party API services, and more.\nTelemetry is the process of continuously collecting data from different components of the application. This data helps engineering teams to troubleshoot issues across services and identify the root causes. In other words, telemetry data powers observability for your distributed applications.\nVisit the following resources to learn more:",
                             "resources": [
                                 {
@@ -3733,12 +2862,10 @@
                                     "name": "What is Telemetry?",
                                     "link": "https://www.sumologic.com/insight/what-is-telemetry/"
                                 }
-                              
                             ]
                         },
                         {
                             "name": "Telemetry",
-                            
                             "description": "Instrumentation refers to the measure of a product’s performance, in order to diagnose errors and to write trace information. Instrumentation can be of two types: source instrumentation and binary instrumentation.\nBackend monitoring allows the user to view the performance of infrastructure i.e. the components that run a web application. These include the HTTP server, middleware, database, third-party API services, and more.\nTelemetry is the process of continuously collecting data from different components of the application. This data helps engineering teams to troubleshoot issues across services and identify the root causes. In other words, telemetry data powers observability for your distributed applications.\nVisit the following resources to learn more:",
                             "resources": [
                                 {
@@ -3753,24 +2880,14 @@
                                     "name": "What is Telemetry?",
                                     "link": "https://www.sumologic.com/insight/what-is-telemetry/"
                                 }
-                              
                             ]
                         }
-                       
                     ]
                 },
                 "Mitigation Strategies": {
                     "recommendation-type": "opinion",
                     "description": "This section is mainly relevant to the cloud design patterns that help you build scalable solutions. Have a look at the Cloud Design Patterns docs by Microsoft and this video covering the throttling, retry and circuit breaker patterns",
-                    "resources": [
-                        {
-                            "name": "",
-                            "link": ""
-                        }
- 
-                       
-                    ], 
-        
+                    "resources": [],
                     "options": [
                         {
                             "name": "Circuit Breaker",
@@ -3781,58 +2898,46 @@
                                     "name": "Circuit Breaker - AWS Well-Architected Framework",
                                     "link": "https://en.wikipedia.org/wiki/Instrumentation_(computer_programming)"
                                 }
-                                
-                               
                             ]
                         },
-                       
                         {
                             "name": "Load Shifting",
-                           
                             "description": "Load shifting is a design pattern that is used to manage the workload of a system by shifting the load to different components or resources at different times. It is commonly used in cloud computing environments to balance the workload of a system and to optimize the use of resources.\nThere are several ways to implement load shifting in a cloud environment:\nScheduling: This involves scheduling the execution of tasks or workloads to occur at specific times or intervals.\nLoad balancing: This involves distributing the workload of a system across multiple resources, such as servers or containers, to ensure that the workload is balanced and that resources are used efficiently.\nAuto-scaling: This involves automatically adjusting the number of resources that are available to a system based on the workload, allowing the system to scale up or down as needed.\nLoad shifting is an important aspect of cloud design, as it helps to ensure that resources are used efficiently and that the system remains stable and available. It is often used in conjunction with other design patterns, such as throttling and backpressure, to provide a scalable and resilient cloud environment.\nVisit the following resources to learn more:",
                             "resources": [
                                 {
                                     "name": "Load Shifting - AWS Well-Architected Framework",
                                     "link": "https://aws.amazon.com/architecture/well-architected/serverless/patterns/load-shifting/"
                                 }
-                                
                             ]
                         },
                         {
                             "name": "Backpressure",
-                           
                             "description": "Backpressure is a design pattern that is used to manage the flow of data through a system, particularly in situations where the rate of data production exceeds the rate of data consumption. It is commonly used in cloud computing environments to prevent overloading of resources and to ensure that data is processed in a timely and efficient manner.\nThere are several ways to implement backpressure in a cloud environment:\nBuffering: This involves storing incoming data in a buffer until it can be processed, allowing the system to continue receiving data even if it is temporarily unable to process it.\nBatching: This involves grouping incoming data into batches and processing the batches in sequence, rather than processing each piece of data individually.\nFlow control: This involves using mechanisms such as flow control signals or windowing to regulate the rate at which data is transmitted between systems.\nBackpressure is an important aspect of cloud design, as it helps to ensure that data is processed efficiently and that the system remains stable and available. It is often used in conjunction with other design patterns, such as auto-scaling and load balancing, to provide a scalable and resilient cloud environment.\nVisit the following resources to learn more:",
                             "resources": [
                                 {
                                     "name": "Backpressure - AWS Well-Architected Framework",
                                     "link": "https://aws.amazon.com/architecture/well-architected/serverless/patterns/backpressure/"
                                 }
-                               
-                              
                             ]
                         },
                         {
                             "name": "Throttling",
-                           
                             "description": "Throttling is a design pattern that is used to limit the rate at which a system or component can be used. It is commonly used in cloud computing environments to prevent overuse of resources, such as compute power, network bandwidth, or storage capacity.\nThere are several ways to implement throttling in a cloud environment:\n\nVisit the following resources to learn more:",
                             "resources": [
                                 {
                                     "name": "Backpressure - AWS Well-Architected Framework",
                                     "link": "https://aws.amazon.com/architecture/well-architected/serverless/patterns/backpressure/"
                                 }
-                               
-                              
                             ]
                         },
                         {
                             "name": "Graceful Degradation",
-                           
                             "description": "Graceful degradation is a design principle that states that a system should be designed to continue functioning, even if some of its components or features are not available. In the context of web development, graceful degradation refers to the ability of a web page or application to continue functioning, even if the user’s browser or device does not support certain features or technologies.\nGraceful degradation is often used as an alternative to progressive enhancement, a design principle that states that a system should be designed to take advantage of advanced features and technologies if they are available.\nVisit the following resources to learn more:",
                             "resources": [
                                 {
                                     "name": "What is Graceful Degradation & Why Does it Matter?",
                                     "link": "https://blog.hubspot.com/website/graceful-degradation"
-                                }, 
+                                },
                                 {
                                     "name": "Four Considerations When Designing Systems For Graceful",
                                     "link": "https://newrelic.com/blog/best-practices/design-software-for-graceful-degradation"
@@ -3840,16 +2945,13 @@
                                 {
                                     "name": "Degradation",
                                     "link": "https://newrelic.com/blog/best-practices/design-software-for-graceful-degradation"
-                                }, 
+                                },
                                 {
                                     "name": "The Art of Graceful Degradation",
                                     "link": "https://farfetchtechblog.com/en/blog/post/the-art-of-failure-ii-graceful-degradation/"
                                 }
-                               
-                              
                             ]
                         }
-                       
                     ]
                 },
                 "order": 24,
@@ -3863,7 +2965,6 @@
                                 "name": "Databases as a Challenge for Continuous Delivery",
                                 "link": "https://phauer.com/2015/databases-challenge-continuous-delivery/"
                             }
-                           
                         ]
                     },
                     {
@@ -3887,7 +2988,6 @@
                                 "name": "System Design 101",
                                 "link": "https://www.youtube.com/watch?v=Y-Gl4HEyeUQ"
                             }
-                           
                         ]
                     },
                     {
@@ -3923,13 +3023,10 @@
                                 "name": "Matter",
                                 "link": "https://newrelic.com/blog/best-practices/observability-instrumentation"
                             }
-                           
                         ]
                     }
-                   
                 ]
             }
         }
     }
-
 }

@@ -1,6 +1,7 @@
 {
     "Best": {
         "Frontend Performance": {
+            "description": "Detailed list of best practices to improve your frontend performance ",
             "High Priority": {
                 "order": 1,
                 "options": [
@@ -353,70 +354,71 @@
                         ]
                     },
                     {
-                        "name": "Page Speed Insights",
-                        "recommendation-type": "opinion",
-                        "description": "Page Speed Insights is a free tool from Google that analyzes the performance of a web page and provides suggestions for improvements.",
-                        "resources": [
-                            {
-                                "name": "Page Speed Insights",
-                                "link": "https://pagespeed.web.dev/"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Lighthouse",
-                        "recommendation-type": "opinion",
-                        "description": "Lighthouse is an open-source tool developed by Google that is used to audit the performance, accessibility, and SEO of web pages. It is available as a browser extension and as a command-line tool, and it can be run on any web page to generate a report with recommendations for improvement.\n\nLighthouse works by simulating the load and interaction of a web page and measuring various performance metrics, such as load time, time to first paint, and time to interactive. It also checks for common issues such as incorrect image sizes, missing alt text, and broken links.\n\nLighthouse provides a comprehensive and easy-to-use tool for identifying and fixing performance and accessibility issues on web pages. It is widely used by web developers and is integrated into many popular development tools.",
-                        "resources": [
-                            {
-                                "name": "Lighthouse - Google Developers",
-                                "link": "https://developers.google.com/web/tools/lighthouse"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "webpagetest.org",
-                        "recommendation-type": "opinion",
-                        "description": "Webpagetest.org is a website performance testing tool that allows users to test the load time and performance of web pages. It provides a wealth of information about the page load, including load time, Speed Index, and filmstrip view of the page load, as well as a breakdown of the page components and their load times. It also allows for testing from multiple locations and browsers. The test results can be shared and compared with others. It is widely used by developers, marketers, and website owners to improve the performance and user experience of their websites.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Chrome DevTools",
-                        "recommendation-type": "opinion",
-                        "description": "Chrome DevTools is a set of web development tools built into the Google Chrome browser. It allows developers to inspect and debug the front-end of web applications.\n\nSome of the benefits of using Chrome DevTools include:\n\n- Inspecting and editing HTML and CSS in real-time, which can be useful for identifying and fixing layout issues\n- Debugging JavaScript code, including setting breakpoints, stepping through code, and examining the call stack\n- Profiling the performance of web pages, including identifying slow-running JavaScript code and analyzing network requests\n- Inspecting and debugging browser-side storage, including cookies, local storage, and indexedDB\n- Auditing web pages for performance, accessibility, and best practices\n\nChrome DevTools are a powerful and essential tool for web developers, as it helps to improve debugging, testing, and optimization of the web application.",
-                        "resources": [
-                            {
-                                "name": "Chrome DevTools Docs",
-                                "link": "https://developer.chrome.com/docs/devtools/"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Bundlephobia",
-                        "recommendation-type": "opinion",
-                        "description": "Bundlephobia is a website and npm package that allows developers to search for the size of any JavaScript package before adding it to their project. It provides information on the size of the package, as well as the size of its dependencies, to help developers make informed decisions about which packages to use and how they may impact the overall size of their application. Bundlephobia also offers badges which can be added to your GitHub README.md file to show the size of your package.",
-                        "resources": [
-                            {
-                                "name": "Official Website - Bundlephobia",
-                                "link": "https://bundlephobia.com/"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Squoosh.app",
-                        "recommendation-type": "opinion",
-                        "description": "Squoosh.app is a web app that allows you to compress images using a variety of codecs. It is built by Google Chrome team and is open source.",
-                        "resources": [
-                            {
-                                "name": "Squoosh.app",
-                                "link": "https://squoosh.app/"
-                            }
-                        ]
+                        "Performance Tools": {
+                            "options": [
+                                {
+                                    "name": "Page Speed Insights",
+                                    "recommendation-type": "opinion",
+                                    "description": "Page Speed Insights is a free tool from Google that analyzes the performance of a web page and provides suggestions for improvements.",
+                                    "resources": [
+                                        {
+                                            "name": "Page Speed Insights",
+                                            "link": "https://pagespeed.web.dev/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Lighthouse",
+                                    "recommendation-type": "opinion",
+                                    "description": "Lighthouse is an open-source tool developed by Google that is used to audit the performance, accessibility, and SEO of web pages. It is available as a browser extension and as a command-line tool, and it can be run on any web page to generate a report with recommendations for improvement.\n\nLighthouse works by simulating the load and interaction of a web page and measuring various performance metrics, such as load time, time to first paint, and time to interactive. It also checks for common issues such as incorrect image sizes, missing alt text, and broken links.\n\nLighthouse provides a comprehensive and easy-to-use tool for identifying and fixing performance and accessibility issues on web pages. It is widely used by web developers and is integrated into many popular development tools.",
+                                    "resources": [
+                                        {
+                                            "name": "Lighthouse - Google Developers",
+                                            "link": "https://developers.google.com/web/tools/lighthouse"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "webpagetest.org",
+                                    "recommendation-type": "opinion",
+                                    "description": "Webpagetest.org is a website performance testing tool that allows users to test the load time and performance of web pages. It provides a wealth of information about the page load, including load time, Speed Index, and filmstrip view of the page load, as well as a breakdown of the page components and their load times. It also allows for testing from multiple locations and browsers. The test results can be shared and compared with others. It is widely used by developers, marketers, and website owners to improve the performance and user experience of their websites.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Chrome DevTools",
+                                    "recommendation-type": "opinion",
+                                    "description": "Chrome DevTools is a set of web development tools built into the Google Chrome browser. It allows developers to inspect and debug the front-end of web applications.\n\nSome of the benefits of using Chrome DevTools include:\n\n- Inspecting and editing HTML and CSS in real-time, which can be useful for identifying and fixing layout issues\n- Debugging JavaScript code, including setting breakpoints, stepping through code, and examining the call stack\n- Profiling the performance of web pages, including identifying slow-running JavaScript code and analyzing network requests\n- Inspecting and debugging browser-side storage, including cookies, local storage, and indexedDB\n- Auditing web pages for performance, accessibility, and best practices\n\nChrome DevTools are a powerful and essential tool for web developers, as it helps to improve debugging, testing, and optimization of the web application.",
+                                    "resources": [
+                                        {
+                                            "name": "Chrome DevTools Docs",
+                                            "link": "https://developer.chrome.com/docs/devtools/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Bundlephobia",
+                                    "recommendation-type": "opinion",
+                                    "description": "Bundlephobia is a website and npm package that allows developers to search for the size of any JavaScript package before adding it to their project. It provides information on the size of the package, as well as the size of its dependencies, to help developers make informed decisions about which packages to use and how they may impact the overall size of their application. Bundlephobia also offers badges which can be added to your GitHub README.md file to show the size of your package.",
+                                    "resources": [
+                                        {
+                                            "name": "Official Website - Bundlephobia",
+                                            "link": "https://bundlephobia.com/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Squoosh.app",
+                                    "recommendation-type": "opinion",
+                                    "description": "Squoosh.app is a web app that allows you to compress images using a variety of codecs. It is built by Google Chrome team and is open source.",
+                                    "resources": [
+                                        {
+                                            "name": "Squoosh.app",
+                                            "link": "https://squoosh.app/"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
                     }
                 ]
             },
@@ -461,23 +463,13 @@
                         "name": "Prefer Vector Images",
                         "recommendation-type": "opinion",
                         "description": "Prefer using vector image rather than bitmap images (when possible).\n\nVector images (SVG) tend to be smaller than images and SVG’s are responsive and scale perfectly. These images can be animated and modified by CSS.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Image Dimensions",
                         "recommendation-type": "opinion",
                         "description": "Set width and height attributes on <img> if the final rendered image size is known.\nIf height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Avoid Base64 Images",
@@ -976,7 +968,6 @@
                             }
                         ]
                     }
-                    
                 ]
             }
         }

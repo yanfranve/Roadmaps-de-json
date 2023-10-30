@@ -1,6 +1,7 @@
 {
     "Skill": {
         "JAVA": {
+            "description": "Step by step guide to becoming a Java developer in 2023 ",
             "Learn the Fundamentals": {
                 "description": "Learn the basics of Java, including syntax, data types, variables, conditionals, functions, data structures, and more.",
                 "resources": [

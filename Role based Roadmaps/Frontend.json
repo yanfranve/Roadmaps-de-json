@@ -1,6 +1,7 @@
 {
     "roles": {
         "Frontend": {
+            "description": "Step by step guide to becoming a modern frontend developer in 2023 ",
             "Internet": {
                 "description": "The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols. Visit the following resources to learn more:",
                 "resources": [
@@ -230,7 +231,6 @@
                         "name": "HTML Full Course - Build a Website Tutorial",
                         "link": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
                     },
-                    
                     {
                         "name": "HTML Tutorial for Beginners: HTML Crash Course",
                         "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
@@ -306,7 +306,6 @@
                                 "name": "Semantic HTML - web.dev",
                                 "link": "https://web.dev/learn/html/semantic-html/"
                             }
-                           
                         ]
                     },
                     {
@@ -365,7 +364,6 @@
                                 "name": "Accessibility as an Essential Part of the Inclusive Developer Experience",
                                 "link": "https://thenewstack.io/accessibility-as-an-essential-part-of-the-inclusive-developer-experience/"
                             }
-                            
                         ]
                     },
                     {
@@ -401,7 +399,6 @@
                                 "name": "Learning SEO",
                                 "link": "https://learningseo.io/"
                             }
-                            
                         ]
                     }
                 ]
@@ -509,7 +506,6 @@
                                 "name": "CSS Masterclass - Tutorial & Course for Beginners",
                                 "link": "https://www.youtube.com/watch?v=FqmB-Zj2-PA"
                             }
-                            
                         ]
                     },
                     {
@@ -592,10 +588,8 @@
                                 "name": "Introduction To Responsive Web Design",
                                 "link": "https://www.youtube.com/watch?v=srvUrASNj0s"
                             }
-                           
                         ]
                     }
-                   
                 ]
             },
             "JavaScript": {
@@ -669,7 +663,6 @@
                                 "name": "Build a Netflix Landing Page Clone with HTML, CSS & JS",
                                 "link": "https://youtu.be/P7t13SGytRk?t=22"
                             }
-                            
                         ]
                     },
                     {
@@ -736,10 +729,8 @@
                                 "name": "JavaScript Fetch API",
                                 "link": "https://www.youtube.com/watch?v=-ZI0ea5O2oA"
                             }
-                           
                         ]
                     }
-                   
                 ]
             },
             "Vercion Control Systeme ": {
@@ -765,7 +756,6 @@
                         "name": "Learn Git by Atlassian",
                         "link": "https://www.atlassian.com/git"
                     }
-                    
                 ],
                 "order": 5,
                 "options": [
@@ -790,10 +780,8 @@
                                 "name": "Tutorial: Git for Absolutely Everyone",
                                 "link": "https://thenewstack.io/tutorial-git-for-absolutely-everyone/"
                             }
-                            
                         ]
                     }
-                   
                 ]
             },
             "VCS Hosting": {
@@ -811,7 +799,6 @@
                         "name": "BitBucket: The Git solution for professional teams",
                         "link": "https://bitbucket.com/"
                     }
-                    
                 ],
                 "order": 6,
                 "options": [
@@ -844,7 +831,6 @@
                                 "name": "Git and GitHub - CS50 Beyond 2019",
                                 "link": "https://www.youtube.com/watch?v=eulnSXkhE7I"
                             }
-                           
                         ]
                     },
                     {
@@ -864,7 +850,6 @@
                                 "name": "Development: Connect git to GitLab for Small Projects",
                                 "link": "https://thenewstack.io/development-connect-git-to-gitlab-for-small-projects/"
                             }
-                            
                         ]
                     },
                     {
@@ -880,10 +865,8 @@
                                 "name": "BitBucket Website",
                                 "link": "https://bitbucket.com/"
                             }
-                           
                         ]
                     }
-                   
                 ]
             },
             "Package Managers": {
@@ -913,7 +896,6 @@
                         "name": "Yarn Crash Course",
                         "link": "https://www.youtube.com/watch?v=g9_6KmiBISk"
                     }
-                   
                 ],
                 "order": 7,
                 "options": [
@@ -942,7 +924,6 @@
                                 "name": "NPM Crash Course",
                                 "link": "https://www.youtube.com/watch?v=jHDhaSSKmB0"
                             }
-                           
                         ]
                     },
                     {
@@ -958,7 +939,6 @@
                                 "name": "Meet PNPM: The Faster, More Performant NPM",
                                 "link": "https://blog.bitsrc.io/pnpm-javascript-package-manager-4b5abd59dc9"
                             }
-                            
                         ]
                     },
                     {
@@ -993,7 +973,6 @@
                         "name": "Which JS Framework is best?",
                         "link": "https://www.youtube.com/watch?v=cuHDQhDhvPE"
                     }
-                    
                 ],
                 "order": 8,
                 "options": [
@@ -1030,7 +1009,6 @@
                                 "name": "Understanding Reacts UI Rendering Process",
                                 "link": "https://www.youtube.com/watch?v=i793Qm6kv3U"
                             }
-                            
                         ]
                     },
                     {
@@ -1062,7 +1040,6 @@
                                 "name": "Meet Vue.js, the Flexible JavaScript Framework",
                                 "link": "https://thenewstack.io/meet-vue-js-flexible-javascript-framework/"
                             }
-                            
                         ]
                     },
                     {
@@ -1082,7 +1059,6 @@
                                 "name": "Angular for Beginners Course [Full Front End Tutorial with TypeScript]",
                                 "link": "https://www.youtube.com/watch?v=3qBXWUpoPHo"
                             }
-                            
                         ]
                     },
                     {
@@ -1094,7 +1070,6 @@
                                 "name": "Read more about Qwik on the official website.",
                                 "link": "https://qwik.builder.io/"
                             }
-                           
                         ]
                     },
                     {
@@ -1122,7 +1097,6 @@
                                 "name": "Svelte and the Future of Frontend Development",
                                 "link": "https://thenewstack.io/svelte-and-the-future-of-front-end-development/"
                             }
-                            
                         ]
                     },
                     {
@@ -1138,7 +1112,6 @@
                                 "name": "SolidJS Tutorial",
                                 "link": "https://www.solidjs.com/tutorial/introduction_basics"
                             }
-                           
                         ]
                     }
                 ]
@@ -1172,7 +1145,6 @@
                                 "name": "Official Screencasts",
                                 "link": "https://www.youtube.com/c/TailwindLabs/videos"
                             }
-                           
                         ]
                     },
                     {
@@ -1188,7 +1160,6 @@
                                 "name": "Official Documentation",
                                 "link": "https://www.radix-ui.com/docs/primitives/overview/introduction"
                             }
-                           
                         ]
                     },
                     {
@@ -1204,10 +1175,8 @@
                                 "name": "Official GitHub Repository",
                                 "link": "https://github.com/shadcn-ui/ui"
                             }
-                            
                         ]
                     }
-                    
                 ]
             },
             "CSS Architecture": {
@@ -1229,7 +1198,6 @@
                         "name": "SMACSS Official Website",
                         "link": "http://smacss.com/"
                     }
-                   
                 ],
                 "order": 10,
                 "options": [
@@ -1254,10 +1222,8 @@
                                 "name": "BEM Tutorials",
                                 "link": "https://en.bem.info/tutorials/"
                             }
-                           
                         ]
                     }
-                    
                 ]
             },
             "CSS Preprocessors": {
@@ -1271,7 +1237,6 @@
                         "name": "Why Use Preprocessors?",
                         "link": "https://sherocommerce.com/what-is-a-css-preprocessors-why-use-them/"
                     }
-                   
                 ],
                 "order": 11,
                 "options": [
@@ -1296,7 +1261,6 @@
                                 "name": "Sass, BEM, & Responsive Design",
                                 "link": "https://www.youtube.com/watch?v=jfMHA8SqUL4"
                             }
-                            
                         ]
                     },
                     {
@@ -1308,10 +1272,8 @@
                                 "name": "Official Website",
                                 "link": "https://postcss.org/"
                             }
-                            
                         ]
                     }
-                   
                 ]
             },
             "Build Tools": {
@@ -1333,7 +1295,6 @@
                         "name": "Parcel is a zero configuration build tool for the web",
                         "link": "https://parceljs.org/"
                     }
-                   
                 ],
                 "order": 12,
                 "module bundlers": {
@@ -1359,7 +1320,6 @@
                                     "name": "Vite Tutorial Video",
                                     "link": "https://www.youtube.com/watch?v=VAeRhmpcWEQ"
                                 }
-                               
                             ]
                         },
                         {
@@ -1383,7 +1343,6 @@
                                     "name": "What Is ESBuild?",
                                     "link": "https://www.youtube.com/watch?v=zy8vu8cbwf0"
                                 }
-                                
                             ]
                         },
                         {
@@ -1403,7 +1362,6 @@
                                     "name": "A Complete Guide to Webpack 5",
                                     "link": "https://www.valentinog.com/blog/webpack"
                                 }
-                                
                             ]
                         },
                         {
@@ -1419,7 +1377,6 @@
                                     "name": "How to Set Up JavaScript Bundling Using Rollup",
                                     "link": "https://www.youtube.com/watch?v=ICYLOZuFMz8"
                                 }
-                               
                             ]
                         },
                         {
@@ -1435,7 +1392,6 @@
                                     "name": "Using Parcel Bundler with React",
                                     "link": "https://www.youtube.com/watch?v=hCxvp3_o0gM"
                                 }
-                                
                             ]
                         }
                     ]
@@ -1455,10 +1411,8 @@
                                     "name": "Codevolution: npm scripts",
                                     "link": "https://www.youtube.com/watch?v=hHt3oVk3XVk"
                                 }
-                                
                             ]
                         }
-                       
                     ]
                 },
                 "Linters formatters": {
@@ -1476,7 +1430,6 @@
                                     "name": "Why Prettier",
                                     "link": "https://prettier.io/docs/en/why-prettier.html"
                                 }
-                               
                             ]
                         },
                         {
@@ -1496,13 +1449,10 @@
                                     "name": "ESLint Quickstart - find errors automatically",
                                     "link": "https://www.youtube.com/watch?v=qhuFviJn-es"
                                 }
-                                
                             ]
                         }
-                        
                     ]
                 }
-                
             },
             "Testing Your Apps": {
                 "description": "Before delivering your application to users, you need to be sure that your app meets the requirements it was designed for, and that it doesn’t do any weird, unintended things (called ‘bugs’). To accomplish this, we ‘test’ our applications in different ways.Visit the following resources to learn more: ",
@@ -1519,7 +1469,6 @@
                         "name": "Testing React apps with Jest",
                         "link": "https://jestjs.io/docs/tutorial-react"
                     }
-                  
                 ],
                 "order": 13,
                 "options": [
@@ -1532,7 +1481,6 @@
                                 "name": "Vitest Website",
                                 "link": "https://vitest.dev/"
                             }
-                            
                         ]
                     },
                     {
@@ -1544,7 +1492,6 @@
                                 "name": "Jest Website",
                                 "link": "https://jestjs.io/"
                             }
-                            
                         ]
                     },
                     {
@@ -1564,7 +1511,6 @@
                                 "name": "Playwright, a Time-Saving End-to-End Testing Framework",
                                 "link": "https://thenewstack.io/playwright-a-time-saving-end-to-end-testing-framework/"
                             }
-                           
                         ]
                     },
                     {
@@ -1584,48 +1530,44 @@
                                 "name": "Cypress End-to-End Testing",
                                 "link": "https://www.youtube.com/watch?v=7N63cMKosIE"
                             }
-                           
                         ]
                     }
                 ]
             },
-            
-                "Authentication Strategies": {
-                    "description": "Authentication strategies are methods or techniques used to verify the identity of a user or system in order to grant access to a protected resource. There are several different authentication strategies that can be used, including: Basic Authentication, Session Based Authentication, Token Based Authentication, JWT Authentication, OAuth, SSO. You don’t necessarily need to learn all of these from the get-go, but it’s important to know what they are and how they work. This will help you make better decisions when choosing an authentication strategy for your application.",
-                    "order": 14,
-                    "options": [
-                        {
-                            "resources": [
-                                {
-                                    "name": "Basic Authentication",
-                                    "link": "https://roadmap.sh/guides/basic-authentication"
-                                },
-                                {
-                                    "name": "Session Based Authentication",
-                                    "link": "https://roadmap.sh/guides/session-authentication"
-                                },
-                                {
-                                    "name": "Token Based Authentication",
-                                    "link": "https://roadmap.sh/guides/token-authentication"
-                                },
-                                {
-                                    "name": "JWT Authentication",
-                                    "link": "https://roadmap.sh/guides/jwt-authentication"
-                                },
-                                {
-                                    "name": "OAuth",
-                                    "link": "https://roadmap.sh/guides/oauth"
-                                },
-                                {
-                                    "name": "Single Sign-On (SSO)",
-                                    "link": "https://roadmap.sh/guides/sso"
-                                }
-                            ]
-                        }
-                    ]
-                },
-            
-            
+            "Authentication Strategies": {
+                "description": "Authentication strategies are methods or techniques used to verify the identity of a user or system in order to grant access to a protected resource. There are several different authentication strategies that can be used, including: Basic Authentication, Session Based Authentication, Token Based Authentication, JWT Authentication, OAuth, SSO. You don’t necessarily need to learn all of these from the get-go, but it’s important to know what they are and how they work. This will help you make better decisions when choosing an authentication strategy for your application.",
+                "order": 14,
+                "options": [
+                    {
+                        "resources": [
+                            {
+                                "name": "Basic Authentication",
+                                "link": "https://roadmap.sh/guides/basic-authentication"
+                            },
+                            {
+                                "name": "Session Based Authentication",
+                                "link": "https://roadmap.sh/guides/session-authentication"
+                            },
+                            {
+                                "name": "Token Based Authentication",
+                                "link": "https://roadmap.sh/guides/token-authentication"
+                            },
+                            {
+                                "name": "JWT Authentication",
+                                "link": "https://roadmap.sh/guides/jwt-authentication"
+                            },
+                            {
+                                "name": "OAuth",
+                                "link": "https://roadmap.sh/guides/oauth"
+                            },
+                            {
+                                "name": "Single Sign-On (SSO)",
+                                "link": "https://roadmap.sh/guides/sso"
+                            }
+                        ]
+                    }
+                ]
+            },
             "Web Security Basics": {
                 "recommendation-type": "not strict",
                 "description": "Web security refers to the protective measures taken by the developers to protect the web applications from threats that could affect the business.Visit the following resources to learn more:",
@@ -1682,7 +1624,6 @@
                                 "name": "Understanding CORS",
                                 "link": "https://rbika.com/blog/understanding-cors"
                             }
-                            
                         ]
                     },
                     {
@@ -1714,7 +1655,6 @@
                                 "name": "HTTPS — Stories from the field",
                                 "link": "https://www.youtube.com/watch?v=GoXgl9r0Kjk"
                             }
-                            
                         ]
                     },
                     {
@@ -1734,7 +1674,6 @@
                                 "name": "Web.dev - Content Security Policy (CSP)",
                                 "link": "https://web.dev/csp/"
                             }
-                           
                         ]
                     },
                     {
@@ -1762,7 +1701,6 @@
                                 "name": "OWASP Top 10: A Guide to the Worst Software Vulnerabilities",
                                 "link": "https://thenewstack.io/owasp-top-10-a-guide-to-the-worst-software-vulnerabilities/"
                             }
-                          
                         ]
                     }
                 ]
@@ -1783,7 +1721,6 @@
                         "name": "Web Components Crash Course",
                         "link": "https://www.youtube.com/watch?v=PCWaFLy3VUo"
                     }
-                    
                 ],
                 "order": 16,
                 "options": [
@@ -1796,7 +1733,6 @@
                                 "name": "Using templates and slots | MDN web docs",
                                 "link": "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots"
                             }
-                            
                         ]
                     },
                     {
@@ -1808,7 +1744,6 @@
                                 "name": "Using custom elements | MDN web docs",
                                 "link": "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements"
                             }
-                            
                         ]
                     },
                     {
@@ -1820,10 +1755,8 @@
                                 "name": "Using shadow DOM | MDN web docs",
                                 "link": "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM"
                             }
-                            
                         ]
                     }
-                   
                 ]
             },
             "Type Checkers": {
@@ -1874,7 +1807,6 @@
                             }
                         ]
                     }
-                    
                 ]
             },
             "Server Side Rendering (ssr)": {
@@ -1901,7 +1833,6 @@
                         "name": "What is server-side rendering for web development?",
                         "link": "https://www.youtube.com/watch?v=okvg3MRAPs0"
                     }
-                    
                 ],
                 "order": 18,
                 "options": [
@@ -1938,7 +1869,6 @@
                                 "name": "Understanding Reacts UI Rendering Process",
                                 "link": "https://www.youtube.com/watch?v=i793Qm6kv3U"
                             },
-                            
                             {
                                 "name": "Next.js",
                                 "recommendation-type": "opinion",
@@ -1964,7 +1894,6 @@
                                         "name": "Next.js for Beginners - freeCodeCamp",
                                         "link": "https://youtu.be/1WmNXEVia8I"
                                     }
-                                    
                                 ]
                             },
                             {
@@ -1980,7 +1909,6 @@
                                         "name": "Official Docs for Getting Started",
                                         "link": "https://remix.run/docs/en/v1#getting-started"
                                     }
-                                   
                                 ]
                             }
                         ]
@@ -1994,7 +1922,6 @@
                                 "name": "Official - Getting started with Angular",
                                 "link": "https://angular.io/start"
                             },
-                           
                             {
                                 "name": "Universal",
                                 "recommendation-type": "Pick this or purple",
@@ -2004,7 +1931,6 @@
                                         "name": "Server-side rendering (SSR) with Angular Universal",
                                         "link": "https://angular.io/guide/universal"
                                     }
-                                    
                                 ]
                             }
                         ]
@@ -2034,7 +1960,6 @@
                                 "name": "Meet Vue.js, the Flexible JavaScript Framework",
                                 "link": "https://thenewstack.io/meet-vue-js-flexible-javascript-framework/"
                             },
-                            
                             {
                                 "name": "Nuxt.js",
                                 "recommendation-type": "Pick this or purple",
@@ -2060,7 +1985,6 @@
                                         "name": "Nuxt.js Fundamentals",
                                         "link": "https://vueschool.io/courses/nuxtjs-fundamentals"
                                     }
-                                   
                                 ]
                             }
                         ]
@@ -2090,7 +2014,6 @@
                                 "name": "Svelte and the Future of Frontend Development",
                                 "link": "https://thenewstack.io/svelte-and-the-future-of-front-end-development/"
                             },
-                           
                             {
                                 "name": "Svelte Kit",
                                 "recommendation-type": "Pick this or purple",
@@ -2104,7 +2027,6 @@
                                         "name": "Official Svelte Kit Docs",
                                         "link": "https://kit.svelte.dev/docs/introduction"
                                     }
-                                   
                                 ]
                             }
                         ]
@@ -2139,7 +2061,6 @@
                         "name": "How to Execute a Simple GraphQL Query",
                         "link": "https://thenewstack.io/how-to-execute-a-simple-graphql-query/"
                     }
-                    
                 ],
                 "order": 19,
                 "options": [
@@ -2164,7 +2085,6 @@
                                 "name": "GraphQL With React Tutorial - Apollo Client",
                                 "link": "https://www.youtube.com/watch?v=YyUWW04HwKY"
                             }
-                           
                         ]
                     },
                     {
@@ -2180,10 +2100,8 @@
                                 "name": "Introduction to Relay modern",
                                 "link": "https://relay.dev/docs/"
                             }
-                            
                         ]
                     }
-                   
                 ]
             },
             "Static Site Generators": {
@@ -2210,7 +2128,6 @@
                         "name": "Get Back to Basics With Static Website Generators",
                         "link": "https://thenewstack.io/get-back-basics-static-website-generators/"
                     }
-                    
                 ],
                 "order": 20,
                 "options": [
@@ -2227,7 +2144,6 @@
                                 "name": "Official Astro Docs",
                                 "link": "https://docs.astro.build/"
                             }
-                            
                         ]
                     },
                     {
@@ -2247,7 +2163,6 @@
                                 "name": "Introduction to Eleventy",
                                 "link": "https://www.youtube.com/watch?v=-dM6AmNmMFA"
                             }
-                            
                         ]
                     },
                     {
@@ -2275,7 +2190,6 @@
                                 "name": "Next.js for Beginners - freeCodeCamp",
                                 "link": "https://youtu.be/1WmNXEVia8I"
                             }
-                            
                         ]
                     },
                     {
@@ -2291,7 +2205,6 @@
                                 "name": "Official Docs for Getting Started",
                                 "link": "https://remix.run/docs/en/v1#getting-started"
                             }
-                           
                         ]
                     },
                     {
@@ -2311,7 +2224,6 @@
                                 "name": "Introduction to VuePress",
                                 "link": "https://www.youtube.com/watch?v=lIv1ItUzktc"
                             }
-                           
                         ]
                     },
                     {
@@ -2327,7 +2239,6 @@
                                 "name": "Jekyll Docs",
                                 "link": "https://jekyllrb.com/docs/"
                             }
-                          
                         ]
                     },
                     {
@@ -2351,10 +2262,8 @@
                                 "name": "Tutorial: Use Hugo to Generate a Static Website",
                                 "link": "https://thenewstack.io/tutorial-use-hugo-to-generate-a-static-website/"
                             }
-                           
                         ]
                     },
-                     
                     {
                         "name": "Nuxt.js",
                         "recommendation-type": "Pick this or purple",
@@ -2376,7 +2285,6 @@
                                 "name": "Vue.js for Beginners - Full Course at freeCodeCamp YouTube Channel",
                                 "link": "https://www.youtube.com/watch?v=FXpIoQ_rT_c"
                             }
-                            
                         ]
                     }
                 ]
@@ -2401,7 +2309,6 @@
                         "name": "Build a Progressive Web App",
                         "link": "https://www.youtube.com/watch?v=sFsRylCQblw"
                     }
-                   
                 ],
                 "order": 21,
                 "options": [
@@ -2416,7 +2323,6 @@
                             }
                         ]
                     },
-                    
                     {
                         "name": "RAIL Model",
                         "recommendation-type": "opinion",
@@ -2428,7 +2334,6 @@
                             }
                         ]
                     },
-                    
                     {
                         "name": "Performance Metrics",
                         "recommendation-type": "opinion",
@@ -2448,7 +2353,6 @@
                             }
                         ]
                     },
-                    
                     {
                         "name": "Using Lighthouse",
                         "recommendation-type": "opinion",
@@ -2464,8 +2368,6 @@
                             }
                         ]
                     },
-                    
-                    
                     {
                         "name": "Using DevTools",
                         "recommendation-type": "opinion",
@@ -2477,7 +2379,6 @@
                             }
                         ]
                     },
-                    
                     {
                         "name": "Storage",
                         "recommendation-type": "opinion",
@@ -2489,7 +2390,6 @@
                             }
                         ]
                     },
-                    
                     {
                         "name": "Web Sockets",
                         "recommendation-type": "opinion",
@@ -2499,7 +2399,6 @@
                                 "name": "Web Sockets - MDN",
                                 "link": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API"
                             }
-                           
                         ]
                     },
                     {
@@ -2513,7 +2412,6 @@
                             }
                         ]
                     },
-                    
                     {
                         "name": "Service Workers",
                         "recommendation-type": "opinion",
@@ -2534,8 +2432,6 @@
                                 "name": "Geolocation API - MDN",
                                 "link": "https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API/"
                             }
-                            
-                           
                         ]
                     },
                     {
@@ -2551,7 +2447,6 @@
                                 "name": "Create React Notifications With the Web Notifications API",
                                 "link": "https://www.youtube.com/watch?v=mfrppinfmz0"
                             }
-                            
                         ]
                     },
                     {
@@ -2563,8 +2458,6 @@
                                 "name": "Device Orientation API - MDN",
                                 "link": "https://developer.mozilla.org/en-US/docs/Web/API/Device_orientation_events"
                             }
-                            
-                           
                         ]
                     },
                     {
@@ -2576,8 +2469,6 @@
                                 "name": "Payment Request API - MDN",
                                 "link": "https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API"
                             }
-                           
-                           
                         ]
                     },
                     {
@@ -2589,11 +2480,8 @@
                                 "name": "Credential Management API - MDN",
                                 "link": "https://developer.mozilla.org/en-US/docs/Web/API/Credential_Management_API"
                             }
-                            
-                           
                         ]
                     }
-                    
                 ]
             },
             "Mobile Applications": {
@@ -2616,7 +2504,6 @@
                         "name": "NativeScript",
                         "link": "https://nativescript.org/"
                     }
-                   
                 ],
                 "order": 22,
                 "options": [
@@ -2641,7 +2528,6 @@
                                 "name": "Learn React Native by CodeAcademy",
                                 "link": "https://www.codecademy.com/learn/learn-react-native"
                             }
-                          
                         ]
                     },
                     {
@@ -2677,7 +2563,6 @@
                                 "name": "12 Ways Flutter Streamlines App Development",
                                 "link": "https://thenewstack.io/12-ways-flutter-streamlines-app-development/"
                             }
-                            
                         ]
                     },
                     {
@@ -2697,7 +2582,6 @@
                                 "name": "Ionic Framework 4 - Full Tutorial",
                                 "link": "https://www.youtube.com/watch?v=AvbuIRg8_Jg"
                             }
-                            
                         ]
                     },
                     {
@@ -2717,7 +2601,6 @@
                                 "name": "NativeScript Tutorial for Beginners",
                                 "link": "https://www.youtube.com/watch?v=DcCSq2Y9bow"
                             }
-                           
                         ]
                     }
                 ]
@@ -2742,7 +2625,6 @@
                         "name": "Meteor",
                         "link": "https://www.meteor.com/"
                     }
-                   
                 ],
                 "order": 23,
                 "options": [
@@ -2763,7 +2645,6 @@
                                 "name": "Create a Desktop App With JavaScript & Electron",
                                 "link": "https://youtu.be/ml743nrkmhw"
                             }
-                            
                         ]
                     },
                     {
@@ -2783,7 +2664,6 @@
                                 "name": "How Tauri Turns Web Designs into Compact Native Apps",
                                 "link": "https://thenewstack.io/how-tauri-turns-web-designs-into-compact-native-apps/"
                             }
-                            
                         ]
                     },
                     {
@@ -2823,10 +2703,8 @@
                                 "name": "12 Ways Flutter Streamlines App Development",
                                 "link": "https://thenewstack.io/12-ways-flutter-streamlines-app-development/"
                             }
-                            
                         ]
                     }
-                    
                 ]
             },
             "Bonus Content": {
@@ -2845,7 +2723,6 @@
                 "IDLs": "Not every developer will have a need for understanding IDLs but there’s a good argument for having more JavaScript developers aware of their existence and hopefully the ability for making use of them as well.",
                 "WebAssembly": "WebAssembly is a comparatively new technology that allows you to run code written in languages other than JavaScript on the web. It’s a low-level assembly-like language with a compact binary format that runs with near-native performance and provides languages such as C/C++ and Rust with a compilation target so that they can run on the web."
             }
-            
         }
     }
 }
