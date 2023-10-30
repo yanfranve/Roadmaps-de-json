@@ -128,9 +128,7 @@
             },
             "Behavior Change Strategies": {
                 "description": "Behavior change strategies are techniques that aim to help users adopt new behaviors or break existing ones to achieve specific goals, such as healthier lifestyles or improved productivity. In UX design, these strategies are applied to design elements and features within digital products or services to motivate and support users in making lasting changes in their actions.\n\nHere are some key behavior change strategies often employed in UX design:\n\n- Goal Setting: Asking users to set specific, measurable, achievable, relevant, and time-bound (SMART) goals can help them focus their efforts and track their progress.\n- Feedback and Rewards: Providing users with real-time feedback on their progress and rewarding them with positive reinforcement (e.g., badges or points) can increase motivation and engagement.\n- Social Comparisons: Facilitating comparisons between users or groups can tap into social influence and normative pressure, encouraging behavior change through competition or collaboration.\n- Reminders and Prompts: Sending timely reminders or prompts can help reinforce desired behaviors by making them more salient and top of mind.\n- Choice Architecture: Structuring the presentation of options, defaults, and information can nudge users towards better decisions without restricting their freedom of choice.\n- Modeling and Stories: Demonstrating desired behaviors through role models, cases, testimonials, or stories can provide inspiration and social proof that change is possible and desirable.\n- Progressive Disclosure: Gradually introducing advanced features, content, or challenges can help users build their skills and confidence, preventing them from feeling overwhelmed or disengaged.\n- Personalization and Tailoring: Customizing content or recommendations based on a user's preferences, history, or characteristics can make interventions more relevant and effective.\n\nBy incorporating these behavior change strategies in your UX design, you improve the chances of users successfully adopting the desired behaviors, which can ultimately lead to a more positive and effective user experience.",
-                "resources": [
-                   
-                ],
+                "resources": [],
                 "order": 2,
                 "Classifying Behavior": {
                     "options": [
@@ -153,46 +151,26 @@
                             "name": "Nir Eyal’s Hook Model",
                             "recommendation-type": "opinion",
                             "description": "The Hook Model is a concept developed by Nir Eyal, a writer and entrepreneur. It is a framework designed to help create habit-forming products and services by engaging users on a deeper level. Eyal’s model is based on four key components, which are meant to encourage user interactions and repeat usage, ultimately leading to user addiction. These components are:\n\nTrigger: Triggers are cues that prompt users to take action, either through external stimuli or internal motivations. External triggers can be notifications, advertisements, or even recommendations from friends, while internal triggers stem from users’ thoughts or emotions, such as boredom or a need for social connection.\nAction: The action is the simple task the user performs in response to the trigger. The action will depend on the context and product, but generally, it should be easy to do and have a clear connection to the trigger. An example might be swiping left or right on a dating app after receiving a notification.\nVariable Reward: Rewarding users for taking action is an essential part of the Hook Model. Variable rewards refer to the idea that users receive varying levels of gratification for their actions - this unpredictability keeps them engaged and curious. Social media platforms are excellent examples, as users receive likes, comments, or retweets randomly, prompting them to keep interacting to trigger more rewards.\nInvestment: This component focuses on users investing time or effort into the product, which increases the likelihood of future engagement. An investment might include creating a profile, adding friends, or curating content. Users often feel a sense of ownership after investing in a product, making them more likely to return and continue using it.\n\nBy incorporating these components into your UX design, you can create experiences that encourage users to develop habits and become more attached to your product. Keep in mind, however, that 'addiction' is not the primary goal - rather, it’s about promoting genuine value and enhancing users’ lives in a positive manner.",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ]
+                            "resources": []
                         },
                         {
                             "name": "Cue Routine Reward Model",
                             "recommendation-type": "opinion",
                             "description": "The Cue-Routine-Reward Model, also known as the Habit Loop, is a neurological framework that describes how habits are formed and maintained in our brains. By understanding this model, UX designers can create more engaging and addictive user experiences, encouraging users to come back to the product repeatedly. The model consists of three key components:\n\nCue: A stimulus, or trigger, that prompts your brain to start a habit. This can be anything from a notification on your phone to a daily routine or a specific location.\nExample: Receiving an email notification (Cue) prompts you to check your inbox.\nRoutine: The actual habit or default action you take in response to the cue. This is typically an automated behavior that occurs without much conscious thought.\nExample: After receiving the email notification (Cue), you open your email app and read the message (Routine).\nReward: The satisfaction or positive reinforcement your brain gets from completing the routine. This release of dopamine in the brain helps to strengthen and reinforce the habit over time.\nExample: Reading the email (Routine) gives you a sense of accomplishment or connection with the sender, resulting in a positive emotion (Reward).\n\nTo apply the Cue-Routine-Reward model in UX design:\n\nIdentify potential cues that can act as triggers for users to engage with your product. This can include push notifications, visual prompts, or personalized messages.\nDesign seamless routines that are intuitive, user-friendly, and make it easy for users to complete tasks within the product. This can involve anything from clear calls-to-action, minimalist design, or familiar design patterns.\nEnsure a meaningful reward is provided to users so they feel a sense of accomplishment or receive some form of positive feedback. This can include personalized content, social validation, or progress tracking.\n\nBy incorporating the Cue-Routine-Reward model into your UX design, you can tap into users’ natural habit-forming tendencies and ultimately create more addictive, engaging experiences.",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ]
+                            "resources": []
                         }
                     ]
                 },
                 "Changing User Behavior ": {
                     "Support Conscious Action": {
                         "description": "The process of changing user behavior involves understanding the factors that influence the way people interact with your product, and applying strategies to help users adopt new, desirable behaviors. The goal is to make users feel comfortable and confident while using your product, ultimately creating a more enjoyable and effective user experience.\n\nThere are several key principles and strategies for changing user behavior in UX design:\n\n1. Understand the user’s current behavior: To effectively change user behavior, you first need to understand their current habits and patterns. Conduct user research through interviews, surveys, and observation to identify their pain points and motivations.\n\n2. Set clear goals: Define specific, measurable, attainable, and relevant goals for the behavior change you want to achieve. This might include increasing the number of completed tasks or reducing the time taken to complete tasks.\n\n3. Leverage behavioral psychology: Utilize theories and models from behavioral psychology, such as the Fogg Behavior Model or the Theory of Planned Behavior, to design interventions that target key aspects of user behavior. These models can help explain the relationship between different factors that influence behavior, such as motivation, ability, and triggers.\n\n4. Design for simplicity: Make it as easy as possible for users to adopt the desired behavior. Reduce barriers, streamline processes, and minimize the cognitive load required to perform tasks.\n\n5. Provide feedback and reinforcement: Help users understand the impact of their actions by providing immediate, clear, and specific feedback. Positive reinforcement, such as rewards or praise, can also encourage users to continue engaging in the desired behavior.\n\n6. Leverage social influence: People are often influenced by the behaviors of others, so consider incorporating elements of social proof, competition, or collaboration into your UX design.\n\n7. Personalize the experience: Tailor your onboarding process, messaging, and content to the individual preferences and learning styles of your users. This can improve engagement and increase the likelihood of behavior change.\n\n8. Iterate and evaluate: Continuously test and refine your design to improve the effectiveness of your behavior change strategies. Evaluate the success of your interventions by measuring changes in user behavior and adjusting your approach accordingly.\n\nBy applying these strategies in your UX design, you can change user behavior and drive positive outcomes for your users and your product.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ],
+                        "resources": [],
                         "options": [
                             {
                                 "name": "Encouraging Users to Think About Their Actions in UX Design",
                                 "recommendation-type": "Pick this or purple",
                                 "description": "To successfully change user behavior, it’s crucial to encourage users to think about their actions consciously. This can be achieved by employing various strategies in your UX design. Following are some effective methods to help users think about their actions:\n\n1. Incentives: Offer rewards or incentives to the users for completing specific actions, which will make them more likely to think about their actions and participate actively in the process.\n\n2. Progress indicators: Display clear progress indicators to show the user where they are in the process and how far they’ve come. This will help the user evaluate the outcomes of their actions and motivate them to complete the process.\n\n3. Feedback: Providing users with real-time feedback on their actions is a great way to make them more conscious of their actions. You can use notifications, messages, or visual cues to inform users about the positive or negative results of their actions.\n\n4. Guidance: Offer guidance and support to users as they engage with your interface. Through onboarding tutorials, tooltips, or context-based instructions, help users understand the effects of their actions, why they are relevant, and how to use them efficiently.\n\n5. Confirmation: Ask users for confirmation before they proceed with a critical action that may have significant consequences. This pause will compel them to think about their choice and assess the potential impact of their action.\n\n6. Make it personal: Connect the outcomes of the user’s actions to their personal goals or aspirations. Users are more likely to think about their actions if they perceive the effects in the context of their own life.\n\nBy incorporating these techniques within your UX design, you will encourage users to actively think about their actions, leading to more mindful engagement with your product, informed decision-making, and improved user satisfaction.",
-                                "resources": [
-                                    {
-                                        "name": "",
-                                        "link": ""
-                                    }
-                                ]
+                                "resources": []
                             },
                             {
                                 "name": "Educate and Encourage Users in UX Design",
@@ -209,67 +187,41 @@
                     },
                     "Cheating": {
                         "description": "Cheating, in the context of behavior change strategies, refers to creating shortcuts and loopholes within a designed system, in order to overcome any obstacles users may face while achieving their goals. As a UX designer, you need to understand that users often look for the easiest path to reach their objectives, even if it means bending or breaking the established rules.\n\nWhen to use Cheating:\nOvercoming limitations: Allow users to overcome constraints imposed by the system or environment when these limitations prevent them from moving forward in a meaningful way.\nIncreasing motivation: When users feel stuck or overwhelmed, cheating mechanisms can help them feel a sense of progress or achievement, thus motivating them to keep going.\nEnhancing user experience: Sometimes, cheating can create fun and engaging experiences, turning ordinary tasks into enjoyable challenges that users might enjoy exploring and exploiting.\nDesigning for Cheating:\nWhen designing cheat mechanisms in your UX, consider the following best practices:\nBalance: Cheating should provide an alternative solution without compromising the overall challenge or value offered by the system. Strive for a balance between making tasks easier and avoiding excessive exploitation that could lead to unearned rewards or trivializing the user’s experience.\nLimited Access: Cheating should not become the default behavior or the most commonly used strategy in your design. Limit access or opportunities to cheat to avoid undermining the user’s sense of accomplishment or alienating non-cheating users.\nDocumentation and communication: If permitting cheating is an intentional design choice, communicate this to your users explicitly, so they don’t feel guilty about exploiting loopholes. Making users aware of cheat options can help you foster an environment where users knowingly bend the rules, thus adding an interesting dynamic to the overall user experience.\nMonitoring: Constantly monitor how users are interacting with your design and how prevalent cheating behavior is. If cheating becomes too widespread or harmful, consider tweaking the system and addressing any unintended consequences.\nBy carefully designing and implementing cheating strategies, you can effectively enhance the user experience, while still maintaining the integrity of your system and the motivation of your users. Remember, the goal is to make the experience enjoyable and rewarding, not to provide users with a way to cheat their way to success.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ],
+                        "resources": [],
                         "options": [
                             {
                                 "name": "Defaulting",
                                 "recommendation-type": "opinion",
                                 "description": "Defaulting in UX design refers to the practice of pre-selecting options or settings for users based on what is likely to be the most common or preferred choice. The goal is to simplify the decision-making process and minimize the effort required for users to complete a task or interact with an interface.",
-                                "resources": [
-                                    {
-                                        "name": "",
-                                        "link": ""
-                                    }
-                                ]
+                                "resources": []
                             },
                             {
                                 "name": "Make it Incidental",
                                 "recommendation-type": "opinion",
                                 "description": "In UX design, making something incidental refers to subtly introducing a feature or element while the user is engaged in a different, primary task. The intention behind this approach is to avoid interrupting the user's flow, prevent them from feeling overwhelmed, and make the discovery of that feature feel more natural and serendipitous.",
-                                "resources": [
-                                    {
-                                        "name": "",
-                                        "link": ""
-                                    }
-                                ]
+                                "resources": []
                             },
                             {
                                 "name": "Automate the Act of Repetition",
                                 "recommendation-type": "opinion",
                                 "description": "As a UX designer, one of your main goals is to simplify and streamline user interactions. Often, users are required to perform repetitive tasks, which can lead to frustration and decrease efficiency. To enhance the user experience and ensure smooth sailing, it's essential to reduce or eliminate the need for repeated actions by automating repetitive tasks wherever possible.",
-                                "resources": [
-                                    {
-                                        "name": "",
-                                        "link": ""
-                                    }
-                                ]
+                                "resources": []
                             }
                         ]
                     },
                     "Make or Change Habits": {
                         "description": "Making or changing habits is an essential aspect of UX design that focuses on helping users adopt new behaviors and patterns. In order to create a lasting impact, designers need to implement strategies that will facilitate the formation or modification of habits for users.",
-                        "resources": [
-                            
-                        ],
+                        "resources": [],
                         "options": [
                             {
                                 "name": "Help User Avoiding the Cue",
                                 "description": "In UX design, it’s important to understand the existing behaviors and habits of your users. One aspect of this process is helping users avoid the cues that trigger unwanted or unnecessary actions. Cues are the signals or prompts that lead users to perform specific behaviors. By identifying and mitigating these cues, you can effectively guide users to have a more streamlined and efficient user experience.",
-                                "resources": [
-                                   
-                                ]
+                                "resources": []
                             },
                             {
                                 "name": "Replace the Routine",
                                 "description": "In the UX design process, understanding and working with existing user behavior is crucial. One key aspect of this is the concept of “replace the routine.” This involves observing and analyzing the current habits and routines of your users, and then designing your product around it.",
-                                "resources": [
-                                    
-                                ]
+                                "resources": []
                             },
                             {
                                 "name": "Use Consciousness to Interfere",
@@ -284,24 +236,12 @@
                             {
                                 "name": "Mindfulness to Avoid Acting on the Cue",
                                 "description": "Mindfulness is a powerful technique that can help designers and users alike to avoid acting on the cues that trigger unwanted behaviors. Mindfulness practices can strengthen one’s self-awareness and self-regulation skills, allowing individuals to recognize cues and make more conscious decisions about their actions.",
-                                "resources": [
-                                  
-                                ]
-                            },
-                            {
-                                "name": "",
-                                "recommendation-type": "not strict",
-                                "description": "",
-                                "resources": [
-                                   
-                                ]
+                                "resources": []
                             },
                             {
                                 "name": "Crowd Out Old Habit with New Behavior",
                                 "description": "One of the most effective ways to change users’ existing behavior and improve their experience with your product is by replacing old habits with new ones. This method involves identifying the actions and habits that users currently perform and finding ways to replace them with more efficient, healthy, or enjoyable behaviors.",
-                                "resources": [
-                                   
-                                ]
+                                "resources": []
                             }
                         ]
                     }
@@ -309,9 +249,7 @@
             },
             "Understanding the Product": {
                 "description": "Before diving into UX design, it’s crucial to have a thorough understanding of the product you’re working on. This doesn’t only mean understanding its core features and functionalities, but also being aware of the underlying business goals and the target audience.",
-                "resources": [
-                  
-                ],
+                "resources": [],
                 "order": 3,
                 "options": [
                     {
@@ -345,12 +283,7 @@
                         "name": "Lean Canvas",
                         "recommendation-type": "opinion",
                         "description": "Lean Canvas is a streamlined, single-page approach to visualizing the essential components of a business model. It was developed by Ash Maurya as an adaptation of the Business Model Canvas, with a focus on helping startups and entrepreneurs quickly develop and communicate their business ideas. Lean Canvas helps you define your Unique Value Proposition (UVP), identify your target customers, and outline your strategy. Let’s go through its key components:\nProblem\nStart by identifying the main problems your product aims to solve. Be specific, and try to focus on the most pressing issues faced by your target customers.\n\nCustomer Segments\nDefine your target audience. Be as specific as possible, describing the types of customers who would benefit most from your product or service\n\nUnique Value Proposition (UVP)\nClearly articulate the unique value your product or service offers to your target customers. Your UVP should be distinctive and competitive, differentiating you from other solutions in the market.\n\nSolution\nList the key features, functionalities, or aspects of your product that address the identified problems, and align with your UVP.\n\nChannels\nOutline the various methods through which you plan to reach your target customers, such as social media, search engine optimization (SEO), email campaigns, or paid advertising.\n\nRevenue Streams\nIdentify the ways you plan to generate income from your product or service. This could include sales, subscriptions, sponsorships, affiliate partnerships, or other revenue-generating channels.\n\nCost Structure\nList your main costs and expenses associated with building, launching, and maintaining your product, including development, marketing, operations, and support.\n\nKey Metrics\nDetermine the indicators you’ll use to track your performance and gauge the success of your product. Metrics could include sales, user engagement, customer satisfaction, or any other relevant success indicators.\n\nUnfair Advantage\nIdentify and describe any unfair advantages your product or business may have over your competitors. This could include unique expertise, proprietary technology, or strategic partnerships.\nBy completing a Lean Canvas, you’ll have a clear and concise overview of your business model, allowing you to refine your concept, focus on what matters most, and communicate your vision to team members, investors, and customers. It’s a powerful tool that can be an excellent starting point for any entrepreneur or startup looking to create a successful UX design.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Business Model Inspirator",
