@@ -1,0 +1,451 @@
+{
+    "Skill": {
+        "Angular": {
+            "Learn Typescript Basics": {
+                "description": "TypeScript extends JavaScript, providing a better developer experience. The benefits of using TypeScript over JavaScript include static typing, object-oriented programming, compile-time checks, code editor support, and the ability to use existing packages.",
+                "resources": [
+                    {
+                        "name": "linguinecode - Reasons to use TypeScript",
+                        "link": "URL_de_Razones_para_usar_TypeScript_de_linguinecode"
+                    },
+                    {
+                        "name": "Codemotion - Reasons to use TypeScript",
+                        "link": "URL_de_Razones_para_usar_TypeScript_de_Codemotion"
+                    }
+                ],
+                "order": 1,
+                "options": [
+                    {
+                        "name": "Structural Typing",
+                        "recommendation-type": "opinion",
+                        "description": "Type compatibility in TypeScript is based on structural subtyping. Structural typing is a way of relating types based solely on their members. This is in contrast with nominal typing. TypeScript’s structural type system was designed based on how JavaScript code is typically written.",
+                        "resources": [
+                            {
+                                "name": "Structural typings — Medium",
+                                "link": "URL_de_tipos_estructurales_en_Medium"
+                            },
+                            {
+                                "name": "Structural typings — Typescriptlang",
+                                "link": "URL_de_tipos_estructurales_en_Typescriptlang"
+                            },
+                            {
+                                "name": "Structural typing video for Beginners",
+                                "link": "URL_de_video_de_tipado_estructural_para_principiantes"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Type Inference",
+                        "recommendation-type": "opinion",
+                        "description": "In TypeScript, type inference is used to provide type information when there is no explicit type annotation. The type of a variable is inferred based on its value. Type inference occurs when variables and members are initialized, parameter default values are set, and function return types are determined.",
+                        "resources": [
+                            {
+                                "name": "Type Inference - typescriptlang",
+                                "link": "URL_de_Inferencia_de_tipos_en_typescriptlang"
+                            },
+                            {
+                                "name": "Type Inference video for Beginners",
+                                "link": "URL_de_video_de_Inferencia_de_tipos_para_principiantes"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Union Types",
+                        "recommendation-type": "opinion",
+                        "description": "In TypeScript, you can define a variable that can have multiple types of values. TypeScript allows you to combine different data types in a single type, known as a union type. Union types are a powerful way to express a variable with multiple types. Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "Union Types - typescriptlang",
+                                "link": "URL_de_Tipos_de_unión_en_typescriptlang"
+                            },
+                            {
+                                "name": "Union Type video for Beginners",
+                                "link": "URL_de_video_de_Tipos_de_unión_para_principiantes"
+                            },
+                            {
+                                "name": "Union Types - typescriptlang",
+                                "link": "URL_de_Tipos_de_unión_en_typescriptlang"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Builtin Types",
+                        "recommendation-type": "opinion",
+                        "description": "The Builtin types represent the different types of values supported by the language. The builtin types check the validity of the supplied values before they are stored or manipulated by the program. This ensures that the code behaves as expected and allows for richer code hinting and automated documentation.",
+                        "resources": [
+                            {
+                                "name": "TypeScript Types - Tutorialspoint",
+                                "link": "URL_de_Tipos_de_TypeScript_en_Tutorialspoint"
+                            },
+                            {
+                                "name": "Builtin Type video for Beginners",
+                                "link": "URL_de_video_de_Tipos_builtin_para_principiantes"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Type Guard",
+                        "recommendation-type": "opinion",
+                        "description": "A type guard is a TypeScript technique used to get information about the type of a variable, usually within a conditional block. Type guards are regular functions that return a boolean, taking a type and telling TypeScript if it can be narrowed down to something more specific. TypeScript uses built-in JavaScript operators like typeof, instanceof, and the in operator to determine type information. Type guards are typically used for narrowing a type and are similar to feature detection.",
+                        "resources": [
+                            {
+                                "name": "Types Guards - Blog",
+                                "link": "URL_de_Tipos_Guards_en_Blog"
+                            },
+                            {
+                                "name": "TypeScript Type Guards Explained",
+                                "link": "URL_de_Explicación_de_Tipos_Guards_en_TypeScript"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Learn RxJS Basics": {
+                "description": "Reactive Extensions for JavaScript, or RxJS, is a reactive library used to implement reactive programming to deal with async implementation, callbacks, and event-based programs. The reactive paradigm can be used in many different languages through the use of reactive libraries. It can be used in your browser or with Node.js.",
+                "resources": [
+                    {
+                        "name": "RxJS Documentation",
+                        "link": "URL_de_documentación_de_RxJS"
+                    }
+                ],
+                "order": 1,
+                "options": [
+                    {
+                        "name": "Observer Pattern",
+                        "recommendation-type": "opinion",
+                        "description": "The observer pattern is a software design pattern in which an object, named the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. Angular uses the Observer pattern, and you can learn more about it by exploring resources on Angular and observables.",
+                        "resources": [
+                            {
+                                "name": "Angular and Observable",
+                                "link": "URL_de_Angular_y_Observable"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Observable lifecycle",
+                        "recommendation-type": "opinion",
+                        "description": "An observable is a function that acts as a wrapper for a data stream. It is useless until an observer subscribes to it. Learn more about the life cycle of an observable, including creation, subscription, execution, and destruction, by exploring the provided resources.",
+                        "resources": [
+                            {
+                                "name": "Understanding Observable LifeCycle",
+                                "link": "URL_de_Understanding_Observable_LifeCycle"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Marble Diagrams",
+                        "recommendation-type": "opinion",
+                        "description": "Marble testing allows you to test asynchronous RxJS code synchronously and step-by-step with the help of RxJS TestScheduler test utility and using virtual time steps. Explore the provided resources to learn more about this testing technique.",
+                        "resources": [
+                            {
+                                "name": "Angular Marble Testing: A Brief Introduction",
+                                "link": "URL_de_Introducción_breve_a_la_prueba_con_marbete_en_Angular"
+                            },
+                            {
+                                "name": "Understanding Marble Diagrams for Reactive Streams",
+                                "link": "URL_de_Entendiendo_los_diagramas_de_mármoles_para_flujos_reactivos"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "RxJS vs Promises",
+                        "recommendation-type": "opinion",
+                        "description": "In a nutshell, the main differences between the Promise and the Observable are highlighted. Explore the provided resources to learn more about why you might choose RxJS over Promises.",
+                        "resources": [
+                            {
+                                "name": "Why RxJS? RxJS vs Promises",
+                                "link": "URL_de_Por_qué_RxJS_RxJS_vs_Promises"
+                            }
+                        ]
+                    },
+                    {
+                        "Operators": {
+                            "description": "RxJS is mostly useful for its operators, even though the Observable is the foundation. Operators are the essential pieces that allow complex asynchronous code to be easily composed in a declarative manner. Learn about pipeable operators and creation operators by exploring the provided resources.",
+                            "resources": [
+                                {
+                                    "name": "List of creation operators",
+                                    "link": "URL_de_Lista_de_operadores_de_creación"
+                                },
+                                {
+                                    "name": "Full RxJS Operators Documentation",
+                                    "link": "URL_de_Documentación_completa_de_los_operadores_de_RxJS"
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "name": "Filtering",
+                                    "recommendation-type": "opinion",
+                                    "description": "RxJS provides a variety of filtering operators that you can use to filter and transform the data in a stream. You can use these operators in combination with other RxJS operators to create powerful and efficient data processing pipelines.",
+                                    "resources": [
+                                        {
+                                            "name": "Understanding RxJS Operators",
+                                            "link": "URL_de_Entendiendo_los_operadores_de_RxJS"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Rate limiting",
+                                    "recommendation-type": "opinion",
+                                    "description": "Rate limiting in RxJS refers to the practice of restricting the rate at which events or data can be emitted from an observable. Explore the provided resources to learn more about rate limiting and the operators involved.",
+                                    "resources": [
+                                        {
+                                            "name": "throttleTime",
+                                            "link": "URL_de_throttleTime"
+                                        },
+                                        {
+                                            "name": "sampleTime",
+                                            "link": "URL_de_sampleTime"
+                                        },
+                                        {
+                                            "name": "auditTime",
+                                            "link": "URL_de_auditTime"
+                                        },
+                                        {
+                                            "name": "Blogs and tutorials on RxJS",
+                                            "link": "URL_de_Blogs_y_tutoriales_sobre_RxJS"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Transformation",
+                                    "recommendation-type": "opinion",
+                                    "description": "In RxJS, 'transformation' refers to the process of modifying or manipulating the data emitted by an Observable. Learn about various transformation methods, including map, flatMap, concatMap, mergeMap, and switchMap, by exploring the official documentation links provided.",
+                                    "resources": [
+                                        {
+                                            "name": "map",
+                                            "link": "URL_de_map"
+                                        },
+                                        {
+                                            "name": "flatMap",
+                                            "link": "URL_de_flatMap"
+                                        },
+                                        {
+                                            "name": "concatMap",
+                                            "link": "URL_de_concatMap"
+                                        },
+                                        {
+                                            "name": "mergeMap",
+                                            "link": "URL_de_mergeMap"
+                                        },
+                                        {
+                                            "name": "switchMap",
+                                            "link": "URL_de_switchMap"
+                                        },
+                                        {
+                                            "name": "Official RxJS Documentation",
+                                            "link": "URL_de_Documentación_oficial_de_RxJS"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Combination",
+                                    "recommendation-type": "opinion",
+                                    "description": "Combination operators in RxJS are used to combine multiple observables into a single observable. Explore the provided resources to learn about operators like Merge, Concat, Zip, CombineLatest, WithLatestFrom, and ForkJoin.",
+                                    "resources": [
+                                        {
+                                            "name": "Merge",
+                                            "link": "URL_de_Merge"
+                                        },
+                                        {
+                                            "name": "Concat",
+                                            "link": "URL_de_Concat"
+                                        },
+                                        {
+                                            "name": "Zip",
+                                            "link": "URL_de_Zip"
+                                        },
+                                        {
+                                            "name": "CombineLatest",
+                                            "link": "URL_de_CombineLatest"
+                                        },
+                                        {
+                                            "name": "WithLatestFrom",
+                                            "link": "URL_de_WithLatestFrom"
+                                        },
+                                        {
+                                            "name": "ForkJoin",
+                                            "link": "URL_de_ForkJoin"
+                                        },
+                                        {
+                                            "name": "Official RxJS Documentation",
+                                            "link": "URL_de_Documentación_oficial_de_RxJS"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "C": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "D": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "E": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "F": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "G": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "H": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "I": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "J": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "K": {
+                "options": [
+                    {
+                        "K": {
+                            "options": []
+                        }
+                    }
+                ]
+            },
+            "LL": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "M": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "N": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "Ñ": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "O": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "P": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "Q": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "R": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "S": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "T": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": [
+                    {
+                        "K": {
+                            "options": []
+                        }
+                    }
+                ]
+            },
+            "U": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "V": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            " ": {
+                "description": " ",
+                "resources": [
+                    {
+                        "name": "",
+                        "link": ""
+                    }
+                ],
+                "order": 1,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": []
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
