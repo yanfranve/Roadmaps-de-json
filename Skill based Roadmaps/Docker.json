@@ -163,12 +163,7 @@
                         "name": "Using Third Party Images: Databases",
                         "recommendation-type": "opinion",
                         "description": "Running your database in a Docker container can streamline your development process and simplify deployment. Docker Hub offers a wide selection of pre-made images for popular databases like MySQL, PostgreSQL, and MongoDB. Here are examples of how to use these images:",
-                        "resources": [
-                            {
-                                "name": "Docker Hub",
-                                "link": "https://hub.docker.com/"
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Interactive Test Environments with Docker",
@@ -238,7 +233,65 @@
                 "description": "A Container Registry is a centralized storage and distribution system for Docker container images. It allows developers to easily share and deploy applications in the form of these images. Container registries play a crucial role in the deployment of containerized applications, as they provide a fast, reliable, and secure way to distribute container images across various production environments.\n\nBelow is a list of popular container registries available today:\n\nDocker Hub: Docker Hub is the default registry for public Docker images and serves as a platform for sharing and distributing images among developers.\n\nGoogle Container Registry (GCR): GCR is a managed, secure, and highly available registry provided by Google Cloud Platform, ideal for hosting private container images.\n\nAmazon Elastic Container Registry (ECR): Amazon ECR is a fully-managed Docker container registry provided by Amazon Web Services, offering high scalability and performance for storing, managing, and deploying container images.\n\nAzure Container Registry (ACR): ACR is a managed registry provided by Microsoft Azure, offering Geo-replication, access control, and integration with other Azure services.",
                 "resources": [],
                 "order": 8,
-                "options": []
+                "options": [
+                    {
+                        "name": "DockerHub",
+                        "recommendation-type": "opinion",
+                        "description": "DockerHub is a cloud-based registry service provided by Docker Inc. It is the default public container registry where you can store, manage, and distribute your Docker images. DockerHub makes it easy for other users to find and use your images or to share their own images with the Docker community.",
+                        "resources": [
+                            {
+                                "name": "DockerHub Official Website",
+                                "link": "https://hub.docker.com/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "DockerHub Alternatives",
+                        "recommendation-type": "opinion",
+                        "description": "In this section, we will discuss some popular alternatives to DockerHub. These alternatives provide a different set of features and functionalities that may suit your container registry needs. Knowing these options will enable you to make a more informed decision when selecting a container registry for your Docker images.",
+                        "resources": [
+                            {
+                                "name": "Quay.io",
+                                "link": "https://quay.io/"
+                            },
+                            {
+                                "name": "Google Container Registry (GCR)",
+                                "link": "https://cloud.google.com/container-registry"
+                            },
+                            {
+                                "name": "Amazon Elastic Container Registry (ECR)",
+                                "link": "https://aws.amazon.com/ecr/"
+                            },
+                            {
+                                "name": "Azure Container Registry (ACR)",
+                                "link": "https://azure.microsoft.com/en-us/services/container-registry/"
+                            },
+                            {
+                                "name": "GitHub Container Registry (GHCR)",
+                                "link": "https://github.com/features/packages/container-registry"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Image Tagging Best Practices",
+                        "recommendation-type": "opinion",
+                        "description": "Properly tagging your Docker images is crucial for efficient container management and deployment. In this section, we will discuss some best practices for image tagging.",
+                        "resources": [
+                            {
+                                "name": "Semantic Versioning",
+                                "link": "https://semver.org/"
+                            },
+                            {
+                                "name": "Docker 'latest' Tag",
+                                "link": "https://docs.docker.com/engine/reference/commandline/build/#tag-an-image--t"
+                            },
+                            {
+                                "name": "CI/CD Tools",
+                                "link": "https://en.wikipedia.org/wiki/CI/CD"
+                            }
+                        ]
+                    }
+                ]
             },
             "Running Containers": {
                 "description": "To start a new container, we use the docker run command followed by the image name. The basic syntax is as follows:\n\ndocker run [options] IMAGE [COMMAND] [ARG...]\nFor example, to run the official Nginx image, we would use:\n\ndocker run -d -p 8080:80 nginx\nThis starts a new container and maps the host’s port 8080 to the container’s port 80.\n\nListing Containers\nTo list all running containers, use the docker ps command. To view all containers (including those that have stopped), use the -a flag:\n\ndocker container ls -a\nAccessing Containers\nTo access a running container’s shell, use the docker exec command:\n\ndocker exec -it CONTAINER_ID bash\nReplace CONTAINER_ID with the ID or name of your desired container. You can find this in the output of docker ps.\nStopping Containers\nTo stop a running container, use the docker stop command followed by the container ID or name:\n\ndocker container stop CONTAINER_ID\nRemoving Containers\nOnce a container is stopped, we can remove it using the docker rm command followed by the container ID or name:\n\ndocker container rm CONTAINER_ID\nTo automatically remove containers when they exit, add the --rm flag when running a container:\n\ndocker run --rm IMAGE",

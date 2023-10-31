@@ -246,17 +246,6 @@
                             }
                         ]
                     }
-                    
-                    
-
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
                 ]
             },
             "Getting Deeper": {
@@ -291,7 +280,6 @@
                             }
                         ]
                     },
-                    
                     {
                         "name": "Streams",
                         "recommendation-type": "opinion",
@@ -317,7 +305,6 @@
                                 "name": "The Java 8 Stream API Tutorial",
                                 "link": "https://www.baeldung.com/java-8-streams"
                             }
-                          
                         ]
                     },
                     {
@@ -391,7 +378,7 @@
                                     },
                                     {
                                         "name": "Java Threads Tutorial",
-                                        "link": "Java Threads Tutorial"
+                                        "link": "https://www.youtube.com/watch?v=TCd8QIS-2KI"
                                     }
                                 ]
                             },
@@ -421,7 +408,7 @@
                                 "resources": [
                                     {
                                         "name": "Collections in Java",
-                                        "link": "Collections in Java"
+                                        "link": "https://www.javatpoint.com/collections-in-java"
                                     },
                                     {
                                         "name": "Java - Collections Framework",
@@ -469,18 +456,10 @@
                                             }
                                         ]
                                     }
-                                    
                                 ]
                             }
-                            
-                            
-                            
-                            
                         ]
-                        
                     }
-                    
-
                 ]
             },
             "Build Tools": {
@@ -511,7 +490,6 @@
                             }
                         ]
                     },
-                    
                     {
                         "name": "Maven",
                         "recommendation-type": "opinion",
@@ -525,7 +503,6 @@
                                 "name": "Building Java Projects with Maven",
                                 "link": "https://spring.io/guides/gs/maven/"
                             }
-                            
                         ]
                     },
                     {
@@ -551,7 +528,6 @@
                             }
                         ]
                     }
-                    
                 ]
             },
             "Web Frameworks": {
@@ -667,10 +643,6 @@
                             }
                         ]
                     }
-                    
-                    
-                    
-                    
                 ]
             },
             "ORM": {
@@ -959,11 +931,6 @@
                                 }
                             ]
                         }
-                        
-                        
-                        
-                       
-                        
                     ]
                 },
                 "Integration Testing": {
@@ -994,8 +961,6 @@
                                 }
                             ]
                         }
-                        
-                        
                     ]
                 },
                 "Unit Testing": {
@@ -1046,8 +1011,6 @@
                                 }
                             ]
                         }
-                        
-                        
                     ]
                 },
                 "options": [

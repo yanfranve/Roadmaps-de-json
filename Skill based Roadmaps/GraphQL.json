@@ -650,7 +650,19 @@
                                     "link": "https://the-guild.dev/blog/graphql-over-sse"
                                 }
                             ],
-                            "options": []
+                            "options": [
+                                {
+                                    "name": "Authorization",
+                                    "recommendation-type": "opinion",
+                                    "description": "Authorization in GraphQL refers to the process of controlling access to specific fields, types, or operations in a GraphQL schema based on user roles or permissions. It allows you to restrict access to certain data or functionality in your application based on the user’s role or permissions.",
+                                    "resources": [
+                                        {
+                                            "name": "Get Started with Authorization",
+                                            "link": "https://example.com/get-started-with-authorization"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     },
                     {
