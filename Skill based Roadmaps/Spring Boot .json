@@ -488,15 +488,15 @@
                         "resources": [
                             {
                                 "name": "Hibernate Lifecycle",
-                                "link": "Insertar enlace"
+                                "link": "https://www.geeksforgeeks.org/hibernate-lifecycle/"
                             },
                             {
                                 "name": "Entity Lifecycle in Hibernate",
-                                "link": "Insertar enlace"
+                                "link": "https://www.javatpoint.com/hibernate-lifecycle"
                             },
                             {
                                 "name": "Hibernate Entity Lifecycle & Its State",
-                                "link": "Insertar enlace"
+                                "link": "https://www.baeldung.com/hibernate-entity-lifecycle"
                             }
                         ]
                     }
@@ -594,7 +594,7 @@
                             },
                             {
                                 "name": "Spring Cloud - Circuit Breaker using Hystrix",
-                                "link": "Spring Cloud - Circuit Breaker using Hystrix"
+                                "link": "https://www.tutorialspoint.com/spring_cloud/spring_cloud_circuit_breaker_using_hystrix.htm"
                             }
                         ]
                     },
@@ -816,7 +816,7 @@
                         "resources": [
                             {
                                 "name": "Spring MVC Tutorial",
-                                "link": "Spring MVC Tutorial"
+                                "link": "https://www.javatpoint.com/spring-mvc-tutorial"
                             },
                             {
                                 "name": "Spring - MVC Framework",

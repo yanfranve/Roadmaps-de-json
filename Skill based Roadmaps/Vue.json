@@ -277,12 +277,7 @@
             },
             "Advanced Topics": {
                 "description": "Explore advanced topics in Vue.js to take your skills to the next level.",
-                "resources": [
-                    {
-                        "name": "Async Components",
-                        "link": "Insertar enlace"
-                    }
-                ],
+                "resources": [],
                 "Composition API": {
                     "options": [
                         {
@@ -575,7 +570,7 @@
                                         },
                                         {
                                             "name": "vuelidate/vuelidate",
-                                            "link": "vuelidate/vuelidate"
+                                            "link": "https://github.com/vuelidate/vuelidate"
                                         }
                                     ]
                                 }
@@ -760,7 +755,7 @@
                                     "resources": [
                                         {
                                             "name": "Official Documentation",
-                                            "link": "URL_del_recurso_para_aprender_más_sobre_Pinia"
+                                            "link": "https://pinia.vuejs.org/"
                                         }
                                     ]
                                 }
@@ -788,11 +783,11 @@
                                     "resources": [
                                         {
                                             "name": "Building cross-platform apps with Capacitor and Vue.js",
-                                            "link": "URL_del_recurso_para_aprender_más_sobre_Capacitor_y_Vue.js"
+                                            "link": "https://blog.logrocket.com/building-cross-platform-apps-with-capacitor-and-vue-js/"
                                         },
                                         {
                                             "name": "Building Mobile Apps With Capacitor And Vue.js",
-                                            "link": "URL_del_recurso_para_aprender_más_sobre_construir_apps_móviles_con_Capacitor_y_Vue.js"
+                                            "link": "https://www.smashingmagazine.com/2018/07/mobile-apps-capacitor-vue-js/"
                                         }
                                     ]
                                 }

@@ -2,7 +2,6 @@
     "Skill": {
         "Prompt Engineering": {
             "description": "Step by step guide to learning Prompt Engineering ",
-            
             "Basic LLM Concepts": {
                 "description": "LLM stands for “Large Language Model.” These are advanced AI systems designed to understand and generate human-like text based on the input they receive. These models have been trained on vast amounts of text data and can perform a wide range of language-related tasks, such as answering questions, carrying out conversations, summarizing text, translating languages, and much more.",
                 "resources": [
@@ -63,12 +62,7 @@
                         "name": "Basic Prompting",
                         "recommendation-type": "opinion",
                         "description": "All you need to instruct a model to perform a task is a prompt. A prompt is a piece of text that you give to the model to perform a task. For example, if you want to summarize an article, you could simply write the prompt with the article text on the top and the prompt:\n\nLong article text here .............\n....................................\n\nSummarize the above article for me. Or if you want to translate a sentence from English to French, you could simply write the prompt with the English sentence on the top and the prompt:\n\nThis is a sentence in English.\n\nTranslate the above sentence to French. Or if you want to generate a new text, you could simply write the prompt with the instructions and the model will give you the text.\n\nWrite me an introductory guide about Prompt Engineering. However, using plain text as prompts, i.e., without using any best practices, you may not be able to fully utilize the power of LLMs. That's where 'Prompt Engineering,' or knowing the best practices for writing better prompts and getting the most out of LLMs, comes in.",
-                        "resources": [
-                            {
-                                "name": "Prompt Engineering Best Practices",
-                                "link": "URL_de_las_mejores_prácticas_de_ingeniería_de_prompts"
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Need for Prompt Engineering",
@@ -77,7 +71,7 @@
                         "resources": [
                             {
                                 "name": "Prompting Best Practices",
-                                "link": "URL_de_las_mejores_prácticas_de_ingeniería_de_prompts"
+                                "link": "https://learnprompting.org/docs/basics/prompting"
                             }
                         ]
                     }
