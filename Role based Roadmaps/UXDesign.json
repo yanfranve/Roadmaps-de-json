@@ -193,7 +193,12 @@
                                 "name": "Defaulting",
                                 "recommendation-type": "opinion",
                                 "description": "Defaulting in UX design refers to the practice of pre-selecting options or settings for users based on what is likely to be the most common or preferred choice. The goal is to simplify the decision-making process and minimize the effort required for users to complete a task or interact with an interface.",
-                                "resources": []
+                                "resources": [
+                                    {
+                                        "name": "The Power of Defaults ",
+                                        "link": "https://www.nngroup.com/articles/the-power-of-defaults/"
+                                    }
+                                ]
                             },
                             {
                                 "name": "Make it Incidental",
