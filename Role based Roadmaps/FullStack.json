@@ -7,27 +7,27 @@
                 "resources": [
                     {
                         "name": "W3Schools: Learn HTML",
-                        "link": "URL_de_aprendizaje_de_HTML_en_W3Schools"
+                        "link": "https://www.w3schools.com/html/html_intro.asp"
                     },
                     {
                         "name": "Codecademy - Learn HTML",
-                        "link": "URL_de_aprendizaje_de_HTML_en_Codecademy"
+                        "link": "https://www.codecademy.com/learn/learn-html"
                     },
                     {
                         "name": "Interactive HTML Course",
-                        "link": "URL_del_curso_interactivo_de_HTML"
+                        "link": "https://github.com/denysdovhan/learnyouhtml"
                     },
                     {
                         "name": "HTML Full Course - Build a Website Tutorial",
-                        "link": "URL_del_curso_completo_de_HTML_para_construir_un_sitio_web"
+                        "link": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
                     },
                     {
                         "name": "HTML Tutorial for Beginners: HTML Crash Course",
-                        "link": "URL_de_tutorial_de_HTML_para_principiantes"
+                        "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
                     },
                     {
                         "name": "HTML and CSS Full Course - Beginner To Pro",
-                        "link": "URL_de_curso_completo_de_HTML_y_CSS_de_principiante_a_profesional"
+                        "link": "https://youtu.be/a_iQb1lnAEQ"
                     }
                 ],
                 "order": 1
@@ -37,39 +37,39 @@
                 "resources": [
                     {
                         "name": "W3Schools — Learn CSS",
-                        "link": "URL_de_aprendizaje_de_CSS_en_W3Schools"
+                        "link": "https://www.w3schools.com/css/"
                     },
                     {
                         "name": "freeCodeCamp — Responsive Web Design",
-                        "link": "URL_de_aprendizaje_de_diseño_web_adaptable_en_freeCodeCamp"
+                        "link": "https://www.freecodecamp.org/learn/2022/responsive-web-design"
                     },
                     {
                         "name": "Learn to Code HTML & CSS",
-                        "link": "URL_de_aprendizaje_de_HTML_y_CSS"
+                        "link": "https://learn.shayhowe.com/html-css/building-your-first-web-page/"
                     },
                     {
                         "name": "What The Flexbox!",
-                        "link": "URL_de_What_The_Flexbox"
+                        "link": "https://flexbox.io/"
                     },
                     {
                         "name": "Learn CSS | Codecademy",
-                        "link": "URL_de_aprendizaje_de_CSS_en_Codecademy"
+                        "link": "https://www.codecademy.com/learn/learn-css"
                     },
                     {
                         "name": "Learn Intermediate CSS | Codecademy",
-                        "link": "URL_de_aprendizaje_de_CSS_intermedio_en_Codecademy"
+                        "link": "https://www.codecademy.com/learn/learn-intermediate-css"
                     },
                     {
                         "name": "CSS Crash Course For Absolute Beginners",
-                        "link": "URL_de_curso_rápido_de_CSS_para_principiantes_absolutos"
+                        "link": "https://www.youtube.com/watch?v=yfoY53QXEnI"
                     },
                     {
                         "name": "HTML and CSS Tutorial",
-                        "link": "URL_de_tutorial_de_HTML_y_CSS"
+                        "link": "https://www.youtube.com/watch?v=D-h8L5hgW-w"
                     },
                     {
                         "name": "CSS Masterclass - Tutorial & Course for Beginners",
-                        "link": "URL_de_masterclass_de_CSS_curso_para_principiantes"
+                        "link": "https://www.youtube.com/watch?v=FqmB-Zj2-PA"
                     }
                 ],
                 "order": 2
@@ -81,24 +81,24 @@
                 "description": "JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on websites are sliders, click interactions, popups, and so on.",
                 "resources": [
                     {
-                        "name": "W3Schools – JavaScript Tutorial",
-                        "link": "URL_de_tutorial_de_JavaScript_en_W3Schools"
+                        "name": "W3Schools - JavaScript Tutorial",
+                        "link": "https://www.w3schools.com/js/"
                     },
                     {
                         "name": "The Modern JavaScript Tutorial",
-                        "link": "URL_de_tutorial_moderno_de_JavaScript"
+                        "link": "https://javascript.info/"
                     },
                     {
                         "name": "Exploring JS: JavaScript books for programmers",
-                        "link": "URL_de_exploración_de_JS:_libros_de_JavaScript_para_programadores"
+                        "link": "https://exploringjs.com/s"
                     },
                     {
                         "name": "JavaScript Crash Course for Beginners",
-                        "link": "URL_de_curso_rápido_de_JavaScript_para_principiantes"
+                        "link": "https://youtu.be/hdI2bqOjy3c?t=2"
                     },
                     {
                         "name": "Build a Netflix Landing Page Clone with HTML, CSS & JS",
-                        "link": "URL_de_construcción_de_un_clon_de_la_página_de_inicio_de_Netflix_con_HTML_CSS_y_JS"
+                        "link": "https://youtu.be/P7t13SGytRk"
                     }
                 ],
                 "order": 3
@@ -111,23 +111,23 @@
                 "resources": [
                     {
                         "name": "Modern JavaScript for Dinosaurs",
-                        "link": "URL_de_Modern_JavaScript_for_Dinosaurs"
+                        "link": "https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html"
                     },
                     {
                         "name": "An Absolute Beginners Guide to Using npm",
-                        "link": "URL_de_Guía_absoluta_para_usar_npm"
+                        "link": "https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/"
                     },
                     {
                         "name": "How to NPM",
-                        "link": "URL_de_Cómo_usar_NPM"
+                        "link": "https://github.com/workshopper/how-to-npm"
                     },
                     {
                         "name": "NPM tutorial for Beginners",
-                        "link": "URL_de_tutorial_de_NPM_para_principiantes"
+                        "link": "https://www.youtube.com/watch?v=2V1UUhBJ62Y"
                     },
                     {
                         "name": "NPM Crash Course",
-                        "link": "URL_de_curso_rápido_de_NPM"
+                        "link": "https://www.youtube.com/watch?v=jHDhaSSKmB0"
                     }
                 ],
                 "order": 4
@@ -140,19 +140,19 @@
                 "resources": [
                     {
                         "name": "Git & GitHub Crash Course For Beginners",
-                        "link": "URL_de_curso_rápido_de_Git_y_GitHub_para_principiantes"
+                        "link": "https://www.youtube.com/watch?v=SWYqp7iY_Tc"
                     },
                     {
                         "name": "Learn Git with Tutorials, News and Tips - Atlassian",
-                        "link": "URL_de_aprendizaje_de_Git_con_tutoriales,_noticias_y_consejos_en_Atlassian"
+                        "link": "https://www.atlassian.com/git"
                     },
                     {
                         "name": "Git Cheat Sheet",
-                        "link": "URL_de_hoja_de_trucos_de_Git"
+                        "link": "https://cs.fyi/guide/git-cheatsheet"
                     },
                     {
                         "name": "Git Tutorial For Dummies",
-                        "link": "URL_de_tutorial_de_Git_para_principiantes"
+                        "link": "https://www.youtube.com/watch?v=mJ-qvsxPHpY"
                     }
                 ],
                 "order": 5
@@ -162,31 +162,31 @@
                 "resources": [
                     {
                         "name": "GitHub Website",
-                        "link": "URL_del_sitio_web_de_GitHub"
+                        "link": "https://github.com/"
                     },
                     {
                         "name": "GitHub Documentation",
-                        "link": "URL_de_la_documentación_de_GitHub"
+                        "link": "https://docs.github.com/en/get-started/quickstart"
                     },
                     {
                         "name": "How to Use Git in a Professional Dev Team",
-                        "link": "URL_de_cómo_usar_Git_en_un_equipo_de_desarrollo_profesional"
+                        "link": "https://ooloo.io/project/github-flow"
                     },
                     {
                         "name": "What is GitHub?",
-                        "link": "URL_de_Qué_es_GitHub"
+                        "link": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
                     },
                     {
                         "name": "Git vs. GitHub: Whats the difference?",
-                        "link": "URL_de_Git_vs._GitHub:_cuál_es_la_diferencia"
+                        "link": "https://www.youtube.com/watch?v=wpISo9TNjfU"
                     },
                     {
                         "name": "Git and GitHub for Beginners",
-                        "link": "URL_de_Git_y_GitHub_para_principiantes"
+                        "link": "https://www.youtube.com/watch?v=RGOj5yH7evk"
                     },
                     {
                         "name": "Git and GitHub - CS50 Beyond 2019",
-                        "link": "URL_de_Git_y_GitHub_en_CS50_Más_allá_de_2019"
+                        "link": "https://www.youtube.com/watch?v=eulnSXkhE7I"
                     }
                 ],
                 "order": 6,
@@ -200,23 +200,23 @@
                 "resources": [
                     {
                         "name": "Tailwind Website",
-                        "link": "URL_del_sitio_web_de_Tailwind"
+                        "link": "https://tailwindcss.com/"
                     },
                     {
                         "name": "Tailwind CSS Full Course for Beginners",
-                        "link": "URL_del_curso_completo_de_Tailwind_CSS_para_principiantes"
+                        "link": "https://www.youtube.com/watch?v=lCxcTsOHrjo"
                     },
                     {
                         "name": "Tailwind CSS Crash Course",
-                        "link": "URL_del_curso_rápido_de_Tailwind_CSS"
+                        "link": "https://www.youtube.com/watch?v=UBOj6rqRUME"
                     },
                     {
                         "name": "Should You Use Tailwind CSS?",
-                        "link": "URL_de_¿Deberías_usar_Tailwind_CSS?"
+                        "link": "https://www.youtube.com/watch?v=hdGsFpZ0J2E?"
                     },
                     {
                         "name": "Official Screencasts",
-                        "link": "URL_de_Screencasts_oficiales"
+                        "link": "https://www.youtube.com/c/TailwindLabs/videos"
                     }
                 ],
                 "order": 7,
@@ -227,31 +227,31 @@
                 "resources": [
                     {
                         "name": "Visit Dedicated React Roadmap",
-                        "link": "URL_de_mapa_de_Roadmap_dedicado_a_React"
+                        "link": "https://roadmap.sh/react"
                     },
                     {
                         "name": "React Website",
-                        "link": "URL_del_sitio_web_de_React"
+                        "link": "https://reactjs.org/"
                     },
                     {
                         "name": "Official Getting Started",
-                        "link": "URL_de_Inicio_oficial"
+                        "link": "https://reactjs.org/tutorial/tutorial.html"
                     },
                     {
                         "name": "The Beginners Guide to React",
-                        "link": "URL_de_la_guía_para_principiantes_de_React"
+                        "link": "https://egghead.io/courses/the-beginner-s-guide-to-react"
                     },
                     {
                         "name": "React JS Course for Beginners",
-                        "link": "URL_del_curso_de_React_JS_para_principiantes"
+                        "link": "https://www.youtube.com/watch?v=nTeuhbP7wdE"
                     },
                     {
                         "name": "React Course - Beginners Tutorial for React",
-                        "link": "URL_del_curso_de_principiantes_de_React"
+                        "link": "https://www.youtube.com/watch?v=bMknfKXIFA8"
                     },
                     {
                         "name": "Understanding Reacts UI Rendering Process",
-                        "link": "URL_de_Entendimiento_del_proceso_de_renderizado_de_la_interfaz_de_usuario_de_React"
+                        "link": "https://www.youtube.com/watch?v=i793Qm6kv3U"
                     }
                 ],
                 "order": 8,
@@ -265,19 +265,19 @@
                 "resources": [
                     {
                         "name": "Official Website",
-                        "link": "URL_del_sitio_web_oficial"
+                        "link": "https://nodejs.org/en/about/"
                     },
                     {
                         "name": "Learn Node.js Official Website",
-                        "link": "URL_del_sitio_web_oficial_de_aprendizaje_de_Node.js"
+                        "link": "https://nodejs.dev/en/learn/"
                     },
                     {
                         "name": "Node.js Introduction",
-                        "link": "URL_de_introducción_a_Node.js"
+                        "link": "https://www.w3schools.com/nodejs/nodejs_intro.asp"
                     },
                     {
                         "name": "Node.js and Express.js Full Course",
-                        "link": "URL_de_curso_completo_de_Node.js_y_Express.js"
+                        "link": "https://www.youtube.com/watch?v=Oe421EPjeBE"
                     }
                 ],
                 "order": 9
@@ -290,23 +290,23 @@
                 "resources": [
                     {
                         "name": "Visit Dedicated PostgreSQL DBA Roadmap",
-                        "link": "URL_del_mapa_de_desarrollo_dedicado_de_PostgreSQL_DBA"
+                        "link": "https://roadmap.sh/postgresql-dba"
                     },
                     {
                         "name": "Official Website",
-                        "link": "URL_del_sitio_web_oficial"
+                        "link": "https://www.postgresql.org/"
                     },
                     {
                         "name": "Learn PostgreSQL - Full Tutorial for Beginners",
-                        "link": "URL_de_aprendizaje_completo_de_PostgreSQL_para_principiantes"
+                        "link": "https://www.postgresqltutorial.com/"
                     },
                     {
                         "name": "Learn PostgreSQL Tutorial - Full Course for Beginners",
-                        "link": "URL_de_tutorial_completo_de_PostgreSQL_para_principiantes"
+                        "link": "https://www.youtube.com/watch?v=qw--VYLpxG4"
                     },
                     {
                         "name": "Postgres tutorial for Beginners",
-                        "link": "URL_de_tutorial_de_PostgreSQL_para_principiantes"
+                        "link": "https://www.youtube.com/watch?v=eMIxuk0nOkU"
                     }
                 ],
                 "order": 10
@@ -319,19 +319,19 @@
                 "resources": [
                     {
                         "name": "What is REST?",
-                        "link": "URL_de_Qué_es_REST"
+                        "link": "https://www.codecademy.com/article/what-is-rest"
                     },
                     {
                         "name": "What is a REST API?",
-                        "link": "URL_de_Qué_es_una_API_REST"
+                        "link": "https://www.redhat.com/en/topics/api/what-is-a-rest-api"
                     },
                     {
                         "name": "Roy Fielding's dissertation chapter, Representational State Transfer (REST)",
-                        "link": "URL_del_capítulo_de_la_tesis_de_Roy_Fielding,_Transferencia_de_Estado_Representacional_(REST)"
+                        "link": "https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm"
                     },
                     {
                         "name": "Learn REST: A RESTful Tutorial",
-                        "link": "URL_de_aprendizaje_de_REST:_Un_tutorial_RESTful"
+                        "link": "https://restapitutorial.com/"
                     }
                 ],
                 "order": 11
@@ -341,27 +341,27 @@
                 "resources": [
                     {
                         "name": "jwt.io Website",
-                        "link": "URL_del_sitio_web_de_jwt.io"
+                        "link": "https://jwt.io/"
                     },
                     {
                         "name": "Introduction to JSON Web Tokens",
-                        "link": "URL_de_introducción_a_JSON_Web_Tokens"
+                        "link": "https://jwt.io/introduction"
                     },
                     {
                         "name": "What is JWT?",
-                        "link": "URL_de_Qué_es_JWT"
+                        "link": "https://www.akana.com/blog/what-is-jwt"
                     },
                     {
                         "name": "What Is JWT and Why Should You Use JWT",
-                        "link": "URL_de_Qué_es_JWT_y_por_qué_deberías_usarlo"
+                        "link": "https://www.youtube.com/watch?v=7Q17ubqLfaM"
                     },
                     {
                         "name": "What is JWT? JSON Web Token Explained",
-                        "link": "URL_de_Qué_es_JWT?_Explicación_de_JSON_Web_Token"
+                        "link": "https://www.youtube.com/watch?v=926mknSW9Lo"
                     },
                     {
                         "name": "JWT Authentication Tutorial - Node.js",
-                        "link": "URL_de_tutorial_de_autenticación_con_JWT_en_Node.js"
+                        "link": "https://www.youtube.com/watch?v=mbsmsi7l3r4"
                     }
                 ],
                 "order": 12
@@ -371,15 +371,15 @@
                 "resources": [
                     {
                         "name": "Redis Website",
-                        "link": "URL_del_sitio_web_de_Redis"
+                        "link": "https://redis.io/"
                     },
                     {
                         "name": "Redis in 100 Seconds",
-                        "link": "URL_de_Redis_en_100_segundos"
+                        "link": "https://www.youtube.com/watch?v=G1rOthIU-uo"
                     },
                     {
                         "name": "Redis Caching in Node.js",
-                        "link": "URL_de_caching_con_Redis_en_Node.js"
+                        "link": "https://www.youtube.com/watch?v=oaJq1mQ3dFI"
                     }
                 ],
                 "order": 13
@@ -393,420 +393,283 @@
                 "resources": [
                     {
                         "name": "Linux Operating System - Crash Course",
-                        "link": "URL_de_Curso_rápido_del_sistema_operativo_Linux"
+                        "link": "https://www.youtube.com/watch?v=ROjZy1WbCIA"
                     },
                     {
                         "name": "Coursera - Unix Courses",
-                        "link": "URL_de_cursos_de_Unix_en_Coursera"
+                        "link": "https://www.coursera.org/courses?query=unix"
                     },
                     {
                         "name": "Linux Basics",
-                        "link": "URL_de_Conceptos_básicos_de_Linux"
+                        "link": "https://dev.to/rudrakshi99/linux-basics-2onj"
                     },
                     {
                         "name": "Unix / Linux Tutorial",
-                        "link": "URL_de_Tutorial_de_Unix_Linux"
+                        "link": "https://www.tutorialspoint.com/unix/index.htm"
                     }
                 ],
                 "order": 14
             },
             "Basic AWS Services": {
+                "description": "AWS has several services but you don’t need to know all of them. Here are the most common ones that you can get started with:\nEC2 - Virtual machines in the cloud\nVPC - Virtual private cloud\nS3 - Object storage\nRoute 53 - DNS\nSES - Email sending",
+                "resources": [
+                    {
+                        "name": "Deploy Node App on AWS EC2",
+                        "link": "https://youtu.be/oHAQ3TzUTro"
+                    },
+                    {
+                        "name": "AWS VPC & Subnets For Beginners",
+                        "link": "https://youtu.be/TUTqYEZZUdc"
+                    },
+                    {
+                        "name": "Up and Running with AWS VPC",
+                        "link": "https://cs.fyi/guide/up-and-running-with-aws-vpc"
+                    },
+                    {
+                        "name": "Up and Running with AWS EC2",
+                        "link": "https://cs.fyi/guide/up-and-running-with-aws-ec2"
+                    },
+                    {
+                        "name": "VPC Basics",
+                        "link": "https://cloudcasts.io/course/vpc-basics"
+                    },
+                    {
+                        "name": "EC2 Essentials",
+                        "link": "https://cloudcasts.io/course/ec2-essentials"
+                    },
+                    {
+                        "name": "Sam Meech-Ward’s AWS Videos",
+                        "link": "https://www.youtube.com/playlist?list=PL0X6fGhFFNTcU-_MCPe9dkH6sqmgfhy_M"
+                    },
+                    {
+                        "name": "DNS with AWS Route 53",
+                        "link": "https://www.youtube.com/watch?v=yRIY7BJohfo"
+                    },
+                    {
+                        "name": "Upload Images to S3 from Node Back End",
+                        "link": "https://www.youtube.com/watch?v=NZElg91l_ms"
+                    },
+                    {
+                        "name": "S3 Bucket Hosting a Static Website",
+                        "link": "https://www.youtube.com/watch?v=RoY3ekCCxKc&list=PL0X6fGhFFNTcU-_MCPe9dkH6sqmgfhy_M"
+                    }
+                ],
                 "order": 15,
                 "options": [
                     {
-                        "name": "",
+                        "name": "EC2",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Amazon Elastic Compute Cloud (EC2) is a web service that provides resizable compute capacity in the form of virtual servers, known as instances. With EC2, you can quickly scale your infrastructure up or down as your computing requirements change. This service effectively reduces the time required to obtain and boot new server instances, allowing you to easily adjust capacity according to the needs of your application.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Deploy Node App on AWS EC2",
+                                "link": "https://youtu.be/oHAQ3TzUTro"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Up and Running with AWS EC2",
+                                "link": "https://cs.fyi/guide/up-and-running-with-aws-ec2"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "EC2 Essentials",
+                                "link": "https://cloudcasts.io/course/ec2-essentials"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "VPC",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "VPC stands for Virtual Private Cloud and is an essential service provided by AWS that allows you to create a private, isolated section within the AWS cloud, where you can define your own virtual network. It offers a more secure and controlled environment, enabling you to easily launch and manage your resources within your personal network.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "AWS VPC & Subnets For Beginners",
+                                "link": "https://youtu.be/TUTqYEZZUdc"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Up and Running with AWS VPC",
+                                "link": "https://cs.fyi/guide/up-and-running-with-aws-vpc"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "VPC Basics",
+                                "link": "https://cloudcasts.io/course/vpc-basics"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "S3",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "S3 is a service that allows you to store files in the cloud. It’s a simple service that you can use to store files and serve them to your users.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Upload Images to S3 from Node Back End",
+                                "link": "https://www.youtube.com/watch?v=NZElg91l_ms"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "S3 Bucket Hosting a Static Website",
+                                "link": "https://www.youtube.com/watch?v=RoY3ekCCxKc&list=PL0X6fGhFFNTcU-_MCPe9dkH6sqmgfhy_M"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Route53",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Route53 is AWS’s Domain Name System (DNS) service that plays a critical role in connecting user requests to your web application or other resources within your infrastructure. With Route53, you can easily manage domains, redirect traffic, and configure domain-related settings. It has several advantages, including high availability, low latency, and integration with other AWS resources.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Amazon Route 53",
+                                "link": "https://www.youtube.com/watch?v=RGWgfhZByAI"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "AWS Route 53 Domain Name",
+                                "link": "https://www.youtube.com/watch?v=jDz4j_kkyLA"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
+                                "name": "DNS with AWS Route 53",
+                                "link": "https://www.youtube.com/watch?v=yRIY7BJohfo&t=2s"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "SES",
+                        "recommendation-type": "opinion",
+                        "description": "Amazon SES (Simple Email Service) is a scalable, flexible, and cost-effective cloud-based email service that is specifically designed for developers, marketers, and businesses to send and receive marketing, transactional, and notification emails. SES is useful, especially when you need to send a large volume of emails, as it offers high deliverability, reliability, and ease of use.",
+                        "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Contact Form Submission With AWS SES",
+                                "link": "https://www.youtube.com/watch?v=HiHflLTqiwU"
                             }
                         ]
                     }
                 ]
             },
-            "J": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
+            "Checkpoint Deployment": {
+                "description": "Now that you know the basics of AWS, you should be able to deploy your application to AWS. You don’t need to use all the AWS services, here is what you can probably get started with:\n\n1. Setup an EC2 instance using any AMI (e.g. latest version of Ubuntu)\n2. SSH into the EC2 instance using the key pair you created\n3. Install Node.js on the EC2 instance\n4. Install Git on the EC2 instance\n5. Clone your application from GitHub\n6. Install and configure a database on the EC2 instance (e.g. PostgreSQL)\n7. Make sure that the security group of the EC2 instance allows HTTP and HTTPS traffic\n8. Try to access your application using the public IP address of the EC2 instance\n9. Purchase or set up a domain name using Route53 (or any other domain name provider) and point it to the public IP address of the EC2 instance\n10. Set up HTTPS using certbot\n\nAnd voilà! You have deployed your application to AWS!\n\nIf you get stuck, here is a video that shows how to deploy a Node.js application to AWS EC2:\n\nDeploy Node App on AWS EC2",
+                "resources": [
+                    {
+                        "name": "Deploy Node App on AWS EC2",
+                        "link": "URL-del-recurso"
+                    }
+                ]
             },
             "Monit": {
-                "order": 16,
-                "module bundlers": {
-                    "options": [
-                        {
-                            "name": "",
-                            "recommendation-type": "opinion",
-                            "description": "",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ]
-                        },
-                        {
-                            "name": "",
-                            "recommendation-type": "opinion",
-                            "description": "",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ]
-                        },
-                        {
-                            "name": "",
-                            "recommendation-type": "opinion",
-                            "description": "",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ]
-                        },
-                        {
-                            "name": "",
-                            "recommendation-type": "opinion",
-                            "description": "",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
-                }
+                "description": "When it comes to monitoring the health of your applications, there are several different options available. My favorite monitoring stack is Prometheus and Grafana, but it can be a bit overwhelming to set up and configure. If you’re looking for a simpler solution, Monit is a great alternative that can be utilized to monitor and manage system resources such as services, processes, files, directories, devices, and network connections, making your application more reliable and resilient to issues like crashes, unresponsiveness, or resource exhaustion.\n\nSome of the key features of Monit are:\n\n1. Automatic Recovery: Monit can automatically restart a service or process if it fails, making your application more resistant to unexpected issues.\n2. Alert Notifications: Monit can send email notifications when a problem is detected or when a certain condition is met, keeping you informed about the health of your application.\n3. Event Logging: All events detected by Monit are stored in a log for easy troubleshooting and analysis.\n4. Resource Limit Monitoring: Monit can monitor the resource utilization (CPU, memory, network, etc.) of a process or service and take action if a specific limit is exceeded.\n5. Flexible Configuration: Monit uses a simple, human-readable configuration syntax that allows you to tailor its behavior to your needs.\n6. Web Interface: Monit provides a built-in web interface for remotely monitoring your application’s status and manage services.\n\nHave a look at the following resources to learn more about Monit:\n\n- [Monit - Opensource Self Healing Server Monitoring](link-a-monit)\n- [Monit documentation](link-a-documentacion-monit)",
+                "resources": [
+                    {
+                        "name": "Monit - Opensource Self Healing Server Monitoring",
+                        "link": "https://www.youtube.com/watch?v=3cA5lNje1Ow"
+                    },
+                    {
+                        "name": "Monit documentation",
+                        "link": "https://mmonit.com/monit/documentation/"
+                    }
+                ],
+                "order": 16
             },
-            "J": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
+            "Checkpoint": {
+                "description": "You should now implement monitoring and autorestarts for your application using monit. Regarding autorestarts, you can also use pm2.\n\nHere are some of the monitors you should implement for the application.\n\n- CPU Usage\n- Memory Usage\n- Disk Usage\n- Network Usage\n- Service Availability\n- Process Availability\n\nMonit comes with existing configurations for many services. You can find them in /etc/monit/conf-available. You can copy them (and modify if required) to /etc/monit/conf-enabled to enable them.",
+                "resources": []
             },
             "Github Actions": {
+                "description": "GitHub Actions is a workflow automation tool provided by GitHub that can be used to automate various tasks in the app development process.\n\n- [Github Actions](link-a-Github-Actions)\n- [Github Actions Documentation](link-a-documentacion-Github-Actions)\n- [5 Ways to DevOps-ify your App](link-a-5-Ways-to-DevOps)\n- [DevOps CI/CD Explained in 100 Seconds](link-a-DevOps-CI/CD)",
+                "resources": [
+                    {
+                        "name": "Github Actions",
+                        "link": "https://github.com/features/actions"
+                    },
+                    {
+                        "name": "Github Actions Documentation",
+                        "link": "https://docs.github.com/en/actions"
+                    },
+                    {
+                        "name": "5 Ways to DevOps-ify your App",
+                        "link": "https://www.youtube.com/watch?v=eB0nUzAI7M8"
+                    },
+                    {
+                        "name": "DevOps CI/CD Explained in 100 Seconds",
+                        "link": "https://www.youtube.com/watch?v=scEDHsr3APg"
+                    }
+                ],
                 "order": 17
-                
             },
-            "J": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
+            "Checkpoint — CI / CD": {
+                "description": "Now that you have the infrastructure setup, it’s time to automate the deployment process. This is where CI/CD comes in. If you don’t know what CI/CD are, you should watch [DevOps CI/CD Explained in 100 Seconds](link-a-DevOps-CI/CD).\n\nThe next step at this point is to implement CI/CD for your application using GitHub actions. Setup a GitHub action that, whenever you push to master, will automatically:\n\n- Run your tests (ignore this step if you haven’t learnt it yet)\n- Deploy your application to AWS\n\nRegarding the deployment to AWS you can use rsync to copy the files to the server. Here’s a sample GitHub workflow using rsync.",
+                "resources": [
+                    {
+                        "name": "DevOps CI/CD Explained in 100 Seconds",
+                        "link": "https://gist.github.com/kamranahmedse/1e94b412006040f38e24b9443b2da41a"
+                    }
+                ]
             },
             "Ansible": {
+                "description": "Ansible is an open-source configuration management, application deployment and provisioning tool that uses its own declarative language in YAML. Ansible is agentless, meaning you only need remote connections via SSH or Windows Remote Management via Powershell in order to function.\n\nVisit the following resources to learn more:\n\n- [Ansible Website](link-a-sitio-web-de-Ansible)\n- [Official Documentation](link-a-documentacion-oficial-Ansible)\n- [Ansible Getting Started Guide](link-a-guia-de-inicio-de-Ansible)\n- [Ansible Full Course for Beginners](link-a-curso-completo-de-Ansible-para-principiantes)",
+                "resources": [
+                    {
+                        "name": "Ansible Website",
+                        "link": "https://www.ansible.com/"
+                    },
+                    {
+                        "name": "Official Documentation",
+                        "link": "https://docs.ansible.com/"
+                    },
+                    {
+                        "name": "Ansible Getting Started Guide",
+                        "link": "https://www.ansible.com/resources/get-started"
+                    },
+                    {
+                        "name": "Ansible Full Course for Beginners",
+                        "link": "https://www.youtube.com/watch?v=9Ua2b06oAr4"
+                    }
+                ],
                 "order": 18
-               
             },
-            "J": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
+            "Checkpoint 2": {
+                "description": "Now that you have learned ansible, you can use it to automate the deployment of your application.\n\nA task for you at this point would be to automate the steps that you manually performed earlier when setting up the EC2 instance i.e. SSH into the server, install Node.js, Git, PostgreSQL, Running the application etc. Write an ansible playbook that automates these and see if you can spin up a new EC2 instance without SSHing into it and manually installing all the dependencies.",
+                "resources": []
             },
             "Terraform": {
+                "description": "Terraform is an extremely popular open source Infrastructure as Code (IaC) tool that can be used with many different cloud and service provider APIs. Terraform focuses on an immutable approach to infrastructure, with a terraform state file center to tracking the status of your real-world infrastructure.",
+                "resources": [
+                    {
+                        "name": "Terraform Website",
+                        "link": "https://www.terraform.io/"
+                    },
+                    {
+                        "name": "Terraform Documentation",
+                        "link": "https://www.terraform.io/docs"
+                    },
+                    {
+                        "name": "Terraform Tutorials",
+                        "link": "https://learn.hashicorp.com/terraform"
+                    },
+                    {
+                        "name": "Intro to Terraform Video",
+                        "link": "https://www.youtube.com/watch?v=h970ZBgKINg&ab_channel=HashiCorp"
+                    },
+                    {
+                        "name": "Terraform CDK Website",
+                        "link": "https://www.terraform.io/cdktf"
+                    },
+                    {
+                        "name": "What is the CDKTF?",
+                        "link": "https://www.terraform.io/cdktf/concepts/cdktf-architecture"
+                    },
+                    {
+                        "name": "CDKTF Getting Started Guide",
+                        "link": "https://learn.hashicorp.com/tutorials/terraform/cdktf-install?in=terraform/cdktf"
+                    },
+                    {
+                        "name": "CDKTF Examples",
+                        "link": "https://www.terraform.io/cdktf/examples"
+                    },
+                    {
+                        "name": "How to Scale Your Terraform Infrastructure",
+                        "link": "https://thenewstack.io/how-to-scale-your-terraform-infrastructure/"
+                    }
+                ],
                 "order": 19
-              
             },
-            "J": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
+            "Checkpoint3": {
+                "description": "If you remember, earlier in the roadmap, you manually logged into the AWS console and had to set up the services. Now that you know Terraform, go ahead and automate the process of creating the infrastructure for your application using Terraform, and with that, your deployments will be fully automated i.e., you should have:\n\n- Infrastructure setup using Terraform\n- Provisioning using Ansible\n- CI/CD using GitHub Actions\n- Monitoring using Monit\n\nAnd that is it! You have successfully completed the roadmap and are now a full-stack developer. Congratulations! 🎉\n\nWhat’s next? Go ahead and build something cool! Share your learnings with the community and help others learn as well. If you have any questions, feel free to join our discord server and ask away!",
+                "resources": []
             }
         }
     }
