@@ -1,0 +1,197 @@
+{
+    "Skill": {
+        "SQL": {
+            "description": "Step by step guide to learning SQL in 2023 ",
+            "A": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "B": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "C": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "D": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "E": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "F": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "G": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "H": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "I": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "J": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "K": {
+                "options": [
+                    { "K": {
+                        "options": []
+                    }}
+                ]
+            },
+            "L": {
+                "description": " ",
+                "resources": [],
+                "recommendation-type": "opinion",
+                "recommendation-type": "not strict",
+                "recommendation-type": "Pick this or purple",
+                "recommendation-type": "wouidn't",
+                "order": 1,
+                "options": []
+            },
+            "LL": {
+                
+                "options": []
+            },
+            "M": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "N": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "Ñ": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "O": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "P": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "Q": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "R": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "S": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "T": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": [
+                    { "K": {
+                        "options": []
+                    }}  
+
+                ]
+                
+            },
+            "U": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            "V": {
+                "description": " ",
+                "resources": [],
+                "order": 1,
+                "options": []
+            },
+            " ": {
+                "description": " ",
+                "resources": [
+                    {
+                        "name": "",
+                        "link": ""
+                    }
+                  
+                ],
+                "order": 1,
+                "options": [
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": ""
+                      
+                    },
+                   
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": []
+                    },
+                    {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
