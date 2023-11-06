@@ -670,6 +670,44 @@
             "Checkpoint3": {
                 "description": "If you remember, earlier in the roadmap, you manually logged into the AWS console and had to set up the services. Now that you know Terraform, go ahead and automate the process of creating the infrastructure for your application using Terraform, and with that, your deployments will be fully automated i.e., you should have:\n\n- Infrastructure setup using Terraform\n- Provisioning using Ansible\n- CI/CD using GitHub Actions\n- Monitoring using Monit\n\nAnd that is it! You have successfully completed the roadmap and are now a full-stack developer. Congratulations! 🎉\n\nWhat’s next? Go ahead and build something cool! Share your learnings with the community and help others learn as well. If you have any questions, feel free to join our discord server and ask away!",
                 "resources": []
+            },
+            "Continue Learning with following relevant tracks": {
+                "order": 11,
+                "options": [
+                    {
+                        "name": "Frontend Developer",
+                        "recommendation-type": "opinion",
+                        "description": "Step by step guide to becoming a modern frontend developer in 2023",
+                        "resources": [
+                            {
+                                "name": "Frontend Developer",
+                                "link": "https://roadmap.sh/frontend"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Backend Developer",
+                        "recommendation-type": "opinion",
+                        "description": "Step by step guide to becoming a modern backend developer in 2023",
+                        "resources": [
+                            {
+                                "name": "Backend Developer",
+                                "link": "https://roadmap.sh/backend"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "DevOps Roadmap",
+                        "recommendation-type": "opinion",
+                        "description": "Step by step guide for DevOps, SRE or any other Operations Role in 2023",
+                        "resources": [
+                            {
+                                "name": "DevOps Roadmap",
+                                "link": "https://roadmap.sh/devops"
+                            }
+                        ]
+                    }
+                ]
             }
         }
     }

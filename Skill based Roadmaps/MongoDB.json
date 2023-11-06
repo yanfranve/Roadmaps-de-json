@@ -988,5 +988,32 @@
                 }
             }
         ]
+    },
+    "Continue Learning with following relevant tracks": {
+        "order": 11,
+        "options": [
+            {
+                "name": "Backend Developer",
+                "recommendation-type": "opinion",
+                "description": "Step by step guide to becoming a modern backend developer in 2023",
+                "resources": [
+                    {
+                        "name": "Backend Developer",
+                        "link": "https://roadmap.sh/backend"
+                    }
+                ]
+            },
+            {
+                "name": "DevOps Roadmap",
+                "recommendation-type": "opinion",
+                "description": "Step by step guide for DevOps, SRE or any other Operations Role in 2023",
+                "resources": [
+                    {
+                        "name": "DevOps Roadmap",
+                        "link": "https://roadmap.sh/devops"
+                    }
+                ]
+            }
+        ]
     }
 }
