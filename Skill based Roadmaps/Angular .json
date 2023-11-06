@@ -313,16 +313,7 @@
             },
             "Understand the basics": {
                 "description": "Angular is a strong front-end JavaScript framework which means that it enforces a certain style of application development and project structure that developers need to follow to develop apps with Angular. However, it also offers enough flexibility to allow you to structure your project in an understandable and manageable manner.",
-                "resources": [
-                    {
-                        "name": "Resource Name 1",
-                        "link": "Resource Link 1"
-                    },
-                    {
-                        "name": "Resource Name 2",
-                        "link": "Resource Link 2"
-                    }
-                ],
+                "resources": [],
                 "order": 3,
                 "options": [
                     {

@@ -2,52 +2,187 @@
     "Skill": {
         "SQL": {
             "description": "Step by step guide to learning SQL in 2023 ",
-            "A": {
-                "description": " ",
-                "resources": [],
+            "Introduction": {
+                "description": "SQL, which stands for Structured Query Language, is a programming language that is used to communicate with and manage databases. SQL is a standard language for manipulating data held in relational database management systems (RDBMS), or for stream processing in a relational data stream management system (RDSMS). It was first developed in the 1970s by IBM.\n\nSQL consists of several components, each serving their own unique purpose in database communication.",
+                "resources": [
+                    {
+                        "name": "SQL Tutorial - Mode",
+                        "link": "URL-del-recurso"
+                    },
+                    {
+                        "name": "SQL Tutorial",
+                        "link": "URL-del-recurso"
+                    },
+                    {
+                        "name": "SQL Tutorial - W3Schools",
+                        "link": "URL-del-recurso"
+                    }
+                ],
                 "order": 1,
-                "options": []
+                "options": [
+                    {
+                        "name": "What Are Relational Databases?",
+                        "recommendation-type": "opinion",
+                        "description": "A relational database is a type of database that stores and organizes data in a structured way. It uses a structure that allows data to be identified and accessed in relation to other data in the database. Data in a relational database is stored in various data tables, each of which has a unique key identifying every row.",
+                        "resources": [
+                            {
+                                "name": "Resource Name",
+                                "link": "URL-del-recurso"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "RDBMS Benefits and Limitations",
+                        "recommendation-type": "opinion",
+                        "description": "Here are some of the benefits of using an RDBMS:\n\nStructured Data: RDBMS allows data storage in a structured way, using rows and columns in tables. This makes it easy to manipulate the data using SQL (Structured Query Language), ensuring efficient and flexible usage.\n\nACID Properties: ACID stands for Atomicity, Consistency, Isolation, and Durability. These properties ensure reliable and safe data manipulation in an RDBMS, making it suitable for mission-critical applications.",
+                        "resources": [
+                            {
+                                "name": "Resource Name",
+                                "link": "URL-del-recurso"
+                            }
+                        ]
+                    }
+                ]
             },
-            "B": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
+            "Basic SQL Syntax": {
+                "description": "When discussing databases, it’s essential to understand the difference between SQL and NoSQL databases, as each has its own set of advantages and limitations. In this section, we’ll briefly compare and contrast the two, so you can determine which one suits your needs better.",
+                "resources": [
+                    {
+                        "name": "Resource Name",
+                        "link": "URL-del-recurso"
+                    }
+                ],
+                "order": 2,
+                "options": [
+                    {
+                        "name": "SQL Keywords",
+                        "recommendation-type": "opinion",
+                        "description": "SQL employs a number of standard command keywords that are integral to interact with databases. Keywords in SQL provide instructions as to what action should be performed.\n\nHere are some of the primary SQL keywords:",
+                        "resources": [
+                            {
+                                "name": "SQL Tutorial - Mode",
+                                "link": "URL-del-recurso"
+                            },
+                            {
+                                "name": "SQL Tutorial",
+                                "link": "URL-del-recurso"
+                            },
+                            {
+                                "name": "SQL Tutorial - W3Schools",
+                                "link": "URL-del-recurso"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "SQL Data Types",
+                        "recommendation-type": "opinion",
+                        "description": "SQL data types define the type of data that can be stored in a database table’s column. Depending on the DBMS, the names of the data types can differ slightly. Here are the general types:",
+                        "resources": [
+                            {
+                                "name": "Resource Name",
+                                "link": "URL-del-recurso"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "SQL Operators",
+                        "recommendation-type": "opinion",
+                        "description": "SQL operators are used to perform operations like comparisons and arithmetic calculations. They are very crucial in forming queries. SQL operators are divided into the following types:",
+                        "resources": [
+                            {
+                                "name": "Resource Name",
+                                "link": "URL-del-recurso"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "SELECT Statement in SQL",
+                        "recommendation-type": "opinion",
+                        "description": "The SELECT statement is used in SQL to pick out specific data from a database. In other words, it is used to select from the database what you would like to display. The syntax for the SELECT statement is fairly straightforward:",
+                        "resources": [
+                            {
+                                "name": "Resource Name",
+                                "link": "URL-del-recurso"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "SQL UPDATE Statement",
+                        "recommendation-type": "opinion",
+                        "description": "The SQL UPDATE statement is used to modify the existing data in a database. This statement is very useful when you need to change the values assigned to specific fields in an existing row or set of rows.",
+                        "resources": [
+                            {
+                                "name": "Resource Name",
+                                "link": "URL-del-recurso"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "INSERT Statement in SQL",
+                        "recommendation-type": "opinion",
+                        "description": "The INSERT statement in SQL is used to add new rows of data to a table in the database. There are three forms of the INSERT statement: INSERT INTO values, INSERT INTO set, and INSERT INTO select.",
+                        "resources": [
+                            {
+                                "name": "Resource Name",
+                                "link": "URL-del-recurso"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "DELETE Statement in SQL",
+                        "recommendation-type": "opinion",
+                        "description": "The DELETE statement in SQL helps you remove existing records from a database. However, keep in mind, it is a destructive operation and may permanently erase data from your database.",
+                        "resources": [
+                            {
+                                "name": "Resource Name",
+                                "link": "URL-del-recurso"
+                            }
+                        ]
+                    }
+                ]
             },
-            "C": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
+            "Data Definition Language (DDL)": {
+                
+                    "description": "Data Definition Language (DDL) is a subset of SQL. Its primary function is to create, modify, and delete database structures but not data. The commands in DDL are:",
+                    "resources": [
+                      {
+                        "name": "Resource Name",
+                        "link": "URL-del-recurso"
+                      }
+                    ],
+                  
+                  
+                "order": 3,
                 "options": []
             },
             "D": {
                 "description": " ",
                 "resources": [],
-                "order": 1,
+                "order": 4,
                 "options": []
             },
             "E": {
                 "description": " ",
                 "resources": [],
-                "order": 1,
+                "order": 5,
                 "options": []
             },
             "F": {
                 "description": " ",
                 "resources": [],
-                "order": 1,
+                "order": 6,
                 "options": []
             },
             "G": {
                 "description": " ",
                 "resources": [],
-                "order": 1,
+                "order": 7,
                 "options": []
             },
             "H": {
                 "description": " ",
                 "resources": [],
-                "order": 1,
+                "order": 8,
                 "options": []
             },
             "I": {
@@ -64,9 +199,11 @@
             },
             "K": {
                 "options": [
-                    { "K": {
-                        "options": []
-                    }}
+                    {
+                        "K": {
+                            "options": []
+                        }
+                    }
                 ]
             },
             "L": {
@@ -80,7 +217,6 @@
                 "options": []
             },
             "LL": {
-                
                 "options": []
             },
             "M": {
@@ -136,12 +272,12 @@
                 "resources": [],
                 "order": 1,
                 "options": [
-                    { "K": {
-                        "options": []
-                    }}  
-
+                    {
+                        "K": {
+                            "options": []
+                        }
+                    }
                 ]
-                
             },
             "U": {
                 "description": " ",
@@ -162,7 +298,6 @@
                         "name": "",
                         "link": ""
                     }
-                  
                 ],
                 "order": 1,
                 "options": [
@@ -170,9 +305,7 @@
                         "name": "",
                         "recommendation-type": "opinion",
                         "description": ""
-                      
                     },
-                   
                     {
                         "name": "",
                         "recommendation-type": "opinion",
