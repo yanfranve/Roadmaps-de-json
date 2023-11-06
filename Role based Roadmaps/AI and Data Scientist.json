@@ -2,7 +2,6 @@
     "roles": {
         "AI and Data Scientist": {
             "Mathematics": {
-               
                 "order": 1,
                 "options": [
                     {
@@ -12,7 +11,6 @@
                                 "name": "Mathematics for Machine Learning Specialization",
                                 "link": "https://imp.i384100.net/baqMYv"
                             }
-                           
                         ]
                     },
                     {
@@ -22,178 +20,11 @@
                                 "name": "Algebra and Differential Calculus for Data Science",
                                 "link": "https://imp.i384100.net/LX5M7M"
                             }
-                          
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
                         ]
                     }
                 ]
             },
             "Statistics": {
-               
                 "order": 2,
                 "options": [
                     {
@@ -203,7 +34,6 @@
                                 "name": "https://imp.i384100.net/3eRv4v",
                                 "link": "https://imp.i384100.net/3eRv4v"
                             }
-                           
                         ]
                     },
                     {
@@ -213,7 +43,6 @@
                                 "name": "Introduction to Statistical Analysis: Hypothesis Testing",
                                 "link": "https://imp.i384100.net/vN0JAA"
                             }
-                           
                         ]
                     },
                     {
@@ -227,7 +56,6 @@
                                 "name": "Step by Step Process for Planning an A/B Test",
                                 "link": "https://towardsdatascience.com/step-by-step-for-planning-an-a-b-test-ef3c93143c0b"
                             }
-                            
                         ]
                     },
                     {
@@ -257,7 +85,6 @@
                                 "name": "Improving the Sensitivity of Online Controlled Experiments: Case Studies at Netflix",
                                 "link": "https://www.researchgate.net/publication/305997925_Improving_the_Sensitivity_of_Online_Controlled_Experiments_Case_Studies_at_Netflix"
                             }
-                           
                         ]
                     },
                     {
@@ -271,14 +98,11 @@
                                 "name": "Approximations for Mean and Variance of a Ratio",
                                 "link": "https://www.stat.cmu.edu/~hseltman/files/ratio.pdf"
                             }
-                        
                         ]
                     }
-             
                 ]
             },
             "Econometrics": {
-               
                 "order": 3,
                 "options": [
                     {
@@ -288,7 +112,6 @@
                                 "name": "10 Fundamental Theorems for Econometrics",
                                 "link": "https://bookdown.org/ts_robinson1994/10EconometricTheorems/"
                             }
-                           
                         ]
                     },
                     {
@@ -332,11 +155,9 @@
                             }
                         ]
                     }
-                 
                 ]
             },
             "Coding": {
-               
                 "order": 4,
                 "options": [
                     {
@@ -350,7 +171,6 @@
                                 "name": "Google’s Python Class",
                                 "link": "https://developers.google.com/edu/python"
                             }
-                          
                         ]
                     },
                     {
@@ -368,7 +188,6 @@
                                 "name": "Algorithms Specialization",
                                 "link": "https://imp.i384100.net/5gqv4n"
                             }
-                           
                         ]
                     },
                     {
@@ -378,14 +197,11 @@
                                 "name": "SQL Tutorial",
                                 "link": "https://www.sqltutorial.org/"
                             }
-                           
                         ]
                     }
-                   
                 ]
             },
             "Exploratory Data Analysis": {
-               
                 "order": 5,
                 "options": [
                     {
@@ -403,14 +219,11 @@
                                 "name": "Exploratory Data Analysis with Seaborn",
                                 "link": "https://imp.i384100.net/ZQmMgR"
                             }
-                           
                         ]
                     }
-                   
                 ]
             },
             "Machine Learning": {
-               
                 "order": 6,
                 "options": [
                     {
@@ -436,14 +249,11 @@
                                 "name": "Pattern Recognition and Machine Learning by Christopher Bishop",
                                 "link": "https://github.com/gerdm/prml"
                             }
-                           
                         ]
                     }
-                  
                 ]
             },
             "Deep Learning": {
-               
                 "order": 7,
                 "options": [
                     {
@@ -465,14 +275,11 @@
                                 "name": "Deep Learning Specialization",
                                 "link": "https://imp.i384100.net/Wq9MV3"
                             }
-                           
                         ]
                     }
-                  
                 ]
             },
             "MLOps": {
-               
                 "order": 8,
                 "options": [
                     {
@@ -482,10 +289,8 @@
                                 "name": "Machine Learning Engineering for Production (MLOps) Specialization",
                                 "link": "https://imp.i384100.net/nLA5mx"
                             }
-                           
                         ]
                     }
-                  
                 ]
             }
         }
