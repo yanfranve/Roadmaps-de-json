@@ -192,7 +192,7 @@
                         "resources": [
                             {
                                 "name": "Why RxJS? RxJS vs Promises",
-                                "link": "Interactive Diagrams"
+                                "link": "https://javascript.plainenglish.io/why-rxjs-rxjs-vs-promises-b28962771d68"
                             }
                         ]
                     },
