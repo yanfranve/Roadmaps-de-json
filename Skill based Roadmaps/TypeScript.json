@@ -650,141 +650,262 @@
                     }
                 ]
             },
-            "I": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "J": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "K": {
-                "options": [
-                    {
-                        "K": {
-                            "options": []
-                        }
-                    }
-                ]
-            },
-            "L": {
-                "description": " ",
-                "resources": [],
-                "recommendation-type": "opinion",
-                "recommendation-type": "not strict",
-                "recommendation-type": "Pick this or purple",
-                "recommendation-type": "wouidn't",
-                "order": 1,
-                "options": []
-            },
-            "LL": {
-                "options": []
-            },
-            "M": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "N": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "Ñ": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "O": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "P": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "Q": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "R": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "S": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "T": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": [
-                    {
-                        "K": {
-                            "options": []
-                        }
-                    }
-                ]
-            },
-            "U": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "V": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            " ": {
-                "description": " ",
+            "Classes": {
+                "description": "Classes in TypeScript are a blueprint for creating objects (instances of a class), providing a way to structure objects and encapsulate data and behavior. Classes in TypeScript have a similar syntax to classes in other object-oriented programming languages, such as Java and C#.\n\nA class in TypeScript is defined using the class keyword, followed by the name of the class. The class definition can include fields (also known as properties or attributes), methods (functions), and a constructor.\n\n```typescript\nclass Animal {\n  name: string;\n  constructor(name: string) {\n    this.name = name;\n  }\n\n  makeSound(): void {\n    console.log(`${this.name} is making a sound`);\n  }\n}\n\nconst dog = new Animal('Dog');\ndog.makeSound(); // Output: Dog is making a sound\n```\n\nIn this example, the Animal class has a name field, a constructor that sets the value of the name field, and a makeSound method. An instance of the Animal class can be created using the new keyword, and its methods and properties can be accessed using dot notation.",
                 "resources": [
                     {
-                        "name": "",
+                        "name": "Tutorial - Classes",
+                        "link": "https://www.typescriptlang.org/docs/handbook/2/classes.html"
+                    }
+                ],
+                "order": 9,
+                "options": []
+            },
+            "Generics": {
+                "description": "Generics in TypeScript are a way to write code that can work with multiple data types, instead of being limited to a single data type. Generics allow you to write functions, classes, and interfaces that take one or more type parameters, which act as placeholders for the actual data types that will be used when the function, class, or interface is used.\n\nFor example, the following is a generic function that takes a single argument of any data type and returns the same data type:\n\nfunction identity<T>(arg: T): T {\n  return arg;\n}\n\nlet output = identity<string>('Hello'); // type of output will be 'string'\nIn this example, the identity function takes a single argument of any data type and returns the same data type. The actual data type is specified when the function is called by using <string> before the argument Hello",
+                "resources": [
+                    {
+                        "name": "Hello World of Generics",
+                        "link": "https://www.typescriptlang.org/docs/handbook/2/generics.html#hello-world-of-generics"
+                    },
+                    {
+                        "name": "TypeScript - Roadmap",
+                        "link": "https://roadmap.sh/typescript#:~:text=Update%20Status-,Decorators,Decorators,-Help%20others%20learn"
+                    }
+                ],
+                "order": 10,
+                "options": []
+            },
+            "Decorators": {
+                "description": "Decorators are a feature of TypeScript that allow you to modify the behavior of a class, property, method, or parameter. They are a way to add additional functionality to existing code, and they can be used for a wide range of tasks, including logging, performance optimization, and validation.\n\nHere’s an example of how you might use a decorator in TypeScript:\n\n```typescript\nfunction log(\n  target: Object,\n  propertyKey: string | symbol,\n  descriptor: PropertyDescriptor\n) {\n  const originalMethod = descriptor.value;\n\n  descriptor.value = function (...args: any[]) {\n    console.log(`Calling ${propertyKey} with arguments: ${args}`);\n    return originalMethod.apply(this, args);\n  };\n\n  return descriptor;\n}\n\nclass Calculator {\n  @log\n  add(a: number, b: number): number {\n    return a + b;\n  }\n}\n\nconst calculator = new Calculator();\ncalculator.add(1, 2);\n// Output: Calling add with arguments: 1,2\n// Output: 3\n```\n\nIn this example, we use the @log decorator to modify the behavior of the add method in the Calculator class. The log decorator logs the arguments passed to the method before calling the original method. This allows us to see what arguments are being passed to the method, without having to modify the method’s code.",
+                "resources": [
+                    {
+                        "name": "Decorators",
+                        "link": "https://www.typescriptlang.org/docs/handbook/decorators.html#handbook-content"
+                    }
+                ],
+                "order": 11,
+                "options": []
+            },
+            "Utility Types": {
+                "description": "TypeScript provides several utility types that can be used to manipulate and transform existing types. Here are some of the most common ones:\n\n- Partial: makes all properties of a type optional.\n- Readonly: makes all properties of a type read-only.\n- Pick: allows you to pick specific properties from a type.\n- Omit: allows you to omit specific properties from a type.\n- Exclude: creates a type that is the set difference of A and B.\n- ..and more.",
+                "resources": [
+                    {
+                        "name": "TypeScript - Utility Types",
                         "link": ""
                     }
                 ],
-                "order": 1,
+                "order": 12,
+                "options": []
+            },
+            "Advanced Types": {
+                "description": "Advanced types in TypeScript are a set of advanced type constructs that allow for more complex and expressive type systems. Some of the most commonly used advanced types in TypeScript include:\n\n- Intersection Types\n- Union Types\n- Type Aliases\n- Conditional Types\n- Index Types\n- Mapped Types\n- Type Guards\n\nThese advanced types allow for more complex and expressive type systems, and enable you to write code that is safer, more maintainable, and easier to understand. By leveraging these advanced types, you can write code that is more robust, less prone to errors, and easier to maintain.",
+                "resources": [
+                    {
+                        "name": "Advanced Topics",
+                        "link": ""
+                    },
+                    {
+                        "name": "Tutorial of Typescript - Advanced Types",
+                        "link": ""
+                    }
+                ],
+                "order": 13,
+                "options": []
+            },
+            "TypeScript Modules": {
+                "description": "In TypeScript, modules are used to organize and reuse code. There are two types of modules in TypeScript:\n\n- Internal\n- External\n\nInternal modules are used to organize code within a file and are also referred to as namespaces. They are defined using the “namespace” keyword.\n\nExternal modules are used to organize code across multiple files. They are defined using the “export” keyword in one file and the “import” keyword in another file. External modules in TypeScript follow the CommonJS or ES modules standards.",
+                "resources": [
+                    {
+                        "name": "Modules",
+                        "link": ""
+                    },
+                    {
+                        "name": "TypeScript - Modules",
+                        "link": ""
+                    }
+                ],
+                "order": 14,
                 "options": [
                     {
-                        "name": "",
+                        "name": "External Modules",
                         "recommendation-type": "opinion",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": []
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "In TypeScript, external modules allow you to organize and share code across multiple files. External modules in TypeScript follow the CommonJS or ES modules standards.Here’s an example of how you can use external modules in TypeScript:// myModule.tsexport function doSomething() {  console.log('Doing something...');}// main.tsimport { doSomething } from './myModule';doSomething(); // Output: Doing something...In this example, we use the “export” keyword in the “myModule.ts” file to export the “doSomething” function, making it available for other files to use.",
                         "resources": [
                             {
-                                "name": "",
+                                "name": "External Module",
+                                "link": "https://www.javatpoint.com/typescript-module"
+                            },
+                            {
+                                "name": "TypeScript - External Module",
+                                "link": "https://learncodeweb.com/typescript/modules-in-typescript-explain-with-an-example/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ambient Modules",
+                        "recommendation-type": "opinion",
+                        "description": "Ambient modules in TypeScript are used to declare external modules or third-party libraries in a TypeScript program. Ambient modules provide type information for modules that have no TypeScript declarations, but are available in the global scope.Here’s an example of how you can use ambient modules in TypeScript:// myModule.d.tsdeclare module 'my-module' {export function doSomething(): void;}// main.tsimport * as myModule from 'my-module';myModule.doSomething();In this example, we declare an ambient module “my-module” in the myModule.d.ts file. This declaration provides type information for the “my-module” module, including the “doSomething” function that is exported from the module.",
+                        "resources": [
+                            {
+                                "name": "Ambient Modules",
+                                "link": "https://www.typescriptlang.org/docs/handbook/modules.html#ambient-modules"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Namespaces",
+                        "recommendation-type": "opinion",
+                        "description": "In TypeScript, namespaces are used to organize and share code across multiple files. Namespaces allow you to group related functionality into a single unit and prevent naming conflicts.Here’s an example of how you can use namespaces in TypeScript:// myNamespace.tsnamespace MyNamespace {export function doSomething() {console.log('Doing something...');}}// main.ts/// <reference path= myNamespace.ts />MyNamespace.doSomething(); // Output: Doing something...In this example, we use the namespace keyword in the “myNamespace.ts” file to define a namespace “MyNamespace”. Within the namespace, we export a function “doSomething”.",
+                        "resources": [
+                            {
+                                "name": "Overview of Namespaces",
+                                "link": "https://www.typescriptlang.org/docs/handbook/namespaces.html"
+                            },
+                            {
+                                "name": "Namespaces and Modules",
+                                "link": "https://www.typescriptlang.org/docs/handbook/namespaces-and-modules.html"
+                            },
+                            {
+                                "name": "TypeScript - Using Namespaces",
+                                "link": "https://typescriptlang.org/docs/handbook/namespaces-and-modules.html#using-namespaces"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Namespace Augmentation",
+                        "recommendation-type": "opinion",
+                        "description": "In TypeScript, namespace augmentation is a way to extend or modify existing namespaces. This is useful when you want to add new functionality to existing namespaces or to fix missing or incorrect declarations in third-party libraries.\nHere’s an example of how you can use global augmentation in TypeScript:\n// myModule.d.tsdeclare namespace NodeJS {interface Global { myGlobalFunction(): void;}// main.tsglobal.myGlobalFunction = function () { console.log('I am a global function!');};myGlobalFunction(); // Output: I am a global function!\nIn this example, we declare a new namespace “NodeJS” and add an interface “Global” to it. Within the “Global” interface, we declare a new function “myGlobalFunction”.",
+                        "resources": [
+                            {
+                                "name": "Module Augmentation",
+                                "link": "https://www.typescriptlang.org/docs/handbook/declaration-merging.html#global-augmentation"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Global Augmentation",
+                        "recommendation-type": "opinion",
+                        "description": "In TypeScript, global augmentation is a way to add declarations to the global scope. This is useful when you want to add new functionality to existing libraries or to augment the built-in types in TypeScript.\n// myModule.d.tsdeclare namespace NodeJS {interface Global {myGlobalFunction(): void;}} // main.ts global.myGlobalFunction = function () {console.log('I am a global function!');}myGlobalFunction(); // Output: I am a global function!In this example, we declare a new namespace “NodeJS” and add an interface “Global” to it. Within the “Global” interface, we declare a new function “myGlobalFunction”.",
+                        "resources": [
+                            {
+                                "name": "Global augmentation",
+                                "link": "https://www.typescriptlang.org/docs/handbook/declaration-merging.html#global-augmentation"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Ecosystem": {
+                "description": "Have a look at the linked nodes for different tools and frameworks that you can use to build your projects. ",
+                "resources": [],
+                "order": 15,
+                "options": [
+                    {
+                        "name": "Formatting",
+                        "recommendation-type": "opinion",
+                        "description": "Prettier is an opinionated code formatter with support for JavaScript, HTML, CSS, YAML, Markdown, GraphQL Schemas. By far the biggest reason for adopting Prettier is to stop all the on-going debates over styles.",
+                        "resources": [
+                            {
+                                "name": "Prettier Website",
+                                "link": "https://prettier.io/"
+                            },
+                            {
+                                "name": "Why Prettier",
+                                "link": "https://prettier.io/docs/en/why-prettier.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Linting",
+                        "recommendation-type": "opinion",
+                        "description": "With ESLint, you can impose the coding standard using a certain set of standalone rules.",
+                        "resources": [
+                            {
+                                "name": "ESLint Official Website",
+                                "link": "https://eslint.org/"
+                            },
+                            {
+                                "name": "Introduction to ESLint",
+                                "link": "https://dev.to/shivambmgupta/eslint-what-why-when-how-5f1d"
+                            },
+                            {
+                                "name": "ESLint Quickstart - find errors automatically",
+                                "link": "https://www.youtube.com/watch?v=qhuFviJn-es"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Useful Packages",
+                        "recommendation-type": "opinion",
+                        "description": "TypeScript has a large ecosystem of packages that can be used to extend the language or to add functionality to your project. Here is a list of some of the most useful packages.",
+                        "resources": [
+                            {
+                                "name": "zod",
                                 "link": ""
+                            },
+                            {
+                                "name": "ts-morph",
+                                "link": ""
+                            },
+                            {
+                                "name": "ts-node",
+                                "link": ""
+                            },
+                            {
+                                "name": "ts-jest",
+                                "link": ""
+                            },
+                            {
+                                "name": "typesync",
+                                "link": ""
+                            },
+                            {
+                                "name": "tsd - TypeScript Definition Manager",
+                                "link": ""
+                            },
+                            {
+                                "name": "type-fest - A collection of essential TypeScript types",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Build Tools",
+                        "recommendation-type": "opinion",
+                        "description": "Task runners automatically execute commands and carry out processes behind the scenes. This helps automate your workflow by performing mundane, repetitive tasks that you would otherwise waste an egregious amount of time repeating yourself.Common usages of task runners include numerous development tasks such as: spinning up development servers, compiling code (ex. SCSS to CSS), running linters, serving files up from a local port on your computer, and many more!",
+                        "resources": [
+                            {
+                                "name": "webpack",
+                                "link": "https://webpack.js.org/"
+                            },
+                            {
+                                "name": "Vite - Next Generation Frontend Tooling",
+                                "link": "https://vitejs.dev/"
+                            },
+                            {
+                                "name": "Parcel - a zero configuration build tool for the web",
+                                "link": "https://parceljs.org/"
+                            },
+                            {
+                                "name": "esbuild - an extremely fast JavaScript bundler and minifier",
+                                "link": "https://esbuild.github.io/"
+                            },
+                            {
+                                "name": "swc - a super-fast compiler written in Rust",
+                                "link": "https://swc.rs/"
+                            },
+                            {
+                                "name": "tsup - a zero-config TypeScript build tool",
+                                "link": "https://tsup.egoist.sh/"
+                            },
+                            {
+                                "name": "Rollup - a module bundler for JavaScript",
+                                "link": "https://rollupjs.org/guide/en/"
+                            },
+                            {
+                                "name": "tsdx - a zero-config CLI for TypeScript package development",
+                                "link": "https://tsdx.io/"
                             }
                         ]
                     }
