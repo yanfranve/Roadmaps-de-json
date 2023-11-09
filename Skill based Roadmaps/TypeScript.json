@@ -659,7 +659,74 @@
                     }
                 ],
                 "order": 9,
-                "options": []
+                "options": [
+                    {
+                        "name": "Constructor Params",
+                        "recommendation-type": "opinion",
+                        "description": "In TypeScript, constructor parameters can be declared with access modifiers (e.g. public, private, protected) and/or type annotations. The parameters are then automatically assigned to properties of the same name within the constructor, and can be accessed within the class.",
+                        "resources": [
+                            {
+                                "name": "TypeScript - Constructors",
+                                "link": "https://www.typescriptlang.org/docs/handbook/2/classes.html#constructors"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Constructor Overloading",
+                        "recommendation-type": "opinion",
+                        "description": "In TypeScript, you can achieve constructor overloading by using multiple constructor definitions with different parameter lists in a single class. Given below is the example where we have multiple definitions for the constructor:class Point {// Overloadsconstructor(x: number, y: string);constructor(s: string);constructor(xs: any, y?: any) {  // TBD }Note that, similar to function overloading, we only have one implementation of the consructor and it’s the only the signature that is overloaded.",
+                        "resources": [
+                            {
+                                "name": "Constructors - TypeScript",
+                                "link": "https://www.typescriptlang.org/docs/handbook/2/classes.html#constructors"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Access Modifiers",
+                        "recommendation-type": "opinion",
+                        "description": "In TypeScript, access modifiers are keywords used to control the visibility and accessibility of class properties and methods. There are three access modifiers in TypeScript:public: This is the default access modifier. Properties and methods declared as public can be accessed from anywhere, both inside and outside the class.private: Properties and methods declared as private can only be accessed within the same class. They are not accessible from outside the class.protected: Properties and methods declared as protected can be accessed within the class and its subclasses. They are not accessible from outside the class and its subclasses.Access modifiers in TypeScript allow you to define the level of visibility and accessibility of properties and methods in your class, making your code more maintainable and secure.",
+                        "resources": [
+                            {
+                                "name": "TypeScript Access Modifiers",
+                                "link": "https://www.typescriptlang.org/docs/handbook/2/classes.html#access-modifiers"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Abstract Classes",
+                        "recommendation-type": "opinion",
+                        "description": "Abstract classes in TypeScript are classes that cannot be instantiated on their own and must be subclassed by other classes. Abstract classes provide a blueprint for other classes and can have abstract methods, which are methods without a body and must be overridden by the subclass. These classes are useful for defining a common interface or basic functionality that other classes can inherit and build upon.",
+                        "resources": [
+                            {
+                                "name": "Abstract Classes",
+                                "link": "https://www.typescriptlang.org/docs/handbook/2/classes.html#abstract-classes"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Inheritance vs Polymorphism",
+                        "recommendation-type": "opinion",
+                        "description": "Inheritance and polymorphism are two fundamental concepts in object-oriented programming, and they are supported in TypeScript as well.Inheritance refers to a mechanism where a subclass inherits properties and methods from its parent class. This allows a subclass to reuse the code and behavior of its parent class while also adding or modifying its ownbehavior. In TypeScript, inheritance is achieved using the extends keyword.Polymorphism refers to the ability of an object to take on many forms. This allows objects of different classes to be treated as objects of a common class, as long as they share a common interface or inheritance hierarchy. In TypeScript, polymorphism is achieved through method overriding and method overloading.",
+                        "resources": [
+                            {
+                                "name": "Inheritance and Polymorphism In TypeScript",
+                                "link": "https://www.typescriptlang.org/docs/handbook/2/classes.html#inheritance-and-polymorphism"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Method Overriding",
+                        "recommendation-type": "opinion",
+                        "description": "In TypeScript, method overriding is a mechanism where a subclass provides a new implementation for a method that is already defined in its parent class. This allows the subclass to inherit the behavior of the parent class, but change its behavior to fit its own needs. To override a method in TypeScript, the signature of the method in the subclass must match exactly with the signature of the method in the parent class. In this example, the Dog class overrides the makeSound method defined in the Animal class and provides its own implementation. When the makeSound method is called on an instance of the Dog class, it will use the implementation in the Dog class rather than the implementation in the Animal class.",
+                        "resources": [
+                            {
+                                "name": "TypeScript - Overriding Methods",
+                                "link": "https://www.typescriptlang.org/docs/handbook/2/classes.html#overriding-methods"
+                            }
+                        ]
+                    }
+                ]
             },
             "Generics": {
                 "description": "Generics in TypeScript are a way to write code that can work with multiple data types, instead of being limited to a single data type. Generics allow you to write functions, classes, and interfaces that take one or more type parameters, which act as placeholders for the actual data types that will be used when the function, class, or interface is used.\n\nFor example, the following is a generic function that takes a single argument of any data type and returns the same data type:\n\nfunction identity<T>(arg: T): T {\n  return arg;\n}\n\nlet output = identity<string>('Hello'); // type of output will be 'string'\nIn this example, the identity function takes a single argument of any data type and returns the same data type. The actual data type is specified when the function is called by using <string> before the argument Hello",
@@ -674,7 +741,30 @@
                     }
                 ],
                 "order": 10,
-                "options": []
+                "options": [
+                    {
+                        "name": "Generic Types",
+                        "recommendation-type": "opinion",
+                        "description": "Generic types in TypeScript allow you to write objects, functions and classes that work with multiple data types, instead of being limited to a single data type. A generic type is defined using angle brackets <T> and can be used as a placeholder for a specific data type. The actual data type is specified when the function or class is used.For example, the following is a generic function that takes a single argument of any data type and returns the same data typfunction identity<T>(arg: T): T {return arg;}let output = identity<string>('Hello'); // type of output will be 'string'In this example, the identity function takes a single argument of any data type and returns the same data type. The actual data type is specified when the function is called by using <string> before the argument Hello.Generics can also be used with classes, interfaces, and object types, allowing them to work with multiple data types as well.class GenericNumber<T> { zeroValue: T;add: (x: T, y: T) => T;}let myGenericNumber = new GenericNumber<number>();myGenericNumber.zeroValue = 0;myGenericNumber.add = function (x, y) {return x + y;};",
+                        "resources": [
+                            {
+                                "name": "Hello World of Generics",
+                                "link": "https://www.typescriptlang.org/docs/handbook/2/generics.html#hello-world-of-generics"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Generic Constraints",
+                        "recommendation-type": "opinion",
+                        "description": "Generic constraints in TypeScript allow you to specify the requirements for the type parameters used in a generic type. These constraints ensure that the type parameter used in a generic type meets certain requirements.Constraints are specified using the extends keyword, followed by the type that the type parameter must extend or implement.interface Lengthwise {length: number;}function loggingIdentity<T extends Lengthwise>(arg: T): T {// Now we know it has a .length property, so no more errorconsole.log(arg.length);return arg;}loggingIdentity(3); // Error, number doesn't have a .length propertyloggingIdentity({ length: 10, value: 3 }); // OK In this example, the Lengthwise interface defines a length property. The loggingIdentity function uses a generic type parameter T that isconstrained by the Lengthwise interface, meaning that the type parameter must extend or implement the Lengthwise interface. This constrainensures that the length property is available on the argument passed to the loggingIdentity function.",
+                        "resources": [
+                            {
+                                "name": "Generic Constraints - TypeScript",
+                                "link": "https://www.typescriptlang.org/docs/handbook/2/generics.html#generic-constraints"
+                            }
+                        ]
+                    }
+                ]
             },
             "Decorators": {
                 "description": "Decorators are a feature of TypeScript that allow you to modify the behavior of a class, property, method, or parameter. They are a way to add additional functionality to existing code, and they can be used for a wide range of tasks, including logging, performance optimization, and validation.\n\nHere’s an example of how you might use a decorator in TypeScript:\n\n```typescript\nfunction log(\n  target: Object,\n  propertyKey: string | symbol,\n  descriptor: PropertyDescriptor\n) {\n  const originalMethod = descriptor.value;\n\n  descriptor.value = function (...args: any[]) {\n    console.log(`Calling ${propertyKey} with arguments: ${args}`);\n    return originalMethod.apply(this, args);\n  };\n\n  return descriptor;\n}\n\nclass Calculator {\n  @log\n  add(a: number, b: number): number {\n    return a + b;\n  }\n}\n\nconst calculator = new Calculator();\ncalculator.add(1, 2);\n// Output: Calling add with arguments: 1,2\n// Output: 3\n```\n\nIn this example, we use the @log decorator to modify the behavior of the add method in the Calculator class. The log decorator logs the arguments passed to the method before calling the original method. This allows us to see what arguments are being passed to the method, without having to modify the method’s code.",
