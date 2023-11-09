@@ -782,7 +782,7 @@
                 "resources": [
                     {
                         "name": "TypeScript - Utility Types",
-                        "link": ""
+                        "link": "https://www.typescriptlang.org/docs/handbook/utility-types.html"
                     }
                 ],
                 "order": 12,
