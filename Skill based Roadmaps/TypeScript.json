@@ -801,7 +801,62 @@
                     }
                 ],
                 "order": 13,
-                "options": []
+                "options": [
+                    {
+                        "name": "Mapped Types",
+                        "recommendation-type": "opinion",
+                        "description": "Mapped types in TypeScript are a way to create a new type based on an existing type, where each property of the existing type is transformed in some way. Mapped types are declared using a combination of the keyof operator and a type that maps each property of the existing type to a new property type. For example, the following is a mapped type that takes an object type and creates a new type with all properties of the original type but with their type changed to readonly:",
+                        "resources": [
+                            {
+                                "name": "Mapped Types",
+                                "link": "https://www.typescriptlang.org/docs/handbook/2/mapped-types.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Conditional Types",
+                        "recommendation-type": "opinion",
+                        "description": "Conditional types in TypeScript are a way to select a type based on a condition. They allow you to write a type that dynamically chooses a type based on the types of its inputs. Conditional types are declared using a combination of the infer keyword and a type that tests a condition and selects a type based on the result of the test. For example, the following is a conditional type that takes two types and returns the type of the first argument if it extends the second argument, and the type of the second argument otherwise:",
+                        "resources": [
+                            {
+                                "name": "Conditional Types",
+                                "link": "https://www.typescriptlang.org/docs/handbook/2/conditional-types.html"
+                            },
+                            {
+                                "name": "Conditional Types - Advanced TypeScript",
+                                "link": "https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#advanced-conditional-types"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Literal Types",
+                        "recommendation-type": "opinion",
+                        "description": "Literal types in TypeScript are a way to specify a value exactly, rather than just a type. Literal types can be used to enforce that a value must be of a specific type and a specific value. Literal types are created by using a literal value, such as a string, number, or boolean, as a type. For example, the following is a literal type that represents a value of 42:",
+                        "resources": [
+                            {
+                                "name": "Literal Types",
+                                "link": "https://www.typescriptlang.org/docs/handbook/2/literal-types.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template Literal Types",
+                        "recommendation-type": "opinion",
+                        "description": "Template literal types in TypeScript are a way to manipulate string values as types. They allow you to create a type based on the result of manipulation or concatenation. Template literal types are created using the backtick (`) character and string manipulation expressions within the type. For example, the following is a template literal type that concatenates two strings:type Name = `Mr. ${string}`;let name: Name = `Mr. Smith`;  // oklet name: Name = `Mrs. Smith`;  // errorIn this example, the Name template literal type is created by concatenating the string Mr with the type string. This type can then be used to enforce that a value must be a string that starts with Mr.",
+                        "resources": [
+                            {
+                                "name": "Template Literal Types",
+                                "link": "https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Recursive Types",
+                        "recommendation-type": "opinion",
+                        "description": "Recursive types in TypeScript are a way to define a type that references itself. Recursive types are used to define complex data structures, such as trees or linked lists, where a value can contain one or more values of the same type. For example, the following is a recursive type that represents a linked list:type LinkedList<T> = { value: T;next: LinkedList<T> | null;}; let list: LinkedList<number> = { value: 1, next: { value: 2, next: { value: 3, next: null } }, };In this example, the LinkedList type is defined as a type that extends T and contains a property next of the same type LinkedList<T>. This allows us to create a linked list where each node contains a value of type T and a reference to the next node in the list.",
+                        "resources": []
+                    }
+                ]
             },
             "TypeScript Modules": {
                 "description": "In TypeScript, modules are used to organize and reuse code. There are two types of modules in TypeScript:\n\n- Internal\n- External\n\nInternal modules are used to organize code within a file and are also referred to as namespaces. They are defined using the “namespace” keyword.\n\nExternal modules are used to organize code across multiple files. They are defined using the “export” keyword in one file and the “import” keyword in another file. External modules in TypeScript follow the CommonJS or ES modules standards.",
