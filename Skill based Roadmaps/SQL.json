@@ -61,15 +61,15 @@
                         "resources": [
                             {
                                 "name": "SQL Tutorial - Mode",
-                                "link": "URL-del-recurso"
+                                "link": "https://mode.com/sql-tutorial/"
                             },
                             {
                                 "name": "SQL Tutorial",
-                                "link": "URL-del-recurso"
+                                "link": "https://www.sqltutorial.org/"
                             },
                             {
                                 "name": "SQL Tutorial - W3Schools",
-                                "link": "URL-del-recurso"
+                                "link": "https://www.w3schools.com/sql/default.asp"
                             }
                         ]
                     },
@@ -77,23 +77,13 @@
                         "name": "SQL Data Types",
                         "recommendation-type": "opinion",
                         "description": "SQL data types define the type of data that can be stored in a database table’s column. Depending on the DBMS, the names of the data types can differ slightly. Here are the general types:",
-                        "resources": [
-                            {
-                                "name": "Resource Name",
-                                "link": "URL-del-recurso"
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "SQL Operators",
                         "recommendation-type": "opinion",
-                        "description": "SQL operators are used to perform operations like comparisons and arithmetic calculations. They are very crucial in forming queries. SQL operators are divided into the following types:",
-                        "resources": [
-                            {
-                                "name": "Resource Name",
-                                "link": "URL-del-recurso"
-                            }
-                        ]
+                        "description": "SQL operators are used to perform operations like comparisons and arithmetic calculations. They are very crucial in forming queries. SQL operators are divided into the following types:INT\nRemember, the specific syntax for creating tables and defining column data types can vary slightly depending upon the SQL database you are using (MySQL, PostgreSQL, SQL Server, SQLite, Oracle, etc.), but the general concept and organization of data types is cross-platform.",
+                        "resources": []
                     },
                     {
                         "name": "SELECT Statement in SQL",
@@ -110,48 +100,30 @@
                         "name": "SQL UPDATE Statement",
                         "recommendation-type": "opinion",
                         "description": "The SQL UPDATE statement is used to modify the existing data in a database. This statement is very useful when you need to change the values assigned to specific fields in an existing row or set of rows.",
-                        "resources": [
-                            {
-                                "name": "Resource Name",
-                                "link": "URL-del-recurso"
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "INSERT Statement in SQL",
                         "recommendation-type": "opinion",
                         "description": "The INSERT statement in SQL is used to add new rows of data to a table in the database. There are three forms of the INSERT statement: INSERT INTO values, INSERT INTO set, and INSERT INTO select.",
-                        "resources": [
-                            {
-                                "name": "Resource Name",
-                                "link": "URL-del-recurso"
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "DELETE Statement in SQL",
                         "recommendation-type": "opinion",
                         "description": "The DELETE statement in SQL helps you remove existing records from a database. However, keep in mind, it is a destructive operation and may permanently erase data from your database.",
-                        "resources": [
-                            {
-                                "name": "Resource Name",
-                                "link": "URL-del-recurso"
-                            }
-                        ]
+                        "resources": []
                     }
                 ]
             },
             "Data Definition Language (DDL)": {
-                
-                    "description": "Data Definition Language (DDL) is a subset of SQL. Its primary function is to create, modify, and delete database structures but not data. The commands in DDL are:",
-                    "resources": [
-                      {
+                "description": "Data Definition Language (DDL) is a subset of SQL. Its primary function is to create, modify, and delete database structures but not data. The commands in DDL are:",
+                "resources": [
+                    {
                         "name": "Resource Name",
                         "link": "URL-del-recurso"
-                      }
-                    ],
-                  
-                  
+                    }
+                ],
                 "order": 3,
                 "options": []
             },
