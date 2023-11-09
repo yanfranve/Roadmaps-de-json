@@ -786,7 +786,140 @@
                     }
                 ],
                 "order": 12,
-                "options": []
+                "options": [
+                    {
+                        "name": "Partial",
+                        "recommendation-type": "opinion",
+                        "description": "The Partial type in TypeScript allows you to make all properties of a type optional. This is useful when you need to create an object with only a subset of the properties of an existing type.",
+                        "resources": [
+                            {
+                                "name": "Partial",
+                                "link": "https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pick",
+                        "recommendation-type": "opinion",
+                        "description": "Pick constructs a type by picking the set of properties Keys (string literal or union of string literals) from Type.",
+                        "resources": [
+                            {
+                                "name": "Pick<Type, Keys>",
+                                "link": "https://www.typescriptlang.org/docs/handbook/utility-types.html#picktype-keys"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Omit",
+                        "recommendation-type": "opinion",
+                        "description": "Omit constructs a type by picking all properties from Type and then removing Keys (string literal or union of string literals).",
+                        "resources": [
+                            {
+                                "name": "Omit<Type, Keys>",
+                                "link": "https://www.typescriptlang.org/docs/handbook/utility-types.html#omittype-keys"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Readonly",
+                        "recommendation-type": "opinion",
+                        "description": "Readonly constructs a type with all properties of Type set to readonly, meaning the properties of the constructed type cannot be reassigned.",
+                        "resources": [
+                            {
+                                "name": "Readonly",
+                                "link": "https://www.typescriptlang.org/docs/handbook/utility-types.html#readonlytype"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Record",
+                        "recommendation-type": "opinion",
+                        "description": "Record constructs an object type whose property keys are Keys and whose property values are Type. This utility can be used to map the properties of a type to another type.",
+                        "resources": [
+                            {
+                                "name": "Record<Keys, Type>",
+                                "link": "https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeystype"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exclude",
+                        "recommendation-type": "opinion",
+                        "description": "Exclude constructs a type by excluding from UnionType all union members that are assignable to ExcludedMembers.",
+                        "resources": [
+                            {
+                                "name": "Exclude<UnionType, ExcludedMembers>",
+                                "link": "https://www.typescriptlang.org/docs/handbook/utility-types.html#excludetype-excludedmembers"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Extract",
+                        "recommendation-type": "opinion",
+                        "description": "Extract constructs a type by extracting from Type all union members that are assignable to Union.",
+                        "resources": [
+                            {
+                                "name": "Extract<Type, Union>",
+                                "link": "https://www.typescriptlang.org/docs/handbook/utility-types.html#extracttype-union"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "NonNullable",
+                        "recommendation-type": "opinion",
+                        "description": "Non-Nullable constructs a type by excluding null and undefined from Type.",
+                        "resources": [
+                            {
+                                "name": "NonNullable",
+                                "link": "https://www.typescriptlang.org/docs/handbook/utility-types.html#nonnullable"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Parameters",
+                        "recommendation-type": "opinion",
+                        "description": "Parameters constructs a tuple type from the types used in the parameters of a function type Type.",
+                        "resources": [
+                            {
+                                "name": "Parameters",
+                                "link": "https://www.typescriptlang.org/docs/handbook/utility-types.html#parameters"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ReturnType",
+                        "recommendation-type": "opinion",
+                        "description": "Return type constructs a type consisting of the return type of function Type.",
+                        "resources": [
+                            {
+                                "name": "ReturnType",
+                                "link": "https://www.typescriptlang.org/docs/handbook/utility-types.html#returntype"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "InstanceType",
+                        "recommendation-type": "opinion",
+                        "description": "This type constructs a type consisting of the instance type of a constructor function in Type.",
+                        "resources": [
+                            {
+                                "name": "InstanceType",
+                                "link": "https://www.typescriptlang.org/docs/handbook/utility-types.html#instancetype"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Awaited",
+                        "recommendation-type": "opinion",
+                        "description": "This type is meant to model operations like await in async functions, or the .then() method on Promises - specifically, the way that they recursively unwrap Promises.",
+                        "resources": [
+                            {
+                                "name": "Awaited",
+                                "link": "https://www.typescriptlang.org/docs/handbook/utility-types.html#awaited"
+                            }
+                        ]
+                    }
+                ]
             },
             "Advanced Types": {
                 "description": "Advanced types in TypeScript are a set of advanced type constructs that allow for more complex and expressive type systems. Some of the most commonly used advanced types in TypeScript include:\n\n- Intersection Types\n- Union Types\n- Type Aliases\n- Conditional Types\n- Index Types\n- Mapped Types\n- Type Guards\n\nThese advanced types allow for more complex and expressive type systems, and enable you to write code that is safer, more maintainable, and easier to understand. By leveraging these advanced types, you can write code that is more robust, less prone to errors, and easier to maintain.",
