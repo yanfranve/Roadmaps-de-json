@@ -3,19 +3,19 @@
         "SQL": {
             "description": "Step by step guide to learning SQL in 2023 ",
             "Introduction": {
-                "description": "SQL, which stands for Structured Query Language, is a programming language that is used to communicate with and manage databases. SQL is a standard language for manipulating data held in relational database management systems (RDBMS), or for stream processing in a relational data stream management system (RDSMS). It was first developed in the 1970s by IBM.\n\nSQL consists of several components, each serving their own unique purpose in database communication.",
+                "description": "SQL, which stands for Structured Query Language, is a programming language that is used to communicate with and manage databases. SQL is a standard language for manipulating data held in relational database management systems (RDBMS), or for stream processing in a relational data stream management system (RDSMS). It was first developed in the 1970s by IBM.\n\nSQL consists of several components, each serving their own unique purpose in database communication.Queries: This is the component that allows you to retrieve data from a database. The SELECT statement is most commonly used for this purpose.Data Definition Language (DDL): It lets you to create, alter, or delete databases and their related objects like tables, views, etc. Commands include CREATE, ALTER, DROP, and TRUNCATE.Data Manipulation Language (DML): It lets you manage data within database objects. These commands include SELECT, INSERT, UPDATE, and DELETE.Data Control Language (DCL): It includes commands like GRANT and REVOKE, which primarily deal with rights, permissions and other control-level management tasks for the database system.SQL databases come in a number of forms, such as Oracle Database, Microsoft SQL Server, and MySQL. Despite their many differences, all SQL databases utilise the same language commands - SQL.",
                 "resources": [
                     {
                         "name": "SQL Tutorial - Mode",
-                        "link": "URL-del-recurso"
+                        "link": "https://mode.com/sql-tutorial/"
                     },
                     {
                         "name": "SQL Tutorial",
-                        "link": "URL-del-recurso"
+                        "link": "https://www.sqltutorial.org/"
                     },
                     {
                         "name": "SQL Tutorial - W3Schools",
-                        "link": "URL-del-recurso"
+                        "link": "https://www.w3schools.com/sql/default.asp"
                     }
                 ],
                 "order": 1,
@@ -23,133 +23,319 @@
                     {
                         "name": "What Are Relational Databases?",
                         "recommendation-type": "opinion",
-                        "description": "A relational database is a type of database that stores and organizes data in a structured way. It uses a structure that allows data to be identified and accessed in relation to other data in the database. Data in a relational database is stored in various data tables, each of which has a unique key identifying every row.",
-                        "resources": [
-                            {
-                                "name": "Resource Name",
-                                "link": "URL-del-recurso"
-                            }
-                        ]
+                        "description": "A relational database is a type of database that stores and organizes data in a structured way. It uses a structure that allows data to be identified and accessed in relation to other data in the database. Data in a relational database is stored in various data tables, each of which has a unique key identifying every row.Relational databases are made up of a set of tables with data that fits into a predefined category. Each table has at least one data category in a column, and each row contains a certain data instance for the categories defined in the columns.Relationships The term “relational database” comes from the concept of a relation—a set of tuples that the database organizes into rows and columns. Each row in a table represents a relationship among a set of values.Relational databases use keys to create links between tables. A primary key is a unique identifier for a row of data. A foreign key is a column or combination of columns used to establish and enforce a link between the data in two tables.‘EmployeeId’ serves as the foreign key creating a relationship between ‘Orders’ and ‘Employees’. This allows queries that involve data in both tables, like “Find all orders placed by John Doe”. \nSELECT Orders.OrderId, Orders.Product, Employees.FirstName, Employees.LastName FROM Orders INNER JOIN Employees ON Orders.EmployeeId = Employees.EmployeeId;The above SQL code is an example of how to retrieve data from a relational database using a JOIN clause to combine rows from two or more tables. Overall, relational databases provide a powerful mechanism for defining relationships within data and enabling efficient data retrieval.",
+                        "resources": []
                     },
                     {
                         "name": "RDBMS Benefits and Limitations",
                         "recommendation-type": "opinion",
-                        "description": "Here are some of the benefits of using an RDBMS:\n\nStructured Data: RDBMS allows data storage in a structured way, using rows and columns in tables. This makes it easy to manipulate the data using SQL (Structured Query Language), ensuring efficient and flexible usage.\n\nACID Properties: ACID stands for Atomicity, Consistency, Isolation, and Durability. These properties ensure reliable and safe data manipulation in an RDBMS, making it suitable for mission-critical applications.",
-                        "resources": [
-                            {
-                                "name": "Resource Name",
-                                "link": "URL-del-recurso"
-                            }
-                        ]
+                        "description": "Here are some of the benefits of using an RDBMS:\n\nStructured Data: RDBMS allows data storage in a structured way, using rows and columns in tables. This makes it easy to manipulate the data using SQL (Structured Query Language), ensuring efficient and flexible usage.\n\nACID Properties: ACID stands for Atomicity, Consistency, Isolation, and Durability. These properties ensure reliable and safe data manipulation in an RDBMS, making it suitable for mission-critical applications.Normalization: RDBMS supports data normalization, a process that organizes data in a way that reduces data redundancy and improves data integrity.\nScalability: RDBMSs generally provide good scalability options, allowing for the addition of more storage or computational resources as the data and workload grow.\nData Integrity: RDBMS provides mechanisms like constraints, primary keys, and foreign keys to enforce data integrity and consistency, ensuring that the data is accurate and reliable.\nSecurity: RDBMSs offer various security features such as user authentication, access control, and data encryption to protect sensitive data.Here are some of the limitations of using an RDBMS:\nComplexity: Setting up and managing an RDBMS can be complex, especially for large applications. It requires technical knowledge and skills to manage, tune, and optimize the database.\nCost: RDBMSs can be expensive, both in terms of licensing fees and the computational and storage resources they require.\nFixed Schema: RDBMS follows a rigid schema for data organization, which means any changes to the schema can be time-consuming and complicated.\nHandling of Unstructured Data: RDBMSs are not suitable for handling unstructured data like multimedia files, social media posts, and sensor data, as their relational structure is optimized for structured data.\nHorizontal Scalability: RDBMSs are not as easily horizontally scalable as NoSQL databases. Scaling horizontally, which involves adding more machines to the system, can be challenging in terms of cost and complexity.",
+                        "resources": []
+                    },
+                    {
+                        "SQL vs NoSQL": {
+                            "description": "When discussing databases, it’s essential to understand the difference between SQL and NoSQL databases, as each has its own set of advantages and limitations. In this section, we’ll briefly compare and contrast the two, so you can determine which one suits your needs better.\n\nSQL Databases\nSQL (Structured Query Language) databases are also known as relational databases. They have a predefined schema, and data is stored in tables consisting of rows and columns. SQL databases follow the ACID (Atomicity, Consistency, Isolation, Durability) properties to ensure reliable transactions. Some popular SQL databases include MySQL, PostgreSQL, and Microsoft SQL Server.\n\nAdvantages of SQL databases:\n- Predefined schema: Ideal for applications with a fixed structure.\n- ACID transactions: Ensures data consistency and reliability.\n- Support for complex queries: Rich SQL queries can handle complex data relationships and aggregation operations.\n- Scalability: Vertical scaling by adding more resources to the server (e.g., RAM, CPU).\n\nLimitations of SQL databases:\n- Rigid schema: Data structure updates are time-consuming and can lead to downtime.\n- Scaling: Difficulties in horizontal scaling and sharding of data across multiple servers.\n- Not well-suited for hierarchical data: Requires multiple tables and JOINs to model tree-like structures.\n\nNoSQL Databases\nNoSQL (Not only SQL) databases refer to non-relational databases, which don’t follow a fixed schema for data storage. Instead, they use a flexible and semi-structured format like JSON documents, key-value pairs, or graphs. MongoDB, Cassandra, Redis, and Couchbase are some popular NoSQL databases.\n\nAdvantages of NoSQL databases:\n- Flexible schema: Easily adapts to changes without disrupting the application.\n- Scalability: Horizontal scaling by partitioning data across multiple servers (sharding).\n- Fast: Designed for faster read and writes, often with a simpler query language.\n- Handling large volumes of data: Better suited to managing big data and real-time applications.\n- Support for various data structures: Different NoSQL databases cater to various needs, like document, graph, or key-value stores.\n\nLimitations of NoSQL databases:\n- Limited query capabilities: Some NoSQL databases lack complex query and aggregation support or use specific query languages.\n- Weaker consistency: Many NoSQL databases follow the BASE (Basically Available, Soft state, Eventual consistency) properties that provide weaker consistency guarantees than ACID-compliant databases.\n\nMongoDB: A NoSQL Database\nThis guide focuses on MongoDB, a popular NoSQL database that uses a document-based data model. MongoDB has been designed with flexibility, performance, and scalability in mind. With its JSON-like data format (BSON) and powerful querying capabilities, MongoDB is an excellent choice for modern applications dealing with diverse and large-scale data.\n\nNoSQL vs. SQL Databases",
+                            "resources": [
+                                {
+                                    "name": "NoSQL vs. SQL Databases",
+                                    "link": "https://www.mongodb.com/nosql-explained/nosql-vs-sql"
+                                }
+                            ]
+                        }
                     }
                 ]
             },
             "Basic SQL Syntax": {
-                "description": "When discussing databases, it’s essential to understand the difference between SQL and NoSQL databases, as each has its own set of advantages and limitations. In this section, we’ll briefly compare and contrast the two, so you can determine which one suits your needs better.",
-                "resources": [
-                    {
-                        "name": "Resource Name",
-                        "link": "URL-del-recurso"
-                    }
-                ],
+                "Basic SQL Syntax": {
+                    "description": "SQL, or Structured Query Language, uses a specific set of commands to interact with a database. It includes the use of keyword-like statements to accomplish several tasks such as creating, deleting, or modifying tables, retrieving, inserting, or modifying data.\n\nThe SELECT statement is used to retrieve data from a database. The data returned is stored in a result table, called the result-set.\n\nSELECT column1, column2 FROM table_name;\n\nThe INSERT INTO statement is used to insert new rows of data in a table.\n\nINSERT INTO table_name (column1, column2, column3) VALUES (value1, value2, value3);\n\nThe UPDATE statement is used to modify existing records in a table.\n\nUPDATE table_name\nSET column1 = value1, column2 = value2\nWHERE condition;\n\nThe DELETE statement is used to remove rows from a table.\n\nDELETE FROM table_name WHERE condition;\n\nThe CREATE TABLE statement is used to create a new table in a database.\n\nCREATE TABLE table_name (\ncolumn1 datatype constraints,\ncolumn2 datatype constraints,\ncolumn3 datatype constraints\n);\n\nThe ALTER TABLE statement is used to add, delete/drop or modify columns in the existing table. It is also used to add and drop constraints on the existing table.\n\n-- To add a column\nALTER TABLE table_name\nADD column_name datatype;\n\n-- To delete/drop column\nALTER TABLE table_name\nDROP COLUMN column_name;\n\n-- To modify existing column\nALTER TABLE table_name\nMODIFY COLUMN column_name datatype;\n\nThe DROP TABLE statement is used to drop an existing table in a database.\n\nDROP TABLE table_name;\n\nLearn more about SQL from the following resources:\nSQL Tutorial - Mode\nSQL Tutorial\nSQL Tutorial - W3Schools",
+                    "resources": [
+                        {
+                            "name": "SQL Tutorial - Mode",
+                            "link": "https://mode.com/sql-tutorial/"
+                        },
+                        {
+                            "name": "SQL Tutorial",
+                            "link": "https://www.sqltutorial.org/"
+                        },
+                        {
+                            "name": "SQL Tutorial - W3Schools",
+                            "link": "https://www.w3schools.com/sql/default.asp"
+                        }
+                    ]
+                },
                 "order": 2,
                 "options": [
                     {
-                        "name": "SQL Keywords",
-                        "recommendation-type": "opinion",
-                        "description": "SQL employs a number of standard command keywords that are integral to interact with databases. Keywords in SQL provide instructions as to what action should be performed.\n\nHere are some of the primary SQL keywords:",
-                        "resources": [
-                            {
-                                "name": "SQL Tutorial - Mode",
-                                "link": "https://mode.com/sql-tutorial/"
-                            },
-                            {
-                                "name": "SQL Tutorial",
-                                "link": "https://www.sqltutorial.org/"
-                            },
-                            {
-                                "name": "SQL Tutorial - W3Schools",
-                                "link": "https://www.w3schools.com/sql/default.asp"
-                            }
-                        ]
+                        "SQL keywords": {
+                            "description": "SQL employs a number of standard command keywords that are integral to interact with databases. Keywords in SQL provide instructions as to what action should be performed.\n\nHere are some of the primary SQL keywords:\n\nSELECT: This keyword retrieves data from a database. For example,\n\nSELECT * FROM Customers;\nIn the above statement * indicates that all records should be retrieved from the Customers table.\n\nFROM: Used in conjunction with SELECT to specify the table from which to fetch data.\n\nWHERE: Used to filter records. Incorporating a WHERE clause, you might specify conditions that must be met. For example,\n\nSELECT * FROM Customers WHERE Country='Germany';\nINSERT INTO: This command is used to insert new data into a database.\n\nINSERT INTO Customers (CustomerID, CustomerName, ContactName, Address, City, PostalCode, Country)\nVALUES ('Cardinal','Tom B. Erichsen','Skagen 21','Stavanger','4006','Norway');\nUPDATE: This keyword updates existing data within a table. For example,\n\nUPDATE Customers SET ContactName='Alfred Schmidt', City='Frankfurt' WHERE CustomerID=1;\nDELETE: This command removes one or more records from a table. For example,\n\nDELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';\nCREATE DATABASE: As implied by its name, this keyword creates a new database.\n\nCREATE DATABASE mydatabase;\nALTER DATABASE, DROP DATABASE, CREATE TABLE, ALTER TABLE, DROP TABLE: These keywords are used to modify databases and tables.\n\nRemember that SQL is not case sensitive, meaning keywords can be written in lower case. The convention is to write them in ALL CAPS for readability. There are many more keywords in SQL, but these are some of the most common.\n\nLearn more about SQL from the following resources:\nSQL Tutorial - Mode\nSQL Tutorial\nSQL Tutorial - W3Schools",
+                            "resources": [
+                                {
+                                    "name": "SQL Tutorial - Mode",
+                                    "link": "https://mode.com/sql-tutorial/"
+                                },
+                                {
+                                    "name": "SQL Tutorial",
+                                    "link": "https://www.sqltutorial.org/"
+                                },
+                                {
+                                    "name": "SQL Tutorial - W3Schools",
+                                    "link": "https://www.w3schools.com/sql/default.asp"
+                                }
+                            ]
+                        },
+                        "Data Types": {
+                            "description": "SQL data types define the type of data that can be stored in a database table’s column. Depending on the DBMS, the names of the data types can differ slightly. Here are the general types:\n\nINT\nINT is used for whole numbers. For example:\n\nCREATE TABLE Employees (\n    ID INT,\n    Name VARCHAR(30)\n);\nDECIMAL\nDECIMAL is used for decimal and fractional numbers. For example:\n\nCREATE TABLE Items (\n    ID INT,\n    Price DECIMAL(5,2)\n);\nCHAR\nCHAR is used for fixed-length strings. For example:\n\nCREATE TABLE Employees (\n    ID INT,\n    Initial CHAR(1)\n);\nVARCHAR\nVARCHAR is used for variable-length strings. For example:\n\nCREATE TABLE Employees (\n    ID INT,\n    Name VARCHAR(30)\n);\nDATE\nDATE is used for dates in the format (YYYY-MM-DD).\n\nCREATE TABLE Employees (\n    ID INT,\n    BirthDate DATE\n);\nDATETIME\nDATETIME is used for date and time values in the format (YYYY-MM-DD HH:MI:SS).\n\nCREATE TABLE Orders (\n    ID INT,\n    OrderDate DATETIME\n);\nBINARY\nBINARY is used for binary strings.\nBOOLEAN\nBOOLEAN is used for boolean values (TRUE or FALSE).\n\nRemember, the specific syntax for creating tables and defining column data types can vary slightly depending upon the SQL database you are using (MySQL, PostgreSQL, SQL Server, SQLite, Oracle, etc.), but the general concept and organization of data types is cross-platform.",
+                            "resources": []
+                        }
                     },
                     {
-                        "name": "SQL Data Types",
-                        "recommendation-type": "opinion",
-                        "description": "SQL data types define the type of data that can be stored in a database table’s column. Depending on the DBMS, the names of the data types can differ slightly. Here are the general types:",
-                        "resources": []
+                        "Operators": {
+                            "description": "SQL operators are used to perform operations like comparisons and arithmetic calculations. They are very crucial in forming queries. SQL operators are divided into the following types:\n\nArithmetic Operators: These are used to perform mathematical operations. Here is a list of these operators:\n+ : Addition\n- : Subtraction\n* : Multiplication\n/ : Division\n% : Modulus\nExample:\nSELECT product, price, (price * 0.18) as tax FROM products;\nComparison Operators: These are used in the where clause to compare one expression with another. Some of these operators are:\n= : Equal\n!= or <> : Not equal\n> : Greater than\n< : Less than\n>=: Greater than or equal\n<=: Less than or equal\nExample:\nSELECT name, age FROM students WHERE age > 18;\nLogical Operators: They are used to combine the result set of two different component conditions. These include:\nAND: Returns true if both components are true.\nOR : Returns true if any one of the component is true.\nNOT: Returns the opposite boolean value of the condition.\nExample:\nSELECT * FROM employees WHERE salary > 50000 AND age < 30;\nBitwise Operators: These perform bit-level operations on the inputs. Here is a list of these operators:\n& : Bitwise AND\n| : Bitwise OR\n^ : Bitwise XOR\nBitwise operators are much less commonly used in SQL than the other types of operators.\nRemember, the datatype of the result is dependent on the types of the operands.",
+                            "resources": []
+                        },
+                        "SELECT": {
+                            "description": "The SELECT statement is used in SQL to pick out specific data from a database. In other words, it is used to select from the database what you would like to display. The syntax for the SELECT statement is fairly straightforward:\nSELECT column(s)\nFROM table\nWHERE condition;\ncolumn(s): Enter the name(s) of the column(s) that you want to display.\ntable: The name of the table from where you want to retrieve data.\nWHERE: Optional. This is a filter to display only the rows where this condition is true.\nFor instance, if you wanted to select all data from the “Customers” table, your query would look like this:\nSELECT *\nFROM Customers;\nIn the above code, the asterisk * denotes “all”. This will retrieve all of the data in the “Customers” table.\nIf you want to select only the “FirstName” and “LastName” columns from the “Customers” table, your query would look like this:\nSELECT FirstName, LastName\nFROM Customers;\nYou can also filter using the WHERE clause. For example, selecting only the customers who are from “Germany”:\nSELECT *\nFROM Customers\nWHERE Country='Germany';\nFinally, you can also sort the results using the ORDER BY keyword:\nSELECT *\nFROM Customers\nORDER BY Country;\nThis will sort the output in ascending order by the Country column. To sort in descending order, you would add the DESC keyword:\nSELECT *\nFROM Customers\nORDER BY Country DESC;\nThese are the very basics of the SELECT statement in SQL, which is a vital part of working with databases.",
+                            "resources": []
+                        },
+                        "UPDATE": {
+                            "description": "The SQL UPDATE statement is used to modify the existing data in a database. This statement is very useful when you need to change the values assigned to specific fields in an existing row or set of rows.\nThe general syntax for the UPDATE statement is as follows:\nUPDATE table_name\nSET column1 = value1, column2 = value2, ...\nWHERE condition;\ntable_name: The name of the table where an update will be performed.\nSET: This clause specifies the column name and the new value that it should be updated to.\ncolumn1, column2, ...: The column names in the table.\nvalue1, value2,The new values that you want to record into the database.\nWHERE: This clause specifies the conditions that identify which row(s) to update.\nExample Usage\nHere’s an example that might provide some clarity. For an imaginary Employees table:\nEmployeeID Name Position Salary\n1 Jane Manager\n50000\n2John Clerk\n30000\n3Bob Engineer\n45000\nAlways be careful with the UPDATE statement; if you forget the WHERE clause, you will update all the rows in the table. ",
+                            "resources": []
+                        }
                     },
                     {
-                        "name": "SQL Operators",
-                        "recommendation-type": "opinion",
-                        "description": "SQL operators are used to perform operations like comparisons and arithmetic calculations. They are very crucial in forming queries. SQL operators are divided into the following types:INT\nRemember, the specific syntax for creating tables and defining column data types can vary slightly depending upon the SQL database you are using (MySQL, PostgreSQL, SQL Server, SQLite, Oracle, etc.), but the general concept and organization of data types is cross-platform.",
-                        "resources": []
-                    },
-                    {
-                        "name": "SELECT Statement in SQL",
-                        "recommendation-type": "opinion",
-                        "description": "The SELECT statement is used in SQL to pick out specific data from a database. In other words, it is used to select from the database what you would like to display. The syntax for the SELECT statement is fairly straightforward:",
-                        "resources": [
-                            {
-                                "name": "Resource Name",
-                                "link": "URL-del-recurso"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "SQL UPDATE Statement",
-                        "recommendation-type": "opinion",
-                        "description": "The SQL UPDATE statement is used to modify the existing data in a database. This statement is very useful when you need to change the values assigned to specific fields in an existing row or set of rows.",
-                        "resources": []
-                    },
-                    {
-                        "name": "INSERT Statement in SQL",
-                        "recommendation-type": "opinion",
-                        "description": "The INSERT statement in SQL is used to add new rows of data to a table in the database. There are three forms of the INSERT statement: INSERT INTO values, INSERT INTO set, and INSERT INTO select.",
-                        "resources": []
-                    },
-                    {
-                        "name": "DELETE Statement in SQL",
-                        "recommendation-type": "opinion",
-                        "description": "The DELETE statement in SQL helps you remove existing records from a database. However, keep in mind, it is a destructive operation and may permanently erase data from your database.",
-                        "resources": []
+                        "DELETE": {
+                            "description": "The DELETE statement in SQL helps you remove existing records from a database. However, keep in mind, it is a destructive operation and may permanently erase data from your database.\n\nWith the DELETE statement, you can perform the following:\n\nDelete All Rows:\n\nThe DELETE statement without a WHERE clause deletes all rows in a table. This operation is irreversible.\n\nExample:\n\nDELETE FROM table_name;\nThis SQL statement deletes all the records from table_name.\n\nDelete Specific Rows:\n\nWhen combined with the WHERE clause, the DELETE SQL statement erases specific rows that meet the condition.\n\nExample:\n\nDELETE FROM table_name WHERE condition;\nThis instance of the DELETE statement deletes records from table_name the place where the given condition matches.\n\nIt’s crucial to use DELETE cautiously because it has the potential to either erase certain important rows or entirely empty the table.\n\nNote: The deletion made by the “DELETE” statement is permanent and cannot be undone. Always ensure to have a backup before running a DELETE query, especially when it is on a production database.",
+                            "resources": []
+                        }
                     }
                 ]
             },
             "Data Definition Language (DDL)": {
-                "description": "Data Definition Language (DDL) is a subset of SQL. Its primary function is to create, modify, and delete database structures but not data. The commands in DDL are:",
+                "description": "Data Definition Language (DDL) is a subset of SQL. Its primary function is to create, modify, and delete database structures but not data. The commands in DDL areCREATE: This command is used to create the database or its objects (like table, index, function, views, store procedure, and triggers).\nCREATE TABLE table_name column1 data_type(size),column2 data_type(size),...);DROP: This command is used to delete an existing database or table.DROP TABLE table_name;ALTER: This is used to alter the structure of the database. It is used to add, delete/drop or modify columns in an existing table.\nALTER TABLE table_name ADD column_name datatype; ALTER TABLE table_name DROP COLUMN column_name; ALTER TABLE table_name MODIFY COLUMN column_name datatype(size);TRUNCATE: This is used to remove all records from a table, including all spaces allocated for the records which are removed.TRUNCATE TABLE table_name;RENAME: This is used to rename an object in the database.RENAME TABLE old_table_name TO new_table_name;Remember: In DDL operations, COMMIT and ROLLBACK statement cannot be performed because the MySQL engine automatically commits the changes Remember to replace table_name, column_name, datatype(size), old_table_name, and new_table_name in the examples above with your actual table names, column names, data types and sizes, and the old or new table names you want to specify.",
+                "resources": [],
+                "order": 3,
+                "options": [
+                    {
+                        "Create Table": {
+                            "description": "The CREATE TABLE statement in SQL is a Data Definition Language (DDL) command used to create a new table in the database.\n\nSQL CREATE TABLE Syntax\nThe syntax for SQL CREATE TABLE is as follows:\n\nCREATE TABLE table_name (\n    column1 datatype,\n    column2 datatype,\n    column3 datatype,\n   ....\n);\ntable_name is the name of the table that you want to create.\ncolumn1, column2,... are the columns in the table.\ndatatype is the data type for the column, such as varchar, int, date, etc.\nSQL CREATE TABLE Example\nHere is an example of the CREATE TABLE statement:\n\nCREATE TABLE Employees (\n    ID int,\n    Name varchar(255),\n    Salary int,\n    Department varchar(255),\n    Position varchar(255)\n);\nThis SQL command creates a new table named Employees with five columns, named ‘ID’, ‘Name’, ‘Salary’, ‘Department’, and ‘Position’. The data types are int for the ‘ID’ and ‘Salary’, and varchar(255) for the others.\nSQL CREATE TABLE with NOT NULL\nThe NOT NULL constraint enforces a column to not accept null values. When creating a new table, you can add this constraint. Here is a practical example:\n\nCREATE TABLE Employees (\n    ID int NOT NULL,\n    Name varchar(255) NOT NULL,\n    Salary int,\n    Department varchar(255),\n    Position varchar(255)\n);",
+                            "resources": []
+                        },
+                        "Alter Table": {
+                            "description": "The ALTER TABLE command in SQL is used to add, delete/drop, or modify columns in an existing table. It’s also useful for adding and dropping constraints such as primary key, foreign key, etc.\n\nAdd Column\nA single column can be added using the following syntax:\n\nALTER TABLE tableName\nADD columnName datatype;\nTo add more than one column:\n\nALTER TABLE tableName\nADD (columnName1 datatype,\n     columnName2 datatype,\n     ...\n     );\nDrop Column\nTo drop a single column:\n\nALTER TABLE tableName\nDROP COLUMN columnName;\nTo drop multiple columns:\n\nALTER TABLE tableName\nDROP (columnName1,\n       columnName2,\n       ...\n      );\nModify Column\nTo modify the datatype of a column:\n\nALTER TABLE tableName\nALTER COLUMN columnName TYPE newDataType;\nAdd/Drop Constraints\nTo add constraints:\n\nALTER TABLE tableName\nADD CONSTRAINT constraintName\nPRIMARY KEY (column1, column2, ... column_n);\nTo drop constraints:\n\nALTER TABLE tableName\nDROP CONSTRAINT constraintName;\nIn conclusion, ALTER TABLE in SQL lets you alter the structure of an existing table. This is a powerful command that lets you dynamically add, modify, and delete columns as well as the constraints placed on them. It ensures you are more flexible in dealing with changing data storage requirements.",
+                            "resources": []
+                        },
+                        "Truncate Table": {
+                            "description": "The TRUNCATE TABLE statement is a Data Definition Language (DDL) operation that is used to mark the extents of a table for deallocation (empty for reuse). The result of this operation quickly removes all data from a table, typically bypassing a number of integrity enforcing mechanisms intended to protect data (like triggers).\n\nSyntax\nIn SQL, the TRUNCATE TABLE statement is quite simple:\n\nTRUNCATE TABLE table_name;\nIn this command, “table_name” refers to the name of the table you wish to clear.\nExample\nIf you have a table named Orders and you want to delete all its records, you would use:\n\nTRUNCATE TABLE Orders;\nAfter executing this statement, the Orders table would still exist, but it would be empty.\nRemember, while TRUNCATE TABLE is faster and uses fewer system and transaction log resources than DELETE, it does not invoke triggers and cannot be rolled back, so use with caution.\nLimitations\nTruncate preserves the structure of the table for future use. But you can’t truncate a table that:\n- Is referenced by a FOREIGN KEY constraint. (You can truncate a table that has a foreign key that references itself.)\n- Participates in an indexed view.\n- Is published by using transactional replication or merge replication.\nIf you try to truncate a table with a foreign key constraint, SQL Server will prevent you from doing so and you will have to use the DELETE statement instead.\nFor partitioned tables, TRUNCATE TABLE removes all rows from all partitions. The operation is not allowed if the table contains any LOB columns - varchar(max), nvarchar(max), varbinary(max), text, ntext, image, xml, or if the table contains any filestream columns or spatial geo, geography, geometry, and hierarchyid data type columns, or any columns of CLR user-defined data types.",
+                            "resources": []
+                        }
+                    }
+                ]
+            },
+            "Data Manipulation Language (DML)": {
+                "description": "DML is a subcategory of SQL which stands for Data Manipulation Language. The purpose of DML is to insert, retrieve, update and delete data from the database. With this, we can perform operations on existing records.\n\nDML contains four commands which are:\n\nINSERT INTO - This command is used to insert new rows (records) into a table.\nExample:\n\nINSERT INTO table_name ( column1, column2, column3, ... )\nVALUES ( value1, value2, value3, ... )\nSELECT - This command is used to select data from a database. The data returned is stored in a result table, called the result-set.\nExample:\n\nSELECT column1, column2, ...\nFROM table_name\nUPDATE - This command is used to modify the existing rows in a table.\nExample:\n\nUPDATE table_name\nSET column1 = value1, column2 = value2, ...\nWHERE condition;\nDELETE FROM - This command is used to delete existing rows (records) from a table.\nExample:\n\nDELETE FROM table_name WHERE condition;",
                 "resources": [
                     {
-                        "name": "Resource Name",
-                        "link": "URL-del-recurso"
+                        "SELECT": {
+                            "description": "The SELECT statement in SQL is majorly used for fetching data from the database. It is one of the most essential elements of SQL.\n\nSyntax\nHere’s how your SELECT command will look like:\n\nSELECT column1, column2, ...\nFROM table_name;\nIf you want to select all the columns of a table, you can use * like this:\n\nSELECT * FROM table_name;\nExample\nFor instance, consider we have a table EMPLOYEES with columns name, designation, and salary. We can use SELECT in the following way:\n\nSELECT name, designation FROM EMPLOYEES;\nThis will retrieve all the names and designations of all employees from the table EMPLOYEES.\n\nSELECT DISTINCT\nThe SELECT DISTINCT statement is used to return only distinct (different) values. The DISTINCT keyword eliminates duplicate records from the results.\n\nHere’s how you can use it:\n\nSELECT DISTINCT column1, column2, ...\nFROM table_name;\nFor example, if we want to select all unique designations from the EMPLOYEES table, the query will look like this:\n\nSELECT DISTINCT designation FROM EMPLOYEES;\nSELECT WHERE\nSELECT statement combined with WHERE gives us the ability to filter records based on a condition.\n\nSyntax:\n\nSELECT column1, column2, ...\nFROM table_name\nWHERE condition;\nFor example, to select employees with salary more than 50000, you can use this query:\n\nSELECT * FROM EMPLOYEES WHERE salary > 50000;\nSELECT ORDER BY\nUsing SELECT statement in conjunction with ORDER BY, we can sort the result-set in ascending or descending order.\n\nSyntax:\n\nSELECT column1, column2, ...\nFROM table_name\nORDER BY column ASC|DESC;\nFor example, to select all employees and order them by their name in ascending fashion:\n\nSELECT * FROM EMPLOYEES ORDER BY name ASC;\nRemember that the default sort order is ascending if the ASC|DESC parameter is not defined.",
+                            "resources": [],
+                            "options": [
+                                {
+                                    "FROM": {
+                                        "description": "The FROM clause in SQL specifies the tables from which the retrieval should be made. It is an integral part of SELECT statements and variants of SELECT like SELECT INTO and SELECT WHERE. FROM can be used to join tables as well.\n\nTypically, FROM is followed by a space-delimited list of tables in which the SELECT operation is to be executed. If you need to pull data from multiple tables, you would separate each table with a comma.\n\nHere are some examples:\n\nExample 1 - Simple Usage\nIf you’ve a table called employees, you can select all employees’ data like this:\n\nSELECT *\nFROM employees;\nIn this example, * means “all columns”. So, SELECT * FROM employees; will retrieve all data from the employees table.\n\nExample 2 - FROM with Multiple Tables\nIf you’ve multiple tables, say employees and departments, and you want to select data from both, you can do the following:\n\nSELECT employees.name, departments.department\nFROM employees, departments\nWHERE employees.dept_id = departments.dept_id;\nIn this example, the FROM clause is following by two tables: employees and departments. employees.name and departments.department indicate that we’re selecting the name column from the employees table and the department column from the departments table.\nRemember, always respect the order of operations in SQL. The FROM clause works only after tables are identified.\nIn complex SQL queries where you might need to pull data from multiple tables, aliases are used to temporarily rename the tables within the individual SQL statement.\nExample 3 - FROM with Aliases\nBelow is an example of a FROM clause with aliases:\n\nSELECT e.name, d.department\nFROM employees AS e, departments AS d\nWHERE e.dept_id = d.dept_id;\nIn this example, employees and departments tables are termed as e and d respectively.\nThat’s it! Remember that FROM is not limited only to SELECT. It is applicable to UPDATE and DELETE operations as well.",
+                                        "resources": []
+                                    }
+                                },
+                                {
+                                    "WHERE": {
+                                        "description": "SQL provides a WHERE clause that is basically used to filter the records. If the condition specified in the WHERE clause satisfies, then only it returns the specific value from the table. You should use the WHERE clause to filter the records and fetch only the necessary records.\n\nThe WHERE clause is not only used in SELECT statements, but it is also used in UPDATE, DELETE statements, and more, which we will cover in subsequent chapters.\n\nAn example of its implementation is:\n\nSELECT * FROM Students WHERE Age > 10;\nIn this example, the statement selects all fields from the ‘Students’ table where the ‘Age’ field value is greater than 10.\n\nThe WHERE clause can be combined with AND, OR, and NOT operators. Here’s an example:\n\nSELECT * FROM Students WHERE Age > 10 AND Gender = 'Female';\nIn this example, the statement selects all fields from the ‘Students’ table where the ‘Age’ field value is greater than 10 and the ‘Gender’ is Female.\n\nThe syntax generally looks like this:\n\nSELECT column1, column2, ...\nFROM table_name\nWHERE condition;",
+                                        "resources": []
+                                    }
+                                },
+                                {
+                                    "ORDER BY": {
+                                        "description": "The ORDER BY clause in SQL is used to sort the result-set from a SEL\nSELECT column1, column2,...\nFROM table_name\nORDER BY column1, column2, ... ASC\nHere, ASC is used for ascending order. If you use ORDER BY without ASC or DESC, ASC is used by default.\n\nSyntax for Descending Order:\nSELECT column1, column2, ...\nFROM table_name\nORDER BY column1, column2, ... DESC;\nHere, DESC is used for descending order.\n\nUsage Example\nConsider the following Customers table:\n\nID NAME AGE ADDRESS SALARY\n1 Ramesh 32 Ahmedabad \n2000.0\n2 Khilan 25 Delhi\n1500.0\n3 kaushik 23 Kota 2000.0\nn4 Chaitali 25 Mumbai 6500.0\n5 Hardik 27 Bhopal 8500.0\n6 Komal 22 MP 4500.0\nExample 1 - Ascending Order:\nSort the table by the NAME column in ascending order:\n\nSELECT * FROM Customers\nORDER BY NAME ASC;\nExample 2 - Descending Order:\nSort the table by the SALARY column in descending order:\n\nSELECT * FROM Customers\nORDER BY SALARY DESC;\nExample 3 - Multiple Columns:\nYou can also sort by multiple columns. Sort the table by the AGE column in ascending order and then SALARY in descending order:\n\nSELECT * FROM Customers\nORDER BY AGE ASC, SALARY DESC;\nIn this instance, the ORDER BY clause first sorts the Customers table by the AGE column and then sorts the sorted result further by the SALARY column.",
+                                        "resources": []
+                                    }
+                                },
+                                {
+                                    "GROUP BY": {
+                                        "description": "“Group By” is a clause in SQL that is used to arrange identical data into groups. This clause comes under the category of Group Functions, alongside the likes of Count, Sum, Average, etc.\n\nThe syntax for ‘Group by’ is:\n\nSELECT column1, column2\nFROM table_name\nGROUP BY column1, column2;\nHere, column1, column2, are the names of the columns based on which we want to group the results.\n\nExample:\nAssume we have a “Sales” table. This table has three columns: ID, Item, and Amount.\n\nID     Item    Amount\n---   ------   ------\n1      A        150\n2      B        200\n3      A        100\n4      B        50\n5      A        200\n6      A        100\n7      B        150\nExecute the following SQL statement…\n\nSELECT Item, SUM(Amount)\nFROM Sales\nGROUP BY Item;\nThis will concatenate, or “group”, all items that are the same into one row, applying the SUM() function on their respective Amounts. The output will then be:\n\nItem    SUM(Amount)\n------  ----------\nA        550\nB        400\nGroup By with Having Clause\nThe Group By clause can also be used with the Having keyword. The Having keyword allows you to filter the results of the group function.\n\nFor example:\n\nSELECT Item, SUM(Amount)\nFROM Sales\nGROUP BY Item\nHAVING SUM(Amount) > 150;\nThis will return all grouped items where the total amount is more than 150. Hence, the result will be:\n\nItem    SUM(Amount)\n------  ----------\nA        550\nB        400",
+                                        "resources": []
+                                    }
+                                },
+                                {
+                                    "HAVING": {
+                                        "description": "HAVING is a clause in SQL that allows you to filter result sets in a GROUP BY clause. It is used to mention conditions on the groups being selected. In other words, HAVING is mainly used with the GROUP BY clause to filter the results that a GROUP BY returns.\n\nIt’s similar to a WHERE clause, but operates on the results of a grouping. The WHERE clause places conditions on the selected columns, whereas the HAVING clause places conditions on groups created by the GROUP BY clause.\n\nSyntax\nThe basic syntax is as follows:\n\nSELECT column_name, function(column_name)\nFROM table_name\nWHERE condition\nGROUP BY column_name\nHAVING function(column_name) condition value;\nExample\nSuppose we have a Sales table with the following data:\n\nSaleIDProductQuantity\n1A30\n2B20\n3A100\n4B50\n5C60\n6A70\nAnd we want to find products which have total quantity sold more than 100. We can use the HAVING clause as follows:\n\nSELECT Product, SUM(Quantity) as TotalQuantity\nFROM Sales\nGROUP BY Product\nHAVING TotalQuantity > 100;\nIn this query,\n\nGROUP BY Product would group the sales figures by Product.\nSUM(Quantity) would calculate total quantity sold for each product.\nHAVING TotalQuantity > 100 would filter out the groups which have total quantity sold less than or equal to 100.",
+                                        "resources": []
+                                    }
+                                },
+                                {
+                                    "JOINs": {
+                                        "description": "SQL Joins are used to retrieve data from two or more data tables, based on a related column between them. The key types of JOINs include:\n\nINNER JOIN: This type of join returns records with matching values in both tables.\nSELECT table1.column1, table2.column2...\nFROM table1\nINNER JOIN table2\nON table1.matching_column = table2.matching_column;\nLEFT (OUTER) JOIN: Returns all records from the left table, and matched records from the right table.\nSELECT table1.column1, table2.column2...\nFROM table1\nLEFT JOIN table2\nON table1.matching_column = table2.matching_column;\nRIGHT (OUTER) JOIN: Returns all records from the right table, and matched records from the left table.\nSELECT table1.column1, table2.column2...\nFROM table1\nRIGHT JOIN table2\nON table1.matching_column = table2.matching_column;\nFULL (OUTER) JOIN: Returns all records when either a match is found in either left (table1) or right (table2) table records.\nSELECT table1.column1, table2.column2...\nFROM table1\nFULL JOIN table2\nON table1.matching_column = table2.matching_column;\nSELF JOIN: A self join is a join in which a table is joined with itself.\nSELECT a.column_name, b.column_name...\nFROM table_name AS a, table_name AS b\nWHERE condition;\nCARTESIAN JOIN: If WHERE clause is omitted, the join operation produces a Cartesian product of the tables involved in the join. The size of a Cartesian product result set is the number of rows in the first table multiplied by the number of rows in the second table.\nSELECT table1.column1, table2.column2...\nFROM table1, table2;\nEach type of JOIN allows for the retrieval of data in different situations, making them flexible and versatile for different SQL queries.",
+                                        "resources": []
+                                    }
+                                },
+                                {
+                                    "INSERT": {
+                                        "description": "The “INSERT” statement is used to add new rows of data to a table in a database. There are two main forms of the INSERT command: INSERT INTO which, if columns are not named, expects a full set of columns, and INSERT INTO table_name (column1, column2, ...) where only named columns will be filled with data.\n\nUsage\nInsert full set of columns:\nCode example:\n\nINSERT INTO table_name \nVALUES (value1, value2, ..., valueN);\nIn the example above, you need to provide values for all columns available in the table.\n\nSelectively insert data:\nCode example:\n\nINSERT INTO table_name (column1, column2, ..., columnN)  \nVALUES (value1, value2, ..., valueN);\nHere, you only provide values for certain columns of the table. Other columns will take on their default values (if any).\n\nInsert data from another table:\nAnother useful form of the INSERT command is INSERT INTO SELECT, which allows you to copy data from one table and add it into another table.\nCode example:\n\nINSERT INTO table1 (column1, column2, ... , columnN)\nSELECT column1, column2, ... , columnN \nFROM table2 \nWHERE condition;\nIn this scenario, table2 should already have the data we need and the WHERE clause can be used to select only those rows that satisfy certain conditions.\nNote: The crucial point is that your columns in both SELECT and INSERT INTO command must be in the same order and their datatypes must be compatible.\nKindly ensure that the database table has enough space to hold inserted data, else it will result in an OVERFLOW error.\nNote: Always make sure to provide correct and compatible data types for the columns. The SQL engine won’t allow you to add data that doesn’t match the column’s declared data type.",
+                                        "resources": []
+                                    }
+                                },
+                                {
+                                    "UPDATE": {
+                                        "description": "The UPDATE command in SQL is used to modify the existing records in a table. This command is useful when you need to update existing data within a database.\n\nHere are important points to remember before updating records in SQL:\n\n- The WHERE clause in the UPDATE statement specifies which records to modify. If you omit the WHERE clause, all records in the table will be updated!\n- Be careful when updating records in SQL. If you inadvertently run an UPDATE statement without a WHERE clause, you will rewrite all the data in the table.\n\nSQL UPDATE Syntax\nHere is a basic syntax of SQL UPDATE command:\n\nUPDATE table_name\nSET column1 = value1, column2 = value2...., columnN = valueN\nWHERE [condition];\nIn this syntax:\n- table_name: Specifies the table where you want to update records.\n- SET: This keyword is used to set the column values.\n- column1, column2... columnN: These are the columns of the table that you want to change.\n- value1, value2... valueN: These are the new values that you want to assign for your columns.\n- WHERE: This clause specifies which records need to be updated. It selects records based on one or more conditions.\nSQL UPDATE Example\nLet’s assume we have the following Students table:\n\nStudentIDFirstNameLastNameAge\n1JohnDoe20\n2JaneSmith22\n3BobJohnson23\nAnd we want to update the Age of the student with StudentID as 2. We can use the UPDATE command as follows:\n\nUPDATE Students\nSET Age = 23\nWHERE StudentID = 2;\nAfter executing the above SQL command, the Age of the student with StudentID 2 will be updated to 23.",
+                                        "resources": []
+                                    }
+                                },
+                                {
+                                    "DELETE": {
+                                        "description": "The DELETE statement is used to delete existing records in a table. This is a straightforward process, but care must be taken because the DELETE statement is destructive and cannot be undone by default.\n\nSyntax\nThe basic syntax of a DELETE query with WHERE clause in SQL is as follows:\n\nDELETE FROM table_name [WHERE condition]\n- table_name: Specifies the table where you want to delete data.\n- WHERE condition: It is optional. You can use the WHERE clause with a DELETE query to delete the selected rows; otherwise, all the records would be deleted.\nExamples\nDELETE ALL Rows\nDeletes all rows from a table named ‘students’.\n\nDELETE FROM students;\nDELETE Specified Rows\nDeletes the student whose student_id is ‘1001’ from the ‘students’ table.\n\nDELETE FROM students WHERE student_id = '1001';\nCaution: Be very careful when using the DELETE statement. If you omit the WHERE clause, all records will be deleted!\nMulti-table deletions\nSome database systems allow for deleting from multiple tables in a single DELETE statement. This is database-specific and beyond the scope of the basic SQL DELETE command.\nRemember, always make sure to have a backup and confirm you’re deleting the correct data before running a DELETE command, especially in production environments.",
+                                        "resources": []
+                                    }
+                                }
+                            ]
+                        }
                     }
                 ],
-                "order": 3,
-                "options": []
-            },
-            "D": {
-                "description": " ",
-                "resources": [],
                 "order": 4,
                 "options": []
             },
-            "E": {
-                "description": " ",
+            "Aggregate Queries": {
+                "description": "SQL aggregate functions are inbuilt functions that are used to perform some calculation on the data and return a single value. This is why they form the basis for “aggregate queries”. These functions operate on a set of rows and return a single summarized result.\n\nCommon Aggregate Functions\n1. COUNT()\n\nCounts the number of rows.\nSELECT COUNT(column_name) \nFROM table_name \nWHERE condition;\n2. SUM()\n\nReturns the sum of a numeric column.\nSELECT SUM(column_name) \nFROM table_name \nWHERE condition;\n3. AVG()\n\nReturns the average value of a numeric column.\nSELECT AVG(column_name) \nFROM table_name \nWHERE condition;\n4. MIN()\n\nReturns the smallest value of the selected column.\nSELECT MIN(column_name) \nFROM table_name \nWHERE condition;\n5. MAX()\n\nReturns the largest value of the selected column.\nSELECT MAX(column_name) \nFROM table_name \nWHERE condition;\nThese functions ignore NULL values.\n\nGROUP BY and HAVING Clauses\nTo separate the results into groups of accumulated data, you can use the GROUP BY clause.\nSELECT column1, aggregate_function(column2)\nFROM table\nGROUP BY column1;\n“A group” is represented by ROW(s) that have the same value in the specific column(s). The GROUP BY clause can be used in a SELECT statement to collect data across multiple records and group by some columns.\nThe HAVING clause is used with the GROUP BY clause, it applies to summarized group records, unlike the ‘where’ clause. It was added to SQL because the WHERE keyword could not be used with aggregate functions.\nSELECT column1, aggregate_function(column2)\nFROM table\nGROUP BY column1\nHAVING conditions;\nAggregate queries are simply a way of summarizing information in your database. Although they are a powerful tool, they can become complex very quickly, especially if you start nesting them together or combining multiple aggregate functions in a single query.",
                 "resources": [],
                 "order": 5,
-                "options": []
+                "options": [
+                    {
+                        "SELECT": {
+                            "description": "SELECT is one of the most widely used commands in SQL. This command is used to select data from a database. The data returned is stored in a results table, also called the result-set.\n\nSyntax\nThe simplest way to use the SELECT statement is to return all columns from a table. This can be done with the following syntax:\nSELECT * FROM table_name;\nThis will return all fields (columns) of all records (rows) from the table.\n\nIf you want to select just certain columns, you can specify them by name, separated by commas:\nSELECT column_name1, column_name2 FROM table_name;\nSELECT DISTINCT\nThe SELECT DISTINCT statement is used to return only unique values in the output. It can be used to eliminate duplicate values in the returned data.\nSELECT DISTINCT column_name FROM table_name;\nWHERE Clause\nThe WHERE clause is used to filter records. The WHERE clause is used to extract only those records that fulfill a specified condition.\nSELECT column_name FROM table_name WHERE condition;\nORDER BY\nThe ORDER BY keyword is used to sort the result-set in ascending or descending order. The ORDER BY keyword sorts the records in ascending order by default. If you want to sort the records in descending order, you can use the DESC keyword.\nSELECT column_name FROM table_name ORDER BY column_name ASC|DESC;\nAggregate Functions\nAggregate functions in SQL are functions where the values of multiple rows are grouped together to form a single value of more significant meaning, such as a list, a set, or a sum. Some examples include SUM(), COUNT(), MIN(), MAX(), and AVG().\nSELECT COUNT(column_name) FROM table_name WHERE condition;\nSELECT AVG(column_name) FROM table_name WHERE condition;\nSELECT SUM(column_name) FROM table_name WHERE condition;\nSELECT MIN(column_name) FROM table_name WHERE condition;\nSELECT MAX(column_name) FROM table_name WHERE condition;\nGROUP BY\nThe GROUP BY statement is often used with aggregate functions (COUNT, MAX, MIN, SUM, AVG) to group the result-set by one or more columns.\nSELECT column_name1, COUNT(column_name2) FROM table_name WHERE condition GROUP BY column_name1 ORDER BY COUNT(column_name2) DESC;\nHAVING Clause\nThe HAVING clause was added to SQL because the WHERE keyword could not be used with aggregate functions. It works like the WHERE clause but on grouped records.\nSELECT column_name, COUNT(column_name) FROM table_name GROUP BY column_name HAVING COUNT(column_name) > value;\nThe above are the most common uses of the SELECT keyword in SQL. There are other keywords and functions you can use to manipulate the data as well. These will give you a good start on using SELECT in your SQL queries.",
+                            "resources": [],
+                            "options": [
+                                {
+                                    "SUM": {
+                                        "description": "The SUM() function in SQL is used to calculate the sum of a column. This function allows you to add up a column of numbers in an SQL table.\n\nThe syntax for SUM is as follows:\nSELECT SUM(column_name) FROM table_name;\nWhere column_name is the name of the column you want to calculate the sum of, and table_name is the name of the table where the column is.\nFor example, consider the following ORDER table:\n|   OrderID  | Company | Quantity |\n|-------------|-----------|----------|\n|     1           |     A     |    30     |\n|     2           |     B     |    15     |\n|     3           |     A     |    20     |\nIf you want to find the total quantity, you can use SUM():\nSELECT SUM(Quantity) AS TotalQuantity FROM Order;\nOutput will be:\n| TotalQuantity |\n|----------------|\n|           65     |\nNote: The SUM() function skips NULL values.\nOne of the common use cases of SUM() function is in conjunction with GROUP BY to get the sum for each group of rows.\nExample:\nSELECT Company, SUM(Quantity) AS TotalQuantity \nFROM Order \nGROUP BY Company;\nThis will give us the sum of Quantity for each Company in the Order table.\n| Company | TotalQuantity |\n|-----------|----------------|\n|     A     |           50     |\n|     B     |           15     |\nNotably, in all databases, including MySQL, PostgreSQL, and SQLite, the SUM() function operates the same way.",
+                                        "resources": []
+                                    }
+                                },
+                                {
+                                    "COUNT": {
+                                        "description": "COUNT is a SQL function that returns the number of rows that match a specified criteria. Essentially, COUNT function is used when you need to know the count of a record in a certain table’s column.\n\nThere are two types of count function; COUNT(*) and COUNT(column).\nCOUNT(*) counts all the rows in the target table whether columns contain null values or not.\nSELECT COUNT(*) FROM table_name;\nCOUNT(column) counts the rows in the column of a table excluding null.\nSELECT COUNT(column_name) FROM table_name;\nYou may also use COUNT() in conjunction with GROUP BY to return the count of rows within each group.\nA typical example would be:\nSELECT column_name, COUNT(*) FROM table_name GROUP BY column_name;\nHere, column_name is the name of the column based on which the rows will be grouped. This query will return the count of rows in each group of column_name.\nBy understanding how to use the COUNT() function, you can extract more meaningful data from your tables, and perform analytics and generate reports based on the counts of certain attributes in your database.",
+                                        "resources": []
+                                    }
+                                },
+                                {
+                                    "AVG": {
+                                        "description": "The AVG() function in SQL is an aggregate function that returns the average value of a numeric column. It calculates the sum of values in a column and then divides it by the count of those values.\n\nSyntax:\n\nSELECT AVG(column_name)\nFROM table_name;\nThis statement will return the average value of the specified column.\n\nExample Usage of AVG:\nConsider the following table Orders:\n\nOrderID    CustomerID    Quantity\n1    A    30\n2    A    40\n3    B    20\n4    B    60\n5    C    50\n6    C    10\nLet’s calculate the average quantity in the Orders table:\n\nSELECT AVG(Quantity) AS AvgQuantity\nFROM Orders;\nThe result is 35. This value is the average of all Quantity values in the table.\n\nIt’s also possible to group the average function by one or more columns. For example, to find the average quantity of order per customer, we can write:\n\nSELECT CustomerID, AVG(Quantity) as AvgQuantity\nFROM Orders\nGROUP BY CustomerID;\nIt will calculate the average quantity for each customer and display the result along with the associated customer’s ID.\n\nNote: The AVG() function works only with numeric data types (INT, FLOAT, DECIMAL, etc.). It will return an error if used with non-numeric data types.",
+                                        "resources": []
+                                    }
+                                },
+                                {
+                                    "MIN": {
+                                        "description": "MIN is an SQL aggregate function used to return the smallest value in a selected column. It is useful in querying tables where users want to identify the smallest or least available value in datasets. MIN ignores any null values in the dataset.\n\nSyntax:\n\nSELECT MIN(column_name)\nFROM table_name\nWHERE condition;\nIn the case where column_name belongs to a numeric data type (Integers, Float, etc.), MIN returns the smallest numeric value in the column.\n\nIf column_name belongs to datetime types (Date, Time, etc.), MIN returns the earliest date or time.\n\nIf column_name belongs to string types (Char, Text, etc.), MIN returns the lowest value in lexicographic order (similar to alphabetic order).\nExamples:\nConsider a table, named Orders, with the following layout:\nOrderID    CustomerID    OrderDate\n1    C01    2020-10-10\n2    C02    2020-09-05\n3    C01    2020-08-21\nTo find the earliest order date in the Orders table, the MIN function is used in the following way:\nSELECT MIN(OrderDate) AS EarliestOrder\nFROM Orders;\nThe result of this query will be 2020-08-21.\n\nSuppose we have a Prices table with items and their prices. To find the lowest price, use:\nSELECT MIN(price) AS LowestPrice\nFROM Prices;\nThis query will return the smallest value in the price column.\nOne important usage is when it is used along with the GROUP BY clause to find the minimum value in each group.\nExample, to find the earliest order date for each customer:\nSELECT CustomerID, MIN(OrderDate) AS EarliestOrder\nFROM Orders\nGROUP BY CustomerID;\nThis query will return the earliest order date for each customer.",
+                                        "resources": []
+                                    }
+                                },
+                                {
+                                    "MAX": {
+                                        "description": "The MAX() function in SQL is used to return the maximum value of an expression in a SELECT statement.\n\nIt can be used for numeric, character, and datetime column data types. If there are null values, then they are not considered for comparison.\n\nSyntax\nSELECT MAX(column_name)\nFROM table_name\nWHERE condition;\nIn this syntax, the column_name argument is the column in the table_name that you wish to find the maximum value of.\nExample\nConsider the following Employee table:\nID    NAME    SALARY\n1    John    1000\n2    Robert    2000\n3    Jim    3000\n4    Jessica    2500\nTo find the highest salary amongst all the employees, you would use the MAX() function as follows:\nSELECT MAX(SALARY) AS \"Highest Salary\"\nFROM Employee;\nThe above SQL returns 3000 as it’s the highest salary in the Employee table.\nWarning: SQL MAX() function will only return a single row as a result. If multiple rows hold the highest value and if you want to get all these rows, you should not use MAX(). A better option would be sorting the column and then LIMIT the result just to the first row.",
+                                        "resources": []
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "GROUP BY": {
+                            "description": "Group By is an SQL clause that arranges identical data into groups. It is often used with aggregate functions (COUNT, MAX, MIN, SUM, AVG) to group the result-set by one or multiple columns.\n\nSyntax:\nSELECT column1, column2, ..., aggregate_function(column_name)\nFROM table_name\nWHERE condition\nGROUP BY column1, column2, ...;\nExplanation:\ncolumn1, column2, these columns are not under the aggregate function or any operation. They will be used to group the data.\naggregate_function(column_name), Aggregate functions will apply on the group of the column_name specified, not individual rows.\nThe WHERE clause is optional. It adds conditions to select which rows will be grouped.\nExamples:\nHere’s an example of the Group By clause in action. Given is a table Sales:\n\norder_id    product_id    qty\n1    1001    20\n2    1002    10\n3    1003    50\n4    1001    10\n5    1002    20\n6    1003    50\nExample 1:\nSELECT product_id, SUM(qty)\nFROM SALES\nGROUP BY product_id;\nThe result will be:\n\nproduct_id    SUM(qty)\n1001    30\n1002    30\n1003    100\nExample 2:\nYou can perform group by operation on multiple columns. In the below example, ‘product_id’ and ‘order_id’ are used to group the data.\n\nSELECT product_id, order_id, SUM(qty)\nFROM SALES\nGROUP BY product_id, order_id;\nGroup By clause can be used with HAVING clause to add a condition on grouped data.",
+                            "resources": []
+                        }
+                    },
+                    {
+                        "HAVING": {
+                            "description": "The HAVING clause is used in combination with the GROUP BY clause to filter the results of GROUP BY. It is used to mention conditions on the group functions, like SUM, COUNT, AVG, MAX or MIN.\n\nIt’s important to note that where WHERE clause introduces conditions on individual rows, HAVING introduces conditions on groups created by the GROUP BY clause.\nAlso note, HAVING applies to summarized group records, whereas WHERE applies to individual records.\nSyntax:\nSELECT column_name(s)\nFROM table_name\nWHERE condition\nGROUP BY column_name(s)\nHAVING condition\nORDER BY column_name(s);\nExample\nConsider this “Orders” table:\nOrderID    Customer    Amount\n1    John    1000\n2    Mary    1500\n3    John    2000\n4    Jane    1000\n5    Mary    2000\n6    John    3000\n7    Jane    2000\n8    Mary    2500\nFor instance, if you wanted to find customers who have spent more than $3000 in total, you might use the HAVING clause as follows:\nSELECT Customer, SUM(Amount)\nFROM Orders\nGROUP BY Customer\nHAVING SUM(Amount) > 3000;\nAs a result, the query returns:\n\nCustomer    SUM(Amount)\nJohn    6000\nMary    6000\nIn this case, the HAVING clause filters out all Customers with a total Amount less than $3000. Only John and Mary have the total sum of Amount more than or equal to $3000. Thus, only these records satisfy the HAVING clause and are included in the result.",
+                            "resources": []
+                        }
+                    }
+                ]
             },
-            "F": {
-                "description": " ",
+            "Data Constraints": {
+                "description": "Data constraints in SQL are used to specify rules for the data in a table. Constraints are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the table.\n\nTypes of SQL Data Constraints\nNOT NULL Constraint: Ensures that a column cannot have a NULL value.\n\nFor Example:\nCREATE TABLE Students (\n    ID int NOT NULL,\n    Name varchar(255) NOT NULL,\n    Age int\n);\nUNIQUE Constraint: Ensures that all values in a column are different.\n\nFor Example:\nCREATE TABLE Students (\n    ID int NOT NULL UNIQUE,\n    Name varchar(255) NOT NULL,\n    Age int\n);\nPRIMARY KEY Constraint: Uniquely identifies each record in a database table. Primary keys must contain UNIQUE values. Exactly the same as the UNIQUE constraint but there can be many unique constraints in a table, but only one PRIMARY KEY constraint per table.\n\nFor Example:\nCREATE TABLE Students (\n    ID int NOT NULL,\n    Name varchar(255) NOT NULL,\n    Age int,\n    PRIMARY KEY (ID)\n);\nFOREIGN KEY Constraint: Prevents actions that would destroy links between tables. A FOREIGN KEY is a field (or collection of fields) in one table that refers to the PRIMARY KEY in another table.\n\nFor Example:\nCREATE TABLE Orders (\n    OrderID int NOT NULL,\n    OrderNumber int NOT NULL,\n    ID int,\n    PRIMARY KEY (OrderID),\n    FOREIGN KEY (ID) REFERENCES Students(ID)\n);\nCHECK Constraint: The CHECK constraint ensures that all values in a column satisfy certain conditions.\n\nFor Example:\nCREATE TABLE Students (\n    ID int NOT NULL,\n    Name varchar(255) NOT NULL,\n    Age int,\n    CHECK (Age>=18)\n);\nDEFAULT Constraint: Provides a default value for a column when none is specified.\n\nFor Example:\nCREATE TABLE Students (\n    ID int NOT NULL,\n    Name varchar(255) NOT NULL,\n    Age int,\n    City varchar(255) DEFAULT 'Unknown'\n);\nINDEX Constraint: Used to create and retrieve data from the database very quickly.\n\nFor Example:\nCREATE INDEX idx_name \nON Students (Name);\nNote: Indexes are not a part of the SQL standard and are not supported by all databases.",
                 "resources": [],
                 "order": 6,
-                "options": []
+                "options": [
+                    {
+                        "Primary Key": {
+                            "description": "A primary key is a special relational database table field (or combination of fields) designated to uniquely identify all table records.\n\nA primary key’s main features are:\n\nIt must contain a unique value for each row of data.\nIt cannot contain null values.\nUsage of Primary Key\nYou define a primary key for a table using the PRIMARY KEY constraint. A table can have only one primary key. You can define a primary key in SQL when you create or modify a table.\nCreate Table With Primary Key\nIn SQL, you can create a table with a primary key by using CREATE TABLE syntax.\nCREATE TABLE Employees (\n    ID INT PRIMARY KEY,\n    NAME TEXT,\n    AGE INT,\n    ADDRESS CHAR(50)\n);\nIn this example, ID is the primary key which must consist of unique values and can’t be null.\nModify Table to Add Primary Key\nIf you want to add a primary key to an existing table, you can use ALTER TABLE syntax.\nALTER TABLE Employees\nADD PRIMARY KEY (ID);\nThis will add a primary key to ID column in the Employees table.\nComposite Primary Key\nWe can also use multiple columns to define a primary key. Such key is known as a composite key.\nCREATE TABLE Customers (\n    CustomerID INT,\n    StoreID INT,\n    CONSTRAINT pk_CustomerID_StoreID PRIMARY KEY (CustomerID,StoreID)\n);\nIn this case, each combination of CustomerID and StoreID must be unique across the whole table.",
+                            "resources": []
+                        }
+                    },
+                    {
+                        "Foreign Key": {
+                            "description": "A foreign key is a key used to link two tables together. It is a field (or collection of fields) in one table that refers to the primary key in another table. The table with the foreign key is called the child table, and the one with the primary key is called the referenced or parent table.",
+                            "resources": []
+                        }
+                    },
+                    {
+                        "Unique": {
+                            "description": "The UNIQUE constraint ensures that all values in a column are different; that is, each value in the column should occur only once. Both the UNIQUE and PRIMARY KEY constraints provide a guarantee for uniqueness for a column or set of columns.",
+                            "resources": []
+                        }
+                    },
+                    {
+                        "NOT NULL": {
+                            "description": "The NOT NULL constraint in SQL ensures that a column cannot have a NULL value. Thus, every row/record must contain a value for that column. It is a way to enforce certain fields to be mandatory while inserting records or updating records in a table.",
+                            "resources": []
+                        }
+                    },
+                    {
+                        "CHECK": {
+                            "description": "In SQL, CHECK is a constraint that limits the value range that can be placed in a column. It enforces domain integrity by limiting the values in a column to meet a certain condition.",
+                            "resources": []
+                        }
+                    }
+                ]
             },
-            "G": {
-                "description": " ",
+            "JOIN Queries": {
+                "description": "The JOIN clause is used to combine rows from two or more tables based on a related column between them. Different types of JOINs include INNER JOIN, LEFT (OUTER) JOIN, RIGHT (OUTER) JOIN, FULL (OUTER) JOIN, and SELF JOIN. Each type of JOIN serves a different purpose in combining and retrieving data from multiple tables.",
                 "resources": [],
                 "order": 7,
-                "options": []
+                "options": [
+                    {
+                        "INNER JOIN": {
+                            "description": "An INNER JOIN in SQL is a type of join that returns the records with matching values in both tables. This operation compares each row of the first table with each row of the second table to find all pairs of rows that satisfy the join predicate.",
+                            "resources": []
+                        }
+                    },
+                    {
+                        "LEFT JOIN": {
+                            "description": "The SQL LEFT JOIN combines rows from two or more tables based on a related column between them and returns all rows from the left table (table1) and the matched rows from the right table (table2). If there is no match, the result is NULL on the right side.",
+                            "resources": []
+                        }
+                    },
+                    {
+                        "RIGHT JOIN": {
+                            "description": "The RIGHT JOIN keyword returns all records from the right table (table2), and the matched records from the left table (table1). If there is no match, the result is NULL on the left side.",
+                            "resources": []
+                        }
+                    },
+                    {
+                        "FULL OUTER JOIN": {
+                            "description": "A FULL OUTER JOIN in SQL combines rows from two or more tables, returning all rows from both the left and right tables. It includes matched and unmatched rows from both sides of the join clause. If a record in one table doesn't have a match in the other, it is still included in the result with NULL values.",
+                            "resources": []
+                        }
+                    },
+                    {
+                        "Self Join": {
+                            "description": "A SELF JOIN is a standard SQL operation where a table is joined to itself. It is useful for scenarios where comparison operations need to be made within a table by combining rows with other rows in the same table based on a given condition. Aliases for table(s) are used to avoid confusion during the join operation.",
+                            "resources": []
+                        }
+                    },
+                    {
+                        "Cross Join": {
+                            "description": "The cross join in SQL combines every row of the first table with every row of the second table, resulting in the Cartesian product of the two tables. It doesn't require any specific join condition. However, it can generate a large number of rows and should be used carefully.",
+                            "resources": []
+                        }
+                    }
+                ]
             },
             "H": {
                 "description": " ",
@@ -177,16 +363,6 @@
                         }
                     }
                 ]
-            },
-            "L": {
-                "description": " ",
-                "resources": [],
-                "recommendation-type": "opinion",
-                "recommendation-type": "not strict",
-                "recommendation-type": "Pick this or purple",
-                "recommendation-type": "wouidn't",
-                "order": 1,
-                "options": []
             },
             "LL": {
                 "options": []
