@@ -688,30 +688,126 @@
                 ]
             },
             "Data Integrity and Security": {
-                "description": " ",
+                "name": "Understanding Data Integrity and Security in SQL",
+                "recommendation-type": "opinion",
+                "description": "Explore the concepts of data integrity and security in SQL databases. Learn about various forms of data integrity, including entity integrity, domain integrity, referential integrity, and user-defined integrity. Understand how these concepts help maintain data accuracy and consistency, ensuring the reliability of your database. Discover best practices for enhancing data security and preventing unauthorized access.",
                 "resources": [],
                 "order": 13,
-                "options": []
+                "options": [
+                    {
+                        "name": "Understanding Data Integrity Constraints in SQL",
+                        "recommendation-type": "opinion",
+                        "description": "Explore the importance of data integrity constraints in SQL databases. Learn about different types of constraints, including NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, and CHECK. Understand how these constraints enforce rules to maintain the accuracy and reliability of your data. Discover best practices for implementing and managing data integrity in your SQL tables.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Understanding SQL GRANT and REVOKE Commands",
+                        "recommendation-type": "opinion",
+                        "description": "Explore the role of GRANT and REVOKE commands in SQL's Data Control Language (DCL). Learn how these commands are used to assign and revoke user privileges and permissions on database objects. Discover the significance of permission management in maintaining data integrity and security in SQL databases.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Best Practices for Securing Your SQL Databases",
+                        "recommendation-type": "opinion",
+                        "description": "Discover essential best practices to enhance the security of your SQL databases. From implementing the least privilege principle to safeguarding against SQL injection, these practices are vital in protecting sensitive data and maintaining data integrity.",
+                        "resources": []
+                    }
+                ]
             },
             "Stored Procedures and Functions": {
-                "name": "Understanding SQL Stored Procedures and Functions",
-                "recommendation-type": "opinion",
                 "description": "Explore the concept of SQL stored procedures and functions. This JSON provides an overview of how stored procedures can be created and called in SQL. It also explains the two types of SQL functions, scalar and table-valued functions, and demonstrates their usage. Learn how to improve code reusability and modularity with stored procedures and functions.",
                 "resources": [],
                 "order": 14,
                 "options": []
             },
             "Performance Optimization": {
-                "description": " ",
+                "description": "Learn how to enhance the performance of your SQL queries and databases. From creating efficient indexes to using JOIN clauses and avoiding common performance pitfalls, these practices can significantly boost database performance.1. IndexesCreating indexes is one of the prominent ways to optimize SQL performance. They accelerate lookup and retrieval of data from a database.CREATE INDEX index_nameON table_name (column1, column2, ...);Remember, though indexes speed up data retrieval, they can slow down data modification such as INSERT, UPDATE, and DELETE.2. Avoid SELECT *Get only the required columns instead of fetching all columns using SELECT *. It reduces the amount of data that needs to be read from the disk.SELECT required_column FROM table_name;3. Use Join Instead of Multiple QueriesUsing join clauses can combine rows from two or more tables in a single query based on a related column between them. This reduces the number of queries hitting the database, improving performance.SELECT Orders.OrderID, Customers.CustomerNameFROM OrdersINNER JOIN CustomersON Orders.CustomerID=Customers.CustomerID;4. Use LIMITIf only a certain number of rows are necessary, use the LIMIT keyword to restrict the number of rows returned by the query.SELECT column FROM table LIMIT 10;5. Avoid using LIKE Operator with Wildcards at the StartUsing wildcard at the start of a query (LIKE '%search_term') can lead to full table scans.SELECT column FROM table WHERE column LIKE 'search_term%';6. Optimize Database SchemaDatabase schema involves how data is organized and should be optimized for better performance.7. Use EXPLAINMany databases have ‘explain plan’ functionality that shows the plan of the database engine to execute the query.EXPLAIN SELECT * FROM table_name WHERE column = 'value';This can give insight into performance bottlenecks like full table scans, missing indices, etc.8. DenormalizationIn some cases, it might be beneficial to denormalize the database to a certain extent to reduce complex joins and queries. Keep in mind that this is usually the last resort and may not always yield the desired results.Remember, each query and database is unique, so what might work in one scenario might not work in another. It is always crucial to test the queries in a controlled and isolated environment before pushing them into production.",
                 "resources": [],
                 "order": 15,
-                "options": []
+                "options": [
+                    {
+                        "Query Optimization Techniques": {
+                            "description": "Learn how to improve the performance of your SQL queries with these optimization techniques. From creating effective indexes to using JOIN statements and avoiding common performance pitfalls, these practices can significantly enhance query efficiency.",
+                            "resources": [],
+                            "options": [
+                                {
+                                    "name": "Using Indexes",
+                                    "recommendation-type": "opinion",
+                                    "description": "Learn how to use SQL indexes to improve query performance. Discover the types of indexes, including single-column, unique, composite, and implicit indexes, and understand how they work to speed up data retrieval. Be cautious with index usage to balance performance gains and storage considerations.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Optimizing Joins",
+                                    "recommendation-type": "opinion",
+                                    "description": "Discover techniques to optimize SQL joins and improve query execution speed. Learn how to minimize the number of tables in joins, choose the right order for table joins, use indexes effectively, consider subqueries for specific scenarios, and adopt explicit join syntax for better understanding. Optimizing joins requires a deep understanding of database design and thorough testing for different scenarios.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Reducing Subqueries",
+                                    "recommendation-type": "opinion",
+                                    "description": "Discover techniques to reduce subqueries in SQL queries for better performance. Learn how to use JOIN clauses to replace subqueries in many scenarios and leverage the 'EXISTS' operator to streamline query execution. While minimizing subqueries is crucial for performance, there may be cases where replacing them is not feasible.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Selective Projection",
+                                    "recommendation-type": "opinion",
+                                    "description": "Learn about selective projection in SQL, a fundamental concept for optimizing queries. Discover how to retrieve specific columns from a table, rather than fetching all columns, to improve query efficiency. Using selective projection reduces the amount of data scanned and fetched, resulting in better performance. Examples and best practices included.In SQL, a projection refers to the operation in which we choose certain columns (instead of all columns) from the table for our query results. If a table has numerous columns, and we only need data from a few of them, it’s more efficient to only select those specific columns in the SQL query. This reduces the amount of data that needs to be scanned and fetched from the database, thereby improving performance.  Let’s take an example where you have a “students” table with the following columns: Id, Name, Age, Gender, Department, and City. If you only need Name and Department information, you should use a selective projection to specify only these columns in your SELECT statement:SELECT Name, Department FROM studentsThis query returns just the Name and Department columns, rather than all fields in the students table.In contrast, if you used a SELECT * statement:SELECT * FROM studentsThis would return all columns from the “students” table which can be inefficient if you don’t need all that data.Selective projection can greatly optimize your SQL queries by minimizing the amount of data handled. It’s especially beneficial when tables have large amounts of data and many columns, but only a subset of information is required.",
+                                    "resources": []
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Query Analysis Techniques in SQL for Performance Optimization",
+                        "recommendation-type": "opinion",
+                        "description": "Explore the importance of query analysis in optimizing SQL performance. Learn how to use the 'EXPLAIN PLAN' statement to examine the execution plan of a query, identify bottlenecks, and estimate resource costs. Query analysis is a crucial step in enhancing SQL query performance.EXPLAIN PLAN FOR SELECT * FROM table_name;Index UsageUsing appropriate indexes is crucial for query performance. Unnecessary full table scans can be avoided if the correct indexes are present. Even though SQL will automatically determine the appropriate index to use, it can be helpful to manually specify which index to use for complex queries.CREATE INDEX idx_column ON table_name(column_name);Join OptimizationThe order in which tables are joined can have a large impact on query performance. In general, you should join tables in a way that results in the smallest result set as early as possible.Look out for “Nested Loops” in your explain plan. These can be a cause of slow performance if a large number of rows are being processed.SELECT *FROM table1INNER JOIN table2 ON table1.id = table2.id;Regular Performance TestsRegular query performance testing can catch slow queries before they become a problem. Utilizing tools that can monitor and report query performance can help you keep an eye on your database’s performance.Also, continual analysis of the query performance should be done as your data grows. A query that performs well with a small dataset may not do so when the dataset grows.",
+                        "resources": []
+                    }
+                ]
             },
             "Advanced SQL Concepts": {
-                "description": " ",
+                "description": "Discover the power of advanced SQL concepts, including Stored Procedures, Triggers, Views, JOINs, Subqueries, and Set Operators. These advanced SQL operations offer sophisticated ways to query and manipulate your database. Learn how to leverage these techniques for enhanced data management and analysis.",
                 "resources": [],
                 "order": 16,
-                "options": []
+                "options": [
+                    {
+                        "name": "Recursive Queries",
+                        "recommendation-type": "opinion",
+                        "description": "Recursive queries are advanced SQL queries used for data analysis, especially when working with hierarchical or tree-structured data. These queries are implemented using Common Table Expressions (CTEs). CTEs have the same structure as a standard SELECT statement but are prefixed with WITH, followed by the CTE name and an optional list of columns.CTEs can be recursive and non-recursive. The non-recursive CTE is a query that is executed once and then goes out of scope.A recursive CTE is a CTE that references itself. Recursive CTEs have a minimum of two queries, an anchor member (runs only once), and a recursive member (runs repeatedly). Include a UNION ALL statement between these queries.Here’s a sample of a recursive CTE:WITH RECURSIVE ancestors AS (SELECT employee_id, manager_id, full_nameFROM employeesHERE manager_id IS NULLUNION ALLSELECT e.employee_id, e.manager_id, e.full_nameFROM employees eINNER JOIN ancestors a ON a.employee_id = e.manager_id)SELECT * FROM ancestors;In this code snippet, the first query is the anchor member that fetches the employees with no manager. The second part is the recursive member, continuously fetching managers until none are left.Syntax of Recursive CTEHere’s the general structure of a recursive CTE:WITH RECURSIVE cte_name (column_list) AS (-- Anchor memberSELECT column_listFROM table_nameWHERE conditionUNION ALL-- Recursive memberSELECT column_listFROM table_nameINNER JOIN cte_name ON condition)SELECT * FROM cte_name;Note: some database systems such as MySQL, PostgreSQL, and SQLite use WITH RECURSIVE for recursive CTEs. Others like SQL Server, Oracle, and DB2 use just WITH.Remember to be careful when setting the conditions for your recursive query to avoid infinite loops.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Pivot and Unpivot Operations",
+                        "recommendation-type": "opinion",
+                        "description": "The PIVOT operator is used in SQL to rotate the table data from rows to columns, essentially transforming the data into a matrix format. This operator allows you to create a crosstab view of the data, with selected columns as rows and others as columns, providing a summary view.Here is a general example of the syntax:SELECT ...FROM ...PIVOT (aggregate_function(column_to_aggregate)FOR column_to_pivot IN (list_of_values))Example: Let’s assume we have a ‘Sales’ table with ‘Year’, ‘Quarter’ and ‘Amount’ columns. If we want to turn ‘Quarter’ values into columns, we might use:SELECT * FROM (SELECT Year, Quarter, AmountFROM Sales) PIVOT (SUM(Amount)FOR Quarter IN ('Q1' 'Q2' 'Q3' 'Q4'))This would give us each year as a row and each quarter as a column, with the total sales for each quarter in the cells.UNPIVOTThe UNPIVOT operator performs the reverse operation to PIVOT, rotating columns into rows. If the columns you’re converting have a certain relationship, this can be factored into a single column instead.Here is a general example of the syntax:SELECT ...FROM ...UNPIVOT (column_for_values FOR column_for_names IN (list_of_columns))Example: Conversely, if we want to transform the quarter columns back into rows from the previous ‘Sales’ pivot table, we would use:SELECT * FROM (SELECT Year, Q1, Q2, Q3, Q4FROM Sales) UNPIVOT (AmountFOR Quarter IN (Q1, Q2, Q3, Q4))This would result in each combination of year and quarter as a row, with the amount sold in that quarter as the ‘Amount’ column. Keep in mind, the UNPIVOTed data isn’t equivalent to the original data as the original data might have had multiple rows for each year/quarter ",
+                        "resources": []
+                    },
+                    {
+                        "Window Functions": {
+                            "description": "SQL Window functions enable you perform calculations on a set of rows related to the current row. This set of rows is known as a ‘window’, hence ‘Window FunctionThese are termed so because they perform a calculation across a set of rows which are related to the current row - somewhat like a sliding window.There are four types of window functions in SQL:Aggregate functions: These functions compute a single output value for a group of input values (like averages, sums).SELECT department, salary,AVG(salary) OVER (PARTITION BY department) as avg_departmental_salaryFROM employee;Ranking functions: These functions allocate a unique rank to each row within each window partition.SELECT department, salary,RANK() OVER (PARTITION BY department ORDER BY salary DESC) as salary_rankFROM employee;Value functions: These functions provide information about the window partition or the row’s position within it, for example - FIRST_VALUE, LAST_VALUE, NTH_VALUE.SELECT department, salary,FIRST_VALUE(salary) OVER (PARTITION BY department ORDER BY salary DESC) as highest_salaryFROM employee;Offset functions: The offset functions provide a way of accessing data from another row in the same result set without joining the table to itself. They can answer questions concerning the value on the row before or after the current row, for example - LEAD, LAG.SELECT department, salary,LAG(salary) OVER (PARTITION BY department ORDER BY salary) as previous_salary,LEAD(salary) OVER (PARTITION BY department ORDER BY salary) as next_salaryFROM employee;In using window functions, the OVER clause defines the windows or group of rows for function to consider, PARTITION BY breaks up the window by a specific column(s), and ORDER BY orders rows within the window.It’s important to note that SQL window functions do not cause rows to become grouped into a single output row like aggregate methods do. Therefore, they do not reduce the number of rows returned by the query, each row maintains its individual iden",
+                            "options": [
+                                {
+                                    "name": "Row_number",
+                                    "recommendation-type": "opinion",
+                                    "description": " Row_numberROW_NUMBER() is a SQL window function that assigns a unique number to each row in the result setSyntaxROW_NUMBER() OVER ([ORDER BY column_name])Features:Numbers are assigned based on the ORDER BY clause of ROW_NUMBER().In case of identical values in the ORDER BY clause, the function assigns numbers arbitrarily.In other words, the sequence of numbers generated by ROW_NUMBER() is not guaranteed to be the same for the same set of data.Examples:Example 1: Basic usage of ROW_NUMBER() on a single columSELECT name, ROW_NUMBER() OVER (ORDER BY name) row_numberFROM employees;In this example, ROW_NUMBER() is used to assign a unique number to each row in the employees table, ordered by the employee names alphabeticallyExample 2: Using ROW_NUMBER() to rank rows in each partitioSELECT department_id, first_name, salary, ROW_NUMBER() OVER (PARTITION BY department_id ORDER BY salary DESC) row_numberFROM employees;In this example, ROW_NUMBER() is used to rank employee salaries within each department (i.e., partitioned by department_id). In each departm",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "rank",
+                                    "recommendation-type": "opinion",
+                                    "description": "rankRANK() is a window function in SQL that assigns a unique rank to each distinct row within a partition of a result set. The rank of the first row within each partition is one. The RANK() function adds the number of tied rows to the tied rank to calculate the next rank. So the ranks may not be consecutive numbers.Parameters of RANK FunctionThere are no arguments for the RANK() function. However, since it’s a window function, the function operates on a set of rows (window) defined by the OVER clause, which is mandatory.SyntaxThe syntax of RANK function is:RANK () OVER ([PARTITION BY column_1, column_2,…]ORDER BY column_3,column_4,… )PARTITION BY: This clause divides the rows into multiple groups or partitions upon which the RANK() function is applied.ORDER BY: This clause sorts the rows in each partition.If PARTITION BY is not specified, the function treats all rows in the result set as a single partition.ExamplesHere’s an example query using the RANK() function:SELECTproduct_name, brand, RANK () OVER (PARTITION BY brandORDER BY product_name ASC) Product_rankFROMproducts;In this example, it generates a list of products, grouped by brand, and ranked by product_name within each brand. The product_name with the smallest value (alphabetically first when sorting ASC) gets a rank of 1 within its partition.Important NotesRANK() function may return duplicate rankings if the column on which the function is applied contains duplicate values.The RANK() function will leave a gap and create a non-consecutive ranking if there are equal rankings (ties).RANK() function offers a very efficient way to solve top-N problems.You might also be interested in looking at other similar ranking functions in SQL like DENSE_RANK(), ROW_NUMBER(), e",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "dense_rank",
+                                    "recommendation-type": "opinion",
+                                    "description": "Explore the concept of DENSE_RANK(), a versatile SQL window function that provides row rankings without gaps. Learn how DENSE_RANK() differs from RANK() and when to use it. Dive into its syntax, with a practical example that demonstrates how to rank employees by their salaries. Gain insights into the behavior and benefits of this function.",
+                                    "resources": []
+                                }
+                            ]
+                        }
+                    }
+                ]
             }
         }
     }
