@@ -337,133 +337,74 @@
                     }
                 ]
             },
-            "H": {
-                "description": " ",
+            "Sub Queries": {
+                "description": "In SQL, a subquery is a query embedded within another SQL query. You can alternately call it a nested or an inner query. The containing query is often referred to as the outer query. Subqueries are utilized to retrieve data that will be used in the main query as a condition to further restrict the data to be retrieved.\n\nSubqueries can be used in various parts of a query, including:\n\n- SELECT statement\n- FROM clause\n- WHERE clause\n- GROUP BY clause\n- HAVING clause",
                 "resources": [],
                 "order": 8,
-                "options": []
-            },
-            "I": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "J": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "K": {
                 "options": [
                     {
-                        "K": {
-                            "options": []
+                        "Types of Sub Queries": {
+                            "description": "Subqueries, sometimes referred to as inner queries or nested queries, are queries that are embedded within the clause of another SQL query. There are different types of SQL subqueries that are frequently used including Scalar, Row, Column, and Table subqueries.",
+                            "scalar_subqueries": {
+                                "description": "Scalar subqueries return exactly one column with a single value. They can be used anywhere in your SQL where expressions are allowed.",
+                                "example": "Example:\n\nSELECT column_name [, column_name ]\nFROM   table1 [, table2 ]\nWHERE  column_name operator\n       (SELECT column_name [, column_name ]\n        FROM table_name \n        WHERE condition);"
+                            },
+                            "row_subqueries": {
+                                "description": "Row subqueries return one or more rows to the outer SQL select query. They return multiple columns and rows, so they cannot be directly used where scalar expressions are used.",
+                                "example": "Example:\n\nSELECT column_name [, column_name ]\nFROM   table1 [, table2 ]\nWHERE  (column_name [, column_name ])\n      IN (SELECT column_name [, column_name ]\n          FROM table_name \n          WHERE condition);"
+                            },
+                            "column_subqueries": {
+                                "description": "Column subqueries are used to return one or more columns to the outer SQL select query. They are used when the subquery is expected to return more than one column to the main query.",
+                                "example": "Example:\n\nSELECT column_name [, column_name ]\nFROM   table1 [, table2 ]\nWHERE  (SELECT column_name [, column_name ]\n        FROM table_name \n        WHERE condition);"
+                            },
+                            "table_subqueries": {
+                                "description": "Table subqueries are used in the FROM clause and return a table that can be used as a table-reference in an SQL statement. They come in handy when you want to perform operations such as joining multiple tables, union data from multiple sources, etc.",
+                                "example": "Example:\n\nSELECT column_name [, column_name ]\nFROM\n    (SELECT column_name [, column_name ]\n     FROM   table1 [, table2 ])\nWHERE  condition;"
+                            },
+                            "note": "Remember that not all SQL databases support all types of subqueries. Learning how and when to utilize each form is an essential aspect of constructing effective SQL queries.",
+                            "options": [
+                                {
+                                    "name": "Row",
+                                    "recommendation-type": "opinion",
+                                    "description": "In SQL, a 'row' refers to a record in a table. Each row in a table represents a set of related data, and every row in the table has the same structure.\n\nFor instance, in a table named 'customers', a row may represent one customer, with columns containing information like ID, name, address, email, etc.\n\nHere is a conceptual SQL table:\n\nID\tNAME\tADDRESS\tEMAIL\n1\tJohn\tNY\tjohn@example.com\n2\tJane\tLA\tjane@example.com\n3\tJim\tChicago\tjim@example.com\nEach of these lines of data is referred to as a 'row' in the SQL table.\n\nTo select a row, you would use a SELECT statement. Here's an example of how you might select a row:\n\nSELECT *\nFROM customers\nWHERE ID = 1;\nThis would output:\n\nID Name ADDRESS Email\n1 John NY john@example.com\nThe * in the statement refers to all columns. If you want to only select specific columns, you can replace * with the column name(s):\n\nSELECT NAME, EMAIL\nFROM customers\nWHERE ID = 1;\nIn this case, the output would be:\n\nName Email\nJohn john@example.com",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Table",
+                                    "recommendation-type": "opinion",
+                                    "description": "In SQL, a table is a collection of related data held in a structured format within a database. It consists of rows (records) and columns (fields).\n\nA table is defined by its name and the nature of data it will hold, i.e., each field has a name and a specific data type.\n\n**Table Creation**\nYou can create a table using the CREATE TABLE SQL statement. The syntax is as follows:\n\n```sqlCREATE TABLE table_name (column1 datatype,column2 datatype,column3 datatype,....);  ```\n\nHere, `table_name` is the name of the table, `column1`, `column2`… are the names of the columns, and `datatype` specifies the type of data the column can hold (e.g., varchar, integer, date, etc.).\n\n**Table Manipulation**\nOnce a table has been created, the INSERT INTO statement is used to insert new rows of data into the table.\n\n```sqlINSERT INTO table_name (column1, column2, column3,...)VALUES (value1, value2, value3,...); ```\n\nThe SELECT statement is used to select data from the table.\n\n```sqlSELECT column1, column2,...FROM table_name;```\n\nThe UPDATE statement is used to modify existing records.\n\n```sqlUPDATE table_nameSET column1 = value1, column2 = value2,...WHERE condition;```\n\nAnd, finally, the DELETE statement is used to delete existing records.\n\n```sqlDELETE FROM table_name WHERE condition;```\n\nThese basic operations allow for full manipulation of tables in SQL, letting users manage their data effectively.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Scalar",
+                                    "recommendation-type": "opinion",
+                                    "description": "In SQL, a scalar type is a type that holds a single value as opposed to composite types that hold multiple values. In simpler terms, scalar types represent a single unit of data.\n\nSome common examples of scalar types in SQL include:\n\n- Integers (INT)\n- Floating-point numbers (FLOAT)\n- Strings (VARCHAR, CHAR)\n- Date and Time (DATE, TIME)\n- Boolean (BOOL)\n\n**Examples**\nHere is how you can define different scalar types in SQL:\n\n**Integers**\nAn integer can be defined using the INT type. Here is an example of how to declare an integer:\n\n```sqlCREATE TABLE Employees (EmployeeID INT,FirstName VARCHAR(50),LastName VARCHAR(50));```\n\n**Floating-Point Numbers**\nFloating-point numbers can be defined using the FLOAT or REAL type. Here is an example of how to declare a floating-point number:\n\n```sqlCREATE TABLE Products (ProductID INT,Price FLOAT);```\n\n**Strings**\nStrings can be defined using the CHAR, VARCHAR, or TEXT type. Here is an example of how to declare a string:\n\n```sqlCREATE TABLE Employees (EmployeeID INT,FirstName VARCHAR(50)  LastName VARCHAR(50) );```\n\n**Date and Time**\nThe DATE, TIME, or DATETIME type can be used to define dates and times:\n\n```sqlCREATE TABLE Orders (OrderID INT,OrderDate DATE);```\n\n**Boolean**\nBooleans can be declared using the BOOL or BOOLEAN type. They hold either TRUE or FALSE.\n\n```sqlCREATE TABLE Employees (EmployeeID INT,IsActive BOOL);```\n\nRemember, the way these types are declared might slightly differ based on the SQL dialect you are using. It's crucial to refer to the specific documentation of the SQL flavor you're working with for the precise syntax and behavior.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Column",
+                                    "recommendation-type": "opinion",
+                                    "description": "In SQL, columns are used to categorize the data in a table. A column serves as a structure that stores a specific type of data (ints, str, bool, etc.) in a table. Each column in a table is designed with a type, which configures the data that it can hold. Using the right column types and size can help to maintain data integrity and optimize performance.\n\n**Common SQL Column Types**\n- CHAR(n) - It is a fixed-length character string that holds n characters. The size can be 1 to 255. For example,\nCREATE TABLE Employee(ID CHAR(25));```\n\n- VARCHAR(n) - A variable-length character string up to n characters where n can be from 1 to 255. For example,\n\n```sqlCREATE TABLE Employee(ID VARCHAR(100));```\n\n- INT - This type is used for integers. For example,\n\n```sqlCREATE TABLE Customers(Age INT);```\n\n- DECIMAL(p,s) - This is a decimal type used for precision and scale. p represents the total number of digits and s for numbers after the decimal. For example,\n\n```sqlCREATE TABLE Products(Price DECIMAL(5,2));```\n\n- DATE - This type is used for date format 'YYYY-MM-DD'. For example,\n\n```sqlCREATE TABLE Orders(OrderedDate DATE);```\n\n- BOOL - It stores Boolean data types. It can only take True or False values. For example,\n\n```sqlCREATE TABLE Users(IsActive BOOL);```\n\nIn SQL, the column type helps in interpreting what kind of data to store in which column, whether it's number, text, date, or logical data. Remember, a table contains multiple columns and each column should have its unique name.\n\nWhen creating a table, you should specify the column names, types, and maximum length of the type [if required].",
+                                    "resources": []
+                                }
+                            ]
                         }
-                    }
-                ]
-            },
-            "LL": {
-                "options": []
-            },
-            "M": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "N": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "Ñ": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "O": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "P": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "Q": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "R": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "S": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "T": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": [
-                    {
-                        "K": {
-                            "options": []
-                        }
-                    }
-                ]
-            },
-            "U": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            "V": {
-                "description": " ",
-                "resources": [],
-                "order": 1,
-                "options": []
-            },
-            " ": {
-                "description": " ",
-                "resources": [
-                    {
-                        "name": "",
-                        "link": ""
-                    }
-                ],
-                "order": 1,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": ""
                     },
                     {
-                        "name": "",
+                        "name": "Nested Subqueries",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": []
+                        "description": "In SQL, a subquery is a query that is nested inside a main query. If a subquery is nested inside another subquery, it is called a nested subquery. They can be used in SELECT, INSERT, UPDATE, or DELETE statements or inside another subquery.\n\nNested subqueries can get complicated quickly, but they are essential for performing complex database tasks.\n\n**Basic Syntax**:\n```sqlSELECT column_name [, column_name ]FROM   table1 [, table2 ]WHERE  column_name OPERATOR(SELECT column_name [, column_name ]FROM table1 [, table2 ][WHERE])```\n\n**How They Work**:\nIn a nested subquery, the inner subquery will run first, and its result will be used to run the outer query.\n\n**Example**:\nHere's an example where we want to find the customer names who made orders above the average order amount.\n```sqlSELECT CustomerName, CountryFROM CustomersWHERE CustomerID IN(SELECT CustomerID FROM OrdersWHERE Amount > (SELECT AVG(Amount) FROM Orders))```\n\nIn the above code:\n- The innermost query calculates the average order amount.\n- The middle subquery finds the CustomerIDs from the Orders table where the order Amount is greater than the average.\n- The outer query then gets the CustomerName from the Customers table where the CustomerID is in the list of CustomerIDs fetched from the middle subquery.\n\nThese are the basic aspects of nested subqueries in SQL. They can go as deep as the task requires, but keep in mind that too many nested subqueries can cause performance issues.",
+                        "resources": [
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
                     },
                     {
-                        "name": "",
+                        "name": "Correlated Subqueries",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "In SQL, a correlated subquery is a subquery that uses values from the outer query in its WHERE clause. The correlated subquery is evaluated once for each row processed by the outer query. It exists because it depends on the outer query and cannot execute independently of the outer query because the subquery is correlated with the outer query as it uses its column in its WHERE clause.\n\n**Syntax**:\n```sqlSELECT column_name [, column_name...]FROM   table1 [, table2...]WHERE  column_name OPERATOR(SELECT column_name [, column_name...]FROM table_nameWHERE condition [table1.column_name = table2.column_name...]);```\n\n**Code Example**:\nFor instance, if you want to get the employees whose salaries are above their department’s average salaries, it can be queried with a correlated subquery as follows:\n```sqlSELECT e1.employee_name, e1.salaryFROM employee e1WHERE salary > (SELECT AVG(salary)FROM employee e2WHERE e1.department = e2.department);```\n\nIn the example above, the correlated subquery (the inner query) calculates the average salary for each department. The outer query then compares the salary of each employee to the average salary of their respective department. It returns the employees whose salaries are above their department’s average. The correlated subquery is executed once for each row selected by the outer query.\n\nAlso note that e1 and e2 are the aliases of the employee table so that we can use it in both the inner query and outer query. Here, e2.department in the inner query comes from the outer query’s e1.department.\n\nThus, a correlated subquery is a subquery that depends on the outer SQL query for its values. This means that the subquery is run once for every row in the outer query, often resulting in quite a bit of processing and thus slower results.",
                         "resources": [
                             {
                                 "name": "",
@@ -472,6 +413,305 @@
                         ]
                     }
                 ]
+            },
+            "Advanced SQL Functions": {
+                "description": "Advanced SQL functions provide complex data manipulation and query capabilities enabling the user to perform tasks that go beyond the capabilities of basic SQL commands.\n\n**Window Function**\nWindowing Functions provide the ability to perform calculations across sets of rows related to the current query row.\n```sqlSELECT productName, productLine, buyPrice,AVG(buyPrice) OVER(PARTITION BY productLine) as avg_priceFROM productsORDER BY productLine, buyPrice;```\n\n**Aggregate Function**\nAggregate functions return a single result row based on groups of rows, rather than on single rows.\n```sqlSELECT COUNT(*) FROM products;```\n\n**Analytic Functions**\nAnalytic functions compute an aggregate value based on a group of rows. They differ from aggregate functions in that they return multiple rows for each group.\n```sqlSELECT department_id, last_name, hire_date, COUNT(*) OVER (PARTITION BY department_id) as dept_count,RANK() OVER (PARTITION BY department_id ORDER BY hire_date) as rankingFROM employees;```\n\n**Scalar Function**\nA scalar function returns a single value each time it is invoked. It is based on the input value.\n```sqlSELECT UPPER(productName) FROM products;```\n\n**Stored Procedures**\nStored Procedures are a prepared SQL code that you can save so the code can be reused over and over again.\n```sqlCREATE PROCEDURE SelectAllProducts @Product varchar(50)ASSELECT * FROM products WHERE Product = @ProductGO;```\n\n**String Functions**\nFunctions that manipulate the string data types. For example, LEFT(), LENGTH(), LOWER(), etc.\n```sqlSELECT LEFT('This is a test', 4);```\n\n**Date Functions**\nFunctions that manipulate the date data types. For example, GETDATE(), DATEADD(), DATEDIFF(), etc.\n```sqlSELECT GETDATE() AS CurrentDateTime;```\n\nRemember, not all types or functions are supported by every SQL distribution, but most of them have some sort of equivalent.",
+                "resources": [],
+                "order": 9,
+                "options": [
+                    {
+                        "Numeric": {
+                            "description": "SQL numeric functions are used to perform operations on numeric data types such as integer, decimal, and float. They’re fundamental in manipulating data in SQL commands and are commonly used in SELECT, UPDATE, DELETE, and INSERT statements.\n\n**Examples of SQL Numeric Functions**:\n- ABS() Function: This function returns the absolute (positive) value of a number.\n```sqlSELECT ABS(-243);```\nOutput:\n```plaintext243```\n- AVG() Function: This function returns the average value of a column.\n```sqlSELECT AVG(price) FROM products;```\n- COUNT() Function: This function returns the number of rows that match a specified criterion.\n```sqlSELECT COUNT(productID) FROM products;```\n- SUM() Function: This function returns the total sum of a numeric column.\n```sqlSELECT SUM(price) FROM products;```\n- MIN() & MAX() Functions: MIN() function returns the smallest value of the selected column, and MAX() function returns the largest value of the selected column.\n```sqlSELECT MIN(price) FROM products;SELECT MAX(price) FROM products;```\n- ROUND() Function: This function is used to round a numeric field to the nearest integer. You can, however, specify the number of decimals to be returned.\n```sqlSELECT ROUND(price, 2) FROM products;```\n- CEILING() Function: This function returns the smallest integer which is greater than or equal to the specified numeric expression.\n```sqlSELECT CEILING(price) FROM products;```\n- FLOOR() Function: This function returns the largest integer which is less than or equal to the specified numeric expression.\n```sqlSELECT FLOOR(price) FROM products;```\n- SQRT() Function: This function returns the square root of a number.\n```sqlSELECT SQRT(price) FROM products;```\n- PI() Function: This function returns the constant Pi.\n```sqlSELECT PI();```\n\nThese are just a few examples; SQL supports many more mathematical functions such as SIN, COS, TAN, COT, POWER, etc. Understanding and using these SQL numeric functions allows you to perform complex operations on the numeric data in your SQL tables.",
+                            "resources": [],
+                            "options": [
+                                {
+                                    "name": "ROUND",
+                                    "recommendation-type": "opinion",
+                                    "description": "The ROUND function in SQL is used to round a numeric field to the nearest specified decimal or integer.\n\nMost usually, ROUND accepts two arguments. The first one is the value that needs to be rounded, and the second is the number of decimal places to which the first argument will be rounded off. When dealing with decimals, SQL will round up when the number after the decimal point is 5 or higher, whereas it will round down if it’s less than 5.\n\n**Syntax**\nThe basic syntax for ROUND can be described as follows:\n```sqlROUND ( numeric_expression, length [ , function ] )```\n- `numeric_expression`: A floating point number to round.\n- `length`: The precision to which `numeric_expression` is to be rounded. When length is a positive number, rounding affects the right side of the decimal point. If length is negative, rounding affects the left side of the decimal point.\n- `function`: Optional parameter to determine the operation to perform. If this is omitted or 0, the `numeric_expression` is rounded. If this is 1, the `numeric_expression` is truncated.\n\n**Example 1**:\nRound off a decimal to the nearest whole number.\n```sqlSELECT ROUND(125.215);```\nThis will result in 125.\n\n**Example 2**:\nRound off a number to a specified decimal place.\n```sqlSELECT ROUND(125.215, 1);```\nThis will result in 125.2 as the second decimal place (5) is less than 5.\n\n**Example 3**:\nRound off the left side of the decimal.\n```sqlSELECT ROUND(125.215, -2);```\nThis will result in 100 as rounding now affects digits before the decimal point.\n\nWhenever you need to round off numeric data in SQL, the ROUND function is a valuable tool to have in your kit. It proficiently handles both positive and negative rounding, and its simple syntax makes it extremely user-friendly.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "CEILING",
+                                    "recommendation-type": "opinion",
+                                    "description": "CEILING is an advanced SQL function that is used to round up values. The function takes a single argument, which is a numeric or decimal number, and returns the smallest integer that is greater than or equal to the supplied number.\n\nThe syntax for using the CEILING function is:\n```sqlCEILING (numeric_expression)```\nThe `numeric_expression` is an expression of the exact numeric or approximate numeric data type categories, or types that can be implicitly converted to one of these categories.\n\nFor example, you have a table called ‘Products’ with a ‘Price’ column. Here's how you can use the CEILING function to round up all the prices to the nearest whole number:\n```sqlSELECT ProductName, Price, CEILING (Price) AS RoundedUpPriceFROM Products;```\nIn this example, if the original price was $10.25, the `RoundedUpPrice` will be $11. This is because the CEILING function rounds up the ‘Price’ value to the nearest whole number.\n\nIt’s essential to remember that CEILING always rounds up. So even if the Price is $10.01, the `RoundedUpPrice` according to CEILING would still be $11. If you want to round to the nearest whole number, you might want to use the ROUND function instead.\n\nAnother important note is that the return type of CEILING will be of the same type as the provided numeric expression. For instance, if you supply a numeric expression of type decimal, the return type will also be of type decimal.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "FLOOR",
+                                    "recommendation-type": "opinion",
+                                    "description": "The SQL FLOOR function is used to round down any specific decimal or numeric value to its nearest whole integer. The returned number will be less than or equal to the number given as an argument.\n\nOne important aspect to note is that the FLOOR function’s argument must be a number and it always returns an integer.\n\n**Syntax**\nThe syntax of using the FLOOR function in SQL is as follows:\n```sqlFLOOR (number);```\n**Example Usage**\nHere’s a simple example of its usage:\n```sqlSELECT FLOOR(25.75);```\nThe above query will return 25 as the result, as that’s the nearest integer less than 25.75.\n\nSuppose we have a table called Orders with a column SalePrice that includes decimal values. If we wanted to round down the SalePrice values to the nearest whole numbers, we could use a query like this:\n```sqlSELECT FLOOR(SalePrice) AS RoundedSalePriceFROM Orders;```\nThis would output a new column RoundedSalePrice where all the sale prices have been rounded down to the nearest integers.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "ABS",
+                                    "recommendation-type": "opinion",
+                                    "description": "The ABS function in SQL is used to return the absolute value of a number, i.e., the numeric value without its sign. The function takes a single argument which must be a number (integer, float, etc.) and returns the absolute, non-negative equivalent.\n\nThe general syntax for the ABS function is as follows:\n```sqlABS(expression)```\nInthesyntaxabove,theexpressionisrequiredandcaneither be a literal number, a column name, the result of another function, or any valid SQL expression that resolves to a numeric value.\n\n**Examples**\nConsider a database table Orders:\n```plaintextOrderIDProductQuantity1Apple-52Banana103Cherry-15```\nIf you want to get the absolute value of the ‘Quantity’ column, you could use the ABS function like this:\n```sqlSELECTOrderID,Product,ABS(Quantity)as'Absolute Quantity'FROMOrders;```\nThe output will be:\n```plaintextOrderIDProductAbsoluteQuantity1Apple52Banana103Cherry15```\nAs you can see, the negative values in the ‘Quantity’ column have been converted to positive values by the ABS function.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "MOD",
+                                    "recommendation-type": "opinion",
+                                    "description": "The SQL MOD() function is a mathematical function that returns the remainder of the values from the division of two numbers. It calculates the modulo operation. This function is very useful when you want to find the remainder value after one number is divided by another.\n\n**Syntax**\nThe syntax of the MOD function in SQL is:\n```sqlMOD(expression1, expression2)```\n`Expression1` and `Expression2` are the values that you want to apply the function to.\n\n**Basic Usage**\nFor instance, if you want to find the remainder of the division of 15 by 4 you would write:\n```sqlSELECT MOD(15, 4) as result;```\nThe result would be 3 because 3 is the remainder after dividing 15 by 4.\n\n**Usage with Table Columns**\nThe MOD() function can also be applied to table columns. Let’s imagine that you have a table named “Orders” with an “OrderNumber” column and you want to find the remainder of every order number when divided by 7, you would do:\n```sqlSELECT OrderNumber, MOD(OrderNumber, 7) as resultFROM Orders;```\nThis will return a list of all order numbers, along with the remainder when each order number is divided by 7.\n\nKeep in mind that the SQL MOD() function may not work in the same way, or might not support all features, in every SQL database. Always refer to the documentation specific to the SQL database you are using.",
+                                    "resources": []
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "String Functions": {
+                            "description": "In SQL, you can perform various operations on strings, including extracting a string, combining two or more strings, and converting the case of a string.\n\n**CONCAT Function**\nThe CONCAT function combines two or more strings into one string. The following is the syntax:\n```sqlCONCAT(string1, string2, ...., string_n)```\n**Example**:\n```sqlSELECT CONCAT('Hello ', 'World');```\nThe output of the above SQL statement will be ‘Hello World’.\n\n**SUBSTRING Function**\nThe SUBSTRING function extracts a string from a given string. The syntax looks as follows:\n```sqlSUBSTRING(string, start, length)```\n**Example**:\n```sqlSELECT SUBSTRING('SQL Tutorial', 1, 3);```\nThe output of the above query will be ‘SQL’.\n\n**LENGTH Function**\nThe LENGTH function returns the length of a string. The syntax is:\n```sqlLENGTH(string)```\n**Example**:\n```sqlSELECT LENGTH('Hello World');```\nThe output of the above SQL statement will be 11.\n\n**UPPER and LOWER Function**\nThe UPPER function converts all the letters in a string to uppercase, whereas the LOWER function to lowercase.\n\n**Syntax**:\n```sqlUPPER(string)\n\nLOWER(string)```\n**Examples**:\n```sqlSELECT UPPER('Hello World');\n\nSELECT LOWER('Hello World');```\nThe output of the above SQL statements will be ‘HELLO WORLD’ and ‘hello world’ respectively.\n\n**TRIM Function**\nThe TRIM function removes leading and trailing spaces of a string. You can also remove other specified characters.\n\n**Syntax**:\n```sqlTRIM([LEADING|TRAILING|BOTH] [removal_string] FROM original_string)```\n**Example**:\n```sqlSELECT TRIM('   Hello World   ');\nSELECT TRIM('h' FROM 'hello');```\nThe output of the first query will be ‘Hello World’ and that of the second query will be ‘ello’.",
+                            "resources": [],
+                            "options": [
+                                {
+                                    "name": "UPPER",
+                                    "recommendation-type": "opinion",
+                                    "description": "UPPER() is a built-in string function in SQL. As the name suggests, it is used to convert all letters in a specified string to uppercase. If the string already consists of all uppercase characters, the function will return the original string.\n\n**Syntax for this function is**:\n```sqlUPPER(string)```\nHere ‘string’ can be a string value or a column of a table of string(s) type.\n\nLet’s assume a table ‘students’ with column ‘name’ as below:\n```plaintextnameJohn DoeJane SmithKelly Will```\nIf we want all the names in uppercase, we’ll use UPPER() function as:\n```sqlSELECT UPPER(name) as 'Upper Case Name' FROM students;```\nAnd we will get:\n```plaintextUpper Case NameJOHN DOEJANE SMITHKELLY WILL```\nSo, UPPER() function helps us to bring an entire string to uppercase for easier comparison and sorting.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "LOWER",
+                                    "recommendation-type": "opinion",
+                                    "description": "LOWER is a built-in function in SQL used to return all uppercase character(s) in a string to lowercase. It can be quite useful when performing case-insensitive comparisons or searches in your queries.\n\n**Syntax**:\nThe basic syntax for LOWER in SQL is:\n```sqlLOWER(string)```\nHere, ‘string’ can be a literal string or a column of a table, and the function will return the string with all alphabetic characters converted to lowercase.\n\n**Example**:\nLet’s take a look at a very basic example. Assuming we have the following string “SQL is BAE!” and we want to convert it to lower case.\n```sqlSELECT LOWER('SQL is BAE!') AS LowerCaseString;```\n**Output**:\n```plaintextlowercasestring----------------sql is bae!```\nIf you are using a column from a table, let’s say we have a table ‘students’ with a column ‘Name’ and we want to convert all the entries in that column to lowercase:\n```sqlSELECT LOWER(Name) AS LowerCaseName FROM students;```\nHere, the LOWER function will return all the names from the ‘Name’ column in the ‘students’ table in their lowercase forms.\n\nRemember, the LOWER function doesn’t affect the numbers and special characters in the input string, it only converts uppercase alphabetical characters to lowercase.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "SUBSTRING",
+                                    "recommendation-type": "opinion",
+                                    "description": "The SQL SUBSTRING function is used to extract a part of a string, where you can specify the start position and the length of the text. This function can be very beneficial when you only need a specific part of a string.\n\n**Syntax**\nThe standardized SQL syntax for SUBSTRING is as follows:\n```sqlSUBSTRING(string, start, length)```\nWhere:\n\n- 'string' is the source string from which you want to extract.\n- 'start' is the position to start extraction from. The first position in the string is always 1.\n- 'length' is the number of characters to extract.\n\n**Usage**\nFor instance, if you want to extract the first 5 characters from the string ‘Hello World’:\n```sqlSELECT SUBSTRING('Hello World', 1, 5) as ExtractedString;```\n**Result**:\n```plaintext| ExtractedString || --------------- || Hello           |```\nYou can also use SUBSTRING on table columns, like so:\n```sqlSELECT SUBSTRING(column_name, start, length) FROM table_name;```\n**SUBSTRING with FROM and FOR**\nIn some database systems (like PostgreSQL and SQL Server), the SUBSTRING function uses a different syntax:\n```sqlSUBSTRING(string FROM start FOR length)```\nThis format functions the same way as the previously mentioned syntax.\n\nFor example:\n```sqlSELECT SUBSTRING('Hello World' FROM 1 FOR 5) as ExtractedString;```\nThis would yield the same result as the previous example - ‘Hello’.\n\n**Note**\nSQL is case-insensitive, meaning SUBSTRING, substring, and Substring will all function the same way.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "REPLACE",
+                                    "recommendation-type": "opinion",
+                                    "description": "You can use the REPLACE() function in SQL to substitute all occurrences of a specified string.\n\n**Synopsis**\n\nREPLACE(input_string, string_to_replace, replacement_string)\n\n**Parameters**\n\n- 'input_string': This is the original string where you want to replace some characters.\n- 'string_to_replace': This is the string that will be searched for in the original string.\n- 'replacement_string': This is the string that will replace the 'string_to_replace' in the original string.\n\nThe REPLACE() function is handy when it comes to manipulating and modifying data in various ways, particularly when used in combination with other SQL data-manipulation functions.\n\n**Examples**\n\nSuppose we have the following table, Employees:\n\n| EmpId | EmpName          |\n|-------|------------------|\n| 1     | John Doe         |\n| 2     | Jane Doe         |\n| 3     | Jim Smith Doe    |\n| 4     | Jennifer Doe Smith |\n\nHere’s how you can use the REPLACE() function:\n```sqlSELECT EmpId, EmpName,REPLACE(EmpName, 'Doe', 'Roe') as ModifiedNameFROM Employees;```\nAfter the execution of the above SQL, we will receive:\n\n| EmpId | EmpName          | ModifiedName    |\n|-------|------------------|-----------------|\n| 1     | John Doe         | John Roe        |\n| 2     | Jane Doe         | Jane Roe        |\n| 3     | Jim Smith Doe    | Jim Smith Roe   |\n| 4     | Jennifer Doe Smith | Jennifer Roe Smith |\n\nYou can see that all occurrences of ‘Doe’ are replaced with ‘Roe’.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "CONCAT",
+                                    "recommendation-type": "opinion",
+                                    "description": "CONCAT is a SQL function that allows you to concatenate, or join, two or more strings together. This is extremely useful whenever you need to combine text from multiple columns into a single column.\n\nThe syntax for the CONCAT function is quite simple:\n\nCONCAT(string1, string2, ..., string_n)\nThis function accepts as input any number of string arguments, from two to as many as needed, and returns a new string which is the result of all the input strings joined together. The strings are concatenated in the order in which they are passed to the function.\n\nHere’s a simple example:\n```sql\nSELECT CONCAT('Hello', ' ', 'World');\n```\nThis will return the string:\n\n'Hello World'\n\nYou can also use CONCAT with columns from a table:\n```sql\nSELECT CONCAT(first_name, ' ', last_name) AS full_name\nFROM employees;\n```\nThe above query will return a new column full_name which is the result of first_name and last_name with a space in between. If first_name is ‘John’ and last_name is ‘Doe’, the returned full name would be ‘John Doe’.\n\nHowever, keep in mind that CONCAT will return NULL if any of the input strings is NULL. To avoid this, you can use the CONCAT_WS function which accepts a separator as the first argument and then a list of strings to concatenate.\n```sql\nSELECT CONCAT_WS(' ', first_name, last_name) AS full_name\nFROM employees;\n```\nThe CONCAT_WS function will ignore any NULL values, only joining the non-NULL values with the provided separator. Hence, ‘John NULL’ would become just ‘John’.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "LENGTH",
+                                    "recommendation-type": "opinion",
+                                    "description": "In SQL, LENGTH is a built-in function that allows you to find the number of characters in a string or the length of a string.\n\nSyntax:\n\nLENGTH ( string )\nHere, string can be any string literal, column or expression resulting in a string.\n\nExamples\nConsider an “employees” table:\n\nid\tfirst_name\tlast_name\n1\tJohn\tDoe\n2\tJane\tSmith\n3\tAlice\tMurphy\nTo compute the length of the first_name field for all records, use the following SQL statement:\n```sql\nSELECT first_name, LENGTH(first_name) as length_of_first_name\nFROM employees;\n```\nOutput:\n```plaintext\nfirst_name\tlength_of_first_name\nJohn\t4\nJane\t4\nAlice\t5\n```\nUsage with DISTINCT\nLENGTH can also be used in conjunction with DISTINCT to find the number of distinct lengths of a specific field.\n```sql\nSELECT DISTINCT LENGTH(first_name) as distinct_length_of_first_name\nFROM employees;\n```\nUsage with WHERE Clause\nIt can work in the WHERE clause to return only those records where the length of a specific field meets a certain condition.\n```sql\nSELECT *\nFROM employees\nWHERE LENGTH(first_name) > 4;\n```\nDo note that the LENGTH function may return different results in different SQL systems due to character set and collation differences. In some systems, LENGTH() returns length in characters while in others it could return length in bytes.\n\nFor example, MySQL has separate CHAR_LENGTH() and LENGTH() functions. CHAR_LENGTH() returns the length of the string in characters, while LENGTH() in MySQL returns the length of the string in bytes. This can make a difference if your string includes multibyte characters (like UTF-8). In such scenarios, it’s always recommended to be sure how your specific SQL system implements LENGTH function.",
+                                    "resources": []
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Conditional": {
+                            "description": "In SQL, Conditional expressions can be used in the SELECT statement, WHERE clause, and ORDER BY clause to evaluate multiple conditions. These are SQL’s version of the common if…then…else statement in other programming languages.\n\nThere are two kinds of conditional expressions in SQL:\n\nCASE expression\n\nThe CASE expression is a flow-control statement that allows you to add if-else logic to a query. It comes in two forms: simple and searched.\n\nHere is an example of a simple CASE expression:\n```sql\nSELECT OrderID, Quantity,\n    CASE\n        WHEN Quantity > 30 THEN 'Over 30'\n        ELSE 'Under 30'\n    END AS QuantityText\nFROM OrderDetails;\n```\nA searched CASE statement:\n```sql\nSELECT FirstName, City,\n    CASE\n        WHEN City = 'Berlin' THEN 'Germany'\n        WHEN City = 'Madrid' THEN 'Spain'\n        ELSE 'Unknown'\n    END AS Country\nFROM Customers;\n```\nCOALESCE expression\n\nThe COALESCE function returns the first non-null value in a list. It takes a comma-separated list of values and returns the first value that is not null.\n\nAn example of a COALESCE statement:\n```sql\nSELECT ProductName,\n    COALESCE(UnitsOnOrder, 0) As UnitsOnOrder,\n    COALESCE(UnitsInStock, 0) As UnitsInStock,\nFROM Products;\n```\nNULLIF expression\n\nNULLIF returns null if the two given expressions are equal.\n\nExample of using NULLIF:\n```sql\nSELECT NULLIF(5,5) AS Same,\n       NULLIF(5,7) AS Different;\n```\nIIF expression\n\nIIF function returns value_true if the condition is TRUE, or value_false if the condition is FALSE.\n\nExample of using IIF:\n```sql\nSELECT IIF (1>0, 'One is greater than zero', 'One is not greater than zero');\n```\nThese are essential constructs that can greatly increase the flexibility and functionality of your SQL code, particularly when dealing with elaborate conditions and specific data selections.",
+                            "resources": [],
+                            "options": [
+                                {
+                                    "name": "CASE",
+                                    "recommendation-type": "opinion",
+                                    "description": "CASE is a conditional statement in SQL that performs different actions based on different conditions. It allows you to perform IF-THEN-ELSE logic within SQL queries. It can be used in any statement or clause that allows a valid expression.\n\nThere are two forms of the CASE statement:\n\nSimple CASE expression - It compares an expression to a set of simple expressions to return a result.\n```sql\nSELECT column1, column2, \n(CASE \n    WHEN condition1 THEN result1\n    WHEN condition2 THEN result2\n    ...\n    ELSE result \nEND) \nFROM table_name;\n```\nSearched CASE expression - It evaluates a set of Boolean expressions to return a result.\n```sql\nSELECT column1, column2,\n(CASE\n    WHEN condition1 THEN result1\n    WHEN condition2 THEN result2\n    ...\n    ELSE result\nEND) \nFROM table_name;\n```\nIn both forms, CASE returns a result_1, result_2, …, if condition_1, condition_2, … is true. If no conditions are true, it returns the value in the ELSE clause. If the ELSE clause is omitted and no conditions are true, it returns NULL.\n\nHere’s a concrete example:\n```sql\nSELECT OrderID, Quantity,\n (CASE\n     WHEN Quantity > 30 THEN 'Over 30'\n     WHEN Quantity = 30 THEN 'Equals 30'\n     ELSE 'Under 30'\n END) AS QuantityText\nFROM OrderDetails;\n```\nFrom the “OrderDetails” table, the statement lists ‘OrderID’, ‘Quantity’, and a column named ‘QuantityText’ that displays ‘Over 30’ if ‘Quantity > 30’ or ‘Equals 30’ if ‘Quantity = 30’ or ‘Under 30’ if both conditions are false.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "NULLIF",
+                                    "recommendation-type": "opinion",
+                                    "description": "NULLIF is a built-in conditional function in SQL Server. The NULLIF function compares two expressions and returns NULL if they are equal or the first expression if they are not.\n\nSyntax\nHere’s the syntax of the NULLIF function:\n\nNULLIF(expression1, expression2);\nNULLIF compares expression1 to expression2. If expression1 and expression2 are equal, the function returns NULL. Otherwise, it returns expression1. Both expressions must have the same data type.\n\nExample\nConsider the following example:\n\nSELECT \n    first_name, \n    last_name,\n    NULLIF(email, 'NA') AS email\nFROM \n    users;\nIn this SQL Server NULLIF function example, if the field email is ‘NA’, then NULL would be returned. Otherwise the actual email field value is returned.\n\nIn another example, consider a division operation:\n\nSELECT \n    avg_salary,\n    NULLIF(avg_salary, 0) AS avg_salary_no_zero\nFROM \n    positions;\nIn this SQL Server NULLIF function example, if avg_salary field is 0, then NULL would be returned. This is useful to avoid division by zero errors.\n\nIn nutshell, the SQL NULLIF function can be handy in many scenarios such as to circumvent division by zero errors or to translate known sentinel values into NULL values that can be handled by SQL’s NULL handling functions.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "COALESCE",
+                                    "recommendation-type": "opinion",
+                                    "description": "The COALESCE function in SQL is used to manage NULL values in data. It scans from left to right through the arguments and returns the first argument that is not NULL. The COALESCE function allows handling the case where you have possible NULL values in your data and you want to replace it with some other value.",
+                                    "resources": []
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Date and Time": {
+                            "description": "In SQL, DATE is a data type that stores the date. It does not store time information. The format of the date is, 'YYYY-MM-DD'. SQL provides several functions to handle and manipulate dates.GETDATE()GETDATE() returns the current date and time as a DateTime datatype. It does not require any arguments.SELECT GETDATE() AS CurrentDateTime;DATEDIFF()DATEDIFF() returns the difference between two date values based on the unit of time you want to use. The syntax is DATEDIFF(datepart, startdate, enddate).SELECT DATEDIFF(day, '2022-01-01', '2022-01-15') AS DiffInDays;DATEADD()DATEADD() adds or subtracts a specified time interval from a date. Its syntax is DATEADD(datepart, number, date).SELECT DATEADD(year, 1, '2022-01-01') AS NewDate;CONVERT()CONVERT() is used to convert from one data type to another, and it is commonly used to format DateTime values. Its syntax is CONVERT(data_type(length), expression, style).SELECT CONVERT(VARCHAR(19), GETDATE()) AS FormattedDateTime;Remember to replace date with your date in above queries.DateTime FormatBy using appropriate format codes, SQL allows us to present dates and times in various formats.SELECT FORMAT(GETDATE(), 'MM/dd/yyyy') AS DateFormatted;Also, by using specific column names instead of GETDATE(), the same patterns can be applied to DateTime values in your data.Note: All dates are stored as numeric values under the hood, with the integer portion representing the date and the decimal portion representing the time. Also, different database systems may use slightly different functions for handling dates and times, so be sure to check the documentation for your specific DBMS.",
+                            "resources": [
+                                {
+                                    "name": "SQL Date Functions",
+                                    "link": "https://example.com/sql-date-functions"
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "name": "DATE in SQL",
+                                    "recommendation-type": "opinion",
+                                    "description": "In SQL, DATE is a data type that stores the date. It does not store time information. The format of the date is, 'YYYY-MM-DD'. SQL provides several functions to handle and manipulate dates.}Below are some common examples of how to use the DATE data type in SQLCreate a table with DATE data typeCREATE TABLE Orders (OrderId int,ProductName varchar(255),OrderDate date);In this example, the OrderDate column uses the DATE data type to store the date of the orderInsert a date value into a tableINSERT INTO Orders (OrderId, ProductName, OrderDate)VALUES (1, 'Product 1', '2022-01-01');This command inserts a new row into the Orders table with a date.Retrieve data with a specific dateSELECT * FROM Orders WHERE OrderDate = '2022-01-01';This command retrieves all orders made on January 1, 2022.Update a date value in a tableUPDATE Orders SET OrderDate = '2022-01-02' WHERE OrderId = 1;This command updates the date from January 1, 2022 to January 2, 2022, for the order with the order ID 1.SQL Date FunctionsSQL also provides several built-in functions to work with the DATE data type:CURRENT_DATEReturns the current date.SELECT CURRENT_DATE;DATEADDAdd or subtract a specified time interval from a date.SELECT DATEADD(day, 5, OrderDate) AS Due DateFROM Orders;In this example, we are adding 5 days to each OrderDate in the table Orders.DATEDIFFGet the difference between two dates.SELECT DATEDIFF(day, '2022-01-01', '2022-01-06') AS Difference;It will return 5, that is the difference in days between the two dates.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "TIME in SQL",
+                                    "recommendation-type": "opinion",
+                                    "description": "In SQL, the TIME data type is used to store time values in the database, allowing you to store hours, minutes, and seconds. The format of a TIME is 'HH:MI:SS'. SQL provides functions for working with TIME data type in SQL: }CREATE TABLE table_name (column_name TIME);You can store data using the following syntax:INSERT INTO table_name (column_name) values ('17:34:20');RangeThe time range in SQL is ‘00:00:00’ to ‘23:59:59’.Fetching DataTo fetch the data you can use the SELECT statement. For example:SELECT column_name FROM table_name;It will return the time values from the table.FunctionsSQL provides several functions to work with the TIME data type. Some of them include:CURTIME()Return the current time.SELECT CURTIME();ADDTIME()Add time values.SELECT ADDTIME('2007-12-31 23:59:59','1 1:1:1');TIMEDIFF()Subtract time values.SELECT TIMEDIFF('2000:01:01 00:00:00', '2000:01:01 00:01:01');ConversionConversion of TIME data type is also possible in SQL. It can be converted into other data types, like INT, and vice versa. Here is a conversion example of TIME to INT:SELECT TIME_TO_SEC('22:23:00');This was a brief summary about “TIME” in SQL.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "DATEPART in SQL",
+                                    "recommendation-type": "opinion",
+                                    "description": "DATEPART is a useful function in SQL that allows you to extract a specific part of a date or time field. You can use it to get the year, quarter, month, day of the year, day, week, weekday, hour, minute, second, or millisecond from any date or time expression.Here’s the basic syntax of DATEPART:DATEPART(datepart, date)Here datepart is the part of the date that you want to extract, and date is the date value from which the part should be extracted.Here are some examples:Extracting the year from a date:SELECT DATEPART(year, '2021-07-14') AS 'Year';In this example, it would return 2021.Extracting the month:SELECT DATEPART(month, '2021-07-14') AS 'Month';The result of this command would be 7.Extracting the day:SELECT DATEPART(day, '2021-07-14') AS 'Day';This would return 14.Extracting the hour, minute, or second from a datetime:SELECT DATEPART(hour, '2021-07-14T13:30:15') AS 'Hour',DATEPART(minute, '2021-07-14T13:30:15') AS 'Minute',DATEPART(second, '2021-07-14T13:30:15') AS 'Second';This would return 13, 30, and 15 respectively.Remember, the DATEPART function returns an integer value. It is essential when you want to compare or group by a specific part of a date or time field in SQL.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "DATEADD in SQL",
+                                    "recommendation-type": "opinion",
+                                    "description": "DATEADD is a built-in function in SQL that allows you to add or subtract units of time from a specified date. The function is useful for performing operations on dates, such as finding a date 'n' days before or after a specified date. It takes three parameters: an interval type, a number, and a date from which the calculation is based.DATEADD(interval, number, date)Here’s what each param means:interval: The part of date to which an integer value will be added. This could be a year, quarter, month, day, hour, minute, second, millisecond, microsecond, or nanosecond.number: The value to add. The value can either be negative to get dates in the past or positive to get dates in the future.date: The date or datetime expression to which the interval and number are added.For example, if we want to add three days to the date ‘2022-01-01’, we would write:SELECT DATEADD(day, 3, '2022-01-01') as NewDateThe result would be: 2022-01-04.You can substitute ‘day’ with any of the accepted interval types to add different units of time.Sample QueryIf you have a table called Orders with a DateTime field OrderDate and you want to find all orders placed in the next seven days, you can use the DATEADD function as follows:SELECT * FROM OrdersWHERE OrderDate <= DATEADD(day, 7, GETDATE())This will return all orders from now until a week from now.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "TIMESTAMP in SQL",
+                                    "recommendation-type": "opinion",
+                                    "description": "SQL TIMESTAMP is a data type that allows you to store both date and time. It is commonly used to track updates and changes made to a record, providing a chronological timeline of events. The format and storage size of TIMESTAMP may vary slightly depending on the SQL platform. For example, MySQL uses the 'YYYY-MM-DD HH:MI:SS' format, and PostgreSQL stores it in a similar format but with the ability to include microseconds. Here is how you can define a column with a TIMESTAMP type in an SQL tableCREATE TABLE table_name (column1 TIMESTAMP,column2 VARCHAR(100),...);A common use-case of TIMESTAMP is to have an automatically updated timestamp each time the row is updated. This can be achieved by setting the DEFAULT constraint to CURRENT_TIMESTAMP:CREATE TABLE table_name (column1 TIMESTAMP DEFAULT CURRENT_TIMESTAMP,column2 VARCHAR(100),...);In MySQL, ON UPDATE CURRENT_TIMESTAMP can be used to automatically update the TIMESTAMP field to the current date and time whenever there is any change in other fields of the rowCREATE TABLE table_name (column1 TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,column2 VARCHAR(100),...);You can also insert or update records with a specific timestamp:INSERT INTO table_name (column1, column2) VALUES ('2019-06-10 10:20:30', 'example data');UPDATE table_name SET column1 = '2020-07-20 15:30:45' WHERE column2 = 'example data';Remember that the format of the date and time you enter must correspond to the format used by the SQL platform you are using.",
+                                    "resources": []
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "Views": {
+                "description": "SQL views are virtual tables that do not store data directly. They are essentially a saved SQL query and can pull data from multiple tables or present data from one table in a different way.Creating ViewsYou can create a view using the CREATE VIEW statement. In the following example, a new view named CustomerView is created which contains customer’s ID, name, and address from the Customers table:CREATE VIEW CustomerView ASSELECT CustomerID, Name, AddressFROM Customers;Querying ViewsAfter a view has been created, it can be used in the FROM clause of a SELECT statement, as if it’s an actual table. For instance, to select all from CustomerView:SELECT *FROM CustomerView;Updating ViewsThe CREATE OR REPLACE VIEW statement is used to update a view. Consider the CustomerView we created earlier. If we want to include the customer’s phone, we can update it as follows:CREATE OR REPLACE VIEW CustomerView ASSELECT CustomerID, Name, Address, PhoneFROM Customers;Dropping ViewsTo delete a view, use the DROP VIEW statement:DROP VIEW CustomerView;Keep in mind that not all database systems support the CREATE OR REPLACE VIEW statement. Also, the updatability of a view depends on whether it includes functions, expressions, or multiple tables. Some databases might not let you update a view at all.RestrictionsThere are a few restrictions to bear in mind when working with views. SQL views can’t:Contain a ORDER BY clause in the view definitionBe indexedHave triggers or default valuesEach database may have its own specific limitations and capabilities with using views, so always refer to the official documentation for more information.Note: The above examples use a hypothetical Customers table. Replace this with your actual table name when trying these in your environment.",
+                "resources": [
+                    {
+                        "name": "SQL Views Overview",
+                        "link": "https://example.com/sql-views-overview"
+                    }
+                ],
+                "order": 10,
+                "options": [
+                    {
+                        "name": "Creating Views in SQL",
+                        "recommendation-type": "opinion",
+                        "description": "In SQL, creating views can be achieved through the CREATE VIEW statement. A view is a virtual table based on the result-set of an SQL statement. It contains rows and columns from one or more tables. The syntax for the CREATE VIEW statement is provided with an example.\nCREATEVIEWview_nameASSELECTcolumn1,column2,...FROM table_nameWHEREcondition;Here:CREATEVIEWview_name:Itcreatesanewviewhatyoudefinwithview_name.ASSELECTcolumn1column2...:Thesearethecolumnsyouwantinyourview.Yocachooseoneormorecolumnsfromoneormoretables.FROMtable_name:table_name is the name of the table from which you want to create the view.WHERE : It is an optional clause that you can use to specify conditions for displaying records.Example:Let’s say you have a table named Employees having following data:IDNAMESALARYDEPARTMENT_ID1John300022Sue350033Phil450024Anna50001You can create a view that shows only the employees from department 2:CREATE VIEW Department2ASSELECTName,SalaryFROMEmployeesWHEREDepartment_ID=2;Afterrunningthisstatement,Department2willbeasavedviewinyourdatabase, and you can query it likeyouwouldwithastandardtable:SELECTFROMDepartment2ThiswouldbringupNAMESALARYJohn3000Phil4500Intotal,theCREATEVIEWstatementisausefulcommandwhenyouwanttosaveaparticularqueryanditsresultsetforfutureuse.Thiscansimplifycomplexqueriesbybreakingthemupintomanageableparts",
+                        "resources": []
+                    },
+                    {
+                        "name": "Modifying Views in SQL",
+                        "recommendation-type": "opinion",
+                        "description": "In SQL, you can modify a VIEW in two ways: using CREATE OR REPLACE VIEW to change the VIEW's definition while keeping the VIEW name intact or by using the DROP VIEW and CREATE VIEW approach. The text provides syntax and examples for both methods, along with a caution about the potential impact on other dependencies when dropping a view. It also explains how to modify data through a VIEW and mentions the limitations of modifying complex views.Modifying VIEW Using CREATE OR REPLACE VIEWSyntax:CREATE OR REPLACE VIEW view_name ASSELECT column1, column2, ...FROM table_nameWHERE condition;Example:CREATE OR REPLACE VIEW customer_view ASSELECT customer_name, countryFROM customersWHERE country='USA';In this example, ‘customer_view’ will show the names and countries of customers only from the USA.Modifying VIEW Using DROP VIEW and CREATE VIEWSyntax: Drop the VIEW:DROP VIEW view_name;Create a new VIEW:CREATE VIEW view_name ASSELECT column1, column2, ...FROM table_nameWHERE condition;Example: Drop the VIEWDROP VIEW customer_view;Create a new VIEW:CREATE VIEW customer_view ASSELECT customer_name, countryFROM customersWHERE country='UK';In this example, we first removed ‘customer_view’. Then, we created it again with the new definition where it now shows the names and countries of the customers only from the UK.CAUTION: If other views, stored procedures, or programs depend on this view, they will be affected after you drop the view. For this reason, using CREATE OR REPLACE VIEW is generally safer.Modifying Data through VIEWIn some cases, you can modify the data of the underlying tables via a VIEW.Syntax:UPDATE view_nameSET column1 = value1, column2 = value2, ...WHERE condition;Example:UPDATE customer_viewSET country = 'USA'WHERE customer_name = 'John Doe';This command will update the country of ‘John Doe’ to ‘USA’ in both the VIEW and the underlying table.However, not every VIEW is updatable. You can only modify the data if the VIEW you’re modifying is a simple VIEW that returns results from a single table without any aggregation or complex clauses. If you attempt to modify a complex view (i.e., it includes JOIN, GROUP BY, HAVING, DISTINCT), you will get an error",
+                        "resources": []
+                    },
+                    {
+                        "name": "Dropping Views in SQL",
+                        "recommendation-type": "opinion",
+                        "description": "In SQL, 'dropping' is the process of deleting an existing database object. When it comes to views, 'dropping' means deleting an existing view from the database. The text explains the importance of caution when dropping views and provides the basic syntax for dropping a view in SQL. It also covers the use of the IF EXISTS parameter to check for the existence of a view before dropping it.Dropping ViewsYou can drop a view in SQL using the DROP VIEW statement. The DROP VIEW statement removes one or more views from the database. You specify the name of the view that you want to remove after the DROP VIEW clause.Here is the basic syntax to drop an existing view:DROP VIEW view_name;To drop multiple views in a single command, you use a list of comma-separated views.DROP VIEW view_name1, view_name2, ..., view_name_n;Note: Be careful when dropping views. Once a view is dropped, all the permissions granted on it will also be dropped.Before dropping a view, you can check if the view exists by using the IF EXISTS parameter. If you drop a view that does not exist, you will get an error. To prevent this, you can use the IF EXISTS parameter.Here is how you do it:DROP VIEW IF EXISTS view_name;In this case, if the view exists, it will be dropped. If the view does not exist, nothing happens and you don’t get an error.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Indexes": {
+                "description": "An index in SQL is a database object used to improve the speed of data retrieval operations on a database table. This text explains the concept of indexes and covers various types of indexes, including clustered and non-clustered indexes, composite indexes, unique indexes, explicit and implicit indexes, and full-text indexes. It also mentions the trade-off between query speed and update costs when working with indexes. Creating IndexesTo create an index, you use the CREATE INDEX command followed by the index name, the table name, and the columns you want to use in the index.CREATE INDEX index_nameON table_name(column_name);Removing IndexesIf an index is no longer required or if it’s causing performance issues due to too much storage consumption, it can be dropped using the DROP INDEX command.DROP INDEX index_name;Listing IndexesYou can get a list of all the indexes on a table using the SHOW INDEXES command.SHOW INDEXES IN table_name;Remember that most SQL databases automatically create indexes for primary keys, and they do not need to be managed manually.Modifying IndexesModifying an existing index often means dropping the old index and creating a new one. PostgreSQL, MySQL, and MS SQL Server provide a way to reindex without dropping and recreating them manually.For example, in PostgreSQL:REINDEX INDEX index_name;Indexes and PerformanceWhile indexes can improve read speed, they also slow down write operations because each write must also update the index. That’s why it’s essential to find a balance between the number of indexes and database performance. Too many indexes can negatively impact performance.Therefore, you should only create indexes when they are likely to be needed and when they will have a significant impact on improving query performance. You can use the SQL Server Profiler, MySQL’s slow query log, or other database-specific tools to identify the queries that are running slow, and then create indexes to optimize those queries. Regularly monitor your database performance to make sure that the indexes are still needed and that they are providing the expected improvements.",
+                "resources": [],
+                "order": 11,
+                "options": [
+                    {
+                        "name": "Managing Indexes in SQL",
+                        "recommendation-type": "opinion",
+                        "description": "Indexes can significantly enhance data retrieval speed in SQL databases, but they also come with storage costs and potential performance trade-offs during data modification operations. This text discusses managing indexes, including creating, removing, listing, and modifying indexes. It also addresses the impact of indexes on database performance and offers tips on when and how to strategically add and clean up indexes. Creating IndexesTo create an index, you use the CREATE INDEX command followed by the index name, the table name, and the columns you want to use in the index.CREATE INDEX index_nameON table_name(column_name);Removing IndexesIf an index is no longer required or if it’s causing performance issues due to too much storage consumption, it can be dropped using the DROP INDEX command.DROP INDEX index_name;Listing IndexesYou can get a list of all the indexes on a table using the SHOW INDEXES command.SHOW INDEXES IN table_name;Remember that most SQL databases automatically create indexes for primary keys, and they do not need to be managed manually.Modifying IndexesModifying an existing index often means dropping the old index and creating a new one. PostgreSQL, MySQL, and MS SQL Server provide a way to reindex without dropping and recreating them manually.For example, in PostgreSQL:REINDEX INDEX index_name;Indexes and PerformanceWhile indexes can improve read speed, they also slow down write operations because each write must also update the index. That’s why it’s essential to find a balance between the number of indexes and database performance. Too many indexes can negatively impact performance.Therefore, you should only create indexes when they are likely to be needed and when they will have a significant impact on improving query performance. You can use the SQL Server Profiler, MySQL’s slow query log, or other database-specific tools to identify the queries that are running slow, and then create indexes to optimize those queries. Regularly monitor your database performance to make sure that the indexes are still needed and that they are providing the expected improvements.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Query Optimization in SQL",
+                        "recommendation-type": "opinion",
+                        "description": "Query optimization is a function of SQL that involves tuning and optimizing a SQL statement so that the system executes it in the fastest and most efficient way possible. It includes optimizing the costs of computation, communication, and disk I/O.The primary approaches of query optimization involve the following:Rewriting QueriesThis means changing the original SQL query to an equivalent one which requires fewer system resources. It’s usually done automatically by the database system. SELECT * FROM Customers WHERE state = 'New York' AND city = 'New York';The above query can be rewritten using a subquery for better optimization:SELECT * FROM Customers WHERE state = 'New York' AND city IN (SELECT city FROM Customers WHERE city = 'New York');Choosing the right indexIndexes are used to find rows with specific column values quickly. Without an index, SQL has to begin with the first row and then read through the entire table to find the appropriate rows. The larger the table, the more costly the operation. Choosing a right and efficient index greatly influence on query performance.For example,CREATE INDEX index_nameON table_name (column1, column2, ...);Fine-tuning Database DesignImproper database schema designs could result in poor query performances. While not strictly a part of query optimization, tuning the database design can speed up the query execution time drastically.Changes such as the separation of specific data to different tables (Normalization), combining redundant data (Denormalization), or changing the way how tables are linked (Optimized Join Operations), can be implemented to optimize the schema.Use of SQL Clauses wiselyThe usage of certain SQL clauses can help in query optimization like LIMIT, BETWEEN etc.Example,SELECT column1, column2FROM table_nameWHERE conditionLIMIT 10;System ConfigurationMany database systems allow you to configure system parameters that control its behavior during query execution. For instance, in MySQL, you can set parameters like sort_buffer_size or join_buffer_size to tweak how MySQL would use memory during sorting and joining operations.In PostgreSQL, you can set work_mem to control how much memory is utilized during operations such as sorting and hashing.Always remember the goal of query optimization is to lessen the system resources usage in terms of memory, CPU time, and thus improve the query perform",
+                        "resources": [
+                            {
+                                "name": "SQL Query Optimization Guide",
+                                "link": "https://example.com/sql-query-optimization-guide"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Transactions": {
+                "description": "Transactions in SQL are crucial for maintaining data integrity and handling database errors. They are executed as units of work, ensuring that a series of operations occur in a logical order. This text covers the essential SQL transaction commands: BEGIN TRANSACTION to start a new transaction, COMMIT to save changes to the database, and ROLLBACK to undo uncommitted changes. It also provides a transaction example to illustrate their usage and the importance of successful execution for a transaction to be considered successful.",
+                "resources": [
+                    {
+                        "name": "SQL Transactions Guide",
+                        "link": "https://example.com/sql-transactions-guide"
+                    }
+                ],
+                "order": 12,
+                "options": [
+                    {
+                        "name": "ACID Properties in Relational Databases",
+                        "recommendation-type": "opinion",
+                        "description": "ACID, which stands for Atomicity, Consistency, Isolation, and Durability, represents the four essential properties of relational database systems. These properties ensure reliable and consistent transaction processing. This JSON provides a brief introduction to ACID properties and offers links to external resources for in-depth exploration.",
+                        "resources": [
+                            {
+                                "name": "What is ACID Compliant Database?",
+                                "link": "https://retool.com/blog/whats-an-acid-compliant-database/"
+                            },
+                            {
+                                "name": "What is ACID Compliance?: Atomicity, Consistency, Isolation",
+                                "link": "https://fauna.com/blog/what-is-acid-compliance-atomicity-consistency-isolation"
+                            },
+                            {
+                                "name": "ACID Explained: Atomic, Consistent, Isolated & Durable",
+                                "link": "https://www.youtube.com/watch?v=yaQ5YMWkxq4"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "SAVEPOINT in Relational Databases",
+                        "recommendation-type": "opinion",
+                        "description": "A SAVEPOINT is a feature in relational database management systems that allows the creation of a point within a transaction to which you can rollback in case of failure. It's a valuable tool for maintaining data integrity and handling errors within transactions. This JSON provides an overview of SAVEPOINT with its syntax and usage. Additionally, it offers subscription options for further SQL-related topics.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Understanding the ROLLBACK Command in SQL",
+                        "recommendation-type": "opinion",
+                        "description": "The ROLLBACK command is a crucial element in transaction control language (TCL) that allows the reversal of undesirable changes made during a transaction. This JSON provides insights into the usage of ROLLBACK in SQL, with practical examples and scenarios. Learn how to undo operations, maintain data integrity, and leverage SAVEPOINTs for more granular control within your SQL transactions.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Understanding the SQL COMMIT Command",
+                        "recommendation-type": "opinion",
+                        "description": "The SQL COMMIT command is a crucial element of transaction control language (TCL) that finalizes and permanently saves the changes made within a transaction. Learn how to properly utilize COMMIT to make your database modifications permanent. This JSON provides insights into the syntax of COMMIT, its use cases, and the essential distinction between COMMIT and ROLLBACK in SQL transactions.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Understanding the SQL BEGIN Command",
+                        "recommendation-type": "opinion",
+                        "description": "The SQL BEGIN command marks the initiation of a transaction, a fundamental concept in managing database integrity. This JSON provides insights into the syntax and usage of BEGIN, illustrating its role in ensuring data consistency and explaining its interaction with subsequent SQL statements. Learn how to effectively utilize BEGIN to control transactions in SQL databases.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Understanding SQL Transaction Isolation Levels",
+                        "recommendation-type": "opinion",
+                        "description": "Learn about the four transaction isolation levels in SQL and how they impact data consistency and performance. This JSON provides a concise overview of READ UNCOMMITTED, READ COMMITTED, REPEATABLE READ, and SERIALIZABLE isolation levels, along with the SQL statements to set each level. Understand the trade-offs between consistency and performance when choosing an isolation level for your database transactions.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Data Integrity and Security": {
+                "description": " ",
+                "resources": [],
+                "order": 13,
+                "options": []
+            },
+            "Stored Procedures and Functions": {
+                "name": "Understanding SQL Stored Procedures and Functions",
+                "recommendation-type": "opinion",
+                "description": "Explore the concept of SQL stored procedures and functions. This JSON provides an overview of how stored procedures can be created and called in SQL. It also explains the two types of SQL functions, scalar and table-valued functions, and demonstrates their usage. Learn how to improve code reusability and modularity with stored procedures and functions.",
+                "resources": [],
+                "order": 14,
+                "options": []
+            },
+            "Performance Optimization": {
+                "description": " ",
+                "resources": [],
+                "order": 15,
+                "options": []
+            },
+            "Advanced SQL Concepts": {
+                "description": " ",
+                "resources": [],
+                "order": 16,
+                "options": []
             }
         }
     }
