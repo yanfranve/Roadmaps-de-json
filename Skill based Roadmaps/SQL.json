@@ -803,9 +803,33 @@
                                     "recommendation-type": "opinion",
                                     "description": "Explore the concept of DENSE_RANK(), a versatile SQL window function that provides row rankings without gaps. Learn how DENSE_RANK() differs from RANK() and when to use it. Dive into its syntax, with a practical example that demonstrates how to rank employees by their salaries. Gain insights into the behavior and benefits of this function.",
                                     "resources": []
+                                },
+                                {
+                                    "name": "lead",
+                                    "recommendation-type": "opinion",
+                                    "description": "Dive into the world of SQL's LEAD function, a versatile window function that lets you access data from subsequent rows for calculations. Learn how to use LEAD with its parameters: value_expression, offset, and default_value. Explore its syntax and see a practical example where you compare monthly sales with the sales of the next month. Understand how LEAD handles cases with no subsequent rows in the window frame.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "lag",
+                                    "recommendation-type": "opinion",
+                                    "description": "Discover the power of SQL's LAG function, a valuable window function that allows you to retrieve data from preceding rows without the need for self-joins. Learn how to use LAG with its parameters: expression, offset, and default. Explore its syntax and see a practical example where you compare yearly sales with the sales of the previous year. Understand how LAG handles cases where there is no previous row to fetch data from.",
+                                    "resources": []
                                 }
                             ]
                         }
+                    },
+                    {
+                        "name": "CTEs (Common Table Expressions)",
+                        "recommendation-type": "opinion",
+                        "description": "Explore the power of CTEs (Common Table Expressions) in SQL. Learn how to define temporary result sets within a single query to simplify subqueries and enhance query readability. Discover the basic syntax for creating and using CTEs in your SQL statements. Dive into practical examples, including using CTEs to join and process data efficiently. Delve into the world of recursive CTEs for hierarchical data traversal. Gain mastery over this essential SQL feature.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Dynamic SQL",
+                        "recommendation-type": "opinion",
+                        "description": "Unlock the power of dynamic SQL, a programming method that allows you to build SQL statements on the fly. Explore how dynamic SQL can make your applications more adaptable by creating SQL statements at runtime based on changing conditions and user inputs. Learn about two ways to execute dynamic SQL: the EXECUTE IMMEDIATE statement and the OPEN-FOR, FETCH, CLOSE statements. Dive into code examples that demonstrate the flexibility of dynamic SQL in real-world scenarios. Discover best practices for using dynamic SQL securely, including how to mitigate potential risks like SQL Injection.",
+                        "resources": []
                     }
                 ]
             }
