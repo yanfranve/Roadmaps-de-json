@@ -1,7 +1,7 @@
 {
-    "Skill": {
-        "Design System": {
-            "description": " Learn how to create a design system with this step by step guide",
+    "roles": {
+        "Server Side Game ": {
+            "description": "Roadmap to becoming a Server Side Game Developer in 2023 ",
             "A": {
                 "description": " ",
                 "resources": [],
@@ -69,11 +69,18 @@
                     }}
                 ]
             },
-       
-            "LL": {
+            "L": {
                 "description": " ",
                 "resources": [],
+                "recommendation-type": "opinion",
+                "recommendation-type": "not strict",
+                "recommendation-type": "Pick this or purple",
+                "recommendation-type": "wouidn't",
                 "order": 1,
+                "options": []
+            },
+            "LL": {
+                
                 "options": []
             },
             "M": {
@@ -185,6 +192,6 @@
                     }
                 ]
             }
-        }
-    }
+            }  
+    }   
 }
