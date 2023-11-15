@@ -731,7 +731,172 @@
                 "description": "Multithreading 2 in game development usually refers to an advanced level of understanding, managing, and implementing multithreaded programming. At this stage, developers are expected to manage inter-thread communications and synchronization effectively. This includes mastering the use of mutexes, locks, semaphores, and condition variables. This level extends to the fine-tuning of performance and resolving complex issues such as race conditions, deadlocks, and starvation. Furthermore, it could cover advanced topics like thread-pools and executing modern multithreaded game architectures efficiently and safely. In multithreading 2, developers learn to leverage more concurrent computing power, thus making the server more performant and responsive. ",
                 "resources": [],
                 "order": 15,
-                "options": []
+                "options": [
+                    {
+                        "Task-based": {
+                            "description": "Task-based multithreading refers to a model where tasks are the units of work abstracted from threads. In this model, application logic is divided into smaller tasks, each capable of running independent of the others. The tasks are then executed by a pool of threads, managed by a scheduler. Unlike traditional thread-centric models where each thread performs a specific task, task-based multithreading allows for greater flexibility by decoupling the tasks from the threads and letting the system dynamically assign tasks to idle threads. With task-based multithreading, developers no longer need to manually manage threading details like creation, control, synchronization, and termination, hence enabling more focus on the development of the game logic. ",
+                            "resources": [],
+                            "options": [
+                                {
+                                    "name": "goroutine (Go)",
+                                    "recommendation-type": "opinion",
+                                    "description": "Goroutine is a lightweight thread managed by the Go runtime. They are functions or methods that run concurrently with other functions or methods in the Go programming language. Goroutines are cheaper than threads as they use less memory, and their creation and destruction are more efficient in terms of performance. Unlike threads in other languages, the Go runtime manages the scheduling of Goroutines, taking a lot of the complexities away from the developer. Goroutines are one of the unique features of Go, making it an excellent choice for concurrent programming, especially useful in server-side game development.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Concurrency (Java)",
+                                    "recommendation-type": "opinion",
+                                    "description": "Concurrency is a property of systems that allows multiple tasks to run in an overlapped or simultaneous manner. This is widely used in server side game development where it is common to have multiple players interfacing with the system at the same time. It is essential to keep the system responsive and efficient under high load. Concurrency is often achieved through multithreading or asynchronous programming. Multithreading involves multiple threads of execution within a single program, with each thread running on a separate processor core. Asynchronous programming, on the other hand, achieves concurrency by allowing tasks to progress without waiting for other tasks to complete. This can be particularly useful in situations where tasks involve I/O operations or network requests, which can take a significant amount of time to complete, and would otherwise block the execution of other tasks.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Async-await (C#)",
+                                    "recommendation-type": "opinion",
+                                    "description": "Async/await are extensions of Promises in JavaScript that allow for handling asynchronous code in a more synchronous manner. Using async keyword before a function, means the function returns a Promise. On the other hand, await keyword is used to pause async function execution until a Promise is resolved or rejected, and to resume execution of the async function after fulfillments. Before the await keyword, the Promise resolves to the actual value. Notably, await only works within async function block.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Thread Building Block (C++)",
+                                    "recommendation-type": "opinion",
+                                    "description": "The Thread Building Blocks (TBB) is an open-source C++ library developed by Intel. It is designed to take advantage of multi-core processors by simplifying the process of deploying parallel tasks. Using TBB, you can easily break down your tasks into smaller sub-tasks that can be processed in parallel, improving the speed and efficiency of your game server. TBB encompasses generic parallel algorithms, concurrent containers, a scalable memory allocator, work-stealing task scheduler, and low-level synchronization primitives. However, it’s not a library for threading as POSIX or Win32 threads, rather, it’s a higher-level, task-based parallelism that abstracts platform details and threading mechanism for performance and scalability.",
+                                    "resources": []
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Asynchronous": {
+                            "description": " Asynchronous programming is a programming paradigm where the execution of functions or routines does not wait for the activities within them to complete before moving on to subsequent ones. This allows for tasks to be processed independently, making the most of system resources. When a function contains an operation such as I/O, database access, or network communication, which may take a long time to complete, this function is wrapped into a future or promise and sent for execution. Meanwhile, the core program continues to run. When the wrapped function gets executed, a callback function is used to notify that the computation or I/O is complete. This forms the core of non-blocking or asynchronous execution. It is widely used in server-side programming, game development, and any scenario where I/O latency or user experience is a concern. Notably, it is at the core of Node.js and many modern web frameworks.",
+                            "resources": [],
+                            "options": [
+                                {
+                                    "Proactor": {
+                                        "description": " The Proactor pattern is an event-driven application design pattern used in asynchronous programming, and is a variant of the Reactor Pattern, but with an important distinction in terms of control flow handling. Instead of the application explicitly triggering and managing operations, this responsibility is delegated to the asynchronous operation processor, also known as the proactor. The proactor initiates an asynchronous operation, and once the operation is complete, it determines the appropriate service to dispatch the completion event to. In other words, proactors are responsible for initiating asynchronous operations, while completion handlers are responsible for dictating what happens next, after the operations complete.",
+                                        "resources": [],
+                                        "options": [
+                                            {
+                                                "name": "Registered IO",
+                                                "recommendation-type": "opinion",
+                                                "description": "Registered I/O (RIO) is an advanced Windows technology which is used to increase the performance of network applications. It offers a registered I/O buffer design that is designed for high volume, low latency networking applications. This programming model allows more efficient buffer usage by restricting dynamism and enabling more driver and hardware offloads. RIO’s API can be used with any Winsock supported protocol, although its efficiency is greatest with protocols that can leverage offloads (like TCP and UDP). It requires Windows Server 2012, Windows 8, or newer versions. It should be noted that it requires significant program modifications as well as in-depth understanding of IOCP and how it’s used by Windows networking APIs usually involving complex, low-level programming.",
+                                                "resources": []
+                                            },
+                                            {
+                                                "name": "io_uring",
+                                                "recommendation-type": "opinion",
+                                                "description": "IO_uring is a high-performance I/O interface in the Linux kernel, which was introduced in version 5.1. It provides a scalable and efficient I/O submission and completion model, surpassing the traditional POSIX interfaces. Unlike the older mechanisms like select, poll, and epoll, or IOCP in Windows, IO_uring uses ring buffers that are shared between the application and the kernel. This minimizes the need for system calls, thus enhancing performance. The interface allows for queuing up I/O operations (reads, writes, syncs, and others), as well as submissions of multiple operations at once. Furthermore, IO_uring supports both buffered and direct I/O, and includes support for I/O priorities.",
+                                                "resources": []
+                                            },
+                                            {
+                                                "name": "IOCP",
+                                                "recommendation-type": "opinion",
+                                                "description": "The IOCP, which stands for Input/Output Completion Ports, is a mechanism provided by Microsoft Windows to handle asynchronous I/O operations. It effectively handles the incoming and outgoing operations from the server side utilizing a specific number of threads. Its operation works in a way that whenever an I/O request is initiated, the system will create a packet of information related to the I/O operation, then when the operation completes, it pushes the packet to an IOCP. A pool of threads waits for these operations to complete. As soon as an operation completes, one of the threads from the pool picks up the complete I/O operation from the IOCP and starts processing it. It acts as a multiplexer that routes completed I/O operations to the thread pool, which is an efficient way to handle server-side game development tasks.",
+                                                "resources": []
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Reactor": {
+                                        "description": " The Reactor is a design pattern that deals with synchronous I/O multiplexing. It is a part of the server side game development concept where it mainly handles service requests delivered concurrently to an application by one or more clients. The reactor allows multiple requests to be managed efficiently by the resources of a single thread. It uses an event loop and callbacks to control and manage all the different I/O streams. Often, Reactor is combined with the Proactor pattern to achieve concurrency and efficiency in utilizing system resources. is a design pattern that deals with synchronous I/O multiplexing. It is a part of the server side game development concept where it mainly handles service requests delivered concurrently to an application by one or more clients. The reactor allows multiple requests to be managed efficiently by the resources of a single thread. It uses an event loop and callbacks to control and manage all the different I/O streams. Often, Reactor is combined with the Proactor pattern to achieve concurrency and efficiency in utilizing system resources. ",
+                                        "resources": [],
+                                        "options": [
+                                            {
+                                                "name": "select",
+                                                "recommendation-type": "opinion",
+                                                "description": "Select is an important system call that can handle multiple I/O operations concurrently. It comes in very handy when dealing with server-side programming due to its capacity to handle multiple connections at a time. Select resides in the operating system, awaiting for one or more of the I/O conditions it is monitoring to occur. Its main function is to monitor multiple file descriptors to see if they are ready for reading, writing or if an exceptional condition has occurred. It is ideally used in server-based games where the system has to deal with multiple clients simultaneously. It is quite crucial in applications where the extent of I/O activities is not determinable in advance.",
+                                                "resources": []
+                                            },
+                                            {
+                                                "name": "WSA Poll",
+                                                "recommendation-type": "opinion",
+                                                "description": "WSAPoll is a method utilized in server side game development, specifically within the Windows Sockets 2 (Winsock) API. WSAPoll is designed to determine the status of one or more sockets, allowing the application to monitor multiple sockets in a single function call. Simply put, WSAPoll allows sockets to reside in collections, also known as Pollfd arrays. At runtime, the status of these sockets can be checked without blocking the application’s execution. Therefore, it is commonly used in network applications where multiple sockets need to be monitored simultaneously.",
+                                                "resources": []
+                                            },
+                                            {
+                                                "name": "epoll",
+                                                "recommendation-type": "opinion",
+                                                "description": "epoll is a Linux kernel system call introduced in version 2.5.44 that provides a scalable I/O event notification mechanism. It was designed to replace the less scalable poll and select system calls when handling a large number of file descriptors. epoll uses an event-driven programming approach. Instead of frequently asking the operating system to check every file descriptor, the application tells the operating system what to track and goes to sleep. Then, the operating system wakes up the app when an event occurs on one of the tracked descriptors. This mechanism significantly reduces resource usage and latency, which is critical for server-side game development that involves real-time communication and high-performance needs.",
+                                                "resources": []
+                                            },
+                                            {
+                                                "name": "kqueue",
+                                                "recommendation-type": "opinion",
+                                                "description": "kqueue is a scalable event notification interface introduced in FreeBSD 4.1 and later adopted in NetBSD, OpenBSD, and Mac OS X. It provides a mechanism that allows you to track many kernel events with a single system call. kqueue can detect changes to files and directories, handle signals, process termination, and network I/O. For a server-side game developer, getting notifications about network I/O can be essential, and kqueue provides a means to efficiently do this. However, not all Unix-based and POSIX-compliant operating systems support kqueue, so alternatives such as epoll might be necessary depending on your platform. For instance, kqueue is not natively supported in Linux but is available through certain libraries.",
+                                                "resources": []
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Actor Model": {
+                            "description": " The Actor Model is a conceptual model to deal with concurrent computation. It defines some general rules for how the system’s components should behave and interact with each other. In the Actor Model, each object (actor) has its own private state and communication with other actors is done by exchanging messages. Actors read messages from a personal mailbox and may change their own inner state, create more actors, or send messages to other actors. The Actor Model makes it easier for developers to write concurrent and distributed systems by providing high-level abstractions over low-level threading details.",
+                            "resources": [],
+                            "options": [
+                                {
+                                    "name": "Akka.net (C#)",
+                                    "recommendation-type": "opinion",
+                                    "description": "“Akka.NET” is a toolkit and a runtime for designing concurrent and distributed applications. This technology is directly inspired by the Actor Model concept, implementing its principles to create robust and highly functional server-side applications. Akka.NET allows developers to create systems that are capable of handling millions of messages in a concurrent manner while maintaining high performance. It supports actor-based concurrency, network and cloud distribution, and powerful event sourcing techniques. Building systems with Akka.NET involve not only working with primary actors but also working with different types, including the likes of Persistent actors, FSM (Finite State Machine) actors and more. Please remember, Akka.NET is a part of the broader Akka toolkit, which also includes libraries for Java and Scala.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Akka (Java)",
+                                    "recommendation-type": "opinion",
+                                    "description": "Akka is an open-source toolkit and runtime simplifying the construction of concurrent and distributed applications on the JVM. It implements the Actor Model for handling concurrency, allowing developers to create systems that can handle high volumes of transactions in a distributed environment. Yet, Akka is not only about Actors, it features other tools for building reactive applications, including Event Sourcing, CQRS, Cluster Sharding, and Distributed Data. Written in Scala and providing APIs in both Scala and Java, Akka powers numerous business-critical systems in sectors such as finance, tech, streaming, and others.",
+                                    "resources": []
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Reactive Approach": {
+                            "description": " In the realm of server-side game development, the reactive approach is an important element when dealing with multithreading. This approach is based on the concept of reacting to changes or events happening in the system rather than calling methods or running operations continuously. It incorporates observables, which are objects that represent a stream of data or a series of events, and observers, which are methods that respond to the events or changes in these observables. Reactive programming is based on the observer pattern and is designed to handle asynchronous data calls and events efficiently. This pattern is particularly relevant in situations with a large amount of data, high level of complexity, or stringent real-time requirements. With this approach, it is also simpler to handle concurrency and to write programs that are efficient, clean, and less prone to errors and callback pyramids.",
+                            "resources": [],
+                            "options": [
+                                {
+                                    "name": "OORP",
+                                    "recommendation-type": "opinion",
+                                    "description": "Object-Oriented Reactive Programming (OORP) is a programming paradigm that combines object-oriented programming (OOP) and reactive programming. In OORP, developers design the system in terms of objects that communicate with each other through messages. These messages trigger functions or “reactions” in the receiving objects, hence the term “reactive”. Each object in OORP encapsulates state and behavior, follows inheritance, and promotes data abstraction, similar to traditional OOP. However, OORP operates in a more event-driven manner, responding to external events, changes, or transactions that occur over time or in response to other objects.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "FRP",
+                                    "recommendation-type": "opinion",
+                                    "description": "Functional Reactive Programming (FRP) is an approach to programming that combines functional and reactive concepts, mainly used in front-end and server-side development especially in games. FRP helps to deal with dependent changes, effectively handling ‘time-varying values’. It is the elegant solution to describe systems where the current state depends on the future or the past state in a clear and efficient way. Its major concepts include streams (sequences of events over time), observers (consumers of values from a stream), and observables (producers of values), which are the heart of the FRP system. Through these characteristics, it manages data flows and propagation of change making software logic more readable and easier to understand.",
+                                    "resources": []
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Reactive Model": {
+                            "description": "The Reactive Model is an approach in server-side game development that positions the server as a responder to requests made by the client. In this model, the server is not running its own threads, but simply reacting to incoming requests from clients. It focuses on asynchronous I/O operations, meaning that the system doesn’t stall or wait for data to be written or read. When the client sends a request, the server reacts by performing a specific action, like accepting a network connection or reading data. It is built around the idea of event-driven programming, where logic is coded against events, ideally resulting in highly scalable systems. It’s often used in conjunction with non-blocking I/O models, such as Node.js or other event-driven architectures. ",
+                            "resources": [],
+                            "options": [
+                                {
+                                    "name": "Synchrony",
+                                    "recommendation-type": "opinion",
+                                    "description": "In a reactive paradigm, “synchrony” is a key concept related to data management and interactions among multiple components in a server-side game development context. It refers to the idea that operations or processes are executed ‘in sync’, meaning that the next operation starts strictly after the previous operation has already finished. In a synchronous communication, for instance, the sender can’t start a new communication until the receiver confirmed receiving the last parcel. It’s different from “asynchrony” where various operations can run concurrently, not waiting for previous operations to finish before moving on. Overall, understanding the concepts of synchrony and asynchrony are crucial for making efficient use of resources in server-side game development, and picking the right approach depends on the specific use case and requirements.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Determinism",
+                                    "recommendation-type": "opinion",
+                                    "description": "“Determinism” in the context of server side game development is a principle that highlights predictability and consistency in the system’s output given specific and consistent inputs. It implies that a system will always produce the same outcome if the initial conditions and the sequence of events leading up to the outcome are identical. Determinism is incredibly important and beneficial in multi-player gaming situations like MMORPGs where synchronized and equal gameplay across all user instances is key. This level of predictibility helps in offering a fair play environment to all players and in ease of debugging and replaying certain sequences for the developers.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Update Process",
+                                    "recommendation-type": "opinion",
+                                    "description": "In the reactive model, the client sends requests to the server, which then processes the request and sends back a response. This model is called ‘reactive’ because the server only acts or ‘reacts’ when it receives a request from the client. The “update process” plays a vital role in this model. It’s the server’s responsibility to keep the game world updated and synchronized among all players. This updating process is typically done in a loop that processes all the changes that happen in the game like players’ actions, NPC movements, in-game events or game physics. It updates the game world and informs the players about the changes. Also, if a player makes changes like moving a character or attacking an enemy, it sends this information to the server adding it to the update loop. The frequency of this updating process is often referred to as ‘tick rate’.",
+                                    "resources": []
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "Cloud": {
                 "description": " The cloud refers to servers that are accessed over the Internet, and the software and databases that run on those servers. By using cloud technology, data can be accessed from anywhere via the Internet, rather than from a local server or a personal computer. Cloud services are typically provided by different companies, such as Google, Amazon, and Microsoft. There are three main types of cloud computing: Infrastructure as a Service (IaaS), Platform as a Service (PaaS) and Software as a Service (SaaS). Examples of the cloud in gaming include multiplayer online games, game streaming and digital distribution platforms. The cloud is also used in game development for testing, development, and distribution of games.",
