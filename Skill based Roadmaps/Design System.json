@@ -2,74 +2,256 @@
     "Skill": {
         "Design System": {
             "description": " Learn how to create a design system with this step by step guide",
-            "A": {
-                "description": " ",
-                "resources": [],
+            "Understand Basics": {
+                "description": "A design system is a set of standards to manage design at scale by reducing redundancy while creating a shared language and visual consistency across different pages and channels.",
+                "resources": [
+                    {
+                        "name": "Design Systems 101",
+                        "link": "link_a_recursos_design_systems_101"
+                    },
+                    {
+                        "name": "What is a Design System? Design Systems 101 for Designers",
+                        "link": "link_a_recursos_what_is_design_system"
+                    },
+                    {
+                        "name": "A comprehensive guide to design systems",
+                        "link": "link_a_recursos_comprehensive_guide"
+                    },
+                    {
+                        "name": "Everything you need to know about Design Systems",
+                        "link": "link_a_recursos_everything_you_need_to_know"
+                    }
+                ],
                 "order": 1,
-                "options": []
+                "options": [
+                    {
+                        "name": "What is Design System",
+                        "recommendation-type": "opinion",
+                        "description": "A Design System is the single source of truth which groups all the elements that will allow the teams to design, realize and develop a product.",
+                        "resources": [
+                            {
+                                "name": "Everything you need to know about Design Systems",
+                                "link": "link_a_recursos_everything_you_need_to_know"
+                            },
+                            {
+                                "name": "Design Systems 101",
+                                "link": "link_a_recursos_design_systems_101"
+                            },
+                            {
+                                "name": "A comprehensive guide to design systems",
+                                "link": "link_a_recursos_comprehensive_guide"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Need of design system",
+                        "recommendation-type": "opinion",
+                        "description": "Having a solid design system speeds up your work by making the product team more efficient, and it creates consistency and harmony within the product and brand ecosystem. A strong design system takes the burden off individual designers to think through commonly recurring design problems. With a full library of pre-approved elements, designers can focus on bigger problems like creating seamless, intuitive flows that delight users. That kind of efficiency pays huge dividends over time.",
+                        "resources": [
+                            {
+                                "name": "Design Systems, when and how much?",
+                                "link": "link_a_recursos_design_systems_when_and_how_much"
+                            },
+                            {
+                                "name": "Why You Need a Strong Design System (and How to Build One)",
+                                "link": "link_a_recursos_why_you_need_a_strong_design_system"
+                            },
+                            {
+                                "name": "On Design Systems: Sell The Output, Not The Workflow",
+                                "link": "link_a_recursos_on_design_systems_sell_the_output"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Design System vs Component Library",
+                        "recommendation-type": "opinion",
+                        "description": "A component library is just a collection of visuals i.e. colours, button stylings, fonts, etc. A Design System takes it to the next level by including standards and documentation around the look and usage of each component. The Design System acts as the single-source of truth.",
+                        "resources": [
+                            {
+                                "name": "A Design System: So Much More Than A Component Library",
+                                "link": "link_a_recursos_design_system_so_much_more"
+                            },
+                            {
+                                "name": "Design System vs UI Component Library vs Brand Style Guide",
+                                "link": "link_a_recursos_design_system_vs_ui_component_library"
+                            },
+                            {
+                                "name": "Design Systems vs Pattern Libraries vs Style Guides vs Component Libraries",
+                                "link": "link_a_recursos_design_systems_vs_pattern_libraries"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Atomic Design",
+                        "recommendation-type": "opinion",
+                        "description": "Atomic design (by Brad Frost) is a mental model to help you think of user interfaces as a cohesive whole and a collection of parts at the same time. Through the comparison to atoms, molecules, and organisms, we can think of the design of our UI as a composition of self-containing modules put together.",
+                        "resources": [
+                            {
+                                "name": "Atomic Design Principles & Methodology 101",
+                                "link": "link_a_recursos_atomic_design_principles"
+                            },
+                            {
+                                "name": "Atomic Design Methodology",
+                                "link": "link_a_recursos_atomic_design_methodology"
+                            },
+                            {
+                                "name": "Atomic Design and UI Components: Theory to Practice",
+                                "link": "link_a_recursos_atomic_design_and_ui_components"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stakeholders",
+                        "recommendation-type": "opinion",
+                        "description": "Building an effective design system is not an individual responsibility; you need more than just designers. Here’s a quick list of the disciplines that can be represented in your team to create an effective design system:Designers: to define the visual elements of the systemFrontend Developers: To create modular efficient codeAccessibility Experts: Accessibility experts to ensure your system conforms to standards like WCAGPerformance Experts: who can ensure your system loads quickly on all devicesContent Strategists: who can help the team nail the voice and tone of the systemResearchers: who can help you understand customer needsProduct Managers: to ensure the system is aligning to customer needsLeaders: (VPs and directors) to champion and align the vision throughout the company including up to executive leadership",
+                        "resources": [
+                            {
+                                "name": "Designing the Design System",
+                                "link": "link_a_recursos_designing_the_design_system"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Design System Examples",
+                        "recommendation-type": "opinion",
+                        "description": "Visit the following resources to learn more about Design System examples:",
+                        "resources": [
+                            {
+                                "name": "Material Design (Google)",
+                                "link": "link_a_recursos_material_design"
+                            },
+                            {
+                                "name": "Carbon Design System (IBM)",
+                                "link": "link_a_recursos_carbon_design_system"
+                            },
+                            {
+                                "name": "Atlassian Design System",
+                                "link": "link_a_recursos_atlassian_design_system"
+                            },
+                            {
+                                "name": "Polaris Design System (Shopify)",
+                                "link": "link_a_recursos_polaris_design_system"
+                            },
+                            {
+                                "name": "Gov.uk Design System",
+                                "link": "link_a_recursos_gov_uk_design_system"
+                            },
+                            {
+                                "name": "Collection of Open Source Design Systems",
+                                "link": "link_a_recursos_open_source_design_systems"
+                            }
+                        ]
+                    }
+                ]
             },
             "B": {
                 "description": " ",
                 "resources": [],
-                "order": 1,
+                "order": 2,
                 "options": []
             },
             "C": {
                 "description": " ",
                 "resources": [],
-                "order": 1,
+                "order": 3,
                 "options": []
             },
-            "D": {
-                "description": " ",
+            "Existing Design Analysis": {
+                "description": " First step in creating a design system from an existing design is performing a design analysis and understanding what you will be working with to identify the requirements and prepare a plan. Performing the analysis may consist of:Understanding the Existing Design ProcessPerforming Visual AuditIdentifying Design ElementsIdentify Common ComponentsUnderstanding the A/B Testing and Experimentation NeedsUnderstanding any Locale or regional requirements (such as LTR/RTL).Documenting your findings",
                 "resources": [],
-                "order": 1,
-                "options": []
+                "order": 4,
+                "options": [
+                    {
+                        "name": "Existing Design Process",
+                        "recommendation-type": "opinion",
+                        "description": "To better understand the kind of design system you would like to implement, you need to start by reviewing and analyzing the current approach for design at your company. Find the answers to the following questions:\n\n- What is the design process that your company follows?\n- What are the existing tools that your company uses?\n\nIt’s also recommended to evaluate the level of design maturity of the product teams. This knowledge will help you estimate the time required to introduce the system to your organization.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Visual Audit",
+                        "recommendation-type": "opinion",
+                        "description": "Take screenshots of your current product with the help of your team. You can use any presentation software like Google Slides or print and pin them on foam-core boards. Group the screenshots into categories like buttons, navigation, forms, tables, charts, lists, etc.\n\nNow, review each category to find inconsistencies and note areas for improvement with your team. Use a tool like CSS Stats to see how many unique colors, typefaces you have in your style sheets.",
+                        "resources": []
+                    },
+                    {
+                        "Identify Design Elements": {
+                            "description": "Use the results of visual audit and prepare a comprehensive list of design elements such as Colors, Typography, Sizes, Spaces, Grid, Layouts etc. These elements will be the building blocks of your components. ",
+                            "resources": [],
+                            "options": []
+                        }
+                    },
+                    {
+                        "Identify Components": {
+                            "description": "Components of the application are created using a composition of design elements gathered in the previous step. Identify the list of components required for the application, which could include buttons, dropdowns, carousels, tabs, icons, alerts, toasts etc. Also, make sure to keep track of the different states of these components as well as different variants and actions. ",
+                            "resources": [],
+                            "options": []
+                        }
+                    },
+                    {
+                        "name": "A/B Tests and Experiments",
+                        "recommendation-type": "opinion",
+                        "description": "Understand how the team implements A/B tests and experiments on different screens and if the new design system should accommodate any necessary requirements.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Regional Requirements",
+                        "recommendation-type": "opinion",
+                        "description": "Understand any regional requirements such as LTR or any other UX variations that your design system should accommodate.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Documentation",
+                        "recommendation-type": "opinion",
+                        "description": "Organize and document the results of visual audit, design elements, components with variations, states, patterns found, any existing documentation, current design process, and considerations. This documentation will be shared across the team and act as a guide when building the new design system.",
+                        "resources": []
+                    }
+                ]
             },
             "E": {
                 "description": " ",
                 "resources": [],
-                "order": 1,
+                "order": 5,
                 "options": []
             },
             "F": {
                 "description": " ",
                 "resources": [],
-                "order": 1,
+                "order": 6,
                 "options": []
             },
             "G": {
                 "description": " ",
                 "resources": [],
-                "order": 1,
+                "order": 7,
                 "options": []
             },
             "H": {
                 "description": " ",
                 "resources": [],
-                "order": 1,
+                "order": 8,
                 "options": []
             },
             "I": {
                 "description": " ",
                 "resources": [],
-                "order": 1,
+                "order": 9,
                 "options": []
             },
             "J": {
                 "description": " ",
                 "resources": [],
-                "order": 1,
+                "order": 10,
                 "options": []
             },
             "K": {
                 "options": [
-                    { "K": {
-                        "options": []
-                    }}
+                    {
+                        "K": {
+                            "options": []
+                        }
+                    }
                 ]
             },
-       
             "LL": {
                 "description": " ",
                 "resources": [],
@@ -129,12 +311,12 @@
                 "resources": [],
                 "order": 1,
                 "options": [
-                    { "K": {
-                        "options": []
-                    }}  
-
+                    {
+                        "K": {
+                            "options": []
+                        }
+                    }
                 ]
-                
             },
             "U": {
                 "description": " ",
@@ -155,7 +337,6 @@
                         "name": "",
                         "link": ""
                     }
-                  
                 ],
                 "order": 1,
                 "options": [
@@ -163,9 +344,7 @@
                         "name": "",
                         "recommendation-type": "opinion",
                         "description": ""
-                      
                     },
-                   
                     {
                         "name": "",
                         "recommendation-type": "opinion",

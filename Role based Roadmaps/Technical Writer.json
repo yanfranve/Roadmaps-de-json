@@ -228,9 +228,9 @@
                 "order": 5,
                 "options": [
                     {
-                        "name": "How-to Guides",
+                        "name": "Product Content",
                         "recommendation-type": "opinion",
-                        "description": "“How to Guides” is a type of technical writing that prioritizes instructive, step-by-step information. Typically, these guides are designed to help the reader understand how to perform a specific task or process. They may depend on clear written instructions, accompanied by visuals like diagrams or screenshots. This format ensures in-depth accuracy and demonstrates each phase of the process explicitly. Examples of “how to guides” can range from software user manuals, product assembly instructions, tutorial blog posts, to recipe instructions. These guides thrive on simplicity, targeting a wide audience including both professionals and novices.",
+                        "description": "Product Content is a significant type of technical writing which pertains to any information about a product, usable for consumer guidance. This includes user manuals, installation guides, frequently asked questions (FAQs), product descriptions, and software application interfaces. Product content not only involves detailing how a product works but also providing information about dealing with potential issues. The aim of this type of technical writing is to simplify complex concepts and instructions relevant to the product to help users understand its functionalities as easily as possible. This area of technical writing requires accuracy, clarity, simplicity, and thorough research about the product.",
                         "resources": []
                     },
                     {
@@ -346,12 +346,7 @@
                     {
                         "SEO Keywords": {
                             "description": "“SEO Keywords” are the words and phrases in your web content that allow people to find your site via search engines such as Google. When used effectively, they can dramatically increase the visibility of your content, making it easier for those who are looking for information on your topic to find you. Used in titles, subheadings, meta descriptions, image descriptions, URL structures, and throughout the webinar, these keywords make it evident what the content is about. For maximizing effectivity, the SEO Keyword should align closely with the content topic, be relevant to your target audience, and be phrases that people commonly search for. An important aspect to note is that keyword stuffing, the practice of overloading content with keywords in an unnatural manner, is heavily penalized by search engines. Keywords usage should be strategic and the content should always prioritize providing value to the reader.",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ],
+                            "resources": [],
                             "options": [
                                 {
                                     "name": "Long-Tail Keywords",

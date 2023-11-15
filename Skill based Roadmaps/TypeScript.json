@@ -926,11 +926,11 @@
                 "resources": [
                     {
                         "name": "Advanced Topics",
-                        "link": ""
+                        "link": "https://www.typescriptlang.org/docs/handbook/type-compatibility.html#advanced-topics"
                     },
                     {
                         "name": "Tutorial of Typescript - Advanced Types",
-                        "link": ""
+                        "link": "https://www.youtube.com/playlist?list=PLw5h0DiJ-9PBIgIyd2ZA1CVnJf0BLFJg2"
                     }
                 ],
                 "order": 13,
@@ -996,11 +996,11 @@
                 "resources": [
                     {
                         "name": "Modules",
-                        "link": ""
+                        "link": "https://www.typescriptlang.org/docs/handbook/modules.html#handbook-content"
                     },
                     {
                         "name": "TypeScript - Modules",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=EpOPR03z4Vw"
                     }
                 ],
                 "order": 14,
@@ -1120,31 +1120,31 @@
                         "resources": [
                             {
                                 "name": "zod",
-                                "link": ""
+                                "link": "https://zod.dev/"
                             },
                             {
                                 "name": "ts-morph",
-                                "link": ""
+                                "link": "https://github.com/dsherret/ts-morph"
                             },
                             {
                                 "name": "ts-node",
-                                "link": ""
+                                "link": "https://typestrong.org/ts-node/"
                             },
                             {
                                 "name": "ts-jest",
-                                "link": ""
+                                "link": "https://github.com/kulshekhar/ts-jest"
                             },
                             {
                                 "name": "typesync",
-                                "link": ""
+                                "link": "https://github.com/jeffijoe/typesync"
                             },
                             {
                                 "name": "tsd - TypeScript Definition Manager",
-                                "link": ""
+                                "link": "https://github.com/SamVerschueren/tsd"
                             },
                             {
                                 "name": "type-fest - A collection of essential TypeScript types",
-                                "link": ""
+                                "link": "https://github.com/sindresorhus/type-fest"
                             }
                         ]
                     },
@@ -1186,6 +1186,18 @@
                                 "link": "https://tsdx.io/"
                             }
                         ]
+                    }
+                ]
+            },
+            "Also visit the other relevant roadmaps ": {
+                "resources": [
+                    {
+                        "name": "Frontend roadmaps",
+                        "link": "https://roadmap.sh/frontend"
+                    },
+                    {
+                        "name": "Backend roadmaps",
+                        "link": "https://roadmap.sh/backend"
                     }
                 ]
             }

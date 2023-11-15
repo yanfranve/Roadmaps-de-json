@@ -394,23 +394,13 @@
                         "name": "Nested Subqueries",
                         "recommendation-type": "opinion",
                         "description": "In SQL, a subquery is a query that is nested inside a main query. If a subquery is nested inside another subquery, it is called a nested subquery. They can be used in SELECT, INSERT, UPDATE, or DELETE statements or inside another subquery.\n\nNested subqueries can get complicated quickly, but they are essential for performing complex database tasks.\n\n**Basic Syntax**:\n```sqlSELECT column_name [, column_name ]FROM   table1 [, table2 ]WHERE  column_name OPERATOR(SELECT column_name [, column_name ]FROM table1 [, table2 ][WHERE])```\n\n**How They Work**:\nIn a nested subquery, the inner subquery will run first, and its result will be used to run the outer query.\n\n**Example**:\nHere's an example where we want to find the customer names who made orders above the average order amount.\n```sqlSELECT CustomerName, CountryFROM CustomersWHERE CustomerID IN(SELECT CustomerID FROM OrdersWHERE Amount > (SELECT AVG(Amount) FROM Orders))```\n\nIn the above code:\n- The innermost query calculates the average order amount.\n- The middle subquery finds the CustomerIDs from the Orders table where the order Amount is greater than the average.\n- The outer query then gets the CustomerName from the Customers table where the CustomerID is in the list of CustomerIDs fetched from the middle subquery.\n\nThese are the basic aspects of nested subqueries in SQL. They can go as deep as the task requires, but keep in mind that too many nested subqueries can cause performance issues.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "Correlated Subqueries",
                         "recommendation-type": "opinion",
                         "description": "In SQL, a correlated subquery is a subquery that uses values from the outer query in its WHERE clause. The correlated subquery is evaluated once for each row processed by the outer query. It exists because it depends on the outer query and cannot execute independently of the outer query because the subquery is correlated with the outer query as it uses its column in its WHERE clause.\n\n**Syntax**:\n```sqlSELECT column_name [, column_name...]FROM   table1 [, table2...]WHERE  column_name OPERATOR(SELECT column_name [, column_name...]FROM table_nameWHERE condition [table1.column_name = table2.column_name...]);```\n\n**Code Example**:\nFor instance, if you want to get the employees whose salaries are above their department’s average salaries, it can be queried with a correlated subquery as follows:\n```sqlSELECT e1.employee_name, e1.salaryFROM employee e1WHERE salary > (SELECT AVG(salary)FROM employee e2WHERE e1.department = e2.department);```\n\nIn the example above, the correlated subquery (the inner query) calculates the average salary for each department. The outer query then compares the salary of each employee to the average salary of their respective department. It returns the employees whose salaries are above their department’s average. The correlated subquery is executed once for each row selected by the outer query.\n\nAlso note that e1 and e2 are the aliases of the employee table so that we can use it in both the inner query and outer query. Here, e2.department in the inner query comes from the outer query’s e1.department.\n\nThus, a correlated subquery is a subquery that depends on the outer SQL query for its values. This means that the subquery is run once for every row in the outer query, often resulting in quite a bit of processing and thus slower results.",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     }
                 ]
             },
@@ -530,12 +520,7 @@
                     {
                         "Date and Time": {
                             "description": "In SQL, DATE is a data type that stores the date. It does not store time information. The format of the date is, 'YYYY-MM-DD'. SQL provides several functions to handle and manipulate dates.GETDATE()GETDATE() returns the current date and time as a DateTime datatype. It does not require any arguments.SELECT GETDATE() AS CurrentDateTime;DATEDIFF()DATEDIFF() returns the difference between two date values based on the unit of time you want to use. The syntax is DATEDIFF(datepart, startdate, enddate).SELECT DATEDIFF(day, '2022-01-01', '2022-01-15') AS DiffInDays;DATEADD()DATEADD() adds or subtracts a specified time interval from a date. Its syntax is DATEADD(datepart, number, date).SELECT DATEADD(year, 1, '2022-01-01') AS NewDate;CONVERT()CONVERT() is used to convert from one data type to another, and it is commonly used to format DateTime values. Its syntax is CONVERT(data_type(length), expression, style).SELECT CONVERT(VARCHAR(19), GETDATE()) AS FormattedDateTime;Remember to replace date with your date in above queries.DateTime FormatBy using appropriate format codes, SQL allows us to present dates and times in various formats.SELECT FORMAT(GETDATE(), 'MM/dd/yyyy') AS DateFormatted;Also, by using specific column names instead of GETDATE(), the same patterns can be applied to DateTime values in your data.Note: All dates are stored as numeric values under the hood, with the integer portion representing the date and the decimal portion representing the time. Also, different database systems may use slightly different functions for handling dates and times, so be sure to check the documentation for your specific DBMS.",
-                            "resources": [
-                                {
-                                    "name": "SQL Date Functions",
-                                    "link": "https://example.com/sql-date-functions"
-                                }
-                            ],
+                            "resources": [],
                             "options": [
                                 {
                                     "name": "DATE in SQL",
@@ -574,12 +559,7 @@
             },
             "Views": {
                 "description": "SQL views are virtual tables that do not store data directly. They are essentially a saved SQL query and can pull data from multiple tables or present data from one table in a different way.Creating ViewsYou can create a view using the CREATE VIEW statement. In the following example, a new view named CustomerView is created which contains customer’s ID, name, and address from the Customers table:CREATE VIEW CustomerView ASSELECT CustomerID, Name, AddressFROM Customers;Querying ViewsAfter a view has been created, it can be used in the FROM clause of a SELECT statement, as if it’s an actual table. For instance, to select all from CustomerView:SELECT *FROM CustomerView;Updating ViewsThe CREATE OR REPLACE VIEW statement is used to update a view. Consider the CustomerView we created earlier. If we want to include the customer’s phone, we can update it as follows:CREATE OR REPLACE VIEW CustomerView ASSELECT CustomerID, Name, Address, PhoneFROM Customers;Dropping ViewsTo delete a view, use the DROP VIEW statement:DROP VIEW CustomerView;Keep in mind that not all database systems support the CREATE OR REPLACE VIEW statement. Also, the updatability of a view depends on whether it includes functions, expressions, or multiple tables. Some databases might not let you update a view at all.RestrictionsThere are a few restrictions to bear in mind when working with views. SQL views can’t:Contain a ORDER BY clause in the view definitionBe indexedHave triggers or default valuesEach database may have its own specific limitations and capabilities with using views, so always refer to the official documentation for more information.Note: The above examples use a hypothetical Customers table. Replace this with your actual table name when trying these in your environment.",
-                "resources": [
-                    {
-                        "name": "SQL Views Overview",
-                        "link": "https://example.com/sql-views-overview"
-                    }
-                ],
+                "resources": [],
                 "order": 10,
                 "options": [
                     {
@@ -617,23 +597,13 @@
                         "name": "Query Optimization in SQL",
                         "recommendation-type": "opinion",
                         "description": "Query optimization is a function of SQL that involves tuning and optimizing a SQL statement so that the system executes it in the fastest and most efficient way possible. It includes optimizing the costs of computation, communication, and disk I/O.The primary approaches of query optimization involve the following:Rewriting QueriesThis means changing the original SQL query to an equivalent one which requires fewer system resources. It’s usually done automatically by the database system. SELECT * FROM Customers WHERE state = 'New York' AND city = 'New York';The above query can be rewritten using a subquery for better optimization:SELECT * FROM Customers WHERE state = 'New York' AND city IN (SELECT city FROM Customers WHERE city = 'New York');Choosing the right indexIndexes are used to find rows with specific column values quickly. Without an index, SQL has to begin with the first row and then read through the entire table to find the appropriate rows. The larger the table, the more costly the operation. Choosing a right and efficient index greatly influence on query performance.For example,CREATE INDEX index_nameON table_name (column1, column2, ...);Fine-tuning Database DesignImproper database schema designs could result in poor query performances. While not strictly a part of query optimization, tuning the database design can speed up the query execution time drastically.Changes such as the separation of specific data to different tables (Normalization), combining redundant data (Denormalization), or changing the way how tables are linked (Optimized Join Operations), can be implemented to optimize the schema.Use of SQL Clauses wiselyThe usage of certain SQL clauses can help in query optimization like LIMIT, BETWEEN etc.Example,SELECT column1, column2FROM table_nameWHERE conditionLIMIT 10;System ConfigurationMany database systems allow you to configure system parameters that control its behavior during query execution. For instance, in MySQL, you can set parameters like sort_buffer_size or join_buffer_size to tweak how MySQL would use memory during sorting and joining operations.In PostgreSQL, you can set work_mem to control how much memory is utilized during operations such as sorting and hashing.Always remember the goal of query optimization is to lessen the system resources usage in terms of memory, CPU time, and thus improve the query perform",
-                        "resources": [
-                            {
-                                "name": "SQL Query Optimization Guide",
-                                "link": "https://example.com/sql-query-optimization-guide"
-                            }
-                        ]
+                        "resources": []
                     }
                 ]
             },
             "Transactions": {
                 "description": "Transactions in SQL are crucial for maintaining data integrity and handling database errors. They are executed as units of work, ensuring that a series of operations occur in a logical order. This text covers the essential SQL transaction commands: BEGIN TRANSACTION to start a new transaction, COMMIT to save changes to the database, and ROLLBACK to undo uncommitted changes. It also provides a transaction example to illustrate their usage and the importance of successful execution for a transaction to be considered successful.",
-                "resources": [
-                    {
-                        "name": "SQL Transactions Guide",
-                        "link": "https://example.com/sql-transactions-guide"
-                    }
-                ],
+                "resources": [],
                 "order": 12,
                 "options": [
                     {
@@ -830,6 +800,18 @@
                         "recommendation-type": "opinion",
                         "description": "Unlock the power of dynamic SQL, a programming method that allows you to build SQL statements on the fly. Explore how dynamic SQL can make your applications more adaptable by creating SQL statements at runtime based on changing conditions and user inputs. Learn about two ways to execute dynamic SQL: the EXECUTE IMMEDIATE statement and the OPEN-FOR, FETCH, CLOSE statements. Dive into code examples that demonstrate the flexibility of dynamic SQL in real-world scenarios. Discover best practices for using dynamic SQL securely, including how to mitigate potential risks like SQL Injection.",
                         "resources": []
+                    }
+                ]
+            },
+            "Also visit the other relevant roadmaps ": {
+                "resources": [
+                    {
+                        "name": "Backend roadmaps",
+                        "link": "https://roadmap.sh/backend"
+                    },
+                    {
+                        "name": "PostgreSQL roadmaps",
+                        "link": "https://roadmap.sh/postgresql-dba"
                     }
                 ]
             }
