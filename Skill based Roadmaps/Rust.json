@@ -184,6 +184,54 @@
                                     "resources": []
                                 },
                                 {
+                                    "name": "Vector",
+                                    "recommendation-type": "opinion",
+                                    "description": "A Vector in Rust, often referred to as Vec, is a growable, or dynamically-sized, array-like data structure that can store homogeneous types. It stores elements of the same type in a contiguous block of memory, with the count of elements and capacity managed automatically by Rust. Unlike arrays, vectors do not need to have a predetermined size at compile time, and their size can be increased or decreased at runtime. The Vec<T> holds its data on the heap. It maintains a pointer to the data, a length, and a capacity. The length is the number of elements currently stored in the vector, while the capacity is the total allocation in the memory. The key methods for a Vec<T> include push(), pop(), and len(), among others.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "String",
+                                    "recommendation-type": "opinion",
+                                    "description": "In Rust, String is a growable, mutable, owned, UTF-8 encoded string type. When Rustaceans refer to ‘strings’ in Rust, they usually mean the String and the string slice str types, not just one of those types. Both types are UTF-8 encoded. A String in Rust is similar to a string in other languages but is not null-terminated at the end. Creation of a String can be done from a literal string with String::from('Hello, world!') or by converting a string slice with 'Hello, world!'.to_string(). String concatenations and manipulations are achieved via a multitude of methods such as push_str(), push(), + operator, format!() macro, etc.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "HashMap",
+                                    "recommendation-type": "opinion",
+                                    "description": "The HashMap in Rust is part of the standard library’s collections framework and it’s a generic collection of key-value pairs. It allows for the quick lookup, insertion, and removal of items using hashing. A HashMap<K, V> holds a mapping of keys of type K to values of type V. The keys are unique and when a key gets inserted for the second time with a different value, the new value replaces the old value. Rust’s HashMap uses a cryptographically strong hashing algorithm which can help avoid denial-of-service (DoS) attacks. It is however not ordered, so items may not be in the same order as they were inserted.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "HashSet",
+                                    "recommendation-type": "opinion",
+                                    "description": "HashSet in Rust is a collection of unique elements. It’s a data structure which stores details in the form of key and value, and it uses hashing to store elements. It’s implemented as a hash table, as it makes use of a hasher to make the structure more secure against collision attacks. A HashSet only contains keys, associating the value portion of the map with a dummy unit. The value of HashSet returns an iterator over the elements of the set and these elements are arbitrary and not in any specific order.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "LinkedList",
+                                    "recommendation-type": "opinion",
+                                    "description": "The Linked List in Rust is a sequence of nodes where each node consists of a value and a pointer/reference to the next node in the sequence. Linked Lists are primarily used for implementing higher level data structures such as stacks, queues and associative arrays. Rust’s std::collections provides a LinkedList struct that is a doubly-linked list with O(1) insertion and removal at both the front and back, but with O(n) indexing.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "BinaryHeap",
+                                    "recommendation-type": "opinion",
+                                    "description": "A Binary Heap is a complete binary tree which is either Min Heap or Max Heap. In a Max Binary Heap, the key at root must be maximum among all other keys present in Binary Heap. The same property must be recursively true for all nodes in Binary Tree. Min Binary Heap is similar to Max Binary Heap. But in a Min Binary Heap, the key at root must be minimum among all other keys present in Binary Heap. This property must be recursively true for all nodes in Binary Tree. Binary Heaps have efficient implementations on arrays.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Stack",
+                                    "recommendation-type": "opinion",
+                                    "description": "The Stack is a fundamental data structure in Rust, which is based on the principle of Last-In-First-Out (LIFO). In other words, elements that are added last are the first ones to be removed. This is functionally similar to a real-world stack, such as a stack of plates. One key aspect of stacks in Rust is that they are bounded to a certain size at compile-time. This implies that stack size does not grow or shrink dynamically. In Rust, function calls are operated using stack with each call pushing a new stack frame to the end, and each return statement popping one off. Stack Overflow occurs when too much of the stack is used.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Queue",
+                                    "recommendation-type": "opinion",
+                                    "description": "In Rust, a Queue is another important linear data structure which follows a particular order in which the operations are performed. The order given to the elements follows the FIFO (First In First Out) approach. There are no direct standard library data structures meant solely to act as a Queue in Rust, but we can obtain queue-like behaviors using other provided data structures. More commonly, the VecDeque structure is used as a Queue. It supports constant time element insertion and removal at both ends. The ‘push_back’ and ‘pop_front’ functions essentially form a Queue structure.",
+                                    "resources": []
+                                },
+                                {
                                     "Advanced": {
                                         "options": [
                                             {
