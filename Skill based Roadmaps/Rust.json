@@ -1,0 +1,599 @@
+{
+    "Skill": {
+        "Rust": {
+            "description": "Step by step guide to becoming a Rust developer in 2023 ",
+            "Introduction": {
+                "description": "Rust is a modern system programming language focused on performance, safety, and concurrency. It accomplishes these goals without having a garbage collector, making it a useful language for a number of use cases other languages aren’t good at. Its syntax is similar to C++, but Rust offers better memory safety while maintaining high performance. ",
+                "resources": [],
+                "order": 1,
+                "options": [
+                    {
+                        "name": "What is Rust?",
+                        "recommendation-type": "opinion",
+                        "description": "Rust is a modern system programming language focused on performance, safety, and concurrency. It accomplishes these goals without having a garbage collector, making it a useful language for a number of use cases other languages aren’t good at. Its syntax is similar to C++, but Rust offers better memory safety while maintaining high performance.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Why use Rust?",
+                        "recommendation-type": "opinion",
+                        "description": "Rust is a systems programming language that aims to provide memory safety, concurrency, and performance with a focus on zero cost abstractions. It was originally created by Graydon Hoare at Mozilla Research, with contributions from Brendan Eich, the creator of JavaScript. Rust is appreciated for the solutions it provides to common programming language issues. Its emphasis on safety and speed, the support for concurrent programming, along with a robust type system are just a few reasons why developers choose Rust.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Memory Safety and Zero-Cost Abstractions",
+                        "recommendation-type": "opinion",
+                        "description": "Rust, a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety. It is graced with the feature of “memory safety without garbage collection”, an attribute that makes Rust one of its kind. Memory safety is ensuring that software, while accessing the system’s memory, is not causing any leaks, or dangling pointers. In Rust, memory safety is accomplished through a system of ownership with a set of rules that the compiler checks at compile time. This system eliminates the need of garbage collection or manual memory management, hence ensuring swift execution of software along with a safer memory environment. This memory management feature in Rust even provides concurrent programming guaranteeing thread safety with options for shared and mutable state access that makes it harder to cause thread unsafety.",
+                        "resources": []
+                    },
+                    {
+                        "Environment Setup": {
+                            "options": [
+                                {
+                                    "name": "Installing Rust and Cargo",
+                                    "recommendation-type": "opinion",
+                                    "description": "To install Rust, navigate to the official website at https://www.rust-lang.org and download the appropriate installation file for your operating system. For UNIX systems like Linux and MacOS, installation is as easy as running a single command in the terminal. For Windows, you’ll be provided with a ‘.exe’ installer which you need to execute. Further instructions can be found on the download page of the website. Keep in mind that you’ll also need a linker of your operating system such as ‘gcc’. You can update your Rust version at any time by running rustup update in the terminal.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "IDEs and Rust Toolchains",
+                                    "recommendation-type": "opinion",
+                                    "description": "For the Rust Programming Language, several Integrated Development Environments (IDEs) and editors provide great support. Visual Studio Code is highly preferred among Rust developers due to its support for Rust via the “Rust Language Server” or “rust-analyzer” plugins. IntelliJ-based IDEs also support Rust through their plugin. Additionally, Sublime Text and Atom with respective Rust-enhancement plugins are also used. For a more terminal-centric approach, Vim and Emacs are equipped with Rust modes. These IDEs and editors offer various features like auto-completion, syntax highlighting, and tools for debugging which prove useful for Rust programming.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Rust REPL (Rust Playground)",
+                                    "recommendation-type": "opinion",
+                                    "description": "Rust REPL (Read-Eval-Print-Loop) is an interactive shell in which you can write and test Rust snippets in real-time. Unlike running a program normally in Rust where you have to manually compile and then run the program, in REPL the inputs are automatically evaluated, and the result is returned immediately after execution. This is helpful when experimenting with Rust code, learning the language, and debugging. REPL isn’t built into Rust directly but is available via third-party tools such as evcxr_repl.",
+                                    "resources": []
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "Language Basics": {
+                "description": "The “language basics” of Rust encompass the fundamental elements you’ll need to grasp to get your programming underway. This commences with understanding Rust’s syntax and semantics, followed by grasping variables and data types, which are essential in creating effective code. Rust language basics also incorporate concepts of control flow, such as loops and conditional statements. Lastly, functions are another vital element, providing you the ability to structure your code and reuse segments of it. ",
+                "resources": [],
+                "order": 2,
+                "options": [
+                    {
+                        "Syntax and Semantics": {
+                            "description": "Rust’s syntax aims for readability and avoids visual clutter. It places a great deal of importance on forward compatibility, even when it occasionally hinders feature additions. Most Rust syntax is based on the same basic principles. Understanding a handful of concepts allows a broad understanding of the structure of most Rust programs. Some of these concepts include item declarations and pattern matching. In Rust, you typically declare an item once and then refer to it by its name. Pattern matching is a fundamental and powerful part of Rust’s syntax, allowing you to branch your code based on the structure of data, not just its value or type. ",
+                            "options": []
+                        }
+                    },
+                    {
+                        "Onwnership System": {
+                            "description": "In Rust, the concept of Ownership is a key feature that governs how memory management works. Each value in Rust has its own designated owner and there can be only one owner for a value at a time. When the owner goes out of scope, the value would be automatically dropped. The three main facets of ownership include ownership rules, borrowing and slices. Ownership rules play a key role in system performance and prevention of issues like null or dangling references. Borrowing is a mechanism where we allow something to reference a value without taking ownership. Finally, slices are a data type that does not have ownership and helps in making a reference to a portion of a collection. ",
+                            "options": []
+                        }
+                    },
+                    {
+                        "Constructs": {
+                            "description": " In Rust, “constructs” refer to different elements used to build the structure of the program. This includes variables, functions, data types, control flow statements, and more. Variables store data, and their mutable or immutable status is determined at their declaration. Functions are reusable blocks of code defined by the fn keyword. Data types in Rust are static and must be declared upfront. These include simple ones like integers, boolean, float, etc, and complex types like arrays, tuples etc. Control Flow structures help direct the flow of execution. These include if, else, loop, while, for, and more. Exception handling uses the Result and Option enums along with the match construct. Rust’s constructs like these come together to structure your program in a safe yet efficient manner.",
+                            "options": []
+                        }
+                    },
+                    {
+                        "Data Structures": {
+                            "description": " In Rust, there are different types of data structures for organizing and storing data. Some of the primary types include:Structures (structs): These are custom data types that allow you to combine multiple related values of different types. Structs implement methods and can also maintain private fields. Structs come in three types: classic C-style structs, tuple structs, and unit structs.Tuples: These are a sequence of fixed-size elements of possibly differing types. The elements of a tuple can be accessed using dot notation followed by the index starting from 0.Enums (enumerations): These are data structures that allow you to define a type by enumerating its possible variants. Enum variants can be simple values or complex ones with fields.Arrays and Vectors: These are collections of items with the same type. An array is fixed-sized, while a vector can grow or shrink its size. Arrays and vectors store elements in contiguous memory locations.Hash Maps: A Hash Map keeps track of elements in key-value pairs, similar to a dictionary or a JavaScript object. They are great for quick lookups.The Rust language also provides powerful reference and borrowing mechanism to control memory, data read/write access, and mutation to avoid problems like data races in concurrent scenarios.",
+                            "options": [
+                                {
+                                    "Advanced": {
+                                        "options": []
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "Error Handling": {
+                "description": " Error handling in Rust is achieved primarily through two types of results: the Result<T, E> and Option<T>. The Result<T, E> variant is used for functions that can result in an error. It has two variants, Ok(T) which indicates operation was successful and Err(E) when an error occurred. On the other hand, Option<T> is used for functions that can return a none value but not cause an error. This result type also has two variants, Some(T) indicates that the operation was successful and None specifies absence of a value. Rust’s pattern matching features can be used to handle different types of errors thrown by these results. Furthermore, propagation of errors in Rust can be achieved using the ? operator that returns early if the function fails. It’s important to note that Rust does not have exceptions, thus eliminates the common problems associated with them.",
+                "resources": [],
+                "order": 3,
+                "options": [
+                    {
+                        "name": "Option & Result Enumerations",
+                        "recommendation-type": "opinion",
+                        "description": "Option is an enumeration, also known as an enum, in Rust with two variants: Some(T) and None. It is a flexible and safe alternative to using null values or exceptions for indicating that a value might not be present. If a function may not return a value for all possible input, it should return an Option value. Some(T) variant contains the valid value of type T and None variant indicates the absence of a value. You can perform various operations on Option values, such as method chaining and pattern matching, to effectively handle both states (value present or absent). The Option enum encourages you to consciously deal with the possibility of missing values and helps prevent unforeseen runtime errors.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Propagating Errors and ? Operator",
+                        "recommendation-type": "opinion",
+                        "description": "Propagating errors in Rust is about passing the error information from the function that failed to the function that called it. Using the ? operator is one way to achieve this. This operator can only be used in functions that return Result or Option or another type that implements std::ops::Try. If the value of the Result is Ok, the value inside the Ok will get returned. If the value is Err, the Err will be returned from the whole function. Consequently, the error gets propagated to the calling function.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Custom Error Types and Traits",
+                        "recommendation-type": "opinion",
+                        "description": "In Rust, you can define your own types of errors using the enum construct. This gives you the ability to specify different types of errors that your code can encounter and attach additional information to them. To make your custom error type compatible with the rest of Rust’s error handling machinery, you need to implement two traits: std::fmt::Debug and std::fmt::Display. There is also a third trait, std::error::Error, which can provide backtraces and the ability to have chained errors or causes. Furthermore, the thiserror library provides a convenient way to define custom error types with a simple annotation.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Modules and Crates": {
+                "description": "In Rust, a module is a namespace that contains definitions of functions or types. You can choose to make the definitions visible in other modules or not. This provides a method of encapsulation for your code. On the other hand, a crate is a binary or library. It is the smallest unit of compilation in Rust. A crate can link to other crates, and it is composed of many modules. Therefore, the module system allows for code organization within a crate, and the crate system allows for building and sharing functionality among multiple projects. ",
+                "resources": [],
+                "order": 4,
+                "options": [
+                    {
+                        "name": "Code Organization and Namespacing",
+                        "recommendation-type": "opinion",
+                        "description": "In Rust, the fundamental structure for organizing your code is through using a module system and crates. A module in Rust allows grouping of related function definitions and struct definitions in a named scope. It’s defined using the mod keyword. The modules can also be nested and make code more concise, readable, and manageable. On the other hand, a crate is a binary or a library project in Rust. It’s the largest compilation unit of Rust. It’s a tree of modules that produces a library or executable. The crate root is a source file which the Rust compiler starts from and makes up the root module of your crate (e.g. main.rs or lib.rs).",
+                        "resources": []
+                    },
+                    {
+                        "name": "Dependency Management with Cargo.toml",
+                        "recommendation-type": "opinion",
+                        "description": "Dependency management in Rust is handled by a tool called Cargo. Cargo helps you manage your Rust projects, providing functionalities for building your code, downloading the libraries your project depends on, and building those libraries. These libraries are called crates. A crate is a package of Rust code. In your Cargo.toml, you list your dependencies in a [dependencies] section. You list libraries from crates.io by their name and version number. Cargo understands Semantic Versioning, a standard for writing version numbers.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Publishing to crates.io",
+                        "recommendation-type": "opinion",
+                        "description": "Publishing in Rust involves packaging up your library or executable and making it available for others to use. To publish a crate, you’ll need to create an account on crates.io, the Rust package repository. If you haven’t already, you’ll need to format your project in a specific way, detailing needed information in a Cargo.toml file. Then, use the command cargo publish to upload your crate to the registry. Updates to your crate can be published with the same command, but be mindful that crates.io does not allow you to delete or overwrite an existing version of a crate. Make sure that everything is in order before you publish!",
+                        "resources": []
+                    }
+                ]
+            },
+            "Concurrency and Parallelism": {
+                "description": "Concurrency and parallelism are two terms related to multitasking. In concurrency, tasks have the ability to run in an overlapping manner, which does not necessarily mean they run at the same exact time. It means the start and end times of the tasks intersect. On the other hand, parallelism is the process where several tasks are executed simultaneously. In the context of programming, especially in systems such as Rust, these concepts are exceptionally important. Understanding them is crucial to implementing complex algorithms and systems that benefit from the efficient use of resources, and most importantly, time. ",
+                "resources": [],
+                "order": 5,
+                "options": [
+                    {
+                        "name": "Threads, Channels, and Message Passing",
+                        "recommendation-type": "opinion",
+                        "description": "Threads are the smallest unit of computing that can be scheduled by an operating system. They live in the context of a process, and each thread within a process shares the process’s resources including memory and file handles. In Rust, the std::thread module allows you to have direct control over threads. This model of concurrency is known as 1:1, mapping one operating system thread to one language thread. You can write concurrent programs in Rust using threads in a similar way as most other languages. You start threads with std::thread::spawn and wait for them to finish with join.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Atomic Operations and Memory Barriers",
+                        "recommendation-type": "opinion",
+                        "description": "Atomic operations in Rust are low-level types that support lock-free concurrent programming. These operations are atomic because they complete in a single operation rather than being interruptible. In Rust, atomic types provide primitive shared-memory communication between threads and can also be used for non-blocking data structures and are supported using machine instructions directly. They form the building blocks for other, higher-level concurrency abstractions. It includes a variety of atomic operations such as store, load, swap, fetch_add, compare_and_swap, and more, which are operations performed in a single, uninterrupted step.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Futures and Async/Await Paradigm",
+                        "recommendation-type": "opinion",
+                        "description": "Futures in Rust represent values that might not have been computed yet. They are a way for the program to describe an operation that will be completed at some point in the future, or will complete asynchronously. They are a cornerstone of many async applications in Rust. A Future is an asynchronous computation that can produce a value (Ok-type) or an error (Err-type). The critical idea behind futures is that they can produce their value at some point in time, that “sometime” can be now, in the future, or never.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Traits and Generics": {
+                "description": "Traits generics are a notable feature in Rust that pertain to defining shared behavior across data types. With them, you can specify placeholder types in trait definitions, letting you abstract over a range of possibilities. They’re a means for defining shared behavior — abstracting over functionality that types can have in common. You can apply traits to generics to constrain the types passed to the generic, hence permitting trait methods to be called on those types. You identify a generic parameter’s type by the trait it implements, making it possible to use generic types in the trait methods. In essence, Rust achieves polymorphism through utilizing traits on generics. ",
+                "resources": [],
+                "order": 6,
+                "options": [
+                    {
+                        "name": "Trait Definitions and Implementations",
+                        "recommendation-type": "opinion",
+                        "description": "A trait definition in Rust is a way to define a set of behaviors necessary for a certain type. It is essentially an interface that types can implement. The trait def is created using the trait keyword followed by its name and the set of methods it includes enclosed in curly brackets. These methods are defined under the trait with their signature but without their implementation. Once a trait is defined, it can be implemented for any data type. Note that the type that this trait applies to is represented by the keyword Self. For example, trait GetName { fn get_name(&self) -> String; } defines a trait GetName with a method get_name. This trait can then be implemented for any type that needs the behaviour get_name.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Trait Bounds and Associated Types",
+                        "recommendation-type": "opinion",
+                        "description": "Trait Bounds in Rust is a way of specifying that a generic must satisfy a certain trait. Essentially, a trait bound says something like: “T must support the following behavior”. In other words, they allow you to use generic type parameters in your function definitions to specify that the function can accept any type as a parameter, as long as that type implements a certain trait. For instance, T: Display would constitute a trait bound, requiring the generic T to implement the Display trait. These trait bounds add a level of control and safety over the types that are passed as parameters, opening the possibility for a higher level of abstraction and code reuse.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Advanced Generics and Type-level Programming",
+                        "recommendation-type": "opinion",
+                        "description": "Advanced generics in Rust offer a powerful set of tools for creating reusable and efficient code. The where syntax in generics can be used to specify trait and lifetime bounds, creating a more expressive declaration and avoiding numerous T: Trait inline annotations. Additionally, the <T: ?Sized> syntax allows for using dynamically sized types in generics. Advanced generics also allow for defining methods that apply to a subset of variations of generic types using an associated type. Furthermore, this allows for operator overloading through the use of associated types in traits, enhancing flexibility while retaining strong typing. Another advanced use of generics is ‘higher kinded types’, allowing a type constructor to take another type constructor as a parameter. This is the system Rust uses for handling Option<T>, Result<T, E>, and other similar types.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Lifetimes and Borrow Checker": {
+                "description": "In Rust, the concept of “lifetimes” is associated with borrowed references. A lifetime is a scope for which that reference is valid. The Rust compiler uses lifetimes to ensure those references are always valid. That is, the referenced object will not get destroyed while references to that object exist. When you are explicitly working with lifetimes in Rust, you are usually dealing with functions that accept references. Rust requires you to annotate the lifetimes when a function has one or more arguments of the borrowed reference type. The annotation is done using a set of angle brackets (<>), and inside these brackets, you declare your lifetime parameters, prefixed with an apostrophe (’). The Rust compiler uses these annotations to reason about how those references relate, and whether they are valid or not. ",
+                "resources": [],
+                "order": 7,
+                "options": [
+                    {
+                        "name": "Explicit Lifetime Annotations",
+                        "recommendation-type": "opinion",
+                        "description": "In Rust, lifetimes are explicit and are determined at compile time. An explicit lifetime is one where lifetimes are annotated in function signatures. Explicit lifetimes are very important in situations where multiple references exist and Rust’s compiler cannot make safe and correct assumptions on its own. They’re denoted by a tick mark, followed by a lowercase letter. The most common default names for lifetimes are 'a, 'b, 'c, etc. For example, in a function that borrows two strings, and returns a string, explicit lifetimes are used as: fn longest<'a>(x: &'a str, y: &'a str) -> &'a str. This allows the compiler to ensure that the references used in your function will remain valid for the entire time they’re being used, preventing “dangling references”.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Lifetime Elision Rules",
+                        "recommendation-type": "opinion",
+                        "description": "“Lifetime Elision” in Rust is an implicit annotation of lifetimes where the compiler tries to make an educated guess about the appropriate lifetimes. Rust compiler has a few rules that it applies in case of lifetime elision. Basic rules include that each parameter passed by reference gets its own lifetime and if there’s exactly one input lifetime, that lifetime is assigned to all output lifetime parameters. The rules become more complex when dealing with methods. In these cases, there’s a distinction between “self” and other parameters. With lifetime elision, the Rust compiler eliminates the necessity to specify lifetimes in every situation, producing cleaner and less cluttered code.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Covariant and Contravariant Lifetimes",
+                        "recommendation-type": "opinion",
+                        "description": "In Rust, lifetime, type, and function parameter types can be covariant, invariant, or contravariant. Specifically, covariant describes the relationship between a complex type and a simpler type when the simpler type varies. Covariant occurs when the ordering of types is preserved, i.e., changing a type T to a subtype T’ in a complex type C, changes the complex type to a subtype C<T’>. In simpler terms, if type B is a subtype of type A, then a collection of B is a subtype of a collection of A, providing the collection type is covariant. This applies to &T, *const T, Box<T>, [T], [T; n], and T when they are function return types in Rust.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Macros and Metaprogramming": {
+                "description": "Macros in Rust are a way to define reusable chunks of code. They’re similar to functions in that they can accept input and produce output, but macros have a few key differences and advantages. With macros, you can write code that writes other code, which is known as metaprogramming. In comparison to functions, macros are more flexible and can accept a variety of different inputs. Macros are defined using the macro_rules! keyword and they use a different syntax than regular Rust functions. When you define a macro, you specify the code that should be inserted at compile time. The compiler then replaces all calls to the macro with the expanded macro code. ",
+                "resources": [],
+                "order": 8,
+                "options": [
+                    {
+                        "name": "Declarative Macros with macro_rules!",
+                        "recommendation-type": "opinion",
+                        "description": "Rust supports two types of macros, one of which is known as “declarative macros” (or simply macro_rules!). Declarative macros in Rust allow you to define reusable chunks of code that have some variable parts, without having to write a full function or type out the same code every time. They work a lot like functions, except they operate at the syntax level rather than the semantics. The compiler expands declarative macros at compile-time, in essence, taking the code they define and “pasting” it directly into your source code. They are defined using the macro_rules! keyword, followed by a name and a block of code. The name is used to invoke the macro later in your code, and the block of code is the code that will get inserted every time the macro is used.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Procedural Macros and Custom Derive",
+                        "recommendation-type": "opinion",
+                        "description": "Procedural macros in Rust allow you to define functions, or procedures, that operate on code at compile time. The input to these macros is a stream of tokens from the program text, and the output is a new stream of tokens that replace the macro invocation. They are defined in their own crates with a special crate type. There are three kinds of procedural macros: custom derive, attribute-like macros, and function-like macros. Custom derive macros let you define new behavior for the derive attribute. Attribute-like macros are invoked as item attributes, for example #[foo(…)], and can be applied to any item that accepts attributes. Function-like macros look like function calls, but work with arbitrary tokens as input.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Domain-Specific Languages (DSLs) in Rust",
+                        "recommendation-type": "opinion",
+                        "description": "Domain Specific Languages (DSLs) are programming languages tailored to solve specific problems or tasks in an efficient manner. They are narrower in application than general-purpose languages because they are optimized for a specific domain or task. In Rust, Macros can be used to create DSLs due to their ability to define reusable syntax patterns and to effectively manipulate Rust syntax trees. This ability has led to a variety of domain-specific languages based on Rust macros, with applications ranging from game development to web application programming. Macros essentially allow Rust programmers to extend the language in ways that are tailor-made for their specific project or domain, hence creating domain-specific languages.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Web Development": {
+                "description": " Web Development in Rust is a growing field, given the programming language’s emphasis on safety and performance. In Rust, web development may involve using frameworks like Rocket, Actix or Tide to build web applications. There are also powerful web servers like Hyper that are built in Rust. Building web applications in Rust can involve facilitating client-server communication, handling HTTP requests, building routing systems, and managing databases among the other general tasks associated with web development. The Rust ecosystem provides tools to manage all these tasks and more.",
+                "resources": [],
+                "order": 9,
+                "options": [
+                    {
+                        "name": "Rocket",
+                        "recommendation-type": "opinion",
+                        "description": "“Rocket” is a web framework for the Rust programming language that makes it simple to write fast, secure web applications without sacrificing flexibility, usability, or type safety. It provides a significant amount of functionality out-of-the-box, such as request routing, template rendering, form validation, and more. Rocket’s philosophy revolves around usability and intuitiveness; it emphasizes clear and expressive syntax, detailed error messages, and powerful abstractions. Despite these aids, Rocket doesn’t shield you from the complexities of web programming but instead offers tools and interfaces to make these complexities manageable.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Warp",
+                        "recommendation-type": "opinion",
+                        "description": "Warp is a web server framework for Rust that focuses on composability and safety. It’s built on top of hyper, a low-level HTTP library, but Warp adds a user-friendly layer on top of that, allowing developers to build custom routing logic with ease. Warp’s primary concept is the “Filter”, which can be combined and nested to create complex HTTP servers. Despite this abstraction, it manages to maintain a high level of performance thanks to Rust’s zero-cost abstractions. Another feature of Warp is its capability to handle websockets, streaming bodies, and multipart forms.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Actix",
+                        "recommendation-type": "opinion",
+                        "description": "Actix is a powerful, pragmatic, and extremely fast web framework for Rust. It is based on Actix actor’s framework, built around a small and simple API focused on making the creation of web applications straightforward and efficient. Its capable middleware system allows for highly customizable processing of web requests, making it versatile for a wide range of web development tasks. With support for WebSockets and server-sent events included, integration of real-time communication is quite seamless in Actix. Despite its high-level abstractions and ease of use, Actix does not compromise on performance, delivering some of the fastest processing times among Rust web frameworks.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Yew (Web Framework)",
+                        "recommendation-type": "opinion",
+                        "description": "Yew is a modern Rust framework for building multi-threaded front-end web apps with WebAssembly. It uses a component-based architecture similar to React, allowing developers to build interactive and dynamic user interfaces. Yew leverages Rust's ownership system to provide memory safety without sacrificing performance. The framework's goal is to bring the benefits of Rust – such as zero-cost abstractions and strong typing – to web development, enabling the creation of efficient and reliable web applications.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Axum",
+                        "recommendation-type": "opinion",
+                        "description": "Axum is a web application framework for Rust. Visit the documentation to learn more.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Asynchronous Programming": {
+                "description": " Async programming, short for asynchronous programming, in Rust allows the execution of tasks concurrently instead of sequentially. This means that you don’t have to wait for a function to complete all its tasks before another function starts executing. As Rust is a systems programming language and is quite close to the hardware, async programming can provide efficient usage of resources, especially in IO-heavy applications. To facilitate async programming, async and await were introduced into Rust. async annotifies a function is asynchronous and can return Future, while await is used to pause and resume an async function. To manage tasks efficiently, Rust also provides async runtimes such as Tokio and async-std.",
+                "resources": [],
+                "order": 10,
+                "options": [
+                    {
+                        "name": "Tokio",
+                        "recommendation-type": "opinion",
+                        "description": "Tokio, a Rust framework for developing applications, is used primarily for asynchronous programming that enables you to write asynchronous inputs/output, networking, and other features. Its primary function is to deliver high-performance, reliable, and easy-to-use asynchronous event-driven platform. It is built on the futures library and uses the async/await syntax of Rust for readability purposes. Tokio’s ‘runtime’ provides I/O driver functions, scheduling and timers offering a foundation for asynchronous programming. It is designed to handle a high volume of network connections concurrently, making it ideal for building network applications.",
+                        "resources": []
+                    },
+                    {
+                        "name": "async-std",
+                        "recommendation-type": "opinion",
+                        "description": "async-std is a Rust library that provides an asynchronous version of the standard library. With the goal of being a drop-in replacement for Rust’s standard library, it brings asynchronous programming directly into Rust’s native system library, std. The most essential part inside async-std is an asynchronous runtime which includes IO and task scheduling. It lets you write asynchronous code that looks like synchronous code without having to worry about using future combinators or remembering to check if futures are ready. This significantly simplifies Rust’s asynchronous programming model.",
+                        "resources": []
+                    },
+                    {
+                        "name": "smol",
+                        "recommendation-type": "opinion",
+                        "description": "smol is a small, fast, and modern async runtime for Rust programming language. It is built on top of async-std and tokio. With very few lines of code, it allows users to perform tasks such as creating async functions, waiting on a future, creating a timer, among others. Although it is feature-rich, smol keeps its API minimal and clean, making it the go-to choice for many developers working with Rust. It supports async/await natively and is highly efficient due to its superior scheduling capabilities.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Networking": {
+                "description": "In Rust, the std::net module provides functionality for networking. This includes types that represent IP addresses (Ipv4Addr and Ipv6Addr), a socket address (SocketAddr), and TCP/UDP networking types (TcpStream, TcpListener, UdpSocket). There’s also the TcpStream type for connection-oriented sockets, TcpListener for a TCP socket that’s listening for incoming connections, and UdpSocket for connection-less sockets. Rust’s networking interface is built around BSD sockets with methods that closely follow the system’s system calls. The types in this module encompass low-level network primitives, which can be used to build networking applications. ",
+                "resources": [],
+                "order": 11,
+                "options": [
+                    {
+                        "name": "reqwest",
+                        "recommendation-type": "opinion",
+                        "description": "Reqwest is a Rust library which is designed to make HTTP requests easy and effortless. It offers a mix of convenience methods for both synchronous and asynchronous requests, GET, POST and other HTTP methods. It also supports JSON content and is built on hyper for HTTP and tokio for asynchronous I/O. This means you can take advantage of the powerful asynchronous features of Rust such as Futures and async/await. Furthermore, Reqwest takes care of many tedious aspects of HTTP for you, such as handling cookies and encoding/decoding different formats.",
+                        "resources": []
+                    },
+                    {
+                        "name": "hyper",
+                        "recommendation-type": "opinion",
+                        "description": "Hyper is a fast, safe and concurrent HTTP client and server written in Rust. It uses a non-blocking I/O model for efficient execution, leverages the Tokio platform for event-driven, asynchronous I/O, and includes support for HTTP/2. It has a modular design, allowing you to choose the features you need. Hyper also features a server-side framework for building your own HTTP applications. For security and speed, it comes with native support for HTTP/1 and HTTP/2, and automatically negotiates these protocols. Most importantly, it is designed from the ground up to take advantage of Rust’s memory safety and concurrency features.",
+                        "resources": []
+                    },
+                    {
+                        "name": "quinn",
+                        "recommendation-type": "opinion",
+                        "description": "Quinn is a Rust networking library providing high-level access to the QUIC protocol. It is built on top of the tokio runtime and implements the QUIC transport protocol as specified by the IETF. It provides an async, futures-based API for working with QUIC connections and streams. It is designed to offer high performance with robustness and flexibility, supporting both client and server roles. The QUIC protocol itself is a multiplexed and secure transport protocol positioned as a modern alternative to TCP, offering better performance for many networking applications.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Serialization/Deserialization": {
+                "description": "serialization in Rust refers to the process of converting complex data types into a byte stream for transport over a network, storing in a file, or simply for use in a program. It provides a mechanism to maintain the state of an object by saving and restoring its state. To accomplish this, Rust has two prevalent crates known as serde and bincode. Serde is a robust framework for serializing and deserializing data, and bincode is one example of a serializer/deserializer that Serde can use. With Serde, we can develop efficient, compact, and customizable representations of Rust data structures. ",
+                "resources": [],
+                "order": 12,
+                "options": [
+                    {
+                        "name": "toml-rs",
+                        "recommendation-type": "opinion",
+                        "description": "toml-rs is a library in Rust designed to parse and serialize TOML documents. TOML, which stands for Tom’s Obvious, Minimal Language, is a straightforward and easy-to-read format often used for configuration files. The toml-rs library provides functionalities to convert between TOML documents and Rust structures. It heavily uses Rust’s powerful trait system and type inference, to parse a TOML document into Rust’s static types for further manipulation. Moreover, by making use of the ‘serde’ library, it enables automatic serialization and deserialization between TOML and Rust types.",
+                        "resources": []
+                    },
+                    {
+                        "name": "json-rust",
+                        "recommendation-type": "opinion",
+                        "description": "JSON (JavaScript Object Notation) is a lightweight data-interchange format that is used to store and exchange data. In Rust, you can work with JSON data using the serde and serde_json libraries. The serde library provides a way for high-performance serialization, and serde_json is a serde format for handling JSON data. The library provides mechanisms for converting between Rust data structures and JSON. This includes the ability to parse JSON data from strings or files, serialize Rust data structures to JSON, and manipulate JSON values directly.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Serde",
+                        "recommendation-type": "opinion",
+                        "description": "“Serde” is a framework in Rust that enables the serialization and deserialization of data structures. It provides a way to convert your data structures from Rust into a format that can be stored or sent over the network, and vice versa, in a flexible and straightforward manner. Despite its convenience, Serde avoids compromising on speed, and it is super-efficient. The library supports a variety of data formats, like JSON, Bincode, TOML, YAML, and more. Serde’s design allows you to customize serialization and deserialization in intricate ways if the default behavior doesn’t suit your application’s needs.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Database and ORM": {
+                "description": "ORM stands for Object-Relational Mapping. It’s a programming technique used to convert data between incompatible type systems using object-oriented programming languages. In Rust, the database ORM provides an abstraction for dealing with SQL queries, where you don’t need to write raw SQL queries. Instead, you can create, delete and manipulate database records using Rust’s interface. It transforms data from a relational database model (tables, rows, and columns) into objects that can be used in code. Important database ORMs in Rust include Diesel, sqlx, and others. ",
+                "resources": [],
+                "order": 13,
+                "options": [
+                    {
+                        "name": "rusqlite",
+                        "recommendation-type": "opinion",
+                        "description": "rusqlite is a simple and ergonomic library for interacting with SQLite databases in Rust. It is designed to be uncomplicated and easy to fit into existing Rust software. With rusqlite, you can execute efficient high-level database operations with minimal SQL knowledge or effort. Built around the sqlite3 C library, it offers a comprehensive API for executing queries and retrieving results. rusqlite also integrates seamlessly with the serde crate, allowing for easy, type-safe bidirectional mapping between SQL and Rust data structures.",
+                        "resources": []
+                    },
+                    {
+                        "name": "sqlx",
+                        "recommendation-type": "opinion",
+                        "description": "SQLx is an extensible, async, pure-Rust SQL toolkit and ORM that provides a suite of macros and builders for interacting with databases. It enables you to interact directly with your database without having to write SQL-statements, but with the strong typing of Rust. SQLx supports PostgreSQL, MySQL, SQLite, and MSSQL and is compatible with the tokio and async-std async runtimes. SQLx ensures compile-time checking of your SQL queries, which significantly reduces runtime errors due to malformed SQL.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Diesel",
+                        "recommendation-type": "opinion",
+                        "description": "Diesel is a safe, extensible ORM (Object-Relational Mapping) and query builder for Rust. Diesel is designed to help you move between database schema, SQL queries, and your data in your application with safety and ease. It provides a high-level API and avoids the need to manage database connections manually. It simplifies SQL interfacing, ensuring type safety and connection handling right from the box. Diesel supports PostgreSQL, SQLite, and MySQL databases.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Cryptography": {
+                "description": " Cryptography is a method of storing and transmitting data in a particular form so that only those for whom it is intended can read and process it. This practice is widely used in securing modern communications and protecting data from theft or tampering. It bases itself on the fundamentals of mathematics to transform data into a format that is unreadable without a key. In its simplest form, it involves just two steps: encryption and decryption. Encryption is the process of converting readable data into an unreadable format using an algorithm and a key. Decryption is the reverse of encryption; it turns the unreadable data back into its original form with the use of the matching key.",
+                "resources": [],
+                "order": 14,
+                "options": [
+                    {
+                        "name": "ring",
+                        "recommendation-type": "opinion",
+                        "description": "Ring is a popular cryptography library in Rust providing a safe, fast and easy-to-use platform for handling a broad range of cryptographic operations. The library supports a variety of cryptographic primitives, including RSA, AES, SHA, and many others. Ring is focused on the implementation of TLS protocol and cryptographic algorithm fundamentals, hence it doesn’t include functionalities like parsing or serialization. This library excels in eliminating many common pitfalls of crypto usage by asserting on compile-time and runtime checks. One key feature is its limitation to safe, reviewed cryptographic algorithms, which enables it to help prevent accidental usage of insecure ones.",
+                        "resources": []
+                    },
+                    {
+                        "name": "rust-crypto",
+                        "recommendation-type": "opinion",
+                        "description": "Rust Crypto is a set of cryptographic algorithms implemented in the Rust programming language. Users can utilize these algorithms for encryption, decryption, hashing, and digital signature applications, among others. Notable features in Rust Crypto include ciphers like AES and DES, hash functions like SHA and MD5, and digital signatures such as RSA. It is recognized for its speed and low memory usage, thus making it a suitable option for systems with limited resources.",
+                        "resources": []
+                    },
+                    {
+                        "name": "sodiumoxide",
+                        "recommendation-type": "opinion",
+                        "description": "“Sodiumoxide” is a Rust binding to the networking and cryptography library, libsodium. It is designed to be easy to use and difficult to misuse. Sodiumoxide follows the design of NaCl for simplicity while allowing the performance benefits of libsodium. It provides cryptographic primitives in a safe, high-level, idiomatic Rust wrapper. It attempts to handle all possible errors, eliminating the possibility of a misuse, a significant advantage over using libsodium directly. Overall, sodiumoxide aims to make high-level cryptographic operations accessible without sacrificing safety or performance.",
+                        "resources": []
+                    }
+                ]
+            },
+            "CLI Utilities": {
+                "description": "“CLI Utils” in Rust refers to command-line interface utilities. These are tools or programs that allow users to interact with their computer’s operating system via command lines, as opposed to graphical user interfaces (GUI). A CLI utility operates based on commands given by the user. In Rust, packages like clap and structopt are typically used to build such CLI tools, thanks to their capability to parse command line arguments. They provide methods to define what arguments a program accepts, handle incorrect input, generate help messages, and more - all things that make a CLI utility very useful and efficient. Rust’s efficient memory management and speed make it a popular choice to build fast and reliable CLI utilities. ",
+                "resources": [],
+                "order": 15,
+                "options": [
+                    {
+                        "name": "clap",
+                        "recommendation-type": "opinion",
+                        "description": "clap is a command line argument parser for Rust. It is used for managing and parsing command line arguments and subcommands for your application. clap allows you to set the name, version, author, about info, and other global settings of your application. It also supports auto-generated help messages, custom errors, and is unicode compatible. It is very flexible and highly configurable and allows you to extract the needed values easily with the provided methods.",
+                        "resources": []
+                    },
+                    {
+                        "name": "structopt",
+                        "recommendation-type": "opinion",
+                        "description": "StructOpt is a third-party library in Rust designed to parse command-line arguments by defining a struct. It brings together the capabilities of clap for command-line parsing with Rust’s powerful type system. With StructOpt, you can define a struct for your command-line program where each field represents a flag, switch, option, or positional argument. This allows a highly declarative and expressive means of handling command-line inputs, including automatic help message generation, strongly-typed values, default values, validators, and more.",
+                        "resources": []
+                    },
+                    {
+                        "name": "termion",
+                        "recommendation-type": "opinion",
+                        "description": "Termion is a pure Rust, bindless library for low-level handling, manipulating and reading information about terminals. This provides a full-featured solution for cross-terminal compatibility, allowing for features such as color support, input handling, and other terminal specific features. It’s completely independent and does not require any third-party libraries or bindings in C, C++ or any other language. As such, Termion simplifies the process of writing cross-platform CLI applications or utilities in Rust, while maintaining a lean, zero-dependency codebase.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Game Development": {
+                "description": "“Game development” is the process of designing, programming, and testing a video game. It involves various disciplines such as game design, which covers gameplay and story, arts and animation to ensure aesthetics and appeal, and programming for game interactions and mechanics. Game development can be approached using different tools and languages, and “Rust” has emerged as a powerful option thanks to its performance and safety aspects. It can be used to create both 2D and 3D games, and there are several libraries and frameworks in Rust meant specifically for game development, such as Amethyst and ggez. The process usually involves a game engine where most of the game contents are processed and a renderer where the game’s visual representation is produced. ",
+                "resources": [],
+                "order": 16,
+                "options": [
+                    {
+                        "name": "Bevy",
+                        "recommendation-type": "opinion",
+                        "description": "Bevy is a simple, data-driven game engine built in Rust. It emphasizes high performance with its ECS (Entity Component System) architecture and provides the tools needed to build immersive interactive real-time systems. With modern design principles, Bevy enables developers to create rich interactive systems without complex boilerplate. In addition, Bevy provides flexibility with its modular and extensible structure capable of supporting a wide range of different types of games and multimedia applications. It also allows users to build both 2D and 3D games with support for custom shaders and materials.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Fyrox",
+                        "recommendation-type": "opinion",
+                        "description": "“Fyrox” is a modern, lightweight, highly optimized and fast 3D game engine specifically designed for Rust. Leveraging the safety and concurrency inherent in Rust lang, it offers a high level of performance and reliability in game development. Its lower level of abstraction allows more direct control over the hardware, making it more suitable for performance-critical parts of a game. These aspects combined with a robust feature set, such as support for common 3D formats and advanced lighting and shadowing techniques, make Fyrox an ideal choice for developing games in Rust.",
+                        "resources": []
+                    },
+                    {
+                        "name": "ggez",
+                        "recommendation-type": "opinion",
+                        "description": "ggez is a lightweight game framework for making 2D games using Rust programming language. It provides various facilities to make game development easier, such as drawing graphics, handling user input, manipulating audio, and handling game timing. It is inspired by libraries like Love2D and aims to present an easy and Rusty interface to the underlying Web platform. With ggez, developers can focus more on their game logic without worrying too much about the behind-the-scenes details.",
+                        "resources": []
+                    },
+                    {
+                        "name": "macroquad",
+                        "recommendation-type": "opinion",
+                        "description": "Macroquad is a Rust library that offers a festive and straightforward way to prototype and develop games quickly. It is an ultra-efficient and flexible cross-platform game engine that specializes in 2D game development. Macroquad features a 2D rendering engine driven by the powerful metal-based miniquad, and includes support for inputs, random number generation, coroutine-based async programming, and sound. It is also portable across various platforms such as Windows, MacOS, Linux, WebAssembly, Android, and iOS.",
+                        "resources": []
+                    },
+                    {
+                        "name": "wgpu-rs",
+                        "recommendation-type": "opinion",
+                        "description": "wgpu-rs is a Rust project designed to make graphics programming more accessible for the Rust language. It is a library that allows users to easily interact with the graphic hardware in their system in a safe and comfortable way. The library provides a high-level, idiomatic and convenient abstraction over wgpu-core while still allowing low-level direct control over the underlying API. Through this, it provides a unified way to access graphics and computing functionality across various backends including Vulkan, Metal, DirectX, and browser WebGPU.",
+                        "resources": []
+                    }
+                ]
+            },
+            "GUI Development": {
+                "description": " “GUI Dev” or Graphical User Interface Development is a significant aspect of software development which focuses on creating visually engaging and intuitive user interfaces. It includes designing the layout, look, and feel of an application through elements such as buttons, icons, images, input fields, and other widgets. In Rust, GUI Development can be done using numerous libraries like ‘conrod’, ‘druid’, or ‘iced’. Each of these libraries contains unique ways to deal with user input, event handling, and drawing graphics. Ultimately, good GUI design can lead to an improved user experience by making software easy and enjoyable to interact with.",
+                "resources": [],
+                "order": 17,
+                "options": [
+                    {
+                        "name": "druid",
+                        "recommendation-type": "opinion",
+                        "description": "Druid is an open-source, data-oriented Rust GUI framework. It is focused on giving users a seamless and robust way of creating GUI interfaces in Rust while also providing them with a high level of control. Druid uses a reactive-model similar to React but it has its own distinguishing features, as well. Druid includes features such as flexbox styling, data binding, and event handling. It provides platform-native look-and-feel by utilizing the platform’s own widget. Currently, Druid supports various platforms such as Windows, macOS, Linux, and Redox.",
+                        "resources": []
+                    },
+                    {
+                        "name": "gtk-rs",
+                        "recommendation-type": "opinion",
+                        "description": "gtk-rs is a group of Rust bindings for GTK+ 3 and other related libraries. This means you can write your GUI applications in Rust language with GTK+3, a cross-platform widget toolkit for creating graphical user interfaces. It includes bindings for GObject, Glib, and Cairo among others. Meanwhile, the number of bindings for different GTK libraries and components is continuously increasing. It’s worth noting that gtk-rs projects are a set of open-source libraries dedicated to providing a Rust-friendly interface for GTK libraries (gtk, gdk, gdk-pixbuf, cairo, pango, etc). This allows developers to create software using Rust and GTK simultaneously.",
+                        "resources": []
+                    },
+                    {
+                        "name": "relm",
+                        "recommendation-type": "opinion",
+                        "description": "relm is a declarative, event-driven framework for building GUIs in Rust. It is asynchronous and designed to handle complex user interfaces. relm uses gtk-rs, a wrapper for GTK+3, allowing for the creation of cross-platform GUI applications. Features in relm include Widget identification through name instead of Arc<Mutex<>>, asynchronicity framework using Futures, and seamless communication between widgets through the Model-View-Update architecture. The main focus of relm is to enable the creation of dynamic desktop applications with complex interactions, using the safe concurrency features of Rust.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Embedded and Systems": {
+                "description": " “Embedded” in the world of Rust programming refers to the use of Rust in embedded systems. These are computer systems with a dedicated function within a larger mechanical or electrical system, often with real-time computational constraints. They are used in a wide range of applications from appliances to vehicles to vending machines and all sorts of industrial applications. Rust’s zero-cost abstractions, high-level ergonomics, and low-level control make it an excellent language to use for embedded systems. By using Rust, developers can write extremely low-level code, such as operating system kernels or microcontroller applications.",
+                "resources": [],
+                "order": 18,
+                "options": [
+                    {
+                        "name": "nrf-hal",
+                        "recommendation-type": "opinion",
+                        "description": "nrf-hal is a Rust Language Peripheral Access Crate for the Nordic Semiconductor nRF52 series and nRF91 series. It provides a high-level interface to the features and functionality available on these chips. It abstracts away the specifics of direct register access and allows for more robust and semantic interaction. It includes supports for GPIO, timers, RNG, RTC, TWIM+TWIS (I2C), SPIM+SPIS(SPI), temperature sensor and delay routines. It’s an open-source project under the Apache license which means it’s completely free to use and modify.",
+                        "resources": []
+                    },
+                    {
+                        "name": "rppal",
+                        "recommendation-type": "opinion",
+                        "description": "RPPAL stands for Raspberry Pi Peripheral Access Library. It’s a crate for Raspberry Pi that provides access to the GPIO, I2C, PWM, SPI, and UART peripherals. Developed in Rust, it also includes a comprehensive interrupt handling system, software-based PWM, and I2C/SPI buses. The library supports all models of Raspberry Pi that run a variant of Raspbian/Debian Stretch or newer. While it’s primarily designed for the Raspberry Pi’s official Linux-based Raspbian OS, parts of the library might work with other Linux distributions or operating systems on the Raspberry Pi.",
+                        "resources": []
+                    },
+                    {
+                        "name": "embedded-hal",
+                        "recommendation-type": "opinion",
+                        "description": "“Embedded-hal” or “Embedded Hardware Abstraction Layer” is a notably robust and highly accommodating platform for the Rust embedded systems domain. It essentially allows for the creation of portable embedded drivers by providing generic device traits. These traits enable users to write hardware-agnostic code, which translates to enhanced efficiency and code reuse. By abstracting hardware specifics into a uniform API, “embedded hal” facilitates unified handling of different hardware abilities such as digital I/O, UART, I2C, and SPI communication, among others. This categorically makes it an invaluable tool in the Rust embedded space.",
+                        "resources": []
+                    }
+                ]
+            },
+            "WebAssembly (WASM)": {
+                "description": "“Wasm” or WebAssembly is an open standard binary instruction format. It serves as a compact binary format that aims to execute at near-native speed, providing a performance-efficient compilation target for low-level languages like C, C++, and Rust. Wasm was initially developed for efficient execution in web browsers but is designed to be used in other environments as well. WebAssembly aims to maintain a safe, secure, and platform-independent runtime to perform high-performance applications on the web or on other platforms. ",
+                "resources": [],
+                "order": 19,
+                "options": [
+                    {
+                        "name": "wasm-bindgen",
+                        "recommendation-type": "opinion",
+                        "description": "wasm-bindgen is a library and command line tool designed to facilitate high-level interactions between Rust and JavaScript. It provides a seamless way for the two languages to communicate with each other, permitting the call of JavaScript APIs directly from Rust and vice versa. wasm-bindgen achieves this by generating an interoperability layer that ‘translates’ between the semantics of JavaScript and Rust. It handles differences in memory representations and call semantics for complex data types, such as strings and objects, allowing developers to focus on implementing their applications without worrying about the low-level details.",
+                        "resources": []
+                    },
+                    {
+                        "name": "wasm-pack",
+                        "recommendation-type": "opinion",
+                        "description": "wasm-pack is a command line tool aimed at assembling and packaging Rust crates that target WebAssembly. It helps to bridge the gap between WebAssembly (written in Rust) and JavaScript. It generates necessary files for publishing a package to npm. wasm-pack also helps to make sure your rust code is set up correctly to get compiled to wasm. The tool aims to seamlessly have packages that work out-of-the-box in most JavaScript environments. wasm-pack was designed with a focus on ergonomics, performance, and correctness so as to make a developer’s life easier.",
+                        "resources": []
+                    },
+                    {
+                        "name": "wasmer",
+                        "recommendation-type": "opinion",
+                        "description": "Wasmer is a popular standalone WebAssembly (WASM) runtime that aims to run any WASM file on any platform swiftly. It’s designed to be lightweight and simple to use. The project supports features of WASM like linear memory and tables, while also providing a friendly command line interface (CLI). It ships with a pluggable, modular system that allows for different compiling and runtime strategies. Wasmer can be integrated into different programming languages through its embedding API, which enables calling WASM functions directly as pure functions in the host language.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Testing": {
+                "description": "Testing” in Rust is a crucial part of any programming project. This procedure involves creating specific scenarios to determine whether your code functions as expected. Rust has built-in support for this via the cargo test command which will run your test functions. These test functions are typically marked with the #[test] attribute to signify that they are not regular functions but testing adjuncts. Rust also provides a few macros such as assert!, assert_eq!, and assert_ne! for comparison checks and confirming expected behavior. ",
+                "resources": [],
+                "order": 20,
+                "options": [
+                    {
+                        "name": "Unit and Integration Testing",
+                        "recommendation-type": "opinion",
+                        "description": "In Rust language, the concept of unit integration encompasses writing tests for individual units of your code, typically a function or method, as well as for multiple units that interact with each other. Unit tests are written in the same files as the code and are used to verify the functionality of a single unit of software in isolation. On the other hand, integration tests are stored in an entirely different directory and are meant to test how multiple components or modules of your application work together. They rely on combining units of code and testing the group, identifying issues that may not be visible when units are tested in isolation.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Mocking and Property-based Testing",
+                        "recommendation-type": "opinion",
+                        "description": "In Rust, mocking is a process that lets you create fake functions, objects, or behaviors to test different conditions and scenarios in your code. Rust does not natively support mocking, however, there are external libraries present to help you perform mocking. Some of the popular libraries for mocking in rust are mockall, mockiato, and double. These libraries give you the ability to create mock structures with the same API as your original code and allow you to set predefined responses from functions or validate function calls, thus helping you test your rust code thoroughly.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Debugging": {
+                "description": "“Debugging” is a critical process in software development that involves identifying, isolating, and fixing (or “debugging”) problems or errors in a computer program or software code. In Rust, the Rust compiler plays a big part in this process because of its strictness and propensity for compile-time error checking. Rust also provides various debugging tools such as rust-gdb and rust-lldb. Moreover, the language comes with standard library macros like debug! and println! for tracing and debugging. Additionally, for a thorough debugging experience, there are debugging variables that provide a backtrace of a system’s state, and tests that can help you ensure that your system works as expected. ",
+                "resources": [],
+                "order": 21,
+                "options": [
+                    {
+                        "name": "rust-gdb",
+                        "recommendation-type": "opinion",
+                        "description": "Rust GDB is a powerful tool used for debugging applications written in Rust programming language. It stands for the GNU Project debugger and has a wide range of features that are versatile for dealing with different tasks involved in debugging. With Rust GDB, you can carry out tasks such image inspection, trace execution, modify programs during runtime and break execution during specific conditions. It is usually used from the command line and supported on many Unix-like systems. It communicates directly with the processors and operating systems on a low level, making it a great tool for programmers looking to explore in-depth analysis of their Rust applications.",
+                        "resources": []
+                    },
+                    {
+                        "name": "rust-lldb",
+                        "recommendation-type": "opinion",
+                        "description": "Rust LLDB is a set of modifications made to the LLDB debugger by the Rust developers to enable it to understand Rust-specific data structures and concepts. It allows the developer to drill down into Rust-specific data structures in a meaningful way that the regular LLDB debugger wouldn’t understand. Furthermore, Rust LLDB includes pretty-printers for many common Rust standard library types. It’s worth noting that Rust-enhanced LLDB doesn’t need to be installed separately, it comes bundled with the Rust compiler.",
+                        "resources": []
+                    }
+                ]
+            },
+            "Documenting with rustdoc": {
+                "description": "rustdoc is a tool that comes bundled with Rust by default. It is primarily used to generate documentation for Rust projects. rustdoc takes into consideration both the comments and the source code to produce comprehensive documentation. The resultant documentation can be viewed through a web server or a web browser. The uniqueness of rustdoc lies in its testing feature. It can test the code snippets present in your documentation, ensuring that your examples are accurate and up-to-date. It is the de facto tool for all Rust developers to create and maintain their project documentation. ",
+                "resources": [],
+                "order": 22,
+                "options": []
+            },
+            "Performance and Profiling": {
+                "description": " Perf profiling is a type of software performance analysis tool that helps to identify the performance bottlenecks in a program. It is derived from the Linux perf tool, and is specifically designed for use with Rust programs. Perf profiling works by collecting statistical data about the running system and software, which can then be analyzed to determine where the most time is being spent in your code. This makes it easier to target optimizations effectively, rather than relying on intuition or guesswork.",
+                "resources": [],
+                "order": 22,
+                "options": [
+                    {
+                        "name": "Criterion.rs",
+                        "recommendation-type": "opinion",
+                        "description": "Criterion.rs is a statistics-driven micro-benchmarking library in Rust programming language. It provides you with a reliable way to analyze your code’s performance over time with statistical methods. The library provides you with zero-cost setup. It delivers detailed, actionable feedback to help you understand what caused performance improvements or regressions. Additionally, it provides automatic outlier detection and can compare the performance of several algorithms or different versions of the same algorithm.",
+                        "resources": []
+                    }
+                ]
+            }
+        }
+    }
+}
