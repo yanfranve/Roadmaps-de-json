@@ -59,13 +59,57 @@
                     {
                         "Syntax and Semantics": {
                             "description": "Rust’s syntax aims for readability and avoids visual clutter. It places a great deal of importance on forward compatibility, even when it occasionally hinders feature additions. Most Rust syntax is based on the same basic principles. Understanding a handful of concepts allows a broad understanding of the structure of most Rust programs. Some of these concepts include item declarations and pattern matching. In Rust, you typically declare an item once and then refer to it by its name. Pattern matching is a fundamental and powerful part of Rust’s syntax, allowing you to branch your code based on the structure of data, not just its value or type. ",
-                            "options": []
+                            "options": [
+                                {
+                                    "name": "Pattern Matching and Destructuring",
+                                    "recommendation-type": "opinion",
+                                    "description": "In Rust, pattern matching is a robust tool that allows you to destructure data types and perform conditional checks in a succinct and clear way. The main structures used for pattern matching are match and if let. The match keyword can be used to compare a value against a series of patterns and then execute code based on which pattern matches. Patterns can be made up of literal values, variable names, wildcards, and many other things. The if let allows you to combine if and let into a less verbose way to handle values that match a specific pattern. It’s basically a nice syntax sugar over a match statement.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Functions and Method Syntax",
+                                    "recommendation-type": "opinion",
+                                    "description": "In Rust, functions are declared using the fn keyword. Each function takes a set of input variables with their specified types and may optionally return a type. The body of the function is contained within curly braces {}. Unlike other languages, in Rust you don’t need to end the statement with a semicolon if it’s the last one in a block, making it the implicit return. If we want to return a value, we simply write the expression we want to return. An example of a function in Rust is fn add(one: i32, two: i32) -> i32 { one + two } where one and two are parameters of type i32 and the function returns an integer of type i32.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Control Flow Constructs",
+                                    "recommendation-type": "opinion",
+                                    "description": "In Rust, control flow is managed through various structures like if, else, while, for, and match. The if and else structures are used to execute different blocks of code based on certain conditions. Similar to other languages, while and for are used for looping over a block of code. The while loop repeats a block of code until the condition is false, and the for loop is used to iterate over a collection of values like an array or a range. The match structure is a powerful tool in Rust which can be used for pattern matching. It goes through different cases and executes the block where the match is found.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Variables, Constants, and Data Types",
+                                    "recommendation-type": "opinion",
+                                    "description": "In Rust, variables are declared using the let keyword. They are immutable by default, which means once a value is bound to a variable, it cannot be changed. If you want to make a variable mutable, the mut keyword is used. Variables can also be patterned. By default in Rust, variables are block-scoped. Rust also supports several types of variable attributes.",
+                                    "resources": []
+                                }
+                            ]
                         }
                     },
                     {
                         "Onwnership System": {
                             "description": "In Rust, the concept of Ownership is a key feature that governs how memory management works. Each value in Rust has its own designated owner and there can be only one owner for a value at a time. When the owner goes out of scope, the value would be automatically dropped. The three main facets of ownership include ownership rules, borrowing and slices. Ownership rules play a key role in system performance and prevention of issues like null or dangling references. Borrowing is a mechanism where we allow something to reference a value without taking ownership. Finally, slices are a data type that does not have ownership and helps in making a reference to a portion of a collection. ",
-                            "options": []
+                            "options": [
+                                {
+                                    "name": "Ownership Rules and Memory Safety",
+                                    "recommendation-type": "opinion",
+                                    "description": "In Rust, the concept of ownership is described by three main rules. Firstly, each value in Rust has a variable that is called its owner. Secondly, there can only ever be one owner at a time. This prevents multiple parts of the code from trying to modify the data at once, potentially causing data races and inconsistencies. Lastly, when the owner goes out of scope, the value will be dropped. This ensures that Rust cleans up the allocated memory and other resources once they’re no longer required, thereby avoiding memory leaks.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Borrowing, References, and Slices",
+                                    "recommendation-type": "opinion",
+                                    "description": "In Rust, “borrowing” is a technique that allows you to access the data of a particular value while the owner retains control. There are two types of borrowing: mutable and immutable. Immutable borrowing means an owner can fondly permit several read-only borrows of a value at the same time as long as the value doesn’t change. On the other hand, mutable borrowing allows only a single borrower at a time who can potentially modify the value. This practice is essential in maintaining the concept of ownership without violating any of its rules and avoiding the problem of dangling references.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Deep Dive: Stack vs Heap",
+                                    "recommendation-type": "opinion",
+                                    "description": "In most modern computer systems, memory management is split into two main parts: the stack and the heap. The stack is a section of memory that grows and shrinks automatically as functions are called and return. The data stored on the stack must have a known, fixed size. The heap is a section of memory that is used for data that needs to persist for longer than a single function-call. Data with dynamic size is stored on the heap. Rust, like many languages, has facilities for using these two types of memory, allowing developers fine-tuned control over memory usage.",
+                                    "resources": []
+                                }
+                            ]
                         }
                     },
                     {
