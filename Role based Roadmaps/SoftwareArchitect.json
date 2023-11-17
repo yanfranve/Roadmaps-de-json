@@ -1,417 +1,134 @@
 {
     "roles": {
         "Software Architect": {
-            "Software Architect Basics": {
+            "description": "Step by step guide to becoming a Software Architect in 2023",
+            " Understand the Basics": {
+                "description": "Understand different concepts such as what is software architecture, software architect, different types of architects and so on.",
                 "order": 1,
                 "options": [
                     {
-                        "name": "Learn the basics",
+                        "name": "What is Software Architecture?",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Describes how an application is built including its components, how they interact with each other, environment in which they operate and so on.",
                         "resources": [
                             {
-                                "name": "W3Schools: Learn HTML",
-                                "link": "https://www.w3schools.com/html/html_intro.asp"
+                                "name": "What is Software Architecture in Software Engineering?",
+                                "link": "https://webcache.googleusercontent.com/search?q=cache:ya4xvYaEckQJ:https://www.future-processing.com/blog/what-is-software-architecture-in-software-engineering/&cd=1&hl=es-419&ct=clnk&gl=ar"
                             },
                             {
-                                "name": "MDN Docs: Getting Started with HTML",
-                                "link": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started"
+                                "name": "An Introduction to Software Architecture Patterns",
+                                "link": "https://www.freecodecamp.org/news/an-introduction-to-software-architecture-patterns/"
                             },
                             {
-                                "name": "web.dev: Learn HTML",
-                                "link": "https://web.dev/learn/html"
-                            },
-                            {
-                                "name": "HTML Full Course - Build a Website Tutorial",
-                                "link": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
-                            },
-                            {
-                                "name": "HTML Tutorial for Beginners: HTML Crash Course",
-                                "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
-                            },
-                            {
-                                "name": "HTML Cheatsheet",
-                                "link": "https://htmlcheatsheet.com/"
-                            },
-                            {
-                                "name": "Scaler: HTML",
-                                "link": "https://www.scaler.com/topics/html"
+                                "name": "Software Architecture: It might not be what you think it is",
+                                "link": "https://www.infoq.com/articles/what-software-architecture/"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "What is Software Architect?",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "An expert developer who designs software solutions from the ground up, making high-level decisions about each stage of the process including technical standards, tools, design principles, platforms to be used, etc., leading a team of engineers to create the final product.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "12 Skills a Software Architect Needs",
+                                "link": "https://www.redhat.com/architect/what-is-software-architect"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Levels of Architecture",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Architecture can be done on several “levels” of abstractions. The level influences the importance of necessary skills. As there are many categorizations possible my favorite segmentation includes these 3 levels:Application Level: The lowest level of architecture. Focus on one single application. Very detailed, low level design. Communication is usually within one development team.Solution Level: The mid-level of architecture. Focus on one or more applications which fulfill a business need (business solution). Some high, but mainly low-level design. Communication is between multiple development teams.Enterprise Level: The highest level of architecture. Focus on multiple solutions. High level, abstract design, which needs to be detailed out by solution or application architects. Communication is across the organization.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Application Level Architecture",
+                                "recommendation-type": "opinion",
+                                "description": "The lowest level of architecture. Focus on one single application. Very detailed, low level design. Communication is usually within one development team.",
+                                "resources": []
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Solution Level Architecture",
+                                "recommendation-type": "opinion",
+                                "description": "The mid-level of architecture. Focus on one or more applications which fulfill a business need (business solution). Some high, but mainly low-level design. Communication is between multiple development teams.",
+                                "resources": []
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Enterprise Level Architecture",
+                                "recommendation-type": "opinion",
+                                "description": "The highest level of architecture. Focus on multiple solutions. High level, abstract design, which needs to be detailed out by solution or application architects. Communication is across the organization.",
+                                "resources": [
+                                    {
+                                        "name": "Enterprise Software Architecture",
+                                        "link": "https://medium.com/@hsienwei/enterprise-software-architecture-957288829daa"
+                                    },
+                                    {
+                                        "name": "Enterprise Architect vs Software Architect",
+                                        "link": "https://www.linkedin.com/pulse/enterprise-architect-vs-software-who-you-luigi-saggese/"
+                                    }
+                                ]
                             }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        ],
+                        "options": []
                     }
-
                 ]
             },
             "Responsibilities": {
                 "order": 2,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Tech decisions",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "To understand the necessary skills an architect needs, we first need to understand typical activities. The following list contains from my perspective the most important activities:Define and decide development technology and platformDefine development standards, e.g., coding standards, tools, review processes, test approach, etc.Support identifying and understanding business requirementsDesign systems and take decisions based on requirementsDocument and communicate architectural definitions, design and decisionsCheck and review architecture and code, e.g., check if defined patterns and coding standards are implemented properlyCollaborate with other architects and stakeholdersCoach and consult developersMake sure that as implementation takes place, the architecture is being adhered toPlay a key part in reviewing codeDetail out and refine higher level design into lower level designNote: Architecture is a continuous activity, especially when it is applied in agile software development. Therefore, these activities are done over and over again.",
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "Design & Architecture decisions",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "To understand the necessary skills an architect needs, we first need to understand typical activities. The following list contains from my perspective the most important activities:Define and decide development technology and platformDefine development standards, e.g., coding standards, tools, review processes, test approach, etc.Support identifying and understanding business requirementsDesign systems and take decisions based on requirementsDocument and communicate architectural definitions, design and decisionsCheck and review architecture and code, e.g., check if defined patterns and coding standards are implemented properlyCollaborate with other architects and stakeholdersCoach and consult developersMake sure that as implementation takes place, the architecture is being adhered toPlay a key part in reviewing codeDetail out and refine higher level design into lower level designNote: Architecture is a continuous activity, especially when it is applied in agile software development. Therefore, these activities are done over and over again.",
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "Requirements Elicitation",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "To understand the necessary skills an architect needs, we first need to understand typical activities. The following list contains from my perspective the most important activities:Define and decide development technology and platformDefine development standards, e.g., coding standards, tools, review processes, test approach, etc.Support identifying and understanding business requirementsDesign systems and take decisions based on requirementsDocument and communicate architectural definitions, design and decisionsCheck and review architecture and code, e.g., check if defined patterns and coding standards are implemented properlyCollaborate with other architects and stakeholdersCoach and consult developersMake sure that as implementation takes place, the architecture is being adhered toPlay a key part in reviewing codeDetail out and refine higher level design into lower level designNote: Architecture is a continuous activity, especially when it is applied in agile software development. Therefore, these activities are done over and over again.",
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "Documentation",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "To understand the necessary skills an architect needs, we first need to understand typical activities. The following list contains from my perspective the most important activities:Define and decide development technology and platformDefine development standards, e.g., coding standards, tools, review processes, test approach, etc.Support identifying and understanding business requirementsDesign systems and take decisions based on requirementsDocument and communicate architectural definitions, design and decisionsCheck and review architecture and code, e.g., check if defined patterns and coding standards are implemented properlyCollaborate with other architects and stakeholdersCoach and consult developersMake sure that as implementation takes place, the architecture is being adhered toPlay a key part in reviewing codeDetail out and refine higher level design into lower level designNote: Architecture is a continuous activity, especially when it is applied in agile software development. Therefore, these activities are done over and over again.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Enforcing standards",
+                        "recommendation-type": "opinion",
+                        "description": "To understand the necessary skills an architect needs, we first need to understand typical activities. The following list contains from my perspective the most important activities:Define and decide development technology and platformDefine development standards, e.g., coding standards, tools, review processes, test approach, etc.Support identifying and understanding business requirementsDesign systems and take decisions based on requirementsDocument and communicate architectural definitions, design and decisionsCheck and review architecture and code, e.g., check if defined patterns and coding standards are implemented properlyCollaborate with other architects and stakeholdersCoach and consult developersMake sure that as implementation takes place, the architecture is being adhered toPlay a key part in reviewing codeDetail out and refine higher level design into lower level designNote: Architecture is a continuous activity, especially when it is applied in agile software development. Therefore, these activities are done over and over again.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Collaborate with Others",
+                        "recommendation-type": "opinion",
+                        "description": "To understand the necessary skills an architect needs, we first need to understand typical activities. The following list contains from my perspective the most important activities:Define and decide development technology and platformDefine development standards, e.g., coding standards, tools, review processes, test approach, etc.Support identifying and understanding business requirementsDesign systems and take decisions based on requirementsDocument and communicate architectural definitions, design and decisionsCheck and review architecture and code, e.g., check if defined patterns and coding standards are implemented properlyCollaborate with other architects and stakeholdersCoach and consult developersMake sure that as implementation takes place, the architecture is being adhered toPlay a key part in reviewing codeDetail out and refine higher level design into lower level designNote: Architecture is a continuous activity, especially when it is applied in agile software development. Therefore, these activities are done over and over again.",
+                        "resources": []
+                    },
+                    {
+                        "name": "Consult & Coach Developers",
+                        "recommendation-type": "opinion",
+                        "description": "To understand the necessary skills an architect needs, we first need to understand typical activities. The following list contains from my perspective the most important activities:Define and decide development technology and platformDefine development standards, e.g., coding standards, tools, review processes, test approach, etc.Support identifying and understanding business requirementsDesign systems and take decisions based on requirementsDocument and communicate architectural definitions, design and decisionsCheck and review architecture and code, e.g., check if defined patterns and coding standards are implemented properlyCollaborate with other architects and stakeholdersCoach and consult developersMake sure that as implementation takes place, the architecture is being adhered toPlay a key part in reviewing codeDetail out and refine higher level design into lower level designNote: Architecture is a continuous activity, especially when it is applied in agile software development. Therefore, these activities are done over and over again.",
+                        "resources": []
                     }
                 ]
             },
-            "Important Skills to Learn": {
+            "Important Skills to Learn ": {
+                "description": "To support the laid-out activities specific skills are required. From my experience, read books and discussions we can boil this down to these ten skills every software architect should have:DesignDecideSimplifyCodeDocumentCommunicateEstimateBalanceConsultMarke",
                 "order": 3,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Documentation",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "Architectural documentation is sometimes more and sometimes less important. Important documents are for example architectural decisions or code guidelines. Initial documentation is often required before coding starts and need to be refined continuously. Other documentation can be automatically generated as code can also be documentation, e.g. UML class diagrams.Clean Code: Code is the best documentation if done right. A good architect should be capable to distinguish between good and bad code. A really great resource to learn more about good and bad code is the book “Clean Code” by Robert C. Martin.Generate documentation where possible: Systems are changing quickly and it is hard to update the documentation. Whether it is about APIs or system landscapes in form of CMDBs (Configuration management database): The underlying information often changes too fast to keep the corresponding documentation up to date by hand. Example: For APIs you could auto generate documentation based on the definition file if you are model driven, or directly from the source code. A lot of tools exist for that, I think Swagger and RAML are a good starting point to learn more.As much as necessary, as little as possible: Whatever you need to document, e.g., decision papers, try to focus on only one thing at a time and include only the necessary information for this one thing. Extensive documentation is hard to read and to understand. Additional information should be stored in the appendix. Especially for decision papers it is more important to tell a convincing story instead of just throwing tons of arguments. Further, this saves you and your co-workers, who have to read it, a lot of time. Have a look at some documentation you have done in the past (source code, models, decision papers, etc.) and ask yourself the following questions: “Are all necessary information included to understand it?”, “Which information are really required and which could be omitted?” and “Does the documentation has a red line?”.Learn more about architecture frameworks: This point could be applied to all other “technical” points as well. I put it here, as frameworks like TOGAF or Zachmann are providing “tools” which feel heavy on the documentation side, although their added value is not limited to documentation. Getting certified in such a framework teaches you to tackle architecture more systematically.",
+                        "resources": []
                     },
                     {
                         "name": "",
@@ -545,353 +262,212 @@
                 ]
             },
             "Technical Skills": {
+                "description": "Experience in software developmentExperience in project managementKnowledge of one or more programming languages, such as Java, Python, JavaScript, Ruby, Rust, and CKnowledge of different development platformsUnderstanding of web applications, cybersecurity, and open source technologiesProficiency in analyzing code for issues and errorsExperience in database platformsExperience with Operations and DevOps Skills",
+                "resources": [],
                 "order": 4,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
+                "options": []
             },
             "Programming Languages": {
                 "order": 5,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Java/Kotlin/Scala",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Visit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
+                                "name": "Visit Dedicated Java Roadmap",
+                                "link": "https://roadmap.sh/java"
+                            },
+                            {
+                                "name": "Java Basics",
+                                "link": "https://www.w3schools.com/java/"
+                            },
+                            {
+                                "name": "Kotlin Docs",
+                                "link": "https://blog.teamtreehouse.com/absolute-beginners-guide-kotlin"
+                            },
+                            {
+                                "name": "Scala Tutorial",
+                                "link": "https://docs.scala-lang.org/tour/basics.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Python",
+                        "recommendation-type": "opinion",
+                        "description": "Python is a multi-paradigm language. Being an interpreted language, code is executed as soon as it is written and the Python syntax allows for writing code in functional, procedural or object-oriented programmatic ways. Python is frequently recommended as the first language new coders should learn, because of its focus on readability, consistency, and ease of use. This comes with some downsides, as the language is not especially performant in most production tasks.",
+                        "resources": [
+                            {
+                                "name": "Dedicated Python Roadmap",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "Python Website",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "Python Getting Started",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "Automate the Boring Stuff",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "W3Schools - Python Tutorial",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "Python Crash Course",
                                 "link": ""
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
+                                "name": "Codecademy - Learn Python 3",
                                 "link": ""
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Ruby",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Ruby is a high-level, interpreted programming language that blends Perl, Smalltalk, Eiffel, Ada, and Lisp. Ruby focuses on simplicity and productivity along with a syntax that reads and writes naturally. Ruby supports procedural, object-oriented and functional programming and is dynamically typed.",
                         "resources": [
                             {
-                                "name": "",
+                                "name": "Ruby Website",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "Learn Ruby in 20 minutes",
                                 "link": ""
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
+                                "name": "Learn Ruby | Codecademy",
                                 "link": ""
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Go",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Go is an open source programming language supported by Google. Go can be used to write cloud services, CLI tools, used for API development, and much more.",
                         "resources": [
                             {
-                                "name": "",
+                                "name": "Dedicated Go Roadmap",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "A Tour of Go – Go Basics",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "Go Reference Documentation",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "Learn Go | Boot.dev",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "Go by Example - annotated example programs",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "Learn Go | Codecademy",
                                 "link": ""
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
+                                "name": "W3Schools Go Tutorial",
                                 "link": ""
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "JavaScript",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "JavaScript allows you to add interactivity to your pages. Apart from being used on the frontend in browsers, there is Node.js which is an open-source, cross-platform, back-end JavaScript runtime environment.",
                         "resources": [
                             {
-                                "name": "",
+                                "name": "Dedicated JavaScript Roadmap",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "W3Schools - JavaScript Tutorial",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "The Modern JavaScript Tutorial",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "Codecademy - Learn JavaScript",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "JavaScript Crash Course for Beginners",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "Node.js Crash Course",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "Node.js Tutorial for Beginners",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "Official Website",
                                 "link": ""
                             },
                             {
-                                "name": "",
+                                "name": "Official Docs for Deep Dives",
+                                "link": ""
+                            },
+                            {
+                                "name": "The TypeScript Handbook",
+                                "link": ""
+                            },
+                            {
+                                "name": "TypeScript Tutorial",
+                                "link": ""
+                            },
+                            {
+                                "name": "Scrimba — TypeScript Basics",
+                                "link": ""
+                            },
+                            {
+                                "name": "TypeScript for Beginners",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": ".NET Framework",
+                        "recommendation-type": "opinion",
+                        "description": ".NET is an open-source platform with tools and libraries for building web, mobile, desktop, games, IoT, cloud, and microservices. Officially supported languages in .NET: C#, F#, Visual Basic.",
+                        "resources": [
+                            {
+                                "name": ".NET Website",
+                                "link": ""
+                            },
+                            {
+                                "name": "What is .NET?",
+                                "link": ""
+                            },
+                            {
+                                "name": "Why Choose .NET?",
+                                "link": ""
+                            },
+                            {
+                                "name": "C# Documentation",
+                                "link": ""
+                            },
+                            {
+                                "name": "F# Documentation",
+                                "link": ""
+                            },
+                            {
+                                "name": "Visual Basic Documentation",
                                 "link": ""
                             }
                         ]
@@ -1079,174 +655,98 @@
                 "order": 7,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Atlassian tools",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "The Jira platform is, at its core, our workflow engine that allows you to track issues or tasks through a predefined and customizable workflow. These tasks can be organized by project, allowing for the entirety of your organization to track their issues at a project level with complete transparency using granular user permissions.Jira Service DeskJira Service Desk is for teams who receive incoming issues/requests from other teams/customers. Jira Service Desk is designed specifically for end-users to submit tickets to a help desk team.Jira CoreJira Core takes this workflow engine and caters it for business teams to develop organized, easy to use, task-oriented projects. Whether the tasks are a simple to-do list or a robust 7 step workflow with complex transitions, Jira Core is built to accommodate all of your requirements. Jira Core is an excellent solution for business teams, legal teams, HR teams, non-technical teams, marketing teams, financial teams, operation teams, and more.ConfluenceConfluence is a collaboration wiki used to help teams collaborate and share knowledge efficiently. It acts as your document collaboration and repository as it keeps full tracking of what changed in each document, when, and by whom to keep an ‘audit’ trail. Team members can create, share, and collaborate on content.BitbucketBitbucket Server is the on-premises Git repository management solution for enterprise teams. It allows everyone in your organization to easily collaborate on your Git repositories.StatuspageStatuspage helps teams inform customers and end-users about outages and scheduled maintenance. Statuspage is the communication piece of your incident management process. Keep users in the loop from ‘investigating’ through ‘resolved’.OpsgenieOpsgenie is a modern incident management solution for operating always-on services that enable dev and ops teams to stay aware and in control of alerts and incidents.Advanced Roadmaps for JiraAdvanced Roadmaps is a Jira Software Cloud Premium feature that’s designed to help multiple teams collaborate together, track the big picture, identify dependencies across large pieces of work, and plan for team capacity.Advanced Roadmaps is available as a standalone app for Jira Software Server and Data Center.Jira AlignJira Align is an Enterprise Agile Planning platform that helps improve visibility, strategic alignment, and enterprise adaptability in order to accelerate your digital transformation",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Jira Service Desk",
+                                "link": "https://www.atlassian.com/software/jira/service-management/features/service-desk"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Jira Core",
+                                "link": "https://www.atlassian.com/software/jira/work-management"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Confluence",
+                                "link": "https://roadmap.sh/software-architect#:~:text=Jira%20Core-,Confluence,-Bitbucket"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Bitbucket",
+                                "link": "https://bitbucket.org/product/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Statuspage",
+                                "link": "https://roadmap.sh/software-architect#:~:text=Bitbucket-,Statuspage,-Opsgenie"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Opsgenie",
+                                "link": "https://www.atlassian.com/software/opsgenie"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Advanced Roadmaps for Jira",
+                                "link": "https://roadmap.sh/software-architect#:~:text=Opsgenie-,Advanced%20Roadmaps%20for%20Jira,-Jira%20Align"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Jira Align",
+                                "link": "https://roadmap.sh/software-architect#:~:text=Roadmaps%20for%20Jira-,Jira%20Align,-Web%2C%20Mobile"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Trello",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Trello is the visual tool that empowers your team to manage any type of project, workflow, or task tracking.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Trello",
+                                "link": "https://trello.com/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "A Tour Of Trello",
+                                "link": "https://www.youtube.com/watch?v=AyfupeWS0yY"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Trello Guide",
+                                "link": "https://trello.com/guide"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Slack",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Slack is a messaging app for business that connects people to the information that they need. By bringing people together to work as one unified team, Slack transforms the way that organisations communicate.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Slack",
+                                "link": "https://slack.com/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "What is Slack?",
+                                "link": "https://www.youtube.com/watch?v=q19RtuCHt1Q"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Getting Started",
+                                "link": "https://slack.com/intl/en-in/help/categories/360000049043"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Git",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Git & GitHub Crash Course For Beginners",
+                                "link": "https://www.youtube.com/watch?v=SWYqp7iY_Tc"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Learn Git with Tutorials, News and Tips - Atlassian",
+                                "link": "https://www.atlassian.com/git"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Git Cheat Sheet",
+                                "link": "https://cs.fyi/guide/git-cheatsheet"
                             }
                         ]
                     }
@@ -1256,174 +756,83 @@
                 "order": 8,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Serverless",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Serverless architecture (also known as serverless computing or function as a service, FaaS) is a software design pattern where applications are hosted by a third-party service, eliminating the need for server software and hardware management by the developer. Applications are broken up into individual functions that can be invoked and scaled individually.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Serverless Architectures By AWS",
+                                "link": "https://aws.amazon.com/lambda/serverless-architectures-learn-more/"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Serverless in Detail",
+                                "link": "https://martinfowler.com/articles/serverless.html"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Microservices",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Microservices are an architectural approach to software development that allows the creation of a distributed application from deployable services that allow communication through a well-defined API. Being a solution to monoliths.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Introduction to microservices",
+                                "link": "https://developer.ibm.com/learningpaths/get-started-application-modernization/intro-microservices/introduction/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Microservice Patterns and Resources by Chris Richardson",
+                                "link": "https://microservices.io/index.html"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Microservices AntiPatterns and Pitfalls - Mark Richards",
+                                "link": "https://www.oreilly.com/content/microservices-antipatterns-and-pitfalls/"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Building Microservices, 2nd Edition - Sam Newman",
+                                "link": "https://samnewman.io/books/building_microservices_2nd_edition/"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Client-Server Architecture",
                         "recommendation-type": "opinion",
                         "description": "",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "What is Client-Server Architecture",
+                                "link": "https://www.simplilearn.com/what-is-client-server-architecture-article"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Layered Architecture",
+                        "recommendation-type": "opinion",
+                        "description": "Layered architecture is a software design pattern in which an application is composed of several layers or tiers. Each layer has a specific responsibility and communicates with the other layers through well-defined interfaces. This modular approach to software design allows for easier maintenance and testing, and also makes it possible to reuse components in different applications.The most common type of layered architecture is the three-tier architecture, which is typically composed of a presentation layer, a business logic layer, and a data access layer. The presentation layer is responsible for displaying data to the user and receiving user input. The business logic layer contains the core business logic and rules of the application, and the data access layer is responsible for accessing and manipulating data in the database.Layered architecture is a common approach to designing scalable and maintainable software systems, and it is often used in enterprise-level applications.While layered architecture has many benefits, it also has some drawbacks that should be considered. These include the following:Complexity: Layered architecture can add complexity to an application, especially if it is not implemented carefully. This can make the application more difficult to understand and maintain.Performance: Layered architecture can potentially impact the performance of an application, because data has to be passed between the different layers. This can be especially problematic if the application has a large number of layers or if the layers are not optimized for performance.Tight coupling: If the layers in a layered architecture are not well-defined and loosely coupled, changes to one layer can potentially affect other layers, which can lead to maintainability issues.Overhead: Layered architecture can add overhead to an application, because data has to be passed between the different layers. This can potentially impact the performance and scalability of the application.Overall, while layered architecture has many benefits, it is important to carefully consider the potential drawbacks and make sure that the benefits outweigh the costs in your specific application",
+                        "resources": []
+                    },
+                    {
+                        "name": "Distributed Systems",
                         "recommendation-type": "opinion",
                         "description": "",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Free Distributed Systems book from Maarten van Steen",
+                                "link": "https://www.distributed-systems.net/index.php/books/ds3/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Service oriented",
+                        "recommendation-type": "opinion",
+                        "description": "Service-oriented architecture (SOA) is an enterprise-wide approach to software development of application components that takes advantage of reusable software components, or services.SOA provides four different service types:Functional services (i.e., business services), which are critical for business applications.Enterprise services, which serve to implement functionality.Application services, which are used to develop and deploy apps.Infrastructure services, which are instrumental for backend processes like security and authentication.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "SOA Architecture By AWS",
+                                "link": "https://aws.amazon.com/what-is/service-oriented-architecture/"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "SOA Architecture",
+                                "link": "https://www.geeksforgeeks.org/service-oriented-architecture/"
                             }
                         ]
                     }
@@ -1433,174 +842,85 @@
                 "order": 9,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Hashing Algorithms",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Hashing algorithms are used to generate a unique value for a given input. This value is called a hash. Hashing algorithms are used to verify the integrity of data, to store passwords, and to generate unique identifiers for data.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Hashing Algorithms and Security - Computerphile",
+                                "link": "https://www.youtube.com/watch?v=b4b8ktEV4Bg"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Top Hashing Algorithms In Cryptography | MD5 and SHA 256 Algorithms Explained | Simplilearn",
+                                "link": "https://www.youtube.com/watch?v=Plp4F3ZfC7A"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Algorithms Expalined | Simplilearn",
+                                "link": "https://www.youtube.com/watch?v=Plp4F3ZfC7A"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "SHA: Secure Hashing Algorithm - Computerphile",
+                                "link": "https://www.youtube.com/watch?v=DMtFhACPnTY"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "PKI",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "A public key infrastructure (PKI) is a set of roles, policies, hardware, software, and procedures to create, manage, distribute, use, store and revoke digital certificates and public-key encryption. The purpose of a PKI is to facilitate the secure electronic transfer of information for a range of network activities such as e-commerce, internet banking, and confidential email. It is required for activities where simple passwords are an inadequate authentication method, and the more rigorous proof is required to confirm the identity of the parties involved in the communication and to validate the information being transferred.Components of PKIDigital certificates: digital “identities” issued by trusted third parties, that identify users and machines. They may be securely stored in wallets or in directories.Public and private keys: form the basis of a PKI for secure communications, based on a secret private key and a mathematically related public keySecure sockets layer (SSL): An Internet-standard secure protocolCertificate Authority (CA): acts as a trusted, independent provider of digital certificatesWhat is PKI used for?Providing a recovery key for an encrypted hard driveSecuring internal communications with database serversSigning documentsSecuring local networks: PKI capacities are built into Microsoft’s Active Directory, for instance, and can work with physical keycards that store digital certificates to ensure that users are who they say they are.Secure messaging: the Signal protocol uses PKI, for instanceEmail EncryptionSecuring access to internet of things (IoT) devicesAdvantages of the PKI ApproachPKI is a standards-based technology.It allows the choice of trust provider.It is highly scalable. Users maintain their own certificates, and certificate authentication only involves the data exchange between the client and server. This means that no third-party authentication server needs to be online. There is, thus, no limit to the number of users who can be supported using PKI.PKI allows delegated trust. A user who has obtained a certificate from a recognized and trusted certificate authority can authenticate himself to a server the first time he connects to that server without having previously been registered with the system.Although PKI is not notably a single sign-on service, it can be implemented in such a way as to enable single sign-on.",
+                        "resources": []
+                    },
+                    {
+                        "name": "OWASP",
+                        "recommendation-type": "opinion",
+                        "description": "OWASP or Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Wikipedia - OWASP",
+                                "link": "https://en.wikipedia.org/wiki/OWASP"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "OWASP Web Application Security Testing Checklist",
+                                "link": "https://github.com/0xRadi/OWASP-Web-Checklist"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "OWASP Top 10 Security Risks",
+                                "link": "https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2021/"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "OWASP Cheatsheets",
+                                "link": "https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Auth Strategies",
                         "recommendation-type": "opinion",
                         "description": "",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "JSON Web Token - Handbook",
+                                "link": "https://auth0.com/resources/ebooks/jwt-handbook"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "SAML Overview",
+                                "link": "https://www.youtube.com/watch?v=i8wFExDSZv0"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "A Developer's Guide to SAML",
+                                "link": "https://www.youtube.com/watch?v=l-6QSEqDJPo"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "SAML 2.0: Technical Overview",
+                                "link": "https://www.youtube.com/watch?v=SvppXbpv-5k"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "An Illustrated Guide to OAuth and OpenID Connect",
+                                "link": "https://www.youtube.com/watch?v=t18YB3xDfXI"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "OAuth 2.0 & OpenID Connect (OIDC): Technical Overview",
+                                "link": "https://www.youtube.com/watch?v=rTzlF-U9Y6Y"
                             }
                         ]
                     }
@@ -1610,174 +930,105 @@
                 "order": 10,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Spark, Hadoop MapReduce",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Apache Spark is a data processing framework that can quickly perform processing tasks on very large data sets, and can also distribute data processing tasks across multiple computers, either on its own or in tandem with other distributed computing tools.Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of data (multi-terabyte data-sets) in-parallel on large clusters (thousands of nodes) of commodity hardware in a reliable, fault-tolerant manner.Visit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Spark vs Hadoop MapReduce",
+                                "link": "https://www.integrate.io/blog/apache-spark-vs-hadoop-mapreduce"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Hadoop explained in 5 minutes",
+                                "link": "https://www.youtube.com/watch?v=aReuLtY0YMI"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "ETL Datawarehouses",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "In the world of data warehousing, if you need to bring data from multiple different data sources into one, centralized database, you must first:EXTRACT data from its original sourceTRANSFORM data by deduplicating it, combining it, and ensuring quality, to thenLOAD data into the target databaseETL tools enable data integration strategies by allowing companies to gather data from multiple data sources and consolidate it into a single, centralized location. ETL tools also make it possible for different types of data to work together.Visit the following resources to learn more",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "What is ETL?",
+                                "link": "https://www.snowflake.com/guides/what-etl"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "ETL explained",
+                                "link": "https://www.youtube.com/watch?v=OW5OgsLpDCQ"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "SQL Databases",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "SQL stands for Structured Query Language. It’s used for relational databases. A SQL database is a collection of tables that stores a specific set of structured data.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "SQL Databases",
+                                "link": "https://www.openlogic.com/blog/what-sql-database"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Nosql databases",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "NoSQL databases (aka “not only SQL”) are non-tabular databases and store data differently than relational tables. NoSQL databases come in a variety of types based on their data model. The main types are document, key-value, wide-column, and graph. They provide flexible schemas and scale easily with large amounts of data and high user loads.Types of NoSQL databasesDocument databases Ex. MongoDBKey-value databases Ex. RedisWide-column databases Ex. CassandraGraph databases Ex. Neo4JVisit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "NoSQL Databases",
+                                "link": "https://www.mongodb.com/nosql-explained"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Analytics",
+                        "description": "",
+                        "resources": [],
+                        "options": [
+                            {
+                                "name": "Apache Spark",
+                                "recommendation-type": "opinion",
+                                "description": "Apache Spark is a multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters.",
+                                "resources": [
+                                    {
+                                        "name": "Official Website",
+                                        "link": "https://spark.apache.org/"
+                                    }
+                                ]
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Hadoop",
+                                "recommendation-type": "opinion",
+                                "description": "The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.",
+                                "resources": [
+                                    {
+                                        "name": "Official Website",
+                                        "link": "https://hadoop.apache.org/"
+                                    }
+                                ]
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Data Warehouses Principles",
+                                "recommendation-type": "opinion",
+                                "description": "It is based on the assumption that every system should take care of a concern in a way that such concern should be encapsulated by the system itself.",
+                                "resources": [
+                                    {
+                                        "name": "Toptal Developers Website",
+                                        "link": "https://www.toptal.com/data-science/data-warehouse-concepts-principles"
+                                    }
+                                ]
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Data Warehouses Principles",
+                                "recommendation-type": "opinion",
+                                "description": "It is based on the assumption that every system should take care of a concern in a way that such concern should be encapsulated by the system itself.",
+                                "resources": [
+                                    {
+                                        "name": "Toptal Developers Website",
+                                        "link": ""
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -1785,354 +1036,257 @@
             },
             "Apis and Integrations": {
                 "order": 11,
-                "module bundlers": { "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
-            }
-    
+                "module bundlers": {
+                    "options": [
+                        {
+                            "name": "gPRC",
+                            "recommendation-type": "opinion",
+                            "description": "gRPC is a platform agnostic serialization protocol that is used to communicate between services. Designed by Google in 2015, it is a modern alternative to REST APIs. It is a binary protocol that uses HTTP/2 as a transport layer. It is a high performance, open source, general-purpose RPC framework that puts mobile and HTTP/2 first.It’s main use case is for communication between two different languages within the same application. You can use Python to communicate with Go, or Java to communicate with C#.gRPC uses the protocol buffer language to define the structure of the data that isVisit the following resources to learn more:",
+                            "resources": [
+                                {
+                                    "name": "gRPC Website",
+                                    "link": "https://grpc.io/"
+                                },
+                                {
+                                    "name": "gRPC Introduction",
+                                    "link": "https://grpc.io/docs/what-is-grpc/introduction/"
+                                },
+                                {
+                                    "name": "gRPC Core Concepts",
+                                    "link": "https://grpc.io/docs/what-is-grpc/core-concepts/"
+                                },
+                                {
+                                    "name": "Stephane Maarek - gRPC Introduction",
+                                    "link": "https://youtu.be/XRXTsQwyZSU"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Esb soap",
+                            "recommendation-type": "opinion",
+                            "description": "",
+                            "resources": []
+                        },
+                        {
+                            "name": "GraphQL",
+                            "recommendation-type": "opinion",
+                            "description": "GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.",
+                            "resources": [
+                                {
+                                    "name": "Apollo GraphQL Tutorials",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "REST",
+                            "recommendation-type": "opinion",
+                            "description": "REST, or REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other.",
+                            "resources": [
+                                {
+                                    "name": "What is REST?",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "What is a REST API?",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "Roy Fielding's dissertation chapter, Representational State Transfer (REST)",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "Learn REST: A RESTful Tutorial",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "BPM BPEL",
+                            "recommendation-type": "opinion",
+                            "description": "BPM: Business Process ManagementMedium or large enterprises needs robust processes to streamline their business needs by reducing the cost incurred per process and diminishing the turn around time for each activity. To achieve the above, there are various BPM tools like PEGA, IBM BPM, Appian, etc. Basically these tools automate the processes through a robust process modelling and implementation.BPMN: Business Process Management NotationsIts is a standard for representing business processes graphically. While modelling the process, the notations used are complied with BPMN (there are other like EPC, etc.). So BPMN is a standard notation that BPM consultants follow to model the business process. BPMN has versions and now BPMN 2.0 is the standard one.BPEL : Business Process Execution LanguageProgrammers use BPEL to define how a business process that involves web services will be executed. BPEL messages are typically used to invoke remote services, orchestrate process execution and manage events and exceptions. BPEL is often associated with Business Process Management Notation. In many organizations, analysts use BPMN to visualize business processes and developers transform the visualizations to BPEL for execution.Visit the following resources to learn more:",
+                            "resources": [
+                                {
+                                    "name": "What is BPM?",
+                                    "link": "https://www.redhat.com/en/topics/automation/what-is-business-process-management"
+                                },
+                                {
+                                    "name": "BPEL described",
+                                    "link": "https://www.ibm.com/docs/en/baw/19.x?topic=SS8JB4_19.x/com.ibm.wbpm.wid.main.doc/prodoverview/topics/cbpelproc.html"
+                                },
+                                {
+                                    "name": "BPM vs BPEL",
+                                    "link": "https://www.youtube.com/watch?v=V6nr5dnb1JQ"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Messaging Queues",
+                            "recommendation-type": "opinion",
+                            "description": "Message queuing makes it possible for applications to communicate asynchronously, by sending messages to each other via a queue. A message queue provides temporary storage between the sender and the receiver so that the sender can keep operating without interruption when the destination program is busy or not connected.",
+                            "resources": [
+                                {
+                                    "name": "Messaging Queues",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "Messaging Queues Tutorial",
+                                    "link": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             "Web and Mobile": {
                 "order": 12,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Reactive and Functional Programming",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Functional programming is a programming paradigm designed to handle pure mathematical functions. This paradigm is totally focused on writing more compounded and pure functions. Reactive programming describes a design paradigm that relies on asynchronous programming logic to handle real-time updates to otherwise static content. It provides an efficient means — the use of automated data streams — to handle data updates to content whenever a user makes an inquiry.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Learning Functional Programming",
+                                "link": "https://youtube.com/watch?v=e-5obm1G_FY"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Functional Programming with JavaScript",
+                                "link": "https://www.telerik.com/blogs/functional-programming-javascript"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "What is Functional Programming?",
+                                "link": "https://www.freecodecamp.org/news/functional-programming-in-javascript/"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "What is Reactive Programming?",
+                                "link": "https://www.techtarget.com/searchapparchitecture/definition/reactive-programming"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "React",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "React is the most popular front-end JavaScript library for building user interfaces. React can also render on the server using Node and power mobile apps using React Native.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Visit Dedicated React Roadmap",
+                                "link": "https://roadmap.sh/react"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "React Website",
+                                "link": "https://reactjs.org/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Official Getting Started",
+                                "link": "https://reactjs.org/tutorial/tutorial.html"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Beta React Docs",
+                                "link": "https://beta.reactjs.org/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "The Beginners Guide to React",
+                                "link": "https://egghead.io/courses/the-beginner-s-guide-to-react"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "React JS Course for Beginners",
+                                "link": "https://www.youtube.com/watch?v=nTeuhbP7wdE"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "React Course - Beginners Tutorial for React JavaScript Library [2022]",
+                                "link": "https://www.youtube.com/watch?v=bMknfKXIFA8"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Understanding Reacts UI Rendering Process",
+                                "link": "https://www.youtube.com/watch?v=i793Qm6kv3U"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Vue.js Website",
+                                "link": "https://vuejs.org/"
+                            },
+                            {
+                                "name": "Official Getting Started",
+                                "link": "https://vuejs.org/v2/guide/"
+                            },
+                            {
+                                "name": "Vue.js Course for Beginners",
+                                "link": "https://www.youtube.com/watch?v=FXpIoQ_rT_c"
+                            },
+                            {
+                                "name": "Vue.js Crash Course",
+                                "link": "https://www.youtube.com/watch?v=qZXt1Aom3Cs"
+                            },
+                            {
+                                "name": "Official - Getting started with Angular",
+                                "link": "https://angular.io/start"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "SPA vs SSG vs SSR",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "SPA: A single page application loads only a single web document from the server and then updates the content of that document on demand via Javascript APIs without reloading the entire document. React, Vue, Angular are the top frameworks used to create single page applications.SSR: This technique uses a server like Node.js to fully render the web document upon the receival of a request and then send it back to the client. This way the user get an interactive document with all the necessary information without having to wait for any JavaScript or CSS files to load.SSG: Static site generation renders the web document in the server(like SSR), however the page is rendered at build time. So, instead of rendering the page on the server upon the receival of a request, the page is already rendered in the server, waiting to be served to the client.Visit the following resources to learn more:",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Web design patterns — SSR, SSG, and SPA",
+                                "link": "https://medium.com/codex/web-design-patterns-ssr-ssg-and-spa-fadad7673dfe"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Rendering on the Web",
+                                "link": "https://web.dev/rendering-on-the-web/"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "PWA",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Progressive Web Apps (PWAs) are websites that are progressively enhanced to function like installed, native apps on supporting platforms, while functioning like regular websites on other browsers.",
                         "resources": [
                             {
-                                "name": "",
+                                "name": "Progressive Web Apps for Beginners",
+                                "link": "https://www.freecodecamp.org/news/what-are-progressive-web-apps/"
+                            },
+                            {
+                                "name": "Learn PWA",
+                                "link": "https://web.dev/learn/pwa/"
+                            },
+                            {
+                                "name": "MDN Web Docs: Progressive Web Apps",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/"
+                            },
+                            {
+                                "name": "Build a Progressive Web App",
+                                "link": "https://www.youtube.com/watch?v=sFsRylCQblw"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Microfrontends",
+                        "recommendation-type": "opinion",
+                        "description": "Microfrontends is an architectural style where independently deliverable frontend applications built by different teams using different technologies are composed into a greater whole. Simply, a Micro-Frontend is a portion of a webpage (not the entire page). There is a “Host” or a “Container” page in the Micro-Frontend Architecture page that can host one or more Micro-Frontends.",
+                        "resources": [
+                            {
+                                "name": "Micro-Frontends Course - Beginner to Expert",
+                                "link": "https://www.youtube.com/watch?v=lKKsjpH09dU"
+                            },
+                            {
+                                "name": "Micro Frontends",
+                                "link": "https://micro-frontends.org/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "W3C and WHATWG Standards",
+                        "recommendation-type": "opinion",
+                        "description": "World Wide Web Consortium (W3C) standards define the best practices for web development to enable developers to build rich interactive experiences that are available on any device. These standards range from recommended web technologies such as HTML, CSS, XML to the generally accepted principles of web architecture, semantics, and services. Web Hypertext Application Technology Working Group (WHATWG) is another set of web standards that came into existence after W3C announced that it was going to be focusing on XHTML over HTML.",
+                        "resources": [
+                            {
+                                "name": "W3C Standards",
                                 "link": ""
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
+                                "name": "WHATWG Standards",
                                 "link": ""
                             }
                         ]
@@ -2143,174 +1297,70 @@
                 "order": 13,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Babok",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "The guide to the Business Analysis Body of Knowledge (BABOK Guide) is a book from the International Institute of Business Analysis (IIBA) that provides business analysts (BAs) with strategies for using data to improve an organization’s workflow processes, technology, products and services.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Official Website",
+                                "link": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Wikipedia",
+                                "link": "https://en.wikipedia.org/wiki/A_Guide_to_the_Business_Analysis_Body_of_Knowledge"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "IAF",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "The Integrated Architecture Framework (IAF) is an enterprise architecture framework that covers business, information, information system and technology infrastructure.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Official PDF",
+                                "link": "https://www.capgemini.com/wp-content/uploads/2018/03/architecture-for-the-information-age.pdf"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Wikipedia",
+                                "link": "https://en.wikipedia.org/wiki/Integrated_Architecture_Framework"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "UML",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "The Unified Modeling Language, or UML, is a modeling language that is intended to provide a standard way to visualize and describe the design of a system.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "UML Website",
+                                "link": "https://www.uml.org/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "The Unified Modeling Language Reference Manual (Second Edition)",
+                                "link": "https://personal.utdallas.edu/~chung/Fujitsu/UML_2.0/Rumbaugh--UML_2.0_Reference_CD.pdf"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "IBM Docs",
+                                "link": "https://www.ibm.com/docs/en/rational-soft-arch/9.6.1?topic=files-uml-pattern-frameworks"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Wikipedia",
+                                "link": "https://en.wikipedia.org/wiki/Unified_Modeling_Language"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "TOGAF",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "The TOGAF content framework provides a detailed model of architectural work products, including deliverables, artifacts within deliverables, and the architectural building blocks that artifacts represent.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Official Website",
+                                "link": "https://www.opengroup.org/togaf"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Wikipedia",
+                                "link": "https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework"
                             }
                         ]
                     }
@@ -2320,176 +1370,34 @@
                 "order": 14,
                 "options": [
                     {
-                        "name": "",
+                        "name": "Certifications",
                         "recommendation-type": "opinion",
                         "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "Pmi itil prince2 rup",
                         "recommendation-type": "opinion",
                         "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "Agile scrum",
                         "recommendation-type": "opinion",
                         "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "Less",
                         "recommendation-type": "opinion",
                         "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
+                    },
+                    {
+                        "name": "Safe",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": []
                     }
                 ]
             },
@@ -2497,363 +1405,282 @@
                 "order": 15,
                 "options": [
                     {
-                        "name": "",
+                        "name": "OSI and TCP/IP Models",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "The OSI and TCP/IP model is used to help the developer to design their system for interoperability. The OSI model has 7 layers while the TCP/IP model has a more summarized form of the OSI model only consisting 4 layers. This is important if you’re trying to design a system to communicate with other systems.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Cloudflare - What is the OSI model",
+                                "link": "https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Geeksforgeeks - Layers of OSI model",
+                                "link": "https://www.geeksforgeeks.org/layers-of-osi-model/"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "Geeksforgeeks - TCP/IP model",
+                                "link": "https://www.geeksforgeeks.org/tcp-ip-model/"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "HTTP HTTPS",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "HTTP is the TCP/IP based application layer communication protocol which standardizes how the client and server communicate with each other. It defines how the content is requested and transmitted across the internet.\n\nHTTPS (Hypertext Transfer Protocol Secure) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website.\n\nHTTPS = HTTP + SSL/TLS",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Everything you need to know about HTTP",
+                                "link": "https://cs.fyi/guide/http-in-depth"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "What is HTTP?",
+                                "link": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "An overview of HTTP",
+                                "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "HTTP/3 From A To Z: Core Concepts",
+                                "link": "https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "What is HTTPS?",
+                                "link": "https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Why HTTPS Matters",
+                                "link": "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https"
                             },
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "Enabling HTTPS on Your Servers",
+                                "link": "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "HTTP Crash Course & Exploration",
+                                "link": "https://www.youtube.com/watch?v=iYM2zFP3Zn0"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Proxies",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "In computer networking, a proxy server is a server application that acts as an intermediary between a client requesting a resource and the server providing that resource.",
+                        "resources": []
                     },
                     {
-                        "name": "",
+                        "name": "Firewalls",
                         "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "description": "A Firewall is a network security device that monitors and filters incoming and outgoing network traffic based on an organization’s previously established security policies.",
+                        "resources": []
                     }
                 ]
             },
             "Operations knowledge": {
                 "order": 16,
-                "module bundlers": { "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
-            }
-    
+                "module bundlers": {
+                    "options": [
+                        {
+                            "name": "",
+                            "recommendation-type": "opinion",
+                            "description": "",
+                            "resources": [
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "",
+                            "recommendation-type": "opinion",
+                            "description": "",
+                            "resources": [
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "",
+                            "recommendation-type": "opinion",
+                            "description": "",
+                            "resources": [
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "",
+                            "recommendation-type": "opinion",
+                            "description": "",
+                            "resources": [
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                },
+                                {
+                                    "name": "",
+                                    "link": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             "Enterprise software": {
                 "order": 17,
                 "options": [
                     {
-                        "name": "",
+                        "name": "MS Dynamics",
+                        "recommendation-type": "opinion",
+                        "description": "Microsoft Dynamics 365 is a combination of both Enterprise Resource Planning (ERP) software and Customer Relationship Management (CRM) software.",
+                        "resources": [
+                            {
+                                "name": "Everything you ever wanted to know about Microsoft Dynamics",
+                                "link": "https://www.nigelfrank.com/insights/everything-you-ever-wanted-to-know-about-dynamics-crm"
+                            },
+                            {
+                                "name": "What is Microsoft Dynamics?",
+                                "link": "https://www.youtube.com/watch?v=ogfclHWgqgE"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sap epr hana business objects",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": []
+                    },
+                    {
+                        "name": "Emc dms",
                         "recommendation-type": "opinion",
                         "description": "",
                         "resources": [
@@ -2896,138 +1723,37 @@
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "IBM BPM",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "IBM BPM is a comprehensive business process management platform. It provides a robust set of tools to author, test, and deploy business processes, as well as full visibility and insight to managing those business processes.",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "BPM overview",
+                                "link": "https://www.ibm.com/docs/en/bpm/8.5.5?topic=manager-business-process-overview"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "BPM Demo",
+                                "link": "https://www.youtube.com/watch?v=6yn4nCWMNLI"
                             }
                         ]
                     },
                     {
-                        "name": "",
+                        "name": "Salesforce",
                         "recommendation-type": "opinion",
-                        "description": "",
+                        "description": "Salesforce is a cloud platform helping companies to manage relationships with their customers",
                         "resources": [
                             {
-                                "name": "",
-                                "link": ""
+                                "name": "What is Salesforce and what is it used for?",
+                                "link": "https://ascendix.com/blog/what-is-salesforce-what-salesforce-is-used-for/"
                             },
                             {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
+                                "name": "What is Salesforce?",
+                                "link": "https://www.youtube.com/watch?v=xx2sK-QiBjw"
                             }
                         ]
                     }
                 ]
             }
-            
         }
     }
-    
 }
