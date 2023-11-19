@@ -110,34 +110,19 @@
                                 "name": "Activity Lifecycle",
                                 "recommendation-type": "opinion",
                                 "description": "The Activity Lifecycle in Android represents a series of states or events that an activity can go through from its creation to its destruction. The primary states or events are onCreate(), onStart(), onResume(), onPause(), onStop(), onDestroy(), and onRestart(). The method onCreate() is called when the activity is first created, followed by onStart() when the activity becomes visible to the user. The onResume() method executes when the user starts interacting with the application. onPause() and onStop() methods are invoked when the application is no longer in the foreground or visible to the user. The onDestroy() method is used when the activity is being completely removed from the memory. The onRestart() method is called after the system stops the activity and is about to start it again. The proper handling of these states ensures the efficient use of resources and a smooth user experience.",
-                                "resources": [
-                                    {
-                                        "name": "",
-                                        "link": ""
-                                    }
-                                ]
+                                "resources": []
                             },
                             {
                                 "name": "State Changes",
                                 "recommendation-type": "opinion",
                                 "description": "In Android, an “Activity” is a crucial component that represents a single screen with a user interface. One or more active activities make up an Application. These activities can go through different states in their lifecycle, often due to user interaction or system interruption. The primary states of an Activity include Created, Started, Resumed, Paused, Stopped, Restarted, and Destroyed. The “Created” state occurs when an activity instance is being created. The “Started” state is when the activity is visible to the user, while “Resumed” is when the activity is interacting with the user. An activity is “Paused” when it loses focus but is partly visible, “Stopped” when it’s not visible, “Restarted” when the activity is about to be started, and “Destroyed” when the activity is finished or the system is temporarily destroying it.",
-                                "resources": [
-                                    {
-                                        "name": "",
-                                        "link": ""
-                                    }
-                                ]
+                                "resources": []
                             },
                             {
                                 "name": "Tasks and Backstack",
                                 "recommendation-type": "opinion",
                                 "description": "The tasks backstack in Android refers to the way Android manages and arranges tasks in a stack-like structure. Every task has a stack of activities, which is referred to as the task’s back stack. The activities are placed in the order they are opened. When a new activity is started, it is placed at the top of the stack and becomes the running activity, while the previous activity is paused and put into the back stack. When you press the back button, the current activity is destroyed and the activity at the top of the back stack becomes active again. Android defines how to navigate between tasks and activities using this back stack concept.",
-                                "resources": [
-                                    {
-                                        "name": "",
-                                        "link": ""
-                                    }
-                                ]
+                                "resources": []
                             }
                         ]
                     },
@@ -170,20 +155,20 @@
                                 "recommendation-type": "opinion",
                                 "description": "In Android development, Implicit Intents do not specify the target component explicitly like Explicit Intents. Instead, they allow the system to find a suitable component matching the Intent description to handle the request. The system will find an activity that can handle this intent by comparing the <intent-filter> section in the AndroidManifest.xml of all apps installed on the device against the Implicit Intent. An ideal example of an implicit intent is opening a URL. You do not need to know the specific activity that can handle this request, you just declare an intent to view a web page and Android system will select the suitable app that can open the URL.",
                                 "resources": []
+                            },
+                            {
+                                "name": "Explicit Intents",
+                                "recommendation-type": "opinion",
+                                "description": "Explicit Intents are primarily used within an application’s own boundaries. In explicit intents you specify the component that needs to be responded to the intent. Therefore, the target component must be specified by calling methods such as setComponent(ComponentName), setClass(Context, Class), or setClassName(String, String). This means that explicit intents are typically used for launching activities, broadcasting messages, starting services within the app. Explicit intents are not resolved by the system but are passed to the component identified in the intent.",
+                                "resources": []
+                            },
+                            {
+                                "name": "Intent Filters",
+                                "recommendation-type": "opinion",
+                                "description": "Intent Filters in Android are essential components of the Android system where you can declare the capabilities of your activities, services, and broadcast receivers. An intent filter is an expression found in your app’s manifest file, defined in the XML element. Android uses these filters to determine the appropriate components for incoming intents, which can be either explicit or implicit. Your app’s ability to respond to intents depends on the filters you define. The filters are set of conditions comprised of action, category, and data which your activity or service is able to perform. If the incoming Intent matches with defined Intent Filters, Android system will permit that Intent to your Component (Activity, Service, or Broadcast Receiver).",
+                                "resources": []
                             }
                         ]
-                    },
-                    {
-                        "name": "Explicit Intents",
-                        "recommendation-type": "opinion",
-                        "description": "Explicit Intents are primarily used within an application’s own boundaries. In explicit intents you specify the component that needs to be responded to the intent. Therefore, the target component must be specified by calling methods such as setComponent(ComponentName), setClass(Context, Class), or setClassName(String, String). This means that explicit intents are typically used for launching activities, broadcasting messages, starting services within the app. Explicit intents are not resolved by the system but are passed to the component identified in the intent.",
-                        "resources": []
-                    },
-                    {
-                        "name": "Intent Filters",
-                        "recommendation-type": "opinion",
-                        "description": "Intent Filters in Android are essential components of the Android system where you can declare the capabilities of your activities, services, and broadcast receivers. An intent filter is an expression found in your app’s manifest file, defined in the XML element. Android uses these filters to determine the appropriate components for incoming intents, which can be either explicit or implicit. Your app’s ability to respond to intents depends on the filters you define. The filters are set of conditions comprised of action, category, and data which your activity or service is able to perform. If the incoming Intent matches with defined Intent Filters, Android system will permit that Intent to your Component (Activity, Service, or Broadcast Receiver).",
-                        "resources": []
                     }
                 ]
             },
@@ -254,76 +239,77 @@
                                     "recommendation-type": "opinion",
                                     "description": "In Android, Fragments represent a behavior or a part of the user interface in an Activity. They are modular sections of an activity, which are reusable in different activities. They contribute to making an application adaptive to different devices with varied screen sizes. A fragment has its own lifecycle, receives its own input events, and can be added or removed while the activity is running. While they exist within the context of an activity, they can also be used independently to encapsulate functionality for easier development and reuse. Multiple fragments can combine in a single activity to build a multi-pane UI.",
                                     "resources": []
+                                },
+                                {
+                                    "name": "Dialogs",
+                                    "recommendation-type": "opinion",
+                                    "description": "Dialogs in Android are small windows that prompt users to make a decision or enter additional information. They don’t fill the screen and are normally used for modal events that require users to take action before they can proceed. In Android, Dialog is actually an abstract class directly subclassed from Object. AlertDialog is the subclass that you will most commonly use, which contains a number of methods as compared to Dialog to support features like lists, checkboxes, radio buttons, and a custom layout design. They are typically used for user interactions such as warnings, notifications, and menus.\n\nTo create a dialog, you must use the Dialog class or one of its subclasses, such as DialogFragment or AlertDialog. For a more detailed explanation on implementing dialogs in Android, you can refer to the official Android Developer’s Guide.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Toast",
+                                    "recommendation-type": "opinion",
+                                    "description": "Toast in Android is a simple message that appears on the screen for a short period of time then disappears automatically. It is generally used to provide feedback to the user about an operation in a small popup without requiring any user interaction. This feedback could be an error message or simply information that a process completed successfully. You can configure the toast to appear anywhere on the screen and specify how long it stays up. In order to use a toast, you have to import the android.widget.Toast package and instantiate a Toast object. Here’s an example of creating a simple toast: Toast.makeText(context, text, duration).show(), where context is your application context, text is the message to display, and duration is either Toast.LENGTH_SHORT or Toast.LENGTH_LONG.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Bottom Sheet",
+                                    "recommendation-type": "opinion",
+                                    "description": "The Bottom Sheet is a popular UI component within the Android development environment. This interface element acts like a drawer that slides up from the bottom of the screen to reveal more content or options. There are two types of bottom sheets in Android: “persistent” and “modal”. The persistent bottom sheet shows in-app content that supplements the primary screen content, remaining visible even when the user interacts with the primary surface. On the other hand, the modal bottom sheet is a simple menu presenting a list of options, often used for sharing content, navigating, or for user-editable content. It can be dismissed by the user and does not remain visible when the user interacts with the primary surface.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Drawer",
+                                    "recommendation-type": "opinion",
+                                    "description": "The Drawer in Android is a slide-out menu that enables users to navigate between different parts of an application. It is usually triggered by a hamburger icon in the app’s top-left corner. The Drawer can contain a list of options, subheadings, and separators to articulate the app’s structure. In Android, this component can be implemented using DrawerLayout and NavigationView. The DrawerLayout is the parent component and NavigationView is typically placed within the DrawerLayout. One key thing to note is that the Drawer should not be used as the only means of navigating through an application, according to Android’s design guidelines.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Animations",
+                                    "recommendation-type": "opinion",
+                                    "description": "In Android, animations are used to give a more visual, dynamic, and interactive aspect to a static user interface. Android offers four categories of animation APIs in order to create and manage the animations. These are: Property Animation, View Animation, Drawable Animation, and Layout Animation. You can utilize Android’s built-in animations or fully customize your own to add unique transitions and movements in your applications. Every app can benefit from a touch of animation to create a more immersive and pleasant user experience.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "TextView",
+                                    "recommendation-type": "opinion",
+                                    "description": "TextView in Android is a UI (User Interface) element that allows you to display text to the user. You can set the text to be displayed by declaring it in XML or introducing it programmatically. This element supports various attributes such as android:textAllCaps, android:textAppearance, android:textColor, etc., to customize its appearance. Each TextView corresponds to an android.widget.TextView object. You can also react to user interaction events such as touch or click with the help of listeners (like View.onClickListener or View.onTouchListener). Manipulating with TextView is common when creating Android apps as they form the basic building block for user interface components.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "EditText",
+                                    "recommendation-type": "opinion",
+                                    "description": "EditText is a common element used in Android development. It’s a fundamental component for accepting user input in simple form or dialog. It allows users to modify text within its bounding box, much like what a TextField does in more general programming languages. If you have used a form or a webpage that allows you to input text, it was probably created with an EditText or similar control. You can customize an EditText in various ways including size, color, initial text, and hint text. You can also listen for changes in the text in an EditText, apply filters, specify input types, and more. The android:text attribute lets you pre-fill the EditText with text, and android:hint provides hint text when the EditText is empty.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Buttons",
+                                    "recommendation-type": "opinion",
+                                    "description": "Buttons in Android are user interactions that trigger certain programmable actions. They are part of the View class in Android, making them an essential part of user interfaces. Android provides different types of buttons such as Button, ToggleButton, RadioButton, CheckBox, Switch, ImageButton, and FloatingActionButton. Each of these serves a different purpose and provides varied interactivity options. Their behavior and appearance can be customized in terms of different properties such as text, ID, color, etc. They can be programmed in the XML layout files or dynamically in the Java/Kotlin code.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "ImageView",
+                                    "recommendation-type": "opinion",
+                                    "description": "An ImageView is a class used in Android for displaying an image file. It inherits from ‘View’ class and extends the ability of views to show images. Images can be loaded from various sources such as a resource file, drawable, or a URL, with varying scale types. This class also provides methods to manage the image scale type, define padding, set tint, and manipulate the color filter. It’s important to note that ImageView should be used in moderation as it is resource-intensive and could degrade app performance if used excessively.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "ListView",
+                                    "recommendation-type": "opinion",
+                                    "description": "ListView in Android is a view which groups several items and displays them in vertical scrollable list. The list items are automatically inserted to the list using an Adapter that pulls content from a source such as an array or database query and converts each item result into a view that’s placed into the list. It is widely used in android apps as it offers an easy way to display a list of data in an organized manner. Functions such as setAdapter(Adapter) to specify data source, setOnItemClickListener(OnItemClickListener) to listen for click events on items, and setOnScrollListener(OnScrollListener) to listen for scroll events, provide further control over the list behavior.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Tabs",
+                                    "recommendation-type": "opinion",
+                                    "description": "Tabs are commonly used in Android for switching between different views within the same activity. Some instances may make use of a TabLayout located within a ViewPager to create swipeable tabs. Each tab is usually associated with a fragment. To create tabs in Android, you need to use the TabLayout component that is available in the Material Design library. A typical TabLayout contains multiple TabItem, each representing a tab in the interface. The TabLayout works with a ViewPager to provide a consistent swipeable interface. Users can approach tabs differently depending on whether they are coded for manual or automatic filling. Manual tab creation and addition require explicit defining of each tab and adding them to the TabLayout, while in automatic filling tabs are generated from the PagerAdaptor’s page title.",
+                                    "resources": []
                                 }
                             ]
                         }
-                    },
-                    {
-                        "name": "Dialogs",
-                        "recommendation-type": "opinion",
-                        "description": "Dialogs in Android are small windows that prompt users to make a decision or enter additional information. They don’t fill the screen and are normally used for modal events that require users to take action before they can proceed. In Android, Dialog is actually an abstract class directly subclassed from Object. AlertDialog is the subclass that you will most commonly use, which contains a number of methods as compared to Dialog to support features like lists, checkboxes, radio buttons, and a custom layout design. They are typically used for user interactions such as warnings, notifications, and menus.\n\nTo create a dialog, you must use the Dialog class or one of its subclasses, such as DialogFragment or AlertDialog. For a more detailed explanation on implementing dialogs in Android, you can refer to the official Android Developer’s Guide.",
-                        "resources": []
-                    },
-                    {
-                        "name": "Toast",
-                        "recommendation-type": "opinion",
-                        "description": "Toast in Android is a simple message that appears on the screen for a short period of time then disappears automatically. It is generally used to provide feedback to the user about an operation in a small popup without requiring any user interaction. This feedback could be an error message or simply information that a process completed successfully. You can configure the toast to appear anywhere on the screen and specify how long it stays up. In order to use a toast, you have to import the android.widget.Toast package and instantiate a Toast object. Here’s an example of creating a simple toast: Toast.makeText(context, text, duration).show(), where context is your application context, text is the message to display, and duration is either Toast.LENGTH_SHORT or Toast.LENGTH_LONG.",
-                        "resources": []
-                    },
-                    {
-                        "name": "Bottom Sheet",
-                        "recommendation-type": "opinion",
-                        "description": "The Bottom Sheet is a popular UI component within the Android development environment. This interface element acts like a drawer that slides up from the bottom of the screen to reveal more content or options. There are two types of bottom sheets in Android: “persistent” and “modal”. The persistent bottom sheet shows in-app content that supplements the primary screen content, remaining visible even when the user interacts with the primary surface. On the other hand, the modal bottom sheet is a simple menu presenting a list of options, often used for sharing content, navigating, or for user-editable content. It can be dismissed by the user and does not remain visible when the user interacts with the primary surface.",
-                        "resources": []
-                    },
-                    {
-                        "name": "Drawer",
-                        "recommendation-type": "opinion",
-                        "description": "The Drawer in Android is a slide-out menu that enables users to navigate between different parts of an application. It is usually triggered by a hamburger icon in the app’s top-left corner. The Drawer can contain a list of options, subheadings, and separators to articulate the app’s structure. In Android, this component can be implemented using DrawerLayout and NavigationView. The DrawerLayout is the parent component and NavigationView is typically placed within the DrawerLayout. One key thing to note is that the Drawer should not be used as the only means of navigating through an application, according to Android’s design guidelines.",
-                        "resources": []
-                    },
-                    {
-                        "name": "Animations",
-                        "recommendation-type": "opinion",
-                        "description": "In Android, animations are used to give a more visual, dynamic, and interactive aspect to a static user interface. Android offers four categories of animation APIs in order to create and manage the animations. These are: Property Animation, View Animation, Drawable Animation, and Layout Animation. You can utilize Android’s built-in animations or fully customize your own to add unique transitions and movements in your applications. Every app can benefit from a touch of animation to create a more immersive and pleasant user experience.",
-                        "resources": []
-                    },
-                    {
-                        "name": "TextView",
-                        "recommendation-type": "opinion",
-                        "description": "TextView in Android is a UI (User Interface) element that allows you to display text to the user. You can set the text to be displayed by declaring it in XML or introducing it programmatically. This element supports various attributes such as android:textAllCaps, android:textAppearance, android:textColor, etc., to customize its appearance. Each TextView corresponds to an android.widget.TextView object. You can also react to user interaction events such as touch or click with the help of listeners (like View.onClickListener or View.onTouchListener). Manipulating with TextView is common when creating Android apps as they form the basic building block for user interface components.",
-                        "resources": []
-                    },
-                    {
-                        "name": "EditText",
-                        "recommendation-type": "opinion",
-                        "description": "EditText is a common element used in Android development. It’s a fundamental component for accepting user input in simple form or dialog. It allows users to modify text within its bounding box, much like what a TextField does in more general programming languages. If you have used a form or a webpage that allows you to input text, it was probably created with an EditText or similar control. You can customize an EditText in various ways including size, color, initial text, and hint text. You can also listen for changes in the text in an EditText, apply filters, specify input types, and more. The android:text attribute lets you pre-fill the EditText with text, and android:hint provides hint text when the EditText is empty.",
-                        "resources": []
-                    },
-                    {
-                        "name": "Buttons",
-                        "recommendation-type": "opinion",
-                        "description": "Buttons in Android are user interactions that trigger certain programmable actions. They are part of the View class in Android, making them an essential part of user interfaces. Android provides different types of buttons such as Button, ToggleButton, RadioButton, CheckBox, Switch, ImageButton, and FloatingActionButton. Each of these serves a different purpose and provides varied interactivity options. Their behavior and appearance can be customized in terms of different properties such as text, ID, color, etc. They can be programmed in the XML layout files or dynamically in the Java/Kotlin code.",
-                        "resources": []
-                    },
-                    {
-                        "name": "ImageView",
-                        "recommendation-type": "opinion",
-                        "description": "An ImageView is a class used in Android for displaying an image file. It inherits from ‘View’ class and extends the ability of views to show images. Images can be loaded from various sources such as a resource file, drawable, or a URL, with varying scale types. This class also provides methods to manage the image scale type, define padding, set tint, and manipulate the color filter. It’s important to note that ImageView should be used in moderation as it is resource-intensive and could degrade app performance if used excessively.",
-                        "resources": []
-                    },
-                    {
-                        "name": "ListView",
-                        "recommendation-type": "opinion",
-                        "description": "ListView in Android is a view which groups several items and displays them in vertical scrollable list. The list items are automatically inserted to the list using an Adapter that pulls content from a source such as an array or database query and converts each item result into a view that’s placed into the list. It is widely used in android apps as it offers an easy way to display a list of data in an organized manner. Functions such as setAdapter(Adapter) to specify data source, setOnItemClickListener(OnItemClickListener) to listen for click events on items, and setOnScrollListener(OnScrollListener) to listen for scroll events, provide further control over the list behavior.",
-                        "resources": []
-                    },
-                    {
-                        "name": "Tabs",
-                        "recommendation-type": "opinion",
-                        "description": "Tabs are commonly used in Android for switching between different views within the same activity. Some instances may make use of a TabLayout located within a ViewPager to create swipeable tabs. Each tab is usually associated with a fragment. To create tabs in Android, you need to use the TabLayout component that is available in the Material Design library. A typical TabLayout contains multiple TabItem, each representing a tab in the interface. The TabLayout works with a ViewPager to provide a consistent swipeable interface. Users can approach tabs differently depending on whether they are coded for manual or automatic filling. Manual tab creation and addition require explicit defining of each tab and adding them to the TabLayout, while in automatic filling tabs are generated from the PagerAdaptor’s page title.",
-                        "resources": []
                     }
+                    
                 ]
             },
             "Architecture and Design Patterns": {
@@ -373,10 +359,29 @@
                         "description": "The Observer Pattern is a software design pattern in which an object, known as the subject, maintains a list of its dependants, called observers, and notifies them automatically of any state changes. This is usually done by calling one of their methods. It’s mainly used for implementing distributed event handling systems and is viewed as a good practice to follow, making your design more robust, flexible, and scalable. The subject to be observed triggers events, and observers react to the change or the event that they are listening to. In Android, observable libraries like LiveData, RxJava, Flow, and other reactive streams allow the implementation of the observer pattern.",
                         "resources": [],
                         "options": [
+
                             {
                                 "name": "LiveData",
                                 "recommendation-type": "opinion",
                                 "description": "LiveData is a data holder class that can be observed within a given lifecycle. It respects the lifecycle state of app components and automatically removes observers when associated LifecycleOwners move to the Destroyed state. LiveData helps manage updates efficiently by considering the lifecycle state of app components, ensuring appropriate and efficient updates.",
+                                "resources": []
+                            },
+                            {
+                                "name": "Flow",
+                                "recommendation-type": "opinion",
+                                "description": "Flow in Android development is part of the Kotlin Coroutines library. It is a type that can emit multiple values sequentially, making it perfect for working with any data streams or any streams of events that aren’t instantaneous. Like Observables, Flow is also based on the observer pattern, meaning it can emit values and these emissions can be observed and reacted to. However, Flow comes with built-in backpressure handling and the ability to transform, filter, or combine these flows in a sequence. Along with Coroutines, Flow encourages a more predictable and simplified concurrency design without callback hell problem.",
+                                "resources": []
+                            },
+                            {
+                                "name": "RxJava",
+                                "recommendation-type": "opinion",
+                                "description": "RxJava, standing for Reactive Extensions for the JVM, is a library in the Java and Android ecosystem that allows developers to write asynchronous, event-based programs. It is developed according to reactive programming principles and it supports multi-threading operations. RxJava is often used in combination with Retrofit for API calls or with Room for database tasks. It provides a set of operators to handle tasks such as chain asynchronous operations, perform computations, or transform data. There are three important entities in RxJava - ‘Observable’, ‘Observer’, and ‘Subscription’, working together to manage asynchronous programming and prevent memory leaks.",
+                                "resources": []
+                            },
+                            {
+                                "name": "RxKotlin",
+                                "recommendation-type": "opinion",
+                                "description": "RxKotlin is a lightweight library that adds convenient extension functions to RxJava, making it more idiomatic for Kotlin. It enhances readability and understandability of code by leveraging Kotlin’s features. RxKotlin acts as a wrapper around RxJava, providing extensions and constructs to take full advantage of Kotlin’s syntactic simplicity and ease of use.",
                                 "resources": []
                             }
                         ]
@@ -392,6 +397,24 @@
                                 "recommendation-type": "opinion",
                                 "description": "Dagger is a fully static, compile-time dependency injection framework for both Java and Android. It focuses on compile-time analysis of dependencies, code simplicity, and clarity. Dagger uses annotations to define dependencies, aiding in easy readability and understanding of the code. It eliminates the use of reflection for dependency injection, contributing to improved performance.",
                                 "resources": []
+                            },
+                            {
+                                "name": "Hilt",
+                                "recommendation-type": "opinion",
+                                "description": "Hilt is a dependency injection library for Android that simplifies the setup of manual dependency injection. Based on Dagger, Hilt reduces boilerplate code associated with setting up Dagger in Android projects. It automatically generates and provides the necessary dependencies by annotating Android classes. Hilt also provides predefined components tied to the Android lifecycle for handling scoped instances.",
+                                "resources": []
+                            },
+                            {
+                                "name": "Koin",
+                                "recommendation-type": "opinion",
+                                "description": "Koin is a lightweight dependency injection framework designed for Kotlin developers. It uses functional resolution, leveraging Kotlin’s language features. Although not Android-specific, Koin offers extensions for efficient integration into Android applications, including support for Android Architecture Components and Kotlin Coroutines.",
+                                "resources": []
+                            },
+                            {
+                                "name": "Kodein",
+                                "recommendation-type": "opinion",
+                                "description": "Kodein is a recommended dependency injection framework for Android development. This Kotlin library simplifies dependency injection by allowing developers to bind various types of dependencies into containers or Kodein modules. It follows a 'Define in Use' principle, promoting idiomatic Kotlin code. Kodein works seamlessly with Android’s lifecycle and integrates easily with popular libraries such as Android Architecture Components.",
+                                "resources": []
                             }
                         ]
                     },
@@ -400,43 +423,9 @@
                         "recommendation-type": "opinion",
                         "description": "The Factory Pattern is part of the Creational Design Patterns. This pattern provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created. It introduces an abstraction layer between the client code and the concrete objects. Normally, this is achieved by using a factory method to create objects instead of using constructors. The instance of the class is usually created by a method, referred to as a factory method, which is either specified in an interface and implemented in implementing classes or implemented in a base class which may be optionally overridden by derived classes. The Factory Method is used when we want to provide users with a way to create an instance of a class from one of several possible classes that share a common super class.",
                         "resources": []
-                    },
-                    {
-                        "name": "Flow",
-                        "recommendation-type": "opinion",
-                        "description": "Flow in Android development is part of the Kotlin Coroutines library. It is a type that can emit multiple values sequentially, making it perfect for working with any data streams or any streams of events that aren’t instantaneous. Like Observables, Flow is also based on the observer pattern, meaning it can emit values and these emissions can be observed and reacted to. However, Flow comes with built-in backpressure handling and the ability to transform, filter, or combine these flows in a sequence. Along with Coroutines, Flow encourages a more predictable and simplified concurrency design without callback hell problem.",
-                        "resources": []
-                    },
-                    {
-                        "name": "RxJava",
-                        "recommendation-type": "opinion",
-                        "description": "RxJava, standing for Reactive Extensions for the JVM, is a library in the Java and Android ecosystem that allows developers to write asynchronous, event-based programs. It is developed according to reactive programming principles and it supports multi-threading operations. RxJava is often used in combination with Retrofit for API calls or with Room for database tasks. It provides a set of operators to handle tasks such as chain asynchronous operations, perform computations, or transform data. There are three important entities in RxJava - ‘Observable’, ‘Observer’, and ‘Subscription’, working together to manage asynchronous programming and prevent memory leaks.",
-                        "resources": []
-                    },
-                    {
-                        "name": "RxKotlin",
-                        "recommendation-type": "opinion",
-                        "description": "RxKotlin is a lightweight library that adds convenient extension functions to RxJava, making it more idiomatic for Kotlin. It enhances readability and understandability of code by leveraging Kotlin’s features. RxKotlin acts as a wrapper around RxJava, providing extensions and constructs to take full advantage of Kotlin’s syntactic simplicity and ease of use.",
-                        "resources": []
-                    },
-                    {
-                        "name": "Hilt",
-                        "recommendation-type": "opinion",
-                        "description": "Hilt is a dependency injection library for Android that simplifies the setup of manual dependency injection. Based on Dagger, Hilt reduces boilerplate code associated with setting up Dagger in Android projects. It automatically generates and provides the necessary dependencies by annotating Android classes. Hilt also provides predefined components tied to the Android lifecycle for handling scoped instances.",
-                        "resources": []
-                    },
-                    {
-                        "name": "Koin",
-                        "recommendation-type": "opinion",
-                        "description": "Koin is a lightweight dependency injection framework designed for Kotlin developers. It uses functional resolution, leveraging Kotlin’s language features. Although not Android-specific, Koin offers extensions for efficient integration into Android applications, including support for Android Architecture Components and Kotlin Coroutines.",
-                        "resources": []
-                    },
-                    {
-                        "name": "Kodein",
-                        "recommendation-type": "opinion",
-                        "description": "Kodein is a recommended dependency injection framework for Android development. This Kotlin library simplifies dependency injection by allowing developers to bind various types of dependencies into containers or Kodein modules. It follows a 'Define in Use' principle, promoting idiomatic Kotlin code. Kodein works seamlessly with Android’s lifecycle and integrates easily with popular libraries such as Android Architecture Components.",
-                        "resources": []
                     }
+                    
+                    
                 ]
             },
             "Storage": {

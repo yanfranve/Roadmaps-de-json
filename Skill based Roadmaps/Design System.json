@@ -587,41 +587,50 @@
                                     "recommendation-type": "opinion",
                                     "description": "A monochrome version of your logo that looks good on top of photography or when it’s printed with a poor quality printer.",
                                     "resources": []
+                                },
+                                {
+                                    "name": "Small Use Guidance",
+                                    "recommendation-type": "opinion",
+                                    "description": "Your logo must perform well and be recognizable at all sizes. Tips for using your logo in these cases will minimize the risk of it being misused.",
+                                    "resources": [
+                                        {
+                                            "name": "Everything You Need to Know About Logo Usage Guidelines",
+                                            "link": "https://www.tailorbrands.com/blog/logo-usage-guidelines"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Placement and Clearance Guidance",
+                                    "recommendation-type": "opinion",
+                                    "description": "Your logo must come with clear guidance on how to place it and how to preserve its space since it lives along with other content.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Usage Guidance",
+                                    "recommendation-type": "opinion",
+                                    "description": "These are the logo crimes, providing contextual examples of what to (not) do with your logo.",
+                                    "resources": []
+                                },
+                                {
+                                    "name": "Different File Formats",
+                                    "recommendation-type": "opinion",
+                                    "description": "Providing a variety of formats for the vector version of your logo will make it easier for others to work and prevent anyone from redrawing it.",
+                                    "resources": [
+                                        {
+                                            "name": "What is a Vector Logo and Why You Need It",
+                                            "link": "https://www.renderforest.com/blog/vector-logo"
+                                        }
+                                    ]
                                 }
                             ]
                         }
                     },
                     {
-                        "name": "Small Use Guidance",
-                        "recommendation-type": "opinion",
-                        "description": "Your logo must perform well and be recognizable at all sizes. Tips for using your logo in these cases will minimize the risk of it being misused.",
+                        "name": "visit DevOps Roadmap ",
                         "resources": [
                             {
-                                "name": "Everything You Need to Know About Logo Usage Guidelines",
-                                "link": "https://www.tailorbrands.com/blog/logo-usage-guidelines"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Placement and Clearance Guidance",
-                        "recommendation-type": "opinion",
-                        "description": "Your logo must come with clear guidance on how to place it and how to preserve its space since it lives along with other content.",
-                        "resources": []
-                    },
-                    {
-                        "name": "Usage Guidance",
-                        "recommendation-type": "opinion",
-                        "description": "These are the logo crimes, providing contextual examples of what to (not) do with your logo.",
-                        "resources": []
-                    },
-                    {
-                        "name": "Different File Formats",
-                        "recommendation-type": "opinion",
-                        "description": "Providing a variety of formats for the vector version of your logo will make it easier for others to work and prevent anyone from redrawing it.",
-                        "resources": [
-                            {
-                                "name": "What is a Vector Logo and Why You Need It",
-                                "link": "https://www.renderforest.com/blog/vector-logo"
+                                "name": "DevOps Roadmap",
+                                "link": "https://roadmap.sh/devops"
                             }
                         ]
                     }

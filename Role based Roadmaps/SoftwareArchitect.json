@@ -1375,149 +1375,147 @@
             },
             "Operations knowledge": {
                 "order": 16,
-                "module bundlers": {
-                    "options": [
-                        {
-                            "name": "Infrastructure as Code",
-                            "recommendation-type": "opinion",
-                            "description": "Sometimes referred to as IaC, this section refers to the techniques and tools used to define infrastructure, typically in a markup language like YAML or JSON. Infrastructure as code allows DevOps Engineers to use the same workflows used by software developers to version, roll back, and otherwise manage changes.The term Infrastructure as Code encompasses everything from bootstrapping to configuration to orchestration, and it is considered a best practice in the industry to manage all infrastructure as code. This technique precipitated the explosion in system complexity seen in modern DevOps organizations.Visit the following resources to learn more:",
-                            "resources": [
-                                {
-                                    "name": "What is Infrastructure as Code?",
-                                    "link": "https://www.youtube.com/watch?v=zWw2wuiKd5o"
-                                },
-                                {
-                                    "name": "What is Infrastructure as Code? Difference of Infrastructure as Code Tools",
-                                    "link": "https://www.youtube.com/watch?v=POPP2WTJ8es"
-                                },
-                                {
-                                    "name": "Video introduction to infrastructure as code",
-                                    "link": "https://www.youtube.com/watch?v=zWw2wuiKd5o"
-                                },
-                                {
-                                    "name": "GUIs, CLI, APIs: Learn Basic Terms of Infrastructure-as-Code",
-                                    "link": "https://thenewstack.io/guis-cli-apis-learn-basic-terms-of-infrastructure-as-code/"
-                                },
-                                {
-                                    "name": "What is infrastructure as code",
-                                    "link": "https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Cloud providers",
-                            "recommendation-type": "opinion",
-                            "description": "",
-                            "resources": []
-                        },
-                        {
-                            "name": "Serverless Concepts",
-                            "recommendation-type": "opinion",
-                            "description": "Serverless is a cloud-native development model that allows developers to build and run applications without having to manage servers. There are still servers in serverless, but they are abstracted away from app development. A cloud provider handles the routine work of provisioning, maintaining, and scaling the server infrastructure.",
-                            "resources": [
-                                {
-                                    "name": "What is serverless?",
-                                    "link": "https://www.redhat.com/en/topics/cloud-native-apps/what-is-serverless"
-                                },
-                                {
-                                    "name": "What is serverless computing?",
-                                    "link": "https://www.cloudflare.com/learning/serverless/what-is-serverless/"
-                                },
-                                {
-                                    "name": "Serverless on AWS",
-                                    "link": "https://aws.amazon.com/serverless/"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Linux / Unix",
-                            "recommendation-type": "opinion",
-                            "description": "Knowledge of UNIX is a must for almost all kinds of development as most of the codes that you write are most likely going to be finally deployed on a UNIX/Linux machine. Linux has been the backbone of the free and open source software movement, providing a simple and elegant operating system for almost all your needs.",
-                            "resources": [
-                                {
-                                    "name": "Linux Operating System - Crash Course",
-                                    "link": "https://www.youtube.com/watch?v=ROjZy1WbCIA"
-                                },
-                                {
-                                    "name": "Coursera - Unix Courses",
-                                    "link": "https://www.coursera.org/courses?query=unix"
-                                },
-                                {
-                                    "name": "Linux Basics",
-                                    "link": "https://dev.to/rudrakshi99/linux-basics-2onj"
-                                },
-                                {
-                                    "name": "Unix / Linux Tutorial",
-                                    "link": "https://www.tutorialspoint.com/unix/index.htm"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Service Mesh",
-                            "recommendation-type": "opinion",
-                            "description": "A Service Mesh is a dedicated infrastructure layer for handling service-to-service communication. It’s responsible for the reliable delivery of requests through the complex topology of services that comprise a modern, cloud-native application.",
-                            "resources": [
-                                {
-                                    "name": "Service Mesh explained in 15 Minutes",
-                                    "link": "https://youtu.be/16fgzklcF7Y"
-                                },
-                                {
-                                    "name": "Red Hat - What is a Service Mesh?",
-                                    "link": "https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh"
-                                },
-                                {
-                                    "name": "Kubernetes Service Mesh - Blog Post",
-                                    "link": "https://platform9.com/blog/kubernetes-service-mesh-a-comparison-of-istio-linkerd-and-consul/"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "CI/CD",
-                            "recommendation-type": "opinion",
-                            "description": "CI/CD is a method to frequently deliver apps to customers by introducing automation into the stages of app development. The main concepts attributed to CI/CD are continuous integration, continuous delivery, and continuous deployment. CI/CD is a solution to the problems integrating new code can cause for development and operations teams (AKA “integration hell”).",
-                            "resources": [
-                                {
-                                    "name": "What is CI/CD?",
-                                    "link": "https://www.redhat.com/en/topics/devops/what-is-ci-cd"
-                                },
-                                {
-                                    "name": "What is CI/CD? Continuous integration and continuous delivery explained",
-                                    "link": "https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Containers",
-                            "recommendation-type": "opinion",
-                            "description": "Containers are a construct in which croups, namespaces, and chroot are used to fully encapsulate and isolate a process. This encapsulated process, called a container image, shares the kernel of the host with other containers, allowing containers to be significantly smaller and faster than virtual machines.These images are designed for portability, allowing for full local testing of a static image, and easy deployment to a container management platform.Visit the following resources to learn more:",
-                            "resources": [
-                                {
-                                    "name": "What are Containers?",
-                                    "link": "https://cloud.google.com/learn/what-are-containers"
-                                },
-                                {
-                                    "name": "What is a Container?",
-                                    "link": "https://roadmap.sh/software-architect#:~:text=What%20is%20a%20Container%3F"
-                                },
-                                {
-                                    "name": "Articles about Containers - The New Stack",
-                                    "link": "https://thenewstack.io/category/containers/"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Cloud Design Patterns",
-                            "recommendation-type": "opinion",
-                            "description": "These design patterns are useful for building reliable, scalable, secure applications in the cloud. The link below has cloud design patterns where each pattern describes the problem that the pattern addresses, considerations for applying the pattern, and an example based on Microsoft Azure.",
-                            "resources": [
-                                {
-                                    "name": "Cloud Design Patterns",
-                                    "link": "https://learn.microsoft.com/en-us/azure/architecture/patterns/"
-                                }
-                            ]
-                        }
-                    ]
-                }
+                "options": [
+                    {
+                        "name": "Infrastructure as Code",
+                        "recommendation-type": "opinion",
+                        "description": "Sometimes referred to as IaC, this section refers to the techniques and tools used to define infrastructure, typically in a markup language like YAML or JSON. Infrastructure as code allows DevOps Engineers to use the same workflows used by software developers to version, roll back, and otherwise manage changes.The term Infrastructure as Code encompasses everything from bootstrapping to configuration to orchestration, and it is considered a best practice in the industry to manage all infrastructure as code. This technique precipitated the explosion in system complexity seen in modern DevOps organizations.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What is Infrastructure as Code?",
+                                "link": "https://www.youtube.com/watch?v=zWw2wuiKd5o"
+                            },
+                            {
+                                "name": "What is Infrastructure as Code? Difference of Infrastructure as Code Tools",
+                                "link": "https://www.youtube.com/watch?v=POPP2WTJ8es"
+                            },
+                            {
+                                "name": "Video introduction to infrastructure as code",
+                                "link": "https://www.youtube.com/watch?v=zWw2wuiKd5o"
+                            },
+                            {
+                                "name": "GUIs, CLI, APIs: Learn Basic Terms of Infrastructure-as-Code",
+                                "link": "https://thenewstack.io/guis-cli-apis-learn-basic-terms-of-infrastructure-as-code/"
+                            },
+                            {
+                                "name": "What is infrastructure as code",
+                                "link": "https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cloud providers",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": []
+                    },
+                    {
+                        "name": "Serverless Concepts",
+                        "recommendation-type": "opinion",
+                        "description": "Serverless is a cloud-native development model that allows developers to build and run applications without having to manage servers. There are still servers in serverless, but they are abstracted away from app development. A cloud provider handles the routine work of provisioning, maintaining, and scaling the server infrastructure.",
+                        "resources": [
+                            {
+                                "name": "What is serverless?",
+                                "link": "https://www.redhat.com/en/topics/cloud-native-apps/what-is-serverless"
+                            },
+                            {
+                                "name": "What is serverless computing?",
+                                "link": "https://www.cloudflare.com/learning/serverless/what-is-serverless/"
+                            },
+                            {
+                                "name": "Serverless on AWS",
+                                "link": "https://aws.amazon.com/serverless/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Linux / Unix",
+                        "recommendation-type": "opinion",
+                        "description": "Knowledge of UNIX is a must for almost all kinds of development as most of the codes that you write are most likely going to be finally deployed on a UNIX/Linux machine. Linux has been the backbone of the free and open source software movement, providing a simple and elegant operating system for almost all your needs.",
+                        "resources": [
+                            {
+                                "name": "Linux Operating System - Crash Course",
+                                "link": "https://www.youtube.com/watch?v=ROjZy1WbCIA"
+                            },
+                            {
+                                "name": "Coursera - Unix Courses",
+                                "link": "https://www.coursera.org/courses?query=unix"
+                            },
+                            {
+                                "name": "Linux Basics",
+                                "link": "https://dev.to/rudrakshi99/linux-basics-2onj"
+                            },
+                            {
+                                "name": "Unix / Linux Tutorial",
+                                "link": "https://www.tutorialspoint.com/unix/index.htm"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Service Mesh",
+                        "recommendation-type": "opinion",
+                        "description": "A Service Mesh is a dedicated infrastructure layer for handling service-to-service communication. It’s responsible for the reliable delivery of requests through the complex topology of services that comprise a modern, cloud-native application.",
+                        "resources": [
+                            {
+                                "name": "Service Mesh explained in 15 Minutes",
+                                "link": "https://youtu.be/16fgzklcF7Y"
+                            },
+                            {
+                                "name": "Red Hat - What is a Service Mesh?",
+                                "link": "https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh"
+                            },
+                            {
+                                "name": "Kubernetes Service Mesh - Blog Post",
+                                "link": "https://platform9.com/blog/kubernetes-service-mesh-a-comparison-of-istio-linkerd-and-consul/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "CI/CD",
+                        "recommendation-type": "opinion",
+                        "description": "CI/CD is a method to frequently deliver apps to customers by introducing automation into the stages of app development. The main concepts attributed to CI/CD are continuous integration, continuous delivery, and continuous deployment. CI/CD is a solution to the problems integrating new code can cause for development and operations teams (AKA “integration hell”).",
+                        "resources": [
+                            {
+                                "name": "What is CI/CD?",
+                                "link": "https://www.redhat.com/en/topics/devops/what-is-ci-cd"
+                            },
+                            {
+                                "name": "What is CI/CD? Continuous integration and continuous delivery explained",
+                                "link": "https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Containers",
+                        "recommendation-type": "opinion",
+                        "description": "Containers are a construct in which croups, namespaces, and chroot are used to fully encapsulate and isolate a process. This encapsulated process, called a container image, shares the kernel of the host with other containers, allowing containers to be significantly smaller and faster than virtual machines.These images are designed for portability, allowing for full local testing of a static image, and easy deployment to a container management platform.Visit the following resources to learn more:",
+                        "resources": [
+                            {
+                                "name": "What are Containers?",
+                                "link": "https://cloud.google.com/learn/what-are-containers"
+                            },
+                            {
+                                "name": "What is a Container?",
+                                "link": "https://roadmap.sh/software-architect#:~:text=What%20is%20a%20Container%3F"
+                            },
+                            {
+                                "name": "Articles about Containers - The New Stack",
+                                "link": "https://thenewstack.io/category/containers/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cloud Design Patterns",
+                        "recommendation-type": "opinion",
+                        "description": "These design patterns are useful for building reliable, scalable, secure applications in the cloud. The link below has cloud design patterns where each pattern describes the problem that the pattern addresses, considerations for applying the pattern, and an example based on Microsoft Azure.",
+                        "resources": [
+                            {
+                                "name": "Cloud Design Patterns",
+                                "link": "https://learn.microsoft.com/en-us/azure/architecture/patterns/"
+                            }
+                        ]
+                    }
+                ]
             },
             "Enterprise software": {
                 "order": 17,
@@ -1547,44 +1545,7 @@
                         "name": "Emc dms",
                         "recommendation-type": "opinion",
                         "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
+                        "resources": []
                     },
                     {
                         "name": "IBM BPM",
