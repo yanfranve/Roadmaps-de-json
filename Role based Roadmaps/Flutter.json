@@ -144,15 +144,15 @@
             "resources": [
               {
                 "name": "The Flutter command-line tool",
-                "link": ""
+                "link": "https://docs.flutter.dev/reference/flutter-cli"
               },
               {
                 "name": "CLI Packages in Flutter",
-                "link": ""
+                "link": "https://dart.dev/server/libraries#command-line-packages"
               },
               {
                 "name": "Get started with Flutter CLI",
-                "link": ""
+                "link": "https://dart.dev/tutorials/server/get-started"
               }
             ]
           },
