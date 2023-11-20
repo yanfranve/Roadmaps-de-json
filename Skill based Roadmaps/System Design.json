@@ -1,6 +1,7 @@
 {
-  "roles": {
-    "Frontend": {
+  "Skill": {
+    "System Design": {
+      "description": "Everything you need to know about designing large scale systems. ",
       "A": {
         "description": " ",
         "resources": [],
@@ -10,186 +11,116 @@
       "B": {
         "description": " ",
         "resources": [],
-        "order": 1,
+        "order": 2,
         "options": []
       },
       "C": {
         "description": " ",
         "resources": [],
-        "order": 1,
+        "order": 3,
         "options": []
       },
       "D": {
         "description": " ",
         "resources": [],
-        "order": 1,
+        "order": 4,
         "options": []
       },
       "E": {
         "description": " ",
         "resources": [],
-        "order": 1,
+        "order": 5,
         "options": []
       },
       "F": {
         "description": " ",
         "resources": [],
-        "order": 1,
+        "order": 6,
         "options": []
       },
       "G": {
         "description": " ",
         "resources": [],
-        "order": 1,
+        "order": 7,
         "options": []
       },
       "H": {
         "description": " ",
         "resources": [],
-        "order": 1,
+        "order": 8,
         "options": []
       },
       "I": {
         "description": " ",
         "resources": [],
-        "order": 1,
+        "order": 9,
         "options": []
       },
       "J": {
         "description": " ",
         "resources": [],
-        "order": 1,
-        "options": []
-      },
-      "K": {
-        "options": [
-          {
-            "K": {
-              "description": " ",
-              "resources": [],
-              "options": []
-            }
-          }
-        ]
-      },
-      "L": {
-        "description": " ",
-        "resources": [],
-        "recommendation-type": "opinion",
-        "recommendation-type": "not strict",
-        "recommendation-type": "Pick this or purple",
-        "recommendation-type": "wouidn't",
-        "order": 1,
-        "options": []
-      },
-      "LL": {
+        "order": 10,
         "options": []
       },
       "M": {
         "description": " ",
         "resources": [],
-        "order": 1,
+        "order": 11,
         "options": []
       },
       "N": {
         "description": " ",
         "resources": [],
-        "order": 1,
+        "order": 12,
         "options": []
       },
       "Ñ": {
         "description": " ",
         "resources": [],
-        "order": 1,
+        "order": 13,
         "options": []
       },
       "O": {
         "description": " ",
         "resources": [],
-        "order": 1,
+        "order": 14,
         "options": []
       },
       "P": {
         "description": " ",
         "resources": [],
-        "order": 1,
+        "order": 15,
         "options": []
       },
       "Q": {
         "description": " ",
         "resources": [],
-        "order": 1,
+        "order": 16,
         "options": []
       },
       "R": {
         "description": " ",
         "resources": [],
-        "order": 1,
+        "order": 17,
         "options": []
       },
       "S": {
         "description": " ",
         "resources": [],
-        "order": 1,
+        "order": 18,
         "options": []
       },
       "T": {
         "description": " ",
         "resources": [],
-        "order": 1,
-        "options": [
-          {
-            "K": {
-              "options": []
-            }
-          }
-        ]
+        "order": 19,
+        "options": []
       },
       "U": {
         "description": " ",
         "resources": [],
-        "order": 1,
+        "order": 20,
         "options": []
-      },
-      "V": {
-        "description": " ",
-        "resources": [],
-        "order": 1,
-        "options": []
-      },
-      " ": {
-        "description": " ",
-        "resources": [
-          {
-            "name": "",
-            "link": ""
-          }
-        ],
-        "order": 1,
-        "options": [
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": ""
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": []
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          }
-        ]
       }
     }
   }
