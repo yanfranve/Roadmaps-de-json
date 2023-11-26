@@ -1,2132 +1,1956 @@
 {
-    "roles": {
-        "Blockchain": {
-            "Basic Blockchain Knowledge": {
-                "order": 1,
-                "options": [
-                    {
-                        "name": "How does the internet work?",
-                        "recommendation-type": "opinion",
-                        "description": "The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols. Visit the following resources to learn more",
-                        "resources": [
-                            {
-                                "name": "How does the Internet Work?",
-                                "link": "https://cs.fyi/guide/how-does-internet-work"
-                            },
-                            {
-                                "name": "How Does the Internet Work? MDN Docs",
-                                "link": "URL_de_MDN_Docs"
-                            },
-                            {
-                                "name": "Introduction to Internet",
-                                "link": "https://roadmap.sh/guides/what-is-internet"
-                            },
-                            {
-                                "name": "How does the Internet work? ",
-                                "link": "https://www.youtube.com/watch?v=TNQsmPf24go"
-                            },
-                            {
-                                "name": "How the Internet Works in 5 Minutes",
-                                "link": "https://www.youtube.com/watch?v=7_LPdttKXPc"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "What is HTTP?",
-                        "recommendation-type": "opinion",
-                        "description": "HTTP is the TCP/IP based application layer communication protocol which standardizes how the client and server communicate with each other. HTTP follows a classical 'Client-Server model' with a client opening a connection request, then waiting until it receives a response. HTTP is a stateless protocol, which means that the server does not keep any data (state) between two requests. Visit the following resources to learn more:",
-                        "resources": [
-                            {
-                                "name": "Everything you need to know about HTTP",
-                                "link": "https://cs.fyi/guide/http-in-depth"
-                            },
-                            {
-                                "name": "What is HTTP?",
-                                "link": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/"
-                            },
-                            {
-                                "name": "How HTTPS Works …in a comic!",
-                                "link": "https://howhttps.works/"
-                            },
-                            {
-                                "name": "An overview of HTTP",
-                                "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
-                            },
-                            {
-                                "name": "HTTP/3 From A To Z: Core Concepts",
-                                "link": "https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/"
-                            },
-                            {
-                                "name": "HTTP/3 Is Now a Standard: Why Use It and How to Get Started",
-                                "link": "https://thenewstack.io/http-3-is-now-a-standard-why-use-it-and-how-to-get-started/"
-                            },
-                            {
-                                "name": "HTTP Crash Course & Exploration",
-                                "link": "https://www.youtube.com/watch?v=iYM2zFP3Zn0"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Domain Name",
-                        "recommendation-type": "opinion",
-                        "description": "A domain name is a unique, easy-to-remember address used to access websites, such as ‘google.com’, and ‘facebook.com’. Users can connect to websites using domain names thanks to the Domain Name System (DNS).Visit the following resources to learn more:",
-                        "resources": [
-                            {
-                                "name": "What is a Domain Name?",
-                                "link": "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name"
-                            },
-                            {
-                                "name": "What is a Domain Name? | Domain name vs. URL",
-                                "link": "https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/"
-                            },
-                            {
-                                "name": "A Beginners Guide to How Domain Names Work",
-                                "link": "https://www.youtube.com/watch?v=Y4cRx19nhJk"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "What is hosting?",
-                        "recommendation-type": "opinion",
-                        "description": "Web hosting is an online service that allows you to publish your website files onto the internet. So, anyone who has access to the internet has access to your website.Visit the following resources to learn more:",
-                        "resources": [
-                            {
-                                "name": "What Is Web Hosting? Explained",
-                                "link": "https://www.youtube.com/watch?v=htbY9-yggB0"
-                            },
-                            {
-                                "name": "Different Types of Web Hosting Explained",
-                                "link": "https://www.youtube.com/watch?v=AXVZYzw8geg"
-                            },
-                            {
-                                "name": "Where to Host a Fullstack Project on a Budget",
-                                "link": "https://www.youtube.com/watch?v=Kx_1NYYJS7Q"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "DNS and how it works?",
-                        "recommendation-type": "opinion",
-                        "description": "The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources.Visit the following resources to learn more:",
-                        "resources": [
-                            {
-                                "name": "What is DNS?",
-                                "link": "https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/"
-                            },
-                            {
-                                "name": "Mess with DNS - DNS Playground",
-                                "link": "https://messwithdns.net/"
-                            },
-                            {
-                                "name": "How DNS works (comic)",
-                                "link": "https://howdns.works/"
-                            },
-                            {
-                                "name": "DNS and How does it Work?",
-                                "link": "https://www.youtube.com/watch?v=Wj0od2ag5sk"
-                            },
-                            {
-                                "name": "DNS Records",
-                                "link": "https://www.youtube.com/watch?v=7lxgpKh_fRY"
-                            },
-                            {
-                                "name": "When to add glue records to DNS settings",
-                                "link": "https://www.youtube.com/watch?v=e48AyJOA9W8"
-                            },
-                            {
-                                "name": "DNS Records for Newbies - How To Manage Website Records",
-                                "link": "https://www.youtube.com/watch?v=YV5tkQYcvfg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Browsers and how they work?",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "How Browsers Work",
-                                "link": "https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/"
-                            },
-                            {
-                                "name": "Role of Rendering Engine in Browsers",
-                                "link": "https://www.browserstack.com/guide/browser-rendering-engine"
-                            },
-                            {
-                                "name": "Populating the Page: How Browsers Work",
-                                "link": "https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work"
-                            },
-                            {
-                                "name": "How Do Web Browsers Work?",
-                                "link": "https://www.youtube.com/watch?v=WjDrMKZWCt0"
-                            }
-                        ]
-                    }
-                ]
-            },
-            "General Blockchain knowledge": {
-                "order": 2,
-                "options": [
-                    {
-                        "name": "Learn the basics",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "W3Schools: Learn HTML",
-                                "link": "https://www.w3schools.com/html/html_intro.asp"
-                            },
-                            {
-                                "name": "MDN Docs: Getting Started with HTML",
-                                "link": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started"
-                            },
-                            {
-                                "name": "web.dev: Learn HTML",
-                                "link": "https://web.dev/learn/html"
-                            },
-                            {
-                                "name": "HTML Full Course - Build a Website Tutorial",
-                                "link": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
-                            },
-                            {
-                                "name": "HTML Tutorial for Beginners: HTML Crash Course",
-                                "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
-                            },
-                            {
-                                "name": "HTML Cheatsheet",
-                                "link": "https://htmlcheatsheet.com/"
-                            },
-                            {
-                                "name": "Scaler: HTML",
-                                "link": "https://www.scaler.com/topics/html"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
-            },
-            "Oracles": {
-                "order": 3,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
-            },
-            "Smart Contracts": {
-                "order": 4,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
-            },
-            "Smart Contract Frameworks": {
-                "order": 5,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
-            },
-            "Security": {
-                "order": 6,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
-            },
-            "Management Platforms": {
-                "order": 7,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
-            },
-            "Version Control Systems": {
-                "order": 8,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
-            },
-            "Repo Hosting Services": {
-                "order": 9,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
-            },
-            "dApps-ecentralized Applications": {
-                "order": 10,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
-            },
-            "Building for Scale": {
-                "order": 11,
-                "options": [
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "",
-                        "recommendation-type": "opinion",
-                        "description": "",
-                        "resources": [
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            },
-                            {
-                                "name": "",
-                                "link": ""
-                            }
-                        ]
-                    }
-                ]
-            },
-            "Keep learning": {
-                "order": 12,
-                "module bundlers": {
-                    "options": [
-                        {
-                            "name": "",
-                            "recommendation-type": "opinion",
-                            "description": "",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ]
-                        },
-                        {
-                            "name": "",
-                            "recommendation-type": "opinion",
-                            "description": "",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ]
-                        },
-                        {
-                            "name": "",
-                            "recommendation-type": "opinion",
-                            "description": "",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ]
-                        },
-                        {
-                            "name": "",
-                            "recommendation-type": "opinion",
-                            "description": "",
-                            "resources": [
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                },
-                                {
-                                    "name": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+  "roles": {
+    "Blockchain": {
+      "description": " Step by step guide to becoming a blockchain developer in 2023.",
+      "Basic Blockchain Knowledge": {
+        "description": "A blockchain is a decentralized, distributed, and oftentimes public, digital ledger consisting of records called blocks that is used to record transactions across many computers so that any involved block cannot be altered retroactively, without the alteration of all subsequent blocks.",
+        "resources": [
+          {
+            "name": "Introduction to Blockchain",
+            "link": "https://www.blockchain.education/blockchain101/blockchain"
+          },
+          {
+            "name": "Blockchain Explained",
+            "link": "https://www.investopedia.com/terms/b/blockchain.asp"
+          },
+          {
+            "name": "How does a blockchain work?",
+            "link": "https://youtu.be/SSo_EIwHSd4"
+          },
+          {
+            "name": "What Is a Blockchain? | Blockchain Basics for Developers",
+            "link": "https://youtu.be/4ff9esY_4aU"
+          },
+          {
+            "name": "An Elementary and Slightly Distilled Introduction to Blockchain",
+            "link": "https://markpetherbridge.co.uk/blog/an-elementary-and-slightly-distilled-introduction-to-blockchain/"
+          }
+        ],
+        "order": 1,
+        "options": [
+          {
+            "name": "Blockchain",
+            "recommendation-type": "opinion",
+            "description": "A blockchain is a decentralized, distributed, and oftentimes public, digital ledger consisting of records called blocks that is used to record transactions across many computers so that any involved block cannot be altered retroactively, without the alteration of all subsequent blocks.",
+            "resources": [
+              {
+                "name": "Blockchain Explained",
+                "link": "https://www.investopedia.com/terms/b/blockchain.asp"
+              },
+              {
+                "name": "What is decentralization?",
+                "link": "https://aws.amazon.com/blockchain/decentralization-in-blockchain/"
+              },
+              {
+                "name": "How does a blockchain work?",
+                "link": "https://youtu.be/SSo_EIwHSd4"
+              },
+              {
+                "name": "What Is a Blockchain? | Blockchain Basics for Developers",
+                "link": "https://youtu.be/4ff9esY_4aU"
+              }
+            ]
+          },
+          {
+            "name": "Decentralization",
+            "recommendation-type": "opinion",
+            "description": "In blockchain, decentralization refers to the transfer of control and decision-making from a centralized entity to a distributed network. Decentralized networks strive to reduce the level of trust that participants must place in one another, and deter their ability to exert authority or control over one another in ways that degrade the functionality of the network.",
+            "resources": [
+              {
+                "name": "What is decentralization?",
+                "link": "https://aws.amazon.com/blockchain/decentralization-in-blockchain/"
+              },
+              {
+                "name": "What is Decentralization in Blockchain?",
+                "link": "https://www.blockchain-council.org/blockchain/what-is-decentralization-in-blockchain/"
+              }
+            ]
+          },
+          {
+            "name": "Why it matters",
+            "recommendation-type": "opinion",
+            "description": "The nature of blockchain allows for trustless systems to be built on top of it. Users don’t rely on a centralized group of people, such as a bank, to make decisions and allow transactions to flow through. Because the system is decentralized, users know that transactions will never be denied for non-custodial reasons. This decentralization enables use-cases that were previously impossible, such as parametric insurance, decentralized finance, and decentralized organizations (DAOs), among a few.This allows developers to build products that provide immediate value without having to go through a bureaucratic process of applications, approvals, and general red tape.",
+            "resources": [
+              {
+                "name": "Why Blockchain?",
+                "link": "https://www.blockchain.education/blockchain101/blockchain"
+              },
+              {
+                "name": "What Is The Blockchain And Why Does It Matter?",
+                "link": "https://www.forbes.com/sites/theyec/2020/05/18/what-is-the-blockchain-and-why-does-it-matter/"
+              },
+              {
+                "name": "Web3/Crypto: Why Bother?",
+                "link": "https://continuations.com/post/671863718643105792/web3crypto-why-bother"
+              },
+              {
+                "name": "Why is Blockchain Important and Why Does it Matter",
+                "link": "https://www.simplilearn.com/tutorials/blockchain-tutorial/why-is-blockchain-important"
+              }
+            ]
+          },
+          {
+            "name": "Blockchain Structure",
+            "recommendation-type": "opinion",
+            "description": "The blockchain gets its name from its underlying structure. The blockchain is organized as a series of 'blocks' that are 'chained' together. Understanding blockchain security requires understanding how the blockchain is put together. This requires knowing what the blocks and chains of blockchain are and why they are designed the way that they are.",
+            "resources": [
+              {
+                "name": "Blockchain Architecture Basics: Components, Structure, Benefits & Creation",
+                "link": "https://mlsdev.com/blog/156-how-to-build-your-own-blockchain-architecture"
+              },
+              {
+                "name": "Blockchain Architecture 101: Components, Structure, and Benefits",
+                "link": "https://komodoplatform.com/en/academy/blockchain-architecture-101/"
+              },
+              {
+                "name": "Blockchain structure",
+                "link": "https://resources.infosecinstitute.com/topic/blockchain-structure/"
+              },
+              {
+                "name": "Blockchain Basics | Coursera",
+                "link": "https://www.coursera.org/lecture/blockchain-basics/blockchain-structure-5rj9Z"
+              }
+            ]
+          },
+          {
+            "name": "Basic Blockchain Operations",
+            "recommendation-type": "opinion",
+            "description": "Operations in decentralized networks are the responsibility of the peer participants and their respective computational nodes. These are specific for each type of blockchain.",
+            "resources": [
+              {
+                "name": "Blockchain Basics: Structure, Operations, and the Bitcoin Blockchain",
+                "link": "https://www.mlq.ai/blockchain-basics/"
+              },
+              {
+                "name": "How Bitcoin blockchain actually work (Video)",
+                "link": "https://www.youtube.com/watch?v=bBC-nXj3Ng4"
+              },
+              {
+                "name": "Bitcoin blockchain transactions | Bitcoin Developer",
+                "link": "https://developer.bitcoin.org/reference/transactions.html"
+              },
+              {
+                "name": "Ethereum blockchain transactions | ethereum.org",
+                "link": "https://ethereum.org/en/developers/docs/transactions/"
+              },
+              {
+                "name": "Blockchain Basics | Coursera",
+                "link": "https://www.coursera.org/lecture/blockchain-basics/basic-operations-OxILB"
+              }
+            ]
+          },
+          {
+            "name": "Application and uses of Blockchain technology",
+            "recommendation-type": "opinion",
+            "description": "Blockchain applications go far beyond cryptocurrency and bitcoin. With its ability to create more transparency and fairness while also saving businesses time and money, the technology is impacting a variety of sectors in ways that range from how contracts are enforced to making government work more efficiently.",
+            "resources": [
+              {
+                "name": "Blockchain Use Cases and Applications by Industry",
+                "link": "https://consensys.net/blockchain-use-cases/"
+              },
+              {
+                "name": "Top 10 Real-World Applications Of Blockchain Technology",
+                "link": "https://www.blockchain-council.org/blockchain/top-10-real-world-applications-of-blockchain-technology/"
+              },
+              {
+                "name": "Ethereum blockchain transactions | ethereum.org",
+                "link": "https://ethereum.org/en/developers/docs/transactions/"
+              },
+              {
+                "name": "E34 Blockchain Applications and Real-World Use Cases Disrupting the Status Quo",
+                "link": "https://builtin.com/blockchain/blockchain-applications"
+              }
+            ]
+          }
+        ]
+      },
+      "General Blockchain knowledge": {
+        "description": "Visit the following resources to learn more:",
+        "resources": [
+          {
+            "name": "The Complete Course On Understanding Blockchain Technology",
+            "link": "https://www.udemy.com/course/understanding-blockchain-technology/"
+          },
+          {
+            "name": "Blockchain Technology Explained",
+            "link": "https://youtu.be/qOVAbKKSH10"
+          }
+        ],
+        "order": 2,
+        "options": [
+          {
+            "name": "Storage",
+            "recommendation-type": "opinion",
+            "description": "Unlike a centralized server operated by a single company or organization, decentralized storage systems consist of a peer-to-peer network of user-operators who hold a portion of the overall data, creating a resilient file storage sharing system.",
+            "resources": [
+              {
+                "name": "Blockchain Storage",
+                "link": "https://www.techtarget.com/searchstorage/definition/blockchain-storage"
+              },
+              {
+                "name": "Decentralized Storage",
+                "link": "https://ethereum.org/en/developers/docs/storage/"
+              },
+              {
+                "name": "How IPFS works",
+                "link": "https://docs.ipfs.tech/concepts/how-ipfs-works/"
+              }
+            ]
+          },
+          {
+            "name": "Mining and incentive models",
+            "recommendation-type": "opinion",
+            "description": "Mining is the process of adding transaction details to the Blockchain, like sender address, hash value, etc. The Blockchain contains all the history of the transactions that have taken place in the past for record purposes and it is stored in such a manner that it can’t be manipulated.\n\nAn Incentive is basically a reward given to a Blockchain Miner for speeding up the transactions and making correct decisions while processing the complete transaction securely.",
+            "resources": [
+              {
+                "name": "Blockchain Incentives to Miners",
+                "link": "https://www.geeksforgeeks.org/blockchain-incentives-to-miners/"
+              },
+              {
+                "name": "Ethereum Consensus Mechanisms",
+                "link": "https://ethereum.org/en/developers/docs/consensus-mechanisms/"
+              },
+              {
+                "name": "Solana Staking Rewards",
+                "link": "https://docs.solana.com/implemented-proposals/staking-rewards"
+              }
+            ]
+          },
+          {
+            "name": "Decentralization vs trust",
+            "recommendation-type": "opinion",
+            "description": "Blockchains, cryptocurrency, smart contracts, and oracles have emerged as new technologies for coordinating social and economic activities in a more secure, transparent, and accessible manner. Most importantly, these technologies are revealing the power of cryptographic guarantees—what we often call cryptographic truth—in restoring users’ trust in everyday interactions.",
+            "resources": [
+              {
+                "name": "What Crypto Is Really About",
+                "link": "https://blog.chain.link/what-crypto-is-really-about/"
+              },
+              {
+                "name": "Ethereum Consensus Mechanisms",
+                "link": "https://ethereum.org/en/developers/docs/consensus-mechanisms/"
+              },
+              {
+                "name": "The Superiority of Cryptographic Truth",
+                "link": "https://youtu.be/AEtBPbmIRKQ"
+              }
+            ]
+          },
+          {
+            "name": "Blockchain forking",
+            "recommendation-type": "opinion",
+            "description": "A fork happens whenever a community makes a change to the blockchain’s protocol or basic set of rules.",
+            "resources": [
+              {
+                "name": "Blockchain Fork",
+                "link": "https://en.wikipedia.org/wiki/Fork_(blockchain)"
+              },
+              {
+                "name": "What is a fork?",
+                "link": "https://www.coinbase.com/learn/crypto-basics/what-is-a-fork"
+              },
+              {
+                "name": "What Is a Hard Fork?",
+                "link": "https://www.investopedia.com/terms/h/hard-fork.asp"
+              },
+              {
+                "name": "Blockchain Forking",
+                "link": "https://www.youtube.com/watch?v=bu1gcyyfz7w"
+              }
+            ]
+          },
+          {
+            "name": "Cryptocurrencies",
+            "recommendation-type": "opinion",
+            "description": "A cryptocurrency, crypto-currency, or crypto is a digital currency designed to work as a medium of exchange through a blockchain, which is not reliant on any central authority, such as a government or bank, to uphold or maintain it.",
+            "resources": [
+              {
+                "name": "What Is Cryptocurrency?",
+                "link": "https://www.investopedia.com/terms/c/cryptocurrency.asp"
+              },
+              {
+                "name": "Cryptocurrency: What It Is and How It Works",
+                "link": "https://www.nerdwallet.com/article/investing/cryptocurrency"
+              },
+              {
+                "name": "How Cryptocurrency actually works.",
+                "link": "https://youtu.be/rYQgy8QDEBI"
+              }
+            ]
+          },
+          {
+            "name": "Cryptocurrency Wallets",
+            "recommendation-type": "opinion",
+            "description": "Visit the following resources to learn more:",
+            "resources": [
+              {
+                "name": "What is a Cryptocurrency Wallet?",
+                "link": "https://www.investopedia.com/terms/b/bitcoin-wallet.asp"
+              },
+              {
+                "name": "What is a Crypto Wallet? A Beginner’s Guide",
+                "link": "https://crypto.com/university/crypto-wallets"
+              }
+            ]
+          },
+          {
+            "name": "Cryptography",
+            "recommendation-type": "opinion",
+            "description": "Cryptography, or cryptology, is the practice and study of techniques for secure communication in the presence of adversarial behavior.",
+            "resources": [
+              {
+                "name": "Cryptography",
+                "link": "https://en.wikipedia.org/wiki/Cryptography"
+              },
+              {
+                "name": "What is Cryptography",
+                "link": "https://www.synopsys.com/glossary/what-is-cryptography.html"
+              },
+              {
+                "name": "Asymmetric Encryption - Simply explained",
+                "link": "https://www.youtube.com/watch?v=6_Cxj5WKpIw"
+              },
+              {
+                "name": "What is Cryptography?",
+                "link": "https://www.youtube.com/watch?v=6_Cxj5WKpIw"
+              },
+              {
+                "name": "Learn Cryptography",
+                "link": "https://www.youtube.com/watch?v=trHox1bN5es"
+              }
+            ]
+          },
+          {
+            "name": "Consensus protocols",
+            "recommendation-type": "opinion",
+            "description": "Consensus for blockchain is a procedure in which the peers of a Blockchain network reach agreement about the present state of the data in the network. Through this, consensus algorithms establish reliability and trust in the Blockchain network.",
+            "resources": [
+              {
+                "name": "Consensus Mechanisms in Blockchain: A Beginner’s Guide",
+                "link": "https://crypto.com/university/consensus-mechanisms-explained"
+              },
+              {
+                "name": "Consensus Mechanisms",
+                "link": "https://ethereum.org/en/developers/docs/consensus-mechanisms/"
+              },
+              {
+                "name": "What Is a Consensus Mechanism?",
+                "link": "https://www.coindesk.com/learn/what-is-a-consensus-mechanism/"
+              }
+            ]
+          },
+          {
+            "name": "Blockchain interoperability",
+            "recommendation-type": "opinion",
+            "description": "The concept of “blockchain interoperability” refers to the ability of different blockchain networks to exchange and leverage data between one another and to move unique types of digital assets between the networks’ respective blockchains.",
+            "resources": [
+              {
+                "name": "Cross-Chain Interoperability: What it Means for Blockchain",
+                "link": "https://www.gemini.com/cryptopedia/why-is-interoperability-important-for-blockchain"
+              },
+              {
+                "name": "Blockchain Interoperability: Why Is Cross Chain Technology Important?",
+                "link": "https://101blockchains.com/blockchain-interoperability/"
+              },
+              {
+                "name": "Blockchain Interoperability - Understanding Cross-Chain Technology",
+                "link": "https://www.blockchain-council.org/blockchain/blockchain-interoperability/"
+              }
+            ]
+          },
+          {
+            "Blockchains": {
+              "description": "Blockchain systems vary considerably in their design, particularly with regard to the consensus mechanisms used to perform the essential task of verifying network data.",
+              "resources": [
+                {
+                  "name": "Types of Blockchains: PoW, PoS, and Private",
+                  "link": "https://www.gemini.com/cryptopedia/blockchain-types-pow-pos-private"
+                },
+                {
+                  "name": "Types of Blockchain",
+                  "link": "https://www.geeksforgeeks.org/types-of-blockchain/"
                 }
+              ],
+              "options": [
+                {
+                  "name": "Solana",
+                  "recommendation-type": "opinion",
+                  "description": "Solana is a public blockchain platform with smart contract functionality. Its native cryptocurrency is SOL.",
+                  "resources": [
+                    {
+                      "name": "What is Solana, and how does it work?",
+                      "link": "https://cointelegraph.com/news/what-is-solana-and-how-does-it-work"
+                    },
+                    {
+                      "name": "Beginners Guide To Solana",
+                      "link": "https://solana.com/news/getting-started-with-solana-development"
+                    },
+                    {
+                      "name": "Solana Introduction",
+                      "link": "https://docs.solana.com/introduction"
+                    },
+                    {
+                      "name": "Solana Whitepaper",
+                      "link": "https://solana.com/solana-whitepaper.pdf"
+                    },
+                    {
+                      "name": "Solana Architecture",
+                      "link": "https://docs.solana.com/cluster/overview"
+                    },
+                    {
+                      "name": "Start Building Solana!",
+                      "link": "https://beta.solpg.io/?utm_source=solana.com"
+                    }
+                  ]
+                },
+                {
+                  "name": "The Open Network",
+                  "recommendation-type": "opinion",
+                  "description": "TON is a fully decentralized layer-1 blockchain designed by Telegram to onboard billions of users. It boasts ultra-fast transactions, tiny fees, easy-to-use apps, and is environmentally friendly.",
+                  "resources": [
+                    {
+                      "name": "TON Telegram integration highlights synergy of blockchain community",
+                      "link": "https://cointelegraph.com/news/ton-telegram-integration-highlights-synergy-of-blockchain-community"
+                    },
+                    {
+                      "name": "Start building on The Open Network",
+                      "link": "https://ton.org/dev"
+                    },
+                    {
+                      "name": "TON Introduction",
+                      "link": "https://ton.org/docs/learn/introduction"
+                    },
+                    {
+                      "name": "Blockchain analysis",
+                      "link": "https://ton.org/analysis"
+                    }
+                  ]
+                },
+                {
+                  "name": "EVM based",
+                  "recommendation-type": "opinion",
+                  "description": "The Ethereum Virtual Machine (EVM) is a dedicated software virtual stack that executes smart contract bytecode and is integrated into each Ethereum node. Simply said, EVM is a software framework that allows developers to construct Ethereum-based decentralized applications (DApps). All Ethereum accounts and smart contracts are stored on this virtual computer. Many blockchains have forked the Ethereum blockchain and added functionality on top; these blockchains are referred to as EVM-based blockchains.",
+                  "resources": [
+                    {
+                      "name": "What is Ethereum Virtual Machine?",
+                      "link": "https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/"
+                    },
+                    {
+                      "name": "Understanding the Ethereum Virtual Machine (EVM): Concepts and Architecture",
+                      "link": "https://www.youtube.com/watch?v=kCswGz9naZg"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "EVM based": {
+                        "options": [
+                          {
+                            "name": "Ethereum",
+                            "recommendation-type": "opinion",
+                            "description": "Ethereum is a programmable blockchain platform with the capacity to support smart contracts, dapps (decentralized apps), and other DeFi projects. The Ethereum native token is the Ether (ETH), and it’s used to fuel operations on the blockchain. The Ethereum platform launched in 2015, and it’s now the second largest form of crypto next to Bitcoin (BTC).",
+                            "resources": [
+                              {
+                                "name": "Ethereum whitepaper",
+                                "link": "https://ethereum.org/en/whitepaper/"
+                              },
+                              {
+                                "name": "Intro to Ethereum",
+                                "link": "https://ethereum.org/en/developers/docs/intro-to-ethereum/"
+                              },
+                              {
+                                "name": "A gentle introduction to Ethereum",
+                                "link": "https://bitsonblocks.net/2016/10/02/gentle-introduction-ethereum/"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Polygon",
+                            "recommendation-type": "opinion",
+                            "description": "Polygon, formerly known as the Matic Network, is a protocol that allows anyone to create and exchange value, powered by zero-knowledge technology. Polygon provides multiple solutions including Polygon zkEVM, a zk powered EVM equivalent L2, Polygon PoS, a proof of stake, EVM compatible side chain, Polygon CDK, a Chain Development Kit for building customizable zk powered L2s, Polygon ID, identity infrastructure and SDKs to facilitate trusted and secure relationships between apps and users.",
+                            "resources": [
+                              {
+                                "name": "Introduction to Polygon",
+                                "link": "https://wiki.polygon.technology/"
+                              },
+                              {
+                                "name": "Polygon POL whitepaper",
+                                "link": "https://polygon.technology/papers/pol-whitepaper"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Binance Smart Chain",
+                            "recommendation-type": "opinion",
+                            "description": "Binance Smart Chain (also known as BNB Chain) is a blockchain project initiated by Binance as a central piece of their cryptocurrency exchange, which is the largest exchange in the world in terms of daily trading volume of cryptocurrencies.",
+                            "resources": [
+                              {
+                                "name": "Binance whitepaper",
+                                "link": "https://www.exodus.com/assets/docs/binance-coin-whitepaper.pdf"
+                              },
+                              {
+                                "name": "BNB Chain overview",
+                                "link": "https://www.binance.com/en/blog/all/bnb-chain-blockchain-for-exchanging-the-world-304219301536473088"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Gnosis Chain",
+                            "recommendation-type": "opinion",
+                            "description": "Gnosis is a blockchain based on Ethereum, which changed the consensus model to PoS to solve major issues on the Ethereum mainnet. While the platform solves problems surrounding transaction fees and speed, it also means that the Gnosis chain is less decentralized, as it is somewhat reliant on the Ethereum chain.",
+                            "resources": [
+                              {
+                                "name": "Gnosis whitepaper",
+                                "link": "https://blockchainlab.com/pdf/gnosis_whitepaper.pdf"
+                              },
+                              {
+                                "name": "Gnosis overview",
+                                "link": "https://developers.gnosischain.com/#gnosis-chain"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Huobi Eco Chain",
+                            "recommendation-type": "opinion",
+                            "description": "Huobi’s ECO Chain (also known as HECO) is a public blockchain that provides developers with a low-cost onchain environment for running decentralized apps (dApps) of smart contracts and storing digital assets.",
+                            "resources": [
+                              {
+                                "name": "Huobi Eco Chain whitepaper",
+                                "link": "https://www.hecochain.com/developer.133bd45.pdf"
+                              },
+                              {
+                                "name": "Introduction to HECO Chain",
+                                "link": "https://docs.hecochain.com/#/"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Avalanche",
+                            "recommendation-type": "opinion",
+                            "description": "Avalanche describes itself as an “open, programmable smart contracts platform for decentralized applications.” Like many other decentralized protocols, Avalanche has its own token called AVAX, which is used to pay transaction fees and can be staked to secure the network.",
+                            "resources": [
+                              {
+                                "name": "Avalanche whitepaper",
+                                "link": "https://assets.website-files.com/5d80307810123f5ffbb34d6e/6008d7bbf8b10d1eb01e7e16_Avalanche%20Platform%20Whitepaper.pdf"
+                              },
+                              {
+                                "name": "Avalanche official website",
+                                "link": "https://www.avax.network/"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Fantom",
+                            "recommendation-type": "opinion",
+                            "description": "Fantom is a decentralized, open-source smart contract platform that supports decentralized applications (dApps) and digital assets. It’s one of many blockchain networks built as a faster, more efficient alternative to Ethereum, and it uses the proof-of-stake consensus mechanism.",
+                            "resources": [
+                              {
+                                "name": "Fantom whitepaper",
+                                "link": "https://arxiv.org/pdf/1810.10360.pdf"
+                              },
+                              {
+                                "name": "Fantom overview",
+                                "link": "https://docs.fantom.foundation/"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Moonbeam Moonriver",
+                            "recommendation-type": "opinion",
+                            "description": "Moonbeam is a Polkadot network parachain that promises cross-chain interoperability between Ethereum and Polkadot. More specifically, Moonbeam is a smart contract platform that enables developers to move dApps between the two networks without having to rewrite code or redeploy infrastructure. Moonriver is an incentivized testnet enabling developers to create, test, and adjust their protocols prior to launching on Moonbeam. Moonbeam is the mainnet of the ecosystem.",
+                            "resources": [
+                              {
+                                "name": "About Moonbeam",
+                                "link": "https://docs.moonbeam.network/learn/platform/networks/moonbeam/"
+                              },
+                              {
+                                "name": "Moonbeam Vision",
+                                "link": "https://docs.moonbeam.network/learn/platform/vision/"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "L2 blockchains",
+                  "recommendation-type": "opinion",
+                  "description": "Layer-2 refers to a network or technology that operates on top of an underlying blockchain protocol to improve its scalability and efficiency. This category of scaling solutions entails shifting a portion of Ethereum’s transactional burden to an adjacent system architecture, which then handles the brunt of the network’s processing and only subsequently reports back to Ethereum to finalize its results.",
+                  "resources": [
+                    {
+                      "name": "Layer-1 and Layer-2 Blockchain Scaling Solutions",
+                      "link": "https://www.gemini.com/cryptopedia/blockchain-layer-2-network-layer-1-network"
+                    },
+                    {
+                      "name": "Layer 2 - Binance Academy",
+                      "link": "https://academy.binance.com/en/glossary/layer-2"
+                    },
+                    {
+                      "name": "Develop a ZK-powered Layer 2 with the Polygon CDK open-source framework",
+                      "link": "https://wiki.polygon.technology/docs/cdk/"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "L2 blockchains": {
+                        "options": [
+                          {
+                            "name": "Arbitrum",
+                            "recommendation-type": "opinion",
+                            "description": "Arbitrum aims to reduce transaction fees and congestion by moving as much computation and data storage off of Ethereum’s main blockchain (layer 1) as it can. Storing data off of Ethereum’s blockchain is known as Layer 2 scaling solutions.",
+                            "resources": [
+                              {
+                                "name": "Arbitrum whitepaper",
+                                "link": "https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-kalodner.pdf"
+                              },
+                              {
+                                "name": "Inside Arbitrum",
+                                "link": "https://developer.offchainlabs.com/docs/Inside_Arbitrum"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Moonbeam Moonriver",
+                            "recommendation-type": "opinion",
+                            "description": "Moonbeam is a Polkadot network parachain that promises cross-chain interoperability between Ethereum and Polkadot. More specifically, Moonbeam is a smart contract platform that enables developers to move dApps between the two networks without having to rewrite code or redeploy infrastructure. Moonriver is an incentivized testnet enabling developers to create, test, and adjust their protocols prior to launching on Moonbeam. Moonbeam is the mainnet of the ecosystem.",
+                            "resources": [
+                              {
+                                "name": "About Moonbeam",
+                                "link": "https://docs.moonbeam.network/learn/platform/networks/moonbeam/"
+                              },
+                              {
+                                "name": "Moonbeam Vision",
+                                "link": "https://docs.moonbeam.network/learn/platform/vision/"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
             }
-            
-           
+          }
+        ]
+      },
+      "Oracles": {
+        "description": "A blockchain oracle is a third-party service that connects smart contracts with the outside world, primarily to feed information in from the world, but also the reverse. Information from the world encapsulates multiple sources so that decentralized knowledge is obtained.",
+        "resources": [
+          {
+            "name": "Blockchain Oracle",
+            "link": "https://en.wikipedia.org/wiki/Blockchain_oracle"
+          },
+          {
+            "name": "What Is a Blockchain Oracle?",
+            "link": "https://chain.link/education/blockchain-oracles"
+          }
+        ],
+        "order": 3,
+        "options": [
+          {
+            "name": "Hybrid Smart Contracts",
+            "recommendation-type": "opinion",
+            "description": "Hybrid smart contracts combine code running on the blockchain (on-chain) with data and computation from outside the blockchain (off-chain) provided by Decentralized Oracle Networks.",
+            "resources": [
+              {
+                "name": "Hybrid Smart Contracts Explained",
+                "link": "https://blog.chain.link/hybrid-smart-contracts-explained/"
+              },
+              {
+                "name": "A complete guide to understand hybrid smart contracts",
+                "link": "https://www.leewayhertz.com/hybrid-smart-contracts/"
+              }
+            ]
+          },
+          {
+            "name": "Chainlink",
+            "recommendation-type": "opinion",
+            "description": "Chainlink is a decentralized network of oracles that enables smart contracts to securely interact with real-world data and services that exist outside of blockchain networks.",
+            "resources": [
+              {
+                "name": "What Is Chainlink? A Beginner’s Guide",
+                "link": "https://blog.chain.link/what-is-chainlink/"
+              },
+              {
+                "name": "What Is Chainlink in 5 Minutes",
+                "link": "https://www.gemini.com/cryptopedia/what-is-chainlink-and-how-does-it-work"
+              }
+            ],
+            "options": [
+              {
+                "name": "Oracle Networks",
+                "recommendation-type": "opinion",
+                "description": "By leveraging many different data sources, and implementing an oracle system that isn’t controlled by a single entity, decentralized oracle networks provide an increased level of security and fairness to smart contracts.",
+                "resources": [
+                  {
+                    "name": "Decentralized Oracle Networks",
+                    "link": "https://medium.com/coinmonks/decentralized-oracle-networks-9fead28f5fe5"
+                  },
+                  {
+                    "name": "A Beginner’s Guide To The Evolution Of Decentralized Oracle Networks",
+                    "link": "https://chainlinktoday.com/a-beginners-guide-to-the-evolution-of-decentralized-oracle-networks/"
+                  },
+                  {
+                    "name": "Understanding Oracle Networks",
+                    "link": "https://coinmetro.com/blog/understanding-oracle-networks/"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "Smart Contracts": {
+        "description": "A smart contract is a computer program or a transaction protocol that is intended to automatically execute, control or document legally relevant events and actions according to the terms of a contract or an agreement.",
+        "resources": [
+          {
+            "name": "Smart Contracts Introduction",
+            "link": "https://www.blockchain.education/blockchain101/smart-contracts"
+          },
+          {
+            "name": "What Is a Smart Contract?",
+            "link": "https://chain.link/education/smart-contracts"
+          },
+          {
+            "name": "Smart contracts - Simply Explained",
+            "link": "https://youtu.be/ZE2HxTmxfrI"
+          }
+        ],
+        "order": 4,
+        "options": [
+          {
+            "name": "ERC Tokens",
+            "recommendation-type": "opinion",
+            "description": "An ‘Ethereum Request for Comments’ (ERC) is a document that programmers use to write smart contracts on Ethereum Blockchain. They describe rules in these documents that Ethereum-based tokens must comply with. While there are several Ethereum standards, the most well-known and popular are ERC-20, ERC-721, ERC-1155, and ERC-777.",
+            "resources": [
+              {
+                "name": "What are Ethereum request for comments (ERC) Standards",
+                "link": "https://dev.to/envoy_/ks-what-are-ethereum-request-for-comments-erc-standards-5f80"
+              },
+              {
+                "name": "ERC-20 Token Standard",
+                "link": "https://ethereum.org/en/developers/docs/standards/tokens/erc-20/"
+              },
+              {
+                "name": "ERC-721 Token Standard (NFTs)",
+                "link": "https://decrypt.co/resources/erc-721-ethereum-nft-token-standard"
+              },
+              {
+                "name": "ERC-1155 Token Standard (Multi-Token)",
+                "link": "https://decrypt.co/resources/what-is-erc-1155-ethereums-flexible-token-standard"
+              }
+            ]
+          },
+          {
+            "name": "Crypto Wallets",
+            "recommendation-type": "opinion",
+            "description": "A cryptocurrency wallet is a device, physical medium, program, or service which stores the public and/or private keys for cryptocurrency transactions. In addition to this basic function of storing the keys, a cryptocurrency wallet more often also offers the functionality of encrypting and/or signing information.",
+            "resources": [
+              {
+                "name": "What is a crypto wallet?",
+                "link": "https://www.coinbase.com/learn/crypto-basics/what-is-a-crypto-wallet"
+              },
+              {
+                "name": "What is a Crypto Wallet? A Beginner’s Guide",
+                "link": "https://crypto.com/university/crypto-wallets"
+              }
+            ]
+          },
+          {
+            "name": "IDEs",
+            "recommendation-type": "opinion",
+            "description": "An integrated development environment is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of at least a source code editor, build automation tools and a debugger.",
+            "resources": [
+              {
+                "name": "Integrated Development Environments",
+                "link": "https://ethereum.org/en/developers/docs/ides/"
+              },
+              {
+                "name": "Remix - Ethereum IDE & community",
+                "link": "https://remix-project.org/"
+              }
+            ]
+          },
+          {
+            "name": "Crypto Faucets",
+            "recommendation-type": "opinion",
+            "description": "A crypto faucet lets users earn small crypto rewards by completing simple tasks. Faucets are common in development environments where developers obtain testnet crypto to develop and test their applications prior to mainnet deployment.",
+            "resources": [
+              {
+                "name": "What Is A Crypto Faucet?",
+                "link": "https://academy.binance.com/en/articles/what-is-a-crypto-faucet"
+              },
+              {
+                "name": "What are crypto faucets and how do they work?",
+                "link": "https://cointelegraph.com/news/what-are-crypto-faucets-and-how-do-they-work"
+              }
+            ]
+          },
+          {
+            "name": "Decentralized Storage",
+            "recommendation-type": "opinion",
+            "description": "Decentralized storage is where data is stored on a decentralized network across multiple locations by users or groups who are incentivized to join, store, and keep data accessible. Servers are hosted by people, rather than a single company.",
+            "resources": [
+              {
+                "name": "What Is Decentralized Storage?",
+                "link": "https://medium.com/@ppio/what-is-decentralized-storage-9c4b761942e2"
+              },
+              {
+                "name": "Decentralized Storage",
+                "link": "https://ethereum.org/en/developers/docs/storage/"
+              }
+            ]
+          },
+          {
+            "name": "Programming Languages",
+            "recommendation-type": "opinion",
+            "description": "Smart contracts can be programmed using relatively developer-friendly languages. If you’re experienced with Python or any curly-bracket language, you can find a language with familiar syntax.",
+            "resources": [
+              {
+                "name": "Smart Contract Languages",
+                "link": "https://ethereum.org/en/developers/docs/smart-contracts/languages/"
+              }
+            ],
+            "options": [
+              {
+                "name": "Solidity",
+                "recommendation-type": "opinion",
+                "description": "Solidity is an object-oriented programming language created specifically by Ethereum Network team for constructing smart contracts on various blockchain platforms, most notably, Ethereum. It’s used to create smart contracts that implement business logic and generate a chain of transaction records in the blockchain system. It acts as a tool for creating machine-level code and compiling it on the Ethereum Virtual Machine (EVM). Like any other programming languages, Solidity also has variables, functions, classes, arithmetic operations, string manipulation, and many more.",
+                "resources": [
+                  {
+                    "name": "Solidity Programming Language",
+                    "link": "https://soliditylang.org/"
+                  },
+                  {
+                    "name": "Solidity Tutorial",
+                    "link": "https://www.tutorialspoint.com/solidity/index.htm"
+                  },
+                  {
+                    "name": "Solidity Course by FreeCodeCamp",
+                    "link": "https://www.youtube.com/watch?v=ipwxYa-F1uY"
+                  },
+                  {
+                    "name": "Solidity Course by Dapp University",
+                    "link": "https://www.youtube.com/watch?v=EhPeHeoKF88"
+                  },
+                  {
+                    "name": "Learn Blockchain, Solidity, and Full Stack Web3 Development",
+                    "link": "https://youtu.be/gyMwXuJrbJQ"
+                  }
+                ]
+              },
+              {
+                "name": "Vyper",
+                "recommendation-type": "opinion",
+                "description": "Vyper is a contract-oriented, pythonic programming language that targets the Ethereum Virtual Machine (EVM).",
+                "resources": [
+                  {
+                    "name": "Vyper Programming Language",
+                    "link": "https://vyper.readthedocs.io/en/stable/"
+                  },
+                  {
+                    "name": "Learn Vyper in Y Minutes",
+                    "link": "https://learnxinyminutes.com/docs/vyper/"
+                  }
+                ]
+              },
+              {
+                "name": "Rust",
+                "recommendation-type": "opinion",
+                "description": "Rust is a multi-paradigm, general-purpose programming language. Rust emphasizes performance, type safety, and concurrency. It is popular on smart contract chains Solana and Polkadot.",
+                "resources": [
+                  {
+                    "name": "Rust Programming Language",
+                    "link": "https://www.rust-lang.org/"
+                  },
+                  {
+                    "name": "How to write and deploy a smart contract in Rust",
+                    "link": "https://learn.figment.io/tutorials/write-and-deploy-a-smart-contract-on-near"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Testing",
+            "recommendation-type": "opinion",
+            "description": "Testing smart contracts is one of the most important measures for improving smart contract security. Unlike traditional software, smart contracts cannot typically be updated after launching, making it imperative to test rigorously before deploying contracts onto mainnet.",
+            "resources": [
+              {
+                "name": "Testing Smart Contracts",
+                "link": "https://ethereum.org/en/developers/docs/smart-contracts/testing/"
+              },
+              {
+                "name": "How to Test Ethereum Smart Contracts",
+                "link": "https://betterprogramming.pub/how-to-test-ethereum-smart-contracts-35abc8fa199d"
+              },
+              {
+                "name": "Writing automated smart contract tests",
+                "link": "https://docs.openzeppelin.com/learn/writing-automated-tests"
+              }
+            ],
+            "options": [
+              {
+                "name": "Unit Tests",
+                "recommendation-type": "opinion",
+                "description": "Unit testing involves testing individual components in a smart contract for correctness. A unit test is simple, quick to run, and provides a clear idea of what went wrong if the test fails.",
+                "resources": [
+                  {
+                    "name": "Smart Contracts Unit Testing",
+                    "link": "https://ethereum.org/en/developers/docs/smart-contracts/testing/#unit-testing"
+                  },
+                  {
+                    "name": "Tips for Unit Testing Ethereum Smart Contracts in Solidity",
+                    "link": "https://betterprogramming.pub/a-few-tips-for-unit-testing-ethereum-smart-contract-in-solidity-d804062068fb"
+                  }
+                ]
+              },
+              {
+                "name": "Integration Tests",
+                "recommendation-type": "opinion",
+                "description": "Integration tests validate interactions between multiple components. For smart contract testing, this can mean interactions between different components of a single contract or across multiple contracts.",
+                "resources": [
+                  {
+                    "name": "Unit tests vs integration tests | Smart contract testing course",
+                    "link": "https://youtu.be/GxnX9k8i0zM"
+                  }
+                ]
+              },
+              {
+                "name": "Code Coverage",
+                "recommendation-type": "opinion",
+                "description": "Code coverage is a metric that can help you understand how much of your source is tested. It’s a very useful metric that can help you assess the quality of your test suite.",
+                "resources": [
+                  {
+                    "name": "Testing Smart Contracts",
+                    "link": "https://ethereum.org/en/developers/docs/smart-contracts/testing/"
+                  },
+                  {
+                    "name": "Smart Contract Code Coverage In Hardhat",
+                    "link": "https://medium.com/coinmonks/smart-contract-code-coverage-in-hardhat-d4a5ff6c9ba6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Deployment",
+            "recommendation-type": "opinion",
+            "description": "Smart contracts don’t run on a local computer or a remote server: they live on the blockchain. Thus, interacting with them is different from more traditional applications.",
+            "resources": [
+              {
+                "name": "Deploying Smart Contracts",
+                "link": "https://ethereum.org/en/developers/docs/smart-contracts/deploying/"
+              },
+              {
+                "name": "Deploying and interacting with smart contracts",
+                "link": "https://docs.openzeppelin.com/learn/deploying-and-interacting"
+              }
+            ]
+          },
+          {
+            "name": "Monitoring",
+            "recommendation-type": "opinion",
+            "description": "Monitoring smart contracts allows their authors to view activity and interactions based on generated transactions and events, allowing verification of the contract’s intended purpose and functionality.",
+            "resources": [
+              {
+                "name": "Monitoring Smart Contracts",
+                "link": "https://consensys.github.io/smart-contract-best-practices/development-recommendations/solidity-specific/event-monitoring/"
+              }
+            ]
+          },
+          {
+            "name": "Upgrades",
+            "recommendation-type": "opinion",
+            "description": "Smart contracts are immutable by default, but for some scenarios, it is desirable to be able to modify them. Upgrading Ethereum contracts allows for modifications in certain situations.",
+            "resources": [
+              {
+                "name": "Upgrading Ethereum contracts",
+                "link": "https://ethereum.org/en/developers/docs/smart-contracts/upgrading/"
+              },
+              {
+                "name": "Upgrading smart contracts",
+                "link": "https://docs.openzeppelin.com/learn/upgrading-smart-contracts"
+              },
+              {
+                "name": "What are Upgradable Smart Contracts? Full Guide",
+                "link": "https://moralis.io/what-are-upgradable-smart-contracts-full-guide/"
+              },
+              {
+                "name": "Upgrading your Smart Contracts | A Tutorial & Introduction",
+                "link": "https://youtu.be/bdXJmWajZRY"
+              }
+            ]
+          }
+        ]
+      },
+      "Smart Contract Frameworks": {
+        "description": "Building a full-fledged dapp requires different pieces of technology. Software frameworks include many of the needed features or provide easy plugin systems to pick the tools you desire.",
+        "resources": [
+          {
+            "name": "dApp Development Frameworks",
+            "link": "https://www.blockchain.education/blockchain101/smart-contracts"
+          },
+          {
+            "name": "A Definitive List of Ethereum Developer Tools - Frameworks",
+            "link": "https://chain.link/education/smart-contracts"
+          },
+          {
+            "name": "Top 10 Smart Contract Developer Tools You Need for 2022",
+            "link": "https://youtu.be/ZE2HxTmxfrI"
+          }
+        ],
+        "order": 5,
+        "options": [
+          {
+            "name": "Hardhat",
+            "recommendation-type": "opinion",
+            "description": "Hardhat is an Ethereum development environment. It allows users to compile contracts and run them on a development network. Get Solidity stack traces, console.log and more.",
+            "resources": [
+              {
+                "name": "Hardhat Overview",
+                "link": "https://hardhat.org/hardhat-runner/docs/getting-started#overview"
+              },
+              {
+                "name": "Build and Deploy Smart Contracts using Hardhat",
+                "link": "https://youtu.be/GBc3lBrXEBo"
+              }
+            ]
+          },
+          {
+            "name": "Brownie",
+            "recommendation-type": "opinion",
+            "description": "Brownie is a Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine.",
+            "resources": [
+              {
+                "name": "Brownie Overview",
+                "link": "https://eth-brownie.readthedocs.io/"
+              },
+              {
+                "name": "Python and Blockchain: Deploy Smart Contracts using Brownie",
+                "link": "https://youtu.be/QfFO22lwSw4"
+              }
+            ]
+          },
+          {
+            "name": "Truffle",
+            "recommendation-type": "opinion",
+            "description": "A development environment, testing framework, and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM), aiming to make life as a developer easier.",
+            "resources": [
+              {
+                "name": "Truffle Overview",
+                "link": "https://trufflesuite.com/docs/truffle/"
+              },
+              {
+                "name": "Truffle Tutorial for Beginners | Compile, Test & Deploy Smart contracts to any EVM Blockchain",
+                "link": "https://youtu.be/62f757RVEvU"
+              }
+            ]
+          },
+          {
+            "name": "Foundry",
+            "recommendation-type": "opinion",
+            "description": "",
+            "resources": []
+          }
+        ]
+      },
+      "Security": {
+        "description": "Smart contracts are extremely flexible, capable of both holding large quantities of tokens (often in excess of $1B) and running immutable logic based on previously deployed smart contract code. While this has created a vibrant and creative ecosystem of trustless, interconnected smart contracts, it is also the perfect ecosystem to attract attackers looking to profit by exploiting vulnerabilities.",
+        "resources": [
+          {
+            "name": "Smart Contract Security",
+            "link": "https://ethereum.org/en/developers/docs/smart-contracts/security/"
+          },
+          {
+            "name": "Ethereum Smart Contract Security Recommendations",
+            "link": "https://consensys.net/blog/developers/ethereum-smart-contract-security-recommendations/"
+          }
+        ],
+        "order": 6,
+        "options": [
+          {
+            "name": "Practices",
+            "recommendation-type": "opinion",
+            "description": "Smart contract programming requires a different engineering mindset. The cost of failure can be high, and change can be difficult.",
+            "resources": [
+              {
+                "name": "Ethereum Smart Contract Security Best Practices",
+                "link": "https://consensys.github.io/smart-contract-best-practices/"
+              },
+              {
+                "name": "Smart Contract Security and Auditing 101",
+                "link": "https://youtu.be/0aJfCug1zTM"
+              }
+            ],
+            "options": [
+              {
+                "name": "Fuzz Testing and Static Analysis",
+                "recommendation-type": "opinion",
+                "description": "Fuzzing or fuzz testing is an automated software testing technique that involves providing invalid, unexpected, or random data as inputs to a smart contract. Static analysis is the analysis of smart contracts performed without executing them.",
+                "resources": [
+                  {
+                    "name": "Getting Started with Smart Contract Fuzzing",
+                    "link": "https://www.immunebytes.com/blog/getting-started-with-smart-contract-fuzzing/"
+                  },
+                  {
+                    "name": "Solidity smart contract Static Code Analysis",
+                    "link": "https://lightrains.com/blogs/solidity-static-analysis-tools/#static-code-analysis"
+                  },
+                  {
+                    "name": "Smart contract Fuzzing",
+                    "link": "https://youtu.be/LRyyNzrqgOc"
+                  }
+                ]
+              },
+              {
+                "name": "Common Threat Vectors",
+                "recommendation-type": "opinion",
+                "description": "Smart contract audits enable developers to provide a thorough analysis of smart contract sets. The main goal of a smart contract audit is to detect and eliminate vulnerabilities, starting with the most common threat vectors.",
+                "resources": [
+                  {
+                    "name": "Smart Contract Attack Vectors",
+                    "link": "https://github.com/kadenzipfel/smart-contract-attack-vectors"
+                  },
+                  {
+                    "name": "Solidity Security: Comprehensive list of known attack vectors and common anti-patterns",
+                    "link": "https://blog.sigmaprime.io/solidity-security.html"
+                  },
+                  {
+                    "name": "Blockchain Attack Vectors: Vulnerabilities of the Most Secure Technology",
+                    "link": "https://www.apriorit.com/dev-blog/578-blockchain-attack-vectors"
+                  }
+                ]
+              },
+              {
+                "name": "Source of Randomness Attacks",
+                "recommendation-type": "opinion",
+                "description": "The security of cryptographic systems depends on some secret data that is known to authorized persons but unknown and unpredictable to others. To achieve this unpredictability, some randomization is typically employed. Modern cryptographic protocols often require frequent generation of random quantities. Cryptographic attacks that subvert or exploit weaknesses in this process are known as randomness attacks.",
+                "resources": [
+                  {
+                    "name": "Smart Contract Randomness or ReplicatedLogic Attack",
+                    "link": "https://blog.finxter.com/randomness-or-replicatedlogic-attack-on-smart-contracts/"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tools",
+            "recommendation-type": "opinion",
+            "description": "Blockchain and smart contract technology is fairly new, therefore, you should expect constant changes in the security landscape, as new bugs and security risks are discovered, and new best practices are developed. Keeping track of this constantly moving landscape proves difficult, so using tools to aid this mission is important. The cost of failing to properly secure smart contracts can be high, and because change can be difficult, we must make use of these tools.",
+            "resources": [],
+            "options": [
+              {
+                "name": "Slither",
+                "recommendation-type": "opinion",
+                "description": "Slither is a Solidity static analysis framework written in Python 3. It runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses. Slither enables developers to find vulnerabilities, enhance their code comprehension, and quickly prototype custom analyses.",
+                "resources": [
+                  {
+                    "name": "Slither, the Solidity source analyzer",
+                    "link": "https://github.com/crytic/slither/blob/master/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "Manticore",
+                "recommendation-type": "opinion",
+                "description": "Manticore is a symbolic execution tool for the analysis of smart contracts and binaries.",
+                "resources": [
+                  {
+                    "name": "Manticore Docs",
+                    "link": "https://manticore.readthedocs.io/"
+                  }
+                ]
+              },
+              {
+                "name": "MythX",
+                "recommendation-type": "opinion",
+                "description": "MythX is a comprehensive smart contract security analysis tool developed by Consensys. It allows users to detect security vulnerabilities in Ethereum smart contracts throughout the development life cycle as well as analyze Solidity dapps for security holes and known smart contract vulnerabilities.",
+                "resources": [
+                  {
+                    "name": "MythX Official Site",
+                    "link": "https://mythx.io/"
+                  },
+                  {
+                    "name": "MythX Documentation",
+                    "link": "https://docs.mythx.io/"
+                  }
+                ]
+              },
+              {
+                "name": "Echidna",
+                "recommendation-type": "opinion",
+                "description": "Echidna is a Haskell program designed for fuzzing/property-based testing of Ethereum smarts contracts. It uses sophisticated grammar-based fuzzing campaigns based on a contract ABI to falsify user-defined predicates or Solidity assertions.",
+                "resources": [
+                  {
+                    "name": "Echidna: A Fast Smart Contract Fuzzer",
+                    "link": "https://github.com/crytic/echidna/blob/master/README.md"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "Management Platforms": {
+        "description": "Managing smart contracts in a production environment (mainnet) can prove difficult as users must keep track of different versions, blockchains, deployments, etc. Using a tool for this process eliminates a lot of the risk that comes with manual tracking.",
+        "resources": [],
+        "order": 7,
+        "options": [
+          {
+            "name": "OpenZeppelin",
+            "recommendation-type": "opinion",
+            "description": "OpenZeppelin Contracts helps you minimize risk by using battle-tested libraries of smart contracts for Ethereum and other blockchains. It includes the most used implementations of ERC standards.",
+            "resources": [
+              {
+                "name": "OpenZeppelin Contracts",
+                "link": "https://docs.openzeppelin.com/contracts/"
+              }
+            ]
+          }
+        ]
+      },
+      "Version Control Systems": {
+        "description": "Version control/source control systems allow developers to track and control changes to code over time. These services often include the ability to make atomic revisions to code, branch/fork off of specific points, and to compare versions of code. They are useful in determining the who, what, when, and why code changes were made.",
+        "resources": [
+          {
+            "name": "Git",
+            "link": "https://git-scm.com/"
+          },
+          {
+            "name": "Mercurial",
+            "link": "https://www.mercurial-scm.org/"
+          },
+          {
+            "name": "What is Version Control?",
+            "link": "https://www.atlassian.com/git/tutorials/what-is-version-control"
+          }
+        ],
+        "order": 8,
+        "options": [
+          {
+            "name": "Git",
+            "recommendation-type": "opinion",
+            "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+            "resources": [
+              {
+                "name": "Git & GitHub Crash Course For Beginners",
+                "link": "https://www.youtube.com/watch?v=SWYqp7iY_Tc"
+              },
+              {
+                "name": "Learn Git with Tutorials, News and Tips - Atlassian",
+                "link": "https://www.atlassian.com/git"
+              },
+              {
+                "name": "Git Cheat Sheet",
+                "link": "https://cs.fyi/guide/git-cheatsheet"
+              }
+            ]
+          }
+        ]
+      },
+      "Repo Hosting Services": {
+        "description": "When working on a team, you often need a remote place to put your code so others can access it, create their own branches, and create or review pull requests. These services often include issue tracking, code review, and continuous integration features. A few popular choices are GitHub, GitLab, BitBucket, and AWS CodeCommit.",
+        "resources": [
+          {
+            "name": "GitHub",
+            "link": "https://github.com/features/"
+          },
+          {
+            "name": "GitLab",
+            "link": "https://about.gitlab.com/"
+          },
+          {
+            "name": "BitBucket",
+            "link": "https://bitbucket.org/product/guides/getting-started/overview"
+          },
+          {
+            "name": "How to choose the best source code repository",
+            "link": "https://bitbucket.org/product/code-repository"
+          }
+        ],
+        "order": 9,
+        "options": [
+          {
+            "name": "GitHub",
+            "recommendation-type": "opinion",
+            "description": "GitHub is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.",
+            "resources": [
+              {
+                "name": "GitHub Website",
+                "link": "https://github.com/"
+              },
+              {
+                "name": "GitHub Documentation",
+                "link": "https://docs.github.com/en/get-started/quickstart"
+              },
+              {
+                "name": "What is GitHub?",
+                "link": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
+              },
+              {
+                "name": "Git vs. GitHub: Whats the difference?",
+                "link": "https://www.youtube.com/watch?v=wpISo9TNjfU"
+              },
+              {
+                "name": "Git and GitHub for Beginners",
+                "link": "https://www.youtube.com/watch?v=RGOj5yH7evk"
+              },
+              {
+                "name": "Git and GitHub - CS50 Beyond 2019",
+                "link": "https://www.youtube.com/watch?v=eulnSXkhE7I"
+              },
+              {
+                "name": "How to Use Git in a Professional Dev Team",
+                "link": "https://ooloo.io/project/github-flow"
+              }
+            ]
+          },
+          {
+            "name": "GitLab",
+            "recommendation-type": "opinion",
+            "description": "GitLab is a provider of internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.",
+            "resources": [
+              {
+                "name": "GitLab Website",
+                "link": "https://gitlab.com/"
+              },
+              {
+                "name": "GitLab Documentation",
+                "link": "https://docs.gitlab.com/"
+              }
+            ]
+          },
+          {
+            "name": "Bitbucket",
+            "recommendation-type": "opinion",
+            "description": "Bitbucket is a Git based hosting and source code repository service that is Atlassian’s alternative to other products like GitHub, GitLab etc. Bitbucket offers hosting options via Bitbucket Cloud (Atlassian’s servers), Bitbucket Server (customer’s on-premise) or Bitbucket Data Centre (number of servers in customers on-premise or cloud environment)",
+            "resources": [
+              {
+                "name": "Bitbucket Website",
+                "link": "https://bitbucket.org/product"
+              },
+              {
+                "name": "A brief overview of Bitbucket",
+                "link": "https://bitbucket.org/product/guides/getting-started/overview#a-brief-overview-of-bitbucket"
+              },
+              {
+                "name": "Getting started with Bitbucket",
+                "link": "https://bitbucket.org/product/guides/basics/bitbucket-interface"
+              },
+              {
+                "name": "Using Git with Bitbucket Cloud",
+                "link": "https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud"
+              },
+              {
+                "name": "Bitbucket tutorial | How to use Bitbucket Cloud",
+                "link": "https://www.youtube.com/watch?v=M44nEyd_5To"
+              },
+              {
+                "name": "Bitbucket Tutorial | Bitbucket for Beginners",
+                "link": "https://www.youtube.com/watch?v=i5T-DB8tb4A"
+              }
+            ]
+          }
+        ]
+      },
+      "dApps-ecentralized Applications": {
+        "description": "A decentralised application (dApp) is an application that can operate autonomously, through the use of smart contracts that run on a blockchain. Like traditional applications, dApps provide some function or utility to its users.",
+        "resources": [
+          {
+            "name": "Introduction to dApps",
+            "link": "https://ethereum.org/en/developers/docs/dapps/"
+          },
+          {
+            "name": "What Is a Dapp? Decentralized Apps Explained",
+            "link": "https://www.coindesk.com/learn/what-is-a-dapp-decentralized-apps-explained/"
+          }
+        ],
+        "order": 10,
+        "options": [
+          {
+            "Frontend Frameworks": {
+              "description": "Web frameworks are designed to write web applications. Frameworks are collections of libraries that aid in the development of a software product or website.",
+              "resources": [
+                {
+                  "name": "Web3 Frontend - Everything You Need to Learn About Building Dapp Frontends",
+                  "link": "https://moralis.io/web3-frontend-everything-you-need-to-learn-about-building-dapp-frontends/"
+                },
+                {
+                  "name": "What is the difference between a framework and a library?",
+                  "link": "https://www.youtube.com/watch?v=D_MO9vIRBcA"
+                },
+                {
+                  "name": "Which JS Framework is best?",
+                  "link": "https://www.youtube.com/watch?v=cuHDQhDhvPE"
+                }
+              ],
+              "options": [
+                {
+                  "name": "React",
+                  "recommendation-type": "opinion",
+                  "description": "React is the most popular front-end JavaScript library for building user interfaces. React can also render on the server using Node and power mobile apps using React Native.",
+                  "resources": [
+                    {
+                      "name": "Visit Dedicated React Roadmap",
+                      "link": "https://roadmap.sh/react"
+                    },
+                    {
+                      "name": "React Website",
+                      "link": "https://reactjs.org/"
+                    },
+                    {
+                      "name": "Official Getting Started",
+                      "link": "https://reactjs.org/tutorial/tutorial.html"
+                    },
+                    {
+                      "name": "The Beginners Guide to React",
+                      "link": "https://egghead.io/courses/the-beginner-s-guide-to-react"
+                    },
+                    {
+                      "name": "React JS Course for Beginners",
+                      "link": "https://www.youtube.com/watch?v=nTeuhbP7wdE"
+                    },
+                    {
+                      "name": "React Course - Beginners Tutorial for React JavaScript Library [2022]",
+                      "link": "https://www.youtube.com/watch?v=bMknfKXIFA8"
+                    },
+                    {
+                      "name": "Understanding Reacts UI Rendering Process",
+                      "link": "https://www.youtube.com/watch?v=i793Qm6kv3U"
+                    }
+                  ]
+                },
+                {
+                  "name": "Angular",
+                  "recommendation-type": "opinion",
+                  "description": "Angular is a component-based front-end development framework built on TypeScript which includes a collection of well-integrated libraries.",
+                  "resources": [
+                    {
+                      "name": "Visit Dedicated Angular Roadmap",
+                      "link": "https://roadmap.sh/angular"
+                    },
+                    {
+                      "name": "Official - Getting started with Angular",
+                      "link": "https://angular.io/start"
+                    }
+                  ]
+                },
+                {
+                  "name": "Vue.js",
+                  "recommendation-type": "opinion",
+                  "description": "Vue.js is an open-source JavaScript framework for building user interfaces and single-page applications, mainly focused on front-end development.",
+                  "resources": [
+                    {
+                      "name": "Visit Dedicated Vue Roadmap",
+                      "link": "https://roadmap.sh/vue"
+                    },
+                    {
+                      "name": "Vue.js Website",
+                      "link": "https://vuejs.org/"
+                    },
+                    {
+                      "name": "Official Getting Started",
+                      "link": "https://vuejs.org/v2/guide/"
+                    },
+                    {
+                      "name": "Vue.js Course for Beginners",
+                      "link": "https://www.youtube.com/watch?v=FXpIoQ_rT_c"
+                    },
+                    {
+                      "name": "Vue.js Crash Course",
+                      "link": "https://www.youtube.com/watch?v=qZXt1Aom3Cs"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "name": "Testing",
+            "recommendation-type": "opinion",
+            "description": "A key to building software that meets requirements without defects is testing. Software testing helps developers know they are building the right software.",
+            "resources": [
+              {
+                "name": "What is Software Testing?",
+                "link": "https://www.guru99.com/software-testing-introduction-importance.html"
+              },
+              {
+                "name": "Testing Pyramid",
+                "link": "https://www.browserstack.com/guide/testing-pyramid-for-test-automation"
+              },
+              {
+                "name": "How to test dApps (decentralized applications)",
+                "link": "https://rhian-is.medium.com/how-to-test-dapps-decentralized-applications-4662cf61db90"
+              }
+            ]
+          },
+          {
+            "name": "Deployment",
+            "recommendation-type": "opinion",
+            "description": "Deploying a dApp involves deployment of all of its layers, generally through a management framework.",
+            "resources": [
+              {
+                "name": "Tutorial for building an Ethereum DApp with Integrated Web3 Monitoring",
+                "link": "https://www.moesif.com/blog/blockchain/ethereum/Tutorial-for-building-Ethereum-Dapp-with-Integrated-Error-Monitoring/"
+              },
+              {
+                "name": "Build and Deploy a Modern Web 3.0 Blockchain App",
+                "link": "https://youtu.be/Wn_Kb3MR_cU"
+              }
+            ]
+          },
+          {
+            "name": "Maintenance",
+            "recommendation-type": "opinion",
+            "description": "dApps can be harder to maintain because the code and data published to the blockchain is harder to modify. It’s hard for developers to make updates to their dapps once they are deployed, even if bugs or security risks are identified in an old version.",
+            "resources": []
+          },
+          {
+            "name": "Architecture",
+            "recommendation-type": "opinion",
+            "description": "Unlike Web2 applications, in Web3 there’s no centralized database that stores the application state or user identity, and there’s no centralized web server where the backend logic resides.",
+            "resources": [
+              {
+                "name": "The Architecture of a Web 3.0 application",
+                "link": "https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application"
+              },
+              {
+                "name": "Decentralized Applications Architecture: Back End, Security and Design Patterns",
+                "link": "https://www.freecodecamp.org/news/how-to-design-a-secure-backend-for-your-decentralized-application-9541b5d8bddb/"
+              },
+              {
+                "name": "Blockchain Development: Dapp Architecture",
+                "link": "https://youtu.be/KBSq8-LnUDI?t=286"
+              }
+            ]
+          },
+          {
+            "name": "Security",
+            "recommendation-type": "opinion",
+            "description": "dApps face unique security challenges as they run on immutable blockchains. Special consideration must be taken before putting it on the blockchain.",
+            "resources": [
+              {
+                "name": "DAPP Security Standards",
+                "link": "https://github.com/Dexaran/DAPP-security-standards/blob/master/README.md"
+              },
+              {
+                "name": "dApp Security Considerations",
+                "link": "https://livebook.manning.com/book/building-ethereum-dapps/chapter-14/"
+              },
+              {
+                "name": "dApp Security: All You Need to Know",
+                "link": "https://www.immunebytes.com/blog/dapp-security/#Benefits_of_DApps_Security"
+              }
+            ]
+          },
+          {
+            "Applicability": {
+              "description": "dApps can be used for just about anything that requires two or more parties to agree on something. When the appropriate conditions are met, the smart contract will execute automatically. An important differentiation is that these transactions are no longer based on trust but they are rather based on cryptographically-backed smart contracts.",
+              "resources": [
+                {
+                  "name": "What Is a dApp? A Guide to Decentralized Applications",
+                  "link": "https://www.sofi.com/learn/content/what-is-a-dapp/"
+                },
+                {
+                  "name": "Blockchain Use Cases and Applications by Industry",
+                  "link": "https://consensys.net/blockchain-use-cases/"
+                },
+                {
+                  "name": "The real-world use cases for blockchain technology",
+                  "link": "https://roboticsandautomationnews.com/2022/05/20/the-real-world-use-cases-for-blockchain-technology/"
+                }
+              ],
+              "options": [
+                {
+                  "name": "DeFi",
+                  "recommendation-type": "opinion",
+                  "description": "Decentralized finance offers financial instruments without relying on intermediaries such as brokerages, exchanges, or banks by using smart contracts on a blockchain.",
+                  "resources": [
+                    {
+                      "name": "Decentralized Finance (DeFi) Definition",
+                      "link": "https://www.investopedia.com/decentralized-finance-defi-5113835"
+                    },
+                    {
+                      "name": "What is DeFi?",
+                      "link": "https://www.coinbase.com/learn/crypto-basics/what-is-defi"
+                    },
+                    {
+                      "name": "What is DeFi? (Decentralized Finance Animated)",
+                      "link": "https://www.youtube.com/watch?v=17QRFlml4pA"
+                    }
+                  ]
+                },
+                {
+                  "name": "DAOs",
+                  "recommendation-type": "opinion",
+                  "description": "A decentralized autonomous organization (DAO) is an emerging form of legal structure. With no central governing body, every member within a DAO typically shares a common goal and attempts to act in the best interest of the entity. Popularized through cryptocurrency enthusiasts and blockchain technology, DAOs are used to make decisions in a bottoms-up management approach.",
+                  "resources": [
+                    {
+                      "name": "What Is A DAO And How Do They Work?",
+                      "link": "https://consensys.net/blog/blockchain-explained/what-is-a-dao-and-how-do-they-work/"
+                    },
+                    {
+                      "name": "Decentralized Autonomous Organization (DAO)",
+                      "link": "https://www.investopedia.com/tech/what-dao/"
+                    }
+                  ]
+                },
+                {
+                  "name": "NFTs",
+                  "recommendation-type": "opinion",
+                  "description": "A non-fungible token (NFT) is a financial security consisting of digital data stored in a blockchain, a form of distributed ledger. The ownership of an NFT is recorded in the blockchain and can be transferred by the owner, allowing NFTs to be sold and traded.",
+                  "resources": [
+                    {
+                      "name": "Non-Fungible Token (NFT)",
+                      "link": "https://www.investopedia.com/non-fungible-tokens-nft-5115211"
+                    },
+                    {
+                      "name": "NFTs, explained",
+                      "link": "https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                    },
+                    {
+                      "name": "NFT Explained In 5 Minutes | What Is NFT? - Non Fungible Token",
+                      "link": "https://youtu.be/NNQLJcJEzv0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Payments",
+                  "recommendation-type": "opinion",
+                  "description": "Blockchain technology has the ability to eliminate all the tolls exacted by centralized organizations when transferring payments.",
+                  "resources": [
+                    {
+                      "name": "How does blockchain impact global payments and remittances?",
+                      "link": "https://consensys.net/blockchain-use-cases/finance/#payments"
+                    },
+                    {
+                      "name": "Smart Contract Use Cases - Payments",
+                      "link": "https://blog.chain.link/smart-contract-use-cases/#external-payments"
+                    }
+                  ]
+                },
+                {
+                  "name": "Insurance",
+                  "recommendation-type": "opinion",
+                  "description": "Blockchain technology has the ability to automate claims functions by verifying real-world data through the use of an oracle. It also automates payments between parties for claims and thus lowers administrative costs for insurance companies.",
+                  "resources": [
+                    {
+                      "name": "Smart Contract Use Cases - Insurance",
+                      "link": "https://blog.chain.link/smart-contract-use-cases/#insurance"
+                    },
+                    {
+                      "name": "Top 7 Use Cases of Blockchain in the Insurance Industry",
+                      "link": "https://imaginovation.net/blog/blockchain-insurance-industry-examples/"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Node as a Service (NaaS)": {
+              "description": "Running your own blockchain node can be challenging, especially when getting started or while scaling fast. There are a number of services that run optimized node infrastructures for you, so you can focus on developing your application or product instead.",
+              "resources": [
+                {
+                  "name": "Blockchain Node Providers and How They Work",
+                  "link": "https://www.infoq.com/articles/blockchain-as-a-service-get-block/"
+                },
+                {
+                  "name": "Node as a Service - Ethereum",
+                  "link": "https://ethereum.org/en/developers/docs/nodes-and-clients/nodes-as-a-service/"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Alchemy",
+                  "recommendation-type": "opinion",
+                  "description": "Alchemy is a developer platform that empowers companies to build scalable and reliable decentralized applications without the hassle of managing blockchain infrastructure in-house.",
+                  "resources": [
+                    {
+                      "name": "Alchemy official site",
+                      "link": "https://www.alchemy.com/"
+                    }
+                  ]
+                },
+                {
+                  "name": "Infura",
+                  "recommendation-type": "opinion",
+                  "description": "Infura provides the tools and infrastructure that allow developers to easily take their blockchain application from testing to scaled deployment - with simple, reliable access to Ethereum and IPFS.",
+                  "resources": [
+                    {
+                      "name": "Infura official site",
+                      "link": "https://infura.io/"
+                    }
+                  ]
+                },
+                {
+                  "name": "Moralis",
+                  "recommendation-type": "opinion",
+                  "description": "Moralis provides a single workflow for building high-performance dapps. Fully compatible with your favorite web3 tools and services.",
+                  "resources": [
+                    {
+                      "name": "Moralis official site",
+                      "link": "https://moralis.io/"
+                    }
+                  ]
+                },
+                {
+                  "name": "Quicknode",
+                  "recommendation-type": "opinion",
+                  "description": "QuickNode is a Web3 developer platform used to build and scale blockchain applications.",
+                  "resources": [
+                    {
+                      "name": "Quicknode official site",
+                      "link": "https://www.quicknode.com/"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Supporting Languages": {
+              "description": "While the bulk of the logic in blockchain applications is handled by smart contracts, all the surrounding services that support those smart contracts (frontend, monitoring, etc.) are often written in other languages. ",
+              "resources": [],
+              "options": [
+                {
+                  "name": "JavaScript",
+                  "recommendation-type": "opinion",
+                  "description": "JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. It lets us add interactivity to pages e.g. you might have seen sliders, alerts, click interactions, and popups etc on different websites — all of that is built using JavaScript. Apart from being used in the browser, it is also used in other non-browser environments as well such as Node.js for writing server-side code in JavaScript, Electron for writing desktop applications, React Native for mobile applications and so on.",
+                  "resources": [
+                    {
+                      "name": "W3Schools - JavaScript Tutorial",
+                      "link": "https://www.w3schools.com/js/"
+                    },
+                    {
+                      "name": "The Modern JavaScript Tutorial",
+                      "link": "https://javascript.info/"
+                    },
+                    {
+                      "name": "Eloquent Javascript - Book",
+                      "link": "https://eloquentjavascript.net/"
+                    },
+                    {
+                      "name": "You Dont Know JS Yet (book series)",
+                      "link": "https://github.com/getify/You-Dont-Know-JS"
+                    },
+                    {
+                      "name": "JavaScript Crash Course for Beginners",
+                      "link": "https://youtu.be/hdI2bqOjy3c"
+                    },
+                    {
+                      "name": "Node.js Crash Course",
+                      "link": "https://www.youtube.com/watch?v=fBNz5xF-Kx4"
+                    },
+                    {
+                      "name": "Node.js Tutorial for Beginners",
+                      "link": "https://www.youtube.com/watch?v=TlB_eWDSMt4"
+                    },
+                    {
+                      "name": "Codecademy - Learn JavaScript",
+                      "link": "https://www.codecademy.com/learn/introduction-to-javascript"
+                    }
+                  ]
+                },
+                {
+                  "name": "Python",
+                  "recommendation-type": "opinion",
+                  "description": "Python is a well-known programming language which is both a strongly typed and a dynamically typed language. Being an interpreted language, code is executed as soon as it is written...",
+                  "resources": [
+                    {
+                      "name": "Visit Dedicated Python Roadmap",
+                      "link": "https://roadmap.sh/python"
+                    },
+                    {
+                      "name": "Python Website",
+                      "link": "https://www.python.org/"
+                    },
+                    {
+                      "name": "Python Getting Started",
+                      "link": "https://www.python.org/about/gettingstarted/"
+                    },
+                    {
+                      "name": "W3Schools - Python Tutorial",
+                      "link": "https://www.w3schools.com/python/"
+                    },
+                    {
+                      "name": "Python Crash Course",
+                      "link": "https://ehmatthes.github.io/pcc/"
+                    },
+                    {
+                      "name": "Automate the Boring Stuff",
+                      "link": "https://automatetheboringstuff.com/"
+                    },
+                    {
+                      "name": "Codecademy - Learn Python 2",
+                      "link": "https://www.codecademy.com/learn/learn-python"
+                    }
+                  ]
+                },
+                {
+                  "name": "Go",
+                  "recommendation-type": "opinion",
+                  "description": "Go is an open source programming language supported by Google. Go can be used to write cloud services, CLI tools, used for API development, and much more.",
+                  "resources": [
+                    {
+                      "name": "Visit Dedicated Go Roadmap",
+                      "link": "https://roadmap.sh/golang"
+                    },
+                    {
+                      "name": "A Tour of Go - Go Basics",
+                      "link": "https://go.dev/tour/welcome/1"
+                    },
+                    {
+                      "name": "Go Reference Documentation",
+                      "link": "https://go.dev/doc/"
+                    },
+                    {
+                      "name": "Learn Go | Boot.dev",
+                      "link": "https://boot.dev/learn/learn-golang"
+                    },
+                    {
+                      "name": "Go by Example - annotated example programs",
+                      "link": "https://gobyexample.com/"
+                    },
+                    {
+                      "name": "Learn Go | Codecademy",
+                      "link": "https://www.codecademy.com/learn/learn-go"
+                    },
+                    {
+                      "name": "W3Schools Go Tutorial",
+                      "link": "https://www.w3schools.com/go/"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Building for Scale": {
+        "description": "Due to the limited number of transactions-per-second (TPS) built-in to blockchains, a number of alternative mechanisms and technologies have emerged to aid the scaling of blockchain dApps.",
+        "resources": [],
+        "order": 11,
+        "options": [
+          {
+            "name": "State and Payment Channels",
+            "recommendation-type": "opinion",
+            "description": "State channels refer to the process in which users transact with one another directly outside of the blockchain, or ‘off-chain,’ and greatly minimize their use of ‘on-chain’ operations.",
+            "resources": [
+              {
+                "name": "The Basics of State Channels",
+                "link": "https://education.district0x.io/general-topics/understanding-ethereum/basics-state-channels/"
+              },
+              {
+                "name": "State Channels: An Introduction to Off-chain Transactions",
+                "link": "https://www.talentica.com/blogs/state-channels-an-introduction-to-off-chain-transactions/"
+              }
+            ]
+          },
+          {
+            "name": "Optimistic Rollups and Fraud Proofs",
+            "recommendation-type": "opinion",
+            "description": "Optimistic rollups are a layer 2 (L2) construction that improves throughput and latency on Ethereum’s base layer by moving computation and data storage off-chain. An optimistic rollup processes transactions outside of Ethereum Mainnet, reducing congestion on the base layer and improving scalability.Optimistic rollups allow anyone to publish blocks without providing proofs of validity. However, to ensure the chain remains safe, optimistic rollups specify a time window during which anyone can dispute a state transition.",
+            "resources": [
+              {
+                "name": "How Do Optimistic Rollups Work (The Complete Guide)",
+                "link": "https://www.alchemy.com/overviews/optimistic-rollups"
+              }
+            ]
+          },
+          {
+            "name": "Zero Knowledge Rollups and Zero Knowledge Proof",
+            "recommendation-type": "opinion",
+            "description": "Zero-knowledge rollups (ZK-rollups) are layer 2 scaling solutions that increase the throughput of a blockchain by moving computation and state-storage off-chain.",
+            "resources": [
+              {
+                "name": "Zero-Knowledge Rollups - Ethereum",
+                "link": "https://ethereum.org/en/developers/docs/scaling/zk-rollups"
+              },
+              {
+                "name": "Why and How zk-SNARK Works",
+                "link": "https://medium.com/@imolfar/why-and-how-zk-snark-works-1-introduction-the-medium-of-a-proof-d946e931160"
+              },
+              {
+                "name": "Introduction to zk-SNARKs",
+                "link": "https://vitalik.ca/general/2021/01/26/snarks.html"
+              }
+            ]
+          },
+          {
+            "name": "Validium",
+            "recommendation-type": "opinion",
+            "description": "Validium is a scaling solution that enforces integrity of transactions using validity proofs like ZK-rollups but doesn’t store transaction data on the Ethereum Mainnet.",
+            "resources": [
+              {
+                "name": "Validium - Ethereum",
+                "link": "https://ethereum.org/en/developers/docs/scaling/validium/"
+              }
+            ]
+          },
+          {
+            "name": "Plasma",
+            "recommendation-type": "opinion",
+            "description": "Plasma is a framework that allows the creation of child blockchains that use the main Ethereum chain as a layer of trust and arbitration.",
+            "resources": [
+              {
+                "name": "Plasma Chains - Ethereum",
+                "link": "https://ethereum.org/en/developers/docs/scaling/plasma/"
+              }
+            ]
+          },
+          {
+            "name": "Sidechains",
+            "recommendation-type": "opinion",
+            "description": "A sidechain is a separate blockchain network that connects to another blockchain - called a parent blockchain or mainnet - via a two-way peg.",
+            "resources": [
+              {
+                "name": "Sidechains - Ethereum",
+                "link": "https://ethereum.org/en/developers/docs/scaling/sidechains/"
+              },
+              {
+                "name": "An Introduction to Sidechains",
+                "link": "https://www.coindesk.com/learn/an-introduction-to-sidechains"
+              }
+            ]
+          },
+          {
+            "name": "Ethereum 2",
+            "recommendation-type": "opinion",
+            "description": "Ethereum 2.0 marks a long-anticipated upgrade to the Ethereum public mainnet. Designed to accelerate Ethereum’s usage and adoption by improving its performance, Ethereum 2.0 implements Proof of Stake.",
+            "resources": [
+              {
+                "name": "What Is Ethereum 2.0?",
+                "link": "https://consensys.net/blog/blockchain-explained/what-is-ethereum-2/"
+              },
+              {
+                "name": "What Is Ethereum 2.0? Understanding The Merge",
+                "link": "https://www.forbes.com/advisor/investing/cryptocurrency/ethereum-2/"
+              }
+            ]
+          },
+          {
+            "name": "On-Chain Scaling",
+            "recommendation-type": "opinion",
+            "description": "On-chain scaling refers to any direct modification made to a blockchain, like data sharding and execution sharding in the incoming version of Ethereum 2.0.",
+            "resources": [
+              {
+                "name": "Scaling - Ethereum",
+                "link": "https://ethereum.org/en/developers/docs/scaling/"
+              }
+            ]
+          }
+        ]
+      },
+      "Keep learning": {
+        "order": 12,
+        "module bundlers": {
+          "options": []
         }
+      }
     }
-
+  }
 }
