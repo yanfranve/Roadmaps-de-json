@@ -1,724 +1,971 @@
 {
   "roles": {
     "DevOps": {
+      "description": " ",
       "learn a Programming Language": {
+        "description": "It doesn’t matter what language you pick, but it is important to learn at least one. You will be able to use that language to write automation scripts.",
+        "resources": [
+          {
+            "name": "Guide to Picking a Language for DevOps",
+            "link": "https://cs.fyi/guide/programming-language-for-devops"
+          }
+        ],
         "order": 1,
-        "options": []
-      },
-      "Operating Systems": {
-        "order": 2,
         "options": [
           {
-            "name": "Learn the basics",
+            "name": "Python",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Python is a multi-paradigm language. Being an interpreted language, code is executed as soon as it is written and the Python syntax allows for writing code in functional, procedural or object-oriented programmatic ways. Python is frequently recommended as the first language new coders should learn because of its focus on readability, consistency, and ease of use. This comes with some downsides, as the language is not especially performant in most production tasks.",
             "resources": [
               {
-                "name": "W3Schools: Learn HTML",
-                "link": "https://www.w3schools.com/html/html_intro.asp"
+                "name": "Visit Dedicated Python Roadmap",
+                "link": "https://roadmap.sh/python"
               },
               {
-                "name": "MDN Docs: Getting Started with HTML",
-                "link": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started"
+                "name": "Python Website",
+                "link": "https://www.python.org/"
               },
               {
-                "name": "web.dev: Learn HTML",
-                "link": "https://web.dev/learn/html"
+                "name": "Python Getting Started",
+                "link": "https://www.python.org/about/gettingstarted/"
               },
               {
-                "name": "HTML Full Course - Build a Website Tutorial",
-                "link": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
+                "name": "Automate the Boring Stuff",
+                "link": "https://automatetheboringstuff.com/"
               },
               {
-                "name": "HTML Tutorial for Beginners: HTML Crash Course",
-                "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
+                "name": "W3Schools - Python Tutorial",
+                "link": "https://www.w3schools.com/python/"
               },
               {
-                "name": "HTML Cheatsheet",
-                "link": "https://htmlcheatsheet.com/"
+                "name": "Python Crash Course",
+                "link": "https://ehmatthes.github.io/pcc/"
               },
               {
-                "name": "Scaler: HTML",
-                "link": "https://www.scaler.com/topics/html"
+                "name": "Codecademy - Learn Python 3",
+                "link": "https://www.codecademy.com/learn/learn-python-3"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Ruby",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Ruby is a high-level, interpreted programming language that blends Perl, Smalltalk, Eiffel, Ada, and Lisp. Ruby focuses on simplicity and productivity along with a syntax that reads and writes naturally. Ruby supports procedural, object-oriented and functional programming and is dynamically typed.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Ruby Website",
+                "link": "https://www.ruby-lang.org/en/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Learn Ruby in 20 minutes",
+                "link": "https://www.ruby-lang.org/en/documentation/quickstart/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Learn Ruby | Codecademy",
+                "link": "https://www.codecademy.com/learn/learn-ruby"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Go",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Go is an open source programming language supported by Google. Go can be used to write cloud services, CLI tools, used for API development, and much more.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Visit Dedicated Go Roadmap",
+                "link": "https://roadmap.sh/golang"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "A Tour of Go - Go Basics",
+                "link": "https://go.dev/tour/welcome/1"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Go Reference Documentation",
+                "link": "https://go.dev/doc/"
+              },
+              {
+                "name": "Learn Go | Boot.dev",
+                "link": "https://boot.dev/learn/learn-golang"
+              },
+              {
+                "name": "Go by Example - annotated example programs",
+                "link": "https://gobyexample.com/"
+              },
+              {
+                "name": "Learn Go | Codecademy",
+                "link": "https://www.codecademy.com/learn/learn-go"
+              },
+              {
+                "name": "W3Schools Go Tutorial",
+                "link": "https://www.w3schools.com/go/"
+              },
+              {
+                "name": "Making a RESTful JSON API in Go",
+                "link": "https://thenewstack.io/make-a-restful-json-api-go/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Rust",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Rust is a modern systems programming language focusing on safety, speed, and concurrency. It accomplishes these goals by being memory safe without using garbage collection.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "The Rust Programming Language - online book",
+                "link": "https://doc.rust-lang.org/book/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Rust by Example - collection of runnable examples",
+                "link": "https://doc.rust-lang.org/stable/rust-by-example/index.html"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "The Rust Programming Book - Video Version",
+                "link": "https://youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Comprehensive Rust by Google - Learn Rust in 4 Days",
+                "link": "https://google.github.io/comprehensive-rust/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Microsoft Learn Course",
+                "link": "https://google.github.io/comprehensive-rust/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Quick Rust Guide",
+                "link": "https://sivanaikk.github.io/rust/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Rust Katas - Small, interactive Rust exercises",
+                "link": "https://rustlings.cool/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "JavaScript",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on. Apart from being used on the frontend in browsers, there is Node.js which is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Visit Dedicated JavaScript Roadmap",
+                "link": "https://roadmap.sh/javascript"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "W3Schools - JavaScript Tutorial",
+                "link": "https://www.w3schools.com/js/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "The Modern JavaScript Tutorial",
+                "link": "https://javascript.info/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Codecademy - Learn JavaScript",
+                "link": "https://www.codecademy.com/learn/introduction-to-javascript"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "JavaScript Crash Course for Beginners",
+                "link": "https://youtu.be/hdI2bqOjy3c"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Node.js Crash Course",
+                "link": "https://www.youtube.com/watch?v=fBNz5xF-Kx4"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Node.js Tutorial for Beginners",
+                "link": "https://www.youtube.com/watch?v=TlB_eWDSMt4"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "W3Schools - Node.js Tutorial",
+                "link": "https://www.w3schools.com/nodejs/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "What is NPM?",
+                "link": "https://www.w3schools.com/nodejs/nodejs_npm.asp"
+              },
+              {
+                "name": "Official Documentation",
+                "link": "https://nodejs.dev/en/learn/"
               }
             ]
           }
         ]
       },
-      "Leam to live in Terninal": {
+      "Operating Systems": {
+        "description": "An Operating system serves as a bridge between a computer’s user and its hardware. An operating system’s function is to offer a setting in which a user can conveniently and effectively run programmes. In simple terms we can say that an Operating System (OS) is an interface between a computer user and computer hardware. An OS permits software programmes to communicate with a computer’s hardware, The kernel is the name of Piece of software that houses the fundamental elements of Operating System.",
+        "resources": [
+          {
+            "name": "All you need to know about OS.",
+            "link": "https://www.javatpoint.com/os-tutorial"
+          },
+          {
+            "name": "Learn Operating Systems",
+            "link": "https://www.tutorialspoint.com/operating_system/os_overview.htm"
+          },
+          {
+            "name": "Operating Systems tutorials.",
+            "link": "https://www.geeksforgeeks.org/introduction-of-operating-system-set-1/"
+          },
+          {
+            "name": "What are Operating Systems?",
+            "link": "https://www.youtube.com/watch?v=pVzRTmdd9j0"
+          },
+          {
+            "name": "Operating Systems!",
+            "link": "https://www.youtube.com/watch?v=vBURTt97EkA&list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O"
+          }
+        ],
+        "order": 2,
+        "options": [
+          {
+            "name": "Windows",
+            "recommendation-type": "opinion",
+            "description": "Windows is a graphical user interface (GUI) based operating system developed by Microsoft. It is a hybrid kernel-based proprietary operating system. According to a survey, till April 2022, windows is the most popular operating system in the world with a 75% market share.",
+            "resources": [
+              {
+                "name": "Windows Official Site",
+                "link": "http://microsoft.com/windows"
+              },
+              {
+                "name": "Windows Documentation for Developers",
+                "link": "https://learn.microsoft.com/en-us/windows/"
+              }
+            ]
+          },
+          {
+            "Linux": {
+              "options": [
+                {
+                  "name": "Ubuntu / Debian",
+                  "recommendation-type": "opinion",
+                  "description": "Debian is a free and open-source Linux distribution developed by the Debian Project, an all volunteer software community organization. Debian is the upstream distribution of Ubuntu. Ubuntu is a free and open-source Linux distribution based on Debian. Ubuntu is available in three versions Desktop, Server and Core.",
+                  "resources": [
+                    {
+                      "name": "Debian Website",
+                      "link": "https://www.debian.org/"
+                    },
+                    {
+                      "name": "Ubuntu Website",
+                      "link": "https://ubuntu.com/"
+                    },
+                    {
+                      "name": "Learn the ways of Linux-fu, for free",
+                      "link": "https://linuxjourney.com/"
+                    },
+                    {
+                      "name": "Linux Operating System - Crash Course for Beginners",
+                      "link": "https://www.youtube.com/watch?v=ROjZy1WbCIA"
+                    },
+                    {
+                      "name": "The Linux Command Line by William Shotts",
+                      "link": "https://linuxcommand.org/tlcl.php"
+                    },
+                    {
+                      "name": "r/linuxupskillchallenge",
+                      "link": ""
+                    },
+                    {
+                      "name": "Introduction to Linux - Full Course for Beginners",
+                      "link": "https://www.reddit.com/r/linuxupskillchallenge/"
+                    },
+                    {
+                      "name": "Linux Fundamentals",
+                      "link": "https://academy.hackthebox.com/course/preview/linux-fundamentals"
+                    }
+                  ]
+                },
+                {
+                  "name": "openSUSE Linux",
+                  "recommendation-type": "opinion",
+                  "description": "openSUSE is a free to use Linux distribution aimed to promote the use of Linux everywhere. openSUSE is released in two versions Leap and Tumbleweed",
+                  "resources": [
+                    {
+                      "name": "openSUSE Linux Website",
+                      "link": "https://www.opensuse.org/"
+                    },
+                    {
+                      "name": "openSUSE Documentation",
+                      "link": "https://en.opensuse.org/Main_Page"
+                    },
+                    {
+                      "name": "Unofficial openSUSE Getting Started Guide",
+                      "link": "https://opensuse-guide.org/"
+                    }
+                  ]
+                },
+                {
+                  "name": "RHEL / Derivatives",
+                  "recommendation-type": "opinion",
+                  "description": "Red Hat Enterprise Linux (RHEL) is a popular distribution of the Linux operating system that is designed for enterprise-level use. It is developed and maintained by Red Hat, Inc., and it is available under a subscription-based model. There are several distributions of Linux that are based on RHEL, or that have been derived from RHEL in some way. These distributions are known as RHEL derivatives. Some examples of RHEL derivatives include: AlmaLinux, CentOS, CloudLinux, Oracle Linux, and Scientific Linux. RHEL derivatives are often used in enterprise environments because they offer the stability and reliability of RHEL, but with the added benefit of being free or lower-cost alternatives.",
+                  "resources": [
+                    {
+                      "name": "Red Hat Enterprise Linux Website",
+                      "link": "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux"
+                    },
+                    {
+                      "name": "RHEL Documentation",
+                      "link": "https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/"
+                    },
+                    {
+                      "name": "RHEL Getting Started Guides",
+                      "link": "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/get-started"
+                    },
+                    {
+                      "name": "What is Red Hat Enterprise Linux (RHEL) - Red Hat",
+                      "link": "https://www.redhat.com/en/topics/linux/what-is-rhel"
+                    },
+                    {
+                      "name": "Learn Linux 101",
+                      "link": "https://developer.ibm.com/series/learn-linux-101/"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Unix": {
+              "options": [
+                {
+                  "name": "FreeBSD",
+                  "recommendation-type": "opinion",
+                  "description": "FreeBSD is a free and open-source Unix-like operating system including many features such as preemptive multitasking, memory protection, virtual memory, and multi-user facilities.",
+                  "resources": [
+                    {
+                      "name": "FreeBSD Website",
+                      "link": "https://www.freebsd.org/"
+                    },
+                    {
+                      "name": "Official FreeBSD Documentation",
+                      "link": "https://docs.freebsd.org/en/"
+                    },
+                    {
+                      "name": "FreeBSD Handbook",
+                      "link": "https://docs.freebsd.org/en/books/handbook/"
+                    },
+                    {
+                      "name": "FreeBSD Resources for Newbies",
+                      "link": "https://www.freebsd.org/projects/newbies/"
+                    }
+                  ]
+                },
+                {
+                  "name": "OpenBSD",
+                  "recommendation-type": "opinion",
+                  "description": "OpenBSD is a free and open-source Unix-like operating system, focussed on portability, standardization, correctness, proactive security and integrated cryptography. The popular software application OpenSSH is developed by from OpenBSD.",
+                  "resources": [
+                    {
+                      "name": "OpenBSD Website",
+                      "link": "https://www.openbsd.org/"
+                    },
+                    {
+                      "name": "Official OpenBSD Documentation",
+                      "link": "https://man.openbsd.org/search"
+                    },
+                    {
+                      "name": "OpenBSD Handbook",
+                      "link": "https://www.openbsdhandbook.com/"
+                    },
+                    {
+                      "name": "OpenBSD Installation Guide",
+                      "link": "https://www.openbsd.org/faq/faq4.html"
+                    }
+                  ]
+                },
+                {
+                  "name": "NetBSD",
+                  "recommendation-type": "opinion",
+                  "description": "NetBSD is a free, fast, secure, and highly portable Unix-like Open Source operating system. It is available for a wide range of platforms, from large-scale servers and powerful desktop systems to handheld and embedded devices.",
+                  "resources": [
+                    {
+                      "name": "NetBSD Website",
+                      "link": "https://netbsd.org/"
+                    },
+                    {
+                      "name": "Official NetBSD Documentation",
+                      "link": "https://netbsd.org/docs/"
+                    },
+                    {
+                      "name": "NetBSD Guide",
+                      "link": "https://netbsd.org/docs/guide/en/index.html"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Lean to live in Terminal": {
+        "description": "A terminal is simply a text-based interface to the computer, it is used to interact with your computer system via CLI (command line interface).",
+        "resources": [
+          {
+            "name": "What is CLI?",
+            "link": "https://en.wikipedia.org/wiki/Command-line_interface"
+          }
+        ],
         "order": 3,
         "options": [
           {
-            "name": "",
+            "Editors": {
+              "options": [
+                {
+                  "name": "Editors",
+                  "recommendation-type": "opinion",
+                  "description": "Editors are tools that allow you to create or edit files on your file system. Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as 'vi' with most UNIX systems and with Apple OS X. Vim ships with vimtutor that is a tutor designed to describe enough of the Vim commands that you will be able to easily use Vim as an all-purpose editor.",
+                  "resources": [
+                    {
+                      "name": "Vim",
+                      "link": "https://www.vim.org/"
+                    },
+                    {
+                      "name": "Vim help files",
+                      "link": "https://vimhelp.org/"
+                    },
+                    {
+                      "name": "Vim Tips Wiki",
+                      "link": "https://vim-adventures.com/"
+                    },
+                    {
+                      "name": "Vim Adventures",
+                      "link": "https://vim-adventures.com/"
+                    },
+                    {
+                      "name": "GNU Nano",
+                      "link": "https://www.nano-editor.org/"
+                    },
+                    {
+                      "name": "GNU Nano Manual",
+                      "link": "https://www.nano-editor.org/dist/latest/nano.html"
+                    },
+                    {
+                      "name": "PowerShell Documentation",
+                      "link": "https://learn.microsoft.com/en-us/powershell/"
+                    },
+                    {
+                      "name": "GNU Emacs",
+                      "link": "https://www.gnu.org/software/emacs/"
+                    },
+                    {
+                      "name": "GNU Emacs Documentation",
+                      "link": "https://www.gnu.org/software/emacs/documentation.html"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Scripting": {
+              "options": [
+                {
+                  "name": "Bash scripting",
+                  "recommendation-type": "opinion",
+                  "description": "Bash Scripting Tutorial",
+                  "resources": [
+                    {
+                      "name": "Bash Scripting Tutorial",
+                      "link": "https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/"
+                    }
+                  ]
+                },
+                {
+                  "name": "Powershell",
+                  "recommendation-type": "opinion",
+                  "description": "PowerShell Documentation",
+                  "resources": [
+                    {
+                      "name": "PowerShell Documentation",
+                      "link": "https://learn.microsoft.com/en-us/powershell/"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "name": "Process Monitoring",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "A process is an instance of a computer program that is being executed. There are several Linux commands that can be used to monitor processes. The most common ones are: ps (report a snapshot of the current processes), top (display Linux processes), htop (interactive process viewer), atop (advanced interactive monitor to view the load on a Linux system), lsof (list open files).The ps utility displays a header line, followed by lines containing information about all of your processes that have controlling terminals.The top program periodically displays a sorted list of system processes. The default sorting key is pid, but other keys can be used instead. Various output options are available.htop is a cross-platform ncurses-based process. It is similar to top, but allows you to scroll vertically and horizontally, and interact using a pointing device (mouse). You can observe all processes running on the system, along with their command line arguments, as well as view them in a tree format, select multiple processes and act on them all at once.Lsof lists on its standard output file information about files opened by processes.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "ps Documentation",
+                "link": "https://man7.org/linux/man-pages/man1/ps.1.html"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "ps Cheat Sheet",
+                "link": "https://www.sysadmin.md/ps-cheatsheet.html"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Linux Crash Course - The ps Command",
+                "link": "https://www.youtube.com/watch?v=wYwGNgsfN3I"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "top Documentation",
+                "link": "https://www.sysadmin.md/ps-cheatsheet.html"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "htop Cheat Sheet",
+                "link": "https://www.maketecheasier.com/power-user-guide-htop/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "htop Documentation",
+                "link": "https://www.youtube.com/watch?v=wYwGNgsfN3I"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "htop Cheat Sheet",
+                "link": "https://roadmap.sh/devops#:~:text=htop%20Documentation-,htop%20Cheat%20Sheet,-Lsof%20lists%20on"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "lsof Cheat Sheet",
+                "link": "https://man7.org/linux/man-pages/man1/top.1.html"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "lsof Documentation",
+                "link": "https://gist.github.com/ericandrewlewis/4983670c508b2f6b181703df43438c37"
+              },
+              {
+                "name": "Linux Crash Course - The ps Command",
+                "link": "https://www.man7.org/linux/man-pages/man1/htop.1.html"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Performance Monitoring",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "There are many tools available to monitor the performance of your application. Some of the most popular are: nmon, iostat, sar, vmstat.Nmon is a fully interactive performance monitoring command-line utility tool for Linux. It is a benchmark tool that displays performance about the cpu, memory, network, disks, file system, nfs, top processes, resources, and power micro-partition.The iostat command in Linux is used for monitoring system input/output statistics for devices and partitions. It monitors system input/output by observing the time the devices are active in relation to their average transfer rates. The iostat produce reports may be used to change the system configuration to raised balance the input/output between the physical disks.Short for System Activity Report, sar is a command line tool for Unix and Unix-like operating systems that shows a report of different information about the usage and activity of resources in the operating system.Short for Virtual memory statistic reporter, vmstat is a command line tool for Unix and Unix-like operating systems that reports various information about the operating system such as memory, paging, processes, I/O, CPU and disk usage.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "nmon Documentation",
+                "link": "https://www.ibm.com/docs/en/aix/7.2?topic=n-nmon-command"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "nmon Command Guide",
+                "link": "https://www.geeksforgeeks.org/linux-nmon/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "iostat Documentation",
+                "link": "https://man7.org/linux/man-pages/man1/iostat.1.html"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "iostat Command Guide",
+                "link": "https://www.geeksforgeeks.org/iostat-command-in-linux-with-examples/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "SAR command in Linux to monitor system performance",
+                "link": "https://www.geeksforgeeks.org/sar-command-linux-monitor-system-performance/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "SAR Man Page",
+                "link": "https://man7.org/linux/man-pages/man1/sar.1.html"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "SAR Man Page 2",
+                "link": "https://linux.die.net/man/1/sar"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Sar tutorial for beginners",
+                "link": "https://linuxhint.com/sar_linux_tutorial/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "vmstat command in Linux with Examples",
+                "link": "https://www.geeksforgeeks.org/vmstat-command-in-linux-with-examples/"
+              },
+              {
+                "name": "Linux commands: exploring virtual memory with vmstat",
+                "link": "https://www.redhat.com/sysadmin/linux-commands-vmstat"
+              },
+              {
+                "name": "VMstat Man Page",
+                "link": "https://man7.org/linux/man-pages/man8/vmstat.8.html"
+              },
+              {
+                "name": "vmstat tutorial",
+                "link": "https://phoenixnap.com/kb/vmstat-command"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Networking Tools",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Networking tools are used to troubleshoot network issues. Some of the most common networking tools are: traceroute, ping, mtr, nmap, netstat, ufw and firewalld, iptables and nftables, tcpdump, dig, scp.traceroute command is a command in Linux that prints the route a network packet takes from its source (e.g. your computer) to the destination host (e.g., roadmap.sh). It is quite valuable in investigating slow network connections as it can help us spot the slow leg of the network packet journey through the internet.ping (Packet Internet Groper) command is used to check the network connectivity between host and server/host. This command takes as input the IP address or the URL and sends a data packet to the specified address with the message “PING” and get a response from the server/host this time is recorded which is called latency.mtr combines the functionality of the traceroute and ping programs in a single network diagnostic tool.NMAP stands for Network Mapper and is an open-source tool used to explore and audit the network’s security, such as checking firewalls and scanning ports.Netstat is a command line utility to display all the network connections on a system. It displays all the tcp, udp and unix socket connections. Apart from connected sockets it also displays listening sockets that are waiting for incoming connections.UFW, or uncomplicated firewall, is command-line based utility for managing firewall rules in Arch Linux, Debian and Ubuntu. It’s aim is to make firewall configuration as simple as possible. It is a frontend for the iptables firewalling tool.IPtables is a command-line firewall utility that uses policy chains to allow or block traffic that will be enforced by the linux kernel’s netfilter framework. Iptables packet filtering mechanism is organized into three different kinds of structures: tables, chains and targets.tcpdump is a command line tool used for analysing network traffic passing through your system. It can be used to capture and filter packets and display them in a human-readable format. The captured information can be analysed at a later date as well.dig command stands for Domain Information Groper. It is used for retrieving information about DNS name servers. It is mostly used by network administrators for verifying and troubleshooting DNS problems and to perform DNS lookups. It replaces older tools such as nslookup and the host.SCP is an acronym for Secure Copy Protocol.It is a command line utility that allows the user to securely copy files and directories between two locations usually between unix or linux systems.The protocol ensures the transmission of files is encrypted to prevent anyone with suspicious intentions from getting sensitive information.SCP uses encryption over an SSH (Secure Shell) connection, this ensures that the data being transferred is protected from suspicious attacks.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "How to Run Traceroute in Linux",
+                "link": "https://linuxhint.com/run_traceroute_linux/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Traceroute command in Linux with examples",
+                "link": "https://www.geeksforgeeks.org/traceroute-command-in-linux-with-examples/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "What is ping command?",
+                "link": "https://linuxize.com/post/linux-ping-command/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "ping command with examples",
+                "link": "https://www.geeksforgeeks.org/ping-command-in-linux-with-examples/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Javatpoint: Linux mtr Command",
+                "link": "https://roadmap.sh/devops#:~:text=Javatpoint%3A%20Linux%20mtr%20Command"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "mtr Linux command",
+                "link": "https://www.tutorialspoint.com/unix_commands/mtr.htm"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "How to traceroute use mtr command in Linux",
+                "link": "https://www.devopsroles.com/how-to-traceroute-use-mtr-command-in-linux/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "NMAP Official Manual Book",
+                "link": "https://nmap.org/book/man.html"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "What is Nmap and How to Use it",
+                "link": "https://roadmap.sh/devops#:~:text=What%20is%20Nmap%20and%20How%20to%20Use%20it"
+              },
+              {
+                "name": "netstat command in Linux with Examples",
+                "link": "https://www.tutorialspoint.com/unix_commands/netstat.htm"
+              },
+              {
+                "name": "Netstat Tutorial",
+                "link": "http://www.c-jump.com/CIS24/Slides/Networking/html_utils/netstat.html"
+              },
+              {
+                "name": "Netstat Commands - Network Administration Tutorial",
+                "link": "https://www.youtube.com/watch?v=bxFwpm4IobU"
+              },
+              {
+                "name": "Linux Command Line Tutorial For Beginners - netstat command",
+                "link": "https://www.youtube.com/watch?v=zGNcvBaN5wE"
+              },
+              {
+                "name": "ufw Documentation",
+                "link": "https://manpages.ubuntu.com/manpages/trusty/man8/ufw.8.html"
+              },
+              {
+                "name": "Basic Introduction to UFW",
+                "link": "https://roadmap.sh/devops#:~:text=Basic%20Introduction%20to%20UFW"
+              },
+              {
+                "name": "UFW Essentials",
+                "link": "https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands"
+              },
+              {
+                "name": "iptables tutorial",
+                "link": "https://www.hostinger.in/tutorials/iptables-tutorial"
+              },
+              {
+                "name": "Beginners to Advanced Guide Iptable",
+                "link": "https://erravindrapawadia.medium.com/iptables-tutorial-beginners-to-advanced-guide-to-linux-firewall-839e10501759"
+              },
+              {
+                "name": "tcpdump Documentation",
+                "link": "https://www.tcpdump.org/manpages/tcpdump.1.html"
+              },
+              {
+                "name": "Basic Introduction to Tcpdump",
+                "link": "https://opensource.com/article/18/10/introduction-tcpdump"
+              },
+              {
+                "name": "50 ways to isolate traffic with Tcpdump",
+                "link": "https://danielmiessler.com/study/tcpdump/"
+              },
+              {
+                "name": "Interpreting Tcpdump output and data",
+                "link": "https://www.youtube.com/watch?v=7bsQP9sKHrs"
+              },
+              {
+                "name": "What is dig command?",
+                "link": "https://www.geeksforgeeks.org/dig-command-in-linux-with-examples/"
+              },
+              {
+                "name": "More on dig",
+                "link": "https://linuxize.com/post/how-to-use-dig-command-to-query-dns-in-linux/"
+              },
+              {
+                "name": "What is host command?",
+                "link": "https://www.geeksforgeeks.org/host-command-in-linux-with-examples/"
+              },
+              {
+                "name": "What is nslookup command?",
+                "link": "https://www.geeksforgeeks.org/nslookup-command-in-linux-with-examples/"
+              },
+              {
+                "name": "What is DNS?",
+                "link": "https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/"
+              },
+              {
+                "name": "SCP Linux Command",
+                "link": "https://www.freecodecamp.org/news/scp-linux-command-example-how-to-ssh-file-transfer-from-remote-to-local/"
+              },
+              {
+                "name": "10 SCP command examples",
+                "link": "https://www.tecmint.com/scp-commands-examples/"
+              },
+              {
+                "name": "SCP command explained",
+                "link": "https://phoenixnap.com/kb/linux-scp-command"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Text Manipulation",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Some of the most common commands you will use in the terminal are text manipulation commands. These commands allow you to search, replace, and manipulate text in files and streams. Here are some of the most common commands you will use: awk, sed, grep, sort, cut, uniq, cat, echo, fmt, tr, nl, wc.awk is a general-purpose scripting language used for manipulating data or text and generating reports in the Linux world. It is mostly used for pattern scanning and processing. It searches one or more files to see if they contain lines that match the specified patterns and then performs the associated actions.sed(Stream Editor) command in UNIX can perform lots of functions on file like searching, finding and replacing, insertion or deletion. By using SED you can edit files even without opening them in editors like VI Editor.The grep command (global search for regular expression and print out) searches file(s) for a particular pattern of characters, and displays all lines that contain that pattern. It can be used with other commands like ps making it more useful.sort command is used to sort the contents of a file in a particular order. By default, it sorts a file assuming the contents are in ASCII. But it also can also be used to sort numerically by using appropriate options.The cut utility cuts out selected portions of each line (as specified by list) from each file and writes them to the standard output.The uniq utility reads the specified input_file comparing adjacent lines, and writes a copy of each unique input line to the output_file.cat (concatenate) command is very frequently used in Linux. It reads data from the file and gives its content as output. It helps us to create, view, and concatenate files.echo is a built-in command in Linux used to display lines of text/string that are passed as an argument. It is mostly used in shell scripts and batch files to output status text or ENV variables to the screen or a file.fmt command is for formatting and optimizing contents in text files. It will be really useful when it comes to beautify large text files by setting uniform column width and spaces.The tr utility copies the standard input to the standard output with substitution or deletion of selected characters.The nl utility reads lines from the named file or the standard input if the file argument is omitted, applies a configurable line numbering filter operation and writes the result to the standard output.The wc utility displays the number of lines, words, and bytes contained in each input file, or standard input (if no file is specified) to the standard output.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "What is AWK? How to use it?",
+                "link": "https://www.geeksforgeeks.org/awk-command-unixlinux-examples/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "How AWK works?",
+                "link": "https://linuxize.com/post/awk-command/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Linux Crash Course - awk",
+                "link": "https://www.youtube.com/watch?v=oPEnvuj9QrI"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "What is SED? with examples",
+                "link": "https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Detailed Manual",
+                "link": "https://www.gnu.org/software/sed/manual/sed.html"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Linux Crash Course - The sed Command",
+                "link": "https://www.youtube.com/watch?v=nXLnx8ncZyE&t=218s"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "What is Grep? with examples",
+                "link": "https://www.geeksforgeeks.org/grep-command-in-unixlinux/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Detailed Manual",
+                "link": "https://www.gnu.org/software/grep/manual/grep.html"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Linux Crash Course - The grep Command",
+                "link": "https://www.youtube.com/watch?v=Tc_jntovCM0"
+              },
+              {
+                "name": "Sort command with examples",
+                "link": "https://www.geeksforgeeks.org/sort-command-linuxunix-examples/"
+              },
+              {
+                "name": "Options",
+                "link": "https://en.wikipedia.org/wiki/Sort_(Unix)"
+              },
+              {
+                "name": "Linux Tutorials|sort command GeeksforGeeks",
+                "link": "https://www.youtube.com/watch?v=fEx5rnbDKO4"
+              },
+              {
+                "name": "cut Documentation",
+                "link": "https://man7.org/linux/man-pages/man1/cut.1.html"
+              },
+              {
+                "name": "cut Cheat Sheet",
+                "link": "https://bencane.com/2012/10/22/cheat-sheet-cutting-text-with-cut/"
+              },
+              {
+                "name": "uniq Documentation",
+                "link": "https://man7.org/linux/man-pages/man1/uniq.1.html"
+              },
+              {
+                "name": "uniq Cheat Sheet",
+                "link": "https://www.geeksforgeeks.org/uniq-command-in-linux-with-examples/"
+              },
+              {
+                "name": "Cat Command with examples",
+                "link": "https://www.tecmint.com/13-basic-cat-command-examples-in-linux/"
+              },
+              {
+                "name": "Options",
+                "link": "https://en.wikipedia.org/wiki/Cat_(Unix)"
+              },
+              {
+                "name": "Linux Tutorials|cat command|GeeksforGeeks",
+                "link": "https://www.youtube.com/watch?v=exj5WMUJ11g"
+              },
+              {
+                "name": "Echo command with Examples",
+                "link": "https://www.tecmint.com/echo-command-in-linux/"
+              },
+              {
+                "name": "Linux Crash Course - The echo Command",
+                "link": "https://www.youtube.com/watch?v=S_ySzMHxMjw"
+              },
+              {
+                "name": "Fmt command with Examples",
+                "link": "https://www.devopsroles.com/fmt-command-in-linux-with-example/"
+              },
+              {
+                "name": "tr Documentation",
+                "link": "https://linuxcommand.org/lc3_man_pages/tr1.html"
+              },
+              {
+                "name": "tr Cheat Sheet",
+                "link": "https://linuxopsys.com/topics/tr-command-in-linux"
+              },
+              {
+                "name": "nl Documentation",
+                "link": "https://man7.org/linux/man-pages/man1/nl.1.html"
+              },
+              {
+                "name": "nl Cheat Sheet",
+                "link": "https://www.geeksforgeeks.org/nl-command-in-linux-with-examples/"
+              },
+              {
+                "name": "wc Documentation",
+                "link": "https://linux.die.net/man/1/wc"
+              },
+              {
+                "name": "wc Cheat Sheet",
+                "link": "https://onecompiler.com/cheatsheets/wc"
               }
             ]
           }
         ]
       },
       "Version Control Systems": {
+        "description": "Version control/source control systems allow developers to track and control changes to code over time. These services often include the ability to make atomic revisions to code, branch/fork off of specific points, and to compare versions of code. They are useful in determining the who, what, when, and why code changes were made.",
+        "resources": [
+          {
+            "name": "Git",
+            "link": "https://git-scm.com/"
+          },
+          {
+            "name": "What is Version Control?",
+            "link": "https://www.atlassian.com/git/tutorials/what-is-version-control"
+          }
+        ],
         "order": 4,
         "options": [
           {
-            "name": "",
+            "name": "Git",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Git is a free and open-source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Git & GitHub Crash Course For Beginners",
+                "link": "https://www.youtube.com/watch?v=SWYqp7iY_Tc"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Learn Git with Tutorials, News and Tips - Atlassian",
+                "link": "https://www.atlassian.com/git"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Git Cheat Sheet",
+                "link": "https://cs.fyi/guide/git-cheatsheet"
               }
             ]
           }
         ]
       },
       "VCS Hosting": {
+        "description": "When working on a team, you often need a remote place to put your code so others can access it, create their own branches, and create or review pull requests. These services often include issue tracking, code review, and continuous integration features. A few popular choices are GitHub, GitLab, BitBucket, and AWS CodeCommit.",
+        "resources": [
+          {
+            "name": "GitHub",
+            "link": "https://github.com/features/"
+          },
+          {
+            "name": "GitLab",
+            "link": "https://about.gitlab.com/"
+          },
+          {
+            "name": "BitBucket",
+            "link": "https://bitbucket.org/product/guides/getting-started/overview"
+          },
+          {
+            "name": "How to choose the best source code repository",
+            "link": "https://bitbucket.org/product/code-repository"
+          }
+        ],
         "order": 5,
         "options": [
           {
-            "name": "",
+            "name": "Bitbucket",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Bitbucket is a Git-based hosting and source code repository service that is Atlassian’s alternative to other products like GitHub, GitLab, etc. Bitbucket offers hosting options via Bitbucket Cloud (Atlassian’s servers), Bitbucket Server (customer’s on-premise), or Bitbucket Data Centre (number of servers in customers on-premise or cloud environment).",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Bitbucket Website",
+                "link": "https://bitbucket.org/product"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "A brief overview of Bitbucket",
+                "link": "https://bitbucket.org/product/guides/getting-started/overview#a-brief-overview-of-bitbucket"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Getting started with Bitbucket",
+                "link": "https://bitbucket.org/product/guides/basics/bitbucket-interface"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Using Git with Bitbucket Cloud",
+                "link": "https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Bitbucket tutorial | How to use Bitbucket Cloud",
+                "link": "https://www.youtube.com/watch?v=M44nEyd_5To"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Bitbucket Tutorial | Bitbucket for Beginners",
+                "link": "https://www.youtube.com/watch?v=i5T-DB8tb4A"
               }
             ]
           },
           {
-            "name": "",
+            "name": "GitLab",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "GitLab is a provider of internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "GitLab Website",
+                "link": "https://gitlab.com/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "GitLab Documentation",
+                "link": "https://docs.gitlab.com/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "GitHub",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "GitHub is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "GitHub Website",
+                "link": "https://github.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "GitHub Documentation",
+                "link": "https://docs.github.com/en/get-started/quickstart"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "How to Use Git in a Professional Dev Team",
+                "link": "https://ooloo.io/project/github-flow"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "What is GitHub?",
+                "link": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Git vs. GitHub: What's the difference?",
+                "link": "https://www.youtube.com/watch?v=wpISo9TNjfU"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Git and GitHub for Beginners",
+                "link": "https://www.youtube.com/watch?v=RGOj5yH7evk"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Git and GitHub - CS50 Beyond 2019",
+                "link": "https://www.youtube.com/watch?v=eulnSXkhE7I"
               }
             ]
           }
@@ -728,355 +975,194 @@
         "order": 6,
         "options": [
           {
-            "name": "",
+            "name": "Firewall",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Firewall is a network security device that monitors and filters incoming and outgoing network traffic based on an organization’s previously established security policies. It is a barrier that sits between a private internal network and the public Internet. A firewall’s main purpose is to allow non-threatening traffic in and to keep dangerous traffic out.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "What is Firewall?",
+                "link": "https://www.checkpoint.com/cyber-hub/network-security/what-is-firewall/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Types of Firewall",
+                "link": "https://www.cisco.com/c/en_in/products/security/firewalls/what-is-a-firewall.html"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Introduction of Firewall in Computer Network",
+                "link": "https://www.geeksforgeeks.org/introduction-of-firewall-in-computer-network/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "What is Firewall in Computer Network?",
+                "link": "https://www.geeksforgeeks.org/introduction-of-firewall-in-computer-network/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Why do we need Firewalls?",
+                "link": "https://www.tutorialspoint.com/what-is-a-firewall-and-why-do-you-need-one"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Firewalls and Network Security - SimpliLearn",
+                "link": "https://www.youtube.com/watch?v=9GZlVOafYTg"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Forward Proxy",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Forward Proxy, often called proxy server is a server that sits in front of a group of client machines. When those computers make requests to sites and services on the Internet, the proxy server intercepts those requests and then communicates with web servers on behalf of those clients, like a middleman.Common Uses:To block access to certain content To protect client identity onlineTo provide restricted internet to organizations",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "What is Forward Proxy?",
+                "link": "https://www.fortinet.com/resources/cyberglossary/proxy-server"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Forward vs Reverse Proxy",
+                "link": "https://oxylabs.io/blog/reverse-proxy-vs-forward-proxy"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Reverse Proxy",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "A Reverse Proxy server is a type of proxy server that typically sits behind the firewall in a private network and directs client requests to the appropriate backend server. It provides an additional level of security by hiding the server-related details like IP Address to clients. It is also known as a server-side proxy.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "What is Reverse Proxy?",
+                "link": "https://www.cloudflare.com/en-gb/learning/cdn/glossary/reverse-proxy/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "NGINX documentation",
+                "link": "https://www.nginx.com/resources/glossary/reverse-proxy-server/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Load Balancer",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Load Balancer acts as the traffic cop sitting in front of your servers and routing client requests across all servers capable of fulfilling those requests in a manner that maximizes speed and capacity utilization and ensures that no one server is overworked. If one of the servers goes down, the load balancer redirects traffic to the remaining online servers.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "What is Load Balancing?",
+                "link": "https://www.nginx.com/resources/glossary/load-balancing/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Load Balancing concepts and algorithms",
+                "link": "https://www.cloudflare.com/en-gb/learning/performance/what-is-load-balancing/"
               }
             ]
+          },
+          {
+            "name": "Caching Server",
+            "recommendation-type": "opinion",
+            "description": "A cache server is a dedicated network server or service acting as a server that saves Web pages or other Internet content locally. By placing previously requested information in temporary storage, or cache, a cache server both speeds up access to data and reduces demand on an enterprise’s bandwidth.",
+            "resources": [
+              {
+                "name": "What is Caching?",
+                "link": "https://www.cloudflare.com/en-gb/learning/cdn/what-is-caching/"
+              },
+              {
+                "name": "What is Cache Server?",
+                "link": "https://networkencyclopedia.com/cache-server/"
+              },
+              {
+                "name": "Site Cache vs Browser Cache vs Server Cache",
+                "link": "https://wp-rocket.me/blog/different-types-of-caching/"
+              }
+            ]
+          },
+          {
+            "Web Servers": {
+              "options": [
+                {
+                  "name": "MS IIS",
+                  "recommendation-type": "opinion",
+                  "description": "Internet Information Services (IIS) for Windows® Server is a flexible, secure and manageable Web server for hosting anything on the Web.",
+                  "resources": [
+                    {
+                      "name": "Official Website",
+                      "link": "https://www.iis.net/"
+                    },
+                    {
+                      "name": "Learn Windows Web Server IIS",
+                      "link": "https://www.youtube.com/watch?v=1VdxPWwtISA"
+                    }
+                  ]
+                },
+                {
+                  "name": "Apache",
+                  "recommendation-type": "opinion",
+                  "description": "Apache is a free, open-source HTTP server, available on many operating systems, but mainly used on Linux distributions. It is one of the most popular options for web developers, as it accounts for over 30% of all the websites, as estimated by W3Techs.",
+                  "resources": [
+                    {
+                      "name": "Apache Server Website",
+                      "link": "https://httpd.apache.org/"
+                    },
+                    {
+                      "name": "What is Apache Web Server?",
+                      "link": "https://www.youtube.com/watch?v=kaaenHXO4t4"
+                    }
+                  ]
+                },
+                {
+                  "name": "Tomcat",
+                  "recommendation-type": "opinion",
+                  "description": "Tomcat is an open source implementation of the Jakarta Servlet, Jakarta Server Pages, Jakarta Expression Language, Jakarta WebSocket, Jakarta Annotations and Jakarta Authentication specifications. These specifications are part of the Jakarta EE platform.",
+                  "resources": [
+                    {
+                      "name": "Tomcat Website",
+                      "link": "https://tomcat.apache.org/"
+                    },
+                    {
+                      "name": "Official Documentation(Tomcat 10.0)",
+                      "link": "https://tomcat.apache.org/tomcat-10.0-doc/index.html"
+                    },
+                    {
+                      "name": "Apache Tomcat",
+                      "link": "https://www.youtube.com/c/ApacheTomcatOfficial"
+                    }
+                  ]
+                },
+                {
+                  "name": "Nginx",
+                  "recommendation-type": "opinion",
+                  "description": "NGINX is a powerful web server and uses a non-threaded, event-driven architecture that enables it to outperform Apache if configured correctly. It can also do other important things, such as load balancing, HTTP caching, or be used as a reverse proxy.",
+                  "resources": [
+                    {
+                      "name": "Official Website",
+                      "link": "https://nginx.org/"
+                    },
+                    {
+                      "name": "NGINX Explained in 100 Seconds",
+                      "link": "https://www.youtube.com/watch?v=JKxlsvZXG7c"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
       "Containers": {
-        "order": 7,
-        "options": [
+        "description": "Containers are a construct in which cgroups, namespaces, and chroot are used to fully encapsulate and isolate a process. This encapsulated process, called a container image, shares the kernel of the host with other containers, allowing containers to be significantly smaller and faster than virtual machines.",
+        "resources": [
           {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
+            "name": "What are Containers?",
+            "link": "https://cloud.google.com/learn/what-are-containers"
           },
           {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
+            "name": "What is a Container?",
+            "link": "https://www.docker.com/resources/what-container/"
           },
           {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
+            "name": "What are Containers?",
+            "link": "https://www.youtube.com/playlist?list=PLawsLZMfND4nz-WDBZIj8-nbzGFD4S9oz"
           },
           {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
+            "name": "Articles about Containers - The New Stack",
+            "link": "https://thenewstack.io/category/containers/"
           }
-        ]
+        ],
+        "order": 7,
+        "options": []
       },
       "Cloud Providers": {
         "order": 8,

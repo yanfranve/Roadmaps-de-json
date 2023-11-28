@@ -1944,12 +1944,6 @@
             ]
           }
         ]
-      },
-      "Keep learning": {
-        "order": 12,
-        "module bundlers": {
-          "options": []
-        }
       }
     }
   }
