@@ -1162,2483 +1162,1611 @@
           }
         ],
         "order": 7,
-        "options": []
+        "options": [
+          {
+            "name": "LXC",
+            "recommendation-type": "opinion",
+            "description": "LXC is a well-known Linux container runtime that consists of tools, templates, and library and language bindings. It’s pretty low level, very flexible and covers just about every containment feature supported by the upstream kernel.",
+            "resources": [
+              {
+                "name": "LXC Website",
+                "link": "https://linuxcontainers.org/"
+              },
+              {
+                "name": "LXC Documentation",
+                "link": "https://linuxcontainers.org/lxc/documentation/"
+              },
+              {
+                "name": "Getting started with LXC containers",
+                "link": "https://www.youtube.com/watch?v=CWmkSj_B-wo"
+              }
+            ]
+          }
+        ]
       },
       "Cloud Providers": {
+        "description": "Cloud providers provide a layer of APIs to abstract infrastructure and provision it based on security and billing boundaries. The cloud runs on servers in data centers, but the abstractions cleverly give the appearance of interacting with a single “platform” or large application. The ability to quickly provision, configure and secure resources with cloud providers has been key to both the tremendous success, and complexity, of modern DevOps.",
+        "resources": [
+          {
+            "name": "Cloud service provider",
+            "link": "https://www.techtarget.com/searchitchannel/definition/cloud-service-provider-cloud-provider"
+          },
+          {
+            "name": "What are Cloud Providers?",
+            "link": "https://www.redhat.com/en/topics/cloud-computing/what-are-cloud-providers"
+          }
+        ],
         "order": 8,
         "options": [
           {
-            "name": "",
+            "name": "Azure",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Microsoft Azure is a cloud computing service operated by Microsoft. Azure currently provides more than 200 products and cloud services.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Azure Website",
+                "link": "https://azure.microsoft.com/en-us/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://docs.microsoft.com/en-us/azure/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Azure Get Started Guide",
+                "link": "https://azure.microsoft.com/en-ca/get-started/#explore-azure"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Get to know Azure",
+                "link": "https://azure.microsoft.com/en-us/explore/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "AWS",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Amazon Web Services has been the market-leading cloud computing platform since 2011, ahead of Azure and Google Cloud. AWS offers over 200 services with data centers located all over the globe. AWS service is an online platform that provides scalable and cost-effective cloud computing solutions. It is broadly adopted cloud platform that offers several on-demand operations like compute power, database storage, content delivery and so on.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "AWS Website",
+                "link": "https://aws.amazon.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "AWS Documentation",
+                "link": "https://docs.aws.amazon.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Sign up for AWS",
+                "link": "https://portal.aws.amazon.com/billing/signup"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "How to learn AWS",
+                "link": "https://cs.fyi/guide/how-to-learn-aws/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "AWS Ramp Up Guide",
+                "link": "https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_CloudPractitioner.pdf"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Cloud Practitioner Essentials",
+                "link": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "AWS Guide by SimpliLearn",
+                "link": "https://www.simplilearn.com/tutorials/aws-tutorial/what-is-aws"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "AWS Tutorial for Beginners",
+                "link": "https://www.youtube.com/watch?v=k1RI5locZE4&t=129s"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "AWS Course for Beginners",
+                "link": "https://www.coursera.org/learn/aws-cloud-technical-essentials?specialization=aws-devops"
+              },
+              {
+                "name": "DevOps on AWS Course",
+                "link": "https://www.coursera.org/specializations/aws-devops?#courses"
+              },
+              {
+                "name": "AWS Practitioner",
+                "link": "https://youtu.be/SOTamWNgDKc"
               }
             ]
           },
           {
-            "name": "",
+            "name": "DigitalOcean",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "DigitalOcean is a cloud computing service offering products and services in Compute, Storage, Managed Databases, Containers & Images and Networking.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "DigitalOcean Website",
+                "link": "https://www.digitalocean.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://docs.digitalocean.com/products/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "DigitalOcean Get Started Guide",
+                "link": "https://docs.digitalocean.com/products/getting-started/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Google Cloud",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Google Cloud is Google’s cloud computing service offering, providing over 150 products/services to choose from. It consists of a set of physical assets, such as computers and hard disk drives, and virtual resources, such as virtual machines(VMs), that are contained in Google’s data centers. It runs on the same infrastructure that Google uses internally for its end-user products, such as Search, Gmail, Google Drive, and YouTube.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Google Cloud Website",
+                "link": "https://cloud.google.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://cloud.google.com/docs"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Google Cloud Get Started Guide",
+                "link": "https://cloud.google.com/docs/get-started/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Coursera Complete Course for Google Cloud",
+                "link": "https://www.coursera.org/professional-certificates/cloud-engineering-gcp#courses"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Google Cloud by Edureka on YouTube",
+                "link": "https://www.youtube.com/watch?v=IUU6OR8yHCc"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "5 Tips to Become a Google Cloud Certified Professional Architect",
+                "link": "https://thenewstack.io/5-tips-to-become-a-google-cloud-certified-professional-architect/"
+              }
+            ]
+          },
+          {
+            "name": "Alibaba Cloud",
+            "recommendation-type": "opinion",
+            "description": "Alibaba Cloud is a cloud computing service, offering over 100 products and services with data centers in 24 regions and 74 availability zones around the world.",
+            "resources": [
+              {
+                "name": "Alibaba Cloud Website",
+                "link": "https://www.alibabacloud.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://www.alibabacloud.com/help/en/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Alibaba Cloud Getting Started Guide",
+                "link": "https://www.alibabacloud.com/getting-started"
+              }
+            ]
+          },
+          {
+            "name": "Heroku",
+            "recommendation-type": "opinion",
+            "description": "Heroku is a cloud platform as a service subsidiary of Salesforce. Heroku officially supports Node.js, Ruby, Java, PHP, Python, Go, Scala and Clojure, along with any language that runs on Linux via a third-party build pack.",
+            "resources": [
+              {
+                "name": "Heroku Website",
+                "link": "https://www.heroku.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://devcenter.heroku.com/"
+              },
+              {
+                "name": "Heroku Get Started Guide",
+                "link": "https://devcenter.heroku.com/start"
+              }
+            ]
+          },
+          {
+            "name": "Linode",
+            "recommendation-type": "opinion",
+            "description": "Linode is a cloud computing service owned by Akamai Technologies. Linode positions itself as an alternative to AWS, GCP and Azure by offering core services without complexity for most workloads.",
+            "resources": [
+              {
+                "name": "Linode Website",
+                "link": "https://www.heroku.com/"
+              },
+              {
+                "name": "Official Documentation",
+                "link": "https://devcenter.heroku.com/"
+              },
+              {
+                "name": "Linode Getting Started Guide",
+                "link": "https://devcenter.heroku.com/start"
+              }
+            ]
+          },
+          {
+            "name": "Vultr",
+            "recommendation-type": "opinion",
+            "description": "Vultr is an infrastructure-focussed cloud computing service, available in 25 locations worldwide. Vultr compute offers 100% SSD and high-performance Intel vCPUs.",
+            "resources": [
+              {
+                "name": "Vultr Website",
+                "link": "https://www.vultr.com/"
+              },
+              {
+                "name": "Official Documentation",
+                "link": "https://www.vultr.com/docs/"
               }
             ]
           }
         ]
       },
       "Networking Security and Protocols": {
+        "name": "Networking Protocols",
+        "recommendation-type": "opinion",
+        "description": "As a DevOps engineer, understanding networking protocols is crucial. Learn about TCP/IP, HTTP, HTTPS, FTP, SSH, SMTP, DNS, DHCP, NTP.",
+        "resources": [
+          {
+            "name": "SSH Intro",
+            "link": "https://www.baeldung.com/cs/ssh-intro"
+          },
+          {
+            "name": "What is SSH?",
+            "link": "https://www.ssh.com/academy/ssh/protocol"
+          },
+          {
+            "name": "SFTP using SSH",
+            "link": "https://www.goanywhere.com/blog/how-sftp-works"
+          },
+          {
+            "name": "OpenSSH Full Guide",
+            "link": "https://www.youtube.com/watch?v=ys5zh7kexve"
+          },
+          {
+            "name": "Cloudflare - What is SSL?",
+            "link": "https://www.cloudflare.com/learning/ssl/what-is-ssl/"
+          },
+          {
+            "name": "Cloudflare - What is TLS?",
+            "link": "https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/"
+          },
+          {
+            "name": "Wikipedia - SSL/TLS",
+            "link": "https://en.wikipedia.org/wiki/Transport_Layer_Security"
+          },
+          {
+            "name": "SSH vs SSL vs TLS",
+            "link": "https://www.youtube.com/watch?v=k3rFFLmQCuY"
+          },
+          {
+            "name": "Everything you need to know about HTTP",
+            "link": "https://cs.fyi/guide/http-in-depth"
+          },
+          {
+            "name": "What is HTTP?",
+            "link": "https://www.youtube.com/watch?v=iYM2zFP3Zn0"
+          },
+          {
+            "name": "An overview of HTTP",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
+          },
+          {
+            "name": "HTTP/3 From A To Z: Core Concepts",
+            "link": "https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/"
+          },
+          {
+            "name": "HTTP Crash Course & Exploration",
+            "link": "https://www.youtube.com/watch?v=iYM2zFP3Zn0"
+          },
+          {
+            "name": "What is HTTPS?",
+            "link": "https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/"
+          },
+          {
+            "name": "Why HTTPS Matters",
+            "link": "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https"
+          },
+          {
+            "name": "Enabling HTTPS on Your Servers",
+            "link": "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https"
+          },
+          {
+            "name": "How HTTPS works (comic)",
+            "link": "https://howhttps.works/"
+          },
+          {
+            "name": "What is DNS?",
+            "link": "https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/"
+          },
+          {
+            "name": "HOw DNS works (comic)",
+            "link": "https://howdns.works/"
+          },
+          {
+            "name": "DNS and How does it Work?",
+            "link": "https://www.youtube.com/watch?v=Wj0od2ag5sk"
+          },
+          {
+            "name": "DNS Records",
+            "link": "https://www.youtube.com/watch?v=7lxgpKh_fRY"
+          }
+        ],
         "order": 9,
         "options": [
           {
-            "name": "",
+            "name": "SSL/TLS",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "SSL and TLS are cryptographic protocols ensuring security in internet communications. SSL is deprecated, use TLS. Learn more about SSL/TLS.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Cloudflare - What is SSL?",
+                "link": "https://www.cloudflare.com/learning/ssl/what-is-ssl/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Cloudflare - What is TLS?",
+                "link": "https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Wikipedia - SSL/TLS",
+                "link": "https://en.wikipedia.org/wiki/Transport_Layer_Security"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "SSH vs SSL vs TLS",
+                "link": "https://www.youtube.com/watch?v=k3rFFLmQCuY"
               }
             ]
           },
           {
-            "name": "",
+            "name": "HTTP",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "HTTP is the TCP/IP based application layer communication protocol. Learn how it standardizes client-server communication across the internet.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Everything you need to know about HTTP",
+                "link": "https://cs.fyi/guide/http-in-depth"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "What is HTTP?",
+                "link": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "An overview of HTTP",
+                "link": "https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "HTTP/3 From A To Z: Core Concepts",
+                "link": "https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "HTTP Crash Course & Exploration",
+                "link": "https://www.youtube.com/watch?v=iYM2zFP3Zn0"
               }
             ]
           },
           {
-            "name": "",
+            "name": "FTP",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "FTP is a TCP/IP based application layer communication protocol for file transfer. Learn about FTP, SFTP, and FTPS.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "What is FTP?",
+                "link": "https://www.geeksforgeeks.org/file-transfer-protocol-ftp-in-application-layer/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "FTP vs SFTP vs FTPS",
+                "link": "https://www.fortinet.com/resources/cyberglossary/file-transfer-protocol-ftp-meaning"
               }
             ]
           },
           {
-            "name": "",
+            "name": "SSH",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "SSH (Secure Shell) is a secure network communication protocol for remote login and file transfer. Learn more about SSH and SFTP.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "SSH Intro",
+                "link": "https://www.baeldung.com/cs/ssh-intro"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "What is SSH?",
+                "link": "https://www.ssh.com/academy/ssh/protocol"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "SFTP using SSH",
+                "link": "https://www.goanywhere.com/blog/how-sftp-works"
+              }
+            ]
+          },
+          {
+            "name": "HTTPS",
+            "recommendation-type": "opinion",
+            "description": "HTTPS is the secure version of HTTP, enhancing security in data transmission. Learn about HTTPS, why it matters, and how it works.",
+            "resources": [
+              {
+                "name": "What is HTTPS?",
+                "link": "https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Why HTTPS Matters",
+                "link": "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Enabling HTTPS on Your Servers",
+                "link": "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "How HTTPS works (comic)",
+                "link": "https://howhttps.works/"
+              }
+            ]
+          },
+          {
+            "name": "DNS",
+            "recommendation-type": "opinion",
+            "description": "DNS (Domain Name System) is the internet's phonebook translating domain names to IP addresses. Learn more about DNS.",
+            "resources": [
+              {
+                "name": "What is DNS?",
+                "link": "https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "HOw DNS works (comic)",
+                "link": "https://howdns.works/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "DNS and How does it Work?",
+                "link": "https://www.youtube.com/watch?v=Wj0od2ag5sk"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "DNS Records",
+                "link": "https://www.youtube.com/watch?v=7lxgpKh_fRY"
+              }
+            ]
+          },
+          {
+            "name": "OSI Model",
+            "recommendation-type": "opinion",
+            "description": "The OSI model standardizes communication between devices over the network with 7 layers. Learn about the OSI model and its comparison with TCP/IP.",
+            "resources": [
+              {
+                "name": "What is OSI Model?",
+                "link": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/open-systems-interconnection-model-osi/"
+              },
+              {
+                "name": "OSI Model",
+                "link": "https://www.youtube.com/watch?v=dV8mjZd1OtU"
+              },
+              {
+                "name": "What is TCP/IP Model?",
+                "link": "https://www.geeksforgeeks.org/tcp-ip-model/"
+              },
+              {
+                "name": "OSI vs TCP/IP Model",
+                "link": "https://www.youtube.com/watch?v=F5rni9fr1yE"
+              }
+            ]
+          },
+          {
+            "name": "Emails",
+            "recommendation-type": "opinion",
+            "description": "Email is a communication method using electronic devices to deliver messages across computer networks. Learn more about emails.",
+            "resources": [
+              {
+                "name": "What is an email?",
+                "link": "https://www.cloudflare.com/learning/email-security/what-is-email/"
+              }
+            ],
+            "options": [
+              {
+                "name": "White Listing vs Grey Listing",
+                "recommendation-type": "opinion",
+                "description": "White listing adds an email to an approved sender list, preventing it from going to spam. Greylisting temporarily rejects emails from unrecognized senders, accepting them after a delay if legitimate.",
+                "resources": [
+                  {
+                    "name": "Basic Introduction to whitelisting",
+                    "link": "https://www.cblohm.com/blog/education-marketing-trends/what-is-email-whitelisting/"
+                  },
+                  {
+                    "name": "Detailed Introduction to greylisting",
+                    "link": "https://en.wikipedia.org/wiki/Greylisting_(email)"
+                  }
+                ]
+              },
+              {
+                "name": "SMTP",
+                "recommendation-type": "opinion",
+                "description": "SMTP is a method to transfer mail between users on the internet. It is a push protocol used to send mail, while POP and IMAP retrieve emails. Learn more about SMTP.Email is emerging as one of the most valuable services on the internet today. Most internet systems use SMTP as a method to transfer mail from one user to another. SMTP is a push protocol and is used to send the mail whereas POP (post office protocol) or IMAP (internet message access protocol) are used to retrieve those emails at the receiver’s side.SMTP is an application layer protocol. The client who wants to send the mail opens a TCP connection to the SMTP server and then sends the mail across the connection. The SMTP server is an always-on listening mode. As soon as it listens for a TCP connection from any client, the SMTP process initiates a connection through port 25. After successfully establishing a TCP connection the client process sends the mail instantly.",
+                "resources": [
+                  {
+                    "name": "What is Simple Mail Transfer Protocol (SMTP)?",
+                    "link": "https://www.geeksforgeeks.org/simple-mail-transfer-protocol-smtp/"
+                  }
+                ]
+              },
+              {
+                "name": "IMAPS",
+                "recommendation-type": "opinion",
+                "description": "IMAP and IMAPS allow access to emails from any device without downloading them. Read emails from the email service, enabling checking from different devices worldwide. Learn more about IMAP.IMAP (port 143) or IMAPS (port 993) allows you to access your email wherever you are, from any device. When you read an email message using IMAP, you aren’t actually downloading or storing it on your computer; instead, you’re reading it from the email service. As a result, you can check your email from different devices, anywhere in the world: your phone, a computer, a friend’s computer.IMAP only downloads a message when you click on it, and attachments aren’t automatically downloaded. This way you’re able to check your messages a lot more quickly than POP.",
+                "resources": [
+                  {
+                    "name": "Wikipedia: Internet Message Access Protocol",
+                    "link": "https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol"
+                  },
+                  {
+                    "name": "What is IMAP and How To Use It | Email Tutorial",
+                    "link": "https://www.youtube.com/watch?v=cfXabGOA2s8"
+                  }
+                ]
+              },
+              {
+                "name": "POP3s",
+                "recommendation-type": "opinion",
+                "description": "POP3 and POP3s are protocols to retrieve emails from a remote mail server. Learn more about POP3 and how it works.POP3 (port 110) or POP3s (port 995) stands for The Post Office Protocol. It’s an Internet standard protocol used by local email software clients to retrieve emails from a remote mail server over a TCP/IP connection.Email servers hosted by Internet service providers also use POP3 to receive and hold emails intended for their subscribers. Periodically, these subscribers will use email client software to check their mailbox on the remote server and download any emails addressed to them.Once the email client has downloaded the emails, they are usually deleted from the server, although some email clients allow users to specify that mails be copied or saved on the server for a period of time.",
+                "resources": [
+                  {
+                    "name": "What is POP3?",
+                    "link": "https://www.techtarget.com/whatis/definition/POP3-Post-Office-Protocol-3"
+                  }
+                ]
+              },
+              {
+                "name": "DMARC",
+                "recommendation-type": "opinion",
+                "description": "DMARC (Domain-based Message Authentication, Reporting, and Conformance) protects domain email from invalid addresses, email spoofing, and other threats. Learn more about DMARC.DMARC stands for Domain-based Message Authentication, Reporting, and Conformance, is an authentication method on the email that is built to protect domain email from invalid email addresses or commonly known as email spoofing, email attacks, phishing, scams, and other threat activities.",
+                "resources": [
+                  {
+                    "name": "DMARC Official Website",
+                    "link": "https://dmarc.org/"
+                  }
+                ]
+              },
+              {
+                "name": "SPF",
+                "recommendation-type": "opinion",
+                "description": "Sender Policy Framework (SPF) is used to authenticate the sender of an email. With an SPF record in place, Internet Service Providers can verify that a mail server is authorized to send email for a specific domain. An SPF record is a DNS TXT record containing a list of the IP addresses that are allowed to send email on behalf of your domain.",
+                "resources": [
+                  {
+                    "name": "What is a DNS SPF record?",
+                    "link": "https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/"
+                  },
+                  {
+                    "name": "SPF Overview",
+                    "link": "https://www.youtube.com/watch?v=WFPYrAr1boU"
+                  }
+                ]
+              },
+              {
+                "name": "Domain Keys",
+                "recommendation-type": "opinion",
+                "description": "DomainKeys Identified Mail (DKIM) is an email authentication method designed to detect forged sender addresses in email (email spoofing), a technique often used in phishing and email spam.",
+                "resources": [
+                  {
+                    "name": "DomainKeys Identified Mail",
+                    "link": "https://www.brainkart.com/article/DomainKeys-Identified-Mail_8493/"
+                  }
+                ]
               }
             ]
           }
         ]
       },
       "Serveriess": {
+        "resources": [
+          {
+            "name": "What is Serverless?",
+            "link": "https://www.redhat.com/en/topics/cloud-native-apps/what-is-serverless"
+          }
+        ],
         "order": 10,
         "options": [
           {
-            "name": "",
+            "name": "Netlify",
+            "recommendation-type": "opinion",
+            "description": "",
+            "resources": []
+          },
+          {
+            "name": "Gcp functions",
+            "recommendation-type": "opinion",
+            "description": "",
+            "resources": []
+          },
+          {
+            "name": "AWS Lambda",
             "recommendation-type": "opinion",
             "description": "",
             "resources": [
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "AWS Lambda Introduction",
+                "link": "https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Vercel",
+            "recommendation-type": "opinion",
+            "description": "",
+            "resources": []
+          },
+          {
+            "name": "Azure functions",
             "recommendation-type": "opinion",
             "description": "",
             "resources": [
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Azure Functions Overview",
+                "link": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Cloudflare",
             "recommendation-type": "opinion",
             "description": "",
             "resources": [
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Cloudflare Documentation",
+                "link": "https://developers.cloudflare.com/"
               }
             ]
           }
         ]
       },
       "Infrastructure Provisioning": {
+        "description": "Tools in this category are used to provision infrastructure in cloud providers, including DNS, networking, security policies, servers, containers, and vendor-specific constructs. Cloud provider-agnostic tooling is strongly encouraged for broader applicability across providers.",
+        "resources": [],
         "order": 11,
         "options": [
           {
-            "name": "",
+            "name": "Terraform",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Terraform is a popular open-source Infrastructure as Code (IaC) tool supporting various cloud and service provider APIs. It employs an immutable approach to infrastructure, with a terraform state file to track the status of real-world infrastructure.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Terraform Website",
+                "link": "https://www.terraform.io/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Terraform Documentation",
+                "link": "https://www.terraform.io/docs"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Terraform Tutorials",
+                "link": "https://learn.hashicorp.com/terraform"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Intro to Terraform Video",
+                "link": "https://www.youtube.com/watch?v=h970ZBgKINg&ab_channel=HashiCorp"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Terraform CDK Website",
+                "link": "https://www.terraform.io/cdktf"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "What is the CDKTF?",
+                "link": "https://www.terraform.io/cdktf/concepts/cdktf-architecture"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "CDKTF Getting Started Guide",
+                "link": "https://learn.hashicorp.com/tutorials/terraform/cdktf-install?in=terraform/cdktf"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "CDKTF Examples",
+                "link": "https://www.terraform.io/cdktf/examples"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "How to Scale Your Terraform Infrastructure",
+                "link": "https://thenewstack.io/how-to-scale-your-terraform-infrastructure/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Pulumi",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Pulumi is an open-source Infrastructure as Code tool that supports multiple programming languages, enabling cloud infrastructure modeling in TypeScript, JavaScript, Python, Go, .NET, Java, and YAML.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Pulumi Website",
+                "link": "https://www.pulumi.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://www.pulumi.com/docs/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Pulumi Getting Started Guide",
+                "link": "https://www.pulumi.com/docs/get-started/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "CloudFormation",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "CloudFormation is the AWS service for defining collections of AWS resources. It enables modeling, provisioning, and management of AWS and third-party resources as code.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "AWS CloudFormation Website",
+                "link": "https://aws.amazon.com/cloudformation/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://docs.aws.amazon.com/cloudformation/index.html"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "AWS CloudFormation Getting Started Guide",
+                "link": "https://aws.amazon.com/cloudformation/getting-started/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "CloudFormation Sample Templates",
+                "link": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-sample-templates.html"
               }
             ]
           },
           {
-            "name": "",
+            "name": "AWS CDK",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "The AWS Cloud Development Kit (AWS CDK) is an open-source framework for provisioning cloud infrastructure resources safely and repeatably through AWS CloudFormation. It allows writing infrastructure as code in popular languages.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "AWS CDK Website",
+                "link": "https://aws.amazon.com/cdk/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://docs.aws.amazon.com/cdk/index.html"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "What is the AWS CDK?",
+                "link": "https://docs.aws.amazon.com/cdk/v2/guide/home.html"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "AWS SDK Getting Started Guide",
+                "link": "https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "AWS CDK Examples",
+                "link": "https://github.com/aws-samples/aws-cdk-examples"
               }
             ]
           }
         ]
       },
       "Configuration Management": {
+        "description": "Configuration management is a systems engineering process for establishing consistency of a product’s attributes throughout its life. In the technology world, configuration management is an IT management process that tracks individual configuration items of an IT system. IT systems are composed of IT assets that vary in granularity. An IT asset may represent a piece of software, or a server, or a cluster of servers. The following focuses on configuration management as it directly applies to IT software assets and software asset CI/CD.  Software configuration management is a systems engineering process that tracks and monitors changes to a software systems configuration metadata. In software development, configuration management is commonly used alongside version control and CI/CD infrastructure. This post focuses on its modern application and use in agile CI/CD software environments. ",
+        "resources": [
+          {
+            "name": "What is configuration management?",
+            "link": "https://www.atlassian.com/microservices/microservices-architecture/configuration-management"
+          }
+        ],
         "order": 12,
         "module bundlers": {
           "options": [
             {
-              "name": "",
+              "name": "Ansible",
               "recommendation-type": "opinion",
-              "description": "",
+              "description": "Ansible is an open-source configuration management, application deployment, and provisioning tool that uses its own declarative language in YAML. Ansible is agentless, meaning it only requires remote connections via SSH or Windows Remote Management via PowerShell to function.",
               "resources": [
                 {
-                  "name": "",
+                  "name": "Ansible Website",
                   "link": ""
                 },
                 {
-                  "name": "",
+                  "name": "Official Documentation",
                   "link": ""
                 },
                 {
-                  "name": "",
+                  "name": "Ansible Getting Started Guide",
                   "link": ""
                 },
                 {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
+                  "name": "Ansible Full Course for Beginners",
                   "link": ""
                 }
               ]
             },
             {
-              "name": "",
+              "name": "Chef",
               "recommendation-type": "opinion",
-              "description": "",
+              "description": "Emerging in 2009, Chef (now known as Progress Chef) is one of the earliest configuration management tools to gain popularity. Chef 'Recipes' are written in Ruby, primarily in a declarative style. Chef requires a client to be installed on a managed server. The client polls a Chef-Server regularly to determine its configuration. Chef-Solo is also available, allowing provisioning of a single node by running Chef locally. A key tenet of Chef recipe design is idempotence, ensuring recipes can be run multiple times to produce the same result.A key tenet of Chef recipe design is the concept of idempotence. All Chef recipes should be runnable multiple times and produce the same result - this is especially necessary in cases where the client/server model listed above is in use. This pattern of configuration management is highly influential for future declarative tools like Terraform and Cloud Formation.",
               "resources": [
                 {
-                  "name": "",
-                  "link": ""
+                  "name": "Chef Website",
+                  "link": "https://www.chef.io/products/chef-infra"
                 },
                 {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
+                  "name": "Chef Tutorial",
+                  "link": "https://www.tutorialspoint.com/chef/index.htm"
                 }
               ]
             },
             {
-              "name": "",
+              "name": "Puppet",
               "recommendation-type": "opinion",
-              "description": "",
+              "description": "Puppet, an automated administrative engine for Linux, Unix, and Windows systems, performs administrative tasks based on a centralized specification. It handles tasks such as adding users, installing packages, and updating server configurations.",
               "resources": [
                 {
-                  "name": "",
-                  "link": ""
+                  "name": "Puppet Website",
+                  "link": "https://puppet.com/"
                 },
                 {
-                  "name": "",
-                  "link": ""
+                  "name": "Official Documentation",
+                  "link": "https://puppet.com/docs"
                 },
                 {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                }
-              ]
-            },
-            {
-              "name": "",
-              "recommendation-type": "opinion",
-              "description": "",
-              "resources": [
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
+                  "name": "Introduction to Puppet",
+                  "link": "https://puppet.com/docs/puppet/6/puppet_overview.html"
                 }
               ]
             }
           ]
         }
       },
-      "Leam Some CI/CD Tool": {
+      "Learn Some CI/CD Tool": {
+        "name": "CI/CD",
+        "recommendation-type": "opinion",
+        "description": "CI/CD is a method to frequently deliver apps to customers by introducing automation into the stages of app development. The main concepts attributed to CI/CD are continuous integration, continuous delivery, and continuous deployment. CI/CD is a solution to the problems integrating new code can cause for development and operations teams. Specifically, CI/CD introduces ongoing automation and continuous monitoring throughout the lifecycle of apps, from integration and testing phases to delivery and deployment. These connected practices are often referred to as a 'CI/CD pipeline' and are supported by development and operations teams working together in an agile way with either a DevOps or site reliability engineering (SRE) approach.",
+        "resources": [
+          {
+            "name": "CI vs CD",
+            "link": "https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment"
+          },
+          {
+            "name": "What is CI/CD?",
+            "link": "https://www.redhat.com/en/topics/devops/what-is-ci-cd"
+          },
+          {
+            "name": "CI/CD Pipeline: A Gentle Introduction",
+            "link": "https://semaphoreci.com/blog/cicd-pipeline"
+          },
+          {
+            "name": "DevOps CI/CD Explained in 100 Seconds",
+            "link": "https://www.youtube.com/watch?v=scEDHsr3APg"
+          }
+        ],
         "order": 13,
         "options": [
           {
-            "name": "",
+            "name": "CircleCI",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "CircleCI is a CI/CD service that can be integrated with GitHub, BitBucket, and GitLab repositories. The service can be used as a SaaS offering or self-managed using your own resources.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "CircleCI Website",
+                "link": "https://circleci.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "CircleCI Documentation",
+                "link": "https://circleci.com/docs"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Configuration Tutorial",
+                "link": "https://circleci.com/docs/config-intro"
               }
             ]
           },
           {
-            "name": "",
+            "name": "GitHub Actions",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Automate, customize, and execute your software development workflows right in your repository with GitHub Actions. You can discover, create, and share actions to perform any job you’d like, including CI/CD, and combine actions in a completely customized workflow.",
             "resources": [
               {
-                "name": "",
+                "name": "GitHub Actions Documentation",
                 "link": ""
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Learn GitHub Actions",
+                "link": "https://docs.github.com/en/actions/learn-github-actions"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "GitHub Actions - Supercharge your GitHub Flow",
+                "link": "https://youtu.be/cP0I9w2coGU"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Automate your Workflow with GitHub Actions",
+                "link": "https://www.youtube.com/watch?v=nyKZTKQS_EQ"
               }
             ]
           },
           {
-            "name": "",
+            "name": "GitLab CI",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "GitLab offers a CI/CD service that can be used as a SaaS offering or self-managed using your own resources. You can use GitLab CI with any GitLab hosted repository or any BitBucket Cloud or GitHub repository in the GitLab Premium self-managed, GitLab Premium SaaS, and higher tiers.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "GitLab Website",
+                "link": "https://gitlab.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "GitLab Documentation",
+                "link": "https://docs.gitlab.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Get Started with GitLab CI",
+                "link": "https://docs.gitlab.com/ee/tutorials/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Learn GitLab Tutorials",
+                "link": "https://docs.gitlab.com/ee/tutorials/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "GitLab CI/CD Examples",
+                "link": "https://docs.gitlab.com/ee/ci/examples/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Drone",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Drone is a CI/CD service offered by Harness. Each build runs on an isolated Docker container, and Drone integrates with many popular source code management repositories like GitHub, BitBucket, and GitLab.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Drone Website",
+                "link": "https://www.drone.io/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://docs.drone.io/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Drone Getting Started Guide",
+                "link": "https://docs.drone.io/server/overview/"
+              }
+            ]
+          },
+          {
+            "name": "Travis CI",
+            "recommendation-type": "opinion",
+            "description": "Travis CI is a CI/CD service primarily used for building and testing projects hosted on BitBucket and GitHub. Open source projects can utilize Travis CI for free.",
+            "resources": [
+              {
+                "name": "Travis CI Website",
+                "link": "https://www.travis-ci.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Travis CI Documentation",
+                "link": "https://docs.travis-ci.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Travis CI Tutorial",
+                "link": "https://docs.travis-ci.com/user/tutorial/"
+              }
+            ]
+          },
+          {
+            "name": "Jenkins",
+            "recommendation-type": "opinion",
+            "description": "Jenkins is an open-source CI/CD automation server. Jenkins is primarily used for building projects, running tests, static code analysis, and deployments.",
+            "resources": [
+              {
+                "name": "Jenkins Website",
+                "link": "https://www.jenkins.io/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Jenkins Handbook",
+                "link": "https://www.jenkins.io/doc/book/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Jenkins Getting Started Guide",
+                "link": "https://www.jenkins.io/doc/pipeline/tour/getting-started/"
+              }
+            ]
+          },
+          {
+            "name": "TeamCity",
+            "recommendation-type": "opinion",
+            "description": "TeamCity is a CI/CD service provided by JetBrains. TeamCity can be used as a SaaS offering or self-managed using your own resources.",
+            "resources": [
+              {
+                "name": "TeamCity Website",
+                "link": "https://www.jetbrains.com/teamcity/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://www.jetbrains.com/help/teamcity/teamcity-documentation.html"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "TeamCity Tutorials",
+                "link": "https://www.jetbrains.com/teamcity/tutorials/"
+              },
+              {
+                "name": "TeamCity Learning Portal",
+                "link": "https://www.jetbrains.com/teamcity/learn/"
+              }
+            ]
+          },
+          {
+            "name": "Azure DevOps",
+            "recommendation-type": "opinion",
+            "description": "Azure DevOps is developed by Microsoft as a full-scale application lifecycle management and CI/CD service. Azure DevOps provides developer services for allowing teams to plan work, collaborate on code development, and build and deploy applications.",
+            "resources": [
+              {
+                "name": "Azure DevOps Website",
+                "link": "https://azure.microsoft.com/en-us/services/devops/#overview"
+              },
+              {
+                "name": "Official Documentation",
+                "link": "https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops&viewFallbackFrom=vsts"
+              },
+              {
+                "name": "Azure DevOps Getting Started Guide",
+                "link": "https://docs.microsoft.com/en-us/azure/devops/user-guide/sign-up-invite-teammates?view=azure-devops"
               }
             ]
           }
         ]
       },
       "Secret Management": {
+        "description": "Secret management is an important aspect of DevOps, as it involves securely storing and managing sensitive information, such as passwords, API keys, and other secrets, that are used by applications and infrastructure.There are several ways to manage secrets in a cloud environment:Secret stores: A secret store is a specialized database or service that is designed to securely store and manage secrets. Examples of secret stores include Hashicorp Vault, AWS Secrets Manager, and Google Cloud Secret Manager.Encryption: Secrets can be encrypted using a variety of encryption algorithms and protocols, such as AES, RSA, and PGP. Encrypted secrets can be stored in a variety of locations, such as a file system, a database, or a cloud storage service.Access controls: Access to secrets should be restricted to only those users or systems that need them, using techniques such as role-based access controls, multi-factor authentication, and least privilege principles.Effective secret management is essential for maintaining the security and integrity of a DevOps environment. It is important to regularly review and update secret management practices to ensure that secrets are being stored and managed securely. ",
+        "resources": [
+          {
+            "name": "How to Manage Secrets in Web Applications?",
+            "link": "https://cs.fyi/guide/secret-management-best-practices"
+          },
+          {
+            "name": "Secrets management guide — approaches, open source tools, commercial products, challenges and questions",
+            "link": "https://medium.com/@burshteyn/secrets-management-guide-approaches-open-source-tools-commercial-products-challenges-db560fd0584d"
+          },
+          {
+            "name": "Secret Management Architectures: Finding the balance between security and complexity",
+            "link": "https://medium.com/@burshteyn/secrets-management-guide-approaches-open-source-tools-commercial-products-challenges-db560fd0584d"
+          }
+        ],
         "order": 14,
         "options": [
           {
-            "name": "",
+            "name": "Vault",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Vault is a tool for securely storing and managing secrets, such as passwords, API keys, and other sensitive information. It is developed and maintained by Hashicorp and is available as open-source software. Vault is designed to be highly scalable and flexible, with features like encryption, access controls, secret rotation, and auditing. It is commonly used in DevOps environments to securely store and manage secrets, often in conjunction with other tools like Kubernetes and Helm.",
             "resources": [
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Vault - Official Website",
+                "link": "https://www.vaultproject.io/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Cloud Specific Tools",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "There are several cloud-specific tools for securely storing and managing secrets, such as AWS Secrets Manager, Google Cloud Secret Manager, and Azure Key Vault. These tools are designed to be used in conjunction with cloud-based applications and infrastructure and are typically integrated with other cloud services, such as container orchestration platforms and continuous delivery pipelines.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "AWS Secrets Manager - Amazon Web Services",
+                "link": "https://aws.amazon.com/secrets-manager/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Google Cloud Secret Manager - Google Cloud",
+                "link": "https://cloud.google.com/secret-manager"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Azure Key Vault - Microsoft Azure",
+                "link": "https://azure.microsoft.com/en-us/services/key-vault/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Sealed Secrets",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Sealed Secrets is a tool for securely storing and managing secrets in a Kubernetes environment. It is developed and maintained by Bitnami and is available as open-source software. Sealed Secrets uses encryption algorithms and protocols, supports access controls, secret rotation, and auditing. It is commonly used in Kubernetes environments to securely store and manage secrets, often in conjunction with other tools like Helm.",
             "resources": [
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Sealed Secrets - Bitnami",
+                "link": "https://github.com/bitnami-labs/sealed-secrets"
               }
             ]
           },
           {
-            "name": "",
+            "name": "SOPS",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "SOPS (Secrets OPerationS) is an open-source tool for securely storing and managing secrets, such as passwords, API keys, and other sensitive information. Developed and maintained by Mozilla, SOPS is designed to be easy to use and highly secure, supporting encryption, access controls, secret rotation, and auditing. It is commonly used in DevOps environments, often in conjunction with other tools like Kubernetes and Helm.",
             "resources": [
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Mozilla SOPS - Official Website",
+                "link": "https://github.com/mozilla/sops"
               }
             ]
           }
         ]
       },
       "Infrastructure Monitoring": {
+        "description": "Monitoring refers to the practice of making the performance and status of infrastructure visible. This section contains common tools used for monitoring. It is a vendor-heavy space, so caution is advised when studying materials exclusively from a given product or project. Understanding the pros and cons of these tools will be useful in planning how to monitor a system for a given goal.",
+        "resources": [
+          {
+            "name": "Best Practices to Optimize Infrastructure Monitoring within DevOps Teams",
+            "link": "https://thenewstack.io/best-practices-to-optimize-infrastructure-monitoring-within-devops-teams/"
+          },
+          {
+            "name": "Seven Steps to Effective Cloud Native Infrastructure Monitoring",
+            "link": "https://thenewstack.io/seven-steps-to-effective-cloud-native-infrastructure-monitoring/"
+          }
+        ],
         "order": 15,
         "options": [
           {
-            "name": "",
+            "name": "Prometheus",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Prometheus is a free software application used for event monitoring and alerting. It records real-time metrics in a time series database built using an HTTP pull model, with flexible queries and real-time alerting.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Prometheus Website",
+                "link": "https://prometheus.io/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://prometheus.io/docs/introduction/overview/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Getting Started with Prometheus",
+                "link": "https://prometheus.io/docs/tutorials/getting_started/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Grafana",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Grafana is the open-source platform for monitoring and observability. It allows you to query, visualize, alert on, and understand your metrics no matter where they are stored.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Grafana Website",
+                "link": "https://grafana.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Grafana Official Documentation",
+                "link": "https://grafana.com/docs/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Grafana Community",
+                "link": "https://community.grafana.com/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Grafana Webinars and Videos",
+                "link": "https://grafana.com/videos/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Zabbix",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Zabbix is an enterprise-class open source monitoring solution for network monitoring and application monitoring of millions of metrics.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Zabbix Website",
+                "link": "https://www.zabbix.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://www.zabbix.com/manuals"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Zabbix Roadmap",
+                "link": "https://www.zabbix.com/roadmap"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Datadog",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Datadog is a monitoring and analytics platform for large-scale applications. It encompasses infrastructure monitoring, application performance monitoring, log management, and user-experience monitoring. Datadog aggregates data across your entire stack with 400+ integrations for troubleshooting, alerting, and graphing.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Datadog Website",
+                "link": "https://www.datadoghq.com/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://docs.datadoghq.com/"
               }
             ]
           }
         ]
       },
       "Application Monitoring": {
+        "description": "Application monitoring refers to the practice of making the status and performance of a given application visible. This may include details such as stacktraces, error logs, and the line of code implicated in a given failure. When combined with Infrastructure monitoring, this can provide a complete picture of what is happening in your system, and why.",
+        "resources": [
+          {
+            "name": "Applying Basic vs. Advanced Monitoring Techniques",
+            "link": "https://thenewstack.io/applying-basic-vs-advanced-monitoring-techniques/"
+          },
+          {
+            "name": "Why Legacy Apps Need Your Monitoring Love, Too",
+            "link": "https://thenewstack.io/why-legacy-apps-need-your-monitoring-love-too/"
+          }
+        ],
         "order": 16,
         "options": [
           {
-            "name": "",
+            "name": "OpenTelemetry",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "OpenTelemetry is a collection of tools, APIs, and SDKs. Use it to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) to help you analyze your software’s performance and behavior.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "OpenTelemetry Website",
+                "link": "https://opentelemetry.io/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://opentelemetry.io/docs/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Datadog",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Datadog is a monitoring and analytics platform for large-scale applications. It encompasses infrastructure monitoring, application performance monitoring, log management, and user-experience monitoring. Datadog aggregates data across your entire stack with 400+ integrations for troubleshooting, alerting, and graphing.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Datadog Website",
+                "link": "https://www.datadoghq.com/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://docs.datadoghq.com/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Jaeger",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Jaeger is an open source, end-to-end distributed tracing system that enables us to monitor and troubleshoot transactions in complex distributed systems.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Jaeger Website",
+                "link": "https://www.jaegertracing.io/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://www.jaegertracing.io/docs/1.37/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "New Relic",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "New Relic is where dev, ops, security and business teams solve software-performance problems with data.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "New Relic Website",
+                "link": "https://newrelic.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://docs.newrelic.com/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "New Relic Developer Hub",
+                "link": "https://developer.newrelic.com/"
               }
             ]
           }
         ]
       },
       "Logs Management": {
+        "description": "Log management is the process of handling log events generated by all software applications and infrastructure on which they run. It involves log collection, aggregation, parsing, storage, analysis, search, archiving, and disposal, with the ultimate goal of using the data for troubleshooting and gaining business insights, while also ensuring the compliance and security of applications and infrastructure.",
+        "resources": [
+          {
+            "name": "Introduction to Logs Management",
+            "link": "https://sematext.com/guides/log-management"
+          },
+          {
+            "name": "Log Management: What DevOps Teams Need to Know",
+            "link": "https://devops.com/log-management-what-devops-teams-need-to-know/"
+          },
+          {
+            "name": "Logging for Kubernetes: What to Log and How to Log It",
+            "link": "https://thenewstack.io/logging-for-kubernetes-what-to-log-and-how-to-log-it/"
+          }
+        ],
         "order": 17,
         "options": [
           {
-            "name": "",
+            "name": "Elastic Stack",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Elastic Stack is a group of open source products comprised of Elasticsearch, Kibana, Beats, and Logstash and more that help store, search, analyze, and visualize data from various source, in different format, in real-time.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Elastic Stack Website",
+                "link": "https://www.elastic.co/elastic-stack/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Docs",
+                "link": "https://www.elastic.co/guide/index.html"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Elastic Stack features",
+                "link": "https://www.elastic.co/elastic-stack/features"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Logstash vs Fluentd",
+                "link": "https://logz.io/blog/fluentd-logstash/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Loki",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Loki is a horizontally scalable, highly available, multi-tenant log aggregation system inspired by Prometheus. It is designed to be very cost-effective and easy to operate. It does not index the contents of the logs, but rather a set of labels for each log stream.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Loki Website",
+                "link": "https://grafana.com/oss/loki/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://grafana.com/docs/loki/latest/?pg=oss-loki&plcmt=quick-links"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Graylog",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Graylog is a leading centralized log management solution for capturing, storing, and enabling real-time analysis of terabytes of machine data.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Graylog Website",
+                "link": "https://www.graylog.org/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://docs.graylog.org/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Product Videos",
+                "link": "https://www.graylog.org/resources-videos"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Splunk",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "The Splunk platform removes the barriers between data and action, empowering observability, IT and security teams to ensure their organizations are secure, resilient and innovative.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Splunk Website",
+                "link": "https://www.graylog.org/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Documentation",
+                "link": "https://docs.graylog.org/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Splunk Videos",
+                "link": "https://www.graylog.org/resources-videos"
+              }
+            ]
+          },
+          {
+            "name": "Papertrail",
+            "recommendation-type": "opinion",
+            "description": "Papertrail is a leading centralized log management solution for capturing, storing, and enabling real-time analysis of terabytes of machine data.",
+            "resources": [
+              {
+                "name": "Papertrail Website",
+                "link": "https://www.papertrail.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Official Guides",
+                "link": "https://www.papertrail.com/solution/guides/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Official Blog",
+                "link": "https://www.papertrail.com/blog/"
               }
             ]
           }
         ]
       },
       "Containers Orhestration": {
+        "description": "Containers are a construct in which cgroups, namespaces, and chroot are used to fully encapsulate and isolate a process. This encapsulated process, called a container image, shares the kernel of the host with other containers, allowing containers to be significantly smaller and faster than virtual machines. These images are designed for portability, allowing for full local testing of a static image, and easy deployment to a container management platform.",
+        "resources": [
+          {
+            "name": "What are Containers?",
+            "link": "https://cloud.google.com/learn/what-are-containers"
+          },
+          {
+            "name": "What is a Container?",
+            "link": "https://www.docker.com/resources/what-container/"
+          },
+          {
+            "name": "What are Containers?",
+            "link": "https://www.youtube.com/playlist?list=PLawsLZMfND4nz-WDBZIj8-nbzGFD4S9oz"
+          },
+          {
+            "name": "Articles about Containers - The New Stack",
+            "link": "https://thenewstack.io/category/containers/"
+          }
+        ],
         "order": 18,
         "options": [
           {
-            "name": "",
+            "name": "ECS / Fargate",
             "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
+            "description": "ECS is a container orchestration service that allows you to run Docker containers on a cluster of EC2 instances. ECS is a good choice if you want to run Docker containers on EC2 instances and have full control over the underlying infrastructure. Fargate is a serverless container orchestration service that allows you to run Docker containers without having to manage servers, clusters, or any other infrastructure. Fargate is a good choice if you want to run Docker containers without having to manage servers or clusters.",
+            "resources": []
           },
           {
-            "name": "",
+            "name": "GKE / EKS / AKS",
             "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
+            "description": "GKE - Google Kubernetes Engine GKE is a managed Kubernetes service that lets you deploy, manage, and scale containerized applications on Google Cloud. EKS - Amazon Elastic Kubernetes Service Amazon Elastic Kubernetes Service (Amazon EKS) is a fully managed Kubernetes service from AWS. AKS - Azure Kubernetes Service Azure Kubernetes Service (AKS) manages your hosted Kubernetes environment, making it quick and easy to deploy and manage containerized applications without container orchestration expertise.",
+            "resources": []
           },
           {
-            "name": "",
+            "name": "Docker Swarm",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "A Docker Swarm is a group of either physical or virtual machines that are running the Docker application and that have been configured to join together in a cluster. Once a group of machines have been clustered together, you can still run the Docker commands that you’re used to, but they will now be carried out by the machines in your cluster. The activities of the cluster are controlled by a swarm manager, and machines that have joined the cluster are referred to as nodes.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Official Website",
+                "link": "https://www.docker.com/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Docker Swarm Documentation",
+                "link": "https://docs.docker.com/engine/swarm/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Docker Swarm Tutorial for Beginners",
+                "link": "https://www.youtube.com/watch?v=Tm0Q5zr3FL4"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Tutorial: Manage Docker Swarm with Portainer",
+                "link": "https://thenewstack.io/tutorial-manage-docker-swarm-with-portainer/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Tutorial: Create a Docker Swarm with Persistent Storage Using GlusterFS",
+                "link": "https://thenewstack.io/tutorial-create-a-docker-swarm-with-persistent-storage-using-glusterfs/"
               }
             ]
           }
         ]
       },
-      "Artifcats Management": {
+      "Artifact Management": {
         "order": 19,
         "options": [
           {
-            "name": "",
+            "name": "Cloud smith",
+            "recommendation-type": "opinion",
+            "description": "",
+            "resources": []
+          },
+          {
+            "name": "Artifactory",
             "recommendation-type": "opinion",
             "description": "",
             "resources": [
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Artifactory Website",
+                "link": "https://jfrog.com/artifactory/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Nexus",
             "recommendation-type": "opinion",
             "description": "",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Repository Management Basics",
+                "link": "https://learn.sonatype.com/courses/nxrm-admin-100/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Nexus Installation and Configuration",
+                "link": "https://learn.sonatype.com/courses/nxrm-config-100/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Nexus Repository Security Essentials",
+                "link": "https://learn.sonatype.com/courses/nxrm-sec-100/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "https://help.sonatype.com/repomanager3/nexus-repository-best-practices",
+                "link": "https://help.sonatype.com/repomanager3/nexus-repository-best-practices"
               }
             ]
           }
         ]
       },
       "GitOps": {
+        "description": "GitOps is a methodology for managing cloud-native applications and infrastructure using Git as the source of truth. It is based on the idea that all changes to the system, whether they are related to code, configuration, or infrastructure, should be made using Git and that Git should be used to automate the deployment and management of those changes. In a GitOps workflow, changes to the system are made by committing code or configuration changes to a Git repository. These changes are then automatically deployed to the production environment using a continuous delivery pipeline. The pipeline is triggered by changes to the Git repository and is responsible for building, testing, and deploying the changes to the production environment.GitOps is designed to be a more efficient and agile way of managing cloud-native environments, as it allows developers to make changes to the system using familiar tools and processes and it provides a clear and auditable history of all changes to the system. It is often used in conjunction with tools such as Kubernetes and Helm to automate the deployment and management of cloud-native applications.",
+        "resources": [
+          {
+            "name": "Guide to GitOps",
+            "link": "https://www.weave.works/technologies/gitops/"
+          }
+        ],
         "order": 20,
         "options": [
           {
-            "name": "",
+            "name": "Flux CD",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Flux CD is a continuous delivery tool for Kubernetes that is based on the GitOps methodology. It is used to automate the deployment and management of cloud-native applications by continuously synchronizing the desired application state with the actual application state in the production environment.In a Flux CD workflow, changes to the application are made by committing code or configuration changes to a Git repository. Flux CD monitors the repository and automatically deploys the changes to the production environment using a continuous delivery pipeline. The pipeline is triggered by changes to the Git repository and is responsible for building, testing, and deploying the changes to the production environment.Flux CD is designed to be a simple and efficient way to manage cloud-native applications, as it allows developers to make changes to the system using familiar tools and processes and it provides a clear and auditable history of all changes to the system. It is often used in conjunction with tools such as Helm to automate the deployment and management of cloud-native applications.",
             "resources": [
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Flux CD Docs",
+                "link": "https://docs.fluxcd.io/"
               }
             ]
           },
           {
-            "name": "",
+            "name": "ArgoCD",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Argo CD is a continuous delivery tool for Kubernetes that is based on the GitOps methodology. It is used to automate the deployment and management of cloud-native applications by continuously synchronizing the desired application state with the actual application state in the production environment.In an Argo CD workflow, changes to the application are made by committing code or configuration changes to a Git repository. Argo CD monitors the repository and automatically deploys the changes to the production environment using a continuous delivery pipeline. The pipeline is triggered by changes to the Git repository and is responsible for building, testing, and deploying the changes to the production environment.Argo CD is designed to be a simple and efficient way to manage cloud-native applications, as it allows developers to make changes to the system using familiar tools and processes and it provides a clear and auditable history of all changes to the system. It is often used in conjunction with tools such as Helm to automate the deployment and management of cloud-native applications.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Argo CD - Argo Project",
+                "link": "https://argoproj.github.io/docs/argo-cd/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "ArgoCD Tutorial for Beginners",
+                "link": "https://www.youtube.com/watch?v=MeU5_k9ssrs"
               }
             ]
           }
         ]
       },
       " Service Mesh": {
+        "description": "A service mesh, like the open source project Istio, is a way to control how different parts of an application share data with one another. Unlike other systems for managing this communication, a service mesh is a dedicated infrastructure layer built right into an app. This visible infrastructure layer can document how well (or not) different parts of an app interact, so it becomes easier to optimize communication and avoid downtime as an app grows.",
+        "resources": [
+          {
+            "name": "Whats a service mesh?",
+            "link": "https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh"
+          },
+          {
+            "name": "The latest news about service mesh (TNS)",
+            "link": "https://thenewstack.io/category/service-mesh/"
+          }
+        ],
         "order": 21,
         "options": [
           {
-            "name": "",
+            "name": "Consul",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Consul is a service mesh solution providing a full-featured control plane with service discovery, configuration, and segmentation functionality. Each of these features can be used individually as needed, or they can be used together to build a full service mesh. Consul requires a data plane and supports both a proxy and native integration model. Consul ships with a simple built-in proxy so that everything works out of the box, but also supports 3rd party proxy integrations such as Envoy.",
             "resources": [
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
+                "name": "What is Consul?",
                 "link": ""
               }
             ]
           },
           {
-            "name": "",
+            "name": "Envoy",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Originally created at Lyft, Envoy is a high-performance data plane designed for service mesh architectures. Lyft open-sourced it and donated it to the CNCF, where it is now one of the CNCF’s graduated open source projects. Envoy is a self-contained process that is designed to run alongside every application server. All of the Envoys form a transparent communication mesh in which each application sends and receives messages to and from localhost and is unaware of the network topology.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Envoy Website",
+                "link": "https://www.envoyproxy.io/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Envoy Documentation",
+                "link": "https://www.envoyproxy.io/docs/envoy/latest/start/start"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "What is Envoy?",
+                "link": "https://www.envoyproxy.io/docs/envoy/latest/intro/what_is_envoy"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Istio",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Istio is an open source service mesh platform that provides a way to control how microservices share data with one another. It includes APIs that let Istio integrate into any logging platform, telemetry, or policy system. Istio is designed to run in a variety of environments: on-premise, cloud-hosted, in Kubernetes containers, in services running on virtual machines, and more.",
             "resources": [
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "What is Istio?",
+                "link": "https://www.redhat.com/en/topics/microservices/what-is-istio"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Linkerd",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Linkerd is an open source service mesh designed to be deployed into a variety of container schedulers and frameworks such as Kubernetes. It became the original “service mesh” when its creator Buoyant first coined the term in 2016. Like Twitter’s Finagle, on which it was based, Linkerd was first written in Scala and designed to be deployed on a per-host basis. Linkerd is one of the first products to be associated with the term service mesh and supports platforms such as Docker and Kubernetes.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Linkerd Website",
+                "link": "https://linkerd.io/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Linkerd Documentation",
+                "link": "https://linkerd.io/2.11/overview/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "What is Linkerd?",
+                "link": "https://www.techtarget.com/searchitoperations/definition/Linkerd"
               }
             ]
           }
@@ -3648,174 +2776,50 @@
         "order": 22,
         "options": [
           {
-            "name": "",
+            "name": "Availability",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Availability is the percentage of time that a system is functional and working as intended, generally referred to as uptime. Availability can be affected by hardware or software errors, infrastructure problems, malicious attacks, and system load. Many cloud providers typically offer their users a service level agreement (SLA) that specifies the exact percentages of promised uptime/downtime. Availability is related to reliability in this sense. For example, a company might promise 99.99% uptime for their services. To achieve high levels of uptime, it is important to eliminate single points of failure so that a single device failure does not disrupt the entire service. High availability in the cloud is often achieved by creating clusters. Clusters are groups of devices (such as servers) that all have access to the same shared storage and function as one single server to provide uninterrupted availability. This way, if one server goes down, the others are able to pick up the load until it comes back online. Clusters can range from two servers to even multiple buildings of servers.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "How High Availability Works in the Cloud",
+                "link": "https://codster.io/en/blog/high-availability-in-the-cloud/"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Techniques for Achieving High Availability",
+                "link": "https://www.sqlservercentral.com/articles/cloud-computing-basics-achieving-high-availability-2"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Data Management",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Data management is the key element of cloud applications and influences most of the quality attributes. Data is typically hosted in different locations and across multiple servers for reasons such as performance, scalability, or availability, and this can present a range of challenges. For example, data consistency must be maintained, and data will typically need to be synchronized across different locations. Additionally, data should be protected at rest, in transit, and via authorized access mechanisms to maintain security assurances of confidentiality, integrity, and availability. Refer to the Azure Security Benchmark Data Protection Control for more information.",
             "resources": [
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Data management patterns",
+                "link": "https://docs.microsoft.com/en-us/azure/architecture/patterns/category/data-management"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Design and implementation",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "Good design encompasses factors such as consistency and coherence in component design and deployment, maintainability to simplify administration and development, and reusability to allow components and subsystems to be used in other applications and in other scenarios. Decisions made during the design and implementation phase have a huge impact on the quality and the total cost of ownership of cloud-hosted applications and services.",
             "resources": [
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Design and implementation patterns",
+                "link": "https://docs.microsoft.com/en-us/azure/architecture/patterns/category/design-implementation"
               }
             ]
           },
           {
-            "name": "",
+            "name": "Management and Monitoring",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "DevOps management and monitoring entail overseeing the entire development process from planning, development, integration and testing, deployment, and operations. It involves a complete and real-time view of the status of applications, services, and infrastructure in the production environment. Features such as real-time streaming, historical replay, and visualizations are critical components of application and service monitoring.",
             "resources": [
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Management and Monitoring Get Started Guide",
+                "link": "https://www.atlassian.com/devops/devops-tools/devops-monitoring"
               }
             ]
           }
