@@ -922,19 +922,19 @@
             "resources": [
               {
                 "name": "CS 61B Lecture 29: Sorting I",
-                "link": ""
+                "link": "https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I"
               },
               {
                 "name": "CS 61B Lecture 30: Sorting II",
-                "link": ""
+                "link": "https://archive.org/details/ucberkeley_webcast_2hTY3t80Qsk"
               },
               {
                 "name": "CS 61B Lecture 32: Sorting III",
-                "link": ""
+                "link": "https://archive.org/details/ucberkeley_webcast_Y6LOLpxg6Dc"
               },
               {
                 "name": "CS 61B Lecture 33: Sorting V",
-                "link": ""
+                "link": "https://archive.org/details/ucberkeley_webcast_qNMQ4ly43p4"
               }
             ],
             "options": [
@@ -945,15 +945,15 @@
                 "resources": [
                   {
                     "name": "Bubble Sort",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB"
                   },
                   {
                     "name": "Analyzing Bubble Sort",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB"
                   },
                   {
                     "name": "Bubble sort in 2 minutes",
-                    "link": ""
+                    "link": "https://youtu.be/xli_FI7CuzA"
                   }
                 ]
               },
@@ -964,11 +964,11 @@
                 "resources": [
                   {
                     "name": "Selection Sort in 3 Minutes",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=g-PGLbMth_g"
                   },
                   {
                     "name": "Selection Sort",
-                    "link": ""
+                    "link": "https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT"
                   }
                 ]
               },
@@ -979,15 +979,15 @@
                 "resources": [
                   {
                     "name": "Insertion Sort — MIT",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=Kg4bqzAqRBM&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=4"
                   },
                   {
                     "name": "Insertion Sort in 3 Minutes",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=JU767SDMDvA"
                   },
                   {
                     "name": "Insertion Sort Algorithm",
-                    "link": ""
+                    "link": "https://www.programiz.com/dsa/insertion-sort"
                   }
                 ]
               },
@@ -998,27 +998,27 @@
                 "resources": [
                   {
                     "name": "Heap Sort Algorithm",
-                    "link": ""
+                    "link": "https://www.programiz.com/dsa/heap-sort"
                   },
                   {
                     "name": "Heap Sort Algorithm - Geeks for Geeks",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/heap-sort/"
                   },
                   {
                     "name": "Heap Sort in 4 Minutes",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=2DmK_H7IdTo"
                   },
                   {
                     "name": "Heap Sort Algorithm - MIT",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291s"
                   },
                   {
                     "name": "Heap Sort Algorithm",
-                    "link": ""
+                    "link": "https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO"
                   },
                   {
                     "name": "Lecture 4 - Heaps and Heap Sort",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=B7hVxCmfPtM&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=5"
                   }
                 ]
               },
@@ -1029,23 +1029,23 @@
                 "resources": [
                   {
                     "name": "Quick Sort Algorithm",
-                    "link": ""
+                    "link": "https://www.programiz.com/dsa/quick-sort"
                   },
                   {
                     "name": "Quick Sort Algorithm - Geeks for Geeks",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/quick-sort/"
                   },
                   {
                     "name": "Quick Sort in 4 Minutes",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=Hoixgm4-P4M&feature=youtu.be"
                   },
                   {
                     "name": "Quick Sort Implementation in C",
-                    "link": ""
+                    "link": "http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c"
                   },
                   {
                     "name": "Quick Sort Implementation in Python",
-                    "link": ""
+                    "link": "https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py"
                   }
                 ]
               },
@@ -1056,19 +1056,19 @@
                 "resources": [
                   {
                     "name": "Merge Sort - Geeks for Geeks",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/merge-sort/"
                   },
                   {
                     "name": "Merge Sort Algorithm",
-                    "link": ""
+                    "link": "https://www.programiz.com/dsa/merge-sort"
                   },
                   {
                     "name": "Merge Sort for Linked Lists",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/merge-sort-for-linked-list/"
                   },
                   {
                     "name": "Merge Sort in 3 Minutes",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=4VqmGXwpLqc"
                   }
                 ]
               }
@@ -1078,12 +1078,7 @@
             "name": "Tree Algorithms",
             "recommendation-type": "opinion",
             "description": "Trees are non-linear hierarchical data structures with nodes storing values and references to other nodes. Common tree algorithms involve tree traversal, breadth-first search, and depth-first search. Explore the following resources to learn more:",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              }
-            ],
+            "resources": [],
             "options": [
               {
                 "name": "Pre-Order Traversal",
@@ -1092,11 +1087,11 @@
                 "resources": [
                   {
                     "name": "Tree | Illustrated Data Structures",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=S2W3SXGPVyU"
                   },
                   {
                     "name": "Tree Traversals (Inorder, Preorder and Postorder)",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/"
                   }
                 ]
               },
@@ -1107,11 +1102,11 @@
                 "resources": [
                   {
                     "name": "Tree | Illustrated Data Structures",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=S2W3SXGPVyU"
                   },
                   {
                     "name": "Tree Traversals (Inorder, Preorder and Postorder)",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/"
                   }
                 ]
               },
@@ -1122,11 +1117,11 @@
                 "resources": [
                   {
                     "name": "Tree | Illustrated Data Structures",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=S2W3SXGPVyU"
                   },
                   {
                     "name": "Tree Traversals (Inorder, Preorder and Postorder)",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/"
                   }
                 ]
               },
@@ -1137,15 +1132,15 @@
                 "resources": [
                   {
                     "name": "BFS and DFS in a Binary Tree",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=uWL6FJhq5fM"
                   },
                   {
                     "name": "Breadth-First Search (BFS) and Depth-First Search (DFS) for Binary Trees in Java",
-                    "link": ""
+                    "link": "https://www.digitalocean.com/community/tutorials/breadth-first-search-depth-first-search-bfs-dfs"
                   },
                   {
                     "name": "Breadth-first search in 4 minutes",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=HZ5YTanv5QE"
                   }
                 ]
               },
@@ -1156,15 +1151,15 @@
                 "resources": [
                   {
                     "name": "BFS and DFS in a Binary Tree",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=uWL6FJhq5fM"
                   },
                   {
                     "name": "Breadth-First Search (BFS) and Depth-First Search (DFS) for Binary Trees in Java",
-                    "link": ""
+                    "link": "https://www.digitalocean.com/community/tutorials/breadth-first-search-depth-first-search-bfs-dfs"
                   },
                   {
                     "name": "Depth First Search in 4 Minutes",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=Urx87-NMm6c"
                   }
                 ]
               },
@@ -1175,11 +1170,11 @@
                 "resources": [
                   {
                     "name": "Backtracking Algorithms",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/backtracking-algorithms"
                   },
                   {
                     "name": "Backtracking Algorithm",
-                    "link": ""
+                    "link": "https://www.programiz.com/dsa/backtracking-algorithm"
                   }
                 ],
                 "options": [
@@ -1190,19 +1185,19 @@
                     "resources": [
                       {
                         "name": "Hamiltonian Path",
-                        "link": ""
+                        "link": "https://www.hackerearth.com/practice/algorithms/graphs/hamiltonian-path/tutorial/"
                       },
                       {
                         "name": "Hamiltonian Cycle | Backtracking-6",
-                        "link": ""
+                        "link": "https://www.geeksforgeeks.org/hamiltonian-cycle-backtracking-6/"
                       },
                       {
                         "name": "Hamiltonian Paths and Cycles",
-                        "link": ""
+                        "link": "https://medium.com/stamatics-iit-kanpur/hamiltonian-paths-and-cycles-4f233bfbc53a"
                       },
                       {
                         "name": "Hamiltonian Paths - Lecture 7",
-                        "link": ""
+                        "link": "https://people.csail.mit.edu/virgi/6.s078/lecture17.pdf"
                       }
                     ]
                   },
@@ -1213,15 +1208,15 @@
                     "resources": [
                       {
                         "name": "N-Queens problem using backtracking in Java/C++",
-                        "link": ""
+                        "link": "https://www.digitalocean.com/community/tutorials/n-queens-problem-java-c-plus-plus"
                       },
                       {
                         "name": "N Queen Problem | Backtracking-3",
-                        "link": ""
+                        "link": "https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/"
                       },
                       {
                         "name": "6.1 N Queens Problem using Backtracking",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=xFv_Hl4B83A"
                       }
                     ]
                   },
@@ -1232,19 +1227,19 @@
                     "resources": [
                       {
                         "name": "Maze Solving Algorithms",
-                        "link": ""
+                        "link": "https://github.com/john-science/mazelib/blob/main/docs/MAZE_SOLVE_ALGOS.md"
                       },
                       {
                         "name": "Maze Solving Algorithms",
-                        "link": ""
+                        "link": "https://kidscodecs.com/maze-solving-algorithms/"
                       },
                       {
                         "name": "Maze Solving - Computerphile",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=rop0W4QDOUI"
                       },
                       {
                         "name": "Python Maze Solving Tutorial (Using Recursion)",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=XP94WC_XnZc"
                       }
                     ]
                   },
@@ -1255,19 +1250,19 @@
                     "resources": [
                       {
                         "name": "The Knight’s tour problem | Backtracking-1",
-                        "link": ""
+                        "link": "https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/"
                       },
                       {
                         "name": "Knights Tour",
-                        "link": ""
+                        "link": "https://bradfieldcs.com/algos/graphs/knights-tour/"
                       },
                       {
                         "name": "Knights Tour Proble",
-                        "link": ""
+                        "link": "https://www.codesdope.com/course/algorithms-knights-tour-problem/"
                       },
                       {
                         "name": "Backtracking: The Knight’s Tour Problem",
-                        "link": ""
+                        "link": "https://www.codingninjas.com/codestudio/library/backtracking-the-knights-tour-problem"
                       }
                     ]
                   },
@@ -1278,23 +1273,23 @@
                     "resources": [
                       {
                         "name": "Rabin Karps Algorithm",
-                        "link": ""
+                        "link": "https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw"
                       },
                       {
                         "name": "Optimization: Precomputation",
-                        "link": ""
+                        "link": "https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation"
                       },
                       {
                         "name": "Optimization: Implementation and Analysis",
-                        "link": ""
+                        "link": "https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis"
                       },
                       {
                         "name": "Lecture 9: Table Doubling, Karp-Rabin",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9"
                       },
                       {
                         "name": "Rolling Hashes, Amortized Analysis",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=33"
                       }
                     ]
                   }
@@ -1309,35 +1304,35 @@
             "resources": [
               {
                 "name": "Graph Algorithms I - Topological Sorting, Minimum Spanning Trees, Prims Algorithm - Lecture 6",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm"
               },
               {
                 "name": "Graph Algorithms II - DFS, BFS, Kruskals Algorithm, Union Find Data Structure - Lecture 7",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7"
               },
               {
                 "name": "Graph Algorithms III: Shortest Path - Lecture 8",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8"
               },
               {
                 "name": "Graph Alg. IV: Intro to geometric algorithms - Lecture 9",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9"
               },
               {
                 "name": "Strongly Connected Components Kosarajus Algorithm Graph Algorithm",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=RpgcYiky7uw"
               },
               {
                 "name": "Shortest Path Algorithms (playlist) in 16 minutes",
-                "link": ""
+                "link": "https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw"
               },
               {
                 "name": "Minimum Spanning Trees (playlist) in 4 minutes",
-                "link": ""
+                "link": "https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV"
               },
               {
                 "name": "Algorithms on Graphs - Coursera",
-                "link": ""
+                "link": "https://www.coursera.org/learn/algorithms-on-graphs"
               }
             ],
             "options": [
@@ -1348,15 +1343,15 @@
                 "resources": [
                   {
                     "name": "Breadth First Search or BFS for a Graph",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/"
                   },
                   {
                     "name": "Graph Algorithms II - DFS, BFS, Kruskals Algorithm, Union Find Data Structure - Lecture 7",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7"
                   },
                   {
                     "name": "Breadth-first search in 4 minutes",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=hz5ytanv5qe"
                   }
                 ]
               },
@@ -1367,7 +1362,7 @@
                 "resources": [
                   {
                     "name": "Depth First Search or DFS for a Graph",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/?ref=lbp"
                   }
                 ]
               },
@@ -1378,11 +1373,11 @@
                 "resources": [
                   {
                     "name": "Bellman-Ford - MIT",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=f9cVS_URPc0&ab_channel=MITOpenCourseWare"
                   },
                   {
                     "name": "Bellman-Ford in 4 Minutes",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=9PHkk0UavIM"
                   }
                 ]
               },
@@ -1393,11 +1388,11 @@
                 "resources": [
                   {
                     "name": "Dijkstras Algorithm - MIT",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=NSHizBK9JD8&t=1731s&ab_channel=MITOpenCourseWare"
                   },
                   {
                     "name": "Dijkstras Algorithm in 3 Minutes",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=_lHSawdgXpI"
                   }
                 ]
               },
@@ -1408,11 +1403,11 @@
                 "resources": [
                   {
                     "name": "A* Search Algorithm - Wikipedia",
-                    "link": ""
+                    "link": "https://en.wikipedia.org/wiki/A*_search_algorithm"
                   },
                   {
                     "name": "A* Pathfinding (E01: algorithm explanation)",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=-L-WgKMFuhE"
                   }
                 ]
               },
@@ -1423,15 +1418,15 @@
                 "resources": [
                   {
                     "name": "Greedy Algorithms - Geeks for Geeks",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/greedy-algorithms/"
                   },
                   {
                     "name": "Greedy Algorithms - Programiz",
-                    "link": ""
+                    "link": "https://www.programiz.com/dsa/greedy-algorithm"
                   },
                   {
-                    "name": "Greedy Algorithms Tutorial – Solve Coding Challenges",
-                    "link": ""
+                    "name": "Greedy Algorithms Tutorial - Solve Coding Challenges",
+                    "link": "https://www.youtube.com/watch?v=bC7o8P_Ste4"
                   }
                 ],
                 "options": [
@@ -1442,15 +1437,15 @@
                     "resources": [
                       {
                         "name": "Dijkstras Algorithm in 3 Minutes",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=_lHSawdgXpI"
                       },
                       {
                         "name": "Dijkstras Algorithm - MIT",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=NSHizBK9JD8&t=1731s&ab_channel=MITOpenCourseWare"
                       },
                       {
                         "name": "Speeding Up Dijkstras Algorithm - MIT",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18"
                       }
                     ]
                   },
@@ -1461,15 +1456,15 @@
                     "resources": [
                       {
                         "name": "Huffman Coding",
-                        "link": ""
+                        "link": "https://www.programiz.com/dsa/huffman-coding"
                       },
                       {
                         "name": "Huffman Coding | Greedy Algo-3",
-                        "link": ""
+                        "link": "https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/"
                       },
                       {
                         "name": "Huffman Coding - Greedy Method",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=co4_ahEDCho"
                       }
                     ]
                   },
@@ -1480,11 +1475,11 @@
                     "resources": [
                       {
                         "name": "Kruskals Algorithm in 2 Minutes",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=71UQH7Pr9kU"
                       },
                       {
                         "name": "Graph Algorithms II - DFS, BFS, Kruskals Algorithm, Union Find Data Structure - Lecture 7",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8"
                       }
                     ]
                   },
@@ -1495,15 +1490,15 @@
                     "resources": [
                       {
                         "name": "Ford-Fulkerson in 5 minutes",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=Tl90tNtKvxs"
                       },
                       {
                         "name": "Ford-Fulkerson Algorithm for Maximum Flow Problem",
-                        "link": ""
+                        "link": "https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/"
                       },
                       {
                         "name": "Ford-Fulkerson Algorithm",
-                        "link": ""
+                        "link": "https://www.programiz.com/dsa/ford-fulkerson-algorithm"
                       }
                     ]
                   },
@@ -1514,15 +1509,15 @@
                     "resources": [
                       {
                         "name": "Graph Algorithms I - Topological Sorting, Prims Algorithm - Lecture 6",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=i_AQT_XfvD8&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7"
                       },
                       {
                         "name": "Prim’s Minimum Spanning Tree (MST) | Greedy Algo-5",
-                        "link": ""
+                        "link": "https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/"
                       },
                       {
                         "name": "Prims Algorithm",
-                        "link": ""
+                        "link": "https://www.programiz.com/dsa/prim-algorithm"
                       }
                     ]
                   }
@@ -1537,27 +1532,27 @@
             "resources": [
               {
                 "name": "Recursion in 100 Seconds",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=rf60MejMz3E"
               },
               {
                 "name": "Lecture 8 | Programming Abstractions (Stanford)",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=9"
               },
               {
                 "name": "Lecture 9 | Programming Abstractions (Stanford)",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=10"
               },
               {
                 "name": "Lecture 10 | Programming Abstractions (Stanford)",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=NdF1QDTRkck&list=PLFE6E58F856038C69&index=11"
               },
               {
                 "name": "Lecture 11 | Programming Abstractions (Stanford)",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=12"
               },
               {
                 "name": "5 Simple Steps for Solving Any Recursive Problem",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=ngCos392W4w"
               }
             ],
             "options": [
@@ -1568,11 +1563,11 @@
                 "resources": [
                   {
                     "name": "What is tail recursion? Why is it so bad?",
-                    "link": ""
+                    "link": "https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad"
                   },
                   {
                     "name": "Tail Recursion",
-                    "link": ""
+                    "link": "https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1"
                   }
                 ]
               },
@@ -1583,19 +1578,19 @@
                 "resources": [
                   {
                     "name": "What is non-tail recursion?",
-                    "link": ""
+                    "link": "https://www.quora.com/What-is-non-tail-recursion"
                   },
                   {
                     "name": "Tail vs Non-Tail Recursion",
-                    "link": ""
+                    "link": "https://www.baeldung.com/cs/tail-vs-non-tail-recursion"
                   },
                   {
                     "name": "Recursion (Solved Problem 1)",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=IVLUGb_gDDE"
                   },
                   {
                     "name": "Types of Recursion (Part 2) | Tail & Non-tail Recursion",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=HIt_GPuD7wk"
                   }
                 ]
               },
@@ -1606,11 +1601,11 @@
                 "resources": [
                   {
                     "name": "Searching Algorithms",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/searching-algorithms/"
                   },
                   {
                     "name": "Search Algorithms - Linear Search and Binary Search",
-                    "link": ""
+                    "link": "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
                   }
                 ],
                 "options": [
@@ -1621,19 +1616,19 @@
                     "resources": [
                       {
                         "name": "Binary Search in 4 Minutes",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=fDKIpRe8GW4&feature=youtu.be"
                       },
                       {
                         "name": "Binary Search - CS50",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=D5SrAga1pno"
                       },
                       {
                         "name": "Binary Search - Khan Academy",
-                        "link": ""
+                        "link": "https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search"
                       },
                       {
                         "name": "Binary Search",
-                        "link": ""
+                        "link": "https://www.topcoder.com/thrive/articles/Binary%20Search"
                       }
                     ]
                   },
@@ -1644,7 +1639,7 @@
                     "resources": [
                       {
                         "name": "Linear Search Algorithm",
-                        "link": ""
+                        "link": "https://www.geeksforgeeks.org/linear-search/"
                       }
                     ]
                   }
@@ -1657,11 +1652,11 @@
                 "resources": [
                   {
                     "name": "Cache Replacement Algorithms: How To Efficiently Manage The Cache Storage",
-                    "link": ""
+                    "link": "https://dev.to/satrobit/cache-replacement-algorithms-how-to-efficiently-manage-the-cache-storage-2ne1"
                   },
                   {
                     "name": "14. Caching and Cache-Efficient Algorithms",
-                    "link": ""
+                    "link": "https://dev.to/satrobit/cache-replacement-algorithms-how-to-efficiently-manage-the-cache-storage-2ne1"
                   }
                 ],
                 "options": [
@@ -1672,15 +1667,15 @@
                     "resources": [
                       {
                         "name": "The Magic of LRU Cache (100 Days of Google Dev)",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=R5ON3iwx78M"
                       },
                       {
                         "name": "Implementing LRU - Udacity",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=bq6N7Ym81iI"
                       },
                       {
                         "name": "LeetCode | 146 LRU Cache | C++ | Explanation",
-                        "link": ""
+                        "link": "https://www.youtube.com/watch?v=8-FZRAjR7qU"
                       }
                     ]
                   },
@@ -1691,11 +1686,11 @@
                     "resources": [
                       {
                         "name": "Least Frequently Used (LFU) Cache Implementation",
-                        "link": ""
+                        "link": "https://www.geeksforgeeks.org/least-frequently-used-lfu-cache-implementation/"
                       },
                       {
                         "name": "1117. Data Structure - LFU Cache",
-                        "link": ""
+                        "link": "https://jojozhuang.github.io/algorithm/data-structure-lfu-cache/"
                       }
                     ]
                   },
@@ -1706,11 +1701,11 @@
                     "resources": [
                       {
                         "name": "Comparison of MFU and LRU page replacement algorithms",
-                        "link": ""
+                        "link": "https://stackoverflow.com/questions/13597246/comparison-of-mfu-and-lru-page-replacement-algorithms"
                       },
                       {
                         "name": "Why does cache use Most Recently Used (MRU) algorithm as evict policy?",
-                        "link": ""
+                        "link": "https://stackoverflow.com/questions/5088128/why-does-cache-use-most-recently-used-mru-algorithm-as-evict-policy"
                       }
                     ]
                   }
@@ -2332,59 +2327,59 @@
         "resources": [
           {
             "name": "Types of Complexity Classes | P, NP, CoNP, NP hard and NP complete",
-            "link": ""
+            "link": "https://www.geeksforgeeks.org/types-of-complexity-classes-p-np-conp-np-hard-and-np-complete/"
           },
           {
             "name": "Trying to understand P vs NP vs NP Complete vs NP Hard",
-            "link": ""
+            "link": "https://softwareengineering.stackexchange.com/questions/308178/trying-to-understand-p-vs-np-vs-np-complete-vs-np-hard"
           },
           {
             "name": "Complexity: P, NP, NP-completeness, Reductions",
-            "link": ""
+            "link": "https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22"
           },
           {
             "name": "Complexity: Approximation Algorithms",
-            "link": ""
+            "link": "https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24"
           },
           {
             "name": "Complexity: Fixed-Parameter Algorithms",
-            "link": ""
+            "link": "https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp"
           },
           {
             "name": "Lecture 23: Computational Complexity",
-            "link": ""
+            "link": "https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=24"
           },
           {
             "name": "Greedy Algs. II & Intro to NP Completeness",
-            "link": ""
+            "link": "https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939"
           },
           {
             "name": "NP Completeness II & Reductions",
-            "link": ""
+            "link": "https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm"
           },
           {
             "name": "NP Completeness III",
-            "link": ""
+            "link": "https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm"
           },
           {
             "name": "NP Completeness IV",
-            "link": ""
+            "link": "https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18"
           },
           {
             "name": "CSE373 2020 - Lecture 23 - NP-Completeness",
-            "link": ""
+            "link": "https://www.youtube.com/watch?v=ItHp5laE1VE&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=23"
           },
           {
             "name": "CSE373 2020 - Lecture 24 - Satisfiability",
-            "link": ""
+            "link": "https://www.youtube.com/watch?v=inaFJeCzGxU&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=24"
           },
           {
             "name": "CSE373 2020 - Lecture 25 - More NP-Completeness",
-            "link": ""
+            "link": "https://www.youtube.com/watch?v=B-bhKxjZLlc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=25"
           },
           {
             "name": "CSE373 2020 - Lecture 26 - NP-Completeness Challenge",
-            "link": ""
+            "link": "https://www.youtube.com/watch?v=_EzetTkG_Cc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=26"
           }
         ],
         "order": 13,
@@ -2396,59 +2391,59 @@
             "resources": [
               {
                 "name": "Types of Complexity Classes | P, NP, CoNP, NP hard and NP complete",
-                "link": ""
+                "link": "https://www.geeksforgeeks.org/types-of-complexity-classes-p-np-conp-np-hard-and-np-complete/"
               },
               {
                 "name": "Trying to understand P vs NP vs NP Complete vs NP Hard",
-                "link": ""
+                "link": "https://softwareengineering.stackexchange.com/questions/308178/trying-to-understand-p-vs-np-vs-np-complete-vs-np-hard"
               },
               {
                 "name": "Complexity: P, NP, NP-completeness, Reductions",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22"
               },
               {
                 "name": "Complexity: Approximation Algorithms",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24"
               },
               {
                 "name": "Complexity: Fixed-Parameter Algorithms",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp"
               },
               {
                 "name": "Lecture 23: Computational Complexity",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=24"
               },
               {
                 "name": "Greedy Algs. II & Intro to NP Completeness",
-                "link": ""
+                "link": "https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939"
               },
               {
                 "name": "NP Completeness II & Reductions",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm"
               },
               {
                 "name": "NP Completeness III",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm"
               },
               {
                 "name": "NP Completeness IV",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18"
               },
               {
                 "name": "CSE373 2020 - Lecture 23 - NP-Completeness",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=ItHp5laE1VE&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=23"
               },
               {
                 "name": "CSE373 2020 - Lecture 24 - Satisfiability",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=inaFJeCzGxU&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=24"
               },
               {
                 "name": "CSE373 2020 - Lecture 25 - More NP-Completeness",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=B-bhKxjZLlc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=25"
               },
               {
                 "name": "CSE373 2020 - Lecture 26 - NP-Completeness Challenge",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=_EzetTkG_Cc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=26"
               }
             ]
           },
@@ -2459,59 +2454,59 @@
             "resources": [
               {
                 "name": "Types of Complexity Classes | P, NP, CoNP, NP hard and NP complete",
-                "link": ""
+                "link": "https://www.geeksforgeeks.org/types-of-complexity-classes-p-np-conp-np-hard-and-np-complete/"
               },
               {
                 "name": "Trying to understand P vs NP vs NP Complete vs NP Hard",
-                "link": ""
+                "link": "https://softwareengineering.stackexchange.com/questions/308178/trying-to-understand-p-vs-np-vs-np-complete-vs-np-hard"
               },
               {
                 "name": "Complexity: P, NP, NP-completeness, Reductions",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22"
               },
               {
                 "name": "Complexity: Approximation Algorithms",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24"
               },
               {
                 "name": "Complexity: Fixed-Parameter Algorithms",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp"
               },
               {
                 "name": "Lecture 23: Computational Complexity",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=24"
               },
               {
                 "name": "Greedy Algs. II & Intro to NP Completeness",
-                "link": ""
+                "link": "https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939"
               },
               {
                 "name": "NP Completeness II & Reductions",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm"
               },
               {
                 "name": "NP Completeness III",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm"
               },
               {
                 "name": "NP Completeness IV",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18"
               },
               {
                 "name": "CSE373 2020 - Lecture 23 - NP-Completeness",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=ItHp5laE1VE&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=23"
               },
               {
                 "name": "CSE373 2020 - Lecture 24 - Satisfiability",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=inaFJeCzGxU&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=24"
               },
               {
                 "name": "CSE373 2020 - Lecture 25 - More NP-Completeness",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=B-bhKxjZLlc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=25"
               },
               {
                 "name": "CSE373 2020 - Lecture 26 - NP-Completeness Challenge",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=_EzetTkG_Cc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=26"
               }
             ]
           },
@@ -2522,59 +2517,59 @@
             "resources": [
               {
                 "name": "Types of Complexity Classes | P, NP, CoNP, NP hard and NP complete",
-                "link": ""
+                "link": "https://www.geeksforgeeks.org/types-of-complexity-classes-p-np-conp-np-hard-and-np-complete/"
               },
               {
                 "name": "Trying to understand P vs NP vs NP Complete vs NP Hard",
-                "link": ""
+                "link": "https://softwareengineering.stackexchange.com/questions/308178/trying-to-understand-p-vs-np-vs-np-complete-vs-np-hard"
               },
               {
                 "name": "Complexity: P, NP, NP-completeness, Reductions",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22"
               },
               {
                 "name": "Complexity: Approximation Algorithms",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24"
               },
               {
                 "name": "Complexity: Fixed-Parameter Algorithms",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp"
               },
               {
                 "name": "Lecture 23: Computational Complexity",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=24"
               },
               {
                 "name": "Greedy Algs. II & Intro to NP Completeness",
-                "link": ""
+                "link": "https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939"
               },
               {
                 "name": "NP Completeness II & Reductions",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm"
               },
               {
                 "name": "NP Completeness III",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm"
               },
               {
                 "name": "NP Completeness IV",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18"
               },
               {
                 "name": "CSE373 2020 - Lecture 23 - NP-Completeness",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=ItHp5laE1VE&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=23"
               },
               {
                 "name": "CSE373 2020 - Lecture 24 - Satisfiability",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=inaFJeCzGxU&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=24"
               },
               {
                 "name": "CSE373 2020 - Lecture 25 - More NP-Completeness",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=B-bhKxjZLlc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=25"
               },
               {
                 "name": "CSE373 2020 - Lecture 26 - NP-Completeness Challenge",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=_EzetTkG_Cc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=26"
               }
             ]
           },
@@ -2585,59 +2580,59 @@
             "resources": [
               {
                 "name": "Types of Complexity Classes | P, NP, CoNP, NP hard and NP complete",
-                "link": ""
+                "link": "https://www.geeksforgeeks.org/types-of-complexity-classes-p-np-conp-np-hard-and-np-complete/"
               },
               {
                 "name": "Trying to understand P vs NP vs NP Complete vs NP Hard",
-                "link": ""
+                "link": "https://softwareengineering.stackexchange.com/questions/308178/trying-to-understand-p-vs-np-vs-np-complete-vs-np-hard"
               },
               {
                 "name": "Complexity: P, NP, NP-completeness, Reductions",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22"
               },
               {
                 "name": "Complexity: Approximation Algorithms",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24"
               },
               {
                 "name": "Complexity: Fixed-Parameter Algorithms",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp"
               },
               {
                 "name": "Lecture 23: Computational Complexity",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=24"
               },
               {
                 "name": "Greedy Algs. II & Intro to NP Completeness",
-                "link": ""
+                "link": "https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939"
               },
               {
                 "name": "NP Completeness II & Reductions",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm"
               },
               {
                 "name": "NP Completeness III",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm"
               },
               {
                 "name": "NP Completeness IV",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18"
               },
               {
                 "name": "CSE373 2020 - Lecture 23 - NP-Completeness",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=ItHp5laE1VE&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=23"
               },
               {
                 "name": "CSE373 2020 - Lecture 24 - Satisfiability",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=inaFJeCzGxU&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=24"
               },
               {
                 "name": "CSE373 2020 - Lecture 25 - More NP-Completeness",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=B-bhKxjZLlc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=25"
               },
               {
                 "name": "CSE373 2020 - Lecture 26 - NP-Completeness Challenge",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=_EzetTkG_Cc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=26"
               }
             ]
           },
@@ -2715,7 +2710,7 @@
             "resources": [
               {
                 "name": "Whats P=NP?, and why is it such a famous question?",
-                "link": ""
+                "link": "https://stackoverflow.com/questions/111307/whats-p-np-and-why-is-it-such-a-famous-question"
               }
             ]
           },
@@ -2726,19 +2721,19 @@
             "resources": [
               {
                 "name": "Travelling Salesman Problem | Set 1 (Naive and Dynamic Programming)",
-                "link": ""
+                "link": "https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/"
               },
               {
                 "name": "What is the Traveling Salesman Problem?",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=1pmBjIZ20pE"
               },
               {
                 "name": "4.7 Traveling Salesperson Problem - Dynamic Programming",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=XaXsJJh-Q5Y"
               },
               {
                 "name": "Traveling Salesman Problem | Dynamic Programming | Graph Theory",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=cY4HiiFHO1o"
               }
             ]
           },
@@ -2749,15 +2744,15 @@
             "resources": [
               {
                 "name": "0-1 Knapsack Problem | DP-10",
-                "link": ""
+                "link": "https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/"
               },
               {
                 "name": "How to solve the Knapsack Problem with dynamic programming",
-                "link": ""
+                "link": "https://medium.com/@fabianterh/how-to-solve-the-knapsack-problem-with-dynamic-programming-eb88c706d3cf"
               },
               {
                 "name": "3.1 Knapsack Problem - Greedy Method",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=oTTzNMHM05I"
               }
             ]
           },
@@ -2768,15 +2763,15 @@
             "resources": [
               {
                 "name": "Longest Path in a Directed Acyclic Graph",
-                "link": ""
+                "link": "https://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/"
               },
               {
                 "name": "Shortest/Longest path on a Directed Acyclic Graph (DAG) | Graph Theory",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=TXkDpqjDMHA"
               },
               {
                 "name": "Longest Simple Path - Intro to Algorithms",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=lRH0tax5dFA"
               }
             ]
           }
