@@ -4064,51 +4064,35 @@
           }
         ],
         "order": 22,
-        "options": [
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": ""
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": []
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          }
-        ]
+        "options": []
       },
       "Skip Lists": {
         "description": "Skip lists are a data structure that allows you to perform operations on a sorted list in O(log n) time. Skip lists are a probabilistic data structure, which means that the probability of a certain operation taking a certain amount of time is a certain value. In the case of skip lists, the probability of an operation taking O(log n) time is 1.",
         "resources": [
           {
             "name": "Randomization: Skip Lists",
-            "link": ""
+            "link": "https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp"
           },
           {
             "name": "Skip Lists - Wikipedia",
-            "link": ""
+            "link": "https://en.wikipedia.org/wiki/Skip_list"
           }
         ],
         "order": 23,
         "options": []
       },
-      "V": {
-        "description": " ",
-        "resources": [],
-        "order": 24,
-        "options": []
+      "Have a look at the following Web Development related Roadmaps": {
+        "resources": [
+          {
+            "name": " Frontend Roadmap",
+            "link": "https://roadmap.sh/frontend"
+          },
+          {
+            "name": " Backend Roadmap",
+            "link": "https://roadmap.sh/backend"
+          }
+        ],
+        "order": 24
       }
     }
   }
