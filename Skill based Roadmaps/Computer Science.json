@@ -1,0 +1,4115 @@
+{
+  "Skill": {
+    "Computer Science": {
+      "description": "Computer Science curriculum with free resources for a self-taught developer. ",
+      "Pick a Language": {
+        "description": "You need to pick a programming language to learn Computer Science concepts. My personal recommendation would be to pick C++ or C.and the reason for that is: They allow you to deal with pointers and memory allocation/deallocation, giving you a deep understanding of data structures and algorithms. In higher-level languages like Python or Java, these details are abstracted. While great for day-to-day work, learning low-level data structures benefits from feeling close to the hardware.",
+        "resources": [
+          {
+            "name": "Learn C++ - W3Schools",
+            "link": "https://www.w3schools.com/cpp/"
+          },
+          {
+            "name": "Learn C++ - Tutorials Point",
+            "link": "https://www.tutorialspoint.com/cplusplus/index.htm"
+          },
+          {
+            "name": "C++ Programming Course - Beginner to Advanced",
+            "link": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          },
+          {
+            "name": "C++ Tutorial for Beginners - Full Course",
+            "link": "https://www.youtube.com/watch?v=vLnPwxZdW4Y"
+          },
+          {
+            "name": "Learn C - W3Schools",
+            "link": "https://www.tutorialspoint.com/cprogramming/index.htm"
+          },
+          {
+            "name": "Learn C - Tutorials Point",
+            "link": "https://www.tutorialspoint.com/cprogramming/index.htm"
+          },
+          {
+            "name": "C Programming Tutorial for Beginners",
+            "link": "https://www.youtube.com/watch?v=KJgsSFOSQv0"
+          },
+          {
+            "name": "Learn C Programming with Dr. Chuck",
+            "link": "https://www.youtube.com/watch?v=j-_s8f5K30I"
+          }
+        ],
+        "order": 1,
+        "options": [
+          {
+            "name": "Python",
+            "recommendation-type": "opinion",
+            "description": "Python is a well-known programming language that is both strongly typed and dynamically typed. As an interpreted language, code is executed as soon as it is written, and Python syntax allows for writing code in functional, procedural, or object-oriented ways.",
+            "resources": [
+              {
+                "name": "Dedicated Python Roadmap",
+                "link": "https://roadmap.sh/python"
+              },
+              {
+                "name": "Python Website",
+                "link": "https://www.python.org/"
+              },
+              {
+                "name": "Python Getting Started",
+                "link": "https://www.python.org/about/gettingstarted/"
+              },
+              {
+                "name": "Automate the Boring Stuff",
+                "link": "https://automatetheboringstuff.com/"
+              },
+              {
+                "name": "FreeCodeCamp.org - How to Learn Python?",
+                "link": "https://www.freecodecamp.org/news/how-to-learn-python/"
+              },
+              {
+                "name": "Python principles - Python basics",
+                "link": "https://pythonprinciples.com/"
+              },
+              {
+                "name": "W3Schools - Python Tutorial",
+                "link": "https://www.w3schools.com/python/"
+              },
+              {
+                "name": "Python Crash Course",
+                "link": "https://ehmatthes.github.io/pcc/"
+              },
+              {
+                "name": "Codecademy - Learn Python 2",
+                "link": "https://www.codecademy.com/learn/learn-python"
+              },
+              {
+                "name": "An Introduction to Python for Non-Programmers",
+                "link": "https://thenewstack.io/an-introduction-to-python-for-non-programmers/"
+              },
+              {
+                "name": "Getting Started with Python and InfluxDB",
+                "link": "https://thenewstack.io/getting-started-with-python-and-influxdb/"
+              }
+            ]
+          },
+          {
+            "name": "Go",
+            "recommendation-type": "opinion",
+            "description": "Go is an open-source programming language supported by Google. It can be used to write cloud services, CLI tools, for API development, and more.",
+            "resources": [
+              {
+                "name": "Dedicated Go Roadmap",
+                "link": "https://roadmap.sh/golang"
+              },
+              {
+                "name": "A Tour of Go - Go Basics",
+                "link": "https://go.dev/tour/welcome/1"
+              },
+              {
+                "name": "Go Reference Documentation",
+                "link": "https://go.dev/doc/"
+              },
+              {
+                "name": "Go by Example - annotated example programs",
+                "link": "https://gobyexample.com/"
+              },
+              {
+                "name": "Learn Go | Boot.dev",
+                "link": "https://boot.dev/learn/learn-golang"
+              },
+              {
+                "name": "Learn Go | Codecademy",
+                "link": "https://www.codecademy.com/learn/learn-go"
+              },
+              {
+                "name": "W3Schools Go Tutorial",
+                "link": "https://www.w3schools.com/go/"
+              },
+              {
+                "name": "Making a RESTful JSON API in Go",
+                "link": "https://thenewstack.io/make-a-restful-json-api-go/"
+              },
+              {
+                "name": "Go, the Programming Language of the Cloud",
+                "link": "https://thenewstack.io/go-the-programming-language-of-the-cloud/"
+              }
+            ]
+          },
+          {
+            "name": "C#",
+            "recommendation-type": "opinion",
+            "description": "C# (pronounced “C sharp”) is a general-purpose programming language made by Microsoft. It is used to perform different tasks and can be used to create web apps, games, mobile apps, etc.",
+            "resources": [
+              {
+                "name": "C# Learning Path",
+                "link": "https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/?WT.mc_id=dotnet-35129-website"
+              },
+              {
+                "name": "C# on W3 schools",
+                "link": "https://www.w3schools.com/cs/index.php"
+              },
+              {
+                "name": "Introduction to C#",
+                "link": "https://docs.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educationalcsharp-c9-scottha"
+              },
+              {
+                "name": "C# tutorials",
+                "link": "https://www.youtube.com/watch?v=gfkTfcpWqAY&list=PLTjRvDozrdlz3_FPXwb6lX_HoGXa09Yef"
+              }
+            ]
+          },
+          {
+            "name": "Rust",
+            "recommendation-type": "opinion",
+            "description": "Rust is a modern systems programming language focusing on safety, speed, and concurrency. It accomplishes these goals by being memory safe without using garbage collection.",
+            "resources": [
+              {
+                "name": "The Rust Programming Language - online book",
+                "link": "https://doc.rust-lang.org/book/"
+              },
+              {
+                "name": "Rust by Example - collection of runnable examples",
+                "link": "https://doc.rust-lang.org/stable/rust-by-example/index.html"
+              },
+              {
+                "name": "Rust vs. Go: Why They’re Better Together",
+                "link": "https://thenewstack.io/rust-vs-go-why-theyre-better-together/"
+              },
+              {
+                "name": "Rust by the Numbers: The Rust Programming Language in 2021",
+                "link": "https://thenewstack.io/rust-by-the-numbers-the-rust-programming-language-in-2021/"
+              }
+            ]
+          },
+          {
+            "name": "C++",
+            "recommendation-type": "opinion",
+            "description": "C++ is a powerful general-purpose programming language. It can be used to develop operating systems, browsers, games, and more. C++ supports different ways of programming like procedural, object-oriented, functional, and so on. This makes C++ powerful as well as flexible.",
+            "resources": [
+              {
+                "name": "Learn Cpp",
+                "link": "https://learncpp.com/"
+              },
+              {
+                "name": "C++ Reference",
+                "link": "https://en.cppreference.com/"
+              },
+              {
+                "name": "C++ TutorialsPoint",
+                "link": "https://www.tutorialspoint.com/cplusplus/index.htm"
+              },
+              {
+                "name": "W3Schools C++",
+                "link": "https://www.w3schools.com/cpp/default.asp"
+              },
+              {
+                "name": "C++ Roadmap",
+                "link": "https://roadmap.sh/cpp"
+              }
+            ]
+          },
+          {
+            "name": "C",
+            "recommendation-type": "opinion",
+            "description": "C is a general-purpose computer programming language created in the 1970s by Dennis Ritchie. It remains widely used and influential, and its features cleanly reflect the capabilities of targeted CPUs.",
+            "resources": [
+              {
+                "name": "Learn C - W3Schools",
+                "link": "https://www.w3schools.com/c/"
+              },
+              {
+                "name": "Learn C - Tutorials Point",
+                "link": "https://www.tutorialspoint.com/cprogramming/index.htm"
+              },
+              {
+                "name": "C Programming Tutorial for Beginners",
+                "link": "https://www.youtube.com/watch?v=KJgsSFOSQv0"
+              },
+              {
+                "name": "Learn C Programming with Dr. Chuck",
+                "link": "https://www.youtube.com/watch?v=j-_s8f5K30I"
+              },
+              {
+                "name": "C Programming Full Course (Bro Code)",
+                "link": "https://youtu.be/87SH2Cn0s9A"
+              }
+            ]
+          },
+          {
+            "name": "Java",
+            "recommendation-type": "opinion",
+            "description": "Java is a general-purpose language, primarily used for Internet-based applications. Created in 1995 by James Gosling at Sun Microsystems, it is one of the most popular options for backend developers.",
+            "resources": [
+              {
+                "name": "Dedicated Java Roadmap",
+                "link": "https://roadmap.sh/java"
+              },
+              {
+                "name": "Java Website",
+                "link": "https://www.java.com/"
+              },
+              {
+                "name": "Codecademy - Free Course",
+                "link": "https://www.codecademy.com/learn/learn-java"
+              },
+              {
+                "name": "W3 Schools Tutorials",
+                "link": "https://www.w3schools.com/java/"
+              },
+              {
+                "name": "Java Crash Course",
+                "link": "https://www.youtube.com/watch?v=eIrMbAQSU34"
+              }
+            ]
+          }
+        ]
+      },
+      "Data Structures": {
+        "description": "As the name indicates itself, a Data Structure is a way of organizing the data in the memory so that it can be used efficiently. Some common data structures are array, linked list, stack, hashtable, queue, tree, heap, and graph.",
+        "resources": [
+          {
+            "name": "What are Data Structures?",
+            "link": "https://www.youtube.com/watch?v=eIrMbAQSU34"
+          },
+          {
+            "name": "Data Structures and Algorithms",
+            "link": "https://www.javatpoint.com/data-structure-tutorial"
+          },
+          {
+            "name": "Data Structures Illustrated",
+            "link": "https://www.youtube.com/watch?v=9rhT3P1MDHk&list=PLkZYeFmDuaN2-KUIv-mvbjfKszIGJ4FaY"
+          }
+        ],
+        "order": 2,
+        "options": [
+          {
+            "name": "Array",
+            "recommendation-type": "opinion",
+            "description": "Arrays store elements in contiguous memory locations, resulting in easily calculable addresses for the elements stored and allowing faster access to an element at a specific index.",
+            "resources": [
+              {
+                "name": "Array Data Structure | Illustrated Data Structures",
+                "link": "https://www.youtube.com/watch?v=QJNwK2uJyGs"
+              },
+              {
+                "name": "Array Data Structure - Coursera",
+                "link": "https://www.coursera.org/lecture/data-structures/arrays-OsBSF"
+              },
+              {
+                "name": "UC Berkeley CS61B - Linear and Multi-Dim Arrays (Start watching from 15m 32s)",
+                "link": "https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE"
+              },
+              {
+                "name": "Dynamic Arrays - Coursera",
+                "link": "https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV"
+              },
+              {
+                "name": "Jagged Arrays",
+                "link": "https://www.youtube.com/watch?v=1jtrQqYpt7g"
+              }
+            ]
+          },
+          {
+            "name": "Linked Lists",
+            "recommendation-type": "opinion",
+            "description": "Linked lists are less rigid in their storage structure, and elements are usually not stored in contiguous locations. This difference in the data storage scheme decides which data structure would be more suitable for a given situation.",
+            "resources": [
+              {
+                "name": "Linked List Data Structure | Illustrated Data Structures",
+                "link": "https://www.youtube.com/watch?v=odW9FU8jPRQ"
+              },
+              {
+                "name": "Linked Lists in 4 minutes",
+                "link": "https://www.youtube.com/watch?v=F8AbOfQwl1c"
+              },
+              {
+                "name": "Singly Linked Lists",
+                "link": "https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK"
+              },
+              {
+                "name": "CS 61B Lecture 7: Linked Lists I",
+                "link": "https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0"
+              },
+              {
+                "name": "CS 61B Lecture 7: Linked Lists II",
+                "link": "https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w"
+              },
+              {
+                "name": "Core: Linked Lists vs Arrays",
+                "link": "https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9"
+              },
+              {
+                "name": "In the Real World: Linked Lists vs Arrays",
+                "link": "https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd"
+              },
+              {
+                "name": "Why you should avoid Linked Lists?",
+                "link": "https://www.youtube.com/watch?v=YQs6IC-vgmo"
+              },
+              {
+                "name": "Doubly Linked Lists",
+                "link": "https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD"
+              }
+            ]
+          },
+          {
+            "name": "Stack",
+            "recommendation-type": "opinion",
+            "description": "Stack is a linear collection of items where items are inserted and removed in a particular order. It is also called a LIFO Data Structure because it follows the 'Last In First Out' principle.",
+            "resources": [
+              {
+                "name": "Stack Data Structure | Illustrated Data Structures",
+                "link": "https://www.youtube.com/watch?v=I5lq6sCuABE"
+              },
+              {
+                "name": "Stack in 3 minutes",
+                "link": "https://www.youtube.com/watch?v=KcT3aVgrrpU"
+              },
+              {
+                "name": "Stack Data Structure",
+                "link": "https://www.coursera.org/lecture/data-structures/stacks-UdKzQ"
+              }
+            ]
+          },
+          {
+            "name": "Queue",
+            "recommendation-type": "opinion",
+            "description": "Queue is a linear collection of items where items are inserted and removed in a particular order. The queue is also called a FIFO Data Structure because it follows the 'First In, First Out' principle.",
+            "resources": [
+              {
+                "name": "Queue Data Structure | Illustrated Data Structures",
+                "link": "https://www.youtube.com/watch?v=mDCi1lXd9hc"
+              },
+              {
+                "name": "Queue in 3 Minutes",
+                "link": "https://www.youtube.com/watch?v=D6gu-_tmEpQ"
+              },
+              {
+                "name": "Queues - Coursera",
+                "link": "https://www.coursera.org/lecture/data-structures/queues-EShpq"
+              },
+              {
+                "name": "Circular Buffer - Wikipedia",
+                "link": "https://en.wikipedia.org/wiki/Circular_buffer"
+              }
+            ]
+          },
+          {
+            "name": "Hash Table",
+            "recommendation-type": "opinion",
+            "description": "Hash Table, Map, HashMap, Dictionary, or Associative are all the names of the same data structure. It is one of the most commonly used data structures.",
+            "resources": [
+              {
+                "name": "Hash Table | Illustrated Data Structures",
+                "link": "https://www.youtube.com/watch?v=jalSiaIi8j4"
+              },
+              {
+                "name": "Hash Table in 4 Minutes",
+                "link": "https://youtu.be/knV86FlSXJ8"
+              },
+              {
+                "name": "Hashing with Chaining",
+                "link": "https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9"
+              },
+              {
+                "name": "Table Doubling, Karp-Rabin",
+                "link": "https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=10"
+              },
+              {
+                "name": "Open Addressing, Cryptographic Hashing",
+                "link": "https://www.youtube.com/watch?v=rvdJDijO2Ro&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=11"
+              },
+              {
+                "name": "PyCon 2010: The Mighty Dictionary",
+                "link": "https://www.youtube.com/watch?v=C4Kc8xzcA68"
+              },
+              {
+                "name": "PyCon 2017: The Dictionary Even Mightier",
+                "link": "https://www.youtube.com/watch?v=66P5FMkWoVU"
+              },
+              {
+                "name": "(Advanced) Randomization: Universal & Perfect Hashing",
+                "link": "https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11"
+              },
+              {
+                "name": "(Advanced) Perfect hashing",
+                "link": "https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4"
+              }
+            ]
+          },
+          {
+            "name": "Tree",
+            "recommendation-type": "opinion",
+            "description": "A tree is a non-linear and hierarchical data structure consisting of a collection of nodes such that each node of the tree stores a value and a list of references to other nodes (the 'children').",
+            "resources": [
+              {
+                "name": "Tree Data Structure - Geeks for Geeks",
+                "link": "https://www.geeksforgeeks.org/introduction-to-tree-data-structure-and-algorithm-tutorials/"
+              },
+              {
+                "name": "Tree | Illustrated Data Structures",
+                "link": "https://www.youtube.com/watch?v=S2W3SXGPVyU"
+              }
+            ],
+            "options": [
+              {
+                "name": "Binary Tree",
+                "recommendation-type": "opinion",
+                "description": "A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child.",
+                "resources": [
+                  {
+                    "name": "Binary Trees - Part 1",
+                    "link": "https://www.youtube.com/watch?v=76dhtgZt38A&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY&index=9"
+                  },
+                  {
+                    "name": "Binary Trees - Part 2",
+                    "link": "https://www.youtube.com/watch?v=U1JYwHcFfso&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY&index=10"
+                  }
+                ]
+              },
+              {
+                "name": "Binary Search Tree",
+                "recommendation-type": "opinion",
+                "description": "A binary search tree, also called an ordered or sorted binary tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node’s left subtree and less than the ones in its right subtree.",
+                "resources": [
+                  {
+                    "name": "Tree | Illustrated Data Structures",
+                    "link": "https://www.youtube.com/watch?v=S2W3SXGPVyU"
+                  },
+                  {
+                    "name": "Binary Search Trees - Coursera",
+                    "link": "https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction"
+                  },
+                  {
+                    "name": "Binary Search Trees - MIT",
+                    "link": "https://www.youtube.com/watch?v=76dhtgZt38A"
+                  },
+                  {
+                    "name": "Binary Search Tree Implementation in C++",
+                    "link": "https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29"
+                  },
+                  {
+                    "name": "BST implementation - memory allocation in stack and heap",
+                    "link": "https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=30"
+                  },
+                  {
+                    "name": "Find Min and Max Element in Binary Search Tree",
+                    "link": "https://www.youtube.com/watch?v=Ut90klNN264&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31"
+                  },
+                  {
+                    "name": "Check if Given Tree is Binary Search Tree or Not",
+                    "link": "https://www.youtube.com/watch?v=yEwSGhSsT0U&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36"
+                  },
+                  {
+                    "name": "Delete an Element from Binary Search Tree",
+                    "link": "https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=37"
+                  },
+                  {
+                    "name": "Inorder Successor in a binary search tree",
+                    "link": "https://www.youtube.com/watch?v=5cPbNCrdotA&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=38"
+                  }
+                ]
+              },
+              {
+                "name": "Full Binary Tree",
+                "recommendation-type": "opinion",
+                "description": "A full Binary tree is a special type of binary tree in which every parent node/internal node has either two or no children. It is also known as a proper binary tree.",
+                "resources": [
+                  {
+                    "name": "Full Binary Tree",
+                    "link": "https://www.programiz.com/dsa/full-binary-tree"
+                  },
+                  {
+                    "name": "Types of Binary Tree",
+                    "link": "https://www.geeksforgeeks.org/types-of-binary-tree/"
+                  }
+                ]
+              },
+              {
+                "name": "Complete Binary Tree",
+                "recommendation-type": "opinion",
+                "description": "A complete binary tree is a special type of binary tree where all the levels of the tree are filled completely except the lowest level nodes which are filled from as left as possible.",
+                "resources": [
+                  {
+                    "name": "Complete Binary Tree - Geeks for Geeks",
+                    "link": "https://www.geeksforgeeks.org/complete-binary-tree"
+                  },
+                  {
+                    "name": "Complete Binary Tree - Programiz",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "Balanced Tree",
+                "recommendation-type": "opinion",
+                "description": "A balanced binary tree, also referred to as a height-balanced binary tree, is defined as a binary tree in which the height of the left and right subtree of any node differ by not more than 1.",
+                "resources": [
+                  {
+                    "name": "Balanced Binary Tree",
+                    "link": "https://www.programiz.com/dsa/balanced-binary-tree"
+                  }
+                ]
+              },
+              {
+                "name": "Unbalanced Tree",
+                "recommendation-type": "opinion",
+                "description": "An unbalanced binary tree is one that is not balanced.",
+                "resources": [
+                  {
+                    "name": "Balanced Binary Tree",
+                    "link": "https://www.programiz.com/dsa/balanced-binary-tree"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Graph",
+            "recommendation-type": "opinion",
+            "description": "Graphs in data structures are non-linear data structures made up of a finite number of nodes or vertices and the edges that connect them. Graphs in data structures are used to address real-world problems in which it represents the problem area as a network.",
+            "resources": [
+              {
+                "name": "Graph Data Structure",
+                "link": "https://www.simplilearn.com/tutorials/data-structure-tutorial/graphs-in-data-structure"
+              },
+              {
+                "name": "Graph Data Structure | Illustrated Data Structures",
+                "link": "https://www.youtube.com/watch?v=0sQE8zKhad0"
+              },
+              {
+                "name": "CSE373 2020 - Lecture 10 - Graph Data Structures",
+                "link": "https://www.youtube.com/watch?v=Sjk0xqWWPCc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=10"
+              },
+              {
+                "name": "CSE373 2020 - Lecture 11 - Graph Traversal",
+                "link": "https://www.youtube.com/watch?v=ZTwjXj81NVY&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=11"
+              },
+              {
+                "name": "CSE373 2020 - Lecture 12 - Depth First Search",
+                "link": "https://www.youtube.com/watch?v=KyordYB3BOs&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=12"
+              },
+              {
+                "name": "CSE373 2020 - Lecture 13 - Minimum Spanning Trees",
+                "link": "https://www.youtube.com/watch?v=oolm2VnJUKw&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=13"
+              },
+              {
+                "name": "CSE373 2020 - Lecture 14 - Minimum Spanning Trees (cont)",
+                "link": "https://www.youtube.com/watch?v=RktgPx0MarY&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=14"
+              },
+              {
+                "name": "CSE373 2020 - Lecture 15 - Graph Algorithms (cont 2)",
+                "link": "https://www.youtube.com/watch?v=MUe5DXRhyAo&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=15"
+              },
+              {
+                "name": "6.006 Single-Source Shortest Paths Problem",
+                "link": "https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb"
+              }
+            ],
+            "options": [
+              {
+                "name": "Directed Graph",
+                "recommendation-type": "opinion",
+                "description": "A directed graph is a graph, i.e., a set of objects (called vertices or nodes) that are connected together, where all the edges are directed from one vertex to another.",
+                "resources": [
+                  {
+                    "name": "Directed Graph",
+                    "link": "https://en.wikipedia.org/wiki/Directed_graph"
+                  }
+                ]
+              },
+              {
+                "name": "Undirected Graph",
+                "recommendation-type": "opinion",
+                "description": "An undirected graph is a graph, i.e., a set of objects (called vertices or nodes) that are connected together, where all the edges are bidirectional.",
+                "resources": [
+                  {
+                    "name": "Undirected Graph",
+                    "link": "https://mathinsight.org/definition/undirected_graph"
+                  }
+                ]
+              },
+              {
+                "name": "Spanning Tree",
+                "recommendation-type": "opinion",
+                "description": "A spanning tree is a subset of Graph G, which has all the vertices covered with the minimum possible number of edges. Hence, a spanning tree does not have cycles and it cannot be disconnected.",
+                "resources": [
+                  {
+                    "name": "Spanning Tree",
+                    "link": "https://www.tutorialspoint.com/data_structures_algorithms/spanning_tree.htm"
+                  },
+                  {
+                    "name": "CSE373 2020 - Lecture 13 - Minimum Spanning Trees",
+                    "link": "https://www.youtube.com/watch?v=oolm2VnJUKw&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=13"
+                  },
+                  {
+                    "name": "CSE373 2020 - Lecture 14 - Minimum Spanning Trees (cont)",
+                    "link": "https://www.youtube.com/watch?v=RktgPx0MarY&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=14"
+                  },
+                  {
+                    "name": "Greedy Algorithms: Minimum Spanning Tree",
+                    "link": "https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp"
+                  }
+                ]
+              },
+              {
+                "name": "Representation",
+                "recommendation-type": "opinion",
+                "description": "A graph can either be represented as an adjacency matrix or an adjacency list.",
+                "resources": [
+                  {
+                    "name": "Adjacency Matrix - Graph Representation",
+                    "link": "https://www.programiz.com/dsa/graph-adjacency-matrix"
+                  },
+                  {
+                    "name": "Adjacency List - Graph Representation",
+                    "link": "https://www.programiz.com/dsa/graph-adjacency-list"
+                  }
+                ],
+                "options": [
+                  {
+                    "name": "Adjacency Matrix",
+                    "recommendation-type": "opinion",
+                    "description": "A graph can either be represented as an adjacency matrix or an adjacency list.",
+                    "resources": [
+                      {
+                        "name": "Adjacency Matrix - Graph Representation",
+                        "link": "https://www.programiz.com/dsa/graph-adjacency-matrix"
+                      },
+                      {
+                        "name": "Adjacency List - Graph Representation",
+                        "link": "https://www.programiz.com/dsa/graph-adjacency-list"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Adjacency List",
+                    "recommendation-type": "opinion",
+                    "description": "A graph can either be represented as an adjacency matrix or an adjacency list.",
+                    "resources": [
+                      {
+                        "name": "Adjacency Matrix - Graph Representation",
+                        "link": "https://www.programiz.com/dsa/graph-adjacency-matrix"
+                      },
+                      {
+                        "name": "Adjacency List - Graph Representation",
+                        "link": "https://www.programiz.com/dsa/graph-adjacency-list"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Heap",
+            "recommendation-type": "opinion",
+            "description": "Heap is a tree-based data structure that follows the properties of a complete binary tree and is either a Min Heap or a Max Heap.",
+            "resources": [
+              {
+                "name": "Heap | Illustrated Data Structures",
+                "link": "https://www.youtube.com/watch?v=F_r0sJ1RqWk"
+              },
+              {
+                "name": "Priority Queue - Introduction",
+                "link": "https://www.coursera.org/lecture/data-structures/introduction-2OpTs"
+              },
+              {
+                "name": "Heaps and Heap Sort",
+                "link": "https://www.youtube.com/watch?v=B7hVxCmfPtM&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=5"
+              },
+              {
+                "name": "CS 61B Lecture 24: Priority Queues",
+                "link": "https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE"
+              }
+            ]
+          }
+        ]
+      },
+      "Asymptotic Notation": {
+        "name": "Asymptotic Notation",
+        "recommendation-type": "opinion",
+        "description": "The efficiency of an algorithm depends on the amount of time, storage, and other resources required to execute the algorithm. The efficiency is measured with the help of asymptotic notations. An algorithm may not have the same performance for different types of inputs. With the increase in the input size, the performance will change. The study of the change in performance of the algorithm with the change in the order of the input size is defined as asymptotic analysis.",
+        "resources": [
+          {
+            "name": "Asymptotic Analysis: Big-O Notation and More",
+            "link": "https://www.programiz.com/dsa/asymptotic-notations"
+          },
+          {
+            "name": "Big O Notation — Calculating Time Complexity",
+            "link": "https://www.youtube.com/watch?v=Z0bH0cMY0E8"
+          },
+          {
+            "name": "Big O Notation in 5 Minutes",
+            "link": "https://www.youtube.com/watch?v=__vX2sjlpXU"
+          },
+          {
+            "name": "Asymptotic Notation - CS50",
+            "link": "https://www.youtube.com/watch?v=iOq5kSKqeR4"
+          },
+          {
+            "name": "CS 61B Lecture 19: Asymptotic Analysis",
+            "link": "https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98"
+          },
+          {
+            "name": "Big-O Cheat Sheet",
+            "link": "https://www.bigocheatsheet.com/"
+          }
+        ],
+        "order": 3,
+        "options": [
+          {
+            "name": "Big O Notation",
+            "recommendation-type": "opinion",
+            "description": "Big O Notation describes how well an algorithm scales with the input size. It is used to describe the worst-case scenario of an algorithm and to compare algorithms to determine which one is better.",
+            "resources": [
+              {
+                "name": "Big O Notation — Calculating Time Complexity",
+                "link": "https://www.youtube.com/watch?v=Z0bH0cMY0E8"
+              },
+              {
+                "name": "Big O Notations",
+                "link": "https://www.youtube.com/watch?v=V6mKVRU1evU"
+              },
+              {
+                "name": "CS 61B Lecture 19: Asymptotic Analysis",
+                "link": "https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98"
+              },
+              {
+                "name": "Big Oh Notation (and Omega and Theta)",
+                "link": "https://www.youtube.com/watch?v=ei-A_wy5Yxw&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN&index=3"
+              }
+            ]
+          },
+          {
+            "name": "Big Theta Notation",
+            "recommendation-type": "opinion",
+            "description": "While Big O Notation refers to the upper bound of a function, Big Theta Notation refers to the exact bound of a function. Big Theta Notation is used to describe the exact growth rate of a function and is denoted by the symbol Θ.",
+            "resources": [
+              {
+                "name": "Big Oh Notation (and Omega and Theta)",
+                "link": "https://www.youtube.com/watch?v=ei-A_wy5Yxw&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN&index=3"
+              },
+              {
+                "name": "Asymptotic Notation - CS50",
+                "link": "https://www.youtube.com/watch?v=iOq5kSKqeR4"
+              }
+            ]
+          },
+          {
+            "name": "Big Omega Notation",
+            "recommendation-type": "opinion",
+            "description": "Big Omega notation is used to describe the lower bound of a function. It is the opposite of Big O notation. While Big O is used to describe the worst-case scenario of an algorithm, Big Omega is used to describe the best-case scenario.",
+            "resources": [
+              {
+                "name": "Big Oh Notation (and Omega and Theta)",
+                "link": "https://www.youtube.com/watch?v=ei-A_wy5Yxw&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN&index=3"
+              },
+              {
+                "name": "Asymptotic Notation - CS50",
+                "link": "https://www.youtube.com/watch?v=iOq5kSKqeR4"
+              }
+            ]
+          },
+          {
+            "name": "Common Runtimes",
+            "recommendation-type": "opinion",
+            "description": "List of common algorithmic runtimes listed in ascending order of their complexity.",
+            "resources": [
+              {
+                "name": "Big O Notation — Calculating Time Complexity",
+                "link": "https://www.youtube.com/watch?v=Z0bH0cMY0E8"
+              },
+              {
+                "name": "Big O Notations",
+                "link": "https://www.youtube.com/watch?v=V6mKVRU1evU"
+              }
+            ],
+            "options": [
+              {
+                "name": "Constant",
+                "recommendation-type": "opinion",
+                "description": "Constant time algorithms are the simplest and most efficient algorithms. They always take the same amount of time to run, regardless of the size of the input.",
+                "resources": [
+                  {
+                    "name": "Big O Notation — Calculating Time Complexity",
+                    "link": "https://www.youtube.com/watch?v=Z0bH0cMY0E8"
+                  },
+                  {
+                    "name": "Big O Notations",
+                    "link": "https://www.youtube.com/watch?v=V6mKVRU1evU"
+                  }
+                ]
+              },
+              {
+                "name": "Logarithmic",
+                "recommendation-type": "opinion",
+                "description": "Logarithmic complexity algorithms are the second fastest algorithms. They are faster than linear algorithms but slower than constant algorithms.",
+                "resources": [
+                  {
+                    "name": "Big O Notation — Calculating Time Complexity",
+                    "link": "https://www.youtube.com/watch?v=Z0bH0cMY0E8"
+                  },
+                  {
+                    "name": "Big O Notations",
+                    "link": "https://www.youtube.com/watch?v=V6mKVRU1evU"
+                  }
+                ]
+              },
+              {
+                "name": "Linear",
+                "recommendation-type": "opinion",
+                "description": "Linear algorithms have a runtime that is directly proportional to the size of the input. The runtime increases linearly with the size of the input.",
+                "resources": [
+                  {
+                    "name": "Big O Notation — Calculating Time Complexity",
+                    "link": "https://www.youtube.com/watch?v=Z0bH0cMY0E8"
+                  },
+                  {
+                    "name": "Big O Notations",
+                    "link": "https://www.youtube.com/watch?v=V6mKVRU1evU"
+                  }
+                ]
+              },
+              {
+                "name": "Polynomial",
+                "recommendation-type": "opinion",
+                "description": "Polynomial algorithms have a runtime that is a polynomial function of the input size. The runtime is a function of the form n^k where k is a constant.For example, the runtime of the following algorithm is n^2:def polynomial_algorithm(n):for i in range(n):for j in range(n):print(i, j)",
+                "resources": [
+                  {
+                    "name": "Big O Notation — Calculating Time Complexity",
+                    "link": "https://www.youtube.com/watch?v=Z0bH0cMY0E8"
+                  },
+                  {
+                    "name": "Big O Notations",
+                    "link": "https://www.youtube.com/watch?v=V6mKVRU1evU"
+                  }
+                ]
+              },
+              {
+                "name": "Exponential",
+                "recommendation-type": "opinion",
+                "description": "Exponential algorithms grow at a rate of 2^n. For each additional input, the algorithm takes twice as long to run.def exponential(n):if n == 0:return 1return 2 * exponential(n - 1)",
+                "resources": [
+                  {
+                    "name": "Big O Notation — Calculating Time Complexity",
+                    "link": "https://www.youtube.com/watch?v=Z0bH0cMY0E8"
+                  },
+                  {
+                    "name": "Big O Notations",
+                    "link": "https://www.youtube.com/watch?v=V6mKVRU1evU"
+                  }
+                ]
+              },
+              {
+                "name": "Factorial",
+                "recommendation-type": "opinion",
+                "description": "Factorial complexity algorithms have a runtime of O(n!). This is the worst-case scenario for an algorithm and should be avoided. def factorial(n):if n == 0: return 1else:return n * factorial(n-1)",
+                "resources": []
+              }
+            ]
+          }
+        ]
+      },
+      "Common Algorithms": {
+        "description": "Here are some common algorithms that you should know. You can find more information about them in the Algorithms section of the Computer Science course.SortingRecursionSearchingCache AlgorithmsTree AlgorithmsGraph AlgorithmsGreedy AlgorithmsBacktrackingSubstring SearchSuffix ArraysDynamic Programming ",
+        "resources": [],
+        "order": 4,
+        "options": [
+          {
+            "name": "Sorting Algorithms",
+            "recommendation-type": "opinion",
+            "description": "Sorting algorithms are crucial for organizing data in a collection. Understanding different sorting algorithms, their best-case/worst-case scenarios, average complexity, and stability is essential in computer science. Explore the following resources to learn more:",
+            "resources": [
+              {
+                "name": "CS 61B Lecture 29: Sorting I",
+                "link": ""
+              },
+              {
+                "name": "CS 61B Lecture 30: Sorting II",
+                "link": ""
+              },
+              {
+                "name": "CS 61B Lecture 32: Sorting III",
+                "link": ""
+              },
+              {
+                "name": "CS 61B Lecture 33: Sorting V",
+                "link": ""
+              }
+            ],
+            "options": [
+              {
+                "name": "Bubble Sort",
+                "recommendation-type": "opinion",
+                "description": "Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "Bubble Sort",
+                    "link": ""
+                  },
+                  {
+                    "name": "Analyzing Bubble Sort",
+                    "link": ""
+                  },
+                  {
+                    "name": "Bubble sort in 2 minutes",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "Selection Sort",
+                "recommendation-type": "opinion",
+                "description": "Selection sort is a sorting algorithm that selects the smallest unsorted item in the list and swaps it with index 0, then finds the next smallest and places it into index 1 and so on. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "Selection Sort in 3 Minutes",
+                    "link": ""
+                  },
+                  {
+                    "name": "Selection Sort",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "Insertion Sort",
+                "recommendation-type": "opinion",
+                "description": "Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time by comparisons. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "Insertion Sort — MIT",
+                    "link": ""
+                  },
+                  {
+                    "name": "Insertion Sort in 3 Minutes",
+                    "link": ""
+                  },
+                  {
+                    "name": "Insertion Sort Algorithm",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "Heap Sort",
+                "recommendation-type": "opinion",
+                "description": "Heap sort is a comparison based sorting algorithm. It is similar to selection sort where we first find the maximum element and place the maximum element at the end. We repeat the same process for the remaining elements. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "Heap Sort Algorithm",
+                    "link": ""
+                  },
+                  {
+                    "name": "Heap Sort Algorithm - Geeks for Geeks",
+                    "link": ""
+                  },
+                  {
+                    "name": "Heap Sort in 4 Minutes",
+                    "link": ""
+                  },
+                  {
+                    "name": "Heap Sort Algorithm - MIT",
+                    "link": ""
+                  },
+                  {
+                    "name": "Heap Sort Algorithm",
+                    "link": ""
+                  },
+                  {
+                    "name": "Lecture 4 - Heaps and Heap Sort",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "Quick Sort",
+                "recommendation-type": "opinion",
+                "description": "Quick Sort is a divide and conquer algorithm. It picks an element as pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "Quick Sort Algorithm",
+                    "link": ""
+                  },
+                  {
+                    "name": "Quick Sort Algorithm - Geeks for Geeks",
+                    "link": ""
+                  },
+                  {
+                    "name": "Quick Sort in 4 Minutes",
+                    "link": ""
+                  },
+                  {
+                    "name": "Quick Sort Implementation in C",
+                    "link": ""
+                  },
+                  {
+                    "name": "Quick Sort Implementation in Python",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "Merge Sort",
+                "recommendation-type": "opinion",
+                "description": "Merge sort is a divide and conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "Merge Sort - Geeks for Geeks",
+                    "link": ""
+                  },
+                  {
+                    "name": "Merge Sort Algorithm",
+                    "link": ""
+                  },
+                  {
+                    "name": "Merge Sort for Linked Lists",
+                    "link": ""
+                  },
+                  {
+                    "name": "Merge Sort in 3 Minutes",
+                    "link": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tree Algorithms",
+            "recommendation-type": "opinion",
+            "description": "Trees are non-linear hierarchical data structures with nodes storing values and references to other nodes. Common tree algorithms involve tree traversal, breadth-first search, and depth-first search. Explore the following resources to learn more:",
+            "resources": [
+              {
+                "name": "",
+                "link": ""
+              }
+            ],
+            "options": [
+              {
+                "name": "Pre-Order Traversal",
+                "recommendation-type": "opinion",
+                "description": "Pre-order traversal is a tree traversal algorithm that visits the root node first, then recursively traverses the left subtree, followed by the right subtree. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "Tree | Illustrated Data Structures",
+                    "link": ""
+                  },
+                  {
+                    "name": "Tree Traversals (Inorder, Preorder and Postorder)",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "In-Order Traversal",
+                "recommendation-type": "opinion",
+                "description": "In-order traversal is a tree traversal algorithm that visits the left subtree, the root, and then the right subtree. This is the most common way to traverse a binary search tree. It is also used to create a sorted list of nodes in a binary search tree. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "Tree | Illustrated Data Structures",
+                    "link": ""
+                  },
+                  {
+                    "name": "Tree Traversals (Inorder, Preorder and Postorder)",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "Post-Order Traversal",
+                "recommendation-type": "opinion",
+                "description": "Post-order traversal is a type of tree traversal that visits the left subtree, then the right subtree, and finally the root node. This is the opposite of pre-order traversal, which visits the root node first, then the left subtree, and finally the right subtree. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "Tree | Illustrated Data Structures",
+                    "link": ""
+                  },
+                  {
+                    "name": "Tree Traversals (Inorder, Preorder and Postorder)",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "Breadth First Search",
+                "recommendation-type": "opinion",
+                "description": "Breadth first search is a graph traversal algorithm that starts at the root node and explores all of the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "BFS and DFS in a Binary Tree",
+                    "link": ""
+                  },
+                  {
+                    "name": "Breadth-First Search (BFS) and Depth-First Search (DFS) for Binary Trees in Java",
+                    "link": ""
+                  },
+                  {
+                    "name": "Breadth-first search in 4 minutes",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "Depth First Search",
+                "recommendation-type": "opinion",
+                "description": "Depth first search is a graph traversal algorithm that starts at a root node and explores as far as possible along each branch before backtracking. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "BFS and DFS in a Binary Tree",
+                    "link": ""
+                  },
+                  {
+                    "name": "Breadth-First Search (BFS) and Depth-First Search (DFS) for Binary Trees in Java",
+                    "link": ""
+                  },
+                  {
+                    "name": "Depth First Search in 4 Minutes",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "Back Tracking Algorithm",
+                "recommendation-type": "opinion",
+                "description": "Backtracking algorithms are used to solve problems that can be broken down into smaller sub-problems. The algorithm tries to solve each sub-problem, and if it fails, it backtracks and tries to solve the sub-problem in a different way. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "Backtracking Algorithms",
+                    "link": ""
+                  },
+                  {
+                    "name": "Backtracking Algorithm",
+                    "link": ""
+                  }
+                ],
+                "options": [
+                  {
+                    "name": "Finding Hamiltonian Paths",
+                    "recommendation-type": "opinion",
+                    "description": "Hamiltonian paths are paths that visit every node in a graph exactly once. Explore the following resources to learn more:",
+                    "resources": [
+                      {
+                        "name": "Hamiltonian Path",
+                        "link": ""
+                      },
+                      {
+                        "name": "Hamiltonian Cycle | Backtracking-6",
+                        "link": ""
+                      },
+                      {
+                        "name": "Hamiltonian Paths and Cycles",
+                        "link": ""
+                      },
+                      {
+                        "name": "Hamiltonian Paths - Lecture 7",
+                        "link": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Solving n Queen Problem",
+                    "recommendation-type": "opinion",
+                    "description": "N Queen Problem is a famous problem in Computer Science. It is a problem of placing n queens on an n x n chessboard such that no two queens attack each other. Explore the following resources to learn more:",
+                    "resources": [
+                      {
+                        "name": "N-Queens problem using backtracking in Java/C++",
+                        "link": ""
+                      },
+                      {
+                        "name": "N Queen Problem | Backtracking-3",
+                        "link": ""
+                      },
+                      {
+                        "name": "6.1 N Queens Problem using Backtracking",
+                        "link": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Maze Solving Problem",
+                    "recommendation-type": "opinion",
+                    "description": "Maze solving problem is a classic problem in computer science. Explore the following resources to learn more:",
+                    "resources": [
+                      {
+                        "name": "Maze Solving Algorithms",
+                        "link": ""
+                      },
+                      {
+                        "name": "Maze Solving Algorithms",
+                        "link": ""
+                      },
+                      {
+                        "name": "Maze Solving - Computerphile",
+                        "link": ""
+                      },
+                      {
+                        "name": "Python Maze Solving Tutorial (Using Recursion)",
+                        "link": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Knight’s Tour Problem",
+                    "recommendation-type": "opinion",
+                    "description": "Knight’s Tour Problem is a problem where we have to find a path for a knight to visit all the cells of a chessboard without visiting any cell twice. Explore the following resources to learn more:",
+                    "resources": [
+                      {
+                        "name": "The Knight’s tour problem | Backtracking-1",
+                        "link": ""
+                      },
+                      {
+                        "name": "Knights Tour",
+                        "link": ""
+                      },
+                      {
+                        "name": "Knights Tour Proble",
+                        "link": ""
+                      },
+                      {
+                        "name": "Backtracking: The Knight’s Tour Problem",
+                        "link": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Rabin-Karp’s algorithm",
+                    "recommendation-type": "opinion",
+                    "description": "Rabin-Karp algorithm is a string searching algorithm that uses hashing to find any one of a set of pattern strings in a text. Explore the following resources to learn more:",
+                    "resources": [
+                      {
+                        "name": "Rabin Karps Algorithm",
+                        "link": ""
+                      },
+                      {
+                        "name": "Optimization: Precomputation",
+                        "link": ""
+                      },
+                      {
+                        "name": "Optimization: Implementation and Analysis",
+                        "link": ""
+                      },
+                      {
+                        "name": "Lecture 9: Table Doubling, Karp-Rabin",
+                        "link": ""
+                      },
+                      {
+                        "name": "Rolling Hashes, Amortized Analysis",
+                        "link": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Graph Algorithms",
+            "recommendation-type": "opinion",
+            "description": "Graphs in data structures represent non-linear structures with nodes and edges. They are used to solve real-world problems like networks. Explore the following resources to learn more about graph algorithms:",
+            "resources": [
+              {
+                "name": "Graph Algorithms I - Topological Sorting, Minimum Spanning Trees, Prims Algorithm - Lecture 6",
+                "link": ""
+              },
+              {
+                "name": "Graph Algorithms II - DFS, BFS, Kruskals Algorithm, Union Find Data Structure - Lecture 7",
+                "link": ""
+              },
+              {
+                "name": "Graph Algorithms III: Shortest Path - Lecture 8",
+                "link": ""
+              },
+              {
+                "name": "Graph Alg. IV: Intro to geometric algorithms - Lecture 9",
+                "link": ""
+              },
+              {
+                "name": "Strongly Connected Components Kosarajus Algorithm Graph Algorithm",
+                "link": ""
+              },
+              {
+                "name": "Shortest Path Algorithms (playlist) in 16 minutes",
+                "link": ""
+              },
+              {
+                "name": "Minimum Spanning Trees (playlist) in 4 minutes",
+                "link": ""
+              },
+              {
+                "name": "Algorithms on Graphs - Coursera",
+                "link": ""
+              }
+            ],
+            "options": [
+              {
+                "name": "Breadth First Search",
+                "recommendation-type": "opinion",
+                "description": "Breadth first search for a graph is a way to traverse the graph. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "Breadth First Search or BFS for a Graph",
+                    "link": ""
+                  },
+                  {
+                    "name": "Graph Algorithms II - DFS, BFS, Kruskals Algorithm, Union Find Data Structure - Lecture 7",
+                    "link": ""
+                  },
+                  {
+                    "name": "Breadth-first search in 4 minutes",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "Depth First Search",
+                "recommendation-type": "opinion",
+                "description": "Depth first search is a graph traversal algorithm that starts at a root node and explores as far as possible along each branch before backtracking. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "Depth First Search or DFS for a Graph",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "Bellman Ford’s Algorithm",
+                "recommendation-type": "opinion",
+                "description": "Bellman ford’s algorithm is a graph algorithm that finds the shortest path from a source vertex to all other vertices in a graph. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "Bellman-Ford - MIT",
+                    "link": ""
+                  },
+                  {
+                    "name": "Bellman-Ford in 4 Minutes",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "Dijkstra’s Algorithm",
+                "recommendation-type": "opinion",
+                "description": "Dijkstra’s algorithm is a graph traversal algorithm that finds the shortest path between two nodes in a graph. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "Dijkstras Algorithm - MIT",
+                    "link": ""
+                  },
+                  {
+                    "name": "Dijkstras Algorithm in 3 Minutes",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "A* Algorithm",
+                "recommendation-type": "opinion",
+                "description": "A* is a graph traversal algorithm that is used to find the shortest path between two nodes in a graph. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "A* Search Algorithm - Wikipedia",
+                    "link": ""
+                  },
+                  {
+                    "name": "A* Pathfinding (E01: algorithm explanation)",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "Greedy Algorithms",
+                "recommendation-type": "opinion",
+                "description": "Greedy algorithms always make the choice that seems to be the best at that moment, making a locally-optimal choice in the hope that it will lead to a globally-optimal solution. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "Greedy Algorithms - Geeks for Geeks",
+                    "link": ""
+                  },
+                  {
+                    "name": "Greedy Algorithms - Programiz",
+                    "link": ""
+                  },
+                  {
+                    "name": "Greedy Algorithms Tutorial – Solve Coding Challenges",
+                    "link": ""
+                  }
+                ],
+                "options": [
+                  {
+                    "name": "Dijkstra’s Algorithm",
+                    "recommendation-type": "opinion",
+                    "description": "Dijkstra’s algorithm is a greedy algorithm that finds the shortest path between two nodes in a graph. It is commonly used in computer science applications such as GPS navigation, network routing, and finding the shortest path in a maze. Explore the following resources to learn more:",
+                    "resources": [
+                      {
+                        "name": "Dijkstras Algorithm in 3 Minutes",
+                        "link": ""
+                      },
+                      {
+                        "name": "Dijkstras Algorithm - MIT",
+                        "link": ""
+                      },
+                      {
+                        "name": "Speeding Up Dijkstras Algorithm - MIT",
+                        "link": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Huffman Coding",
+                    "recommendation-type": "opinion",
+                    "description": "Huffman coding is a lossless data compression algorithm that assigns variable-length codes to input characters based on their frequencies. Explore the following resources to learn more:",
+                    "resources": [
+                      {
+                        "name": "Huffman Coding",
+                        "link": ""
+                      },
+                      {
+                        "name": "Huffman Coding | Greedy Algo-3",
+                        "link": ""
+                      },
+                      {
+                        "name": "Huffman Coding - Greedy Method",
+                        "link": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Kruskal’s Algorithm",
+                    "recommendation-type": "opinion",
+                    "description": "Kruskal’s algorithm is a greedy algorithm that finds a minimum spanning tree for a connected weighted graph. It minimizes the total edge weight while connecting all vertices without cycles. Explore the following resources to learn more:",
+                    "resources": [
+                      {
+                        "name": "Kruskals Algorithm in 2 Minutes",
+                        "link": ""
+                      },
+                      {
+                        "name": "Graph Algorithms II - DFS, BFS, Kruskals Algorithm, Union Find Data Structure - Lecture 7",
+                        "link": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Ford Fulkerson Algorithm",
+                    "recommendation-type": "opinion",
+                    "description": "Ford Fulkerson Algorithm is a greedy algorithm used to find the maximum flow in a flow network, also known as the Edmonds-Karp Algorithm. Explore the following resources to learn more:",
+                    "resources": [
+                      {
+                        "name": "Ford-Fulkerson in 5 minutes",
+                        "link": ""
+                      },
+                      {
+                        "name": "Ford-Fulkerson Algorithm for Maximum Flow Problem",
+                        "link": ""
+                      },
+                      {
+                        "name": "Ford-Fulkerson Algorithm",
+                        "link": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Prim’s Algorithm",
+                    "recommendation-type": "opinion",
+                    "description": "Prim’s algorithm is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph, minimizing the total edge weight. Explore the following resources to learn more:",
+                    "resources": [
+                      {
+                        "name": "Graph Algorithms I - Topological Sorting, Prims Algorithm - Lecture 6",
+                        "link": ""
+                      },
+                      {
+                        "name": "Prim’s Minimum Spanning Tree (MST) | Greedy Algo-5",
+                        "link": ""
+                      },
+                      {
+                        "name": "Prims Algorithm",
+                        "link": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Recursion",
+            "recommendation-type": "opinion",
+            "description": "Recursion is a problem-solving method where the solution depends on solutions to smaller instances of the same problem. A recursive algorithm must have a base case and calls itself recursively. Explore the following resources to learn more about recursion:",
+            "resources": [
+              {
+                "name": "Recursion in 100 Seconds",
+                "link": ""
+              },
+              {
+                "name": "Lecture 8 | Programming Abstractions (Stanford)",
+                "link": ""
+              },
+              {
+                "name": "Lecture 9 | Programming Abstractions (Stanford)",
+                "link": ""
+              },
+              {
+                "name": "Lecture 10 | Programming Abstractions (Stanford)",
+                "link": ""
+              },
+              {
+                "name": "Lecture 11 | Programming Abstractions (Stanford)",
+                "link": ""
+              },
+              {
+                "name": "5 Simple Steps for Solving Any Recursive Problem",
+                "link": ""
+              }
+            ],
+            "options": [
+              {
+                "name": "Tail Recursion",
+                "recommendation-type": "opinion",
+                "description": "Tail recursion is a special kind of recursion where the recursive call is the very last thing in the function. It’s a function that does not do anything at all after recursing. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "What is tail recursion? Why is it so bad?",
+                    "link": ""
+                  },
+                  {
+                    "name": "Tail Recursion",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "Non-tail Recursion",
+                "recommendation-type": "opinion",
+                "description": "Tail recursion is when a function can directly return the result of a recursive call, with no outstanding operations and no need to preserve the call stack frame. In 'non-tail recursion,' there are outstanding operations after the recursive call, and the stack frame cannot be nuked. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "What is non-tail recursion?",
+                    "link": ""
+                  },
+                  {
+                    "name": "Tail vs Non-Tail Recursion",
+                    "link": ""
+                  },
+                  {
+                    "name": "Recursion (Solved Problem 1)",
+                    "link": ""
+                  },
+                  {
+                    "name": "Types of Recursion (Part 2) | Tail & Non-tail Recursion",
+                    "link": ""
+                  }
+                ]
+              },
+              {
+                "name": "Search Algorithms",
+                "recommendation-type": "opinion",
+                "description": "Search algorithms are used to find a specific item in a collection of items. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "Searching Algorithms",
+                    "link": ""
+                  },
+                  {
+                    "name": "Search Algorithms - Linear Search and Binary Search",
+                    "link": ""
+                  }
+                ],
+                "options": [
+                  {
+                    "name": "Binary Search",
+                    "recommendation-type": "opinion",
+                    "description": "Binary search is a search algorithm that finds the position of a target value within a sorted array. It compares the target value to the middle element of the array, eliminating half of the remaining elements based on the comparison. Explore the following resources to learn more:",
+                    "resources": [
+                      {
+                        "name": "Binary Search in 4 Minutes",
+                        "link": ""
+                      },
+                      {
+                        "name": "Binary Search - CS50",
+                        "link": ""
+                      },
+                      {
+                        "name": "Binary Search - Khan Academy",
+                        "link": ""
+                      },
+                      {
+                        "name": "Binary Search",
+                        "link": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Linear Search",
+                    "recommendation-type": "opinion",
+                    "description": "Linear search is a very simple algorithm that is used to search for a value in an array by sequentially checking each element until a match is found or all elements have been searched. Explore the following resources to learn more:",
+                    "resources": [
+                      {
+                        "name": "Linear Search Algorithm",
+                        "link": ""
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cache Algorithms",
+                "recommendation-type": "opinion",
+                "description": "Cache algorithms are used to manage the cache memory of a computer, determining which data should be stored in the cache memory and which data should be removed. Explore the following resources to learn more:",
+                "resources": [
+                  {
+                    "name": "Cache Replacement Algorithms: How To Efficiently Manage The Cache Storage",
+                    "link": ""
+                  },
+                  {
+                    "name": "14. Caching and Cache-Efficient Algorithms",
+                    "link": ""
+                  }
+                ],
+                "options": [
+                  {
+                    "name": "LRU Cache",
+                    "recommendation-type": "opinion",
+                    "description": "LRU cache is a cache that evicts the least recently used item first. It is a common cache algorithm used in various applications. Explore the following resources to learn more:",
+                    "resources": [
+                      {
+                        "name": "The Magic of LRU Cache (100 Days of Google Dev)",
+                        "link": ""
+                      },
+                      {
+                        "name": "Implementing LRU - Udacity",
+                        "link": ""
+                      },
+                      {
+                        "name": "LeetCode | 146 LRU Cache | C++ | Explanation",
+                        "link": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "LFU Cache",
+                    "recommendation-type": "opinion",
+                    "description": "LFU Cache is a data structure that stores key-value pairs, removing the least frequently used entry when it is full. Explore the following resources to learn more:",
+                    "resources": [
+                      {
+                        "name": "Least Frequently Used (LFU) Cache Implementation",
+                        "link": ""
+                      },
+                      {
+                        "name": "1117. Data Structure - LFU Cache",
+                        "link": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "MFU Cache",
+                    "recommendation-type": "opinion",
+                    "description": "MFU Cache is another cache algorithm that deletes the most frequently used entry instead of the least frequently used entry. Explore the following resources to learn more:",
+                    "resources": [
+                      {
+                        "name": "Comparison of MFU and LRU page replacement algorithms",
+                        "link": ""
+                      },
+                      {
+                        "name": "Why does cache use Most Recently Used (MRU) algorithm as evict policy?",
+                        "link": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "String Search and Manipulations": {
+        "description": "String search and manipulation is a very important topic in computer science. It is used in many different applications, such as searching or replacing a specific pattern, word or character in a string. ",
+        "resources": [
+          {
+            "name": "String-searching algorithm",
+            "link": "https://en.wikipedia.org/wiki/String-searching_algorithm"
+          },
+          {
+            "name": "Pattern Searching",
+            "link": "https://roadmap.sh/computer-science#:~:text=String%2Dsearching%20algorithm-,Pattern%20Searching,-Applications%20of%20String"
+          },
+          {
+            "name": "Applications of String Matching Algorithms",
+            "link": "https://roadmap.sh/computer-science#:~:text=Applications%20of%20String%20Matching%20Algorithms"
+          }
+        ],
+        "order": 5,
+        "options": [
+          {
+            "name": "Suffix Arrays",
+            "recommendation-type": "opinion",
+            "description": "Suffix arrays are a data structure that allows us to quickly find all the suffixes of a string in lexicographical order. This is useful for many problems, such as finding the longest common substring between two strings or finding the number of distinct substrings of a string.",
+            "resources": [
+              {
+                "name": "Suffix Array | Set 1 (Introduction)",
+                "link": "https://www.geeksforgeeks.org/suffix-array-set-1-introduction/"
+              },
+              {
+                "name": "Suffix array introduction",
+                "link": "https://www.youtube.com/watch?v=zqKlL3ZpTqs"
+              },
+              {
+                "name": "Advanced Data Structures: Suffix Arrays",
+                "link": "https://www.youtube.com/watch?v=IzMxbboPcqQ"
+              },
+              {
+                "name": "Suffix Arrays - Coursera",
+                "link": "https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays"
+              }
+            ]
+          },
+          {
+            "name": "Search Pattern in Text",
+            "recommendation-type": "opinion",
+            "description": "Searching pattern in text is a very common task in computer science. It is used in many applications like spell checkers, text editors, and many more.",
+            "resources": [
+              {
+                "name": "Search Pattern in Text",
+                "link": "https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text"
+              }
+            ]
+          },
+          {
+            "name": "Substring Search",
+            "recommendation-type": "opinion",
+            "description": "Substring search is the problem of finding a substring in a string. This is a very common problem in computer science, and there are many algorithms for solving it.",
+            "resources": [
+              {
+                "name": "Introduction to Substring Search",
+                "link": "https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG"
+              },
+              {
+                "name": "What is the fastest substring search algorithm?",
+                "link": "https://stackoverflow.com/questions/3183582/what-is-the-fastest-substring-search-algorithm"
+              },
+              {
+                "name": "Check if a string is a substring of another",
+                "link": "https://www.geeksforgeeks.org/check-string-substring-another/"
+              },
+              {
+                "name": "Anagram Substring Search (Or Search for all permutations)",
+                "link": "https://www.geeksforgeeks.org/anagram-substring-search-search-permutations/"
+              },
+              {
+                "name": "Substring Search - Exercises",
+                "link": "https://algs4.cs.princeton.edu/53substring/"
+              }
+            ],
+            "options": [
+              {
+                "name": "Brute Force Search",
+                "recommendation-type": "opinion",
+                "description": "Brute force search is a simple algorithm that checks for a pattern in a string by comparing each character of the string with the first character of the pattern. If the first character matches, it then compares the next character of the string with the next character of the pattern and so on. If all the characters of the pattern match, then the pattern is found. If the first character does not match, then the algorithm compares the second character of the string with the first character of the pattern and so on.",
+                "resources": [
+                  {
+                    "name": "A beginner guide to Brute Force Algorithm for substring search",
+                    "link": "https://nulpointerexception.com/2019/02/10/a-beginner-guide-to-brute-force-algorithm-for-substring-search/"
+                  },
+                  {
+                    "name": "Brute Force Algorithm in Cybersecurity and String Search",
+                    "link": "https://www.baeldung.com/cs/brute-force-cybersecurity-string-search"
+                  },
+                  {
+                    "name": "Brute-Force Substring Search",
+                    "link": "https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search"
+                  }
+                ]
+              },
+              {
+                "name": "Knuth Morris Pratt",
+                "recommendation-type": "opinion",
+                "description": "Knuth morris pratt is a string searching algorithm that uses a precomputed array to find the substring in a string. This array is known as the prefix function. The prefix function is the longest prefix that is also a suffix of a substring. The prefix function is used to skip the characters that are already matched. The algorithm is as follows:Compute the prefix function of the substring.Traverse through the string and substring simultaneously.If the characters match, increment the index of both the string and substring.If the characters don’t match, increment the index of the string by the value of the prefix function at the index of the substring.",
+                "resources": [
+                  {
+                    "name": "KMP Algorithm for Pattern Searching",
+                    "link": "https://roadmap.sh/computer-science#:~:text=KMP%20Algorithm%20for%20Pattern%20Searching"
+                  },
+                  {
+                    "name": "The Knuth-Morris-Pratt (KMP)Algorithm",
+                    "link": "https://roadmap.sh/computer-science#:~:text=The%20Knuth%2DMorris%2DPratt%20(KMP)Algorithm"
+                  },
+                  {
+                    "name": "9.1 Knuth-Morris-Pratt KMP String Matching Algorithm",
+                    "link": "https://www.youtube.com/watch?v=V5-7GzOfADQ"
+                  },
+                  {
+                    "name": "Knuth-Morris Pratt",
+                    "link": "https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt"
+                  }
+                ]
+              },
+              {
+                "name": "Boyer Moore Algorithm",
+                "recommendation-type": "opinion",
+                "description": "Boyer Moore algorithm is a string searching algorithm that is used to find the index of a substring in a string. It is a very efficient algorithm that is used in many applications. It is used in text editors, compilers, and many other applications.",
+                "resources": [
+                  {
+                    "name": "Boyer Moore Algorithm for Pattern Searching",
+                    "link": "https://www.geeksforgeeks.org/boyer-moore-algorithm-for-pattern-searching/"
+                  },
+                  {
+                    "name": "The Boyer-Moore Algorithm",
+                    "link": "https://www.javatpoint.com/daa-boyer-moore-algorithm"
+                  },
+                  {
+                    "name": "Boyer Moore Algorithm",
+                    "link": "https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore"
+                  }
+                ]
+              },
+              {
+                "name": "Rabin-Karp’s Algorithm",
+                "recommendation-type": "opinion",
+                "description": "Rabin-Karp algorithm is a string searching algorithm that uses hashing to find any one of a set of pattern strings in a text. For strings of average length n, it performs in O(n+m) time with O(m) space, where m is the length of the pattern. It is often used in bioinformatics to search for DNA patterns.",
+                "resources": [
+                  {
+                    "name": "Rabin Karps Algorithm",
+                    "link": "https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw"
+                  },
+                  {
+                    "name": "Optimization: Precomputation",
+                    "link": "https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation"
+                  },
+                  {
+                    "name": "Optimization: Implementation and Analysis",
+                    "link": "https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis"
+                  },
+                  {
+                    "name": "Lecture 9: Table Doubling, Karp-Rabin",
+                    "link": "https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9"
+                  },
+                  {
+                    "name": "Rolling Hashes, Amortized Analysis",
+                    "link": "https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=33"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "Bitwise Operators": {
+        "description": "Bitwise operators are used to perform operations on individual bits of a number. They are used in cryptography, image processing, and other applications.",
+        "resources": [
+          {
+            "name": "Bit Manipulation",
+            "link": "https://www.youtube.com/watch?v=7jkIUgLC29I"
+          },
+          {
+            "name": "Binary: Plusses & Minuses (Why We Use Twos Complement) - Computerphile",
+            "link": "https://www.youtube.com/watch?v=lKTsv6iVxV4"
+          },
+          {
+            "name": "Algorithms: Bit Manipulation",
+            "link": "https://www.youtube.com/watch?v=NLKQEOgBAnw"
+          }
+        ],
+        "order": 6,
+        "options": []
+      },
+      "Floating Point Numbers": {
+        "description": "Floating point numbers are numbers that have a decimal point in them. They are used to represent real numbers. For example, 3.14 is a floating point number. 3 is not a floating point number because it does not have a decimal point in it.",
+        "resources": [
+          {
+            "name": "Representation of Floating Point Numbers - 1",
+            "link": "https://www.youtube.com/watch?v=ji3SfClm8TU"
+          },
+          {
+            "name": "Why 0.1 + 0.2 != 0.3? | Floating Point Math",
+            "link": "https://www.youtube.com/watch?v=RIiq4tTt6rI"
+          }
+        ],
+        "order": 7,
+        "options": []
+      },
+      "Endianess": {
+        "name": "Endianess",
+        "recommendation-type": "opinion",
+        "description": "Endianess is the order in which bytes are stored in memory. The two most common types of endianess are big endian and little endian. Big endian stores the most significant byte first, while little endian stores the least significant byte first.",
+        "resources": [
+          {
+            "name": "What is Endianness? Big-Endian vs Little-Endian Explained with Examples",
+            "link": "https://www.freecodecamp.org/news/what-is-endianness-big-endian-vs-little-endian/"
+          },
+          {
+            "name": "Big Endian vs Little Endian.mp4",
+            "link": "https://www.youtube.com/watch?v=JrNF0KRAlyo"
+          },
+          {
+            "name": "Endianness Explained With an Egg - Computerphile",
+            "link": "https://www.youtube.com/watch?v=NcaiHcBvDR4"
+          }
+        ],
+        "order": 8,
+        "options": [
+          {
+            "name": "Big Endian",
+            "recommendation-type": "opinion",
+            "description": "Big endian is the most common type of endianness. In this type, the most significant byte is stored at the lowest memory address. This means that the most significant byte is stored first and the least significant byte is stored last.",
+            "resources": [
+              {
+                "name": "Little and Big Endian Mystery",
+                "link": "https://www.geeksforgeeks.org/little-and-big-endian-mystery/"
+              },
+              {
+                "name": "Lecture 22. Big Endian and Little Endian",
+                "link": "https://www.youtube.com/watch?v=T1C9Kj_78ek"
+              }
+            ]
+          },
+          {
+            "name": "Little Endian",
+            "recommendation-type": "opinion",
+            "description": "Little Endian is a way of storing data in memory. It is the opposite of Big Endian. In Little Endian, the least significant byte is stored first. In Big Endian, the most significant byte is stored first.",
+            "resources": [
+              {
+                "name": "What is Endianness? Big-Endian vs Little-Endian Explained with Examples",
+                "link": "https://www.freecodecamp.org/news/what-is-endianness-big-endian-vs-little-endian/"
+              },
+              {
+                "name": "Big Endian vs Little Endian.mp4",
+                "link": "https://www.youtube.com/watch?v=JrNF0KRAlyo"
+              },
+              {
+                "name": "Endianness Explained With an Egg - Computerphile",
+                "link": "https://www.youtube.com/watch?v=NcaiHcBvDR4"
+              }
+            ]
+          }
+        ]
+      },
+      "Character Encodings": {
+        "description": "Character encodings are a way of representing characters as numbers. They are used to store and transmit text. The most common character encoding is ASCII, which is a 7-bit encoding.",
+        "resources": [
+          {
+            "name": "Must Know about Character Encodings",
+            "link": "https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/"
+          },
+          {
+            "name": "Character Encoding",
+            "link": "https://cs.lmu.edu/~ray/notes/charenc/"
+          }
+        ],
+        "order": 9,
+        "options": [
+          {
+            "name": "ASCII",
+            "recommendation-type": "opinion",
+            "description": "ASCII is a character encoding standard for electronic communication. It uses 7 bits to represent 128 different characters. The first 32 characters are non-printable control characters, and the remaining 96 characters are printable and include the letters of the English alphabet, numbers, punctuation, and various symbols.",
+            "resources": [
+              {
+                "name": "Must Know about Character Encodings",
+                "link": "https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/"
+              },
+              {
+                "name": "Character Encoding",
+                "link": "https://cs.lmu.edu/~ray/notes/charenc/"
+              }
+            ]
+          },
+          {
+            "name": "Unicode",
+            "recommendation-type": "opinion",
+            "description": "Unicode is a standard for encoding characters, a superset of ASCII. It is a 16-bit encoding, capable of encoding 2^16 = 65536 characters, which is much more than ASCII.",
+            "resources": [
+              {
+                "name": "How Unicode Works: What Every Developer Needs to Know About Strings and 🦄",
+                "link": "https://deliciousbrains.com/how-unicode-works/"
+              },
+              {
+                "name": "Characters, Symbols and the Unicode Miracle - Computerphile",
+                "link": "https://www.youtube.com/watch?v=MijmeoH9LT4"
+              }
+            ]
+          }
+        ]
+      },
+      "Common UML Diagrams": {
+        "description": "UML is a standard way of visualizing a software system. It is a general-purpose, developmental, modeling language in the field of software engineering intended to provide a standard way to visualize the design of a system.",
+        "resources": [
+          {
+            "name": "UML Diagrams Full Course (Unified Modeling Language)",
+            "link": "https://www.youtube.com/watch?v=WnMQ8HlmeXc"
+          }
+        ],
+        "order": 10,
+        "options": [
+          {
+            "name": "Class Diagrams",
+            "recommendation-type": "opinion",
+            "description": "Class Diagrams are used to model the static structure of a system, showing classes, their attributes, operations (or methods), and the relationships between objects.",
+            "resources": [
+              {
+                "name": "UML Class Diagram Tutorial",
+                "link": "https://www.youtube.com/watch?v=UI6lqHOVHic"
+              },
+              {
+                "name": "UML Class Diagram Tutorial",
+                "link": "https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLfoY2ARMh0hC2FcJKP5voAKCpk6PZXSd5&index=2"
+              }
+            ]
+          },
+          {
+            "name": "Usecase Diagrams",
+            "recommendation-type": "opinion",
+            "description": "Usecase diagrams model the interactions between actors and usecases of the system. Actors interact with the system, and usecases represent tasks that the system performs.",
+            "resources": [
+              {
+                "name": "UML Use Case Diagram Tutorial",
+                "link": "https://www.lucidchart.com/pages/uml-use-case-diagram"
+              },
+              {
+                "name": "What is Use Case Diagram?",
+                "link": "https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/"
+              },
+              {
+                "name": "UML Use Case Diagram Tutorial",
+                "link": "https://www.youtube.com/watch?v=zid-MVo7M-E"
+              }
+            ]
+          },
+          {
+            "name": "Activity Diagrams",
+            "recommendation-type": "opinion",
+            "description": "Activity diagrams model the flow of control in a system, used in conjunction with use case diagrams to represent the behavior of the system for each use case and the behavior of a single class.",
+            "resources": [
+              {
+                "name": "UML Activity Diagram Tutorial",
+                "link": "https://www.lucidchart.com/pages/uml-activity-diagram"
+              },
+              {
+                "name": "What is Activity Diagram?",
+                "link": "https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-activity-diagram/"
+              }
+            ]
+          },
+          {
+            "name": "State Machine Diagrams",
+            "recommendation-type": "opinion",
+            "description": "State machine diagrams show the different states an object can be in at a given time. They focus on the flow of an object's state rather than the flow of the object itself.",
+            "resources": [
+              {
+                "name": "What is State Machine Diagram?",
+                "link": "https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-state-machine-diagram/"
+              },
+              {
+                "name": "State Machine Diagram Tutorial",
+                "link": "https://www.lucidchart.com/pages/uml-state-machine-diagram"
+              }
+            ]
+          },
+          {
+            "name": "Sequence Diagrams",
+            "recommendation-type": "opinion",
+            "description": "Sequence diagrams show how objects or systems interact with each other over time.",
+            "resources": [
+              {
+                "name": "How to Make a UML Sequence Diagram",
+                "link": "https://www.youtube.com/watch?v=pCK6prSq8aw"
+              },
+              {
+                "name": "Sequence Diagrams Tutorial",
+                "link": "https://www.youtube.com/watch?v=cxG-qWthxt4&list=PLfoY2ARMh0hBthB9VqsQzogSouTjzkMHe&index=2"
+              }
+            ]
+          }
+        ]
+      },
+      "Design Patterns": {
+        "description": "Design patterns are solutions to common problems in software design. They are formalized best practices that the programmer can use to solve common problems when designing an application or system.",
+        "resources": [
+          {
+            "name": "Design Patterns - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Software_design_pattern"
+          },
+          {
+            "name": "Design Patterns for Humans",
+            "link": "https://github.com/kamranahmedse/design-patterns-for-humans"
+          }
+        ],
+        "order": 11,
+        "options": [
+          {
+            "name": "GoF Design Patterns",
+            "recommendation-type": "opinion",
+            "description": "Gang of Four (GoF) design patterns are a set of 23 design patterns first described in the book “Design Patterns: Elements of Reusable Object-Oriented Software” by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.",
+            "resources": [
+              {
+                "name": "Design Patterns for Humans",
+                "link": "https://github.com/kamranahmedse/design-patterns-for-humans"
+              }
+            ]
+          },
+          {
+            "name": "Architectural Patterns",
+            "recommendation-type": "opinion",
+            "description": "Architectural patterns are a high-level design pattern that focuses on the overall structure of the system. They are similar to design patterns but more concerned with the structure of the system.",
+            "resources": [
+              {
+                "name": "10 Common Software Architectural Patterns in a nutshell",
+                "link": "https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013"
+              },
+              {
+                "name": "Architectural Pattern - Wikipedia",
+                "link": "https://en.wikipedia.org/wiki/Architectural_pattern"
+              }
+            ]
+          },
+          {
+            "name": "Dependency Injection",
+            "recommendation-type": "opinion",
+            "description": "Dependency injection is a software design pattern that allows us to decouple the dependencies of a class from the class itself, enabling more flexible and testable code.",
+            "resources": [
+              {
+                "name": "Dependency Injection - StackOverflow",
+                "link": "https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013"
+              },
+              {
+                "name": "What is Dependency Injection?",
+                "link": "https://en.wikipedia.org/wiki/Architectural_pattern"
+              }
+            ]
+          },
+          {
+            "name": "Null Object Pattern",
+            "recommendation-type": "opinion",
+            "description": "Null object pattern is a design pattern used to represent a null value with an object, avoiding null reference exceptions by providing a default object that does nothing.",
+            "resources": [
+              {
+                "name": "Design Patterns - Null Object Pattern",
+                "link": "https://www.tutorialspoint.com/design_pattern/null_object_pattern.htm"
+              },
+              {
+                "name": "Null Object Design Pattern - Geeks for Geeks",
+                "link": "https://www.geeksforgeeks.org/null-object-design-pattern/"
+              }
+            ]
+          },
+          {
+            "name": "Type Object Pattern",
+            "recommendation-type": "opinion",
+            "description": "Type object pattern is a creational design pattern that allows us to create a new object of a type without exposing the object creation logic to the client. It is used when we need to create a new object of a type, but we don’t know which type until runtime.",
+            "resources": [
+              {
+                "name": "Type Object Pattern",
+                "link": "https://gameprogrammingpatterns.com/type-object.html"
+              }
+            ]
+          }
+        ]
+      },
+      "Basic Math Skills": {
+        "description": "Math is a fundamental skill for computer science.",
+        "resources": [
+          {
+            "name": "Lec 1 | MIT 6.042J Mathematics for Computer Science, Fall 2010",
+            "link": "https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B"
+          },
+          {
+            "name": "Integer Arithmetic, Karatsuba Multiplication",
+            "link": "https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb"
+          },
+          {
+            "name": "The Chinese Remainder Theorem (used in cryptography)",
+            "link": "https://www.youtube.com/watch?v=ru7mWZJlRQg"
+          },
+          {
+            "name": "Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory",
+            "link": "http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html"
+          },
+          {
+            "name": "Discrete Mathematics by Shai Simonson (19 videos)",
+            "link": "https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t"
+          },
+          {
+            "name": "Discrete Mathematics By IIT Ropar NPTEL",
+            "link": "https://nptel.ac.in/courses/106/106/106106183/"
+          },
+          {
+            "name": "MIT 6.042J - Probability Introduction",
+            "link": "https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B"
+          },
+          {
+            "name": "MIT 6.042J - Conditional Probability",
+            "link": "https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B"
+          },
+          {
+            "name": "MIT 6.042J - Independence",
+            "link": "https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B"
+          },
+          {
+            "name": "MIT 6.042J - Random Variables",
+            "link": "https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21"
+          },
+          {
+            "name": "MIT 6.042J - Expectation I",
+            "link": "https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B"
+          },
+          {
+            "name": "MIT 6.042J - Expectation II",
+            "link": "https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B"
+          },
+          {
+            "name": "MIT 6.042J - Large Deviations",
+            "link": "https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B"
+          },
+          {
+            "name": "MIT 6.042J - Random Walks",
+            "link": "https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25"
+          }
+        ],
+        "order": 12,
+        "options": [
+          {
+            "name": "Probability",
+            "recommendation-type": "opinion",
+            "description": "Probability is the study of how likely an event is to occur. It is a measure of how certain we are that an event will happen.",
+            "resources": [
+              {
+                "name": "MIT 6.042J - Probability Introduction",
+                "link": "https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B"
+              },
+              {
+                "name": "MIT 6.042J - Conditional Probability",
+                "link": "https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B"
+              },
+              {
+                "name": "MIT 6.042J - Independence",
+                "link": "https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B"
+              },
+              {
+                "name": "MIT 6.042J - Random Variables",
+                "link": "https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B"
+              },
+              {
+                "name": "MIT 6.042J - Expectation I",
+                "link": "https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B"
+              },
+              {
+                "name": "MIT 6.042J - Expectation II",
+                "link": "https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B"
+              },
+              {
+                "name": "MIT 6.042J - Large Deviations",
+                "link": "https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B"
+              },
+              {
+                "name": "MIT 6.042J - Random Walks",
+                "link": "https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25"
+              }
+            ]
+          },
+          {
+            "name": "Combinatorics",
+            "recommendation-type": "opinion",
+            "description": "Combinatorics is the study of counting. It is used to solve problems related to counting the number of possible outcomes of a given problem.",
+            "resources": [
+              {
+                "name": "Math Skills: How to find Factorial, Permutation and Combination",
+                "link": "https://www.youtube.com/watch?v=8RRo6Ti9d0U"
+              },
+              {
+                "name": "Make School: Probability",
+                "link": "https://www.youtube.com/watch?v=sZkAAk9Wwa4"
+              },
+              {
+                "name": "Make School: More Probability and Markov Chains",
+                "link": "https://www.youtube.com/watch?v=dNaJg-mLobQ"
+              },
+              {
+                "name": "Probability and Combinatorics Topic",
+                "link": "https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic"
+              }
+            ]
+          }
+        ]
+      },
+      "Complexity Classes": {
+        "description": "In computer science, there exist some problems whose solutions are not yet found, the problems are divided into classes known as Complexity Classes. In complexity theory, a Complexity Class is a set of problems with related complexity.",
+        "resources": [
+          {
+            "name": "Types of Complexity Classes | P, NP, CoNP, NP hard and NP complete",
+            "link": ""
+          },
+          {
+            "name": "Trying to understand P vs NP vs NP Complete vs NP Hard",
+            "link": ""
+          },
+          {
+            "name": "Complexity: P, NP, NP-completeness, Reductions",
+            "link": ""
+          },
+          {
+            "name": "Complexity: Approximation Algorithms",
+            "link": ""
+          },
+          {
+            "name": "Complexity: Fixed-Parameter Algorithms",
+            "link": ""
+          },
+          {
+            "name": "Lecture 23: Computational Complexity",
+            "link": ""
+          },
+          {
+            "name": "Greedy Algs. II & Intro to NP Completeness",
+            "link": ""
+          },
+          {
+            "name": "NP Completeness II & Reductions",
+            "link": ""
+          },
+          {
+            "name": "NP Completeness III",
+            "link": ""
+          },
+          {
+            "name": "NP Completeness IV",
+            "link": ""
+          },
+          {
+            "name": "CSE373 2020 - Lecture 23 - NP-Completeness",
+            "link": ""
+          },
+          {
+            "name": "CSE373 2020 - Lecture 24 - Satisfiability",
+            "link": ""
+          },
+          {
+            "name": "CSE373 2020 - Lecture 25 - More NP-Completeness",
+            "link": ""
+          },
+          {
+            "name": "CSE373 2020 - Lecture 26 - NP-Completeness Challenge",
+            "link": ""
+          }
+        ],
+        "order": 13,
+        "options": [
+          {
+            "name": "P",
+            "recommendation-type": "opinion",
+            "description": "The P in the P class stands for Polynomial Time. It is the collection of decision problems (problems with a “yes” or “no” answer) that can be solved by a deterministic machine in polynomial time.",
+            "resources": [
+              {
+                "name": "Types of Complexity Classes | P, NP, CoNP, NP hard and NP complete",
+                "link": ""
+              },
+              {
+                "name": "Trying to understand P vs NP vs NP Complete vs NP Hard",
+                "link": ""
+              },
+              {
+                "name": "Complexity: P, NP, NP-completeness, Reductions",
+                "link": ""
+              },
+              {
+                "name": "Complexity: Approximation Algorithms",
+                "link": ""
+              },
+              {
+                "name": "Complexity: Fixed-Parameter Algorithms",
+                "link": ""
+              },
+              {
+                "name": "Lecture 23: Computational Complexity",
+                "link": ""
+              },
+              {
+                "name": "Greedy Algs. II & Intro to NP Completeness",
+                "link": ""
+              },
+              {
+                "name": "NP Completeness II & Reductions",
+                "link": ""
+              },
+              {
+                "name": "NP Completeness III",
+                "link": ""
+              },
+              {
+                "name": "NP Completeness IV",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 23 - NP-Completeness",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 24 - Satisfiability",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 25 - More NP-Completeness",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 26 - NP-Completeness Challenge",
+                "link": ""
+              }
+            ]
+          },
+          {
+            "name": "NP",
+            "recommendation-type": "opinion",
+            "description": "The NP in NP class stands for Non-deterministic Polynomial Time. It is the collection of decision problems that can be solved by a non-deterministic machine in polynomial time.",
+            "resources": [
+              {
+                "name": "Types of Complexity Classes | P, NP, CoNP, NP hard and NP complete",
+                "link": ""
+              },
+              {
+                "name": "Trying to understand P vs NP vs NP Complete vs NP Hard",
+                "link": ""
+              },
+              {
+                "name": "Complexity: P, NP, NP-completeness, Reductions",
+                "link": ""
+              },
+              {
+                "name": "Complexity: Approximation Algorithms",
+                "link": ""
+              },
+              {
+                "name": "Complexity: Fixed-Parameter Algorithms",
+                "link": ""
+              },
+              {
+                "name": "Lecture 23: Computational Complexity",
+                "link": ""
+              },
+              {
+                "name": "Greedy Algs. II & Intro to NP Completeness",
+                "link": ""
+              },
+              {
+                "name": "NP Completeness II & Reductions",
+                "link": ""
+              },
+              {
+                "name": "NP Completeness III",
+                "link": ""
+              },
+              {
+                "name": "NP Completeness IV",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 23 - NP-Completeness",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 24 - Satisfiability",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 25 - More NP-Completeness",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 26 - NP-Completeness Challenge",
+                "link": ""
+              }
+            ]
+          },
+          {
+            "name": "Co-NP",
+            "recommendation-type": "opinion",
+            "description": "Co-NP stands for the complement of NP Class. It means if the answer to a problem in Co-NP is No, then there is proof that can be checked in polynomial time.",
+            "resources": [
+              {
+                "name": "Types of Complexity Classes | P, NP, CoNP, NP hard and NP complete",
+                "link": ""
+              },
+              {
+                "name": "Trying to understand P vs NP vs NP Complete vs NP Hard",
+                "link": ""
+              },
+              {
+                "name": "Complexity: P, NP, NP-completeness, Reductions",
+                "link": ""
+              },
+              {
+                "name": "Complexity: Approximation Algorithms",
+                "link": ""
+              },
+              {
+                "name": "Complexity: Fixed-Parameter Algorithms",
+                "link": ""
+              },
+              {
+                "name": "Lecture 23: Computational Complexity",
+                "link": ""
+              },
+              {
+                "name": "Greedy Algs. II & Intro to NP Completeness",
+                "link": ""
+              },
+              {
+                "name": "NP Completeness II & Reductions",
+                "link": ""
+              },
+              {
+                "name": "NP Completeness III",
+                "link": ""
+              },
+              {
+                "name": "NP Completeness IV",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 23 - NP-Completeness",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 24 - Satisfiability",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 25 - More NP-Completeness",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 26 - NP-Completeness Challenge",
+                "link": ""
+              }
+            ]
+          },
+          {
+            "name": "NP-Hard",
+            "recommendation-type": "opinion",
+            "description": "An NP-hard problem is at least as hard as the hardest problem in NP, and every problem in NP reduces to NP-hard.",
+            "resources": [
+              {
+                "name": "Types of Complexity Classes | P, NP, CoNP, NP hard and NP complete",
+                "link": ""
+              },
+              {
+                "name": "Trying to understand P vs NP vs NP Complete vs NP Hard",
+                "link": ""
+              },
+              {
+                "name": "Complexity: P, NP, NP-completeness, Reductions",
+                "link": ""
+              },
+              {
+                "name": "Complexity: Approximation Algorithms",
+                "link": ""
+              },
+              {
+                "name": "Complexity: Fixed-Parameter Algorithms",
+                "link": ""
+              },
+              {
+                "name": "Lecture 23: Computational Complexity",
+                "link": ""
+              },
+              {
+                "name": "Greedy Algs. II & Intro to NP Completeness",
+                "link": ""
+              },
+              {
+                "name": "NP Completeness II & Reductions",
+                "link": ""
+              },
+              {
+                "name": "NP Completeness III",
+                "link": ""
+              },
+              {
+                "name": "NP Completeness IV",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 23 - NP-Completeness",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 24 - Satisfiability",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 25 - More NP-Completeness",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 26 - NP-Completeness Challenge",
+                "link": ""
+              }
+            ]
+          },
+          {
+            "name": "NP Complete",
+            "recommendation-type": "opinion",
+            "description": "A problem is NP-complete if it is both NP and NP-hard. NP-complete problems are the hard problems in NP.",
+            "resources": [
+              {
+                "name": "Types of Complexity Classes | P, NP, CoNP, NP hard and NP complete",
+                "link": ""
+              },
+              {
+                "name": "Trying to understand P vs NP vs NP Complete vs NP Hard",
+                "link": ""
+              },
+              {
+                "name": "Complexity: P, NP, NP-completeness, Reductions",
+                "link": ""
+              },
+              {
+                "name": "P vs. NP and the Computational Complexity Zoo",
+                "link": ""
+              },
+              {
+                "name": "Complexity: Approximation Algorithms",
+                "link": ""
+              },
+              {
+                "name": "Complexity: Fixed-Parameter Algorithms",
+                "link": ""
+              },
+              {
+                "name": "Lecture 23: Computational Complexity",
+                "link": ""
+              },
+              {
+                "name": "Greedy Algs. II & Intro to NP Completeness",
+                "link": ""
+              },
+              {
+                "name": "NP Completeness II & Reductions",
+                "link": ""
+              },
+              {
+                "name": "NP Completeness III",
+                "link": ""
+              },
+              {
+                "name": "NP Completeness IV",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 23 - NP-Completeness",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 24 - Satisfiability",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 25 - More NP-Completeness",
+                "link": ""
+              },
+              {
+                "name": "CSE373 2020 - Lecture 26 - NP-Completeness Challenge",
+                "link": ""
+              }
+            ]
+          },
+          {
+            "name": "P = NP",
+            "recommendation-type": "opinion",
+            "description": "The P = NP problem is one of the most famous problems in computer science. It asks if the problem of determining if a given input belongs to a certain class of problems is as hard as the problem of solving the given input.",
+            "resources": [
+              {
+                "name": "Whats P=NP?, and why is it such a famous question?",
+                "link": ""
+              }
+            ]
+          },
+          {
+            "name": "Travelling Salesman Problem",
+            "recommendation-type": "opinion",
+            "description": "The Travelling Salesman Problem (TSP) is a classic problem in computer science. It is a problem that is NP-complete, which means that it is a problem that is hard to solve. It is also a problem that is used to test the efficiency of algorithms.",
+            "resources": [
+              {
+                "name": "Travelling Salesman Problem | Set 1 (Naive and Dynamic Programming)",
+                "link": ""
+              },
+              {
+                "name": "What is the Traveling Salesman Problem?",
+                "link": ""
+              },
+              {
+                "name": "4.7 Traveling Salesperson Problem - Dynamic Programming",
+                "link": ""
+              },
+              {
+                "name": "Traveling Salesman Problem | Dynamic Programming | Graph Theory",
+                "link": ""
+              }
+            ]
+          },
+          {
+            "name": "Knapsack Problem",
+            "recommendation-type": "opinion",
+            "description": "KnapSack Problem is a classic problem in computer science. It is a problem in which we are given a set of items, each with a weight and a value, and we need to determine which items to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible.",
+            "resources": [
+              {
+                "name": "0-1 Knapsack Problem | DP-10",
+                "link": ""
+              },
+              {
+                "name": "How to solve the Knapsack Problem with dynamic programming",
+                "link": ""
+              },
+              {
+                "name": "3.1 Knapsack Problem - Greedy Method",
+                "link": ""
+              }
+            ]
+          },
+          {
+            "name": "Longest Path Problem",
+            "recommendation-type": "opinion",
+            "description": "Longest path problem is a problem that asks us to find the longest path in a graph.",
+            "resources": [
+              {
+                "name": "Longest Path in a Directed Acyclic Graph",
+                "link": ""
+              },
+              {
+                "name": "Shortest/Longest path on a Directed Acyclic Graph (DAG) | Graph Theory",
+                "link": ""
+              },
+              {
+                "name": "Longest Simple Path - Intro to Algorithms",
+                "link": ""
+              }
+            ]
+          }
+        ]
+      },
+      "Tries": {
+        "description": "Tries are a data structure that can be used to store strings. The idea is to store the characters of the string in a tree-like structure, where each node of the tree represents a single character. We can use this structure to store strings in a way that allows us to quickly search for strings with a common prefix.",
+        "resources": [
+          {
+            "name": "Tries - DataStructure Notes",
+            "link": "http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries"
+          },
+          {
+            "name": "The Trie: A Neglected Data Structure",
+            "link": "https://www.toptal.com/java/the-trie-a-neglected-data-structure"
+          },
+          {
+            "name": "TopCoder - Using Tries",
+            "link": "https://www.youtube.com/watch?v=TJ8SkcUSdbU"
+          },
+          {
+            "name": "Stanford Lecture (real world use case)",
+            "link": "https://www.youtube.com/watch?v=TJ8SkcUSdbU"
+          },
+          {
+            "name": "MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through)",
+            "link": "https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf"
+          },
+          {
+            "name": "0. Tries - Coursera",
+            "link": "https://www.coursera.org/learn/algorithms-part2/home/week/4"
+          },
+          {
+            "name": "1. R Way Tries",
+            "link": "https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries"
+          },
+          {
+            "name": "2. Ternary Search Tries",
+            "link": "https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries"
+          },
+          {
+            "name": "3. Character Based Operations",
+            "link": "https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations"
+          }
+        ],
+        "order": 14,
+        "options": []
+      },
+      "Balanced Search Trees": {
+        "description": "Balanced search trees are a type of data structure that allow for fast insertion, deletion, and lookup of data. They are a type of self-balancing binary search tree, which means that they are a binary tree that maintains the binary search tree property while also keeping the tree balanced.",
+        "resources": [
+          {
+            "name": "Self-balancing binary search tree - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree"
+          },
+          {
+            "name": "Balanced Search Trees Operations and Applications 11 min",
+            "link": "https://www.youtube.com/watch?v=IbNZ-x1I2IM"
+          },
+          {
+            "name": "Balanced binary search tree rotations",
+            "link": "https://www.youtube.com/watch?v=q4fnJZr8ztY"
+          }
+        ],
+        "order": 15,
+        "options": [
+          {
+            "name": "AVL Trees",
+            "recommendation-type": "opinion",
+            "description": "AVL trees are a type of self-balancing binary search tree. They are named after their inventors, Adelson-Velskii and Landis. AVL trees are the most popular self-balancing binary search tree.",
+            "resources": [
+              {
+                "name": "MIT AVL Trees / AVL Sort",
+                "link": "https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6"
+              },
+              {
+                "name": "AVL Trees",
+                "link": "https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees"
+              },
+              {
+                "name": "AVL Tree Implementation",
+                "link": "https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation"
+              },
+              {
+                "name": "Split And Merge",
+                "link": "https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge"
+              }
+            ]
+          },
+          {
+            "name": "Red/Black Trees",
+            "recommendation-type": "opinion",
+            "description": "In computer science, a red–black tree is a kind of self-balancing binary search tree. Each node stores an extra bit representing “color”, used to ensure that the tree remains balanced during insertions and deletions.These are a translation of a 2-3 tree (see below).In practice: Red–black trees offer worst-case guarantees for insertion time, deletion time, and search time. Not only does this make them valuable in time-sensitive applications such as real-time applications, but it makes them valuable building blocks in other data structures which provide worst-case guarantees; for example, many data structures used in computational geometry can be based on red–black trees, and the Completely Fair Scheduler used in current Linux kernels uses red–black trees. In the version 8 of Java, the Collection HashMap has been modified such that instead of using a LinkedList to store identical elements with poor hashcodes, a Red-Black tree is used.",
+            "resources": [
+              {
+                "name": "Red-Black Tree - Wikipedia",
+                "link": "https://en.wikipedia.org/wiki/Red%E2%80%93black_tree"
+              },
+              {
+                "name": "An Introduction To Binary Search And Red Black Tree",
+                "link": "https://www.topcoder.com/thrive/articles/An%20Introduction%20to%20Binary%20Search%20and%20Red-Black%20Trees"
+              },
+              {
+                "name": "Red-Black Trees (playlist) in 30 minutes",
+                "link": "https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin"
+              },
+              {
+                "name": "Aduni - Algorithms - Lecture 4 (link jumps to starting point)",
+                "link": "https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871"
+              },
+              {
+                "name": "Aduni - Algorithms - Lecture 5",
+                "link": "https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5"
+              }
+            ]
+          },
+          {
+            "name": "2-3 Search Trees",
+            "recommendation-type": "opinion",
+            "description": "2-3 trees have faster inserts at the expense of slower searches (since height is more compared to AVL trees). You would use 2-3 trees very rarely because its implementation involves different types of nodes. Instead, people use Red Black trees.",
+            "resources": [
+              {
+                "name": "2-3 Tree Intuition and Definition",
+                "link": "https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2"
+              },
+              {
+                "name": "Binary View of 2-3 Tree",
+                "link": "https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6"
+              },
+              {
+                "name": "2-3 Trees (student recitation)",
+                "link": "https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp"
+              }
+            ]
+          },
+          {
+            "name": "2-3-4 Search Trees",
+            "recommendation-type": "opinion",
+            "description": "For every 2-4 tree, there are corresponding red–black trees with data elements in the same order. The insertion and deletion operations on 2-4 trees are also equivalent to color-flipping and rotations in red–black trees.This makes 2-4 trees an important tool for understanding the logic behind red–black trees, and this is why many introductory algorithm texts introduce 2-4 trees just before red–black trees, even though 2-4 trees are not often used in practice.",
+            "resources": [
+              {
+                "name": "CS 61B Lecture 26: Balanced Search Trees",
+                "link": "https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q"
+              },
+              {
+                "name": "Bottom Up 2-3-4 Trees",
+                "link": "https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6"
+              },
+              {
+                "name": "Top Down 2-3-4 Trees",
+                "link": "https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5"
+              }
+            ]
+          },
+          {
+            "name": "N-ary (K-ary, M-ary) Trees",
+            "recommendation-type": "opinion",
+            "description": "Note: the N or K is the branching factor (max branches). Binary trees are a 2-ary tree, with a branching factor = 2. 2-3 trees are 3-ary.",
+            "resources": [
+              {
+                "name": "K-Ary Tree",
+                "link": "https://en.wikipedia.org/wiki/K-ary_tree"
+              }
+            ]
+          },
+          {
+            "name": "B-Trees",
+            "recommendation-type": "opinion",
+            "description": "B-Trees are widely used in databases. Most modern file systems use B-trees (or variants). B-Trees are also used in file systems to allow quick random access to an arbitrary block in a particular file.",
+            "resources": [
+              {
+                "name": "B-Tree - Wikipedia",
+                "link": "https://en.wikipedia.org/wiki/B-tree"
+              },
+              {
+                "name": "B-Tree Datastructure",
+                "link": "http://btechsmartclass.com/data_structures/b-trees.html"
+              },
+              {
+                "name": "Introduction to B-Trees",
+                "link": "https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6"
+              },
+              {
+                "name": "B-Tree Definition and Insertion",
+                "link": "https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6"
+              },
+              {
+                "name": "B-Tree Deletion",
+                "link": "https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6"
+              },
+              {
+                "name": "MIT 6.851 - Memory Hierarchy Models",
+                "link": "https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf"
+              },
+              {
+                "name": "B-Trees (playlist) in 26 minutes",
+                "link": "https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz"
+              }
+            ]
+          }
+        ]
+      },
+      "System Design": {
+        "name": "System Design",
+        "recommendation-type": "opinion",
+        "description": "System design is the process of defining the architecture, modules, interfaces, and data for a system to satisfy specified requirements. It is a very broad topic, and there are many ways to approach it.",
+        "resources": [
+          {
+            "name": "System Design Primer",
+            "link": "https://github.com/donnemartin/system-design-primer"
+          },
+          {
+            "name": "System Design: The complete course",
+            "link": "https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo"
+          },
+          {
+            "name": "System Design 101",
+            "link": "https://www.youtube.com/watch?v=Y-Gl4HEyeUQ"
+          },
+          {
+            "name": "Scaling the Unscalable",
+            "link": "https://www.youtube.com/watch?v=a2rcgzludDU"
+          },
+          {
+            "name": "System design interview: Scale to 1 million users",
+            "link": "https://www.youtube.com/watch?v=YkGHxOg9d3M"
+          }
+        ],
+        "order": 16,
+        "options": [
+          {
+            "name": "Horizontal vs Vertical Scaling",
+            "recommendation-type": "opinion",
+            "description": "Horizontal scaling is the process of adding more machines to your system, also known as scaling out. Vertical scaling is the process of adding more power to a single machine, also known as scaling up.",
+            "resources": [
+              {
+                "name": "Scaling Horizontally vs. Scaling Vertically",
+                "link": "https://www.section.io/blog/scaling-horizontally-vs-vertically/"
+              },
+              {
+                "name": "System Design Basics: Horizontal vs. Vertical Scaling",
+                "link": "https://www.youtube.com/watch?v=xpDnVSmNFX0"
+              },
+              {
+                "name": "Vertical vs. Horizontal Scaling for Database Servers",
+                "link": "https://www.youtube.com/watch?v=R99R-SNbo9g"
+              }
+            ]
+          },
+          {
+            "name": "Load Balancing",
+            "recommendation-type": "opinion",
+            "description": "Load balancing is the process of distributing network or application traffic across a cluster of servers to improve responsiveness, reliability, maximize throughput, minimize response time, and avoid overload of any single server.",
+            "resources": [
+              {
+                "name": "Load Balancers 101",
+                "link": "https://www.youtube.com/watch?v=galcDRNd5Ow"
+              },
+              {
+                "name": "What is Load Balancing?",
+                "link": "https://www.youtube.com/watch?v=gGLophKzJs8"
+              }
+            ]
+          },
+          {
+            "name": "Clustering",
+            "recommendation-type": "opinion",
+            "description": "At a high level, a computer cluster is a group of two or more computers, or nodes, that run in parallel to achieve a common goal. This allows workloads consisting of a high number of individual, parallelizable tasks to be distributed among the nodes in the cluster.",
+            "resources": [
+              {
+                "name": "System Design: Clustering",
+                "link": "https://dev.to/karanpratapsingh/system-design-clustering-3726"
+              }
+            ]
+          },
+          {
+            "name": "Caching",
+            "recommendation-type": "opinion",
+            "description": "Caching is a way of storing data in temporary storage to make future requests faster. It is one of the most important tools in the computer science toolbox.",
+            "resources": [
+              {
+                "name": "System Design - Caching",
+                "link": "https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo#caching"
+              },
+              {
+                "name": "What is Caching | System Design Basics",
+                "link": "https://www.youtube.com/watch?v=joifNgoXXFk"
+              }
+            ]
+          },
+          {
+            "name": "Content Delivery Network (CDN)",
+            "recommendation-type": "opinion",
+            "description": "A CDN is a network of servers that are distributed geographically. The servers are used to deliver content to users, reducing latency and improving performance.",
+            "resources": [
+              {
+                "name": "Content Delivery Network (CDN) - System Design",
+                "link": "https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo#content-delivery-network-cdn"
+              },
+              {
+                "name": "Content Delivery Networks",
+                "link": "https://www.youtube.com/watch?v=6DXEPcXKQNY"
+              }
+            ]
+          },
+          {
+            "name": "Proxy",
+            "recommendation-type": "opinion",
+            "description": "A proxy server is an intermediary piece of hardware/software sitting between the client and the backend server. It receives requests from clients and relays them to the origin servers, often used for filtering, logging, or transforming requests.",
+            "resources": [
+              {
+                "name": "Proxy - System Design",
+                "link": "https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo#proxy"
+              },
+              {
+                "name": "Proxy Servers",
+                "link": "https://roadmap.sh/guides/proxy-servers"
+              }
+            ]
+          },
+          {
+            "name": "CAP Theorem",
+            "recommendation-type": "opinion",
+            "description": "The CAP theorem states that it is impossible for a distributed data store to simultaneously provide more than two out of Consistency, Availability, and Partition Tolerance.",
+            "resources": [
+              {
+                "name": "What is CAP Theorem?",
+                "link": "https://www.youtube.com/watch?v=_RbsFXWRZ10"
+              },
+              {
+                "name": "CAP Theorem - Wikipedia",
+                "link": "https://en.wikipedia.org/wiki/CAP_theorem"
+              }
+            ]
+          },
+          {
+            "name": "Queues",
+            "recommendation-type": "opinion",
+            "description": "Messaging queues are a common way to decouple systems, allowing the producer to send a message without waiting for the consumer to process it, improving system flexibility.",
+            "resources": [
+              {
+                "name": "Message Queues - System Design",
+                "link": "https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo#message-queues"
+              },
+              {
+                "name": "What is a Message Queue?",
+                "link": "https://www.youtube.com/watch?v=xErwDaOc-Gs"
+              },
+              {
+                "name": "What is a Message Queue and Where is it used?",
+                "link": "https://www.youtube.com/watch?v=oUJbuFMyBDk"
+              }
+            ]
+          },
+          {
+            "name": "Architectural Styles",
+            "recommendation-type": "opinion",
+            "description": "Architectural patterns are the fundamental organization of a system, defining how the system is composed and how its components interact. Examples include client-server, peer-to-peer, and layered architectures.",
+            "resources": [
+              {
+                "name": "List of software architecture styles and patterns",
+                "link": "https://en.wikipedia.org/wiki/List_of_software_architecture_styles_and_patterns"
+              }
+            ]
+          },
+          {
+            "name": "REST",
+            "recommendation-type": "opinion",
+            "description": "REST, or REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other.",
+            "resources": [
+              {
+                "name": "What is REST?",
+                "link": "https://www.codecademy.com/article/what-is-rest"
+              },
+              {
+                "name": "What is a REST API?",
+                "link": "https://www.redhat.com/en/topics/api/what-is-a-rest-api"
+              },
+              {
+                "name": "Roy Fieldings dissertation chapter, Representational State Transfer (REST)",
+                "link": "https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm"
+              },
+              {
+                "name": "Learn REST: A RESTful",
+                "link": "https://restapitutorial.com/"
+              }
+            ]
+          },
+          {
+            "name": "GraphQL",
+            "recommendation-type": "opinion",
+            "description": "GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. It provides a complete and understandable description of the data in your API, giving clients the power to ask for exactly what they need and nothing more, making it easier to evolve APIs over time, and enabling powerful developer tools.",
+            "resources": [
+              {
+                "name": "Apollo GraphQL Tutorials",
+                "link": "https://www.apollographql.com/tutorials/"
+              }
+            ]
+          },
+          {
+            "name": "gRPC",
+            "recommendation-type": "opinion",
+            "description": "gRPC is a platform-agnostic serialization protocol used to communicate between services. It is a modern alternative to REST APIs, employing a binary protocol over HTTP/2. gRPC is a high-performance, open-source, general-purpose RPC framework designed to prioritize mobile and HTTP/2. Its main use case is communication between different languages within the same application.ou can use Python to communicate with Go, or Java to communicate with C#.gRPC uses the protocol buffer language to define the structure of the data that is",
+            "resources": [
+              {
+                "name": "gRPC Website",
+                "link": "https://grpc.io/"
+              },
+              {
+                "name": "gRPC Introduction",
+                "link": "https://grpc.io/docs/what-is-grpc/introduction/"
+              },
+              {
+                "name": "gRPC Core Concepts",
+                "link": "https://grpc.io/docs/what-is-grpc/core-concepts/"
+              },
+              {
+                "name": "Stephane Maarek - gRPC Introduction",
+                "link": "https://youtu.be/XRXTsQwyZSU"
+              }
+            ]
+          },
+          {
+            "name": "Cloud Design Patterns",
+            "recommendation-type": "opinion",
+            "description": "These design patterns are useful for building reliable, scalable, secure applications in the cloud. The provided link includes cloud design patterns, each describing the problem it addresses, considerations for applying the pattern, and examples based on Microsoft Azure.Most patterns include code samples or snippets that show how to implement the pattern on Azure. However, most patterns are relevant to any distributed system, whether hosted on Azure or other cloud platforms.",
+            "resources": [
+              {
+                "name": "Cloud Design Patterns",
+                "link": "https://learn.microsoft.com/en-us/azure/architecture/patterns/"
+              }
+            ]
+          },
+          {
+            "name": "Long Polling",
+            "recommendation-type": "opinion",
+            "description": "Long polling is a technique used to implement server push functionality over HTTP. It involves opening a request on the server and keeping it open until an event occurs, at which point the server responds. This is in contrast to a regular HTTP request, where the server responds immediately with whatever data is available at the time.",
+            "resources": [
+              {
+                "name": "Long polling",
+                "link": "https://javascript.info/long-polling"
+              },
+              {
+                "name": "What are Long-Polling, Websockets, Server-Sent Events (SSE) and Comet?",
+                "link": "https://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet"
+              }
+            ]
+          },
+          {
+            "name": "Short Polling",
+            "recommendation-type": "opinion",
+            "description": "In short polling, the client requests information from the server. The server processes the request and responds immediately with either the required information or an empty response if no data is available. The connection is closed after returning the response. Clients keep issuing new requests even after the server sends empty responses, increasing the network cost on the server.",
+            "resources": [
+              {
+                "name": "What are Long-Polling, Websockets, Server-Sent Events (SSE) and Comet?",
+                "link": "https://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet"
+              }
+            ]
+          },
+          {
+            "name": "Web Sockets",
+            "recommendation-type": "opinion",
+            "description": "Web sockets are a bidirectional communication protocol between a client and a server. They are used for real-time applications like chat, multiplayer games, and live data updates. Web sockets establish a connection between a server and a client, allowing data to be sent in both directions.",
+            "resources": [
+              {
+                "name": "What is web socket and how it is different from the HTTP?",
+                "link": "https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/"
+              }
+            ]
+          },
+          {
+            "name": "Server Sent Events",
+            "recommendation-type": "opinion",
+            "description": "Server-Sent Events is a server push technology enabling a client to receive automatic updates from a server via an HTTP connection. It describes how servers can initiate data transmission towards clients once an initial client connection has been established.",
+            "resources": [
+              {
+                "name": "What is Server-Sent Events (SSE) and how to implement it?",
+                "link": "https://medium.com/yemeksepeti-teknoloji/what-is-server-sent-events-sse-and-how-to-implement-it-904938bffd73"
+              },
+              {
+                "name": "Using server-sent events",
+                "link": "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events"
+              }
+            ]
+          }
+        ]
+      },
+      "Databases": {
+        "description": "A database is a collection of useful data of one or more related organizations structured in a way to make data an asset to the organization. A database management system is a software designed to assist in maintaining and extracting large collections of data in a timely fashion.",
+        "resources": [
+          {
+            "name": "Oracle: What is a Database?",
+            "link": "https://www.oracle.com/database/what-is-database/"
+          },
+          {
+            "name": "Prisma.io: What are Databases?",
+            "link": "https://www.prisma.io/dataguide/intro/what-are-databases"
+          },
+          {
+            "name": "DBMS by Stanford",
+            "link": "https://www.youtube.com/watch?v=D-k-h0GuFmE&list=PL9ysvtVnryGpnIj9rcIqNDxakUn6v72Hm"
+          }
+        ],
+        "order": 17,
+        "options": [
+          {
+            "name": "SQL vs NoSQL databases",
+            "recommendation-type": "opinion",
+            "description": "SQL stands for Structured Query Language, used for relational databases. NoSQL, or Not Only SQL, is used for non-relational databases. SQL databases store structured data in tables, while NoSQL databases store unstructured data in collections.",
+            "resources": [
+              {
+                "name": "SQL vs. NoSQL: Whats the difference?",
+                "link": "https://www.youtube.com/watch?v=Q5aTUc7c4jg"
+              },
+              {
+                "name": "Database Design Tips | Choosing the Best Database in a System Design Interview",
+                "link": "https://www.youtube.com/watch?v=cODCpXtPHbQ&t=22s"
+              },
+              {
+                "name": "NoSQL vs SQL - Which Type of Database Should You Use?",
+                "link": "https://www.youtube.com/watch?v=FzlpwoeSrE0"
+              }
+            ]
+          },
+          {
+            "name": "Normalization vs Denormalization",
+            "recommendation-type": "opinion",
+            "description": "Database normalization organizes a database into tables and columns to reduce duplicate data. Denormalization adds redundant data to improve read performance at the expense of increased storage and decreased write performance.",
+            "resources": [
+              {
+                "name": "Normalization vs. Denormalization | Events and Event Streaming",
+                "link": "https://www.youtube.com/watch?v=sDU94hraq8g"
+              },
+              {
+                "name": "Normalization - 1NF, 2NF, 3NF and 4NF",
+                "link": "https://www.youtube.com/watch?v=UrYLYV7WSHM"
+              }
+            ]
+          },
+          {
+            "name": "Entity Relationship Model",
+            "recommendation-type": "opinion",
+            "description": "The entity-relationship model is a high-level data model that describes the logical structure of a database. It represents entities and their relationships, commonly used for modeling data organization in databases or information systems.",
+            "resources": [
+              {
+                "name": "Entity Relationship Diagram (ERD) Tutorial - Part 1",
+                "link": "https://www.youtube.com/watch?v=QpdhBUYk7Kk"
+              },
+              {
+                "name": "Entity Relationship Diagram (ERD) Tutorial - Part 2",
+                "link": "https://www.youtube.com/watch?v=-CuY5ADwn24"
+              }
+            ]
+          },
+          {
+            "name": "DDL (Data Definition Language)",
+            "recommendation-type": "opinion",
+            "description": "DDL consists of SQL commands used to define the database schema. It deals with descriptions of the database schema and is used to create and modify the structure of database objects, excluding data. DDL commands are not typically used by general users accessing the database via an application.",
+            "resources": [
+              {
+                "name": "SQL | DDL, DQL, DML, DCL and TCL Commands",
+                "link": "https://www.geeksforgeeks.org/sql-ddl-dql-dml-dcl-tcl-commands/"
+              }
+            ]
+          },
+          {
+            "name": "DML (Data Manipulation Language)",
+            "recommendation-type": "opinion",
+            "description": "DML includes SQL commands for manipulating data within the database. It controls access to data and the database, comprising most SQL statements. DML statements are used to query, insert, update, and delete data.",
+            "resources": [
+              {
+                "name": "SQL | DDL, DQL, DML, DCL and TCL Commands",
+                "link": "https://www.geeksforgeeks.org/sql-ddl-dql-dml-dcl-tcl-commands/"
+              }
+            ]
+          },
+          {
+            "name": "DQL (Data Query Language)",
+            "recommendation-type": "opinion",
+            "description": "DQL statements are used for performing queries on the data within schema objects. DQL allows retrieving data from the database and imposing order upon it. It includes the SELECT statement, and the result is compiled into a temporary table.",
+            "resources": [
+              {
+                "name": "SQL | DDL, DQL, DML, DCL and TCL Commands",
+                "link": "https://www.geeksforgeeks.org/sql-ddl-dql-dml-dcl-tcl-commands/"
+              }
+            ]
+          },
+          {
+            "name": "DCL (Data Control Language)",
+            "recommendation-type": "opinion",
+            "description": "DCL includes commands such as GRANT and REVOKE, dealing with rights, permissions, and other controls of the database system.",
+            "resources": [
+              {
+                "name": "SQL | DDL, DQL, DML, DCL and TCL Commands",
+                "link": "https://www.geeksforgeeks.org/sql-ddl-dql-dml-dcl-tcl-commands/"
+              }
+            ]
+          },
+          {
+            "name": "Locking",
+            "recommendation-type": "opinion",
+            "description": "Locks are used to prevent data from being modified by multiple processes simultaneously, avoiding data corruption. They ensure that only one process can modify the data at a time.",
+            "resources": [
+              {
+                "name": "Locking in Databases and Isolation Mechanisms",
+                "link": "https://medium.com/inspiredbrilliance/what-are-database-locks-1aff9117c290"
+              },
+              {
+                "name": "Understanding Database Lock Timeouts and Deadlocks",
+                "link": "https://www.dbta.com/Columns/DBA-Corner/Understanding-Database-Lock-Timeouts-and-Deadlocks-148659.aspx"
+              },
+              {
+                "name": "Row-Level Database Locks Explained - (Read vs Exclusive)",
+                "link": "https://www.youtube.com/watch?v=nuBi2XbHH18"
+              }
+            ]
+          },
+          {
+            "name": "Transactions",
+            "recommendation-type": "opinion",
+            "description": "A database transaction is a sequence of multiple operations performed on a database, treated as a single logical unit of work. Transactions are designed to ensure that either all operations are performed, or none of them take place.",
+            "resources": [
+              {
+                "name": "What are Transactions?",
+                "link": "https://fauna.com/blog/database-transaction"
+              }
+            ]
+          },
+          {
+            "name": "ACID",
+            "recommendation-type": "opinion",
+            "description": "ACID refers to four properties (Atomicity, Consistency, Isolation, Durability) that ensure the reliability of transactions in a database system. It guarantees that transactions are performed in a reliable manner.",
+            "resources": [
+              {
+                "name": "What is ACID Compliant Database?",
+                "link": "https://retool.com/blog/whats-an-acid-compliant-database/"
+              },
+              {
+                "name": "What is ACID Compliance?: Atomicity, Consistency, Isolation",
+                "link": "https://fauna.com/blog/what-is-acid-compliance-atomicity-consistency-isolation"
+              },
+              {
+                "name": "ACID Explained: Atomic, Consistent, Isolated & Durable",
+                "link": "https://www.youtube.com/watch?v=yaQ5YMWkxq4"
+              }
+            ]
+          },
+          {
+            "name": "BASE Model",
+            "recommendation-type": "opinion",
+            "description": "The BASE model, standing for Basically Available, Soft state, and Eventual consistency, is an alternative to the ACID model in database design. It reflects the properties of NoSQL databases, providing flexibility and ease of data manipulation.",
+            "resources": [
+              {
+                "name": "ACID Model vs BASE Model For Database",
+                "link": "https://www.geeksforgeeks.org/acid-model-vs-base-model-for-database/"
+              }
+            ]
+          },
+          {
+            "name": "CAP Theorem",
+            "recommendation-type": "opinion",
+            "description": "CAP (Consistency, Availability, Partition Tolerance) Theorem states that any distributed system can only guarantee two of the three properties at any time. It highlights the trade-offs in designing distributed systems.",
+            "resources": [
+              {
+                "name": "What is CAP Theorem?",
+                "link": "https://www.bmc.com/blogs/cap-theorem/"
+              },
+              {
+                "name": "CAP Theorem - Wikipedia",
+                "link": "https://en.wikipedia.org/wiki/CAP_theorem"
+              },
+              {
+                "name": "An Illustrated Proof of the CAP Theorem",
+                "link": "https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/"
+              },
+              {
+                "name": "CAP Theorem and its applications in NoSQL Databases",
+                "link": "https://www.ibm.com/uk-en/cloud/learn/cap-theorem"
+              },
+              {
+                "name": "What is CAP Theorem?",
+                "link": "https://www.youtube.com/watch?v=_RbsFXWRZ10"
+              }
+            ]
+          },
+          {
+            "name": "PACELC Theorem",
+            "recommendation-type": "opinion",
+            "description": "PACELC (Partitioned, Availability, Consistency Else Latency, Consistency) Theorem is an extension of the CAP Theorem, introducing Latency as a desired property in addition to Consistency, Availability, and Partition Tolerance.it also includes Latency as one of the desired properties of a Distributed System. The acronym PACELC stands for Partitioned, Availability, Consistency Else Latency, Consistency.",
+            "resources": [
+              {
+                "name": "PACELC Theorem - Geeks for Geeks",
+                "link": "https://www.geeksforgeeks.org/pacelc-theorem/"
+              },
+              {
+                "name": "PACELC Theorem",
+                "link": "https://www.scylladb.com/glossary/pacelc-theorem/"
+              }
+            ]
+          },
+          {
+            "name": "Database Indexes",
+            "recommendation-type": "opinion",
+            "description": "An index is a data structure built on top of an existing table to analyze and summarize the table, creating shortcuts for efficient data retrieval.",
+            "resources": [
+              {
+                "name": "An in-depth look at Database Indexing",
+                "link": "https://www.freecodecamp.org/news/database-indexing-at-a-glance-bb50809d48bd/"
+              },
+              {
+                "name": "Database Indexing Explained",
+                "link": "https://www.youtube.com/watch?v=-qNSXK7s7_w"
+              }
+            ]
+          },
+          {
+            "name": "Views",
+            "recommendation-type": "opinion",
+            "description": "Views in SQL are virtual tables created by selecting fields from one or more tables in the database. They can include all rows of a table or specific rows based on certain conditions.",
+            "resources": [
+              {
+                "name": "SQL | Views",
+                "link": "https://www.geeksforgeeks.org/sql-views/"
+              },
+              {
+                "name": "Database Views",
+                "link": "https://www.ibm.com/docs/en/eamfoc/7.6.0?topic=structure-views"
+              },
+              {
+                "name": "SQL Views - Wikipedia",
+                "link": "https://en.wikipedia.org/wiki/View_(SQL)"
+              }
+            ]
+          },
+          {
+            "name": "Transactions",
+            "recommendation-type": "opinion",
+            "description": "A database transaction is a sequence of multiple operations performed on a database, treated as a single logical unit of work. It ensures that either all operations are performed, or none of them take place.",
+            "resources": [
+              {
+                "name": "What are Transactions?",
+                "link": "https://fauna.com/blog/database-transaction"
+              }
+            ]
+          },
+          {
+            "name": "Stored Procedures",
+            "recommendation-type": "opinion",
+            "description": "Stored Procedures are groups of SQL statements created to perform one or more DML operations on a database. They accept input parameters, perform tasks, and may or may not return a value.",
+            "resources": [
+              {
+                "name": "What is Stored Procedures in SQL ?",
+                "link": "https://www.geeksforgeeks.org/what-is-stored-procedures-in-sql/"
+              },
+              {
+                "name": "SQL Stored Procedures",
+                "link": "https://www.programiz.com/sql/stored-procedures"
+              }
+            ]
+          },
+          {
+            "name": "Database Federation",
+            "recommendation-type": "opinion",
+            "description": "Federation, or functional partitioning, involves splitting up databases by function. It makes multiple distinct physical databases appear as one logical database to end-users.",
+            "resources": [
+              {
+                "name": "Database Federation",
+                "link": "https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo#database-federation"
+              }
+            ]
+          },
+          {
+            "name": "Replication",
+            "recommendation-type": "opinion",
+            "description": "Replication is a process that involves sharing information to ensure consistency between redundant resources, such as multiple databases. It improves reliability, fault-tolerance, or accessibility.",
+            "resources": [
+              {
+                "name": "Database Replication",
+                "link": "https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo#database-replication"
+              },
+              {
+                "name": "Replication (computing)",
+                "link": "https://en.wikipedia.org/wiki/Replication_(computing)"
+              }
+            ]
+          },
+          {
+            "name": "Sharding",
+            "recommendation-type": "opinion",
+            "description": "Database sharding is a method of distributing data across multiple machines, providing horizontal scaling. It is a common technique to scale a database.",
+            "resources": [
+              {
+                "name": "Sharding",
+                "link": "https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo#sharding"
+              },
+              {
+                "name": "Sharding & Database Partitioning | System Design Basics",
+                "link": "https://www.youtube.com/watch?v=RynPj8C0BXA"
+              },
+              {
+                "name": "Database Sharding - Watch",
+                "link": "https://www.youtube.com/watch?v=hdxdhCpgYo8"
+              },
+              {
+                "name": "Database Sharding in 5 minutes",
+                "link": "https://www.youtube.com/watch?v=kSH4bt8ypOQ"
+              }
+            ]
+          }
+        ]
+      },
+      "Networking": {
+        "description": "Networking is the process of connecting two or more computing devices together for the purpose of sharing data. In a data network, shared data may be as simple as a printer or as complex as a global financial transaction.",
+        "resources": [
+          {
+            "name": "Computer Networking Course - Network Engineering",
+            "link": "https://www.youtube.com/watch?v=qiQR5rTSshw"
+          },
+          {
+            "name": "Khan Academy - Networking",
+            "link": "https://www.khanacademy.org/computing/code-org/computers-and-the-internet"
+          },
+          {
+            "name": "Networking Video Series (21 videos)",
+            "link": "https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j"
+          }
+        ],
+        "order": 18,
+        "options": [
+          {
+            "name": "OSI Models",
+            "recommendation-type": "opinion",
+            "description": "The OSI and TCP/IP model is used to help the developer design their system for interoperability. The OSI model has 7 layers while the TCP/IP model has a more summarized form of the OSI model, consisting only of 4 layers.",
+            "resources": [
+              {
+                "name": "Cloudflare - What is the OSI model",
+                "link": "https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/"
+              },
+              {
+                "name": "Geeksforgeeks - Layers of OSI model",
+                "link": "https://www.geeksforgeeks.org/layers-of-osi-model/"
+              },
+              {
+                "name": "Geeksforgeeks - TCP/IP model",
+                "link": "https://www.geeksforgeeks.org/tcp-ip-model/"
+              },
+              {
+                "name": "TCP/IP and the OSI Model Explained!",
+                "link": "https://www.youtube.com/watch?v=e5DEVa9eSN0"
+              }
+            ]
+          },
+          {
+            "name": "OSI and TCP/IP Models",
+            "recommendation-type": "opinion",
+            "description": "The OSI and TCP/IP model is used to help the developer design their system for interoperability. The OSI model has 7 layers while the TCP/IP model has a more summarized form of the OSI model, consisting only of 4 layers.",
+            "resources": [
+              {
+                "name": "Cloudflare - What is the OSI model",
+                "link": "https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/"
+              },
+              {
+                "name": "Geeksforgeeks - Layers of OSI model",
+                "link": "https://www.geeksforgeeks.org/layers-of-osi-model/"
+              },
+              {
+                "name": "Geeksforgeeks - TCP/IP model",
+                "link": "https://www.geeksforgeeks.org/tcp-ip-model/"
+              },
+              {
+                "name": "TCP/IP and the OSI Model Explained!",
+                "link": "https://www.youtube.com/watch?v=e5DEVa9eSN0"
+              }
+            ]
+          },
+          {
+            "name": "DNS",
+            "recommendation-type": "opinion",
+            "description": "The Domain Name System (DNS) is the phonebook of the Internet. DNS translates domain names to IP addresses so browsers can load Internet resources.",
+            "resources": [
+              {
+                "name": "What is DNS?",
+                "link": "https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/"
+              },
+              {
+                "name": "How DNS works (comic)",
+                "link": "https://howdns.works/"
+              },
+              {
+                "name": "DNS and How does it Work?",
+                "link": "https://www.youtube.com/watch?v=Wj0od2ag5sk"
+              },
+              {
+                "name": "DNS Records",
+                "link": "https://www.youtube.com/watch?v=7lxgpKh_fRY"
+              },
+              {
+                "name": "Complete DNS mini-series",
+                "link": "https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K"
+              }
+            ]
+          },
+          {
+            "name": "HTTP?",
+            "recommendation-type": "opinion",
+            "description": "HTTP is the TCP/IP-based application layer communication protocol that standardizes how the client and server communicate with each other. It defines how the content is requested and transmitted across the internet.",
+            "resources": [
+              {
+                "name": "Everything you need to know about HTTP",
+                "link": "https://cs.fyi/guide/http-in-depth"
+              },
+              {
+                "name": "What is HTTP?",
+                "link": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/"
+              },
+              {
+                "name": "An overview of HTTP",
+                "link": "https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/"
+              },
+              {
+                "name": "HTTP/3 From A To Z: Core Concepts",
+                "link": "https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/"
+              },
+              {
+                "name": "HTTP/1 to HTTP/2 to HTTP/3",
+                "link": "https://www.youtube.com/watch?v=a-sBfyiXysI"
+              },
+              {
+                "name": "HTTP Crash Course & Exploration",
+                "link": "https://www.youtube.com/watch?v=iYM2zFP3Zn0"
+              }
+            ]
+          },
+          {
+            "name": "TLS / HTTPS",
+            "recommendation-type": "opinion",
+            "description": "TLS (Transport Layer Security) is a cryptographic protocol that provides privacy and data integrity between two communicating applications. It is widely used to secure HTTP, often in combination with HTTPS (HTTP over TLS).",
+            "resources": [
+              {
+                "name": "SSL and HTTPS",
+                "link": "https://www.youtube.com/watch?v=S2iBR2ZlZf0"
+              },
+              {
+                "name": "SSL/TLS - Cristina Formaini",
+                "link": "https://www.youtube.com/watch?v=Rp3iZUvXWlM"
+              }
+            ]
+          },
+          {
+            "name": "Sockets",
+            "recommendation-type": "opinion",
+            "description": "A socket is an interface for network communication, allowing two programs to communicate with each other over a network. It enables a client to send a request to a server and for the server to send a response back to the client.",
+            "resources": [
+              {
+                "name": "A Beginners Guide to WebSockets",
+                "link": "https://www.youtube.com/watch?v=8ARodQ4Wlf4"
+              },
+              {
+                "name": "WebSockets in 100 Seconds & Beyond with Socket.io",
+                "link": "https://www.youtube.com/watch?v=1BfCnjr_Vjg"
+              }
+            ]
+          }
+        ]
+      },
+      "Security": {
+        "description": "Web security refers to the protective measures taken by the developers to protect the web applications from threats that could affect the business.",
+        "resources": [
+          {
+            "name": "MIT 6.858 Computer Systems Security, Fall 2014",
+            "link": "https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh"
+          },
+          {
+            "name": "Why HTTPS Matters",
+            "link": "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https"
+          },
+          {
+            "name": "Wikipedia - OWASP",
+            "link": "https://en.wikipedia.org/wiki/OWASP"
+          },
+          {
+            "name": "OWASP Web Application Security Testing Checklist",
+            "link": "https://github.com/0xRadi/OWASP-Web-Checklist"
+          },
+          {
+            "name": "OWASP Top 10 Security Risks",
+            "link": "https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2021/"
+          },
+          {
+            "name": "OWASP Cheatsheets",
+            "link": "https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html"
+          },
+          {
+            "name": "Content Security Policy (CSP)",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP"
+          }
+        ],
+        "order": 19,
+        "options": [
+          {
+            "name": "Public Key Cryptography",
+            "recommendation-type": "opinion",
+            "description": "Public-key cryptography, or asymmetric cryptography, is the field of cryptographic systems that use pairs of related keys. Each key pair consists of a public key and a corresponding private key. Key pairs are generated with cryptographic algorithms based on mathematical problems termed one-way functions.",
+            "resources": [
+              {
+                "name": "Public-key cryptography - Wikipedia",
+                "link": "https://en.wikipedia.org/wiki/Public-key_cryptography"
+              },
+              {
+                "name": "Public Key Cryptography - Computerphile",
+                "link": "https://www.youtube.com/watch?v=GSIDS_lvRv4"
+              },
+              {
+                "name": "Public Key Cryptography: RSA Encryption Algorithm",
+                "link": "https://www.youtube.com/watch?v=wXB-V_Keiu8"
+              }
+            ]
+          },
+          {
+            "name": "Hashing/Encryption/Encoding",
+            "recommendation-type": "opinion",
+            "description": "Hashing is a one-way function that takes an input and produces a fixed-length output. The output is called a hash. The hash is a unique representation of the input. The hash is deterministic, meaning that the same input will always produce the same hash. The hash is irreversible, meaning that it is impossible to go from the hash back to the original input. The hash is collision-resistant, meaning that it is impossible to find two different inputs that produce the same hash.Encryption is a two-way function that takes an input and produces an output. The output is called ciphertext. The ciphertext is a unique representation of the input. The ciphertext is deterministic, meaning that the same input will always produce the same ciphertext. The ciphertext is reversible, meaning that it is possible to go from the ciphertext back to the original input. The ciphertext is collision-resistant, meaning that it is impossible to find two different inputs that produce the same ciphertext.Encoding is a two-way function that takes an input and produces an output. The output is called encoded text. The encoded text is a unique representation of the input. The encoded text is deterministic, meaning that the same input will always produce the same encoded text. The encoded text is reversible, meaning that it is possible to go from the encoded text back to the original input. The encoded text is not collision-resistant, meaning that it is possible to find two different inputs that produce the same encoded text.",
+            "resources": [
+              {
+                "name": "Encoding, Encryption and Hashing — What's the Difference?",
+                "link": "https://www.youtube.com/watch?v=-bAnBzvMLig"
+              }
+            ]
+          },
+          {
+            "name": "Hashing Algorithms",
+            "recommendation-type": "opinion",
+            "description": "Hashing algorithms are used to generate a unique value for a given input. This value is called a hash. Hashing algorithms are used to verify the integrity of data, to store passwords, and to generate unique identifiers for data.",
+            "resources": [
+              {
+                "name": "Hashing Algorithms and Security - Computerphile",
+                "link": "https://www.youtube.com/watch?v=b4b8ktEV4Bg"
+              },
+              {
+                "name": "Top Hashing Algorithms In Cryptography | MD5 and SHA 256 Algorithms Explained | Simplilearn",
+                "link": "https://www.youtube.com/watch?v=Plp4F3ZfC7A"
+              },
+              {
+                "name": "SHA: Secure Hashing Algorithm - Computerphile",
+                "link": "https://www.youtube.com/watch?v=Plp4F3ZfC7A"
+              }
+            ]
+          },
+          {
+            "name": "OWASP",
+            "recommendation-type": "opinion",
+            "description": "OWASP or Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.",
+            "resources": [
+              {
+                "name": "Wikipedia - OWASP",
+                "link": "https://en.wikipedia.org/wiki/OWASP"
+              },
+              {
+                "name": "OWASP Web Application Security Testing Checklist",
+                "link": "https://github.com/0xRadi/OWASP-Web-Checklist"
+              },
+              {
+                "name": "OWASP Top 10 Security Risks",
+                "link": "https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2021/"
+              },
+              {
+                "name": "OWASP Cheatsheets",
+                "link": "https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html"
+              }
+            ]
+          }
+        ]
+      },
+      "How Computers Work?": {
+        "description": "Computers are everywhere. They are in our phones, our cars, our homes, and even in our pockets. But how do they actually work? How do they take in information, and how do they output information?",
+        "resources": [
+          {
+            "name": "How CPU executes a program",
+            "link": "https://www.youtube.com/watch?v=XM4lGflQFvA"
+          },
+          {
+            "name": "How computers calculate - ALU",
+            "link": "https://youtu.be/1I5ZMmrOfnA"
+          },
+          {
+            "name": "Registers and RAM",
+            "link": "https://youtu.be/fpnE6UAfbtU"
+          },
+          {
+            "name": "The Central Processing Unit (CPU)",
+            "link": "https://youtu.be/FZGugFqdr60"
+          },
+          {
+            "name": "Instructions and Programs",
+            "link": "https://youtu.be/zltgXvg6r3k"
+          }
+        ],
+        "order": 20,
+        "options": [
+          {
+            "name": "How CPU Executes Programs?",
+            "recommendation-type": "opinion",
+            "description": "Visit the following resources to learn more:",
+            "resources": [
+              {
+                "name": "How CPU executes a program",
+                "link": "https://www.youtube.com/watch?v=XM4lGflQFvA"
+              }
+            ]
+          },
+          {
+            "name": "How Computers Calculate?",
+            "recommendation-type": "opinion",
+            "description": "Visit the following resources to learn more:",
+            "resources": [
+              {
+                "name": "How computers calculate - ALU",
+                "link": "https://youtu.be/1I5ZMmrOfnA"
+              }
+            ]
+          },
+          {
+            "name": "Registers and RAMs",
+            "recommendation-type": "opinion",
+            "description": "Registers are the smallest data-holding elements built into the processor itself. Registers are the memory locations that are directly accessible by the processor. The registers hold the instruction or operands currently accessed by the CPU. Registers are the high-speed accessible storage elements. The processor accesses the registers within one CPU clock cycle. The processor can decode the instructions and perform operations on the register contents at more than one operation per CPU clock cycle.Memory is a hardware device that stores computer programs, instructions, and data. The memory that is internal to the processor is primary memory (RAM), and the memory that is external to the processor is secondary (Hard Drive). Primary memory or RAM is a volatile memory, meaning the primary memory data exist when the system’s power is on, and the data vanishes as the system is switched off. The primary memory contains the data required by the currently executing program in the CPU. If the data required by the processor is not in primary memory, then the data is transferred from secondary storage to primary memory, and then it is fetched by the processor.",
+            "resources": [
+              {
+                "name": "Registers and RAM",
+                "link": "https://youtu.be/fpnE6UAfbtU"
+              }
+            ]
+          },
+          {
+            "name": "Instructions and Programs",
+            "recommendation-type": "opinion",
+            "description": "Visit the following resources to learn more:",
+            "resources": [
+              {
+                "name": "Instructions and Programs",
+                "link": "https://youtu.be/zltgXvg6r3k"
+              }
+            ]
+          },
+          {
+            "name": "CPU Cache",
+            "recommendation-type": "opinion",
+            "description": "Visit the following resources to learn more:",
+            "resources": [
+              {
+                "name": "CPU Cache",
+                "link": "https://roadmap.sh/computer-science#:~:text=CPU%20Cache,L16%3A%20Cache%20Issues"
+              }
+            ]
+          }
+        ]
+      },
+      "Processes and Threads": {
+        "description": "Processes and threads are the basic building blocks of a computer program. They are the smallest units of execution in a program. A process is an instance of a program that is being executed. A thread is a sequence of instructions within a process that can be executed independently of other code.",
+        "resources": [
+          {
+            "name": "Whats the difference between Process and a Thread?",
+            "link": "https://www.youtube.com/watch?v=Y4ZgLlDfKDg"
+          },
+          {
+            "name": "Operating Systems and System Programming",
+            "link": "https://www.youtube.com/watch?v=BK5x7IUTIyU"
+          }
+        ],
+        "order": 21,
+        "options": [
+          {
+            "name": "Process Forking",
+            "recommendation-type": "opinion",
+            "description": "Process forking is a way to create a new process from an existing process. The new process is a copy of the existing process. The new process is called a child process and the existing process is called a parent process.",
+            "resources": [
+              {
+                "name": "Understanding fork() system call for new process creation",
+                "link": "https://www.youtube.com/watch?v=PwxTbksJ2fo"
+              },
+              {
+                "name": "fork() and exec() System Calls",
+                "link": "https://www.youtube.com/watch?v=IFEFVXvjiHY"
+              },
+              {
+                "name": "The fork() function in C",
+                "link": "https://www.youtube.com/watch?v=cex9XrZCU14"
+              }
+            ]
+          },
+          {
+            "name": "Memory Management",
+            "recommendation-type": "opinion",
+            "description": "Memory management is the process of allocating and deallocating memory. It is a very important part of any programming language.",
+            "resources": [
+              {
+                "name": "MIT 6.004 L15: The Memory Hierarchy",
+                "link": "https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24"
+              },
+              {
+                "name": "MIT 6.004 L16: Cache Issues",
+                "link": "https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-"
+              }
+            ]
+          },
+          {
+            "name": "Lock / Mutex / Semaphore",
+            "recommendation-type": "opinion",
+            "description": "A lock allows only one thread to enter the part that’s locked, and the lock is not shared with any other processes. A mutex is the same as a lock but it can be system-wide (shared by multiple processes). A semaphore does the same as a mutex but allows x number of threads to enter, this can be used, for example, to limit the number of CPU, IO, or RAM intensive tasks running at the same time.",
+            "resources": [
+              {
+                "name": "What is the difference between lock, mutex and semaphore?",
+                "link": "https://stackoverflow.com/questions/2332765/what-is-the-difference-between-lock-mutex-and-semaphore"
+              },
+              {
+                "name": "What is a Semaphore",
+                "link": "https://stackoverflow.com/questions/34519/what-is-a-semaphore/40238#40238"
+              },
+              {
+                "name": "Mutex vs Semaphore",
+                "link": "https://www.geeksforgeeks.org/mutex-vs-semaphore/"
+              }
+            ]
+          },
+          {
+            "name": "Concurrency in Multiple Cores",
+            "recommendation-type": "opinion",
+            "description": "Visit the following resources to learn more:",
+            "resources": [
+              {
+                "name": "What is the difference between multicore and concurrent programming?",
+                "link": "https://stackoverflow.com/questions/5372861/what-is-the-difference-between-multicore-and-concurrent-programming"
+              },
+              {
+                "name": "Concurrency in Multicore systems",
+                "link": "https://cs.stackexchange.com/questions/140793/concurrency-in-multiple-core"
+              }
+            ]
+          },
+          {
+            "name": "Scheduling Algorithms",
+            "recommendation-type": "opinion",
+            "description": "CPU Scheduling is the process of selecting a process from the ready queue and allocating the CPU to it. The selection of a process is based on a particular scheduling algorithm. The scheduling algorithm is chosen depending on the type of system and the requirements of the processes.Here is the list of some of the most commonly used scheduling algorithms:First Come First Serve (FCFS): The process that arrives first is allocated the CPU first. It is a non-preemptive algorithm.Shortest Job First (SJF): The process with the smallest execution time is allocated the CPU first. It is a non-preemptive algorithm.Shortest Remaining Time First (SRTF): The process with the smallest remaining execution time is allocated the CPU first. It is a preemptive algorithm. Round Robin (RR): The process is allocated the CPU for a fixed time slice. The time slice is usually 10 milliseconds. It is a preemptive algorithm.Priority Scheduling: The process with the highest priority is allocated the CPU first. It is a preemptive algorithm.Multi-level Queue Scheduling: The processes are divided into different queues based on their priority. The process with the highest priority is allocated the CPU first. It is a preemptive algorithm.Multi-level Feedback Queue Scheduling: The processes are divided into different queues based on their priority. The process with the highest priority is allocated the CPU first. If a process is preempted, it is moved to the next queue. It is a preemptive algorithm.Lottery Scheduling: The process is allocated the CPU based on a lottery system. It is a preemptive algorithm.Multilevel Feedback Queue Scheduling: The processes are divided into different queues based on their priority. The process with the highest priority is allocated the CPU first. If a process is preempted, it is moved to the next queue. It is a preemptive algorithm. ",
+            "resources": []
+          },
+          {
+            "name": "CPU Interrupts",
+            "recommendation-type": "opinion",
+            "description": "CPU Interrupts are a way for the CPU to communicate with the rest of the computer. They are a way for the CPU to tell the rest of the computer that it needs to do something. For example, if the CPU is running a program and it needs to read from the keyboard, it will send an interrupt to the keyboard to tell it to send the data to the CPU. The CPU will then wait for the keyboard to send the data and then continue running the program.",
+            "resources": [
+              {
+                "name": "Video on Interrupts",
+                "link": "https://youtu.be/iKlAWIKEyuw"
+              }
+            ]
+          },
+          {
+            "name": "Processes and Threads",
+            "recommendation-type": "opinion",
+            "description": "Processes and threads are the basic building blocks of a computer program. They are the smallest units of execution in a program. A process is an instance of a program that is being executed. A thread is a sequence of instructions within a process that can be executed independently of other code.",
+            "resources": [
+              {
+                "name": "What's the difference between Process and a Thread?",
+                "link": "https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread"
+              },
+              {
+                "name": "Operating Systems and System Programming",
+                "link": "https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c"
+              }
+            ]
+          }
+        ]
+      },
+      "K-D Trees ": {
+        "name": "K-D Trees",
+        "recommendation-type": "opinion",
+        "description": "K-D Trees are a data structure that allow for fast nearest neighbor search in high dimensional spaces. They are a generalization of binary search trees, and are used in a variety of applications, including computer vision and computational geometry.",
+        "resources": [
+          {
+            "name": "K-D Tree Algorithm",
+            "link": "https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp"
+          },
+          {
+            "name": "K-d Trees - Computerphile",
+            "link": "https://en.wikipedia.org/wiki/Skip_list"
+          }
+        ],
+        "order": 22,
+        "options": [
+          {
+            "name": "",
+            "recommendation-type": "opinion",
+            "description": ""
+          },
+          {
+            "name": "",
+            "recommendation-type": "opinion",
+            "description": "",
+            "resources": []
+          },
+          {
+            "name": "",
+            "recommendation-type": "opinion",
+            "description": "",
+            "resources": [
+              {
+                "name": "",
+                "link": ""
+              }
+            ]
+          }
+        ]
+      },
+      "Skip Lists": {
+        "description": "Skip lists are a data structure that allows you to perform operations on a sorted list in O(log n) time. Skip lists are a probabilistic data structure, which means that the probability of a certain operation taking a certain amount of time is a certain value. In the case of skip lists, the probability of an operation taking O(log n) time is 1.",
+        "resources": [
+          {
+            "name": "Randomization: Skip Lists",
+            "link": ""
+          },
+          {
+            "name": "Skip Lists - Wikipedia",
+            "link": ""
+          }
+        ],
+        "order": 23,
+        "options": []
+      },
+      "V": {
+        "description": " ",
+        "resources": [],
+        "order": 24,
+        "options": []
+      }
+    }
+  }
+}
