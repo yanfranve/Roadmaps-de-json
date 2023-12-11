@@ -2717,7 +2717,7 @@
             "resources": [
               {
                 "name": "What is Consul?",
-                "link": ""
+                "link": "https://www.consul.io/docs/intro"
               }
             ]
           },
