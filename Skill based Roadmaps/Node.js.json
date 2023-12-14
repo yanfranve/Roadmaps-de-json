@@ -645,11 +645,11 @@
         "resources": [
           {
             "name": "Introduction to Async JS",
-            "link": ""
+            "link": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing/"
           },
           {
             "name": "Asynchronous Vs Synchronous Programming",
-            "link": ""
+            "link": "https://www.youtube.com/watch?v=Kpn2ajSa92c"
           }
         ],
         "order": 7,
@@ -661,11 +661,11 @@
             "resources": [
               {
                 "name": "What are Event Emitters?",
-                "link": ""
+                "link": "https://nodejs.dev/en/learn/the-nodejs-event-emitter/"
               },
               {
                 "name": "Using Event Emitters in Node.js",
-                "link": ""
+                "link": "https://www.digitalocean.com/community/tutorials/using-event-emitters-in-node-js"
               }
             ]
           },
@@ -676,24 +676,24 @@
             "resources": [
               {
                 "name": "The Node.JS Event Loop",
-                "link": ""
+                "link": "https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/#what-is-the-event-loop"
               },
               {
                 "name": "JavaScript Visualized: Event Loop",
-                "link": ""
+                "link": "https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif"
               },
               {
                 "name": "The Complete Node js: The Node js Event Loop",
-                "link": ""
+                "link": "https://www.coursera.org/lecture/secure-full-stack-mean-developer/the-node-js-event-loop-j5fbT"
               },
               {
                 "name": "The NodeJS Event loop",
-                "link": ""
+                "link": "https://nodejs.dev/en/learn/the-nodejs-event-loop/"
               }
             ]
           },
           {
-            "LL": {
+            "Writing Async Code": {
               "options": [
                 {
                   "name": "Promises",
@@ -702,19 +702,19 @@
                   "resources": [
                     {
                       "name": "Promise Methods",
-                      "link": ""
+                      "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
                     },
                     {
                       "name": "Official Website",
-                      "link": ""
+                      "link": "https://www.promisejs.org/"
                     },
                     {
                       "name": "JavaScript Promises for Beginners",
-                      "link": ""
+                      "link": "https://www.freecodecamp.org/news/javascript-promises-for-beginners/"
                     },
                     {
                       "name": "Asynchronous JavaScript - Promises",
-                      "link": ""
+                      "link": "https://www.youtube.com/watch?v=a_8nrslImo4/"
                     }
                   ]
                 },
@@ -725,23 +725,23 @@
                   "resources": [
                     {
                       "name": "Official Documentation",
-                      "link": ""
+                      "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
                     },
                     {
                       "name": "More on async await",
-                      "link": ""
+                      "link": "https://javascript.info/async-await"
                     },
                     {
                       "name": "Using async await",
-                      "link": ""
+                      "link": "https://www.youtube.com/watch?v=V_Kr9OSfDeU"
                     },
                     {
                       "name": "W3Docs Async/Await",
-                      "link": ""
+                      "link": "https://www.w3docs.com/learn-javascript/async-await.html"
                     },
                     {
                       "name": "Difference between Promise and Async/Await",
-                      "link": ""
+                      "link": "https://www.geeksforgeeks.org/difference-between-promise-and-async-await-in-node-js/"
                     }
                   ]
                 },
@@ -752,11 +752,11 @@
                   "resources": [
                     {
                       "name": "What are callbacks?",
-                      "link": ""
+                      "link": "https://developer.mozilla.org/en-US/docs/Glossary/Callback_function"
                     },
                     {
                       "name": "Asynchronicity in Programming Languages",
-                      "link": ""
+                      "link": "https://nodejs.dev/en/learn/javascript-asynchronous-programming-and-callbacks/"
                     }
                   ]
                 },
@@ -767,19 +767,19 @@
                   "resources": [
                     {
                       "name": "JavaScript MDN Docs",
-                      "link": ""
+                      "link": "https://developer.mozilla.org/en-US/docs/Web/API/setTimeout"
                     },
                     {
                       "name": "W3Schools - JavaScript - setTimeOut",
-                      "link": ""
+                      "link": "https://www.w3schools.com/jsref/met_win_settimeout.asp"
                     },
                     {
                       "name": "setInterval and setTimeout: timing events",
-                      "link": ""
+                      "link": "https://www.youtube.com/watch?v=kOcFZV3c75I"
                     },
                     {
                       "name": "setTimeout EXPLAINED in 5 minutes!",
-                      "link": ""
+                      "link": "https://www.youtube.com/watch?v=z9lJb4D3nJY"
                     }
                   ]
                 },
@@ -790,11 +790,11 @@
                   "resources": [
                     {
                       "name": "Scheduling: setTimeout and setInterval",
-                      "link": ""
+                      "link": "https://javascript.info/settimeout-setinterval"
                     },
                     {
                       "name": "What is the use of setInterval() method in Node.js?",
-                      "link": ""
+                      "link": "https://www.geeksforgeeks.org/what-is-setinterval-in-javascript/"
                     }
                   ]
                 },
@@ -805,11 +805,11 @@
                   "resources": [
                     {
                       "name": "Understanding setImmediate",
-                      "link": ""
+                      "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/setImmediate"
                     },
                     {
                       "name": "Understanding setImmediate",
-                      "link": ""
+                      "link": "https://nodejs.dev/en/learn/understanding-setimmediate/"
                     }
                   ]
                 },
@@ -820,15 +820,15 @@
                   "resources": [
                     {
                       "name": "Understanding Process.NextTick()",
-                      "link": ""
+                      "link": "https://nodejs.dev/en/learn/understanding-processnexttick/"
                     },
                     {
                       "name": "The Node.js process.nextTick()",
-                      "link": ""
+                      "link": "https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/"
                     },
                     {
                       "name": "The process.nextTick Function",
-                      "link": ""
+                      "link": "https://www.youtube.com/watch?v=-niA5XOlCWI"
                     }
                   ]
                 }
@@ -837,12 +837,12 @@
           }
         ]
       },
-      "F": {
+      "Working with Files": {
         "description": "Learn how to programmatically manipulate files in Node.js using the built-in fs module. Explore resources to understand file system operations and interactions.",
         "resources": [
           {
             "name": "How To Work with Files using the fs Module in Node.js",
-            "link": ""
+            "link": "https://www.digitalocean.com/community/tutorials/how-to-work-with-files-using-the-fs-module-in-node-js"
           }
         ],
         "order": 8,
@@ -854,11 +854,11 @@
             "resources": [
               {
                 "name": "Official Website",
-                "link": ""
+                "link": "https://nodejs.org/api/process.html#processcwd"
               },
               {
                 "name": "What's the difference between process.cwd() vs __dirname?",
-                "link": ""
+                "link": "https://stackoverflow.com/questions/9874382/whats-the-difference-between-process-cwd-vs-dirname"
               }
             ]
           },
@@ -869,11 +869,11 @@
             "resources": [
               {
                 "name": "Official Website",
-                "link": ""
+                "link": "https://nodejs.org/api/path.html"
               },
               {
                 "name": "Path Module in Node.js",
-                "link": ""
+                "link": "https://youtu.be/j95Lwxvi9JY"
               }
             ]
           },
@@ -884,20 +884,20 @@
             "resources": [
               {
                 "name": "Official Documentation",
-                "link": ""
+                "link": "https://nodejs.org/api/fs.html"
               },
               {
                 "name": "More about fs module",
-                "link": ""
+                "link": "https://www.w3schools.com/nodejs/nodejs_filesystem.asp"
               },
               {
                 "name": "Using fs",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=ZySsdm576wE"
               }
             ]
           },
           {
-            "LL": {
+            "OpenSource Packages": {
               "options": [
                 {
                   "name": "Glob",
@@ -906,7 +906,7 @@
                   "resources": [
                     {
                       "name": "NPM Glob",
-                      "link": ""
+                      "link": "https://www.npmjs.com/package/glob"
                     }
                   ]
                 },
@@ -917,11 +917,11 @@
                   "resources": [
                     {
                       "name": "NPM Globby",
-                      "link": ""
+                      "link": "https://www.npmjs.com/package/globby"
                     },
                     {
                       "name": "Github Globby",
-                      "link": ""
+                      "link": "https://github.com/sindresorhus/globby"
                     }
                   ]
                 },
@@ -932,11 +932,11 @@
                   "resources": [
                     {
                       "name": "Official Website",
-                      "link": ""
+                      "link": "https://www.npmjs.com/package/fs-extra"
                     },
                     {
                       "name": "fs-extra vs fs",
-                      "link": ""
+                      "link": "https://ar.al/2021/03/07/fs-extra-to-fs/"
                     }
                   ]
                 },
@@ -947,7 +947,7 @@
                   "resources": [
                     {
                       "name": "NPM Docs",
-                      "link": ""
+                      "link": "https://www.npmjs.com/package/chokidar"
                     }
                   ]
                 }
@@ -961,11 +961,11 @@
             "resources": [
               {
                 "name": "Official Website",
-                "link": ""
+                "link": "https://nodejs.org/docs/latest/api/modules.html#__dirname"
               },
               {
                 "name": "How to use __dirname",
-                "link": ""
+                "link": "https://www.digitalocean.com/community/tutorials/nodejs-how-to-use__dirname"
               }
             ]
           },
@@ -976,7 +976,7 @@
             "resources": [
               {
                 "name": "Official Docs",
-                "link": ""
+                "link": "https://nodejs.org/docs/latest/api/modules.html#__filename"
               }
             ]
           }
@@ -987,15 +987,15 @@
         "resources": [
           {
             "name": "Intro To CLI Applications",
-            "link": ""
+            "link": "https://learn.co/lessons/intro-to-cli-applications"
           },
           {
             "name": "Build a Command Line Application with Node.js",
-            "link": ""
+            "link": "https://developer.okta.com/blog/2019/06/18/command-line-app-with-nodejs"
           },
           {
             "name": "5-Minute Node.js CLI Project",
-            "link": ""
+            "link": "https://www.youtube.com/watch?v=_oHByo8tiEY"
           }
         ],
         "order": 9,
@@ -1007,7 +1007,7 @@
             "resources": [
               {
                 "name": "Reading Environment Variables From Node.js",
-                "link": ""
+                "link": "https://www.geeksforgeeks.org/reading-environment-variables-from-node-js/"
               }
             ],
             "options": [
@@ -1018,19 +1018,19 @@
                 "resources": [
                   {
                     "name": "dotenv Docs",
-                    "link": ""
+                    "link": "https://github.com/motdotla/dotenv#readme"
                   },
                   {
                     "name": "Dotenv package",
-                    "link": ""
+                    "link": "https://www.npmjs.com/package/dotenv"
                   },
                   {
                     "name": "Dotenv tutorial",
-                    "link": ""
+                    "link": "https://zetcode.com/javascript/dotenv/"
                   },
                   {
                     "name": "How to Use Node Environment Variables with a DotEnv File for Node.js and npm",
-                    "link": ""
+                    "link": "https://www.freecodecamp.org/news/how-to-use-node-environment-variables-with-a-dotenv-file-for-node-js-and-npm/"
                   }
                 ]
               },
@@ -1041,11 +1041,11 @@
                 "resources": [
                   {
                     "name": "Process.env Node",
-                    "link": ""
+                    "link": "https://www.knowledgehut.com/blog/web-development/node-environment-variables"
                   },
                   {
                     "name": "Node.js process.env Property",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/node-js-process-env-property/"
                   }
                 ]
               }
@@ -1058,15 +1058,15 @@
             "resources": [
               {
                 "name": "How To Handle Command-line Arguments in Node.js Scripts",
-                "link": ""
+                "link": "https://www.digitalocean.com/community/tutorials/nodejs-command-line-arguments-node-scripts"
               },
               {
                 "name": "Node Documentation",
-                "link": ""
+                "link": "https://nodejs.org/docs/latest/api/process.html#processargv"
               },
               {
                 "name": "Command Line Arguments",
-                "link": ""
+                "link": "https://youtu.be/5d7eltp0-xm"
               }
             ],
             "options": [
@@ -1077,11 +1077,11 @@
                 "resources": [
                   {
                     "name": "Node.js Docs on process.argv",
-                    "link": ""
+                    "link": "https://nodejs.org/docs/latest/api/process.html"
                   },
                   {
                     "name": "Node.js process.argv Property",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/node-js-process-argv-property/"
                   }
                 ]
               },
@@ -1092,7 +1092,7 @@
                 "resources": [
                   {
                     "name": "Official Documentation",
-                    "link": ""
+                    "link": "https://www.npmjs.com/package/commander"
                   }
                 ]
               }
@@ -1105,11 +1105,11 @@
             "resources": [
               {
                 "name": "Node.js Docs on exit",
-                "link": ""
+                "link": "https://nodejs.org/docs/latest/api/process.html"
               },
               {
                 "name": "How to Exit a Process in Node.js",
-                "link": ""
+                "link": "https://www.knowledgehut.com/blog/web-development/node-js-process-exit"
               }
             ]
           },
@@ -1126,7 +1126,7 @@
                 "resources": [
                   {
                     "name": "process.stdout",
-                    "link": ""
+                    "link": "https://nodejs.org/api/process.html#processstdout"
                   }
                 ]
               },
@@ -1137,7 +1137,7 @@
                 "resources": [
                   {
                     "name": "process.stderr",
-                    "link": ""
+                    "link": "https://nodejs.org/api/process.html#processstderr"
                   }
                 ]
               },
@@ -1148,11 +1148,11 @@
                 "resources": [
                   {
                     "name": "Chalk Docs",
-                    "link": ""
+                    "link": "https://github.com/chalk/chalk#readme"
                   },
                   {
                     "name": "Style Command Line Output with Chalk Package in Node.js",
-                    "link": ""
+                    "link": "https://www.positronx.io/style-command-line-output-with-chalk-library-in-node-js/"
                   }
                 ]
               },
@@ -1163,7 +1163,7 @@
                 "resources": [
                   {
                     "name": "GitHub Repository",
-                    "link": ""
+                    "link": "https://github.com/patorjk/figlet.js"
                   }
                 ]
               },
@@ -1174,7 +1174,7 @@
                 "resources": [
                   {
                     "name": "CLI-Progress Documentation",
-                    "link": ""
+                    "link": "https://www.npmjs.com/package/cli-progress"
                   }
                 ]
               }
@@ -1187,7 +1187,7 @@
             "resources": [
               {
                 "name": "How to read from stdin line by line in Node",
-                "link": ""
+                "link": "https://stackoverflow.com/questions/20086849/how-to-read-from-stdin-line-by-line-in-node"
               }
             ],
             "options": [
@@ -1198,11 +1198,11 @@
                 "resources": [
                   {
                     "name": "Official Documentation",
-                    "link": ""
+                    "link": "https://nodejs.org/api/process.html#processstdin"
                   },
                   {
                     "name": "Node.js process.stdin Property",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/node-js-process-stdin-property"
                   }
                 ]
               },
@@ -1213,7 +1213,7 @@
                 "resources": [
                   {
                     "name": "Official Documentation",
-                    "link": ""
+                    "link": "https://www.npmjs.com/package/prompts"
                   }
                 ]
               },
@@ -1224,19 +1224,19 @@
                 "resources": [
                   {
                     "name": "Official Docs",
-                    "link": ""
+                    "link": "https://github.com/SBoudrias/Inquirer.js#readme"
                   },
                   {
                     "name": "How To Create Interactive Command-line Prompts with Inquirer.js",
-                    "link": ""
+                    "link": "https://www.digitalocean.com/community/tutorials/nodejs-interactive-command-line-prompts"
                   },
                   {
                     "name": "How to make a CLI in Node.js with Inquirer",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=0xjfkl9nODQ"
                   },
                   {
                     "name": "Create an Interactive Node.js Command Line Tool using Inquirer",
-                    "link": ""
+                    "link": "https://egghead.io/lessons/node-js-create-an-interactive-node-js-command-line-tool-using-inquirer"
                   }
                 ]
               }
@@ -1264,15 +1264,15 @@
                   "resources": [
                     {
                       "name": "Fastify Website",
-                      "link": ""
+                      "link": "https://www.fastify.io/"
                     },
                     {
                       "name": "Fastify Official Documentations",
-                      "link": ""
+                      "link": "https://www.fastify.io/docs/latest/"
                     },
                     {
                       "name": "Beginner Fastify Tutorial",
-                      "link": ""
+                      "link": "https://www.youtube.com/watch?v=Lk-uVEVGxOA"
                     }
                   ]
                 },
@@ -1283,15 +1283,15 @@
                   "resources": [
                     {
                       "name": "NestJS Website",
-                      "link": ""
+                      "link": "https://nestjs.com/"
                     },
                     {
                       "name": "NestJS Official Documentations",
-                      "link": ""
+                      "link": "https://docs.nestjs.com/"
                     },
                     {
                       "name": "Beginner NestJS Tutorial",
-                      "link": ""
+                      "link": "https://www.youtube.com/watch?v=GHTA143_b-s"
                     }
                   ]
                 },
@@ -1302,23 +1302,23 @@
                   "resources": [
                     {
                       "name": "Express.js Official Website",
-                      "link": ""
+                      "link": "https://expressjs.com/"
                     },
                     {
                       "name": "Official Getting Started Guide",
-                      "link": ""
+                      "link": "https://expressjs.com/en/starter/installing.html"
                     },
                     {
                       "name": "Express Full Guide",
-                      "link": ""
+                      "link": "https://www.tutorialspoint.com/nodejs/nodejs_express_framework.html"
                     },
                     {
                       "name": "Sample Project",
-                      "link": ""
+                      "link": "https://auth0.com/blog/create-a-simple-and-stylish-node-express-app/"
                     },
                     {
                       "name": "Express Explained with Examples",
-                      "link": ""
+                      "link": "https://www.freecodecamp.org/news/express-explained-with-examples-installation-routing-middleware-and-more/"
                     }
                   ]
                 },
@@ -1329,15 +1329,15 @@
                   "resources": [
                     {
                       "name": "How To Create a Web Server in Node.js with the HTTP Module",
-                      "link": ""
+                      "link": "https://www.digitalocean.com/community/tutorials/how-to-create-a-web-server-in-node-js-with-the-http-module"
                     },
                     {
                       "name": "Node.js Http Module",
-                      "link": ""
+                      "link": "https://www.geeksforgeeks.org/node-js-http-module/"
                     },
                     {
                       "name": "The Node.js Http Module",
-                      "link": ""
+                      "link": "https://nodejs.dev/en/learn/the-nodejs-http-module/"
                     }
                   ]
                 }
@@ -1348,21 +1348,21 @@
             "Making API Calls": {
               "options": [
                 {
-                  "name": "Making API calls with HTTP",
+                  "name": "HTTP module",
                   "recommendation-type": "opinion",
                   "description": "Learn how to make API calls using the HTTP module in Node.js. Explore http.get() and http.request() methods for making GET requests and other types of HTTP requests.",
                   "resources": [
                     {
                       "name": "Node.js http.get() documentation",
-                      "link": ""
+                      "link": "https://nodejs.org/docs/latest-v16.x/api/http.html#httpgeturl-options-callback"
                     },
                     {
                       "name": "Node http.request() documentation",
-                      "link": ""
+                      "link": "https://nodejs.org/docs/latest-v16.x/api/http.html#httprequesturl-options-callback"
                     },
                     {
                       "name": "How To Create an HTTP Client with Core HTTP in Node.js",
-                      "link": ""
+                      "link": "https://www.digitalocean.com/community/tutorials/how-to-create-an-http-client-with-core-http-in-node-js"
                     }
                   ]
                 },
@@ -1373,11 +1373,11 @@
                   "resources": [
                     {
                       "name": "Axios Official Documentations",
-                      "link": ""
+                      "link": "https://axios-http.com/docs/intro"
                     },
                     {
                       "name": "Axios Tutorial",
-                      "link": ""
+                      "link": "https://www.youtube.com/watch?v=6LyagkoRWYA"
                     }
                   ]
                 },
@@ -1388,7 +1388,7 @@
                   "resources": [
                     {
                       "name": "unfetch Docs",
-                      "link": ""
+                      "link": "https://github.com/developit/unfetch#readme"
                     }
                   ]
                 },
@@ -1399,11 +1399,11 @@
                   "resources": [
                     {
                       "name": "Official Documentation",
-                      "link": ""
+                      "link": "https://www.npmjs.com/package/got"
                     },
                     {
                       "name": "How to consume APIs using GOT in Node.js?",
-                      "link": ""
+                      "link": "https://rapidapi.com/guides/call-apis-got"
                     }
                   ]
                 }
@@ -1420,15 +1420,15 @@
                   "resources": [
                     {
                       "name": "Package Documentation",
-                      "link": ""
+                      "link": "https://www.npmjs.com/package/jsonwebtoken"
                     },
                     {
                       "name": "What is JWT",
-                      "link": ""
+                      "link": "https://www.akana.com/blog/what-is-jwt"
                     },
                     {
                       "name": "JWT Implementation",
-                      "link": ""
+                      "link": "https://www.youtube.com/watch?v=mbsmsi7l3r4"
                     }
                   ]
                 },
@@ -1439,15 +1439,15 @@
                   "resources": [
                     {
                       "name": "PassportJS Website",
-                      "link": ""
+                      "link": "https://www.passportjs.org/"
                     },
                     {
                       "name": "PassportJS Official Documentation",
-                      "link": ""
+                      "link": "https://www.passportjs.org/docs/"
                     },
                     {
                       "name": "Implementation of OAuth using passportjs",
-                      "link": ""
+                      "link": "https://www.youtube.com/watch?v=sakQbeRjgwg&list=PL4cUxeGkcC9jdm7QX143aMLAqyM-jTZ2x"
                     }
                   ]
                 }
@@ -1473,7 +1473,7 @@
             "resources": [
               {
                 "name": "How To Restart Your Node.js Apps Automatically with nodemon",
-                "link": ""
+                "link": "https://www.digitalocean.com/community/tutorials/workflow-nodemon"
               }
             ]
           }
@@ -1491,27 +1491,27 @@
             "resources": [
               {
                 "name": "Ejs website",
-                "link": ""
+                "link": "https://ejs.co/"
               },
               {
                 "name": "Ejs Official Documentations",
-                "link": ""
+                "link": "https://ejs.co/#docs"
               },
               {
                 "name": "Ejs Official Package",
-                "link": ""
+                "link": "https://www.npmjs.com/package/ejs"
               },
               {
                 "name": "Try EJS Online",
-                "link": ""
+                "link": "https://ionicabizau.github.io/ejs-playground/"
               },
               {
                 "name": "How to use EJS",
-                "link": ""
+                "link": "https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application"
               },
               {
                 "name": "Step-by-Step EJS Guide",
-                "link": ""
+                "link": "https://codeforgeek.com/ejs-template-engine-in-nodejs/"
               }
             ]
           },
@@ -1522,19 +1522,19 @@
             "resources": [
               {
                 "name": "Getting started with PugJs",
-                "link": ""
+                "link": "https://pugjs.org/api/getting-started.html"
               },
               {
                 "name": "How to Build a Node Application Using a Pug Template",
-                "link": ""
+                "link": "https://blog.bitsrc.io/how-to-build-a-node-application-using-a-pug-template-7319ab1bba69?gi=40b338891148"
               },
               {
                 "name": "Node.js + Express - Tutorial - PugJS Templating Engine",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=DSp9ExFw3Ig"
               },
               {
                 "name": "Pug.js tutorial",
-                "link": ""
+                "link": "https://zetcode.com/javascript/pugjs/"
               }
             ]
           },
@@ -1545,7 +1545,7 @@
             "resources": [
               {
                 "name": "Marko Documentation",
-                "link": ""
+                "link": "https://markojs.com/docs/guides-overview/"
               }
             ]
           }
@@ -1563,44 +1563,55 @@
             "resources": [],
             "options": [
               {
+                "name": "Knex",
+                "recommendation-type": "opinion",
+                "description": "Explore Knex.js, a 'batteries included' SQL query builder for various databases. Knex.js is designed to be flexible, portable, and enjoyable to use, supporting databases like PostgreSQL, CockroachDB, MSSQL, MySQL, MariaDB, SQLite3, Better-SQLite3, Oracle, and Amazon Redshift.",
+                "resources": [
+                  {
+                    "name": "Knex.js Docs",
+                    "link": "https://knexjs.org/"
+                  }
+                ]
+              },
+              {
                 "name": "TypeORM",
                 "recommendation-type": "opinion",
                 "description": "Discover TypeORM, an ORM for Node.js that supports multiple platforms and databases. Learn about its features, including Active Record and Data Mapper patterns, and find resources for getting started.",
                 "resources": [
                   {
                     "name": "TypeORM Docs",
-                    "link": ""
+                    "link": "https://typeorm.io/"
                   },
                   {
                     "name": "TypeORM Crash Course",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=JaTbzPcyiOE"
                   }
                 ]
               },
               {
                 "name": "Sequelize",
                 "recommendation-type": "opinion",
-                "description": "Explore Sequelize, an easy-to-use and promise-based Node.js ORM tool. Learn about its support for multiple databases, solid transaction support, relations, eager and lazy loading, and more.",
+                "description": "Explore Sequelize, an easy-to-use and promise-based Node.js ORM tool. Learn about its support for multiple databases, solid transaction support, relations, eager and lazy loading, and more.\nWhat is an ORM ?\nAn ORM is known as Object Relational Mapper. This is a tool or a level of abstraction which maps(converts) data in a relational database into programmatic objects that can be manipulated by a programmer using a programming language(usually an OOP language). ORMs solely exist to map the details between two data sources which due to a mismatch cannot coexist together.",
                 "resources": [
                   {
                     "name": "Sequelize Website",
-                    "link": ""
+                    "link": "https://sequelize.org/"
                   },
                   {
                     "name": "Sequelize - NPM Package",
-                    "link": ""
+                    "link": "https://www.npmjs.com/package/sequelize"
                   },
                   {
                     "name": "Official Sequelize Docs",
-                    "link": ""
+                    "link": "https://sequelize.org/docs/v6/getting-started/"
                   },
                   {
                     "name": "Getting started with Sequelize",
-                    "link": ""
+                    "link": "https://levelup.gitconnected.com/the-ultimate-guide-to-get-started-with-sequelize-orm-238588d3516e"
                   },
                   {
                     "name": "Sequelize in Node.js",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/how-to-use-sequelize-in-node-js/"
                   }
                 ]
               },
@@ -1611,11 +1622,11 @@
                 "resources": [
                   {
                     "name": "Prisma Website",
-                    "link": ""
+                    "link": "https://www.prisma.io/"
                   },
                   {
                     "name": "Prisma Official Documentations",
-                    "link": ""
+                    "link": "https://www.prisma.io/docs/"
                   }
                 ]
               },
@@ -1646,11 +1657,11 @@
             "resources": [
               {
                 "name": "Jest Website",
-                "link": ""
+                "link": "https://jestjs.io/"
               },
               {
                 "name": "Jest Documentation",
-                "link": ""
+                "link": "https://jestjs.io/docs/getting-started"
               }
             ]
           },
@@ -1661,15 +1672,15 @@
             "resources": [
               {
                 "name": "Official Website",
-                "link": ""
+                "link": "https://www.npmjs.com/package/mocha"
               },
               {
                 "name": "Mocha Documentation",
-                "link": ""
+                "link": "https://mochajs.org/"
               },
               {
                 "name": "Mocha Tutorial",
-                "link": ""
+                "link": "https://youtube.com/playlist?list=PLgbtO1Bcz4C-vU0JLfDBsZGbSUdNX4mQ8"
               }
             ]
           },
@@ -1680,17 +1691,17 @@
             "resources": [
               {
                 "name": "Cypress Website",
-                "link": ""
+                "link": "https://www.cypress.io/"
               },
               {
                 "name": "Cypress Documentation",
-                "link": ""
+                "link": "https://docs.cypress.io/"
               }
             ]
           }
         ]
       },
-      "Node.js Logging": {
+      "Logging": {
         "description": " Logging is an essential part of understanding the complete application life cycle of the Node.js application. We can much more easily and quickly fix errors by looking at logs throughout the development process, from creating to debugging to designing new features. Error, warn, info, and debug are the four basic logging levels in Node.js. Logging involves persistently collecting information about an application’s runtime behaviour.",
         "resources": [
           {
@@ -1700,11 +1711,11 @@
             "resources": [
               {
                 "name": "Official Website",
-                "link": ""
+                "link": "https://www.npmjs.com/package/morgan"
               },
               {
                 "name": "How to use Morgan|DigitalOcean",
-                "link": ""
+                "link": "https://www.digitalocean.com/community/tutorials/nodejs-getting-started-morgan"
               }
             ]
           },
@@ -1715,7 +1726,7 @@
             "resources": [
               {
                 "name": "Winston Website",
-                "link": ""
+                "link": "https://github.com/winstonjs/winston"
               }
             ]
           }
@@ -1753,11 +1764,11 @@
             "resources": [
               {
                 "name": "Pm2 Website",
-                "link": ""
+                "link": "https://pm2.keymetrics.io/"
               },
               {
                 "name": "Pm2 Official Documentations",
-                "link": ""
+                "link": "https://pm2.keymetrics.io/docs/usage/quick-start/"
               }
             ]
           },
@@ -1768,7 +1779,7 @@
             "resources": [
               {
                 "name": "Forever package documentation",
-                "link": ""
+                "link": "https://www.npmjs.com/package/forever"
               }
             ]
           },
@@ -1779,11 +1790,11 @@
             "resources": [
               {
                 "name": "Nohup command",
-                "link": ""
+                "link": "https://www.digitalocean.com/community/tutorials/nohup-command-in-linux"
               },
               {
                 "name": "geekforgeeks Nohup example",
-                "link": ""
+                "link": "https://www.geeksforgeeks.org/nohup-command-in-linux-with-examples/"
               }
             ]
           }
@@ -1806,7 +1817,7 @@
             "resources": [
               {
                 "name": "Child Process Docs",
-                "link": ""
+                "link": "https://nodejs.org/api/child_process.html#child-process"
               }
             ]
           },
@@ -1817,7 +1828,7 @@
             "resources": [
               {
                 "name": "Cluster Docs",
-                "link": ""
+                "link": "https://nodejs.org/api/cluster.html#cluster"
               }
             ]
           },
@@ -1828,15 +1839,28 @@
             "resources": [
               {
                 "name": "Worker Threads Docs",
-                "link": ""
+                "link": "https://nodejs.org/api/worker_threads.html#worker-threads"
               }
             ]
           }
         ]
       },
       "streams": {
-        "description": " ",
-        "resources": [],
+        "description": "Streams are a type of data handling methods and are used to read, write or transform chunks of data piece by piece without keeping it in memory all at once. There are four types of streams in NodReadable: streams from which data can be read.Writable: streams to which we can write data.Duplex: streams that are both Readable and Writable.Transform: streams that can modify or transform the data as it is wriand read.",
+        "resources": [
+          {
+            "name": "Stream API Official Documentation",
+            "link": "https://nodejs.org/api/stream.html"
+          },
+          {
+            "name": "Node.js Streams tutorial",
+            "link": "https://www.youtube.com/watch?v=GlybFFMXXmQ"
+          },
+          {
+            "name": "Understanding Streams in Node.js",
+            "link": "https://nodesource.com/blog/understanding-streams-in-nodejs"
+          }
+        ],
         "order": 18,
         "options": []
       },
@@ -1852,15 +1876,15 @@
             "resources": [
               {
                 "name": "Memory leaks in Node.js",
-                "link": ""
+                "link": "https://sematext.com/blog/nodejs-memory-leaks/"
               },
               {
                 "name": "Memory leaks causes",
-                "link": ""
+                "link": "https://sematext.com/blog/nodejs-memory-leaks/#what-causes-them-common-node-js-memory-leaks"
               },
               {
                 "name": "Memory leaks detectors",
-                "link": ""
+                "link": "https://sematext.com/blog/nodejs-memory-leaks/#node-js-memory-leak-detectors"
               }
             ],
             "options": [
@@ -1871,11 +1895,11 @@
                 "resources": [
                   {
                     "name": "JavaScript Garbage Collection",
-                    "link": ""
+                    "link": "https://javascript.info/garbage-collection"
                   },
                   {
                     "name": "Memory Management in JavaScript",
-                    "link": ""
+                    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management"
                   }
                 ]
               }
@@ -1888,18 +1912,18 @@
             "resources": [
               {
                 "name": "Debugging Node.js with Chrome DevTools",
-                "link": ""
+                "link": "https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27"
               }
             ]
           },
           {
             "name": "Using APM",
             "recommendation-type": "opinion",
-            "description": "Explore the use of APM (Application Performance Monitoring) tools for debugging and monitoring applications. Learn how log aggregation tools can simplify the process of viewing and analyzing logs in both local and production environments.",
+            "description": "As much fun as it is to intercept your container requests with inspect and step through your code, you won’t have this option in production. This is why it makes a lot of sense to try and debug your application locally in the same way as you would in production.In production, one of your tools would be to login to your remote server to view the console logs, just as you would on local. But this can be a tedious approach. Luckily, there are tools out there that perform what is called log aggregation, such as Stackify.These tools send your logs from your running application into a single location. They often come with high-powered search and query utilities so that you can easily parse your logs and visualize them.",
             "resources": [
               {
                 "name": "Debugging using APM",
-                "link": ""
+                "link": "https://stackify.com/node-js-debugging-tips/"
               }
             ]
           }
@@ -1914,7 +1938,249 @@
           }
         ],
         "order": 20,
-        "options": []
+        "options": [
+          {
+            "name": "Builtin modules",
+            "recommendation-type": "opinion",
+            "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
+            "resources": [
+              {
+                "name": "API documentation of Built-in modules",
+                "link": "https://nodejs.org/api/modules.html"
+              },
+              {
+                "name": "Built-in modules - w3schools",
+                "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
+              }
+            ],
+            "options": [
+              {
+                "name": "Builtin modules",
+                "recommendation-type": "opinion",
+                "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
+                "resources": [
+                  {
+                    "name": "API documentation of Built-in modules",
+                    "link": "https://nodejs.org/api/modules.html"
+                  },
+                  {
+                    "name": "Built-in modules - w3schools",
+                    "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
+                  }
+                ],
+                "options": []
+              },
+              {
+                "name": "Builtin modules",
+                "recommendation-type": "opinion",
+                "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
+                "resources": [
+                  {
+                    "name": "API documentation of Built-in modules",
+                    "link": "https://nodejs.org/api/modules.html"
+                  },
+                  {
+                    "name": "Built-in modules - w3schools",
+                    "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
+                  }
+                ],
+                "options": []
+              },
+              {
+                "name": "Builtin modules",
+                "recommendation-type": "opinion",
+                "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
+                "resources": [
+                  {
+                    "name": "API documentation of Built-in modules",
+                    "link": "https://nodejs.org/api/modules.html"
+                  },
+                  {
+                    "name": "Built-in modules - w3schools",
+                    "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
+                  }
+                ],
+                "options": []
+              },
+              {
+                "name": "Builtin modules",
+                "recommendation-type": "opinion",
+                "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
+                "resources": [
+                  {
+                    "name": "API documentation of Built-in modules",
+                    "link": "https://nodejs.org/api/modules.html"
+                  },
+                  {
+                    "name": "Built-in modules - w3schools",
+                    "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
+                  }
+                ],
+                "options": []
+              },
+              {
+                "name": "Builtin modules",
+                "recommendation-type": "opinion",
+                "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
+                "resources": [
+                  {
+                    "name": "API documentation of Built-in modules",
+                    "link": "https://nodejs.org/api/modules.html"
+                  },
+                  {
+                    "name": "Built-in modules - w3schools",
+                    "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
+                  }
+                ],
+                "options": []
+              },
+              {
+                "name": "Builtin modules",
+                "recommendation-type": "opinion",
+                "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
+                "resources": [
+                  {
+                    "name": "API documentation of Built-in modules",
+                    "link": "https://nodejs.org/api/modules.html"
+                  },
+                  {
+                    "name": "Built-in modules - w3schools",
+                    "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
+                  }
+                ],
+                "options": []
+              },
+              {
+                "name": "Builtin modules",
+                "recommendation-type": "opinion",
+                "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
+                "resources": [
+                  {
+                    "name": "API documentation of Built-in modules",
+                    "link": "https://nodejs.org/api/modules.html"
+                  },
+                  {
+                    "name": "Built-in modules - w3schools",
+                    "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
+                  }
+                ],
+                "options": []
+              },
+              {
+                "name": "Builtin modules",
+                "recommendation-type": "opinion",
+                "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
+                "resources": [
+                  {
+                    "name": "API documentation of Built-in modules",
+                    "link": "https://nodejs.org/api/modules.html"
+                  },
+                  {
+                    "name": "Built-in modules - w3schools",
+                    "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
+                  }
+                ],
+                "options": []
+              },
+              {
+                "name": "Builtin modules",
+                "recommendation-type": "opinion",
+                "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
+                "resources": [
+                  {
+                    "name": "API documentation of Built-in modules",
+                    "link": "https://nodejs.org/api/modules.html"
+                  },
+                  {
+                    "name": "Built-in modules - w3schools",
+                    "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
+                  }
+                ],
+                "options": []
+              },
+              {
+                "name": "Builtin modules",
+                "recommendation-type": "opinion",
+                "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
+                "resources": [
+                  {
+                    "name": "API documentation of Built-in modules",
+                    "link": "https://nodejs.org/api/modules.html"
+                  },
+                  {
+                    "name": "Built-in modules - w3schools",
+                    "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
+                  }
+                ],
+                "options": []
+              },
+              {
+                "name": "Builtin modules",
+                "recommendation-type": "opinion",
+                "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
+                "resources": [
+                  {
+                    "name": "API documentation of Built-in modules",
+                    "link": "https://nodejs.org/api/modules.html"
+                  },
+                  {
+                    "name": "Built-in modules - w3schools",
+                    "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
+                  }
+                ],
+                "options": []
+              },
+              {
+                "name": "Builtin modules",
+                "recommendation-type": "opinion",
+                "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
+                "resources": [
+                  {
+                    "name": "API documentation of Built-in modules",
+                    "link": "https://nodejs.org/api/modules.html"
+                  },
+                  {
+                    "name": "Built-in modules - w3schools",
+                    "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
+                  }
+                ],
+                "options": []
+              },
+              {
+                "name": "Builtin modules",
+                "recommendation-type": "opinion",
+                "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
+                "resources": [
+                  {
+                    "name": "API documentation of Built-in modules",
+                    "link": "https://nodejs.org/api/modules.html"
+                  },
+                  {
+                    "name": "Built-in modules - w3schools",
+                    "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
+                  }
+                ],
+                "options": []
+              },
+              {
+                "name": "Builtin modules",
+                "recommendation-type": "opinion",
+                "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
+                "resources": [
+                  {
+                    "name": "API documentation of Built-in modules",
+                    "link": "https://nodejs.org/api/modules.html"
+                  },
+                  {
+                    "name": "Built-in modules - w3schools",
+                    "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
+                  }
+                ],
+                "options": []
+              }
+            ]
+          }
+        ]
       },
       "Backend roadmap after Language Selection": {
         "order": 21,
