@@ -1940,7 +1940,7 @@
         "order": 20,
         "options": [
           {
-            "name": "Builtin modules",
+            "name": "Built-in modules",
             "recommendation-type": "opinion",
             "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
             "resources": [
@@ -1955,7 +1955,7 @@
             ],
             "options": [
               {
-                "name": "Builtin modules",
+                "name": "fs",
                 "recommendation-type": "opinion",
                 "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
                 "resources": [
@@ -1971,7 +1971,7 @@
                 "options": []
               },
               {
-                "name": "Builtin modules",
+                "name": "os",
                 "recommendation-type": "opinion",
                 "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
                 "resources": [
@@ -1987,7 +1987,7 @@
                 "options": []
               },
               {
-                "name": "Builtin modules",
+                "name": "net",
                 "recommendation-type": "opinion",
                 "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
                 "resources": [
@@ -2003,7 +2003,7 @@
                 "options": []
               },
               {
-                "name": "Builtin modules",
+                "name": "path",
                 "recommendation-type": "opinion",
                 "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
                 "resources": [
@@ -2019,7 +2019,7 @@
                 "options": []
               },
               {
-                "name": "Builtin modules",
+                "name": "url",
                 "recommendation-type": "opinion",
                 "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
                 "resources": [
@@ -2035,7 +2035,7 @@
                 "options": []
               },
               {
-                "name": "Builtin modules",
+                "name": "events",
                 "recommendation-type": "opinion",
                 "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
                 "resources": [
@@ -2051,7 +2051,7 @@
                 "options": []
               },
               {
-                "name": "Builtin modules",
+                "name": "http",
                 "recommendation-type": "opinion",
                 "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
                 "resources": [
@@ -2067,7 +2067,7 @@
                 "options": []
               },
               {
-                "name": "Builtin modules",
+                "name": "console",
                 "recommendation-type": "opinion",
                 "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
                 "resources": [
@@ -2083,7 +2083,7 @@
                 "options": []
               },
               {
-                "name": "Builtin modules",
+                "name": "assert",
                 "recommendation-type": "opinion",
                 "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
                 "resources": [
@@ -2099,7 +2099,7 @@
                 "options": []
               },
               {
-                "name": "Builtin modules",
+                "name": "process",
                 "recommendation-type": "opinion",
                 "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
                 "resources": [
@@ -2115,7 +2115,7 @@
                 "options": []
               },
               {
-                "name": "Builtin modules",
+                "name": "cluster",
                 "recommendation-type": "opinion",
                 "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
                 "resources": [
@@ -2127,11 +2127,10 @@
                     "name": "Built-in modules - w3schools",
                     "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
                   }
-                ],
-                "options": []
+                ]
               },
               {
-                "name": "Builtin modules",
+                "name": "perf_hooks",
                 "recommendation-type": "opinion",
                 "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
                 "resources": [
@@ -2143,11 +2142,10 @@
                     "name": "Built-in modules - w3schools",
                     "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
                   }
-                ],
-                "options": []
+                ]
               },
               {
-                "name": "Builtin modules",
+                "name": "crypto",
                 "recommendation-type": "opinion",
                 "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
                 "resources": [
@@ -2159,11 +2157,10 @@
                     "name": "Built-in modules - w3schools",
                     "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
                   }
-                ],
-                "options": []
+                ]
               },
               {
-                "name": "Builtin modules",
+                "name": "Buffer",
                 "recommendation-type": "opinion",
                 "description": "Discover built-in modules in Node.js, modules that come pre-installed and do not require additional package manager installation. Explore various modules like path: to handle file paths.url: help in parsing URL strings.http: making Node.js transfer data over HTTP.console: to log information in the console.assert: provides a set of assertion tests.process: provides information about, and control over, the current process.cluster: able to creating child processes that runs simultaneously and share the same server portperf_hooks: provides APIs for performance measuremen tcrypto: to handle OpenSSL cryptographic functions.Buffer: provides APIs to handling streams of binary data.DNS: enables name resolution.events: for handling existing events and creating custeventschild_processes: provides the ability to spawn subprocessesREPL: provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.readline: provides an interface for reading data from a Readable stream one line at a timeutil: supports the needs of Node.js internal APIs.querystring: provides utilities for parsing and formatting URL query strings.string_decoder: provides an API for decoding Buffer objects into strings.tls: provides an implementation of the Transport Layer Security (TLS) and Secure Socket Laye protocol",
                 "resources": [
@@ -2175,8 +2172,7 @@
                     "name": "Built-in modules - w3schools",
                     "link": "https://www.w3schools.com/nodejs/ref_modules.asp"
                   }
-                ],
-                "options": []
+                ]
               }
             ]
           }
