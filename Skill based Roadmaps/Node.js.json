@@ -33,7 +33,7 @@
             "resources": [
               {
                 "name": "Differences between Node.js and the Browser",
-                "link": ""
+                "link": "https://nodejs.org/en/learn/getting-started/differences-between-nodejs-and-the-browser/"
               }
             ]
           },
@@ -44,7 +44,7 @@
             "resources": [
               {
                 "name": "Run Node.js from Command Line",
-                "link": ""
+                "link": "https://nodejs.org/en/learn/command-line/run-nodejs-scripts-from-the-command-line/"
               }
             ]
           },
@@ -55,19 +55,19 @@
             "resources": [
               {
                 "name": "Official Website",
-                "link": ""
+                "link": "https://nodejs.org/en/about/"
               },
               {
                 "name": "Node.JS Introduction",
-                "link": ""
+                "link": "https://www.w3schools.com/nodejs/nodejs_intro.asp"
               },
               {
                 "name": "What is Node.js?",
-                "link": ""
+                "link": "https://nodejs.dev/en/learn/"
               },
               {
                 "name": "How Node.js Works?",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=jOupHNvDIq8"
               }
             ]
           },
@@ -78,19 +78,19 @@
             "resources": [
               {
                 "name": "Pros of Node.js",
-                "link": ""
+                "link": "https://www.freecodecamp.org/news/what-are-the-advantages-of-node-js/"
               },
               {
                 "name": "Learn Node.js",
-                "link": ""
+                "link": "https://nodejs.dev/en/learn/"
               },
               {
                 "name": "Why Choose Node.js?",
-                "link": ""
+                "link": "https://medium.com/selleo/why-choose-node-js-b0091ad6c3fc"
               },
               {
                 "name": "5 Reasons to Choose Node.js",
-                "link": ""
+                "link": "https://www.bitovi.com/blog/5-reasons-to-choose-nodejs"
               }
             ]
           },
@@ -101,11 +101,11 @@
             "resources": [
               {
                 "name": "Rising Stack - History of Node.js on a Timeline",
-                "link": ""
+                "link": "https://blog.risingstack.com/history-of-node-js/"
               },
               {
                 "name": "SAP Press - How Did Node.js Come About?",
-                "link": ""
+                "link": "https://blog.sap-press.com/how-did-node.js-come-about"
               }
             ]
           }
@@ -116,23 +116,23 @@
         "resources": [
           {
             "name": "Modules: CommonJS modules",
-            "link": ""
+            "link": "https://nodejs.org/api/modules.html#modules-commonjs-modules"
           },
           {
             "name": "CommonJS vs. ES modules in Node.js",
-            "link": ""
+            "link": "https://blog.logrocket.com/commonjs-vs-es-modules-node-js/"
           },
           {
             "name": "More about modules",
-            "link": ""
+            "link": "https://www.geeksforgeeks.org/node-js-modules/"
           },
           {
             "name": "Using Modules",
-            "link": ""
+            "link": "https://www.freecodecamp.org/news/modular-programming-nodejs-npm-modules/"
           },
           {
             "name": "Modules in Node.js",
-            "link": ""
+            "link": "https://www.youtube.com/watch?v=9Amxzvq5LY8&"
           }
         ],
         "order": 4,
@@ -144,19 +144,19 @@
             "resources": [
               {
                 "name": "How to Create Modules in Node.js?",
-                "link": ""
+                "link": "https://www.geeksforgeeks.org/how-to-create-modules-in-node-js/"
               },
               {
                 "name": "Creating a Module in Node.js",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=Cxo4UKpHv5s"
               },
               {
                 "name": "CommonJS vs ESM in Node.js",
-                "link": ""
+                "link": "https://blog.logrocket.com/commonjs-vs-es-modules-node-js/"
               },
               {
                 "name": "Modules and Imports in Node.js",
-                "link": ""
+                "link": "https://reflectoring.io/nodejs-modules-imports/"
               }
             ]
           },
@@ -167,15 +167,15 @@
             "resources": [
               {
                 "name": "global Keyword in Node.js",
-                "link": ""
+                "link": "https://nodejs.org/api/globals.html#global"
               },
               {
                 "name": "What is Global Object?",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=jn8PZNBmKm0"
               },
               {
                 "name": "Global Object in Node",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=PY-AycMkEAg"
               }
             ]
           },
@@ -186,77 +186,77 @@
             "resources": [
               {
                 "name": "CommonJS vs ESM",
-                "link": ""
+                "link": "https://blog.logrocket.com/commonjs-vs-es-modules-node-js/"
               },
               {
                 "name": "Using CommonJS",
-                "link": ""
+                "link": "https://www.javascripttutorial.net/nodejs-tutorial/nodejs-modules/"
               },
               {
                 "name": "Using ES Modules",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=pP4kjXykbio"
               },
               {
                 "name": "Using Modules",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=pP4kjXykbio"
               },
               {
                 "name": "CommonJS vs. ES Modules: Modules and Imports in NodeJS",
-                "link": ""
+                "link": "https://reflectoring.io/nodejs-modules-imports/"
               }
             ],
             "options": [
               {
-                "name": "CommonJS vs ESM",
+                "name": "CommonJS ",
                 "recommendation-type": "opinion",
                 "description": "CommonJS and ES (EcmaScript) are module systems used in Node. Explore the differences between CommonJS and ESM in NodeJS in the provided resources.",
                 "resources": [
                   {
                     "name": "CommonJS vs ESM",
-                    "link": ""
+                    "link": "https://blog.logrocket.com/commonjs-vs-es-modules-node-js/"
                   },
                   {
                     "name": "Using CommonJS",
-                    "link": ""
+                    "link": "https://www.javascripttutorial.net/nodejs-tutorial/nodejs-modules/"
                   },
                   {
                     "name": "Using ES Modules",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=pP4kjXykbio"
                   },
                   {
                     "name": "Using Modules",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=pP4kjXykbio"
                   },
                   {
                     "name": "CommonJS vs. ES Modules: Modules and Imports in NodeJS",
-                    "link": ""
+                    "link": "https://reflectoring.io/nodejs-modules-imports/"
                   }
                 ]
               },
               {
-                "name": "CommonJS vs ESM",
+                "name": " ESM",
                 "recommendation-type": "opinion",
                 "description": "CommonJS and ES (EcmaScript) are module systems used in Node. Explore the differences between CommonJS and ESM in NodeJS in the provided resources.",
                 "resources": [
                   {
                     "name": "CommonJS vs ESM",
-                    "link": ""
+                    "link": "https://blog.logrocket.com/commonjs-vs-es-modules-node-js/"
                   },
                   {
                     "name": "Using CommonJS",
-                    "link": ""
+                    "link": "https://www.javascripttutorial.net/nodejs-tutorial/nodejs-modules/"
                   },
                   {
                     "name": "Using ES Modules",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=pP4kjXykbio"
                   },
                   {
                     "name": "Using Modules",
-                    "link": ""
+                    "link": "https://www.youtube.com/watch?v=pP4kjXykbio"
                   },
                   {
                     "name": "CommonJS vs. ES Modules: Modules and Imports in NodeJS",
-                    "link": ""
+                    "link": "https://reflectoring.io/nodejs-modules-imports/"
                   }
                 ]
               }
@@ -269,23 +269,23 @@
         "resources": [
           {
             "name": "What is npm?",
-            "link": ""
+            "link": "https://nodejs.dev/en/learn/an-introduction-to-the-npm-package-manager/"
           },
           {
             "name": "An introduction to the npm package manager",
-            "link": ""
+            "link": "https://nodejs.dev/en/learn/an-introduction-to-the-npm-package-manager/"
           },
           {
             "name": "Official Website",
-            "link": ""
+            "link": "https://www.npmjs.com/"
           },
           {
             "name": "Official Documentation",
-            "link": ""
+            "link": "https://docs.npmjs.com/"
           },
           {
             "name": "NPM Crash Course",
-            "link": ""
+            "link": "https://www.youtube.com/watch?v=jHDhaSSKmB0"
           }
         ],
         "order": 5,
@@ -297,38 +297,38 @@
             "resources": [
               {
                 "name": "Introduction to the npx Node.js Package Runner",
-                "link": ""
+                "link": "https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b"
               },
               {
                 "name": "npm vs npx — What’s the Difference?",
-                "link": ""
+                "link": "https://www.freecodecamp.org/news/npm-vs-npx-whats-the-difference/"
               },
               {
                 "name": "Official Documentation",
-                "link": ""
+                "link": "https://docs.npmjs.com/cli/v7/commands/npx/"
               }
             ]
           },
           {
-            "name": "Global Install vs Local Install",
+            "name": " Installing package",
             "recommendation-type": "opinion",
             "description": "NodeJS and NPM allow two methods of installing dependencies/packages: Local and Global. This is mainly used when adding a package or dependency as part of a specific project you’re working on. The package would be installed (with its dependencies) in node_modules folder under your project. In addition, in package.json file there will be a new line added for the installed dependency under the label dependencies. At this point - you can start using the package in your NodeJS code by importing the package. Unlike the local install, you can install packages and dependencies globally. This would install it in a system path, and these packages would be available to any program which runs on this specific computer. This method is often used for installing command line tools (for example, even npm program is a Globally installed npm package).",
             "resources": [
               {
                 "name": "Downloading and installing packages locally",
-                "link": ""
+                "link": "https://docs.npmjs.com/downloading-and-installing-packages-locally"
               },
               {
                 "name": "Downloading and installing packages globally",
-                "link": ""
+                "link": "https://docs.npmjs.com/downloading-and-installing-packages-globally"
               },
               {
                 "name": "NPM Install Docs",
-                "link": ""
+                "link": "https://docs.npmjs.com/cli/v8/commands/npm-install"
               },
               {
                 "name": "What is global installation of dependencies in Node.js?",
-                "link": ""
+                "link": "https://www.geeksforgeeks.org/what-is-global-installation-of-dependencies-in-node-js/"
               }
             ],
             "options": [
@@ -339,19 +339,19 @@
                 "resources": [
                   {
                     "name": "Downloading and installing packages locally",
-                    "link": ""
+                    "link": "https://docs.npmjs.com/downloading-and-installing-packages-locally"
                   },
                   {
                     "name": "Downloading and installing packages globally",
-                    "link": ""
+                    "link": "https://docs.npmjs.com/downloading-and-installing-packages-globally"
                   },
                   {
                     "name": "NPM Install Docs",
-                    "link": ""
+                    "link": "https://docs.npmjs.com/cli/v8/commands/npm-install"
                   },
                   {
                     "name": "What is global installation of dependencies in Node.js?",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/what-is-global-installation-of-dependencies-in-node-js/"
                   }
                 ]
               },
@@ -362,19 +362,19 @@
                 "resources": [
                   {
                     "name": "Downloading and installing packages locally",
-                    "link": ""
+                    "link": "https://docs.npmjs.com/downloading-and-installing-packages-locally"
                   },
                   {
                     "name": "Downloading and installing packages globally",
-                    "link": ""
+                    "link": "https://docs.npmjs.com/downloading-and-installing-packages-globally"
                   },
                   {
                     "name": "NPM Install Docs",
-                    "link": ""
+                    "link": "https://docs.npmjs.com/cli/v8/commands/npm-install"
                   },
                   {
                     "name": "What is global installation of dependencies in Node.js?",
-                    "link": ""
+                    "link": "https://www.geeksforgeeks.org/what-is-global-installation-of-dependencies-in-node-js/"
                   }
                 ]
               }
@@ -387,15 +387,15 @@
             "resources": [
               {
                 "name": "How to update?",
-                "link": ""
+                "link": "https://www.freecodecamp.org/news/how-to-update-npm-dependencies/"
               },
               {
                 "name": "Updating dependencies",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=Ghdfdq17JAY"
               },
               {
                 "name": "Updating packages downloaded from the registry",
-                "link": ""
+                "link": "https://docs.npmjs.com/updating-packages-downloaded-from-the-registry"
               }
             ]
           },
@@ -406,7 +406,7 @@
             "resources": [
               {
                 "name": "How to import and use npm modules",
-                "link": ""
+                "link": "https://learn.coderslang.com/0014-how-to-import-and-use-npm-modules/"
               }
             ]
           },
@@ -417,15 +417,15 @@
             "resources": [
               {
                 "name": "Example of Running Scripts",
-                "link": ""
+                "link": "https://riptutorial.com/node-js/example/4592/running-scripts"
               },
               {
                 "name": "Introduction to NPM Scripts",
-                "link": ""
+                "link": "https://www.geeksforgeeks.org/introduction-to-npm-scripts/"
               },
               {
                 "name": "Running Scripts",
-                "link": ""
+                "link": "https://docs.npmjs.com/downloading-and-installing-packages-locally"
               }
             ]
           },
@@ -436,11 +436,11 @@
             "resources": [
               {
                 "name": "npm workspaces",
-                "link": ""
+                "link": "https://docs.npmjs.com/cli/v8/using-npm/workspaces"
               },
               {
                 "name": "Getting Started with Npm Workspaces",
-                "link": ""
+                "link": "https://ruanmartinelli.com/posts/npm-7-workspaces-1"
               }
             ]
           },
@@ -500,11 +500,11 @@
         "resources": [
           {
             "name": "Node.js Error Handling Best Practices",
-            "link": ""
+            "link": "https://sematext.com/blog/node-js-error-handling"
           },
           {
             "name": "Error handling in Node.js",
-            "link": ""
+            "link": "https://blog.logrocket.com/error-handling-node-js/"
           }
         ],
         "order": 6,
@@ -516,49 +516,15 @@
             "resources": [
               {
                 "name": "Official Website",
-                "link": ""
+                "link": "https://nodejs.org/api/process.html#event-uncaughtexception"
               },
               {
                 "name": "Let It Crash: Best Practices for Handling Node.js Errors on Shutdown",
-                "link": ""
+                "link": "https://blog.heroku.com/best-practices-nodejs-errors"
               },
               {
                 "name": "Uncaught Exceptions in Node.js",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "Stack Trace",
-            "recommendation-type": "opinion",
-            "description": "A stack trace helps trace active stack frames during program execution, aiding in debugging. Learn more about stack traces and how to use them in Node.js.",
-            "resources": [
-              {
-                "name": "What is Stack trace?",
-                "link": ""
-              },
-              {
-                "name": "What is stacktrace and how to print in node.js?",
-                "link": ""
-              },
-              {
-                "name": "Multiple ways to log the stack trace in node.js",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "Using debugger",
-            "recommendation-type": "opinion",
-            "description": "Node.js includes a command-line debugging utility. Explore how to use the Node.js debugger to inspect and debug your code effectively.",
-            "resources": [
-              {
-                "name": "Official Website",
-                "link": ""
-              },
-              {
-                "name": "Node.js Debugging",
-                "link": ""
+                "link": "https://shapeshed.com/uncaught-exceptions-in-node/"
               }
             ]
           },
@@ -569,11 +535,11 @@
             "resources": [
               {
                 "name": "Node.js Errors",
-                "link": ""
+                "link": "https://nodejs.org/api/errors.html"
               },
               {
                 "name": "MDN: JavaScript Error Object",
-                "link": ""
+                "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error"
               }
             ],
             "options": [
@@ -584,7 +550,7 @@
                 "resources": [
                   {
                     "name": "Error Types in JavaScript",
-                    "link": ""
+                    "link": "https://blog.bitsrc.io/types-of-native-errors-in-javascript-you-must-know-b8238d40e492"
                   }
                 ]
               },
@@ -595,7 +561,7 @@
                 "resources": [
                   {
                     "name": "Node.js Errors - Official Docs",
-                    "link": ""
+                    "link": "https://nodejs.org/api/errors.html#errors_class_systemerror"
                   }
                 ]
               },
@@ -606,7 +572,7 @@
                 "resources": [
                   {
                     "name": "A Comprehensive Guide To Error Handling In Node.js",
-                    "link": ""
+                    "link": "https://www.honeybadger.io/blog/errors-nodejs/"
                   }
                 ]
               },
@@ -617,13 +583,47 @@
                 "resources": [
                   {
                     "name": "Node.js Assert",
-                    "link": ""
+                    "link": "https://nodejs.org/api/assert.html#new-assertassertionerroroptions"
                   },
                   {
                     "name": "Node.js Error Handling - AssertionError",
-                    "link": ""
+                    "link": "https://blog.airbrake.io/blog/nodejs-error-handling/assertionerror-nodejs"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "name": "Stack Trace",
+            "recommendation-type": "opinion",
+            "description": "A stack trace helps trace active stack frames during program execution, aiding in debugging. Learn more about stack traces and how to use them in Node.js.",
+            "resources": [
+              {
+                "name": "What is Stack trace?",
+                "link": "https://www.geeksforgeeks.org/what-is-stacktrace-and-how-to-print-in-node-js/"
+              },
+              {
+                "name": "What is stacktrace and how to print in node.js?",
+                "link": "https://www.geeksforgeeks.org/what-is-stacktrace-and-how-to-print-in-node-js/"
+              },
+              {
+                "name": "Multiple ways to log the stack trace in node.js",
+                "link": "https://www.cloudhadoop.com/nodejs-print-stack-trace-error/"
+              }
+            ]
+          },
+          {
+            "name": "Using debugger",
+            "recommendation-type": "opinion",
+            "description": "Node.js includes a command-line debugging utility. Explore how to use the Node.js debugger to inspect and debug your code effectively.",
+            "resources": [
+              {
+                "name": "Official Website",
+                "link": "https://nodejs.org/api/debugger.html"
+              },
+              {
+                "name": "Node.js Debugging",
+                "link": "https://www.geeksforgeeks.org/node-js-debugging/"
               }
             ]
           },
@@ -634,7 +634,7 @@
             "resources": [
               {
                 "name": "Async Errors",
-                "link": ""
+                "link": "https://www.mariokandut.com/handling-errors-in-asynchronous-functions-node-js/"
               }
             ]
           }
