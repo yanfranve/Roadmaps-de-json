@@ -952,46 +952,46 @@
               {
                 "name": "TCP",
                 "recommendation-type": "opinion",
-                "description": "TCP is a connection-oriented protocol over an IP network. Connection is established and terminated using a handshake. All packets sent are guaranteed to reach the destination in the original order and without corruption through sequence numbers and checksum fields for each packet. Acknowledgement packets and automatic retransmission occur if the sender does not receive a correct response. TCP also implements flow control and congestion control. These guarantees cause delays and generally result in less efficient transmission than UDP. TCP is useful for applications that require high reliability but are less time-critical, such as web servers, database info, SMTP, FTP, and SSH.",
+                "description": "TCP is a connection-oriented protocol over an IP network. Connection is established and terminated using a handshake. All packets sent are guaranteed to reach the destination in the original order and without corruption through:Sequence numbers and checksum fields for each packetAcknowledgement packets and automatic retrans missionf the sender does not receive a correct response, it will resend the packets. If there are multiple timeouts, the connection is dropped. TCP also implements flow control and congestion control. These guarantees cause delays and generally result in less efficient transmission than UDP.To ensure high throughput, web servers can keep a large number of TCP connections open, resulting in high memory usage. It can be expensive to have a large number of open connections between web server threads and say, a memcached server. Connection pooling can help in addition to switching to UDP where applicable.TCP is useful for applications that require high reliability but are less time critical. Some examples include web servers, database info, SMTP, FTP, and SSH.Use TCP over UDP when:You need all of the data to arrive intactYou want to automatically make a best estimate use of the network throughput",
                 "resources": [
                   {
                     "name": "What Is TCP?",
-                    "link": ""
+                    "link": "https://github.com/donnemartin/system-design-primer#TCP"
                   },
                   {
                     "name": "What is the difference between HTTP protocol and TCP protocol?",
-                    "link": ""
+                    "link": "https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol"
                   },
                   {
                     "name": "Networking for game programming",
-                    "link": ""
+                    "link": "http://gafferongames.com/networking-for-game-programmers/udp-vs-tcp/"
                   },
                   {
                     "name": "Key differences between TCP and UDP protocols",
-                    "link": ""
+                    "link": "http://www.cyberciti.biz/faq/key-differences-between-tcp-and-udp-protocols/"
                   },
                   {
                     "name": "Difference between TCP and UDP",
-                    "link": ""
+                    "link": "http://stackoverflow.com/questions/5970383/difference-between-tcp-and-udp"
                   },
                   {
                     "name": "Transmission control protocol",
-                    "link": ""
+                    "link": "https://en.wikipedia.org/wiki/Transmission_Control_Protocol"
                   },
                   {
                     "name": "User datagram protocol",
-                    "link": ""
+                    "link": "https://en.wikipedia.org/wiki/User_Datagram_Protocol"
                   },
                   {
                     "name": "Scaling memcache at Facebook",
-                    "link": ""
+                    "link": "http://www.cs.bu.edu/~jappavoo/jappavoo.github.com/451/papers/memcache-fb.pdf"
                   }
                 ]
               },
               {
                 "name": "UDP",
                 "recommendation-type": "opinion",
-                "description": "UDP is connectionless. Datagrams (analogous to packets) are guaranteed only at the datagram level. Datagrams might reach their destination out of order or not at all. UDP does not support congestion control. UDP is generally more efficient and is suitable for real-time use cases such as VoIP, video chat, streaming, and realtime multiplayer games.",
+                "description": "UDP is connectionless. Datagrams (analogous to packets) are guaranteed only at the datagram level. Datagrams might reach their destination out of order or not at all. UDP does not support congestion control. UDP is generally more efficient and is suitable for real-time use cases such as VoIP, video chat, streaming, and realtime multiplayer games.Use UDP over TCP when:You need the lowest latencyLate data is worse than loss of dataYou want to implement your own error correctionTo learn more, visit the following link:",
                 "resources": [
                   {
                     "name": "Networking for game programming",
@@ -999,23 +999,23 @@
                   },
                   {
                     "name": "Key differences between TCP and UDP protocols",
-                    "link": ""
+                    "link": "http://gafferongames.com/networking-for-game-programmers/udp-vs-tcp/"
                   },
                   {
                     "name": "Difference between TCP and UDP",
-                    "link": ""
+                    "link": "http://www.cyberciti.biz/faq/key-differences-between-tcp-and-udp-protocols/"
                   },
                   {
                     "name": "Transmission control protocol",
-                    "link": ""
+                    "link": "http://stackoverflow.com/questions/5970383/difference-between-tcp-and-udp"
                   },
                   {
                     "name": "User datagram protocol",
-                    "link": ""
+                    "link": "https://en.wikipedia.org/wiki/User_Datagram_Protocol"
                   },
                   {
                     "name": "Scaling memcache at Facebook",
-                    "link": ""
+                    "link": "http://www.cs.bu.edu/~jappavoo/jappavoo.github.com/451/papers/memcache-fb.pdf"
                   }
                 ]
               },
@@ -2033,11 +2033,18 @@
           }
         ]
       },
-      "U": {
-        "description": " ",
-        "resources": [],
-        "order": 20,
-        "options": []
+      "Continue Learning with following relevant tracks": {
+        "resources": [
+          {
+            "name": "Software Design & Architecture Roadmap",
+            "link": "https://roadmap.sh/software-design-architecture"
+          },
+          {
+            "name": "Backend Roadmap",
+            "link": "https://roadmap.sh/backend"
+          }
+        ],
+        "order": 20
       }
     }
   }
