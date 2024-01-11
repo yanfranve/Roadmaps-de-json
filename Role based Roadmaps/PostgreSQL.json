@@ -885,7 +885,7 @@
             },
             "PostgreSQL Security Concepts": {
                 "order": 6,
-                "options": [
+                "options": [n
                     {
                         "name": "",
                         "recommendation-type": "opinion",
