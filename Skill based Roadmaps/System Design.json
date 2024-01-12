@@ -186,7 +186,41 @@
           }
         ],
         "order": 5,
-        "options": []
+        "options": [
+          {
+            "name": "Weak Consistency",
+            "recommendation-type": "opinion",
+            "description": "After an update is made to the data, it is not guaranteed that any subsequent read operation will immediately reflect the changes made. The read may or may not see the recent write.",
+            "resources": [
+              {
+                "name": "Consistency Patterns in Distributed Systems",
+                "link": "https://cs.fyi/guide/consistency-patterns-week-strong-eventual/"
+              }
+            ]
+          },
+          {
+            "name": "Eventual Consistency",
+            "recommendation-type": "opinion",
+            "description": "Eventual consistency is a form of Weak Consistency. After an update is made to the data, it will be eventually visible to any subsequent read operations. The data is replicated in an asynchronous manner, ensuring that all copies of the data are eventually updated.",
+            "resources": [
+              {
+                "name": "Consistency Patterns in Distributed Systems",
+                "link": "https://cs.fyi/guide/consistency-patterns-week-strong-eventual/"
+              }
+            ]
+          },
+          {
+            "name": "Strong Consistency",
+            "recommendation-type": "opinion",
+            "description": "After an update is made to the data, it will be immediately visible to any subsequent read operations. The data is replicated in a synchronous manner, ensuring that all copies of the data are updated at the same time.",
+            "resources": [
+              {
+                "name": "Consistency Patterns in Distributed Systems",
+                "link": "https://cs.fyi/guide/consistency-patterns-week-strong-eventual/"
+              }
+            ]
+          }
+        ]
       },
       "Availability Patterns": {
         "description": "Availability is measured as a percentage of uptime, and defines the proportion of time that a system is functional and working. Availability is affected by system errors, infrastructure problems, malicious attacks, and system load. Cloud applications typically provide users with a service level agreement (SLA), which means that applications must be designed and implemented to maximize availability. ",
@@ -341,7 +375,41 @@
           }
         ],
         "order": 7,
-        "options": []
+        "options": [
+          {
+            "name": "Returning Results - Background Jobs",
+            "recommendation-type": "opinion",
+            "description": "Background jobs execute asynchronously in a separate process, or even in a separate location, from the UI or the process that invoked the background task. Ideally, background tasks are 'fire and forget' operations, and their execution progress has no impact on the UI or the calling process. This means that the calling process does not wait for completion of the tasks. Therefore, it cannot automatically detect when the task ends.",
+            "resources": [
+              {
+                "name": "",
+                "link": ""
+              }
+            ]
+          },
+          {
+            "name": "Schedule Driven - Background Jobs",
+            "recommendation-type": "opinion",
+            "description": "Schedule-driven invocation uses a timer to start the background task. Examples include a timer running locally within the application or as part of the application’s operating system, a timer running in a different application (e.g., Azure Logic Apps) sending requests to an API or web service, or a separate process or application starting a timer. This approach is suitable for batch-processing routines, routine data processing tasks, data analysis for daily reports, data retention cleanup, and data consistency checks.",
+            "resources": [
+              {
+                "name": "Schedule Driven - Background Jobs",
+                "link": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/background-jobs#schedule-driven-triggers"
+              }
+            ]
+          },
+          {
+            "name": "Event Driven - Background Jobs",
+            "recommendation-type": "opinion",
+            "description": "Event-driven invocation uses a trigger to start the background task. Examples of using event-driven triggers include:The UI or another job places a message in a queue. The message contains data about an action that has taken place, such as the user placing an order. The background task listens on this queue and detects the arrival of a new message. It reads the message and uses the data in it as the input to the background job. This pattern is known as asynchronous message-based communication.The UI or another job saves or updates a value in storage. The background task monitors the storage and detects changes. It reads the data and uses it as the input to the background job.The UI or another job makes a request to an endpoint, such as an HTTPS URI, or an API that is exposed as a web service. It passes the data that is required to complete the background task as part of the request. The endpoint or web service invokes the background task, which uses the data as its input.",
+            "resources": [
+              {
+                "name": "Background Jobs - Event Driven Triggers",
+                "link": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/background-jobs#event-driven-triggers"
+              }
+            ]
+          }
+        ]
       },
       "Domain Name System": {
         "description": " A Domain Name System (DNS) translates a domain name such as www.example.com to an IP address.DNS is hierarchical, with a few authoritative servers at the top level. Your router or ISP provides information about which DNS server(s) to contact when doing a lookup. Lower level DNS servers cache mappings, which could become stale due to DNS propagation delays. DNS results can also be cached by your browser or OS for a certain period of time, determined by the time to live (TTL).NS record (name server) - Specifies the DNS servers for your domain/subdomain.MX record (mail exchange) - Specifies the mail servers for accepting messages.A record (address) - Points a name to an IP addreCNAME (canonical) - Points a name to another name or CNAME (example.com to www.example.cto an A reco Services such as CloudFlare and Route53 provide managed DNS services. Some DNS servicroute traffic through various methods:Weighted Round RoPrevent traffic from going to servers under maintenaBalance between varying clussiA/B testing",
@@ -789,12 +857,7 @@
             "name": "Client Caching",
             "recommendation-type": "opinion",
             "description": "Client-side caching refers to the practice of storing frequently accessed data on the client’s device rather than the server. This type of caching can help improve the performance of an application by reducing the number of times the client needs to request data from the server. One common example of client-side caching is web browsers caching frequently accessed web pages and resources.When a user visits a web page, the browser stores a copy of the page and its resources (such as images, stylesheets, and scripts) in the browser’s cache. If the user visits the same page again, the browser can retrieve the cached version of the page and its resources instead of requesting them from the server, which can reduce the load time of the page.Another example of client-side caching is application-level caching. Some applications, such as mobile apps, can cache data on the client’s device to improve performance and reduce the amount of data that needs to be transferred over the network.Client side caching has some advantages like reducing server load, faster page load times, and reducing network traffic. However, it also has some drawbacks like the potential for stale data if the client-side cache is not properly managed, or consuming memory or disk space on the client’s device.",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
+            "resources": []
           },
           {
             "name": "CDN Caching",
