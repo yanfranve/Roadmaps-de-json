@@ -1,0 +1,335 @@
+{
+  "roles": {
+    "Cyber Security Expert ": {
+      "description": " Step by step guide to becoming a Cyber Security Expert in 2024",
+      "Fundamental IT Skills": {
+        "description": "Basic IT skills are the foundation for understanding and navigating the digital world, as well as playing a crucial role in cyber security. Given below are some essential IT skills that will help you enhance your experience with technology and better protect your digital assets.Computer NavigationUnderstanding how to navigate a computer’s operating system is a vital skill. This includes knowing how to:Power on/off the device Manage files and foldersUse shortcuts and right-click optionsInstall and uninstall softwareCustomize settingsInternet UsageHaving a working knowledge of how to navigate the internet will allow you to access information and resources more efficiently. Key skills include:Web browsingInternet searching Bookmark managementDownloading fileUnderstanding hyperlinks and web addressesRecognizing secure websitesEmail ManagementCommunication using email is an essential aspect of the modern digital world. Important email management skills are:Creating and organizing contactsComposing, sending, and receiving emailsDetecting and avoiding spam and phishing emailsManaging email attachmentsUnderstanding email etiquetteWord ProcessingWord processing is a basic IT skill that is useful in both personal and professional environments. Skills related to word processing include:Formatting text (font, size, bold, italic, etc.)Creating and editing documentsCopying and pasting textInserting images and tablesSaving and printing documentsSoftware and Application InstallationBeing able to install and manage software can make your experience with technology more efficient and tailored to your needs. Basic software-related skills include:Identifying reliable sources for downloading softwareInstalling and updating applicationsUninstalling unwanted or unnecessary programsConfiguring applications according to your preferencesUpdating software to prevent vulnerabilitiesDigital Security AwarenessAs the digital world is constantly evolving, so too are cyber threats. Therefore, remaining vigilant and familiarizing yourself with common cyber security practices is crucial. Some fundamental digital security skills include:Creating strong, unique passwordsEnsuring a secure and updated Wi-Fi connectionRecognizing and avoiding phishing attemKeeping software and operating systems updatedRegularly backing up dataBy honing these basic IT skills, you will be better prepared to navigate and protect your digital life, as well as making the most of the technology at your fingertips. ",
+        "resources": [
+          {
+            "name": "IT skills Training for beginners | Complete Course",
+            "link": "https://www.youtube.com/watch?v=On6dsIp5yw0"
+          }
+        ],
+        "order": 1,
+        "options": [
+          {
+            "name": "Computer Hardware Components",
+            "recommendation-type": "opinion",
+            "description": "When it comes to understanding basic IT skills, one cannot overlook the importance of familiarizing yourself with the essential computer hardware components. These are the physical parts that make up a computer system, and understanding their functions will help you troubleshoot issues and maintain your device better. Here’s a brief overview of some of the primary computer hardware components:\n\n**Central Processing Unit (CPU)**\nThe CPU serves as the heart and brain of a computer. It performs all the processing inside the computer and is responsible for executing instructions, performing calculations, and managing the flow of data.\n\nKey Points:\n- Considered the “brain” of the computer.\n- Performs all the major processes and calculations.\n\n**Motherboard**\nThe motherboard is the main circuit board that connects all components of the computer. It provides a central hub for communication between the CPU, memory, and other hardware components.\n\nKey Points:\n- Connects all other hardware components.\n- Allows components to communicate with each other.\n\n**Memory (RAM)**\nRandom Access Memory (RAM) is where data is temporarily stored while the computer is powered on. The data is constantly accessed, written, and rewritten by the CPU. The more RAM a system has, the more tasks it can process simultaneously.\n\nKey Points:\n- Temporary storage for data while the computer is on.\n- More RAM allows for better multitasking.\n\n**Storage (Hard Drives)**\nStorage devices like hard disk drives (HDD) or solid-state drives (SSD) are used to store data permanently on the computer, even when the device is powered off. Operating systems, software, and user files are stored on these drives.\n\nKey Points:\n- Permanent storage for data.\n- Comes in HDD and SSD types, with SSDs being faster but more expensive.\n\n**Graphics Processing Unit (GPU)**\nThe GPU is responsible for rendering images, videos, and animations on the computer screen. Its main function is to handle and display graphics, making your visuals smooth and responsive.\n\nKey Points:\n- Handles and processes graphics and visuals.\n- Important for gaming, video editing, and graphic design tasks.\n\n**Power Supply Unit (PSU)**\nThe power supply unit provides the necessary power to all components in the computer. It converts the AC power from the wall socket into the DC power that the computer’s components require.\n\nKey Points:\n- Provides power to all computer components.\n- Converts AC power to DC power.\n\n**Input/Output Devices**\nInput devices, such as a mouse, keyboard, or scanner, are used to interact with and input data into the computer. Output devices, like the display monitor and speakers, present information and data in a format we can understand.\n\nKey Points:\n- Input devices allow users to interact with the computer.\n- Output devices present information to the user.\n\nBy understanding these essential computer hardware components, you can enhance your knowledge of how a computer functions and improve your IT troubleshooting and maintenance skills. Happy computing!\n\n[What does what in your computer? Computer parts Explained](link_to_explanation)",
+            "resources": [
+              {
+                "name": "What does what in your computer? Computer parts Explained",
+                "link": "https://youtu.be/ExxFxD4OSZ0"
+              }
+            ]
+          },
+          {
+            "name": "Connection Types and their Function",
+            "recommendation-type": "opinion",
+            "description": "In the realm of cyber security, understanding various connection types is crucial in maintaining a secure network environment. This section will provide you with an overview of different connection types commonly encountered in IT and their impact on security.\n\n**Wired Connections**\nEthernet is the most widespread and commonly used wired connection type. It provides a secure, high-speed data transmission between devices, such as computers, routers, and switches, using Category 5 (Cat5) or higher cables. Ethernet connections are generally considered more reliable and secure compared to wireless connections because they are less vulnerable to interference and unauthorized access.\n\n**USB (Universal Serial Bus)**\nUSB is a popular connection type, primarily used for connecting peripheral devices such as keyboards, mice, and storage devices to computers. While USB provides a convenient way of expanding a computer’s functionality, it also poses security risks. Using untrusted USB devices can lead to the spread of malware, making it essential to ensure that only trusted devices are connected to your system.\n\n**Wireless Connections**\nWi-Fi is the most prevalent wireless connection type, allowing devices to connect to the internet and each other without the need for physical cables. Although Wi-Fi provides greater flexibility and mobility, it introduces additional security risks. To minimize these risks, always use encryption (preferably WPA3 or WPA2), strong passwords, and update your router’s firmware regularly.\n\n**Bluetooth**\nBluetooth is another widely used wireless connection type, primarily designed for short-range communication between devices such as smartphones, speakers, and headsets. While Bluetooth offers convenience, it can also be susceptible to attacks, such as Bluesnarfing and Bluejacking. To mitigate these risks, keep your devices updated, use Bluetooth 4.0 or higher, and disable Bluetooth when not in use.\n\n**Network Connections**\nA VPN is a secure tunnel that creates a private network connection over a public network (such as the internet) by encrypting data transfers between devices. VPNs help protect sensitive information from being intercepted by unauthorized parties and are especially useful when accessing public Wi-Fi hotspots. Always use trusted VPN providers to ensure your data remains encrypted and private.\n\n**Peer-to-Peer (P2P)**\nP2P is a decentralized connection type where devices connect directly with each other, without the need for a central server. P2P is commonly used for file-sharing services and can pose significant security risks if utilized without adequate security measures in place. To minimize risks, avoid using untrusted P2P services and refrain from sharing sensitive information on such networks.\n\nIn summary, understanding and managing different connection types is an essential aspect of cyber security. By using secure connections and taking preventive measures, you can reduce the risk of unauthorized access, data breaches, and other malicious activities.\n\n[Connection & Service Types Pt. 1](link_to_part_1) | [Connection & Services Types Pt. 2](link_to_part_2)",
+            "resources": [
+              {
+                "name": "Connection & Service Types Pt. 1",
+                "link": "https://youtu.be/TzEMiD2mc-Q"
+              },
+              {
+                "name": "Connection & Services Types Pt. 2",
+                "link": "https://youtu.be/4N3M1aKzoyQ"
+              }
+            ],
+            "options": [
+              {
+                "name": "NFC",
+                "recommendation-type": "opinion",
+                "description": "Near Field Communication, or NFC, is a short-range wireless communication technology that enables devices to interact with each other within a close proximity, typically within a few centimeters. It operates at a frequency of 13.56 MHz and can be used for various applications, such as contactless payment systems, secure access control, and data sharing between devices like smartphones, tablets, and other compatible gadgets.\n\n**How NFC works:** When two NFC-enabled devices are brought close to each other, a connection is established, and they can exchange data with each other. This communication is enabled through NFC Tags and NFC Readers. NFC Tags are small integrated circuits that store and transmit data, while NFC Readers are devices capable of reading the data stored in NFC Tags.\n\n**NFC Modes:** NFC operates primarily in three modes:\n- **Reader/Writer Mode**: This mode enables the NFC device to read or write data from or to NFC Tags. For example, you can scan an NFC Tag on a poster to access more information about a product or service.\n- **Peer-to-Peer Mode**: This mode allows two NFC-enabled devices to exchange information directly. Examples include sharing data such as contact information, photos, or connecting devices for multiplayer gaming.\n- **Card Emulation Mode**: This mode allows an NFC device to act like a smart card or access card, enabling contactless payment and secure access control applications.\n\n**Security Concerns:** While NFC brings convenience through its numerous applications, it also poses security risks, and it’s essential to be aware of these. Some possible concerns include:\n- **Eavesdropping**: Attackers can potentially intercept data exchange between NFC devices if they manage to get into the communication range.\n- **Data manipulation**: Attackers might alter or manipulate the data exchanged between the devices.\n- **Unauthorized access**: An attacker can potentially exploit a vulnerability in your device and gain unauthorized access to sensitive information.\n\n**Security Best Practices:** To minimize the risks associated with NFC, follow these best practices:\n- Keep your device’s firmware and applications updated to minimize known vulnerabilities.\n- Use strong and unique passwords for secure NFC applications and services.\n- Turn off NFC when not in use to prevent unauthorized access.\n- Be cautious when scanning unknown NFC Tags and interacting with unfamiliar devices.\n- Ensure you’re using trusted and secure apps to handle your NFC transactions.\n\n**In conclusion,** understanding the basics of NFC and adhering to security best practices will help ensure that you can safely and effectively use this innovative technology.",
+                "resources": [
+                  {
+                    "name": "The Beginner’s Guide to NFCs",
+                    "link": "https://www.spiceworks.com/tech/networking/articles/what-is-near-field-communication/ "
+                  },
+                  {
+                    "name": "NFC Guide: All You Need to Know About Near Field Communication",
+                    "link": "https://squareup.com/us/en/the-bottom-line/managing-your-finances/nfc "
+                  },
+                  {
+                    "name": "NFC Explained: What is NFC? How NFC Works? Applications of NFC",
+                    "link": "https://youtu.be/eWPtt2hLnJk "
+                  }
+                ]
+              },
+              {
+                "name": "WiFi",
+                "recommendation-type": "opinion",
+                "description": "WiFi stands for “wireless fidelity” and is a popular way to connect to the internet without the need for physical cables. It uses radio frequency (RF) technology to communicate between devices, such as routers, computers, tablets, smartphones, and other hardware.\n\n**Advantages of WiFi:** WiFi has several advantages over wired connections, including:\n- **Convenience**: Users can access the internet from anywhere within the WiFi signal’s range, providing flexibility and mobility.\n- **Easy Setup**: WiFi devices connect to the internet simply by entering a password once, without the need for any additional cables or adapters.\n- **Scalability**: WiFi networks can easily expand to accommodate additional devices without the need for significant infrastructure changes.\n\n**Security Risks and WiFi Threats:** Despite its numerous benefits, WiFi also brings potential security risks. Some common threats include:\n- **Eavesdropping**: Hackers can intercept data transmitted over a WiFi connection, potentially accessing sensitive information such as personal or financial details.\n- **Rogue access points**: An unauthorized user could set up a fake WiFi network that appears legitimate, tricking users into connecting and providing access to their devices.\n- **Man-in-the-middle attacks**: An attacker intercepts data transmission between your device and the WiFi network, potentially altering data or injecting malware.\n\n**Best Practices for Secure WiFi Connections:** To protect yourself and your devices, follow these best practices:\n- Use strong encryption: Ensure your WiFi network uses the latest available encryption standards, such as WPA3 or, at minimum, WPA2.\n- Change default credentials: Change the default username and password for your WiFi router to prevent unauthorized access and configuration.\n- Keep your router firmware up to date: Regularly check for and install any available firmware updates to prevent potential security vulnerabilities.\n- Create a guest network: If you have visitors or clients, set up a separate guest network for them to use. This ensures your primary network remains secure.\n- Disable WiFi Protected Setup (WPS): Although WPS can simplify the connection process, it may also create security vulnerabilities. Disabling it forces users to connect via the more secure password method.\n- Use a Virtual Private Network (VPN): Connect to the internet using a VPN, which provides a secure, encrypted tunnel for data transmission.\n\n**In conclusion,** by understanding the potential security risks associated with WiFi connections and following these best practices, you can enjoy the convenience, flexibility, and mobility of WiFi while ensuring a secure browsing experience.",
+                "resources": [
+                  {
+                    "name": "Wireless Networks - Howstuffworks",
+                    "link": "https://computer.howstuffworks.com/wireless-network.htm"
+                  },
+                  {
+                    "name": "That’s How Wi-Fi Works",
+                    "link": "https://youtu.be/hePLDVbULZc"
+                  }
+                ]
+              },
+              {
+                "name": "Bluetooth",
+                "recommendation-type": "opinion",
+                "description": "Bluetooth is a wireless technology used to transfer data between devices over short distances. It operates in the 2.4 GHz frequency band and offers a reasonably secure means of communication between devices like smartphones, computers, headphones, and more.\n\n**Below are some key points about Bluetooth:**\n\n- **Short-range communication**: Bluetooth typically works within a radius of 10 meters (33 feet), giving it a significant advantage in terms of power consumption when compared to other wireless technologies such as Wi-Fi. The short range also reduces the chances of interference between devices.\n- **Low power consumption**: Bluetooth devices are designed to use relatively low power compared to other wireless technologies. This aspect contributes to their widespread adoption in battery-powered devices like wearable gadgets and IoT sensors.\n- **Convenience**: Bluetooth allows for easy, automatic connection between devices once they have been paired. This ‘pair and play’ functionality ensures users can quickly establish connectivity between their devices with minimal effort.\n- **Security**: Bluetooth includes security features like encryption and authentication, which ensure secure communication between paired devices. However, users must remain vigilant in terms of keeping their devices up-to-date with the latest Bluetooth security patches and protocols.\n\n**Potential vulnerabilities:** Despite its built-in security measures, Bluetooth is not immune to cyber attacks. Some common risks include “bluejacking” (unauthorized sending of messages or files), “bluesnarfing” (unauthorized access to device data), and “BlueBorne” (an attack vector that exploits Bluetooth connections to infiltrate devices and spread malware). Users should be cautious in their usage of Bluetooth and follow best practices like not accepting unknown connection requests and turning off Bluetooth when not in use.\n\n**In conclusion,** Bluetooth offers a convenient means of connecting devices wirelessly. While it provides reasonably secure communication, users must stay informed about potential vulnerabilities and follow good security practices to safeguard their devices.",
+                "resources": []
+              },
+              {
+                "name": "Infrared",
+                "recommendation-type": "opinion",
+                "description": "Infrared (IR) is a type of wireless communication technology that utilizes light waves in the electromagnetic spectrum to transmit data between devices. Infrared connections are widely used in short-range communication, commonly found in devices like remote controls, wireless keyboards and mice, and computer-to-printer communication. Let’s take a closer look at the features of infrared connectivity:\n\n**Advantages of Infrared Connections**\n- **Privacy**: Since IR signals don’t penetrate walls, there’s less chance of interference or eavesdropping from neighboring devices.\n- **Ease of setup**: Infrared devices often require minimal setup, making them easy to use and hassle-free.\n- **Low power consumption**: Infrared connections typically consume little power, which is suitable for battery-operated devices.\n\n**Disadvantages of Infrared Connections**\n- **Limited range**: Infrared transmissions have a short range, usually up to only a few meters.\n- **Line-of-sight transmission**: The signal gets blocked if objects are in the way between the sender and the receiver, as IR uses line-of-sight transmission.\n- **Slower data transfer rates**: Infrared connections have slower data transfer rates compared to other wireless technologies like Wi-Fi or Bluetooth.\n\n**Infrared Security Considerations**\nWhile infrared connections are generally secure due to their limited range and inability to penetrate walls, they are still susceptible to attacks. An attacker with direct access to the transmission path can intercept, modify, or inject data into the communication.\n\nTo maintain security in infrared connections, consider the following precautions:\n- **Encryption**: Use encryption methods to protect sensitive data transmitted over infrared connections.\n- **Authentication**: Implement authentication mechanisms that confirm the identities of devices before allowing access.\n- **Physical security**: Ensure that devices using infrared communication are located in secure areas, limiting the possibility of tampering or eavesdropping.\n\nIn summary, infrared is a useful technology for short-range communication purposes with certain benefits, such as privacy and low power consumption. However, it also has limitations and security considerations that must be addressed.",
+                "resources": []
+              }
+            ]
+          },
+          {
+            "name": "OS-Independent Troubleshooting",
+            "recommendation-type": "opinion",
+            "description": "OS-independent troubleshooting techniques are essential for every cybersecurity professional since they allow you to effectively diagnose and resolve issues on any operating system (OS). By using these OS-agnostic skills, you can quickly resolve problems and minimize downtime.\n\n**Understanding Common Symptoms**\nIn order to troubleshoot effectively, it is important to recognize and understand the common symptoms encountered in IT systems. These can range from hardware-related issues, such as overheating or physical damage, to software-related problems, such as slow performance or unresponsiveness.\n\n**Basic Troubleshooting Process**\nFollowing a systematic troubleshooting process is critical, regardless of the operating system. Here are the basic steps you might follow:\n- Identify the problem: Gather information on the issue and its symptoms, and attempt to reproduce the problem, if possible. Take note of any error messages or unusual behaviors.\n- Research and analyze: Search for potential causes and remedies on relevant forums, web resources, or vendor documentation.\n- Develop a plan: Formulate a strategy to resolve the issue, considering the least disruptive approach first, where possible.\n- Test and implement: Execute the proposed solution(s) and verify if the problem is resolved. If not, repeat the troubleshooting process with a new plan until the issue is fixed.\n- Document the process and findings: Record the steps taken, solutions implemented, and results to foster learning and improve future troubleshooting efforts.\n\n**Isolating the Problem**\nTo pinpoint the root cause of an issue, it’s important to isolate the problem. You can perform this by:\n- Disabling or isolating hardware components: Disconnect any peripherals or external devices, then reconnect and test them one by one to identify the defective component(s).\n- Checking resource usage: Utilize built-in or third-party tools to monitor resource usage (e.g., CPU, memory, and disk) to determine whether a bottleneck is causing the problem.\n- Verifying software configurations: Analyze the configuration files or settings for any software or applications that could be contributing to the problem.\n\n**Networking and Connectivity Issues**\nEffective troubleshooting of network-related issues requires an understanding of various protocols, tools, and devices involved in networking. Here are some basic steps you can follow:\n- Verify physical connectivity: Inspect cables, connectors, and devices to ensure all components are securely connected and functioning correctly.\n- Confirm IP configurations: Check the system’s IP address and related settings to ensure it has a valid IP configuration.\n- Test network services: Use command-line tools, such as ping and traceroute (or tracert in Windows), to test network connections and diagnose potential problems.\n\n**Log Analysis**\nLogs are records of system events, application behavior, and user activity, which can be invaluable when troubleshooting issues. To effectively analyze logs, you should:\n- Identify relevant logs: Determine which log files contain information related to the problem under investigation.\n- Analyze log content: Examine events, error messages, or patterns that might shed light on the root cause of the issue.\n- Leverage log-analysis tools: Utilize specialized tools or scripts to help parse, filter, and analyze large or complex log files.\n\nIn conclusion, developing OS-independent troubleshooting skills allows you to effectively diagnose and resolve issues on any system. By following a structured approach, understanding common symptoms, and utilizing the appropriate tools, you can minimize downtime and maintain the security and efficiency of your organization’s IT systems.\n\n[How to Identify 9 Signs of Operating System](link_to_signs) | [Troubleshooting Guide](link_to_guide)",
+            "resources": [
+              {
+                "name": "How to Identify 9 Signs of Operating System",
+                "link": "https://bro4u.com/blog/how-to-identify-9-signs-of-operating-system"
+              },
+              {
+                "name": "Troubleshooting Guide",
+                "link": "https://cdnsm5-ss6.sharpschool.com/userfiles/servers/server_20856499/file/teacher%20pages/lindsay%20dolezal/it%20essentials/5.6.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Understand Basics of Popular Suites",
+            "recommendation-type": "opinion",
+            "description": "Software suites are widely used in professional and personal environments and provide various tools to perform tasks such as word processing, data management, presentations, and communication. Familiarity with these suites will allow you to perform essential tasks while also maintaining cyber hygiene.\n\n**Microsoft Office**\nMicrosoft Office is the most widely used suite of applications, consisting of programs such as:\n\n- Word: A powerful word processor used for creating documents, reports, and letters.\n- Excel: A versatile spreadsheet application used for data analysis, calculations, and visualizations.\n- PowerPoint: A presentation software for designing and displaying slideshows.\n- Outlook: A comprehensive email and calendar management tool.\n- OneNote: A digital notebook for organizing and storing information.\n\nMicrosoft Office is available both as a standalone product and as part of the cloud-based Office 365 subscription, which includes additional features and collaboration options.\n\n**Google Workspace (formerly G Suite)**\nGoogle Workspace is a cloud-based suite of productivity tools by Google, which includes widely known applications such as:\n\n- Google Docs: A collaborative word processor that seamlessly integrates with other Google services.\n- Google Sheets: A robust spreadsheet application with a wide array of functions and capabilities.\n- Google Slides: A user-friendly presentation tool that makes collaboration effortless.\n- Google Drive: A cloud storage service that allows for easy storage, sharing, and syncing of files.\n- Gmail: A popular email service with advanced filtering and search capabilities.\n- Google Calendar: A scheduling and event management application that integrates with other Google services.\n\nGoogle Workspace is particularly popular for its real-time collaboration capabilities and ease of access through web browsers.\n\n**LibreOffice**\nLibreOffice is a free, open-source suite of applications that offers a solid alternative to proprietary productivity suites. It includes tools such as:\n\n- Writer: A word processor that supports various document formats.\n- Calc: A powerful spreadsheet application with extensive formula and function libraries.\n- Impress: A presentation software that supports customizable templates and animations.\n- Base: A database management tool for creating and managing relational databases.\n- Draw: A vector graphics editor for creating and editing images and diagrams.\n\nLibreOffice is compatible with various platforms, including Windows, macOS, and Linux, and provides excellent support for standard file formats.\n\nIn conclusion, being proficient in using these popular software suites will not only improve your basic IT skills but also help you maintain good cybersecurity practices. Familiarity with these suites will enable you to effectively manage and secure your digital assets while also identifying potential vulnerabilities that may arise during their use. Stay tuned for further topics on enhancing your cybersecurity knowledge.",
+            "resources": [],
+            "options": [
+              {
+                "name": "iCloud",
+                "recommendation-type": "opinion",
+                "description": "iCloud is a cloud storage and cloud computing service provided by Apple Inc. It allows users to store data, such as documents, photos, and music, on remote servers and synchronize them across their Apple devices, including iPhones, iPads, and MacBooks.\n\n**Features and Benefits:** iCloud offers a range of features and benefits that enhance the user experience and improve security. Here are some key aspects of the service:\n\n- **iCloud Storage**: Users are provided with 5 GB of free storage space on iCloud, and they can upgrade to higher plans (50 GB, 200 GB, or 2 TB) for an additional cost. This storage can be used for documents, photos, videos, backups, and app data.\n- **iCloud Backup**: iCloud automatically backs up essential data from iOS devices when they are connected to Wi-Fi and charging. This includes app data, device settings, messages, and much more. In case of device loss or replacement, users can restore the backup to the new device.\n- **iCloud Photos**: This feature allows users to automatically upload and store their photos and videos on iCloud, making them accessible across all their devices. iCloud also syncs edits, deletions, and album organization, ensuring that the photo library stays updated across all devices.\n- **Find My**: This service helps users locate their lost Apple devices using their iCloud account on another device. It also offers features like remote device lock and erase, ensuring that user data remains secure even if the device cannot be recovered.\n- **iCloud Drive**: Users can store documents and files of various types in iCloud Drive, making them accessible from all devices. This feature is built into the Mac Finder and can also be accessed via the Files app on iOS devices or the iCloud website.\n- **App-specific Data Sync**: Many apps can make use of iCloud to sync their data across devices. This enables a seamless experience, ensuring that users can pick up where they left off regardless of the device they are using.\n\n**Security:** Apple takes the security of iCloud very seriously and has implemented multiple layers of protection to keep user data safe. Some of these measures include:\n\n- **Encryption**: Data stored on iCloud is encrypted during transit and on the server. Photos, documents, and other data are secured using a minimum of 128-bit AES encryption.\n- **Two-Factor Authentication (2FA)**: Users can enable 2FA for their Apple ID to add an extra layer of security. This requires an additional verification step (such as entering a code received on a trusted device) when signing into iCloud or any Apple service.\n- **Secure Tokens**: Apple uses secure tokens for authentication, which means that your iCloud password is not stored on your devices or on Apple’s servers.\n\n**Overall,** iCloud is a convenient and secure way for Apple device users to store and synchronize their data across devices. This cloud-based service offers numerous features to ensure seamless access and enhanced protection for user data.",
+                "resources": [
+                  {
+                    "name": "All about iCloud",
+                    "link": "https://www.intego.com/mac-security-blog/everything-you-can-do-with-icloud-the-complete-guide/"
+                  }
+                ]
+              },
+              {
+                "name": "Google Suite",
+                "recommendation-type": "opinion",
+                "description": "Google Suite, also known as G Suite or Google Workspace, is a collection of cloud-based productivity and collaboration tools developed by Google. These tools are designed to help individuals and businesses collaborate more efficiently and effectively. Here is a summary of some of the most popular tools in Google Suite:\n\n- **Google Drive**: A cloud storage service that allows users to store files, sync them across devices, and easily share them with others. With Google Drive, users get 15 GB of free storage, while more storage can be purchased as needed.\n- **Google Docs, Sheets, and Slides**: Web-based office suite tools that include a word processor, a spreadsheet program, and a presentation program. These applications allow real-time collaboration and come with various built-in templates.\n- **Google Forms**: A tool for creating custom online forms and surveys. Data collected can be automatically organized and analyzed in Google Sheets.\n- **Google Calendar**: A scheduling tool that allows users to create and manage individual or shared calendars, integrate events with Gmail, and set reminders.\n- **Gmail**: A widely-used email service with a clean interface, powerful search capabilities, and integration with other Google tools.\n- **Google Meet**: A video conferencing tool for hosting secure video meetings, supporting features like screen sharing and live captioning.\n- **Google Chat**: A communication platform for teams that provides direct messaging, group conversations, and virtual meeting spaces.\n\n**These are just some of the many tools offered by Google Suite.** This platform is a popular choice for individuals, teams, and organizations looking for a comprehensive and efficient way to manage their work and communication needs.",
+                "resources": []
+              },
+              {
+                "name": "Microsoft Office Suite",
+                "recommendation-type": "opinion",
+                "description": "Microsoft Office Suite, often referred to as MS Office, is one of the most widely-used software suites for productivity, communication, and document creation. It is a comprehensive set of applications designed to increase efficiency in both professional and personal settings. Below is an overview of the key applications within the MS Office Suite:\n\n- **Microsoft Word**: A versatile word processing application for creating, formatting, and editing text documents.\n- **Microsoft Excel**: A powerful spreadsheet application for creating, editing, and analyzing data with functions and formulas.\n- **Microsoft PowerPoint**: A widely-used presentation software for creating visually engaging slides with multimedia elements.\n- **Microsoft Outlook**: An email management system that integrates emails, calendars, tasks, and contacts into a single platform.\n- **Microsoft OneNote**: A digital notebook for taking notes, annotating, and organizing information across devices.\n- **Microsoft Access**: A relational database management system for creating, modifying, and storing data in an organized manner.\n\n**As part of Microsoft’s Office 365 subscription,** users also have access to cloud-based services like OneDrive, Skype for Business, and Microsoft Teams, which further enhance collaboration and productivity. When considering your cyber security strategy, it is essential to ensure that your MS Office applications are always up-to-date. Regular updates improve security, fix bugs, and protect against new threats. Additionally, it is crucial to follow best practices, such as using strong passwords and only downloading reputable add-ins, to minimize potential risks.",
+                "resources": []
+              }
+            ]
+          },
+          {
+            "name": "Basics of Computer Networking",
+            "recommendation-type": "opinion",
+            "description": "Computer networking refers to the practice of connecting two or more computing devices, creating an infrastructure in which they can exchange data, resources, and software. It is a fundamental part of cyber security and IT skills. In this chapter, we will cover five aspects of computer networking, including networking devices, network types, network protocols, IP addresses, and the OSI model.\n\n**Networking Devices**\nSeveral devices enable and facilitate communication between different devices. Common networking devices include:\n- Hubs: Devices that connect different devices together, transmitting data packets to all devices on the network.\n- Switches: Similar to hubs, but transmit data packets only to specific devices instead of broadcasting to all.\n- Routers: Devices that direct data packets between networks and provide the best path for data packets to reach their destination.\n- Firewalls: Devices or software that monitor and filter incoming and outgoing network traffic, allowing only authorized data to pass through.\n\n**Network Types**\nThere are various types of networks based on the distance they cover, and the number of devices they connect. A few common network types are:\n- Personal Area Network (PAN): Connects devices within an individual workspace, typically within a range of 10 meters.\n- Local Area Network (LAN): Covers a small geographical area, such as a home or office, connecting multiple computers and other devices.\n- Wide Area Network (WAN): Covers a larger geographical area, interconnecting different LANs, often using leased telecommunication lines or wireless links.\n- Virtual Private Network (VPN): A secure network established over the public internet, encrypting the data transferred and restricting access to authorized users only.\n\n**Network Protocols**\nProtocols are sets of rules that govern the communication between devices within a network. Some of the most common protocols include:\n- Transmission Control Protocol (TCP): Ensures the reliable transmission of data and establishes connections between devices.\n- Internet Protocol (IP): Facilitates the transmission of data packets, assigning unique IP addresses to identify devices.\n- User Datagram Protocol (UDP): A lightweight, fast, but less reliable protocol compared to TCP, often used for streaming and gaming applications.\n\n**IP Addresses**\nAn IP address is a unique identifier assigned to every device in a network. There are two types of IP addresses:\n- IPv4: Uses a 32-bit addressing system, allowing for approximately 4.3 billion unique IP addresses.\n- IPv6: Uses a 128-bit addressing system, providing a significantly larger number of available IP addresses.\nIP addresses can also be categorized as dynamic or static, depending on whether they change over time or remain constant for a device.\n\n**OSI Model**\nThe Open Systems Interconnection (OSI) model is a conceptual framework used to understand and describe how different network protocols interact. It divides networking functions into seven distinct layers:\n- Physical Layer: Deals with the physical connection between devices, including cabling and hardware.\n- Data Link Layer: Handles the communication between adjacent devices on the same network.\n- Network Layer: Identifies the best route for data packets and manages IP addresses.\n- Transport Layer: Ensures the reliable transmission of data, including error checking and flow control.\n- Session Layer: Establishes, maintains, and terminates connections between applications on different devices.\n- Presentation Layer: Translates data into a format that is suitable for transmission between devices.\n- Application Layer: Represents the user interface with which applications interact.\n\nMastering the basics of computer networking is key to understanding and implementing effective cyber security measures. This chapter has covered essential networking concepts, but it is important to continually expand your knowledge in this ever-evolving field.",
+            "resources": [
+              {
+                "name": "What is Computer Networking?",
+                "link": "https://tryhackme.com/room/whatisnetworking"
+              }
+            ]
+          }
+        ]
+      },
+      "Operating Systems": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "C": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "D": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "E": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "F": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "G": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "H": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "I": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "J": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "K": {
+        "options": [
+          {
+            "K": {
+              "description": " ",
+              "resources": [],
+              "options": []
+            }
+          }
+        ]
+      },
+      "L": {
+        "description": " ",
+        "resources": [],
+        "recommendation-type": "opinion",
+        "recommendation-type": "not strict",
+        "recommendation-type": "Pick this or purple",
+        "recommendation-type": "wouidn't",
+        "recommendation-type": "Advanced Topics",
+        "order": 1,
+        "options": []
+      },
+      "LL": {
+        "options": []
+      },
+      "M": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "N": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "Ñ": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "O": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "P": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "Q": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "R": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "S": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "T": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": [
+          {
+            "K": {
+              "options": []
+            }
+          }
+        ]
+      },
+      "U": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      "V": {
+        "description": " ",
+        "resources": [],
+        "order": 1,
+        "options": []
+      },
+      " ": {
+        "description": " ",
+        "resources": [
+          {
+            "name": "",
+            "link": ""
+          }
+        ],
+        "order": 1,
+        "options": [
+          {
+            "name": "",
+            "recommendation-type": "opinion",
+            "description": ""
+          },
+          {
+            "name": "",
+            "recommendation-type": "opinion",
+            "description": "",
+            "resources": []
+          },
+          {
+            "name": "",
+            "recommendation-type": "opinion",
+            "description": "",
+            "resources": [
+              {
+                "name": "",
+                "link": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
