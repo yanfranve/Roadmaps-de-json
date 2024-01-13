@@ -944,7 +944,71 @@
           },
           {
             "Frameworks": {
-              "options": []
+              "options": [
+                {
+                  "name": "Google Test (gtest)",
+                  "recommendation-type": "opinion",
+                  "description": "Google Test, also known as gtest or google test, is a C++ testing framework developed by Google. It provides a user-friendly API for writing test cases and is designed for use in a range of applications, from simple unit tests to complex system-level tests.\n\n**Getting Started with Google Test**\nTo use Google Test in your project, follow these steps:\n\n1. Download the source code from the [GoogleTest GitHub repository](https://github.com/google/googletest).\n2. Build and install Google Test on your system. Instructions for various platforms can be found in the README file.\n3. Include the necessary headers and link against the Google Test library in your project.\n\n**Writing a Test with Google Test**\nHere’s an example of how to write a simple test using Google Test:\n\n1. Include the necessary headers\n```cpp\n#include \"gtest/gtest.h\"\n```\n2. Write the functions you want to test\n\nSuppose we have a simple function to test:\n```cpp\nint add(int a, int b) {\n   return a + b;\n}\n```\n3. Write the test cases\n\nTo create a test case, use the TEST() macro, which takes two arguments: the test suite name and the test case name.\n```cpp\n// Test the 'add' function.\nTEST(AdditionTest, PositiveNumbers) {\n   EXPECT_EQ(3, add(1, 2));\n   EXPECT_EQ(5, add(2, 3));\n}\n\nTEST(AdditionTest, NegativeNumbers) {\n   EXPECT_EQ(-3, add(-1, -2));\n   EXPECT_EQ(-5, add(-2, -3));\n}\n```\n4. Write a main() function\n\nIn order to run the tests, include a main() function that initializes Google Test and runs the tests.\n```cpp\nint main(int argc, char **argv) {\n   ::testing::InitGoogleTest(&argc, argv);\n   return RUN_ALL_TESTS();\n}\n```\n5. Compile and run the tests\n\nCompile your test program with the Google Test library and run the test executable.\n\n**More Features**\nGoogle Test offers a wide range of features to make testing easier, such as:\n\n- **Test Fixtures**: Test fixtures allow you to reuse the same set of objects for multiple tests. You can define a test fixture by creating a class that inherits from ::testing::Test and writing setup and teardown methods.\n\n- **Assertions**: Google Test provides a variety of assertion macros to help you verify your code’s behavior. Some common ones include EXPECT_EQ, EXPECT_TRUE, EXPECT_FALSE, ASSERT_EQ, ASSERT_TRUE, and ASSERT_FALSE.\n\n- **Parameterized Tests**: Google Test supports parameterized tests, allowing you to run the same test with different inputs easily.\n\n- **Death Tests**: Google Test allows you to write tests that verify if your code terminates correctly or with the expected error message.\n\nFor more information about Google Test and its features, refer to the [official documentation](https://github.com/google/googletest).",
+                  "resources": [
+                    {
+                      "name": "GoogleTest GitHub Repository",
+                      "link": "https://github.com/google/googletest"
+                    },
+                    {
+                      "name": "Google Test Official Documentation",
+                      "link": "https://github.com/google/googletest"
+                    }
+                  ]
+                },
+                {
+                  "name": "Qt Framework",
+                  "recommendation-type": "opinion",
+                  "description": "Qt is an open-source, cross-platform framework for creating high-performance applications with interactive user interfaces. It is mainly used for developing GUI applications but can also be used for creating non-GUI applications like console tools and servers.\n\nQt provides a wide range of C++ libraries and seamless integration with popular IDEs, making it easier for developers to create feature-rich applications. It offers a comprehensive development environment, including tools for designing, coding, debugging, and profiling applications.\n\n**Key Features**\n\n- **Cross-platform**: Qt can create applications that run on different platforms (e.g., Windows, macOS, Linux, Android, iOS) without any platform-specific code.\n\n- **Modular Libraries**: Qt consists of several modular libraries, including QtCore (core non-GUI functionality), QtGui (GUI-related classes), QtWidgets (GUI widgets), and QtNetwork (networking support).\n\n- **Signals and Slots**: Qt provides a unique mechanism to handle events called “signals and slots”, which allows safe and flexible inter-object communication.\n\n- **OpenGL Integration**: Qt supports rendering 2D and 3D graphics using OpenGL, making it suitable for game development and other graphical applications.\n\n**Code Example**\n\nHere’s a simple example of a “Hello, World!” application using Qt:\n\n```cpp\n#include <QApplication>\n#include <QLabel>\n\nint main(int argc, char *argv[])\n{\n    QApplication app(argc, argv);\n\n    QLabel label(\"Hello, World!\");\n    label.show();\n\n    return app.exec();\n}\n```\n\nIn this example, we include the necessary header files, create QApplication and QLabel objects, display the label with a “Hello, World!” message, and execute the application.\n\nTo compile and run this example, you need to install the Qt library and configure your development environment to use it.\n\nFor more information and tutorials about Qt, you can refer to the [official Qt documentation](https://doc.qt.io/).",
+                  "resources": [
+                    {
+                      "name": "Official Qt Documentation",
+                      "link": "https://doc.qt.io/"
+                    }
+                  ]
+                },
+                {
+                  "name": "Catch2",
+                  "recommendation-type": "opinion",
+                  "description": "Catch2 is a modern, C++-native, test framework for unit tests, TDD, and BDD. It is a single-header library, meaning you only need to include one header file (catch.hpp) to start using it. Catch2 is fast, easy to use, and supports various test styles.\n\n**Features**\n\n- **Single-header**: Just #include \"catch.hpp\" and start writing tests.\n\n- **Test cases**: Declare test cases using the TEST_CASE macro.\n\n- **Sections**: Divide test cases into sections using SECTION macro.\n\n- **BDD**: Behavior-Driven Development style supported with SCENARIO, GIVEN, WHEN, THEN.\n\n- **Matchers**: Use rich built-in matchers for more expressive assertions.\n\n- **Test discovery**: Catch2 automatically discovers your test cases and sections.\n\n**Code examples**\n\n**Basic test case**\n```cpp\n#define CATCH_CONFIG_MAIN  // Tells Catch to provide a main() function\n#include \"catch.hpp\"\n\nint add(int a, int b) {\n    return a + b;\n}\n\nTEST_CASE(\"Addition\") {\n    REQUIRE(add(2, 3) == 5);\n}\n```\n\n**Sections**\n```cpp\nTEST_CASE(\"Sections example\") {\n    int a = 1;\n\n    SECTION(\"incrementing a\") {\n        a++;\n        REQUIRE(a == 2);\n    }\n\n    SECTION(\"decrementing a\") {\n        a--;\n        REQUIRE(a == 0);\n    }\n}\n```\n\n**BDD style**\n```cpp\nSCENARIO(\"vector can be sized and resized\", \"[vector]\") {\n    std::vector<int> v;\n\n    GIVEN(\"A vector with some items\") {\n        v.push_back(1);\n        v.push_back(2);\n        v.push_back(3);\n\n        REQUIRE(v.size() == 3);\n\n        WHEN(\"the size is increased\") {\n            v.resize(5);\n\n            THEN(\"the size and contents change\") {\n                REQUIRE(v.size() == 5);\n                REQUIRE(v[3] == 0);\n                REQUIRE(v[4] == 0);\n            }\n        }\n        WHEN(\"the size is reduced\") {\n            v.resize(2);\n\n            THEN(\"the size changes but not the contents\") {\n                REQUIRE(v.size() == 2);\n                REQUIRE(v[0] == 1);\n                REQUIRE(v[1] == 2);\n            }\n        }\n    }\n}\n```\n\n**Matchers**\n```cpp\nTEST_CASE(\"Matchers example\") {\n    std::string str = \"Hello, world!\";\n\n    CHECK_THAT(str, Catch::Matchers::StartsWith(\"Hello\"));\n    CHECK_THAT(str, Catch::Matchers::EndsWith(\"world!\"));\n    CHECK_THAT(str, Catch::Matchers::Contains(\"lo, wo\"));\n}\n```\n\nFor more information, visit the [Catch2 GitHub repository](https://github.com/catchorg/Catch2).",
+                  "resources": [
+                    {
+                      "name": "Catch2 GitHub Repository",
+                      "link": "https://github.com/catchorg/Catch2"
+                    }
+                  ]
+                },
+                {
+                  "name": "Orbit Profiler",
+                  "recommendation-type": "opinion",
+                  "description": "Orbit Profiler is a performance profiler for C++ applications. It is designed to provide developers with real-time feedback on their application’s performance and help them identify performance bottlenecks. It supports both Windows and Linux platforms, profiling both local and remote processes.\n\n**Major features of Orbit Profiler:**\n\n- Sampling-based profiling\n- Instrumentation-based profiling\n- Callstacks collection\n- Frame-based measurements using scopes macros\n\n**Usage**\n\n**Include OrbitProfiler.h:** First, you need to include the OrbitProfiler.h header file in your project:\n```cpp\n#include \"OrbitProfiler.h\"\n```\n\n**Starting and Stopping the profiler:** Use ORBIT_START and ORBIT_STOP to start and stop the profiler.\n```cpp\nORBIT_START();\n// Your application code here\nORBIT_STOP();\n```\n\n**Instrumenting scopes:** Use the ORBET_SCOPE macro to annotate the scope of the function you want to measure:\n```cpp\nvoid ExampleFunction() {\n  ORBIT_SCOPE(\"Example Function\");\n  // Function content here\n}\n```\n\n**Visualizing the captured data:** Orbit Profiler provides a Session View that displays the captured data and allows you to navigate through the timeline, analyze data, and identify performance bottlenecks.\n\n**Example**\n\nFor demonstration purposes, consider the following example of a simple C++ application:\n```cpp\n#include \"OrbitProfiler.h\"\n\nvoid FunctionA() {\n  ORBIT_SCOPE(\"Function A\");\n  // Function A code here\n}\n\nvoid FunctionB() {\n  ORBIT_SCOPE(\"Function B\");\n  // Function B code here\n}\n\nint main() {\n  ORBIT_START();\n\n  FunctionA();\n  FunctionB();\n\n  ORBIT_STOP();\n  return 0;\n}\n```\nBy using Orbit Profiler, we are able to pinpoint performance issues in FunctionA and FunctionB and optimize our application accordingly.\n\nFor more information, refer to the [official Orbit Profiler GitHub repository](https://github.com/bombomby/opt).\n",
+                  "resources": [
+                    {
+                      "name": "Orbit Profiler GitHub Repository",
+                      "link": "https://github.com/bombomby/opt"
+                    }
+                  ]
+                },
+                {
+                  "name": "PyTorch C++",
+                  "recommendation-type": "opinion",
+                  "description": "PyTorch C++ is the C++ API (Application Programming Interface) for PyTorch. It is also known as LibTorch, which is a library that provides almost all the functionality of PyTorch accessible through C++ language. The main goal of providing a C++ API is to enable high-performance integration with other deep learning platforms and enable seamless operation in enterprise and production-level systems.\n\n**Installation**\n\nTo use the PyTorch C++ API, you need to install the LibTorch distribution. Follow the instructions on the [official PyTorch C++ API page](https://pytorch.org/get-started/locally/) to install the library based on your platform and requirements.\n\n**Example: Tensors**\n```cpp\n#include <iostream>\n#include <torch/torch.h>\n\nint main() {\n  // Create a 3x3 matrix with zeros.\n  torch::Tensor a = torch::zeros({3, 3});\n  std::cout << a << std::endl;\n\n  // Create a 2x2 matrix with ones and convert to float.\n  torch::Tensor b = torch::ones({2, 2}).to(torch::kFloat);\n  std::cout << b << std::endl;\n\n  // Create a random tensor size 2x2 and specify its type.\n  torch::Tensor c = torch::randint(0, 10, {2, 2}, torch::kInt);\n  std::cout << c << std::endl;\n\n  // Perform element-wise addition.\n  auto sum = b + c.to(torch::kFloat);\n  std::cout << sum << std::endl;\n}\n```\n**Example: Creating a Custom Module**\n```cpp\n#include <iostream>\n#include <torch/torch.h>\n\n// Define a custom module.\nstruct Net : torch::nn::Module {\n  Net() {\n    fc1 = register_module(\"fc1\", torch::nn::Linear(784, 64));\n    fc2 = register_module(\"fc2\", torch::nn::Linear(64, 10));\n  }\n\n  torch::Tensor forward(torch::Tensor x) {\n    x = x.view({-1, 784});\n    x = torch::relu(fc1->forward(x));\n    x = torch::log_softmax(fc2->forward(x), 1);\n    return x;\n  }\n\n  torch::nn::Linear fc1{nullptr};\n  torch::nn::Linear fc2{nullptr};\n};\n\nint main() {\n  // Create an instance of the custom module.\n  Net net;\n\n  // Use the custom module.\n  torch::Tensor input = torch::randn({2, 1, 28, 28});\n  torch::Tensor output = net.forward(input);\n  std::cout << output << std::endl;\n\n  return 0;\n}\n```\nIn these examples, we demonstrated how to use various tensor operations and how to create a custom neural network module with PyTorch C++. For more detailed information and tutorials, visit the [official PyTorch C++ documentation](https://pytorch.org/tutorials/advanced/cpp_frontend.html).\n",
+                  "resources": [
+                    {
+                      "name": "Official PyTorch C++ API Page",
+                      "link": "https://pytorch.org/get-started/locally/"
+                    },
+                    {
+                      "name": "Official PyTorch C++ Documentation",
+                      "link": "https://pytorch.org/tutorials/advanced/cpp_frontend.html"
+                    }
+                  ]
+                }
+              ]
             }
           }
         ]
