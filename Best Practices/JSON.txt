@@ -1,0 +1,39 @@
+ quiero que este texto me lo coloques en json pero todo en la etiqueta incluyendo lo que este en codigo 
+description de esta estructura {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+ {
+                        "name": "",
+                        "link": ""
+                    }
+                           
+                        ]
+
+
+
+
+
+
+
+
+
+
+
+coloca este texto   en esta etiqueta JSON  {
+                        "name": "",
+                        "recommendation-type": "opinion",
+                        "description": "",
+                        "resources": [
+ {
+                        "name": "",
+                        "link": ""
+                    }
+                           
+                        ]
+                    }
+
+
+
+
