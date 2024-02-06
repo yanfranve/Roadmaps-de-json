@@ -2,2304 +2,342 @@
   "roles": {
     "PostgreSQL": {
       "Introduction": {
-        "order": 1,
-        "options": [
+        "description": "PostgreSQL is a powerful, open-source Object-Relational Database Management System (ORDBMS) that is known for its robustness, extensibility, and SQL compliance. It was initially developed at the University of California, Berkeley, in the 1980s and has since become one of the most popular open-source databases in the world.\n\nIn this introductory guide, we will discuss some of the key features and capabilities of PostgreSQL, as well as its use cases and benefits. This guide is aimed at providing a starting point for users who are looking to dive into the world of PostgreSQL and gain a foundational understanding of the system.\n\n**Key Features**\n\n- ACID Compliance: PostgreSQL is fully ACID-compliant, ensuring the reliability and data integrity of the database transactions.\n- Extensibility: PostgreSQL allows users to define their data types, operators, functions, and more. This makes it highly customizable and adaptable to various use cases.\n- Concurrency Control: Through its Multi-Version Concurrency Control (MVCC) mechanism, PostgreSQL efficiently handles concurrent queries without lock contention.\n- Full-Text Search: PostgreSQL provides powerful text searching capabilities, including text indexing and various search functions.\n- Spatial Database Capabilities: Through the PostGIS extension, PostgreSQL offers support for geographic objects and spatial querying, making it ideal for GIS applications.\n- High Availability: PostgreSQL has built-in support for replication, allowing for high availability and fault tolerance.\n\n**Benefits of PostgreSQL**\n\nOne of the key benefits of PostgreSQL is its open-source and community-driven approach, which means that it is free for use and is continuously worked on and improved by a dedicated group of developers.\nIt is highly scalable, making it suitable for both small-scale projects and large-scale enterprise applications.\nIt is platform-independent, which means it can run on various operating systems like Windows, Linux, and macOS.\n\n**Use Cases**\n\nPostgreSQL can be used for a wide variety of applications, thanks to its versatility and extensibility. Some common use cases include:\n\n- Web applications\n- Geographic Information Systems (GIS)\n- Data warehousing and analytics\n- Financial and banking systems\n- Content management systems (CMS)\n- Enterprise Resource Planning (ERP) systems\n\nIn the subsequent guides, we will delve deeper into the installation, configuration, usage, and optimization of PostgreSQL. We will also explore various PostgreSQL tools, extensions, and best practices to help you fully utilize the power of this robust database system.",
+        "resources": [
           {
-            "name": "How does the internet work?",
+            "name": "What are Relational Databases?",
             "recommendation-type": "opinion",
-            "description": "The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols. Visit the following resources to learn more",
+            "description": "Relational databases are a type of database management system (DBMS) that stores and organizes data in a structured format called tables. These tables are made up of rows, also known as records or tuples, and columns, which are also called attributes or fields. The term 'relational' comes from the fact that these tables can be related to one another through keys and relationships.\n\n**Key Concepts**\n\n- **Table:** A table is a collection of data organized into rows and columns. Each table has a unique name and represents a specific object or activity in the database.\n- **Row:** A row is a single entry in a table, containing a specific instance of data. Each row in a table has the same columns and represents a single record.\n- **Column:** A column is a data field in a table, representing a specific attribute of the data. Columns have a unique name and a specific data type.\n- **Primary Key:** A primary key is a column (or a set of columns) in a table that uniquely identifies each row. No two rows can have the same primary key value.\n- **Foreign Key:** A foreign key is a column (or a set of columns) in a table that refers to the primary key of another table. It is used to establish relationships between tables.\n\n**Relationships**\n\nOne of the main advantages of a relational database is its ability to represent relationships between tables. These relationships could be one-to-one, one-to-many, or many-to-many relationships. They allow for efficient querying and manipulation of related data across multiple tables.\n\n- **One-to-One:** A relationship where a row in one table has a single corresponding row in another table.\n- **One-to-Many:** A relationship where a row in one table can have multiple corresponding rows in another table.\n- **Many-to-Many:** A relationship where multiple rows in one table can have multiple corresponding rows in another table. A third table, called a junction table or associative table, is needed to represent this relationship.\n\n**Advantages of Relational Databases**\n\nRelational databases offer several advantages in terms of efficiency, flexibility, and data integrity:\n\n- **Structured Data:** Well-suited for handling structured data, which has a consistent structure and can be easily mapped to the columns and rows of a table.\n- **Data Integrity:** Use of primary and foreign keys to maintain consistent relationships between related data, reducing the chances of data inconsistency and redundancy.\n- **Scalability:** Can handle large amounts of structured data and can be scaled to accommodate growing data requirements.\n- **Querying:** The SQL (Structured Query Language) is used for querying, updating, and managing relational databases, providing a powerful and standardized way to access and manipulate the data.\n\nIn summary, relational databases are a powerful and versatile tool for storing and managing structured data. Their ability to represent relationships among data and to ensure data integrity make them the backbone of many applications and services.",
             "resources": [
               {
-                "name": "How does the Internet Work?",
-                "link": "https://cs.fyi/guide/how-does-internet-work"
-              },
-              {
-                "name": "How Does the Internet Work? MDN Docs",
-                "link": "URL_de_MDN_Docs"
-              },
-              {
-                "name": "Introduction to Internet",
-                "link": "https://roadmap.sh/guides/what-is-internet"
-              },
-              {
-                "name": "How does the Internet work? ",
-                "link": "https://www.youtube.com/watch?v=TNQsmPf24go"
-              },
-              {
-                "name": "How the Internet Works in 5 Minutes",
-                "link": "https://www.youtube.com/watch?v=7_LPdttKXPc"
+                "name": "Relational Databases: concept and history",
+                "link": "https://www.ibm.com/topics/relational-databases"
               }
             ]
           },
           {
-            "name": "What is HTTP?",
+            "name": "RDBMS Benefits and Limitations",
             "recommendation-type": "opinion",
-            "description": "HTTP is the TCP/IP based application layer communication protocol which standardizes how the client and server communicate with each other. HTTP follows a classical 'Client-Server model' with a client opening a connection request, then waiting until it receives a response. HTTP is a stateless protocol, which means that the server does not keep any data (state) between two requests. Visit the following resources to learn more:",
-            "resources": [
-              {
-                "name": "Everything you need to know about HTTP",
-                "link": "https://cs.fyi/guide/http-in-depth"
-              },
-              {
-                "name": "What is HTTP?",
-                "link": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/"
-              },
-              {
-                "name": "How HTTPS Works …in a comic!",
-                "link": "https://howhttps.works/"
-              },
-              {
-                "name": "An overview of HTTP",
-                "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
-              },
-              {
-                "name": "HTTP/3 From A To Z: Core Concepts",
-                "link": "https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/"
-              },
-              {
-                "name": "HTTP/3 Is Now a Standard: Why Use It and How to Get Started",
-                "link": "https://thenewstack.io/http-3-is-now-a-standard-why-use-it-and-how-to-get-started/"
-              },
-              {
-                "name": "HTTP Crash Course & Exploration",
-                "link": "https://www.youtube.com/watch?v=iYM2zFP3Zn0"
-              }
-            ]
+            "description": "Benefits\n\n- **Structured Data:** RDBMS allows data storage in a structured way, using rows and columns in tables. This makes it easy to manipulate the data using SQL (Structured Query Language), ensuring efficient and flexible usage.\n- **ACID Properties:** ACID stands for Atomicity, Consistency, Isolation, and Durability. These properties ensure reliable and safe data manipulation in an RDBMS, making it suitable for mission-critical applications.\n- **Normalization:** RDBMS supports data normalization, a process that organizes data in a way that reduces data redundancy and improves data integrity.\n- **Scalability:** RDBMSs generally provide good scalability options, allowing for the addition of more storage or computational resources as the data and workload grow.\n- **Data Integrity:** RDBMS provides mechanisms like constraints, primary keys, and foreign keys to enforce data integrity and consistency, ensuring that the data is accurate and reliable.\n- **Security:** RDBMSs offer various security features such as user authentication, access control, and data encryption to protect sensitive data.\n\nLimitations\n\n- **Complexity:** Setting up and managing an RDBMS can be complex, especially for large applications. It requires technical knowledge and skills to manage, tune, and optimize the database.\n- **Cost:** RDBMSs can be expensive, both in terms of licensing fees and the computational and storage resources they require.\n- **Fixed Schema:** RDBMS follows a rigid schema for data organization, which means any changes to the schema can be time-consuming and complicated.\n- **Handling of Unstructured Data:** RDBMSs are not suitable for handling unstructured data like multimedia files, social media posts, and sensor data, as their relational structure is optimized for structured data.\n- **Horizontal Scalability:** RDBMSs are not as easily horizontally scalable as NoSQL databases. Scaling horizontally, which involves adding more machines to the system, can be challenging in terms of cost and complexity.\n\nIn conclusion, choosing an RDBMS such as PostgreSQL depends on the type of application, data requirements, and scalability needs. Knowing the benefits and limitations can help you make an informed decision and select the best-fit solution for your project.",
+            "resources": []
           },
           {
-            "name": "Domain Name",
+            "name": "PostgreSQL vs. Other Databases",
             "recommendation-type": "opinion",
-            "description": "A domain name is a unique, easy-to-remember address used to access websites, such as ‘google.com’, and ‘facebook.com’. Users can connect to websites using domain names thanks to the Domain Name System (DNS).Visit the following resources to learn more:",
-            "resources": [
-              {
-                "name": "What is a Domain Name?",
-                "link": "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name"
-              },
-              {
-                "name": "What is a Domain Name? | Domain name vs. URL",
-                "link": "https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/"
-              },
-              {
-                "name": "A Beginners Guide to How Domain Names Work",
-                "link": "https://www.youtube.com/watch?v=Y4cRx19nhJk"
-              }
-            ]
+            "description": "Given below are the key differences between PostgreSQL and other popular database systems such as MySQL, MariaDB, SQLite, and Oracle. By understanding these differences, you will be able to make a more informed decision on which database management system best suits your needs.\n\n**PostgreSQL vs. MySQL / MariaDB**\n\n- **Concurrency:** PostgreSQL uses multi-version concurrency control (MVCC), which allows for improved performance in situations where multiple users or applications are accessing the database simultaneously. MySQL and MariaDB use table level-locking, which can be less efficient in high concurrency scenarios.\n- **Data Types:** PostgreSQL supports a larger number of custom and advanced data types, including arrays, hstore (key-value store), and JSON. MySQL and MariaDB mainly deal with basic data types like numbers, strings, and dates.\n- **Query Optimization:** PostgreSQL generally has a more sophisticated query optimizer that can make better use of indexes and statistics, which can lead to better query performance.\n- **Extensions:** PostgreSQL has a rich ecosystem of extensions that can be used to add functionality to the database system, such as PostGIS for spatial and geographic data. MySQL and MariaDB also have plugins, but the ecosystem may not be as extensive as Postgres.\n\n**PostgreSQL vs. SQLite**\n\n- **Scalability:** SQLite is designed for small-scale applications and personal projects, while PostgreSQL is designed for enterprise-level applications and can handle large amounts of data and concurrent connections.\n- **Concurrency:** As mentioned earlier, PostgreSQL uses MVCC for better concurrent access to the database. SQLite, on the other hand, uses file level-locking, which can lead to database locking issues in high concurrency scenarios.\n- **Features:** PostgreSQL boasts a wide array of advanced features and data types, whereas SQLite offers a more limited feature set that has been optimized for simplicity and minimal resource usage.\n\n**PostgreSQL vs. Oracle**\n\n- **Cost:** PostgreSQL is open-source and free to use, while Oracle has a steep licensing cost that can be prohibitively expensive for smaller projects and businesses.\n- **Performance:** While both databases have good performance and can handle large amounts of data, Oracle has certain optimizations and features that can make it more suitable for some specific high-performance, mission-critical applications.\n- **Community:** PostgreSQL has a large, active open-source community that provides support, development, and extensions. Oracle, being a proprietary system, relies on its company’s support and development team, which might not offer the same level of openness and collaboration.\n\nIn conclusion, PostgreSQL is a versatile, powerful, and scalable database system that holds its own against other popular RDBMS options. The choice of which system to use depends on your specific requirements, budget, and familiarity with the database system, but PostgreSQL is an excellent choice for both small and large-scale applications.",
+            "resources": []
           },
           {
-            "name": "What is hosting?",
+            "name": "PostgreSQL vs NoSQL",
             "recommendation-type": "opinion",
-            "description": "Web hosting is an online service that allows you to publish your website files onto the internet. So, anyone who has access to the internet has access to your website.Visit the following resources to learn more:",
-            "resources": [
-              {
-                "name": "What Is Web Hosting? Explained",
-                "link": "https://www.youtube.com/watch?v=htbY9-yggB0"
-              },
-              {
-                "name": "Different Types of Web Hosting Explained",
-                "link": "https://www.youtube.com/watch?v=AXVZYzw8geg"
-              },
-              {
-                "name": "Where to Host a Fullstack Project on a Budget",
-                "link": "https://www.youtube.com/watch?v=Kx_1NYYJS7Q"
-              }
-            ]
-          },
-          {
-            "name": "DNS and how it works?",
-            "recommendation-type": "opinion",
-            "description": "The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources.Visit the following resources to learn more:",
-            "resources": [
-              {
-                "name": "What is DNS?",
-                "link": "https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/"
-              },
-              {
-                "name": "Mess with DNS - DNS Playground",
-                "link": "https://messwithdns.net/"
-              },
-              {
-                "name": "How DNS works (comic)",
-                "link": "https://howdns.works/"
-              },
-              {
-                "name": "DNS and How does it Work?",
-                "link": "https://www.youtube.com/watch?v=Wj0od2ag5sk"
-              },
-              {
-                "name": "DNS Records",
-                "link": "https://www.youtube.com/watch?v=7lxgpKh_fRY"
-              },
-              {
-                "name": "When to add glue records to DNS settings",
-                "link": "https://www.youtube.com/watch?v=e48AyJOA9W8"
-              },
-              {
-                "name": "DNS Records for Newbies - How To Manage Website Records",
-                "link": "https://www.youtube.com/watch?v=YV5tkQYcvfg"
-              }
-            ]
-          },
-          {
-            "name": "Browsers and how they work?",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "How Browsers Work",
-                "link": "https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/"
-              },
-              {
-                "name": "Role of Rendering Engine in Browsers",
-                "link": "https://www.browserstack.com/guide/browser-rendering-engine"
-              },
-              {
-                "name": "Populating the Page: How Browsers Work",
-                "link": "https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work"
-              },
-              {
-                "name": "How Do Web Browsers Work?",
-                "link": "https://www.youtube.com/watch?v=WjDrMKZWCt0"
-              }
-            ]
+            "description": "Given below are the main differences between PostgreSQL and NoSQL databases, their pros and cons, and use cases for each type of database. This will help you understand and choose the best fit for your needs when deciding between PostgreSQL and NoSQL databases for your project.\n\n**Database type**\n\nPostgreSQL is a relational database management system (RDBMS) that uses SQL as its main query language. It is designed to store structured data, and it is based on the relational model, which means that data is represented as tables with rows and columns.\n\nNoSQL (Not only SQL) is a term used to describe a variety of non-relational database management systems, which are designed to store unstructured or semi-structured data. Some common types of NoSQL databases are:\n\n- Document databases (e.g., MongoDB, Couchbase)\n- Key-Value databases (e.g., Redis, Riak)\n- Column-family databases (e.g., Cassandra, HBase)\n- Graph databases (e.g., Neo4j, Amazon Neptune)\n\n**Scalability**\n\nPostgreSQL provides vertical scalability, which means that you can increase the performance of a single server by adding more resources (e.g., CPU, RAM). On the other hand, horizontal scalability (adding more servers to a database cluster to distribute the load) is more challenging in PostgreSQL. You can achieve this through read replicas or sharding, but it requires a more complex configuration and may have limitations depending on your use case.\n\nNoSQL databases, in general, are designed for horizontal scalability. They can easily distribute data across multiple servers, making them a suitable choice for large-scale applications or those that require high availability and high write/read throughput. That said, different NoSQL databases implement this in various ways, which may impact performance and feature set.\n\n**Data modeling**\n\nPostgreSQL uses a schema-based approach for data modeling, where you define tables and relationships between them using SQL. This allows you to enforce data integrity and consistency through constraints, such as primary keys, foreign keys, and unique indexes.\n\nNoSQL databases, given their non-relational nature, use more flexible data models, such as JSON or key-value pairs. This allows you to store complex, hierarchical, and dynamic data without having to design a rigid schema first. However, this also means that you may have to handle data consistency and integrity at the application level.\n\n**Query language**\n\nPostgreSQL uses SQL (Structured Query Language) for querying and managing data. SQL is a powerful and widely used language that allows you to perform complex queries and analyze data with ease.\n\nNoSQL databases use a variety of query languages, depending on the database type. Some, like MongoDB, use query languages similar to JSON, while others, like Neo4j, have their own tailored query languages (e.g., Cypher). This variety may lead to a steeper learning curve, but it also allows you to choose the database with the most suitable and expressive query language for your needs.\n\n**Use cases**\n\nPostgreSQL is a great choice for:\n\n- Applications that require consistent and well-structured data, such as financial or banking systems.\n- Complex reporting and data analysis.\n- Applications that can benefit from advanced features, such as stored procedures, triggers, and full-text search.\n\nNoSQL databases are a better fit for:\n\n- Applications that deal with large volumes of unstructured or semi-structured data, such as social media platforms, IoT devices, or content management systems.\n- Applications that require high performance, scalability, and availability, such as real-time analytics, gaming platforms, or search engines.\n- Projects where data modeling and schema design may evolve over time, due to the flexible storage approach.\n\nIn conclusion, when choosing between PostgreSQL and NoSQL databases, you should consider factors such as data structure, schema flexibility, scalability requirements, and the complexity of queries your application needs to perform. By understanding the pros and cons of each database type, you can make an informed decision that best fits your project’s needs.",
+            "resources": []
           }
-        ]
+        ],
+        "order": 1,
+        "options": []
       },
       "Basic RDBMS Concepts": {
+        "description": "Relational Database Management Systems (RDBMS) are a type of database management system which stores and organizes data in tables, making it easy to manipulate, query, and manage the information. They follow the relational model defined by E.F. Codd in 1970, which means that data is represented as tables with rows and columns.\n\nIn this section, we will briefly summarize the key concepts of RDBMS:\n\n**Tables and Relations**\n\nA table (also known as a relation) is a collection of rows (tuples) and columns (attributes). Each row represents a specific record, and each column represents an attribute of that record. The columns define the structure of the table and the type of data that can be stored in it.\n\nExample:\n\n| id | first_name | last_name |\n|----|------------|-----------|\n| 1  | John       | Doe       |\n| 2  | Jane       | Smith     |\n\n**Keys**\n\n- **Primary Key:** A primary key is a unique identifier for each record in the table. It can be a single column or a combination of columns. No two rows can have the same primary key value.\n- **Foreign Key:** A foreign key is a column (or a set of columns) that references the primary key of another table, establishing a relationship between the two tables.\n\n**Data Types**\n\nRDBMS supports various data types for storing different types of data. Some of the common data types include:\n\n- Integer (int)\n- Floating-point (float, real)\n- Numeric (decimal, number)\n- DateTime (date, time, timestamp)\n- Character (char, varchar, text)\n- Boolean (bool)\n\n**Schema**\n\nThe schema is the structure that defines tables, views, indexes, and their relationships in a database. It includes the definition of attributes, primary and foreign keys, and constraints that enforce data integrity.\n\n**Normalization**\n\nNormalization is the process of organizing data in a database to reduce redundancy, eliminate data anomalies, and ensure proper relationships between tables. There are multiple levels of normalization, referred to as normal forms (1NF, 2NF, 3NF, etc.).\n\n**ACID Properties**\n\nACID (Atomicity, Consistency, Isolation, Durability) is a set of properties that ensure database transactions are reliable and maintain data integrity:\n\n- **Atomicity:** All operations in a transaction succeed or fail as a unit.\n- **Consistency:** The database remains in a consistent state before and after a transaction.\n- **Isolation:** Transactions are isolated from each other, ensuring that their execution does not interfere with one another.\n- **Durability:** Once a transaction is committed, its effects are permanently saved in the database.\n\n**SQL**\n\nStructured Query Language (SQL) is the standard language used to communicate with a relational database. SQL is used to insert, update, delete, and retrieve data in the tables, as well as manage the database itself.\n\nIn conclusion, understanding RDBMS concepts is essential for working with PostgreSQL and other relational databases. Familiarity with these concepts will allow you to design efficient database schemas, use SQL effectively, and maintain data integrity in your applications.",
+        "resources": [],
         "order": 2,
         "options": [
           {
-            "name": "Learn the basics",
+            "name": "Object Model",
             "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
+            "description": "PostgreSQL is an object-relational database management system (ORDBMS) that combines features of both relational (RDBMS) and object-oriented databases (OODBMS). The object model in PostgreSQL provides features like user-defined data types, inheritance, and polymorphism, enhancing its capabilities beyond a typical SQL-based RDBMS.\n\n**User-Defined Data Types**\n\nOne core feature of the object model in PostgreSQL is the ability to create user-defined data types. These types, known as Composite Types, are created using the CREATE TYPE SQL command. For example, you can create a custom type for a 3D point:\n\n```\nCREATE TYPE point_3d AS (\n    x REAL,\n    y REAL,\n    z REAL\n);\n```\n\n**Inheritance**\n\nAnother element of the object model is table inheritance, allowing you to define a table that inherits the columns, data types, and constraints of another table. This is a powerful mechanism for organizing and reusing common data structures across multiple tables:\n\n```\nCREATE TABLE child_table_name ()\n    INHERITS (parent_table_name);\n```\n\nFor example, if you have a base table person:\n\n```\nCREATE TABLE person (\n    id SERIAL PRIMARY KEY,\n    first_name VARCHAR(100),\n    last_name VARCHAR(100),\n    dob DATE\n);\n```\n\nYou can create an employee table that inherits the attributes of person:\n\n```\nCREATE TABLE employee ()\n    INHERITS (person);\n```\n\nThe employee table now has all the columns of the person table, and you can add additional columns or constraints specific to the employee table.\n\n**Polymorphism**\n\nPolymorphism is another valuable feature, allowing you to create functions and operators that can accept and return multiple data types. PostgreSQL supports two forms of polymorphism:\n\n- Polymorphic Functions: Functions that can accept and return multiple data types.\n- Polymorphic Operators: Operators (functions) that can work with multiple data types.\n\nFor example, consider this function that accepts anyelement type:\n\n```\nCREATE FUNCTION simple_add(x anyelement, y anyelement) RETURNS anyelement\n    AS 'SELECT x + y;'\n    LANGUAGE SQL;\n```\n\nThis function can work with any data type that supports the addition operator.",
+            "resources": [],
+            "options": [
               {
-                "name": "W3Schools: Learn HTML",
-                "link": "https://www.w3schools.com/html/html_intro.asp"
+                "name": "Queries in PostgreSQL",
+                "recommendation-type": "opinion",
+                "description": "Queries are the primary way to interact with a PostgreSQL database and retrieve or manipulate data stored within its tables. In this section, we will cover the fundamentals of querying in PostgreSQL - from basic SELECT statements to more advanced techniques like joins, subqueries, and aggregate functions.\n\n**Simple SELECT Statements**\nThe most basic type of query is a simple SELECT statement. This allows you to retrieve data from one or more tables, and optionally filter or sort the results.\n\n```sql\nSELECT column1, column2, ...\nFROM table_name\nWHERE conditions\nORDER BY column ASC/DESC;\n```\n\nFor example, to select all records from the users table:\n\n```sql\nSELECT * FROM users;\n```\n\nTo select only the name and email columns for users with an age greater than 25:\n\n```sql\nSELECT name, email FROM users WHERE age > 25;\n```\n\n**Aggregate Functions**\nPostgreSQL provides several aggregate functions that allow you to perform calculations on a set of records, such as counting the number of records, calculating the sum of a column, or finding the average value.\n\nSome common aggregate functions include:\n\n- COUNT(): Count the number of rows\n- SUM(): Calculate the sum of a column’s values\n- AVG(): Calculate the average value of a column\n- MIN(): Find the smallest value of a column\n- MAX(): Find the largest value of a column\n\nExample: Find the total number of users and the average age:\n\n```sql\nSELECT COUNT(*) AS user_count, AVG(age) AS average_age FROM users;\n```\n\n**Joins**\nWhen you want to retrieve related data from multiple tables, you can use a JOIN in the query. There are various types of joins available, such as INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN.\n\nSyntax for a simple INNER JOIN:\n\n```sql\nSELECT column1, column2, ...\nFROM table1\nJOIN table2\nON table1.column = table2.column;\n```\n\nExample: Fetch user details along with their order details, assuming there are users and orders tables, and orders has a user_id foreign key:\n\n```sql\nSELECT users.name, users.email, orders.order_date, orders.total_amount\nFROM users\nJOIN orders\nON users.id = orders.user_id;\n```\n\n**Subqueries**\nSubqueries, also known as “nested queries” or “inner queries”, allow you to use the result of a query as input for another query. Subqueries can be used with various SQL clauses, such as SELECT, FROM, WHERE, and HAVING.\n\nSyntax for a subquery:\n\n```sql\nSELECT column1, column2, ...\nFROM (SELECT ... FROM ...) AS subquery\nWHERE conditions;\n```\n\nExample: Find the average age of users who have placed orders from the users and orders tables:\n\n```sql\nSELECT AVG(age) AS average_age\nFROM users\nWHERE id IN (SELECT DISTINCT user_id FROM orders);\n```\n\nThere’s much more to explore with various types of queries, but this foundational knowledge will serve as a solid basis for further learning and experimentation.",
+                "resources": [
+                  {
+                    "name": "Querying a Table",
+                    "link": "https://www.postgresql.org/docs/current/tutorial-select.html"
+                  }
+                ]
               },
               {
-                "name": "MDN Docs: Getting Started with HTML",
-                "link": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started"
+                "name": "Data Types in PostgreSQL",
+                "recommendation-type": "opinion",
+                "description": "PostgreSQL supports a wide range of data types that allow you to store various kinds of information in your database. In this section, we’ll take a look at some of the most commonly used data types and provide a brief description of each. This will serve as a useful reference as you work with PostgreSQL.\n\n**Numeric Data Types**\nPostgreSQL offers several numeric data types to store integers and floating-point numbers:\n\n- smallint: A 2-byte signed integer that can store numbers between -32,768 and 32,767.\n- integer: A 4-byte signed integer that can store numbers between -2,147,483,648 and 2,147,483,647.\n- bigint: An 8-byte signed integer that can store numbers between -9,223,372,036,854,775,808 and 9,223,372,036,854,775,807.\n- decimal: An exact numeric type used to store numbers with a lot of digits, such as currency values. You can specify the precision and scale for this type.\n- numeric: This is an alias for the decimal data type.\n- real: A 4-byte floating-point number with a precision of 6 decimal digits.\n- double precision: An 8-byte floating-point number with a precision of 15 decimal digits.\n\n**Character Data Types**\nThese data types are used to store text or string values:\n\n- char(n): A fixed-length character string with a specified length n.\n- varchar(n): A variable-length character string with a maximum length of n.\n- text: A variable-length character string with no specified maximum length.\n\n**Binary Data Types**\nBinary data types are used to store binary data, such as images or serialized objects:\n\n- bytea: A binary data type that can store variable-length binary strings.\n\n**Date and Time Data Types**\nPostgreSQL provides different data types to store date and time values:\n\n- date: Stores date values with no time zone information (YYYY-MM-DD).\n- time: Stores time values with no time zone information (HH:MM:SS).\n- timestamp: Stores date and time values with no time zone information.\n- timestamptz: Stores date and time values including time zone information.\n- interval: Stores a time interval, like the difference between two timestamps.\n\n**Boolean Data Type**\nA simple data type to represent the truth values:\n\n- boolean: Stores a true or false value.\n\n**Enumerated Types**\nYou can also create custom data types, known as enumerated types, which consist of a static, ordered set of values:\n\n- CREATE TYPE: Used to define your custom enumerated type with a list of allowed values.\n\n**Geometric and Network Data Types**\nPostgreSQL provides special data types to work with geometric and network data:\n\n- point, line, lseg, box, polygon, path, circle: Geometric data types to store points, lines, and various shapes.\n- inet, cidr: Network data types to store IP addresses and subnets.\n\nIn summary, PostgreSQL offers a broad range of data types that cater to different types of information. Understanding these data types and how to use them effectively will help you design efficient database schemas and optimize your database performance.",
+                "resources": [
+                  {
+                    "name": "An introduction to PostgreSQL data types",
+                    "link": "https://www.prisma.io/dataguide/postgresql/introduction-to-data-types"
+                  }
+                ]
               },
               {
-                "name": "web.dev: Learn HTML",
-                "link": "https://web.dev/learn/html"
+                "name": "Rows in PostgreSQL",
+                "recommendation-type": "opinion",
+                "description": "Rows, also known as records or tuples, are one of the fundamental components of a relational database like PostgreSQL.\n\n**What is a Row?**\nA row in PostgreSQL represents a single, uniquely identifiable record with a specific set of fields in a table. Each row in a table is made up of one or more columns, where each column can store a specific type of data (e.g., integer, character, date, etc.). The structure of a table determines the schema of its rows, and each row in a table must adhere to this schema.\n\n**Row Operations**\nYou can perform various operations on rows in PostgreSQL:\n\n- **Insert** - Add a new row to a table:\n  ```sql\n  INSERT INTO table_name (column1, column2, column3, ...)\n  VALUES (value1, value2, value3, ...);\n  ```\n- **Select** - Retrieve specific rows from a table:\n  ```sql\n  SELECT * FROM table_name\n  WHERE condition;\n  ```\n- **Update** - Modify an existing row:\n  ```sql\n  UPDATE table_name\n  SET column1 = value1, column2 = value2, ...\n  WHERE condition;\n  ```\n- **Delete** - Remove a row from a table:\n  ```sql\n  DELETE FROM table_name\n  WHERE condition;\n  ```\n\n**Examples**\nConsider the following table named employees:\n\n| id | name  | age | department |\n|----|-------|-----|------------|\n| 1  | John  | 30  | HR         |\n| 2  | Alice | 25  | IT         |\n| 3  | Bob   | 28  | Finance    |\n\n- Insert a new row:\n  ```sql\n  INSERT INTO employees (id, name, age, department)\n  VALUES (4, 'Eve', 32, 'IT');\n  ```\n- Retrieve rows where department is ‘IT’:\n  ```sql\n  SELECT * FROM employees\n  WHERE department = 'IT';\n  ```\n- Update the age of an employee:\n  ```sql\n  UPDATE employees\n  SET age = 31\n  WHERE name = 'John';\n  ```\n- Delete a row for an employee:\n  ```sql\n  DELETE FROM employees\n  WHERE id = 3;\n  ```\n\nThis concludes our brief overview of rows in PostgreSQL. Understanding rows and the operations you can perform on them is essential for working successfully with PostgreSQL databases.",
+                "resources": []
               },
               {
-                "name": "HTML Full Course - Build a Website Tutorial",
-                "link": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
+                "name": "Columns in PostgreSQL",
+                "recommendation-type": "opinion",
+                "description": "Columns are a fundamental component of PostgreSQL’s object model. They are used to store the actual data within a table and define their attributes such as data type, constraints, and other properties.\n\n**Defining Columns**\nWhen creating a table, you specify the columns along with their data types and additional properties, if applicable. The general syntax for defining columns is as follows:\n```sql\nCREATE TABLE table_name (\n  column_name data_type [additional_properties],\n  ..., \n);\n```\nFor example, to create a table called “employees” with columns “id”, “name”, and “salary”, you would execute the following SQL command:\n```sql\nCREATE TABLE employees (\n  id SERIAL PRIMARY KEY,\n  name VARCHAR(100) NOT NULL,\n  salary NUMERIC(10, 2) NOT NULL\n);\n```\n\n**Data Types**\nPostgreSQL supports a variety of data types that can be associated with columns. Here are some common data types:\n- INTEGER: Represents whole numbers.\n- SERIAL: Auto-incrementing integer, mainly used for primary keys.\n- NUMERIC: Represents a fixed-point number.\n- VARCHAR(n): Represents variable-length character strings with a maximum length of n characters.\n- TEXT: Represents variable-length character strings without a specified maximum length.\n- DATE: Represents dates (YYYY-MM-DD).\n- TIMESTAMP: Represents date and time (YYYY-MM-DD HH:MI:SS).\nRefer to the [official documentation](https://www.postgresql.org/docs/current/datatype.html) for a complete list of supported data types.\n\n**Column Constraints**\nConstraints provide a way to enforce rules on the data stored in columns. Here are some common constraints:\n- NOT NULL: The column must have a value, and NULL values will not be allowed.\n- UNIQUE: All values in the column must be unique.\n- PRIMARY KEY: The column uniquely identifies a row in the table. It automatically applies NOT NULL and UNIQUE constraints.\n- FOREIGN KEY: The column value must exist in another table column, creating a relationship between tables.\n- CHECK: The column value must meet a specific condition.\nFor example, to create a table “orders” where “customer_id” is a foreign key, you can use the following SQL command:\n```sql\nCREATE TABLE orders (\n  id SERIAL PRIMARY KEY,\n  customer_id INTEGER NOT NULL,\n  order_date DATE NOT NULL,\n  FOREIGN KEY (customer_id) REFERENCES customers(id)\n);\n```\nBe sure to refer to the [PostgreSQL documentation](https://www.postgresql.org/docs/current/ddl-constraints.html) for more advanced column properties as you dive deeper into PostgreSQL’s object model.",
+                "resources": []
               },
               {
-                "name": "HTML Tutorial for Beginners: HTML Crash Course",
-                "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
+                "name": "Tables in PostgreSQL",
+                "recommendation-type": "opinion",
+                "description": "A table is one of the primary data storage objects in PostgreSQL. In simple terms, a table is a collection of rows or records, organized into columns. Each column has a unique name and contains data of a specific data type.\n\nIn this section, we will discuss the following aspects related to tables in PostgreSQL:\n\n**Creating tables**\nTo create a table, use the CREATE TABLE command, followed by the table name, and the columns with their respective data types enclosed in parentheses:\n```sql\nCREATE TABLE table_name (\n    column1 data_type,\n    column2 data_type,\n    ...\n);\n```\nFor example:\n```sql\nCREATE TABLE student (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(100) NOT NULL,\n    age INT,\n    joined_date DATE\n);\n```\n\n**Adding constraints**\nConstraints are rules enforced on columns to maintain data integrity. Some common constraints include:\n- NOT NULL: Column must have a value.\n- UNIQUE: Column must have a unique value.\n- PRIMARY KEY: Uniquely identifies a record in the table.\n- FOREIGN KEY: Links two tables together.\n- CHECK: Ensures that the value in the column satisfies a specific condition.\nConstraints can be added either during table creation or using the ALTER TABLE command.\n\n**Table indexing**\nIndexes are created to speed up data retrieval. They work similarly to book indexes, where it’s easier to find content using an indexed keyword. In PostgreSQL, an index can be created on one or more columns of a table. To create an index, use the CREATE INDEX command:\n```sql\nCREATE INDEX index_name ON table_name (column1, column2, ...);\n```\n\n**Altering tables**\nThe ALTER TABLE statement is used to modify existing tables. Some common actions include:\n- Adding a new column: ALTER TABLE table_name ADD COLUMN column_name data_type;\n- Dropping a column: ALTER TABLE table_name DROP COLUMN column_name;\n- Adding a constraint: ALTER TABLE table_name ADD CONSTRAINT constraint_name constraint_definition;\n- Dropping a constraint: ALTER TABLE table_name DROP CONSTRAINT constraint_name;\n\n**Deleting tables**\nTo permanently delete a table and all its data from PostgreSQL, use the DROP TABLE statement:\n```sql\nDROP TABLE table_name;\n```\nBe cautious when using this command, as there’s no way to recover a table once it’s dropped.\n\nBy understanding the basics of creating, modifying, and deleting tables in PostgreSQL, you now have a solid foundation to build your database and store data in a structured manner.",
+                "resources": []
               },
               {
-                "name": "HTML Cheatsheet",
-                "link": "https://htmlcheatsheet.com/"
+                "name": "Schemas",
+                "recommendation-type": "opinion",
+                "description": "Schemas are an essential part of PostgreSQL’s object model, and they help provide structure, organization, and namespacing for your database objects. A schema is a collection of database objects, such as tables, views, indexes, and functions, that are organized within a specific namespace.\n\n**Namespacing**\nThe primary purpose of using schemas in PostgreSQL is to provide namespacing for database objects. Each schema is a namespace within the database and must have a unique name. This allows you to have multiple objects with the same name within different schemas. For example, you may have a users table in both the public and private schemas.\n\nUsing namespaces helps avoid naming conflicts and can make it easier to organize and manage your database as it grows in size and complexity.\n\n**Default Schema**\nPostgreSQL comes with a default schema named public. When you create a new database, the public schema is automatically created for you. If you don’t specify a schema when creating a new object, like a table or function, it will be created within the default public schema.\n\n**Creating and Using Schemas**\nYou can create a new schema using the CREATE SCHEMA command:\n```sql\nCREATE SCHEMA schema_name;\n```\nTo reference a schema when creating or using a database object, you can use the schema name followed by a period and the object name. For example, to create a table within a specific schema:\n```sql\nCREATE TABLE schema_name.table_name (\n  col1 data_type PRIMARY KEY,\n  col2 data_type,\n  ...\n);\n```\nWhen querying a table, you should also reference the schema name:\n```sql\nSELECT * FROM schema_name.table_name;\n```\n\n**Access Control**\nSchemas are also useful for managing access control within your database. You can set permissions on a schema level, allowing you to control which users can access and modify particular database objects. This is helpful for managing a multi-user environment or ensuring that certain application components only have access to specific parts of your database.\n\nTo grant access to a specific schema for a user, use the GRANT command:\n```sql\nGRANT USAGE ON SCHEMA schema_name TO user_name;\n```\n\n**Conclusion**\nIn summary, schemas are crucial elements in PostgreSQL that facilitate namespacing, organization, and access control. By properly utilizing schemas in your database design, you can create a clean and manageable structure, making it easier to scale and maintain your database applications.",
+                "resources": []
               },
               {
-                "name": "Scaler: HTML",
-                "link": "https://www.scaler.com/topics/html"
+                "name": "Databases in PostgreSQL",
+                "recommendation-type": "opinion",
+                "description": "A Database is an essential part of PostgreSQL’s object model, providing a way to organize and manage data efficiently.\n\n**What is a Database?**\n\nIn PostgreSQL, a database is a named collection of tables, indexes, views, stored procedures, and other database objects. Each PostgreSQL server can manage multiple databases, enabling the separation and organization of data sets for various applications, projects, or users.\n\n**Creating a Database**\n\nTo create a database, you can use the CREATE DATABASE SQL statement or leverage PostgreSQL utilities like createdb. Here’s an example of a CREATE DATABASE SQL statement:\n\n```\nCREATE DATABASE database_name;\n```\n\nReplace database_name with the desired name for the new database.\n\n**Managing Databases**\n\nPostgreSQL provides several SQL commands and utilities to manage databases, including:\n\n- Listing databases: Use the \\l command in the psql command-line interface, or execute the SELECT datname FROM pg_database; SQL statement.\n- Switching databases: Use the \\connect or \\c command followed by the database name in the psql command-line interface.\n- Renaming a database: Use the ALTER DATABASE old_name RENAME TO new_name; SQL statement.\n- Dropping a database: Use the DROP DATABASE database_name; SQL statement or the dropdb utility. Be cautious when dropping a database, as it will permanently delete all its data and objects.\n\n**Database Properties**\n\nEach PostgreSQL database has several properties that you can configure to fine-tune its behavior and performance, such as:\n\n- Encoding: Defines the character encoding used in the database. By default, PostgreSQL uses the same encoding as the server’s operating system (e.g., UTF-8 on most Unix-based systems).\n- Collation: Determines the sorting rules for strings in the database. By default, PostgreSQL uses the server’s operating system’s default collation.\n- Tablespaces: Controls where the database files are stored on the file system. By default, PostgreSQL uses the server’s default tablespace. You can create additional tablespaces to store data on different disks or file systems, for performance or backup purposes.\n\nYou can set these properties when creating a new database or altering an existing one using the CREATE DATABASE and ALTER DATABASE SQL statements, respectively.\n\n**In conclusion**, databases in PostgreSQL provide a powerful and flexible way to manage and organize your data. By understanding how databases work and how to manage them, you can effectively structure your data and optimize your applications for performance and scalability.",
+                "resources": []
               }
             ]
           },
           {
-            "name": "",
+            "name": "Relational Model",
             "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
+            "description": "The relational model is an approach to organizing and structuring data using tables, also referred to as 'relations'. First introduced by Edgar F. Codd in 1970, it has become the foundation for most database management systems (DBMS), including PostgreSQL. This model organizes data into tables with rows and columns, where each row represents a single record and each column represents an attribute or field of the record.\n\nThe core concepts of the relational model include:\n\n- **Attributes:** An attribute is a column within a table that represents a specific characteristic or property of an entity, such as 'name', 'age', 'email', etc.\n- **Tuples:** A tuple is a single row within a table that represents a specific instance of an entity with its corresponding attribute values.\n- **Relations:** A relation is a table that consists of a set of tuples with the same attributes. It represents the relationship between entities and their attributes.\n- **Primary Key:** A primary key is a unique identifier for each tuple within a table. It enforces the uniqueness of records and is used to establish relationships between tables.\n- **Foreign Key:** A foreign key is an attribute within a table that references the primary key of another table. It is used to establish and enforce connections between relations.\n- **Normalization:** Normalization is a process of organizing data to minimize redundancy and improve data integrity. It involves decomposing complex tables into simpler tables, ensuring unique records, and properly defining foreign keys.\n- **Data Manipulation Language (DML):** DML is a subset of SQL used to perform operations on data stored within the relational database, such as INSERT, UPDATE, DELETE, and SELECT.\n- **Data Definition Language (DDL):** DDL is another subset of SQL used to define, modify, or delete database structures, such as CREATE, ALTER, and DROP.\n\nBy understanding and implementing the relational model, databases can achieve high-level data integrity, reduce data redundancy, and simplify the process of querying and manipulating data. PostgreSQL, as an RDBMS (Relational Database Management System), fully supports the relational model, enabling users to efficiently and effectively manage their data in a well-structured and organized manner.",
+            "resources": [],
+            "options": [
               {
-                "name": "",
-                "link": ""
+                "name": "Domains in PostgreSQL",
+                "recommendation-type": "opinion",
+                "description": "Domains in PostgreSQL are essentially user-defined data types that can be created using the CREATE DOMAIN command. These custom data types allow you to apply constraints and validation rules to columns in your tables by defining a set of values that are valid for a particular attribute or field. This ensures consistency and data integrity within your relational database.\n\n**Creating Domains**\nTo create a custom domain, you need to define a name for your domain, specify its underlying data type, and set any constraints or default values you want to apply. The syntax for creating a new domain is:\n```sql\nCREATE DOMAIN domain_name AS underlying_data_type\n  [DEFAULT expression]\n  [NOT NULL]\n  [CHECK (condition)];\n```\n- **domain_name:** The name of the custom domain you want to create.\n- **underlying_data_type:** The existing PostgreSQL data type on which your domain is based.\n- **DEFAULT expression:** An optional default value for the domain when no value is provided.\n- **NOT NULL:** Determines whether null values are allowed in the domain. If set, null values are not allowed.\n- **CHECK (condition):** Specifies a constraint that must be met for values in the domain.\n\n**Example**\nSuppose you want to create a custom domain to store phone numbers. This domain should only accept valid 10-digit phone numbers as input. Here’s an example of how you might define this domain:\n```sql\nCREATE DOMAIN phone_number AS VARCHAR(10)\n  NOT NULL\n  CHECK (VALUE ~ '^[0-9]{10}$');\n```\nNow that your phone_number domain is created, you can use it when defining columns in your tables. For example:\n```sql\nCREATE TABLE customers (\n  id serial PRIMARY KEY,\n  name VARCHAR(50) NOT NULL,\n  phone phone_number\n);\n```\nIn this example, the phone column is based on the phone_number domain and will only accept values that pass the defined constraints.\n\n**Modifying and Deleting Domains**\nYou can alter your custom domains by using the ALTER DOMAIN command. To delete a domain, you can use the DROP DOMAIN command. Be aware that dropping a domain may affect the tables with columns based on it.\n\n**Summary**\nDomains in PostgreSQL are a great way to enforce data integrity and consistency in your relational database. They allow you to create custom data types based on existing data types with added constraints, default values, and validation rules. By using domains, you can streamline your database schema and ensure that your data complies with your business rules or requirements.",
+                "resources": []
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Attributes in the Relational Model",
+                "recommendation-type": "opinion",
+                "description": "Attributes are an essential component of the relational model in PostgreSQL. They represent the individual pieces of data or properties of an entity within a relation (table). In this section, we’ll explore what attributes are, their properties, and their role in relational databases.\n\n**Defining Attributes**\nIn the context of a relational database, an attribute corresponds to a column in a table. Each record (row) within the table will have a value associated with this attribute. Attributes describe the properties of the entities stored in a table, serving as a blueprint for the structure of the data.\n\nFor example, consider a table called employees that stores information about employees in a company. The table can have attributes like employee_id, first_name, last_name, email, and salary. Each of these attributes define a specific aspect of an employee.\n\n**Properties of Attributes**\nThere are a few essential properties of attributes to keep in mind while using them in relational databases.\n\n- **Name:** Each attribute must have a unique name within the table (relation) to avoid ambiguity. Attribute names should be descriptive and adhere to the naming conventions of the database system.\n- **Data Type:** Attributes have a specific data type, defining the kind of values they can store. Common data types in PostgreSQL include INTEGER, FLOAT, VARCHAR, TEXT, DATE, and TIMESTAMP. It’s crucial to carefully consider the appropriate data type for each attribute to maintain data integrity and optimize storage.\n- **Constraints:** Attributes can have constraints applied to them, restricting the values they can hold. Constraints are useful for maintaining data integrity and consistency within the table. Some common constraints include NOT NULL, UNIQUE, CHECK, and the FOREIGN KEY constraint for referencing values in another table.\n- **Default Value:** Attributes can have a default value that is used when a record is inserted without an explicit value for the attribute. This can be a constant or a function.\n\n**Role in Relational Databases**\nAttributes play a vital role in constructing and managing relational databases. They help:\n\n- Create a precise structure for the data stored in a table, which is essential for maintaining data integrity and consistency.\n- Define relationships between tables through primary keys and foreign keys, with primary keys serving as unique identifiers for records and foreign keys referencing primary keys from related tables.\n- Enforce constraints and rules on the data stored in databases, improving data reliability and security.\n\nIn conclusion, understanding the concept of attributes is crucial for working with relational databases like PostgreSQL. Properly defining and managing attributes will ensure the integrity, consistency, and efficiency of your database.",
+                "resources": []
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Tuples",
+                "recommendation-type": "opinion",
+                "description": "In the relational model, a tuple is a fundamental concept that represents a single record or row in a table. In PostgreSQL, a tuple is composed of a set of attribute values, each corresponding to a specific column or field in the table. This section will cover the various aspects and properties of tuples within PostgreSQL.\n\n**Attributes and Values**\nA tuple is defined as an ordered set of attribute values, meaning that each value in a tuple corresponds to a specific attribute or column in the table. The values can be of different data types, such as integers, strings, or dates, depending on the schema of the table.\n\nFor example, consider a users table with columns id, name, and email. A sample tuple in this table could be (1, 'John Smith', 'john.smith@example.com'), where each value corresponds to its respective column.\n\n**Operations on Tuples**\nPostgreSQL provides a variety of operations that can be performed on tuples, which can be classified into three main categories:\n\n1. **Projection:** This operation involves selecting one or more attributes from a tuple and creating a new tuple with only the selected attributes. For example, projecting the name and email attributes from the previously mentioned tuple would result in ('John Smith', 'john.smith@example.com').\n\n2. **Selection:** Selection involves filtering tuples based on a specific condition. For example, you may want to select all tuples from the users table where the email attribute ends with “@example.com”.\n\n3. **Join:** The join operation combines tuples from two or more tables based on a common attribute or condition. For example, if we have another table called orders with a user_id column, we could use a join operation to retrieve all records from both tables where the users.id attribute matches the orders.user_id.\n\n**Unique Constraints and Primary Keys**\nIn order to maintain data integrity within the relational model, it is often necessary to enforce unique constraints on specific attributes or combinations of attributes. In PostgreSQL, a primary key is a special type of unique constraint that ensures each tuple in a table is uniquely identifiable by its primary key value(s).\n\nFor instance, in the users table, we could define the id column as a primary key, ensuring that no two tuples could have the same id value.\n\nBy understanding the basics of tuples, you’ll have a solid foundation in working with PostgreSQL’s relational model, enabling you to efficiently store, retrieve, and manipulate data within your database.",
+                "resources": []
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Relations in the Relational Model",
+                "recommendation-type": "opinion",
+                "description": "In the world of databases, the relational model is a widely used approach to manage and organize data. Understanding the concept of relations is essential to work with relational databases, such as PostgreSQL.\n\n**What is a Relation?**\nA relation, sometimes referred to as a table, represents a collection of related information in a structured format. In the relational model, data is organized into rows and columns within a table. Each row in a table (also known as a tuple or record) represents a single record or instance of the data, while columns (also known as attributes or fields) represent the properties of that data.\n\nFor example, a table representing a list of employees might have columns for employee ID, name, department, and salary, and each row in the table would represent a unique employee with their specific attributes.\n\n**Key Characteristics of Relations**\nThere are a few essential characteristics of relations:\n\n- **Header:** The header is the set of column names, also referred to as the schema, which describes the structure of the table. Column names within a table must be unique, and each column should have a specific data type (e.g., integer, text, date).\n- **No Duplicate Rows:** In a relation, each row must be unique, ensuring there are no duplicate records. This constraint maintains data integrity and consistency.\n- **Order Doesn’t Matter:** In the relational model, the order of rows and columns within a table is not important. When querying the database, you can request the data in any desired order.\n- **Keys:** A key is a minimal set of columns (attribute(s)) that can uniquely identify each row within the table. There are two types of keys:\n  - *Primary Key:* A primary key is a column or a set of columns that uniquely identify each row. A table can have only one primary key. Primary keys ensure data consistency and act as a reference for other tables in the database.\n  - *Foreign Key:* A foreign key is a column or set of columns that refer to the primary key of another table. This relationship enforces referential integrity, ensuring that data across tables remains consistent.\n\n**Benefits of Using Relations**\nRelations are fundamental to the relational model’s success, offering a variety of benefits:\n\n- **Flexibility:** Relations make it easy to evolve the structure of data as needs change, allowing users to add, remove, or modify columns in a table.\n- **Data Consistency:** By enforcing primary and foreign keys, the relational model ensures data consistency and accuracy across tables.\n- **Ease of Querying:** SQL (Structured Query Language) allows users to easily retrieve and manipulate data from relations without having to know the underlying data structure.\n- **Efficient Storage:** Relations enable efficient data storage and retrieval by representing only necessary information and eliminating data redundancy.\n\nBy understanding the concept of relations and their characteristics, you can effectively work with PostgreSQL and other relational databases to create, modify, and query structured data.",
+                "resources": []
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Constraints in PostgreSQL",
+                "recommendation-type": "opinion",
+                "description": "Constraints are an essential part of the relational model, as they define rules that the data within the database must follow. They ensure that the data is consistent, accurate, and reliable. In this section, we’ll explore various types of constraints in PostgreSQL and how to implement them.\n\n**Primary Key**\nA primary key constraint is a column or a set of columns that uniquely identifies each row in a table. There can only be one primary key per table, and its value must be unique and non-null for each row.\n\n```sql\nCREATE TABLE users (\n  id SERIAL PRIMARY KEY,\n  username VARCHAR(100) NOT NULL,\n  email VARCHAR(100) NOT NULL\n);\n```\n\n**Foreign Key**\nA foreign key constraint ensures that a column or columns in a table refer to an existing row in another table. It helps maintain referential integrity between tables.\n\n```sql\nCREATE TABLE orders (\n  order_id SERIAL PRIMARY KEY,\n  user_id INTEGER,\n  product_id INTEGER,\n  FOREIGN KEY (user_id) REFERENCES users (id),\n  FOREIGN KEY (product_id) REFERENCES products (id)\n);\n```\n\n**Unique**\nA unique constraint ensures that the values in a column or set of columns are unique across all rows in a table. In other words, it prevents duplicate entries in the specified column(s).\n\n```sql\nCREATE TABLE users (\n  id SERIAL PRIMARY KEY,\n  username VARCHAR(100) UNIQUE NOT NULL,\n  email VARCHAR(100) UNIQUE NOT NULL\n);\n```\n\n**Check**\nA check constraint verifies that the values entered into a column meet a specific condition. It helps to maintain data integrity by restricting the values that can be inserted into a column.\n\n```sql\nCREATE TABLE products (\n  product_id SERIAL PRIMARY KEY,\n  product_name VARCHAR(100) NOT NULL,\n  price NUMERIC CHECK (price >= 0)\n);\n```\n\n**Not Null**\nA NOT NULL constraint enforces that a column cannot contain a NULL value. This ensures that a value must be provided for the specified column when inserting or updating data in the table.\n\n```sql\nCREATE TABLE users (\n  id SERIAL PRIMARY KEY,\n  username VARCHAR(100) NOT NULL,\n  email VARCHAR(100) NOT NULL\n);\n```\n\n**Exclusion**\nAn exclusion constraint is a more advanced form of constraint that allows you to specify conditions that should not exist when comparing multiple rows in a table. It helps maintain data integrity by preventing conflicts in data.",
+                "resources": []
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "The Relational Model: Null Values",
+                "recommendation-type": "opinion",
+                "description": "One of the important concepts in the relational model is the use of NULL values. NULL is a special marker used to indicate the absence of data, meaning that the field has no value assigned, or the value is simply unknown. It is important to note that NULL is not the same as an empty string or a zero value, it stands for the absence of any data.\n\n**Understanding NULL in PostgreSQL**\nIn PostgreSQL, NULL plays a crucial role when dealing with missing or optional data. Let’s explore some key points to understand how NULL values work in PostgreSQL:\n\n**Representing Unknown or Missing Data**\nConsider the scenario where you have a table named employees, with columns like name, email, and birthdate. It’s possible that some employees don’t provide their birthdate or email address. In such cases, you can use NULL to indicate that the data is not available or unknown, like this:\n\n```sql\nINSERT INTO employees (name, email, birthdate) VALUES ('John Doe', NULL, '1990-01-01');\n```\n\n**NULL in Constraints and Unique Values**\nWhile creating a table, you can set constraints like NOT NULL, which ensures that a specific column must hold a value and cannot be left empty. If you try to insert a row with NULL in a NOT NULL column, PostgreSQL will raise an error. On the other hand, when using unique constraints, multiple NULL values are considered distinct, meaning you can have more than one NULL value even in a column with a unique constraint.\n\n**Comparing NULL Values**\nWhen comparing NULL values, you cannot use the common comparison operators like =, <>, <, >, or BETWEEN. Instead, you should use the IS NULL and IS NOT NULL operators to check for the presence or absence of NULL values. The ’=’ operator will always return NULL when compared to any value, including another null value.\n\nExample:\n\n```sql\n-- Find all employees without an email address\nSELECT * FROM employees WHERE email IS NULL;\n\n-- Find all employees with a birthdate assigned\nSELECT * FROM employees WHERE birthdate IS NOT NULL;\n```\n\n**NULL in Aggregate Functions**\nWhen dealing with aggregate functions like SUM, AVG, COUNT, etc., PostgreSQL ignores NULL values and only considers the non-null data.\n\nExample:\n\n```sql\n-- Calculate the average birth year of employees without including NULL values\nSELECT AVG(EXTRACT(YEAR FROM birthdate)) FROM employees;\n```\n\n**Coalescing NULL values**\nSometimes, you may want to replace NULL values with default or placeholder values. PostgreSQL provides the COALESCE function, which allows you to do that easily.\n\nExample:\n\n```sql\n-- Replace NULL email addresses with 'N/A'\nSELECT name, COALESCE(email, 'N/A') as email, birthdate FROM employees;\n```\n\nIn conclusion, NULL values play a crucial role in PostgreSQL and the relational model, as they allow you to represent missing or unknown data in a consistent way. Remember to handle NULL values appropriately with constraints, comparisons, and other operations to ensure accurate results and maintain data integrity.",
+                "resources": []
               }
             ]
           },
           {
-            "name": "",
+            "name": "High Level Database Concepts",
             "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
+            "description": "In this section, we will explore some of the most important high-level concepts that revolve around relational databases and PostgreSQL. These concepts are crucial for understanding the overall functionality and best practices in working with databases.\n\n**Data Models**\nData models are the foundation of any data management system. They define the structure in which data is stored, organized, and retrieved. The most prominent data models include:\n\n- **Relational Model:** Organizes data into tables (relations) where each table comprises rows and columns. The relations can be queried and manipulated using a language like SQL.\n- **Hierarchical Model:** Organizes data in a tree-like structure with parent-child relationships between nodes, suitable for scenarios with a clear hierarchical structure.\n- **Network Model:** Similar to the hierarchical model but allows for more complex connections between nodes.\n\n**Database Management Systems (DBMS)**\nA Database Management System (DBMS) is software that helps manage, control, and facilitate interactions with databases. DBMSes can be classified into various types based on their data models, such as Relational Database Management System (RDBMS), Hierarchical DBMS, and Network DBMS.\n\n**SQL: Structured Query Language**\nSQL is the standard language used to communicate with RDBMSes, including PostgreSQL. It enables actions like creating, updating, deleting, and querying data in the database. SQL consists of multiple components:\n\n- **DDL (Data Definition Language):** Used for defining and managing the structure of the database, like creating, altering, and deleting tables.\n- **DML (Data Manipulation Language):** Deals with manipulating the data stored in tables, like adding, updating, or deleting records.\n- **DCL (Data Control Language):** Manages permissions and access control for the data, allowing you to grant or revoke access to specific users and roles.\n\n**ACID Properties**\nRelational databases adhere to the ACID properties, ensuring the following characteristics:\n\n- **Atomicity:** An operation (or transaction) should either be fully completed, or it should not be executed at all.\n- **Consistency:** The database should be consistent before and after a transaction, fulfilling all constraints and business rules.\n- **Isolation:** Transactions should be isolated from each other, meaning their execution should not impact other transactions in progress.\n- **Durability:** Once committed, the changes made by a transaction must be permanent, even in the case of system failure or crash.\n\n**Normalization**\nNormalization is a process of systematically organizing data in the database to reduce redundancy, improve consistency, and ensure data integrity. The normalization rules are divided into several forms, such as First Normal Form (1NF), Second Normal Form (2NF), Third Normal Form (3NF), and so on. Each form imposes a set of constraints to achieve a higher degree of data organization and consistency.\n\nUnderstanding and integrating these high-level database concepts will enable you to work efficiently with PostgreSQL and other RDBMSes while designing, developing, and maintaining databases.",
+            "resources": [],
+            "options": [
               {
-                "name": "",
-                "link": ""
+                "name": "ACID",
+                "recommendation-type": "opinion",
+                "description": "ACID are the four properties of relational database systems that help in making sure that we are able to perform the transactions in a reliable manner. It’s an acronym which refers to the presence of four properties: atomicity, consistency, isolation and durability",
+                "resources": [
+                  {
+                    "name": "What is ACID Compliant Database?",
+                    "link": "https://example.com/acid-compliant-database"
+                  },
+                  {
+                    "name": "What is ACID Compliance?: Atomicity, Consistency, Isolation",
+                    "link": "https://example.com/acid-compliance"
+                  },
+                  {
+                    "name": "ACID Explained: Atomic, Consistent, Isolated & Durable",
+                    "link": "https://example.com/acid-explained"
+                  }
+                ]
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Multi-Version Concurrency Control (MVCC)",
+                "recommendation-type": "opinion",
+                "description": "Multi-Version Concurrency Control (MVCC) is a technique used by PostgreSQL to allow multiple transactions to access the same data concurrently without conflicts or delays. It ensures that each transaction has a consistent snapshot of the database and can operate on its own version of the data.\n\n**Key Features of MVCC**\n- **Transaction Isolation:** Each transaction has its own isolated view of the database, which prevents them from seeing each other’s uncommitted data (called a snapshot).\n- **Concurrency:** MVCC allows multiple transactions to run concurrently without affecting each other’s operations, thus improving system performance.\n- **Consistency:** MVCC ensures that when a transaction accesses data, it always has a consistent view, even if other transactions are modifying the data at the same time.\n\n**How MVCC Works**\n- When a transaction starts, it gets a unique transaction ID (TXID). This ID is later used to keep track of changes made by the transaction.\n- When a transaction reads data, it only sees the data that was committed before the transaction started, as well as any changes it made itself. This ensures that every transaction has a consistent view of the database.\n- Whenever a transaction modifies data (INSERT, UPDATE, or DELETE), PostgreSQL creates a new version of the affected rows and assigns the new version the same TXID as the transaction. These new versions are called “tuples”.\n- Other transactions running at the same time will only see the old versions of the modified rows since their snapshots are still based on the earlier state of the data.\n- When a transaction is committed, PostgreSQL checks for conflicts (such as two transactions trying to modify the same row). If there are no conflicts, the changes are permanently applied to the database, and other transactions can now see the updated data.\n\n**Benefits of MVCC**\n- **High Performance:** With MVCC, reads and writes can occur simultaneously without locking, leading to improved performance, especially in highly concurrent systems.\n- **Consistent Data:** Transactions always work on a consistent snapshot of the data, ensuring that the data is never corrupted by concurrent changes.\n- **Increased Isolation:** MVCC provides a strong level of isolation between transactions, which helps prevent errors caused by concurrent updates.\n\n**Drawbacks of MVCC**\n- **Increased Complexity:** Implementing MVCC in a database system requires more complex data structures and algorithms compared to traditional locking mechanisms.\n- **Storage Overhead:** Multiple versions of each data item must be stored, which can lead to increased storage usage and maintenance overhead.\n\nOverall, MVCC is an essential component of PostgreSQL’s transaction management, providing a highly efficient and consistent system for managing concurrent database changes.",
+                "resources": []
               }
             ]
           },
           {
-            "name": "",
+            "name": "ACID",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "ACID are the four properties of relational database systems that help in making sure that we are able to perform the transactions in a reliable manner. It’s an acronym which refers to the presence of four properties: atomicity, consistency, isolation and durability",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "What is ACID Compliant Database?",
+                "link": "https://example.com/acid-compliant-database"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "What is ACID Compliance?: Atomicity, Consistency, Isolation",
+                "link": "https://example.com/acid-compliance"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "ACID Explained: Atomic, Consistent, Isolated & Durable",
+                "link": "https://example.com/acid-explained"
               }
             ]
           },
+          
           {
-            "name": "",
+            "name": "Multi-Version Concurrency Control (MVCC)",
             "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
+            "description": "Multi-Version Concurrency Control (MVCC) is a technique used by PostgreSQL to allow multiple transactions to access the same data concurrently without conflicts or delays. It ensures that each transaction has a consistent snapshot of the database and can operate on its own version of the data.\n\n**Key Features of MVCC**\n- **Transaction Isolation:** Each transaction has its own isolated view of the database, which prevents them from seeing each other’s uncommitted data (called a snapshot).\n- **Concurrency:** MVCC allows multiple transactions to run concurrently without affecting each other’s operations, thus improving system performance.\n- **Consistency:** MVCC ensures that when a transaction accesses data, it always has a consistent view, even if other transactions are modifying the data at the same time.\n\n**How MVCC Works**\n- When a transaction starts, it gets a unique transaction ID (TXID). This ID is later used to keep track of changes made by the transaction.\n- When a transaction reads data, it only sees the data that was committed before the transaction started, as well as any changes it made itself. This ensures that every transaction has a consistent view of the database.\n- Whenever a transaction modifies data (INSERT, UPDATE, or DELETE), PostgreSQL creates a new version of the affected rows and assigns the new version the same TXID as the transaction. These new versions are called “tuples”.\n- Other transactions running at the same time will only see the old versions of the modified rows since their snapshots are still based on the earlier state of the data.\n- When a transaction is committed, PostgreSQL checks for conflicts (such as two transactions trying to modify the same row). If there are no conflicts, the changes are permanently applied to the database, and other transactions can now see the updated data.\n\n**Benefits of MVCC**\n- **High Performance:** With MVCC, reads and writes can occur simultaneously without locking, leading to improved performance, especially in highly concurrent systems.\n- **Consistent Data:** Transactions always work on a consistent snapshot of the data, ensuring that the data is never corrupted by concurrent changes.\n- **Increased Isolation:** MVCC provides a strong level of isolation between transactions, which helps prevent errors caused by concurrent updates.\n\n**Drawbacks of MVCC**\n- **Increased Complexity:** Implementing MVCC in a database system requires more complex data structures and algorithms compared to traditional locking mechanisms.\n- **Storage Overhead:** Multiple versions of each data item must be stored, which can lead to increased storage usage and maintenance overhead.\n\nOverall, MVCC is an essential component of PostgreSQL’s transaction management, providing a highly efficient and consistent system for managing concurrent database changes.",
+            "resources": []
+          },
+          
+          {
+            "name": "Transactions",
+            "recommendation-type": "opinion",
+            "description": "Transactions are a fundamental concept in PostgreSQL, as well as in most other database management systems. A transaction is a sequence of one or more SQL statements that are executed as a single unit of work. Transactions help ensure that the database remains in a consistent state even when there are multiple users or operations occurring concurrently.\n\n**Properties of Transactions**\nTransactions in PostgreSQL follow the ACID properties, which are an essential aspect of database systems:\n\n- **Atomicity:** A transaction should either be fully completed, or it should have no effect at all. If any part of a transaction fails, the entire transaction should be rolled back, and none of the changes made during the transaction should be permanent.\n\n- **Consistency:** The database should always be in a consistent state before and after a transaction. This means that any constraints or rules defined in the database should be satisfied before a transaction begins and after it has been completed.\n\n- **Isolation:** Transactions should be isolated from each other. The effect of one transaction should not be visible to another until the transaction has been committed. This helps prevent conflicts and issues when multiple transactions are trying to modify the same data.\n\n- **Durability:** Once a transaction has been committed, its changes should be permanent. The database should maintain a log of committed transactions so that the system can recover the committed state in case of a failure or crash.\n\n**Transaction Control Statements**\nIn PostgreSQL, you can use the following transaction control statements to manage transactions:\n\n- `BEGIN:` Starts a new transaction.\n- `COMMIT:` Ends the current transaction and makes all changes made during the transaction permanent.\n- `ROLLBACK:` Reverts all changes made during the current transaction and ends the transaction.\n- `SAVEPOINT:` Creates a savepoint to which you can later roll back.\n- `ROLLBACK TO savepoint:` Rolls back the transaction to the specified savepoint.\n- `RELEASE savepoint:` Releases a savepoint, which allows you to commit changes made since the savepoint.\n\n**Example Usage**\nHere’s an example to illustrate the use of transactions:\n\n```sql\nBEGIN; -- Start a transaction\n\nINSERT INTO employees (name, salary) VALUES ('Alice', 5000);\nINSERT INTO employees (name, salary) VALUES ('Bob', 6000);\n\n-- Other SQL statements...\n\nCOMMIT; -- Commit the transaction and make changes permanent\n\n-- In case of an issue, you can use ROLLBACK to revert changes\nROLLBACK; -- Roll back the transaction and undo all changes\n```\n\nIn conclusion, transactions are an essential feature in PostgreSQL when working with multiple users or operations that modify the database. By using transactions, you can ensure data consistency, prevent conflicts, and manage database changes effectively.",
+            "resources": []
+          },
+          {
+            "name": "Write Ahead Log (WAL)",
+            "recommendation-type": "opinion",
+            "description": "In PostgreSQL, the Write Ahead Log (WAL) is a crucial component that ensures data durability and consistency. The primary purpose of the WAL is to guarantee that the database state is recoverable to a consistent state even in the event of a crash or hardware failure.\n\n**Overview**\nThe Write Ahead Log is a technique where any modification to the data is first recorded in the log before being written into the main data storage. WAL ensures that any write operation is atomic, i.e., it either completes successfully or not at all. Atomicity is one of the key properties in ACID transactions (Atomicity, Consistency, Isolation, and Durability).\n\n**How WAL Works**\n- **Write operation:** When a change is made to the data, PostgreSQL writes the changes to the WAL buffer instead of immediately modifying the disk pages.\n- **Flush operation:** Once the transaction is committed, the WAL buffer contents are flushed to the on-disk WAL file.\n- **Checkpoint:** The background writer process writes the ‘dirty’ pages from the shared buffer to the main data files at specific intervals called ‘checkpoints.’ It ensures that the actual data files are updated to match the state recorded in the WAL logs.\n\n**Benefits of WAL**\n- **Recovery:** WAL ensures that the database can recover from a system crash or power failure by replaying the changes recorded in the WAL files.\n- **Concurrency:** WAL improves concurrency and performance by allowing multiple transactions to proceed simultaneously without conflicting with each other.\n- **Archive and Replication:** WAL files can be archived and used for point-in-time recovery, or it can be streamed to a standby server for a real-time backup or read-only queries.\n\n**Summary**\nThe Write Ahead Log (WAL) is an integral part of PostgreSQL. It helps maintain the integrity and consistency of the database by logging changes before they are written to the main data storage. WAL enables recovery from crashes, improves performance, and can be used for replication purposes.",
+            "resources": []
+          },
+          {
+            "name": "Query Processing in PostgreSQL",
+            "recommendation-type": "opinion",
+            "description": "In this section, we will discuss the concept of query processing in PostgreSQL. Query processing is an important aspect of a database system, as it is responsible for managing data retrieval and modification using Structured Query Language (SQL) queries. Efficient query processing is crucial for ensuring optimal database performance.\n\n**Stages of Query Processing**\nQuery processing in PostgreSQL involves several stages, from parsing SQL queries to producing the final result set. To understand the complete process, let’s dive into each stage:\n\n- **Parsing:** This is the first stage in query processing, where the SQL query is broken down into smaller components and checked for any syntactical errors. The parser creates a parse tree, a data structure representing the different elements of the query.\n- **Rewriting:** At this stage, the parse tree might be modified to apply any necessary optimization or transformation. Examples include removing redundant conditions, simplifying expressions, expanding views, and applying security-related checks.\n- **Optimization:** This stage involves selecting the best execution plan from multiple alternatives. The query optimizer evaluates various strategies based on factors like the availability of indexes, the size of the tables, and the complexity of the conditions in the query. The cost of each plan is estimated, and the one with the lowest cost is chosen as the final plan.\n- **Plan Execution:** The selected execution plan is converted into a series of low-level operations, which are then executed by the executor. The executor retrieves or modifies the data as specified by the plan, executing the required joins, filtering, aggregations, and sorting steps.\n- **Returning Results:** After the successful execution of the plan, the final result set is sent back to the client application. This result set might be in the form of rows of data, a single value, or a confirmation message of completed operations.\n\n**Key Components in Query Processing**\nThere are several key components of PostgreSQL’s query processing engine:\n\n- **Parser:** The component responsible for breaking down SQL queries and creating parse trees.\n- **Optimizer:** The part of the system that evaluates and chooses the optimal execution plan for a given query.\n- **Executor:** The component that runs the selected execution plan, performing the required operations to retrieve or modify the data.\n- **Statistics Collector:** This component gathers essential information about the status of the database, including table sizes, distribution of the data, and access frequency. This information is used by the optimizer to make better decisions when choosing execution plans.\n\n**Conclusion**\nIn this section, we learned about the fundamentals of query processing in PostgreSQL. Understanding how PostgreSQL handles query processing can help you write more efficient and performance-oriented SQL queries, which are essential for maintaining a healthy and fast database environment.",
+            "resources": []
           }
         ]
       },
       "Installation and Setup": {
+        "description": "In this topic, we will discuss the steps required to successfully install and set up PostgreSQL, an open-source, powerful, and advanced object-relational database management system (DBMS). By following these steps, you will have a fully functional PostgreSQL database server up and running on your system.\n\n**Prerequisites**\nBefore we begin, you need to have a compatible operating system (such as Linux, macOS, or Windows) and administrative privileges to install and configure the necessary software on your computer.\n\n**Step 1: Download and Install PostgreSQL**\nFirst, you will need to visit the PostgreSQL official website at the following URL: [https://www.postgresql.org/download/](https://www.postgresql.org/download/).\n\nChoose your operating system and follow the download instructions provided.\nAfter downloading the installer, run it and follow the on-screen instructions to install PostgreSQL on your system.\n\n*Note for Windows Users:* You can choose to install PostgreSQL, pgAdmin (a web-based administrative tool for PostgreSQL), and command-line utilities like psql and pg_dump.\n\n**Step 2: Configuring PostgreSQL**\nAfter installing PostgreSQL, you may need to perform some initial configuration tasks.\n\n1. **Configure the postgresql.conf file:**\n   - Open the postgresql.conf with your file editor. You can typically find it in the following locations:\n     - Windows: C:\\Program Files\\PostgreSQL\\<version>\\data\\postgresql.conf\n     - Linux: /etc/postgresql/<version>/main/postgresql.conf\n     - macOS: /Library/PostgreSQL/<version>/data/postgresql.conf\n   - Make changes to this configuration file as needed, such as changing the default listen_addresses, port, or other relevant settings.\n   - Save the changes and restart the PostgreSQL server.\n\n2. **Configure the pg_hba.conf file:**\n   - Open the pg_hba.conf with your file editor. It should be in the same directory as the postgresql.conf file.\n   - This file controls client authentication to the PostgreSQL server. Make changes to the file to set up the desired authentication methods.\n   - Save the changes and restart the PostgreSQL server.\n\n**Step 3: Create a Database and User**\nOpen a terminal or command prompt and run the psql command to connect to the PostgreSQL server as the default postgres user.\n\n```\npsql -U postgres\n```\n\nCreate a new database using the CREATE DATABASE SQL statement. Replace <database_name> with the name of your desired database.\n\n```\nCREATE DATABASE <database_name>;\n```\n\nCreate a new user using the CREATE USER SQL statement. Replace <username> and <password> with appropriate values.\n\n```\nCREATE USER <username> WITH PASSWORD '<password>';\n```\n\nGrant the necessary privileges to the new user for your database:\n\n```\nGRANT ALL PRIVILEGES ON DATABASE <database_name> TO <username>;\n```\n\nExit the psql shell with \\q.\n\n**Step 4: Connecting to the Database**\nYou can now connect to your PostgreSQL database using various tools such as:\n\n- Command-line utilities like psql;\n- Programming languages using appropriate libraries (e.g., psycopg2 for Python);\n- GUI tools such as pgAdmin, DBeaver, or DataGrip.\n\nCongratulations! You have successfully installed and set up PostgreSQL on your system. Now you can create tables, manage data, and run your applications using PostgreSQL as the backend database server.",
+        "resources": [],
         "order": 3,
         "options": [
           {
-            "name": "",
+            "name": "Using Docker for PostgreSQL Installation and Setup",
             "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
+            "description": "Docker is an excellent tool for simplifying the installation and management of applications, including PostgreSQL. By using Docker, you can effectively isolate PostgreSQL from your system and avoid potential conflicts with other installations or configurations.\n\n**Prerequisites**\n- Install Docker on your system.\n- Make sure Docker service is running.\n\n**Steps to Install PostgreSQL Using Docker**\n\n1. **Pull the PostgreSQL Docker Image**\n   Start by pulling the latest official PostgreSQL image from Docker Hub:\n   ```\ndocker pull postgres\n```\n\n2. **Run the PostgreSQL Container**\n   Now that you have the PostgreSQL image, run a new Docker container with the following command:\n   ```\ndocker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres\n```\n   Replace `some-postgres` with a custom name for your PostgreSQL container and `mysecretpassword` with a secure password. This command will create and start a new PostgreSQL container.\n\n3. **Connect to the PostgreSQL Container**\n   To connect to the running PostgreSQL container, you can use the following command:\n   ```\ndocker exec -it some-postgres psql -U postgres\n```\n   Replace `some-postgres` with the name of your PostgreSQL container. You should now be connected to your PostgreSQL instance and able to run SQL commands.\n\n4. **Persisting Data**\n   By default, all data stored within the PostgreSQL Docker container will be removed when the container is deleted. To persist data, add a volume to your container using the `-v` flag:\n   ```\ndocker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -v /path/to/host/folder:/var/lib/postgresql/data -d postgres\n```\n   Replace `/path/to/host/folder` with the directory path on your host machine where you would like the data to be stored.\n\n5. **Accessing PostgreSQL Remotely**\n   To access your PostgreSQL container remotely, you’ll need to publish the port on which it’s running. The default PostgreSQL port is 5432. Use the `-p` flag to publish the port:\n   ```\ndocker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres\n```\n   Now you can connect to your PostgreSQL container using any PostgreSQL client by providing the host IP address and the given port.\n\n**Conclusion**\nUsing Docker is a convenient and efficient way to install and manage PostgreSQL. By utilizing containers, you can easily control your PostgreSQL resources and maintain database isolation. Following the above steps, you can quickly install, set up, and access PostgreSQL using Docker.",
+            "resources": []
           },
           {
-            "name": "",
+            "name": "Package Managers",
             "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
+            "description": "Package managers are essential tools that help you install, update, and manage software packages on your system. They keep track of dependencies, handle configuration files, and ensure that the installation process is seamless for the end-user.\n\nIn the context of PostgreSQL installation, different operating systems have different package managers.\n\n**APT (Debian/Ubuntu)**\nFor Debian-based systems like Ubuntu, the APT (Advanced Package Tool) package manager can be used to install and manage software packages. The APT ecosystem consists of a set of tools and libraries, such as apt-get, apt-cache, and dpkg. To install PostgreSQL using APT, first update the package list, and then install the postgresql package:\n```bash\nsudo apt-get update\nsudo apt-get install postgresql\n```\n\n**YUM (Fedora/CentOS/RHEL)**\nFor Fedora and its derivatives such as CentOS and RHEL, the YUM (Yellowdog Updater, Modified) package manager is widely used. YUM makes it easy to search, install, and update packages. To install PostgreSQL using YUM, first add the PostgreSQL repository, and then install the package:\n```bash\nsudo yum install https://download.postgresql.org/pub/repos/yum/reporpms/EL-8-x86_64/pgdg-redhat-repo-latest.noarch.rpm\nsudo yum install postgresql\n```\n\n**Zypper (openSUSE)**\nZypper is the package manager for openSUSE and other SUSE-based distributions. It is similar to both APT and YUM, providing a simple and convenient way of managing software packages. To install PostgreSQL using Zypper, update the repository list, and then install the postgresql package:\n```bash\nsudo zypper refresh\nsudo zypper install postgresql\n```\n\n**Homebrew (macOS)**\nHomebrew is a popular package manager for macOS, allowing users to install software on their Macs not available on the Apple App Store. To install PostgreSQL using Homebrew, first make sure you have Homebrew installed, and then install the postgresql package:\n```bash\nbrew update\nbrew install postgresql\n```\n\nThese examples demonstrate how package managers make it easy to install PostgreSQL on various systems. In general, package managers help simplify the installation and management of software, including keeping packages up-to-date and handling dependencies, making them an essential part of a successful PostgreSQL setup.",
+            "resources": []
           },
           {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
+            "Managing Postgres": {
+              "options": [
+                {
+                  "name": "Using systemd",
+                  "recommendation-type": "opinion",
+                  "description": "In this section, we’ll discuss how to manage PostgreSQL using systemd, which is the default service manager for many modern Linux distributions (such as CentOS, Ubuntu, and Debian). systemd enables you to start, stop, and check the status of PostgreSQL, as well as enable/disable automatic startup at boot time.\n\n**Starting, Stopping, and Restarting PostgreSQL**\nTo start, stop, or restart PostgreSQL using systemd, you can use the systemctl command, as shown below:\n\n- To start the PostgreSQL service, run:\n```bash\nsudo systemctl start postgresql\n```\n- To stop the PostgreSQL service, run:\n```bash\nsudo systemctl stop postgresql\n```\n- To restart the PostgreSQL service, run:\n```bash\nsudo systemctl restart postgresql\n```\n\n**Checking PostgreSQL Service Status**\nTo check the status of the PostgreSQL service, you can use the systemctl status command:\n```bash\nsudo systemctl status postgresql\n```\nThis command will display information about the PostgreSQL service, including its current state (active or inactive) and any recent logs.\n\n**Enabling/Disabling PostgreSQL Startup at Boot**\nTo enable or disable the PostgreSQL service to start automatically at boot time, you can use the systemctl enable and systemctl disable commands, respectively:\n\n- To enable PostgreSQL to start at boot, run:\n```bash\nsudo systemctl enable postgresql\n```\n- To disable PostgreSQL from starting at boot, run:\n```bash\nsudo systemctl disable postgresql\n```\n\n**Conclusion**\nIn this section, we covered how to manage PostgreSQL using systemd. By using the systemctl command, you can start, stop, restart, and check the status of PostgreSQL, as well as enable or disable its automatic startup during boot.",
+                  "resources": []
+                },
+                {
+                  "name": "Using pg_ctl",
+                  "recommendation-type": "opinion",
+                  "description": "pg_ctl is a command-line utility that enables you to manage a PostgreSQL database server. With pg_ctl, you can start, stop, and restart the PostgreSQL service, among other tasks. In this section, we’ll discuss how to use pg_ctl effectively for managing your PostgreSQL installation.\n\n**Start the PostgreSQL Server**\nTo start the PostgreSQL server, you can use the following command:\n```bash\npg_ctl start -D /path/to/your_data_directory\n```\nReplace /path/to/your_data_directory with the path of your actual data directory. This command will start the PostgreSQL server process in the background.\n\nIf you’d like to start the server in the foreground, you can use the -l flag followed by the path of the logfile:\n```bash\npg_ctl start -D /path/to/your_data_directory -l /path/to/logfile.log\n```\n\n**Stop the PostgreSQL Server**\nTo stop the PostgreSQL server, use the following command:\n```bash\npg_ctl stop -D /path/to/your_data_directory\n```\nBy default, this sends a SIGTERM signal to the server, which allows it to perform a fast shutdown. If you’d like to perform a smart or immediate shutdown, you can use the -m flag followed by the mode (i.e., smart or immediate):\n```bash\npg_ctl stop -D /path/to/your_data_directory -m smart\n```\n\n**Restart the PostgreSQL Server**\nRestarting the PostgreSQL server is done by stopping and starting the server again. You can use the following command to achieve that:\n```bash\npg_ctl restart -D /path/to/your_data_directory\n```\nYou can also specify a shutdown mode and a log file, just like when starting and stopping the server:\n```bash\npg_ctl restart -D /path/to/your_data_directory -m smart -l /path/to/logfile.log\n```\n\n**Check the PostgreSQL Server Status**\nTo check the status of the PostgreSQL server, you can run the following command:\n```bash\npg_ctl status -D /path/to/your_data_directory\n```\nThis will provide you with information about the running PostgreSQL server, such as its process ID and hostname.\n\nIn summary, pg_ctl is a powerful tool for managing your PostgreSQL installation. With it, you can start, stop, restart, and check the status of your PostgreSQL server. By mastering pg_ctl, you can ensure that your PostgreSQL server is running smoothly and efficiently.",
+                  "resources": []
+                },
+                {
+                  "name": "Using pg_ctlcluster",
+                  "recommendation-type": "opinion",
+                  "description": "pg_ctlcluster is a command-line utility provided by PostgreSQL to manage database clusters. It is especially helpful for users who have multiple PostgreSQL clusters running on the same system. In this section, we will explore the essential features of pg_ctlcluster for installing and setting up PostgreSQL database clusters.\n\n**Overview**\npg_ctlcluster is a wrapper utility around the standard PostgreSQL pg_ctl utility to manage multiple instances of PostgreSQL clusters on your system. The key distinction between the two utilities is that pg_ctlcluster works at the cluster level, not at the instance level like pg_ctl.\n\npg_ctlcluster is hardware-agnostic and can be used on various platforms, including Debian, Ubuntu, and other Linux distributions.\n\n**Syntax**\nThe basic syntax for pg_ctlcluster is as follows:\n```bash\npg_ctlcluster <version> <cluster name> <action> [<options>]\n```\nWhere:\n- `<version>`: The PostgreSQL version you want to operate on.\n- `<cluster name>`: The name of the cluster you want to manage.\n- `<action>`: The action to perform, such as start, stop, restart, reload, status, or promote.\n- `[<options>]`: Optional flags and arguments you want to give the command.\n\n**Common Actions**\nHere are some of the most common actions you can perform with pg_ctlcluster:\n- **Start a cluster:** To start a specific PostgreSQL cluster running at a particular version, you can use the following command:\n```bash\npg_ctlcluster <version> <cluster name> start\n```\n- **Stop a cluster:** To stop a specific PostgreSQL cluster running at a particular version, use the following command:\n```bash\npg_ctlcluster <version> <cluster name> stop\n```\n- **Restart a cluster:** To restart a specific PostgreSQL cluster running at a particular version, use the following command:\n```bash\npg_ctlcluster <version> <cluster name> restart\n```\n- **Reload a cluster:** To reload the PostgreSQL cluster configuration without stopping and starting the server, use:\n```bash\npg_ctlcluster <version> <cluster name> reload\n```\n- **Get cluster status:** To check the status of a specific PostgreSQL cluster running at a particular version, use:\n```bash\npg_ctlcluster <version> <cluster name> status\n```\n- **Promote a cluster:** To promote a standby cluster to the primary cluster (useful in replication scenarios), you can use:\n```bash\npg_ctlcluster <version> <cluster name> promote\n```\n\n**Additional Options**\nYou can also use additional command options with pg_ctlcluster, such as:\n- `--foreground`: Run the server in the foreground.\n- `--fast`: Stop the database cluster abruptly.\n- `--timeout`: Add a timeout duration for starting, stopping, or restarting a cluster.\n- `--options`: Pass additional options to the main postgresql executable.\n\n**Conclusion**\npg_ctlcluster is a powerful tool to manage multiple PostgreSQL clusters running on the same machine. It makes it easy to start, stop, and monitor the status of your clusters, allowing you to efficiently manage your PostgreSQL installations.\n\nFor more detailed information, check the official PostgreSQL documentation.",
+                  "resources": []
+                }
+              ]
+            }
           },
           {
-            "name": "",
+            "name": "Connect Using psql",
             "recommendation-type": "opinion",
-            "description": "",
+            "description": "psql is an interactive command-line utility that enables you to interact with a PostgreSQL database server. Using psql, you can perform various SQL operations on your database.\n\n**Installation**\nBefore you can start using psql, you need to ensure that it is installed on your computer. It gets installed automatically alongside the PostgreSQL server, but if you need to install it separately, follow the steps from the 'Installation and Setup' section of this guide.\n\n**Accessing psql**\nTo connect to a PostgreSQL database using psql, open your terminal (on Linux or macOS) or Command Prompt (on Windows), and run the following command:\n```bash\npsql -h localhost -U myuser mydb\n```\nReplace “localhost” with the address of the PostgreSQL server, “myuser” with your PostgreSQL username, and “mydb” with the name of the database you want to connect to.\n\nYou’ll be prompted to enter your password. Enter it, and you should see the psql prompt:\n```bash\nmydb=>\n```\n\n**Basic psql commands**\nHere are some basic commands to help you interact with your PostgreSQL database using psql:\n- To execute an SQL query, simply type it at the prompt followed by a semicolon (;), and hit enter. For example:\n```sql\nmydb=> SELECT * FROM mytable;\n```\n- To quit psql, type \\q and hit enter:\n```sql\nmydb=> \\q\n```\n- To list all databases in your PostgreSQL server, use the \\l command:\n```sql\nmydb=> \\l\n```\n- To switch to another database, use the \\c command followed by the database name:\n```sql\nmydb=> \\c anotherdb\n```\n- To list all tables in the current database, use the \\dt command:\n```sql\nmydb=> \\dt\n```\n- To get information about a specific table, use the \\d command followed by the table name:\n```sql\nmydb=> \\d mytable\n```\n\n**Conclusion**\npsql is a powerful, command-line PostgreSQL client that lets you interact with your databases easily. With its simple, easy-to-use interface and useful commands, psql has proven to be an indispensable tool for database administrators and developers alike.",
+            "resources": []
+          },
+          {
+            "name": "Deployment in Cloud",
+            "recommendation-type": "opinion",
+            "description": "In this section, we will discuss deploying PostgreSQL in the cloud. Deploying your PostgreSQL database in the cloud offers significant advantages such as scalability, flexibility, high availability, and cost reduction. There are several cloud providers that offer PostgreSQL as a service, which means you can quickly set up and manage your databases without having to worry about underlying infrastructure, backups, and security measures.\n\n**Major Cloud Providers**\nHere are some popular cloud providers offering PostgreSQL as a service:\n\n1. **Amazon Web Services (AWS):** AWS offers a managed PostgreSQL service called Amazon RDS for PostgreSQL. With Amazon RDS, you can easily set up, operate, and scale a PostgreSQL database in a matter of minutes.\n   - Automatic backups with point-in-time recovery\n   - Automatic minor version upgrades\n   - Easy scaling of compute and storage resources\n   - Monitoring and performance insights\n\n2. **Google Cloud Platform (GCP):** Google Cloud SQL for PostgreSQL is a managed relational database service for PostgreSQL on the Google Cloud Platform. It provides a scalable and fully managed PostgreSQL database with features like:\n   - Automatic backups and point-in-time recovery\n   - High availability with regional instances\n   - Integration with Cloud Identity & Access Management (IAM)\n   - Scalable performance with read replicas\n\n3. **Microsoft Azure:** Azure offers a fully managed PostgreSQL database service called Azure Database for PostgreSQL. It allows you to create a PostgreSQL server in the cloud and securely access it from your applications.\n   - Automatic backups with geo-redundant storage\n   - High availability with zone redundant configuration\n   - Scalability with minimal downtime\n   - Advanced threat protection\n\n**Deployment Steps**\nHere’s a general outline of the steps to deploy PostgreSQL in the cloud:\n\n1. **Choose a cloud provider:** Select the provider that best meets your requirements in terms of features, performance, and pricing.\n\n2. **Create an account and set up a project:** Sign up for an account with the selected provider and create a new project (or choose an existing one) to deploy the PostgreSQL instance.\n\n3. **Configure PostgreSQL instance:** Choose the desired PostgreSQL version, compute and storage resources, and optionally enable additional features like high availability, automatic backups or read replicas.\n\n4. **Deploy the instance:** Start the deployment process and wait for the cloud provider to set up the PostgreSQL instance.\n\n5. **Connect to the instance:** Obtain the connection details from the cloud provider, including the hostname or IP address, port, username, and password. Use these details to connect to your PostgreSQL instance from your application using clients or libraries.\n\n6. **Manage and monitor the instance:** Use the cloud provider’s web console or tools to manage and monitor the performance, resource usage, and backups of your PostgreSQL instance.\n\nBy following these steps, you can have a fully operational PostgreSQL instance in the cloud. Make sure to review the specific documentation and tutorials provided by each cloud service to ensure proper setup and configuration. As your PostgreSQL database grows, you can take advantage of the scalability and flexibility offered by cloud providers to adjust resources and performance as needed.",
             "resources": [
               {
-                "name": "",
-                "link": ""
+                "name": "Amazon RDS for PostgreSQL",
+                "link": "https://aws.amazon.com/rds/postgresql/"
               },
               {
-                "name": "",
-                "link": ""
+                "name": "Google Cloud SQL for PostgreSQL",
+                "link": "https://cloud.google.com/sql/docs/postgres"
               },
               {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
+                "name": "Azure Database for PostgreSQL",
+                "link": "https://azure.microsoft.com/en-us/services/postgresql/"
               }
             ]
           }
+             
         ]
       },
       "Learn SQL Concepts": {
+        "description": "In this section, we’ll introduce you to some fundamental SQL concepts that are essential for working with PostgreSQL databases. By understanding the building blocks of SQL, you’ll be able to create, manipulate, and retrieve data from your database effectively.\n\n**What is SQL?**\nSQL stands for Structured Query Language. It is a standardized programming language designed to manage and interact with relational database management systems (RDBMS). SQL allows you to create, read, edit, and delete data stored in database tables by writing specific queries.\n\n**Key SQL Concepts**\n\n1. **Tables:** Tables are the primary structure used to store data in a relational database. A table can be thought of as a grid with rows and columns, where each row represents a single record, and each column represents a specific attribute of that record.\n\n2. **Data Types:** Each column in a table has an associated data type, which defines the type of value that can be stored in that column. PostgreSQL supports a wide range of data types, including numeric, character, date and time, binary, and boolean data types.\n\n3. **Commands:** SQL commands are the instructions given to the RDBMS to perform various tasks such as creating tables, inserting data, reading data, updating data, and deleting data. Common SQL commands include SELECT, INSERT, UPDATE, DELETE, CREATE, ALTER, and DROP.\n\n4. **Queries:** Queries are the primary method for interacting with a database, allowing you to request specific information stored within the tables. Queries consist of SQL commands and clauses, which dictate how the data should be retrieved or modified.\n\n5. **Joins:** Joins are used to combine data from two or more tables based on a related column. There are various types of joins, including inner joins, outer joins, and self-joins.\n\n6. **Indexes:** Indexes are database objects that help optimize query performance by providing a faster path to the data. An index allows the database to quickly find specific rows by searching for a particular column value, rather than scanning the entire table.\n\n7. **Transactions:** Transactions are a way to ensure data consistency and maintain the integrity of the database when performing multiple operations at once. A transaction is a series of SQL commands that are executed together as a single unit of work.\n\n8. **Constraints:** Constraints are rules enforced at the database level to maintain data integrity. They restrict the data that can be entered into a table by defining conditions that must be met. Examples of constraints include primary keys, unique constraints, foreign keys, and check constraints.\n\nBy understanding these essential SQL concepts, you will be well-equipped to work with PostgreSQL databases to store and retrieve data efficiently.",
+        "resources": [],
         "order": 4,
-        "options": [
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          }
-        ]
+        "options": []
       },
       "Configuring PostgreSQL": {
         "order": 5,
-        "options": [
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          }
-        ]
+        "options": []
       },
       "PostgreSQL Security Concepts": {
         "order": 6,
-        "options": [
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          }
-        ]
+        "options": []
       },
       "Develop Infrastructure Skills": {
         "order": 7,
-        "options": [
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          }
-        ]
+        "options": []
       },
       "Learn Automate Routines": {
         "order": 8,
-        "options": [
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          }
-        ]
+        "options": []
       },
       "Application Skills": {
         "order": 9,
-        "options": [
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          }
-        ]
+        "options": []
       },
       "Advanced Topics": {
         "order": 10,
-        "options": [
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          }
-        ]
+        "options": []
       },
       "Troubleshooting Techniques": {
         "order": 11,
-        "options": [
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          }
-        ]
+        "options": []
       },
       "SQL Optimization Techniques": {
         "order": 12,
         "module bundlers": {
-          "options": [
-            {
-              "name": "",
-              "recommendation-type": "opinion",
-              "description": "",
-              "resources": [
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                }
-              ]
-            },
-            {
-              "name": "",
-              "recommendation-type": "opinion",
-              "description": "",
-              "resources": [
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                }
-              ]
-            },
-            {
-              "name": "",
-              "recommendation-type": "opinion",
-              "description": "",
-              "resources": [
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                }
-              ]
-            },
-            {
-              "name": "",
-              "recommendation-type": "opinion",
-              "description": "",
-              "resources": [
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                },
-                {
-                  "name": "",
-                  "link": ""
-                }
-              ]
-            }
-          ]
+          "options": []
         }
       },
       "Get Involved in Development": {
         "order": 13,
-        "options": [
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          },
-          {
-            "name": "",
-            "recommendation-type": "opinion",
-            "description": "",
-            "resources": [
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              },
-              {
-                "name": "",
-                "link": ""
-              }
-            ]
-          }
-        ]
+        "options": []
       }
     }
   }
